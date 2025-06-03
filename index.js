@@ -1,17 +1,17 @@
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 const episodeData = require('./episodeData');
 
-const NEW_WHO_SERIES_STREMIO_ID = `nucaboy_new_who`;
+const NEW_WHO_SERIES_STREMIO_ID = `nucabe_new_who`;
 
 const ADDON_LOGO_URL = "https://i.imgur.com/zQ9Btju.png";
 const SERIES_POSTER_URL = "https://i.imgur.com/dTBW22b.png";
 const SERIES_BACKGROUND_URL = "https://i.imgur.com/250Ix4s.jpeg";
 
 const manifest = {
-    "id": "dev.nucaboy.new.who",
-    "version": "1.3.0",
+    "id": "dev.nucabe.new.who",
+    "version": "1.0.0",
     "name": "New Who",
-    "description": "New Who (Doctor Who 2005-Present) episodes and specials in original UK broadcast order.",
+    "description": "New Who (Doctor Who 2005-Present) episodes, specials, minisodes and prequels in original UK broadcast order.",
     "logo": ADDON_LOGO_URL,
     "types": ["series"],
     "resources": [
