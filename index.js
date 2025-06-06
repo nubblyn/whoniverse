@@ -1,17 +1,21 @@
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
 const episodeData = require('./episodeData');
 
-const NEW_WHO_SERIES_STREMIO_ID = `nucabe_new_who`;
+// --- IDs for your series items ---
+const NEW_WHO_SERIES_STREMIO_ID = `whoniverse_new_who`;
+// Example for a future spinoff:
+// const TORCHWOOD_SERIES_STREMIO_ID = `whoniverse_torchwood`;
 
+// --- URLs ---
 const ADDON_LOGO_URL = "https://i.imgur.com/zQ9Btju.png";
-const SERIES_POSTER_URL = "https://i.imgur.com/dTBW22b.png";
-const SERIES_BACKGROUND_URL = "https://i.imgur.com/250Ix4s.jpeg";
+const NEW_WHO_SERIES_POSTER_URL = "https://i.imgur.com/dTBW22b.png";
+const NEW_WHO_SERIES_BACKGROUND_URL = "https://i.imgur.com/250Ix4s.jpeg";
 
 const manifest = {
-    "id": "dev.nucabe.new.who",
+    "id": "community.whoniverse.addon",
     "version": "1.0.0",
-    "name": "New Who",
-    "description": "New Who (Doctor Who 2005-Present) episodes, specials, minisodes and prequels in original UK broadcast order.",
+    "name": "Whoniverse",
+    "description": "The complete Doctor Who universe, including Classic and New Who episodes, specials, minisodes, prequels, and spinoffs in original UK broadcast order.",
     "logo": ADDON_LOGO_URL,
     "types": ["series"],
     "resources": [
@@ -22,8 +26,8 @@ const manifest = {
     "catalogs": [
         {
             "type": "series",
-            "id": "new_who_catalog",
-            "name": "New Who"
+            "id": "whoniverse_catalog",
+            "name": "Whoniverse"
         }
     ],
     "behaviorHints": {
@@ -34,9 +38,13 @@ const manifest = {
 
 const builder = new addonBuilder(manifest);
 
-const allEpisodes = [...episodeData].sort((a, b) => {
-    const dateA = new Date(a.released);
-    const dateB = new Date(b.released);
+const allNewWhoEpisodes = [...episodeData].sort((a, b) => {
+    const dateA = new Date(a.released + "Z");
+    const dateB = new Date(b.released + "Z");
+    if (isNaN(dateA.getTime()) || isNaN(dateB.getTime())) {
+        console.warn('Invalid date found during sort:', a.released, b.released);
+        return 0;
+    }
     if (dateA < dateB) return -1;
     if (dateA > dateB) return 1;
     if (a.season !== b.season) return a.season - b.season;
@@ -45,18 +53,19 @@ const allEpisodes = [...episodeData].sort((a, b) => {
 
 builder.defineCatalogHandler(async (args) => {
     if (args.type === 'series' && args.id === manifest.catalogs[0].id) {
-        const seriesForCatalog = [{
-            id: NEW_WHO_SERIES_STREMIO_ID,
-            type: 'series',
-            name: manifest.name,
-            poster: SERIES_POSTER_URL,
-            description: manifest.description,
-            logo: ADDON_LOGO_URL,
-            genres: ["Sci-Fi", "Adventure", "Drama"],
-            releaseInfo: "2005-Present",
-            runtime: "45 min",
-            imdbRating: "10",
-        }];
+        const seriesForCatalog = [
+            {
+                id: NEW_WHO_SERIES_STREMIO_ID,
+                type: 'series',
+                name: "New Who",
+                poster: NEW_WHO_SERIES_POSTER_URL,
+                description: "The revival of Doctor Who, chronicling the adventures of the Doctor from 2005 onwards.",
+                logo: ADDON_LOGO_URL,
+                genres: ["Sci-Fi", "Adventure", "Drama"],
+                releaseInfo: "2005-Present",
+            }
+            // Future: Add other series items here
+        ];
         return Promise.resolve({ metas: seriesForCatalog });
     } else {
         return Promise.resolve({ metas: [] });
@@ -68,18 +77,16 @@ builder.defineMetaHandler(async (args) => {
         const seriesMetaObject = {
             id: NEW_WHO_SERIES_STREMIO_ID,
             type: 'series',
-            name: manifest.name,
-            poster: SERIES_POSTER_URL,
-            background: SERIES_BACKGROUND_URL,
+            name: "New Who",
+            poster: NEW_WHO_SERIES_POSTER_URL,
+            background: NEW_WHO_SERIES_BACKGROUND_URL,
             logo: ADDON_LOGO_URL,
-            description: manifest.description,
+            description: "The revival of Doctor Who, chronicling the adventures of the Doctor from 2005 onwards. Includes main episodes, specials, minisodes, and prequels in chronological viewing order.",
             releaseInfo: "2005-Present",
             genres: ["Sci-Fi", "Adventure", "Drama"],
-            runtime: "45 min",
-            imdbRating: "10",
-            videos: allEpisodes.map(ep => {
+            videos: allNewWhoEpisodes.map(ep => {
                 return {
-                    id: ep.id,
+                    id: ep.id, // e.g., "new_who_s01e01"
                     title: ep.title,
                     season: ep.season,
                     episode: ep.episode,
@@ -95,25 +102,26 @@ builder.defineMetaHandler(async (args) => {
 });
 
 builder.defineStreamHandler(async (args) => {
-    console.log("Stream request for:", args); // For debugging
+    console.log("Stream request for ID:", args.id, "Type:", args.type);
 
-    // args.type will be 'series'
-    // args.id will be the episode ID, e.g., "tt0436992:0:6"
     if (args.type === 'series' && args.id) {
-        const episode = allEpisodes.find(ep => ep.id === args.id);
+        const episode = allNewWhoEpisodes.find(ep => ep.id === args.id);
 
         if (episode && episode.streamUrl) {
             const streams = [{
                 url: episode.streamUrl,
-                title: "Play (Archive.org)", // Displayed in Stremio's stream selection
-                name: "Internet Archive" // Source name
+                title: "Play (Archive.org)",
+                name: "Internet Archive",
             }];
             return Promise.resolve({ streams: streams });
+        } else {
+            console.log("No episode or streamUrl found for ID:", args.id);
         }
     }
-    // If no stream found for this ID
     return Promise.resolve({ streams: [] });
 });
 
 const port = process.env.PORT || 7000;
 serveHTTP(builder.getInterface(), { port: port });
+console.log(`Whoniverse Addon active on http://localhost:${port}`);
+console.log(`Install by copying this URL to Stremio's Addon search bar: http://127.0.0.1:${port}/manifest.json`);
