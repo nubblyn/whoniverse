@@ -1,10 +1,9 @@
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
-const episodeData = require('./episodeData');
+// MODIFIED: We will get all data from this one file. No more fs/path needed.
+const allNewWhoEpisodesPreSorted = require('./episodeData');
 
 // --- IDs for your series items ---
 const NEW_WHO_SERIES_STREMIO_ID = `whoniverse_new_who`;
-// Example for a future spinoff:
-// const TORCHWOOD_SERIES_STREMIO_ID = `whoniverse_torchwood`;
 
 // --- URLs ---
 const ADDON_LOGO_URL = "https://i.imgur.com/zQ9Btju.png";
@@ -13,7 +12,7 @@ const NEW_WHO_SERIES_BACKGROUND_URL = "https://i.imgur.com/250Ix4s.jpeg";
 
 const manifest = {
     "id": "community.whoniverse.addon",
-    "version": "1.0.0",
+    "version": "1.1.0", // MODIFIED: Bumping version to reflect new data structure
     "name": "Whoniverse",
     "description": "The complete Doctor Who universe, including Classic and New Who episodes, specials, minisodes, prequels, and spinoffs in original UK broadcast order.",
     "logo": ADDON_LOGO_URL,
@@ -38,15 +37,17 @@ const manifest = {
 
 const builder = new addonBuilder(manifest);
 
-const allNewWhoEpisodes = [...episodeData].sort((a, b) => {
-    const dateA = new Date(a.released + "Z");
-    const dateB = new Date(b.released + "Z");
+// MODIFIED: Simplified the logic. The data is now pre-processed and pre-sorted.
+const allNewWhoEpisodes = [...allNewWhoEpisodesPreSorted].sort((a, b) => {
+    const dateA = new Date(a.released);
+    const dateB = new Date(b.released);
     if (isNaN(dateA.getTime()) || isNaN(dateB.getTime())) {
         console.warn('Invalid date found during sort:', a.released, b.released);
         return 0;
     }
     if (dateA < dateB) return -1;
     if (dateA > dateB) return 1;
+    // Fallback sort for items on the same day
     if (a.season !== b.season) return a.season - b.season;
     return a.episode - b.episode;
 });
@@ -64,7 +65,6 @@ builder.defineCatalogHandler(async (args) => {
                 genres: ["Sci-Fi", "Adventure", "Drama"],
                 releaseInfo: "2005-Present",
             }
-            // Future: Add other series items here
         ];
         return Promise.resolve({ metas: seriesForCatalog });
     } else {
@@ -85,14 +85,17 @@ builder.defineMetaHandler(async (args) => {
             releaseInfo: "2005-Present",
             genres: ["Sci-Fi", "Adventure", "Drama"],
             videos: allNewWhoEpisodes.map(ep => {
+                const videoId = `${NEW_WHO_SERIES_STREMIO_ID}:${ep.season}:${ep.episode}`;
                 return {
-                    id: ep.id, // e.g., "new_who_s01e01"
+                    id: videoId,
                     title: ep.title,
                     season: ep.season,
                     episode: ep.episode,
                     released: ep.released,
                     overview: ep.overview,
-                    thumbnail: ep.thumbnail,
+                    thumbnail: ep.thumbnail || ADDON_LOGO_URL,
+                    // MODIFIED: The streamUrl property is now directly on the 'ep' object
+                    available: !!ep.streamUrl
                 };
             })
         };
@@ -105,15 +108,36 @@ builder.defineStreamHandler(async (args) => {
     console.log("Stream request for ID:", args.id, "Type:", args.type);
 
     if (args.type === 'series' && args.id) {
-        const episode = allNewWhoEpisodes.find(ep => ep.id === args.id);
+        const [seriesId, seasonStr, episodeStr] = args.id.split(':');
+        
+        if (seriesId !== NEW_WHO_SERIES_STREMIO_ID) {
+            return Promise.resolve({ streams: [] });
+        }
+        
+        const season = parseInt(seasonStr, 10);
+        const episodeNum = parseInt(episodeStr, 10);
 
+        const episode = allNewWhoEpisodes.find(ep => ep.season === season && ep.episode === episodeNum);
+
+        // MODIFIED: Logic is the same, but it's now reading from the pre-populated 'episode' object
         if (episode && episode.streamUrl) {
             const streams = [{
                 url: episode.streamUrl,
                 title: "Play (Archive.org)",
-                name: "Internet Archive",
+                name: "Internet Archive\nMP4",
             }];
-            return Promise.resolve({ streams: streams });
+
+            const subtitles = [];
+            if (episode.subtitleUrl) {
+                subtitles.push({
+                    id: 'archive_en_sub',
+                    url: episode.subtitleUrl,
+                    lang: 'en'
+                });
+            }
+            
+            return Promise.resolve({ streams: streams, subtitles: subtitles });
+
         } else {
             console.log("No episode or streamUrl found for ID:", args.id);
         }
