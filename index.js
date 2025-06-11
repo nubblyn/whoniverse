@@ -1,5 +1,4 @@
 const { addonBuilder, serveHTTP } = require('stremio-addon-sdk');
-// MODIFIED: We will get all data from this one file. No more fs/path needed.
 const allNewWhoEpisodesPreSorted = require('./episodeData');
 
 // --- IDs for your series items ---
@@ -12,7 +11,7 @@ const NEW_WHO_SERIES_BACKGROUND_URL = "https://i.imgur.com/250Ix4s.jpeg";
 
 const manifest = {
     "id": "community.whoniverse.addon",
-    "version": "1.1.0", // MODIFIED: Bumping version to reflect new data structure
+    "version": "1.1.2", // Bumping version for display improvement
     "name": "Whoniverse",
     "description": "The complete Doctor Who universe, including Classic and New Who episodes, specials, minisodes, prequels, and spinoffs in original UK broadcast order.",
     "logo": ADDON_LOGO_URL,
@@ -37,7 +36,6 @@ const manifest = {
 
 const builder = new addonBuilder(manifest);
 
-// MODIFIED: Simplified the logic. The data is now pre-processed and pre-sorted.
 const allNewWhoEpisodes = [...allNewWhoEpisodesPreSorted].sort((a, b) => {
     const dateA = new Date(a.released);
     const dateB = new Date(b.released);
@@ -47,7 +45,6 @@ const allNewWhoEpisodes = [...allNewWhoEpisodesPreSorted].sort((a, b) => {
     }
     if (dateA < dateB) return -1;
     if (dateA > dateB) return 1;
-    // Fallback sort for items on the same day
     if (a.season !== b.season) return a.season - b.season;
     return a.episode - b.episode;
 });
@@ -94,7 +91,6 @@ builder.defineMetaHandler(async (args) => {
                     released: ep.released,
                     overview: ep.overview,
                     thumbnail: ep.thumbnail || ADDON_LOGO_URL,
-                    // MODIFIED: The streamUrl property is now directly on the 'ep' object
                     available: !!ep.streamUrl
                 };
             })
@@ -104,6 +100,7 @@ builder.defineMetaHandler(async (args) => {
     return Promise.resolve({ meta: null });
 });
 
+// THIS IS THE RELEVANT SECTION
 builder.defineStreamHandler(async (args) => {
     console.log("Stream request for ID:", args.id, "Type:", args.type);
 
@@ -119,14 +116,7 @@ builder.defineStreamHandler(async (args) => {
 
         const episode = allNewWhoEpisodes.find(ep => ep.season === season && ep.episode === episodeNum);
 
-        // MODIFIED: Logic is the same, but it's now reading from the pre-populated 'episode' object
         if (episode && episode.streamUrl) {
-            const streams = [{
-                url: episode.streamUrl,
-                title: "Play (Archive.org)",
-                name: "Internet Archive\nMP4",
-            }];
-
             const subtitles = [];
             if (episode.subtitleUrl) {
                 subtitles.push({
@@ -135,8 +125,14 @@ builder.defineStreamHandler(async (args) => {
                     lang: 'en'
                 });
             }
+
+            const stream = {
+                url: episode.streamUrl,
+                name: "Play",
+                subtitles: subtitles
+            };
             
-            return Promise.resolve({ streams: streams, subtitles: subtitles });
+            return Promise.resolve({ streams: [stream] });
 
         } else {
             console.log("No episode or streamUrl found for ID:", args.id);
