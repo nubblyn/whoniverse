@@ -693,7 +693,7 @@ subtitleUrl: "https://archive.org/download/nw_S05/E04_victory_of_the_daleks.srt"
 title: "The Time of Angels",
 season: 5,
 episode: 5,
-released: new D_S05ate("2010-04-24").toISOString(),
+released: new Date("2010-04-24").toISOString(),
 overview: "A message from River Song summons the Doctor and Amy to the crashed starship Byzantium, where an army of Weeping Angels is awakening. With the help of Father Octavian and his military clerics, they must navigate a deadly maze of statues.",
 thumbnail: "https://archive.org/download/nw_S05/E05_the_time_of_angels.jpg",
 streamUrl: "https://archive.org/download/nw_S05/E05_the_time_of_angels.mp4",
