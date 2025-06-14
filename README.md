@@ -12,7 +12,7 @@ I've just launched **Whoniverse**, a Doctor Who addon for Stremio that compiles 
 - ✅ **Minisodes, prequels, and animated content** that are narratively relevant  
 - ✅ **English subtitles** added even for content that didn’t originally have them  
 - ✅ **Full, curated metadata**: thumbnails, titles, air dates, and descriptions  
-- ✅ **All content hosted on [Archive.org](https://archive.org/details/@nubblyn)**, sourced from:
+- ✅ **All content hosted on archive.org, sourced from:
   - Blu-rays  
   - BBC iPlayer  
   - Official YouTube releases  
