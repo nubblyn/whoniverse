@@ -37,7 +37,7 @@ These will be released as separate, curated series within this addon soon, each 
 
 ## 💬 Feedback or Ideas?
 
-Feel free to open an issue or submit a PR on GitHub! Your feedback helps make this the best Whovian experience on Stremio.
+DM me on Discord (User ID: 438298045386457098) if you spot issues, have feature requests, or just want to geek out about Who. 
 
 ---
 
