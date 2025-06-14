@@ -29,11 +29,11 @@ These will be released as separate, curated series within this addon soon, each 
 
 - ▶️ **Install Addon**: [Render Web Service](https://new-who.onrender.com)  
 - 📊 **Episode Tracker**: [Google Sheet](https://docs.google.com/spreadsheets/d/1R1hQxrM1999s7prFm2asMBeOJiMTThrdQZFEachoX0Q/edit?usp=sharing)
-  - All episodes & extras currently included
-  - Content still pending (e.g. *TARDISodes*)
-  - Notes on source quality and availability  
+  - All episodes & extras currently included;
+  - Content still pending (e.g. *TARDISodes*);
+  - Notes on source quality and availability.
 - 📂 **All Archives**: [Archive.org Profile](https://archive.org/details/@nubblyn)
-  - With all seasons available to stream or download
+  - With all seasons available to stream or download.
 
 
 ## 💬 Feedback or Ideas?
