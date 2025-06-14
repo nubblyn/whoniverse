@@ -10,28 +10,28 @@ const NEW_WHO_SERIES_POSTER_URL = "https://i.imgur.com/dTBW22b.png";
 const NEW_WHO_SERIES_BACKGROUND_URL = "https://i.imgur.com/250Ix4s.jpeg";
 
 const manifest = {
-    "id": "community.whoniverse.addon",
-    "version": "1.1.2", // Bumping version for display improvement
-    "name": "Whoniverse",
-    "description": "The complete Doctor Who universe, including Classic and New Who episodes, specials, minisodes, prequels, and spinoffs in original UK broadcast order.",
-    "logo": ADDON_LOGO_URL,
-    "types": ["series"],
-    "resources": [
-        "catalog",
-        "meta",
-        "stream"
-    ],
-    "catalogs": [
-        {
-            "type": "series",
-            "id": "whoniverse_catalog",
-            "name": "Whoniverse"
-        }
-    ],
-    "behaviorHints": {
-        "configurable": false,
-        "adult": false
+  "id": "community.whoniverse.addon",
+  "version": "1.1.2", // Bumping version for display improvement
+  "name": "Whoniverse",
+  "description": "The complete Doctor Who universe, including Classic and New Who episodes, specials, minisodes, prequels, and spinoffs in original UK broadcast order.",
+  "logo": ADDON_LOGO_URL,
+  "types": ["series"],
+  "resources": ["catalog", "meta", "stream"],
+  "catalogs": [
+    {
+      "type": "series",
+      "id": "whoniverse_catalog",
+      "name": "Whoniverse"
     }
+  ],
+  "behaviorHints": {
+    "configurable": false,
+    "adult": false
+  },
+  "stremioAddonsConfig": {
+    "issuer": "https://stremio-addons.net",
+    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..gTvVWDhy-2sJkHP0suaDVg.DyQoj_Hr8tq-zvSJIfx8JeK_s1DCI81ypxyouv5fyGVktTkJMQsnxTlX8m3XF4Vbtf0nqvGAT7JsdvZNvxLscbof-YSRxelrWMl89X95jAE7M7z7wFXD2nid_rg0fY-C.GauSecXP5voj_lhR6K0Nkg"
+  }
 };
 
 const builder = new addonBuilder(manifest);
