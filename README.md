@@ -1,26 +1,59 @@
-# New Who - UK Air Date Order Addon for Stremio
+# 🌌 Whoniverse: Complete Doctor Who Addon for Stremio
 
-Welcome to the **New Who** Stremio addon! This addon provides a comprehensive viewing order for "Doctor Who" (2005-Present) based on **original UK broadcast/release dates**, allowing you to experience the modern era of the Doctor's adventures as they originally unfolded.
+**Your gateway to the complete New Who experience — from 2005 to 2025 and beyond!**
 
-## Features
+Hey Whovians and Stremio fans!  
+I've just launched **Whoniverse**, a Doctor Who addon for Stremio that compiles the entire *New Who* era in original UK airdate order — fully enhanced for a seamless and complete viewing experience.
 
-*   **Original UK Air Date Order:** Experience the full journey of the modern Doctors, from the Ninth Doctor to the Fifteenth, and beyond. All episodes are sorted primarily by their original UK air/release date.
-*   **All Narrative Content Included:**
-    *   **Main Show Episodes:** All regular season episodes.
-    *   **Specials:** Christmas, New Year, Anniversary, and other standalone full-length special episodes.
-    *   **Minisodes:** Short, story-relevant mini-episodes.
-    *   **Prequels:** Short episodes released to directly lead into an upcoming main episode or special.
-*   **Single Series Entry:** The entire New Who saga is presented as one continuous series within Stremio for easy browsing.
-*   **Clear Titling:** Minisodes, Prequels, and Specials are clearly identified in their titles.
+---
 
-## Why This Order?
+## 🔍 What's Included
 
-Doctor Who often releases supplemental content that enriches the main storyline. This addon presents all episodes, specials, minisodes, and prequels in the sequence of their original UK release, allowing viewers to follow the series as it was broadcast. This method ensures that prequels and minisodes are generally viewed in a contextually relevant place relative to the main series episodes they accompany.
+- ✅ **All main episodes** from 2005 to 2025  
+- ✅ **Specials** placed inside their respective seasons (no more scattered "Specials" tab!)  
+- ✅ **Minisodes, prequels, and animated content** that are narratively relevant  
+- ✅ **English subtitles** added even for content that didn’t originally have them  
+- ✅ **Full, curated metadata**: thumbnails, titles, air dates, and descriptions  
+- ✅ **All content hosted on [Archive.org](https://archive.org/details/@manuel_ornelas)**, sourced from:
+  - Blu-rays  
+  - BBC iPlayer  
+  - Official YouTube releases  
 
-## Viewing Order Logic
+---
 
-The order is meticulously curated and presented based on:
+## 🛠️ Extras
 
-1.  **Original UK Release Dates (`released` field):** Episodes are primarily sorted by their initial air/release date in the UK.
-2.  **Season & Episode Numbers (`season`, `episode` fields):** Used as a secondary sort key to maintain correct order for items released on the same day or where release date alone isn't sufficient for precise sequencing within a broadcast block.
-3.  **Integration of Supplemental Content:** Minisodes and prequels are slotted in according to their release relative to main episodes and specials.
+- 📁 **[GitHub Repository](https://github.com/nucabe/whoniverse)** with full addon code and metadata
+- 📊 **[Episode Tracker](https://docs.google.com/spreadsheets/d/1R1hQxrM1999s7prFm2asMBeOJiMTThrdQZFEachoX0Q/edit?usp=sharing)** (Google Sheets) including:
+  - All episodes & extras currently included  
+  - Content still pending (e.g. *TARDISodes*)  
+  - Notes on source quality and availability  
+- 🔗 **[Archive.org Profile](https://archive.org/details/@manuel_ornelas)** with all seasons available to stream or download
+
+---
+
+## 🚧 What’s Not Yet Included
+
+- ❌ *Classic Who*  
+- ❌ Spin-offs like *Torchwood*, *The Sarah Jane Adventures*, or *Class*
+
+These will be released as separate, curated series within this addon soon, each with the same level of care and organization. Stay tuned!
+
+---
+
+## 📦 Quick Links
+
+- ▶️ **Install Addon**: [https://new-who.onrender.com](https://new-who.onrender.com)  
+- 🧑‍💻 **Source Code**: [https://github.com/nucabe/whoniverse](https://github.com/nucabe/whoniverse)  
+- 📊 **Episode Tracker Sheet**: [Google Sheets](https://docs.google.com/spreadsheets/d/1R1hQxrM1999s7prFm2asMBeOJiMTThrdQZFEachoX0Q/edit?usp=sharing)  
+- 📂 **All Archives**: [Archive.org Profile](https://archive.org/details/@manuel_ornelas)
+
+---
+
+## 💬 Feedback or Ideas?
+
+Feel free to open an issue or submit a PR on GitHub! Your feedback helps make this the best Whovian experience on Stremio.
+
+---
+
+*All rights to Doctor Who belong to the BBC. This project is fan-made and non-commercial.*  
