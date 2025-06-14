@@ -36,9 +36,9 @@ These will be released as separate, curated series within this addon soon, each 
 
 ## 📦 Quick Links
 
-- ▶️ **Install Addon**: [https://new-who.onrender.com](https://new-who.onrender.com)  
-- 🧑‍💻 **Source Code**: [https://github.com/nucabe/whoniverse](https://github.com/nucabe/whoniverse)  
-- 📊 **Episode Tracker Sheet**: [Google Sheets](https://docs.google.com/spreadsheets/d/1R1hQxrM1999s7prFm2asMBeOJiMTThrdQZFEachoX0Q/edit?usp=sharing)  
+- ▶️ **Install Addon**: [Render Web Service](https://new-who.onrender.com)  
+- 🧑‍💻 **Source Code**: [Guthub Repository](https://github.com/nucabe/whoniverse)  
+- 📊 **Episode Tracker**: [Google Sheet](https://docs.google.com/spreadsheets/d/1R1hQxrM1999s7prFm2asMBeOJiMTThrdQZFEachoX0Q/edit?usp=sharing)  
 - 📂 **All Archives**: [Archive.org Profile](https://archive.org/details/@nubblyn)
 
 
