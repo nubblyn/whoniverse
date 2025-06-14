@@ -17,15 +17,6 @@ I've just launched **Whoniverse**, a Doctor Who addon for Stremio that compiles 
   - BBC iPlayer  
   - Official YouTube releases  
 
-## 🛠️ Extras
-
-- 📁 **[GitHub Repository](https://github.com/nubblyn/whoniverse)** with full addon code and metadata
-- 📊 **[Episode Tracker](https://docs.google.com/spreadsheets/d/1R1hQxrM1999s7prFm2asMBeOJiMTThrdQZFEachoX0Q/edit?usp=sharing)** (Google Sheets) including:
-  - All episodes & extras currently included  
-  - Content still pending (e.g. *TARDISodes*)  
-  - Notes on source quality and availability  
-- 🔗 **[Archive.org Profile](https://archive.org/details/@nubblyn)** with all seasons available to stream or download
-
 ## 🚧 What’s Not Yet Included
 
 - ❌ *Classic Who*  
@@ -37,7 +28,7 @@ These will be released as separate, curated series within this addon soon, each 
 ## 📦 Quick Links
 
 - ▶️ **Install Addon**: [Render Web Service](https://new-who.onrender.com)  
-- 🧑‍💻 **Source Code**: [Guthub Repository](https://github.com/nucabe/whoniverse)  
+- 🧑‍💻 **Source Code**: [Github Repository](https://github.com/nucabe/whoniverse)  
 - 📊 **Episode Tracker**: [Google Sheet](https://docs.google.com/spreadsheets/d/1R1hQxrM1999s7prFm2asMBeOJiMTThrdQZFEachoX0Q/edit?usp=sharing)  
 - 📂 **All Archives**: [Archive.org Profile](https://archive.org/details/@nubblyn)
 
