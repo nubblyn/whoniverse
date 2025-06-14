@@ -12,19 +12,19 @@ I've just launched **Whoniverse**, a Doctor Who addon for Stremio that compiles 
 - ✅ **Minisodes, prequels, and animated content** that are narratively relevant  
 - ✅ **English subtitles** added even for content that didn’t originally have them  
 - ✅ **Full, curated metadata**: thumbnails, titles, air dates, and descriptions  
-- ✅ **All content hosted on [Archive.org](https://archive.org/details/@manuel_ornelas)**, sourced from:
+- ✅ **All content hosted on [Archive.org](https://archive.org/details/@nubblyn)**, sourced from:
   - Blu-rays  
   - BBC iPlayer  
   - Official YouTube releases  
 
 ## 🛠️ Extras
 
-- 📁 **[GitHub Repository](https://github.com/nucabe/whoniverse)** with full addon code and metadata
+- 📁 **[GitHub Repository](https://github.com/nubblyn/whoniverse)** with full addon code and metadata
 - 📊 **[Episode Tracker](https://docs.google.com/spreadsheets/d/1R1hQxrM1999s7prFm2asMBeOJiMTThrdQZFEachoX0Q/edit?usp=sharing)** (Google Sheets) including:
   - All episodes & extras currently included  
   - Content still pending (e.g. *TARDISodes*)  
   - Notes on source quality and availability  
-- 🔗 **[Archive.org Profile](https://archive.org/details/@manuel_ornelas)** with all seasons available to stream or download
+- 🔗 **[Archive.org Profile](https://archive.org/details/@nubblyn)** with all seasons available to stream or download
 
 ## 🚧 What’s Not Yet Included
 
@@ -39,7 +39,7 @@ These will be released as separate, curated series within this addon soon, each 
 - ▶️ **Install Addon**: [https://new-who.onrender.com](https://new-who.onrender.com)  
 - 🧑‍💻 **Source Code**: [https://github.com/nucabe/whoniverse](https://github.com/nucabe/whoniverse)  
 - 📊 **Episode Tracker Sheet**: [Google Sheets](https://docs.google.com/spreadsheets/d/1R1hQxrM1999s7prFm2asMBeOJiMTThrdQZFEachoX0Q/edit?usp=sharing)  
-- 📂 **All Archives**: [Archive.org Profile](https://archive.org/details/@manuel_ornelas)
+- 📂 **All Archives**: [Archive.org Profile](https://archive.org/details/@nubblyn)
 
 
 ## 💬 Feedback or Ideas?
