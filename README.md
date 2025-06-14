@@ -31,7 +31,7 @@ These will be released as separate, curated series within this addon soon, each 
   - All episodes & extras currently included
   - Content still pending (e.g. *TARDISodes*)
   - Notes on source quality and availability
-- 📂 **All Archives**: [Archive.org Profile](https://archive.org/details/@nubblyn)
+- 📂 **Archive.org**: [Archive.org Profile](https://archive.org/details/@nubblyn)
   - With all seasons available to stream or download
 
 
