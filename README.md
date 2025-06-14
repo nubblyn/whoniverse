@@ -1,11 +1,10 @@
 # 🌌 Whoniverse: Complete Doctor Who Addon for Stremio
 
-**Your gateway to the complete New Who experience — from 2005 to 2025 and beyond!**
+**Your gateway to the complete New Who experience**
 
-Hey Whovians and Stremio fans!  
-I've just launched **Whoniverse**, a Doctor Who addon for Stremio that compiles the entire *New Who* era in original UK airdate order — fully enhanced for a seamless and complete viewing experience.
+**Whoniverse** is a Doctor Who addon for Stremio that compiles the entire *Classic Who", *New Who*, and spin-offs in original UK airdate order — fully enhanced for a seamless and complete viewing experience.
 
-## 🔍 What's Included
+## 🔍 What's Currently Included
 
 - ✅ **All main episodes** from 2005 to 2025  
 - ✅ **Specials** placed inside their respective seasons (no more scattered "Specials" tab!)  
