@@ -17,3 +17,6 @@ logs/
 .vercel
 data/updated.json
 art-cdn/
+
+# local preview config for the editor, not part of the addon
+.claude/
