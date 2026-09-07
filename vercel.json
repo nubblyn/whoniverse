@@ -1,0 +1,31 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "{data,public}/**"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/((?!art/|api/).*)",
+      "destination": "/api"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/art/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=2592000"
+        }
+      ]
+    }
+  ],
+  "crons": [
+    {
+      "path": "/api/news",
+      "schedule": "0 10 * * *"
+    }
+  ]
+}

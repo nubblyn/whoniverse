@@ -1,0 +1,19 @@
+node_modules/
+.env
+.env.local
+logs/
+torrents/
+.vercel
+*.log
+
+# scratch outputs of scripts/; the real data lives inline in data/*.js
+data/imdb-map.json
+data/sources.json
+logs/
+
+.vercel
+.env*
+.env.local
+.vercel
+data/updated.json
+art-cdn/

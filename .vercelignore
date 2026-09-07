@@ -1,0 +1,12 @@
+# The publishing pipeline runs on your machine, not on the addon host.
+scripts/*
+logs/
+
+# Never upload credentials or local state.
+.env
+.git/
+node_modules/
+server.js
+art-src/
+!scripts/stamp.js
+art-cdn/
