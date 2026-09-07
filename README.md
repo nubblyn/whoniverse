@@ -93,7 +93,7 @@ Making it playable means adding a `streamUrl` to its episodes.
 
 ## Feedback
 
-Problems and ideas go in the Discord: https://discord.gg/G2WNykruH4
+Problems and ideas go in the Discord: https://discord.gg/TrVzhzS4BJ
 
 ---
 
