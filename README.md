@@ -11,6 +11,9 @@ https://whoniverse.nubblyn.com/manifest.json
 No account, no settings, no debrid. Streams are plain URLs to files we host, so
 they play anywhere the addon does.
 
+**Website:** https://whoniverse.nubblyn.com
+**Discord:** https://discord.gg/TrVzhzS4BJ
+
 ## What is in it
 
 **New Who** is complete: 239 episodes across 16 seasons, from *Rose* in 2005
