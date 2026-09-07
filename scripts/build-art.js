@@ -22,6 +22,7 @@
 
 const fs = require('node:fs');
 const path = require('node:path');
+const crypto = require('node:crypto');
 const sharp = require('sharp');
 const { series } = require('../lib/series');
 
@@ -64,6 +65,13 @@ async function cdn() {
   const addonLogo = await mark.clone().resize(512, 512, { fit: 'contain', background: TRANSPARENT })
     .png().toFile(path.join(CDN, 'addon-logo.png'));
   log('art-cdn/addon-logo.png', addonLogo);
+
+  // Cloudflare caches the bucket for four hours and keys on the URL, so a
+  // replaced logo keeps serving the old bytes. The addon appends this hash to
+  // the logo's URL, which makes a changed file a changed address.
+  const hash = crypto.createHash('md5').update(fs.readFileSync(path.join(CDN, 'addon-logo.png'))).digest('hex').slice(0, 8);
+  fs.writeFileSync(path.join(ROOT, 'data', 'art-version.json'), `${JSON.stringify({ addonLogo: hash })}\n`);
+  console.log(`${'data/art-version.json'.padEnd(36)} addonLogo=${hash}`);
 
   // The site's own icon, so a 16px favicon does not pull a 300KB file off the CDN.
   const icon = await mark.clone().resize(192, 192, { fit: 'contain', background: TRANSPARENT })
