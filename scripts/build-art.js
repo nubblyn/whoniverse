@@ -30,6 +30,8 @@ const SRC = path.join(ROOT, 'art-src');
 const SITE = path.join(ROOT, 'public', 'art');
 const CDN = path.join(ROOT, 'art-cdn');
 
+const TRANSPARENT = { r: 0, g: 0, b: 0, alpha: 0 };
+
 let total = 0;
 function log(label, info, extra = '') {
   total += info.size;
@@ -56,8 +58,17 @@ async function site() {
 async function cdn() {
   for (const dir of ['poster', 'background', 'logo']) fs.mkdirSync(path.join(CDN, dir), { recursive: true });
 
-  const addonLogo = await sharp(path.join(SRC, 'cdn', 'addon-logo.png')).resize(512, 512, { fit: 'inside' }).png().toFile(path.join(CDN, 'addon-logo.png'));
+  // Trimmed first: the source carries transparent padding, which at favicon
+  // sizes is the difference between a legible TARDIS and a blue smudge.
+  const mark = sharp(path.join(SRC, 'cdn', 'addon-logo.png')).trim({ threshold: 10 });
+  const addonLogo = await mark.clone().resize(512, 512, { fit: 'contain', background: TRANSPARENT })
+    .png().toFile(path.join(CDN, 'addon-logo.png'));
   log('art-cdn/addon-logo.png', addonLogo);
+
+  // The site's own icon, so a 16px favicon does not pull a 300KB file off the CDN.
+  const icon = await mark.clone().resize(192, 192, { fit: 'contain', background: TRANSPARENT })
+    .png().toFile(path.join(SITE, 'icon.png'));
+  log('public/art/icon.png', icon);
 
   for (const entry of series) {
     const k = entry.key;
