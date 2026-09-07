@@ -9,7 +9,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -23,9 +23,10 @@
   "size": 1610624160,
   "bitrate": 4633308,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.281968085106383,
-  "vsPeers": 101
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E02",
@@ -37,7 +38,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1872,
   "height": 1080,
@@ -51,9 +52,10 @@
   "size": 1238288961,
   "bitrate": 3527808,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 1.7449192782526115,
-  "vsPeers": 77
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E03",
@@ -65,7 +67,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Right resolution, but 29% under the median bits per pixel for HEVC episodes of its era. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1872,
   "height": 1080,
@@ -79,9 +81,10 @@
   "size": 1140174380,
   "bitrate": 3235321,
   "faststart": false,
-  "verdict": "thin",
-  "bpp": 1.6002497823678379,
-  "vsPeers": 71
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E04",
@@ -93,7 +96,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1872,
   "height": 1080,
@@ -107,9 +110,10 @@
   "size": 1584702563,
   "bitrate": 4448446,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.2002839110478,
-  "vsPeers": 97
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E05",
@@ -121,7 +125,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1872,
   "height": 1080,
@@ -135,9 +139,10 @@
   "size": 1387890305,
   "bitrate": 4104422,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.0301232589427034,
-  "vsPeers": 90
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E06",
@@ -149,7 +154,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -163,9 +168,10 @@
   "size": 1235747677,
   "bitrate": 3461090,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 1.6974115269930947,
-  "vsPeers": 75
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E07",
@@ -177,7 +183,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -191,9 +197,10 @@
   "size": 1266645290,
   "bitrate": 3622541,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 1.7841513987391646,
-  "vsPeers": 79
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E08",
@@ -205,7 +212,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -219,9 +226,10 @@
   "size": 1429854519,
   "bitrate": 4219805,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.0783121552403467,
-  "vsPeers": 92
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E09",
@@ -233,7 +241,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Right resolution, but 41% under the median bits per pixel for HEVC episodes of its era. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1872,
   "height": 1080,
@@ -247,9 +255,10 @@
   "size": 886147541,
   "bitrate": 2699313,
   "faststart": false,
-  "verdict": "thin",
-  "bpp": 1.3351302825261158,
-  "vsPeers": 59
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E10",
@@ -261,7 +270,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Right resolution, but 38% under the median bits per pixel for HEVC episodes of its era. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1872,
   "height": 1080,
@@ -275,9 +284,10 @@
   "size": 960003829,
   "bitrate": 2852130,
   "faststart": false,
-  "verdict": "thin",
-  "bpp": 1.410716405508072,
-  "vsPeers": 62
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E11",
@@ -289,7 +299,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Right resolution, but 26% under the median bits per pixel for HEVC episodes of its era. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1912,
   "height": 1080,
@@ -303,9 +313,10 @@
   "size": 1171010226,
   "bitrate": 3435069,
   "faststart": false,
-  "verdict": "thin",
-  "bpp": 1.6635038935378894,
-  "vsPeers": 74
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E12",
@@ -317,7 +328,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Right resolution, but 28% under the median bits per pixel for HEVC episodes of its era. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -331,9 +342,10 @@
   "size": 1112130321,
   "bitrate": 3297194,
   "faststart": false,
-  "verdict": "thin",
-  "bpp": 1.6239135145784083,
-  "vsPeers": 72
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E13",
@@ -345,7 +357,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -359,9 +371,10 @@
   "size": 1382276219,
   "bitrate": 3846437,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 1.886396049121155,
-  "vsPeers": 84
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S01E14",
@@ -387,7 +400,10 @@
   "size": 60018814,
   "bitrate": 992047,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S01E15",
@@ -399,7 +415,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -413,9 +429,10 @@
   "size": 2405395371,
   "bitrate": 5194431,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.547488524011299,
-  "vsPeers": 113
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E01",
@@ -427,7 +444,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -441,9 +458,10 @@
   "size": 1356211561,
   "bitrate": 3902319,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 1.9138020833333333,
-  "vsPeers": 85
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E02",
@@ -455,7 +473,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -469,9 +487,10 @@
   "size": 1553113863,
   "bitrate": 4430068,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.1726243722536096,
-  "vsPeers": 96
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E03",
@@ -483,7 +502,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -497,9 +516,10 @@
   "size": 1618796949,
   "bitrate": 4650965,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.2809581960138106,
-  "vsPeers": 101
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E04",
@@ -511,7 +531,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -525,9 +545,10 @@
   "size": 1605689256,
   "bitrate": 4560838,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.2462756107171002,
-  "vsPeers": 99
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E05",
@@ -539,7 +560,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -553,9 +574,10 @@
   "size": 1518489575,
   "bitrate": 4186797,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.0620552600472815,
-  "vsPeers": 91
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E06",
@@ -567,7 +589,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -581,9 +603,10 @@
   "size": 1335576302,
   "bitrate": 3695263,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 1.81225625784683,
-  "vsPeers": 80
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E07",
@@ -595,7 +618,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -609,9 +632,10 @@
   "size": 1762642113,
   "bitrate": 4956374,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.441082545311269,
-  "vsPeers": 108
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E08",
@@ -623,7 +647,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -637,9 +661,10 @@
   "size": 1830957889,
   "bitrate": 5134697,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.518193365505336,
-  "vsPeers": 111
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E09",
@@ -651,7 +676,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -665,9 +690,10 @@
   "size": 1579903483,
   "bitrate": 4250129,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.0932471434200157,
-  "vsPeers": 93
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E10",
@@ -679,7 +705,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -693,9 +719,10 @@
   "size": 1686987431,
   "bitrate": 4731295,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.3203541862837413,
-  "vsPeers": 103
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E11",
@@ -707,7 +734,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -721,9 +748,10 @@
   "size": 2048294514,
   "bitrate": 5929364,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.9202935382190702,
-  "vsPeers": 129
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E12",
@@ -735,7 +763,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -749,9 +777,10 @@
   "size": 1555273835,
   "bitrate": 4557965,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.2448606185973206,
-  "vsPeers": 99
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E13",
@@ -763,7 +792,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -777,9 +806,10 @@
   "size": 1782590808,
   "bitrate": 4876217,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.4016041174152876,
-  "vsPeers": 106
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S02E14",
@@ -791,7 +821,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -805,9 +835,10 @@
   "size": 2858464892,
   "bitrate": 6033707,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.97168390464933,
-  "vsPeers": 132
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E01",
@@ -819,7 +850,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -833,9 +864,10 @@
   "size": 1479445469,
   "bitrate": 4225783,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.0724375196170746,
-  "vsPeers": 92
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E02",
@@ -847,7 +879,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -861,9 +893,10 @@
   "size": 1767249300,
   "bitrate": 4910226,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.4183540189125297,
-  "vsPeers": 107
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E03",
@@ -875,7 +908,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -889,9 +922,10 @@
   "size": 1722364663,
   "bitrate": 4863788,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.3954826635145783,
-  "vsPeers": 106
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E04",
@@ -903,7 +937,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -917,9 +951,10 @@
   "size": 1608556871,
   "bitrate": 4358193,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.1373749411487757,
-  "vsPeers": 95
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E05",
@@ -931,7 +966,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -945,9 +980,10 @@
   "size": 1732605873,
   "bitrate": 4730647,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.3299088849487783,
-  "vsPeers": 103
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E06",
@@ -973,7 +1009,10 @@
   "size": 598607958,
   "bitrate": 1709063,
   "faststart": false,
-  "verdict": "below"
+  "verdict": "below",
+  "fps": 50,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E07",
@@ -985,7 +1024,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -999,9 +1038,10 @@
   "size": 1418154405,
   "bitrate": 4179295,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.0583604215918045,
-  "vsPeers": 91
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E08",
@@ -1013,7 +1053,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -1027,9 +1067,10 @@
   "size": 1651440496,
   "bitrate": 4606066,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.2589385200878844,
-  "vsPeers": 100
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E09",
@@ -1041,7 +1082,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -1055,9 +1096,10 @@
   "size": 1538675497,
   "bitrate": 4343285,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.1300636574074074,
-  "vsPeers": 94
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E10",
@@ -1069,7 +1111,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1083,9 +1125,10 @@
   "size": 1258834021,
   "bitrate": 3711653,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 1.8280402876280535,
-  "vsPeers": 81
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E11",
@@ -1097,7 +1140,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1111,9 +1154,10 @@
   "size": 1537966535,
   "bitrate": 4475922,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.2044533096926715,
-  "vsPeers": 98
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E12",
@@ -1125,7 +1169,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1139,9 +1183,10 @@
   "size": 1779387696,
   "bitrate": 4927327,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.4267764972419226,
-  "vsPeers": 107
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E13",
@@ -1153,7 +1198,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1167,9 +1212,10 @@
   "size": 1634506858,
   "bitrate": 4495243,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.213969168636722,
-  "vsPeers": 98
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E14",
@@ -1181,7 +1227,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1195,9 +1241,10 @@
   "size": 1889715796,
   "bitrate": 4657530,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.2938977541371157,
-  "vsPeers": 102
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S03E15",
@@ -1223,7 +1270,10 @@
   "size": 75193905,
   "bitrate": 1249899,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S03E16",
@@ -1235,7 +1285,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1249,9 +1299,10 @@
   "size": 3161250091,
   "bitrate": 5612618,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.7642917651694248,
-  "vsPeers": 122
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E01",
@@ -1263,7 +1314,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1277,9 +1328,10 @@
   "size": 1934194727,
   "bitrate": 5061502,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.492859535066982,
-  "vsPeers": 110
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E02",
@@ -1291,7 +1343,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1305,9 +1357,10 @@
   "size": 2220482958,
   "bitrate": 5848280,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.880358550039401,
-  "vsPeers": 128
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E03",
@@ -1319,7 +1372,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -1333,9 +1386,10 @@
   "size": 1942239710,
   "bitrate": 5655561,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.7736390654425613,
-  "vsPeers": 123
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E04",
@@ -1347,7 +1401,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -1361,9 +1415,10 @@
   "size": 1922237416,
   "bitrate": 5479934,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.687506865976146,
-  "vsPeers": 119
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E05",
@@ -1375,7 +1430,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1389,9 +1444,10 @@
   "size": 1757990620,
   "bitrate": 4997065,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.4611234239558706,
-  "vsPeers": 109
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E06",
@@ -1403,7 +1459,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1417,9 +1473,10 @@
   "size": 1798808904,
   "bitrate": 5056664,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.490476753349094,
-  "vsPeers": 110
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E07",
@@ -1431,7 +1488,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1445,9 +1502,10 @@
   "size": 1986729874,
   "bitrate": 5640483,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.778015661938534,
-  "vsPeers": 123
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E08",
@@ -1459,7 +1517,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1888,
   "height": 1080,
@@ -1473,9 +1531,10 @@
   "size": 1433788908,
   "bitrate": 4232394,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.075679731638418,
-  "vsPeers": 92
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E09",
@@ -1487,7 +1546,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1501,9 +1560,10 @@
   "size": 1669234630,
   "bitrate": 4682190,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.306043144208038,
-  "vsPeers": 102
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E10",
@@ -1515,7 +1575,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1529,9 +1589,10 @@
   "size": 1509292456,
   "bitrate": 4369400,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.15198975571316,
-  "vsPeers": 95
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E11",
@@ -1543,7 +1604,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1557,9 +1618,10 @@
   "size": 2128073095,
   "bitrate": 5471093,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.6945887509850275,
-  "vsPeers": 119
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E12",
@@ -1571,7 +1633,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1585,9 +1647,10 @@
   "size": 1917497702,
   "bitrate": 5328462,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.6243410165484633,
-  "vsPeers": 116
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E13",
@@ -1599,7 +1662,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1613,9 +1676,10 @@
   "size": 2390652425,
   "bitrate": 4823289,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.3755363475177305,
-  "vsPeers": 105
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E14",
@@ -1641,7 +1705,10 @@
   "size": 56270063,
   "bitrate": 1253863,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S04E15",
@@ -1653,7 +1720,7 @@
   "era": "sd",
   "eraLabel": "SD master",
   "best": "1080p Blu-ray",
-  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "how": "Runs at 29.97fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
   "ceiling": 1080,
   "width": 1880,
   "height": 1080,
@@ -1667,9 +1734,10 @@
   "size": 2337270431,
   "bitrate": 5134514,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.528818951930654,
-  "vsPeers": 112
+  "verdict": "cadence",
+  "fps": 29.97,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E16",
@@ -1681,7 +1749,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 29.97fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -1695,9 +1763,10 @@
   "size": 2045338730,
   "bitrate": 4624118,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.229995177469136,
-  "vsPeers": 116
+  "verdict": "cadence",
+  "fps": 29.97,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E17",
@@ -1709,7 +1778,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 29.97fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -1723,9 +1792,10 @@
   "size": 2003921594,
   "bitrate": 4301395,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.074361014660494,
-  "vsPeers": 108
+  "verdict": "cadence",
+  "fps": 29.97,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E18",
@@ -1751,7 +1821,10 @@
   "size": 1716777454,
   "bitrate": 5198339,
   "faststart": false,
-  "verdict": "below"
+  "verdict": "below",
+  "fps": 50,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E19",
@@ -1763,7 +1836,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 29.97fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -1777,9 +1850,10 @@
   "size": 1989496035,
   "bitrate": 4445896,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.1440470679012344,
-  "vsPeers": 111
+  "verdict": "cadence",
+  "fps": 29.97,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S04E20",
@@ -1791,7 +1865,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 29.97fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -1805,9 +1879,10 @@
   "size": 2612339656,
   "bitrate": 4793356,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.311610725308642,
-  "vsPeers": 120
+  "verdict": "cadence",
+  "fps": 29.97,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S05E01",
@@ -1834,8 +1909,9 @@
   "bitrate": 4994984,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.408846450617284,
-  "vsPeers": 125
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E02",
@@ -1861,7 +1937,10 @@
   "size": 67034029,
   "bitrate": 2721738,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E03",
@@ -1888,8 +1967,9 @@
   "bitrate": 4747698,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.289592013888889,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E04",
@@ -1916,8 +1996,9 @@
   "bitrate": 4757403,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2942722800925925,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E05",
@@ -1944,8 +2025,9 @@
   "bitrate": 4750621,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.291001639660494,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E06",
@@ -1972,8 +2054,9 @@
   "bitrate": 4756681,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2939240933641973,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E07",
@@ -1999,7 +2082,10 @@
   "size": 69559957,
   "bitrate": 2377854,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E08",
@@ -2026,8 +2112,9 @@
   "bitrate": 4748092,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2897820216049385,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E09",
@@ -2054,8 +2141,9 @@
   "bitrate": 4726742,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2794859182098763,
-  "vsPeers": 118
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E10",
@@ -2082,8 +2170,9 @@
   "bitrate": 4728438,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2803038194444443,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E11",
@@ -2110,8 +2199,9 @@
   "bitrate": 4738698,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2852517361111113,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E12",
@@ -2137,7 +2227,10 @@
   "size": 16731075,
   "bitrate": 719519,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E13",
@@ -2164,8 +2257,9 @@
   "bitrate": 4758227,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2946696566358025,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E14",
@@ -2192,8 +2286,9 @@
   "bitrate": 4730832,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.281458333333333,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E15",
@@ -2220,8 +2315,9 @@
   "bitrate": 4736532,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.284207175925926,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E16",
@@ -2248,8 +2344,9 @@
   "bitrate": 4729186,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2806645447530864,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S05E17",
@@ -2261,7 +2358,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 29.648fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -2275,7 +2372,10 @@
   "size": 148582788,
   "bitrate": 5241778,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "cadence",
+  "fps": 29.648,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S05E18",
@@ -2302,8 +2402,9 @@
   "bitrate": 4736320,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.284104938271605,
-  "vsPeers": 119
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E01",
@@ -2329,7 +2430,10 @@
   "size": 117691154,
   "bitrate": 3955756,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E02",
@@ -2355,7 +2459,10 @@
   "size": 109510861,
   "bitrate": 4761342,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E03",
@@ -2381,7 +2488,10 @@
   "size": 14893839,
   "bitrate": 1156612,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E04",
@@ -2408,8 +2518,9 @@
   "bitrate": 5121813,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.470010127314815,
-  "vsPeers": 128
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E05",
@@ -2436,8 +2547,9 @@
   "bitrate": 5859729,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.825872395833333,
-  "vsPeers": 147
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E06",
@@ -2463,7 +2575,10 @@
   "size": 16776194,
   "bitrate": 1560304,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E07",
@@ -2490,8 +2605,9 @@
   "bitrate": 4838166,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.333220486111111,
-  "vsPeers": 121
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E08",
@@ -2517,7 +2633,10 @@
   "size": 100872426,
   "bitrate": 3718765,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E09",
@@ -2544,8 +2663,9 @@
   "bitrate": 4825772,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.3272434413580245,
-  "vsPeers": 121
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E10",
@@ -2571,7 +2691,10 @@
   "size": 145782834,
   "bitrate": 4007390,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E11",
@@ -2598,8 +2721,9 @@
   "bitrate": 4695719,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2645249807098766,
-  "vsPeers": 118
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E12",
@@ -2626,8 +2750,9 @@
   "bitrate": 5380343,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.5946870177469137,
-  "vsPeers": 135
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E13",
@@ -2653,7 +2778,10 @@
   "size": 19970518,
   "bitrate": 1629831,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E14",
@@ -2680,8 +2808,9 @@
   "bitrate": 4507444,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.1737287808641974,
-  "vsPeers": 113
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E15",
@@ -2707,7 +2836,10 @@
   "size": 27031038,
   "bitrate": 1832721,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E16",
@@ -2734,8 +2866,9 @@
   "bitrate": 4891023,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.3587109375,
-  "vsPeers": 123
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E17",
@@ -2762,8 +2895,9 @@
   "bitrate": 4493958,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.1672251157407407,
-  "vsPeers": 113
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E18",
@@ -2789,7 +2923,10 @@
   "size": 39123554,
   "bitrate": 2318141,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E19",
@@ -2815,7 +2952,10 @@
   "size": 62327581,
   "bitrate": 2329851,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E20",
@@ -2842,8 +2982,9 @@
   "bitrate": 3913257,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.8871802662037036,
-  "vsPeers": 98
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E21",
@@ -2870,8 +3011,9 @@
   "bitrate": 4277994,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.063075810185185,
-  "vsPeers": 107
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E22",
@@ -2897,7 +3039,10 @@
   "size": 27932209,
   "bitrate": 1926193,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E23",
@@ -2924,8 +3069,9 @@
   "bitrate": 4874998,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.3509828317901236,
-  "vsPeers": 122
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E24",
@@ -2951,7 +3097,10 @@
   "size": 21035612,
   "bitrate": 2273352,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E25",
@@ -2978,8 +3127,9 @@
   "bitrate": 4822029,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.3254383680555555,
-  "vsPeers": 121
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S06E26",
@@ -2991,7 +3141,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 29.97fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -3005,7 +3155,10 @@
   "size": 30340554,
   "bitrate": 2762313,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "cadence",
+  "fps": 29.97,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S06E27",
@@ -3032,8 +3185,9 @@
   "bitrate": 3903244,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.8823514660493827,
-  "vsPeers": 98
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E01",
@@ -3059,7 +3213,10 @@
   "size": 121688141,
   "bitrate": 2616738,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E02",
@@ -3085,7 +3242,10 @@
   "size": 40354825,
   "bitrate": 2082467,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E03",
@@ -3112,8 +3272,9 @@
   "bitrate": 3247535,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5661337770061727,
-  "vsPeers": 81
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E04",
@@ -3139,7 +3300,10 @@
   "size": 45978248,
   "bitrate": 3198904,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E05",
@@ -3166,8 +3330,9 @@
   "bitrate": 4648201,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2416092785493826,
-  "vsPeers": 116
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E06",
@@ -3193,7 +3358,10 @@
   "size": 20738674,
   "bitrate": 1564814,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E07",
@@ -3220,8 +3388,9 @@
   "bitrate": 5916836,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.853412422839506,
-  "vsPeers": 148
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E08",
@@ -3248,8 +3417,9 @@
   "bitrate": 4422052,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.132548225308642,
-  "vsPeers": 111
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E09",
@@ -3276,8 +3446,9 @@
   "bitrate": 3847606,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.8555198688271606,
-  "vsPeers": 96
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E10",
@@ -3303,7 +3474,10 @@
   "size": 8915242,
   "bitrate": 256199,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E11",
@@ -3329,7 +3503,10 @@
   "size": 72419442,
   "bitrate": 3368170,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E12",
@@ -3355,7 +3532,10 @@
   "size": 50011907,
   "bitrate": 2027092,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E13",
@@ -3381,7 +3561,10 @@
   "size": 41379614,
   "bitrate": 2221545,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E14",
@@ -3408,8 +3591,9 @@
   "bitrate": 4636401,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2359186921296295,
-  "vsPeers": 116
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E15",
@@ -3435,7 +3619,10 @@
   "size": 58419623,
   "bitrate": 2976569,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E16",
@@ -3462,8 +3649,9 @@
   "bitrate": 4599484,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2181153549382717,
-  "vsPeers": 115
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E17",
@@ -3490,8 +3678,9 @@
   "bitrate": 4779230,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.3047984182098764,
-  "vsPeers": 120
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E18",
@@ -3517,7 +3706,10 @@
   "size": 78124620,
   "bitrate": 6314057,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E19",
@@ -3544,8 +3736,9 @@
   "bitrate": 3927078,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.8938454861111111,
-  "vsPeers": 98
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E20",
@@ -3572,8 +3765,9 @@
   "bitrate": 5086712,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.453082561728395,
-  "vsPeers": 127
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E21",
@@ -3600,8 +3794,9 @@
   "bitrate": 5136936,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.4773032407407407,
-  "vsPeers": 129
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E22",
@@ -3627,7 +3822,10 @@
   "size": 28295561,
   "bitrate": 1782748,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E23",
@@ -3654,8 +3852,9 @@
   "bitrate": 8439195,
   "faststart": false,
   "verdict": "best",
-  "bpp": 4.069827835648148,
-  "vsPeers": 212
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E24",
@@ -3682,8 +3881,9 @@
   "bitrate": 3620716,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.7461014660493828,
-  "vsPeers": 91
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E25",
@@ -3709,7 +3909,10 @@
   "size": 28203396,
   "bitrate": 1721977,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E26",
@@ -3735,7 +3938,10 @@
   "size": 54562054,
   "bitrate": 2059062,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E27",
@@ -3762,8 +3968,9 @@
   "bitrate": 4561806,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.1999450231481483,
-  "vsPeers": 114
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S07E28",
@@ -3775,7 +3982,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -3789,7 +3996,10 @@
   "size": 119226710,
   "bitrate": 2221840,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S07E29",
@@ -3801,7 +4011,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -3815,7 +4025,10 @@
   "size": 190641023,
   "bitrate": 6559409,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S07E30",
@@ -3827,7 +4040,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -3841,9 +4054,10 @@
   "size": 3068976075,
   "bitrate": 5121564,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.4698900462962965,
-  "vsPeers": 128
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S07E31",
@@ -3855,7 +4069,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -3869,9 +4083,10 @@
   "size": 1691211511,
   "bitrate": 3538022,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 1.7062220293209878,
-  "vsPeers": 89
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S08E01",
@@ -3883,7 +4098,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -3897,7 +4112,10 @@
   "size": 304773525,
   "bitrate": 6462560,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S08E02",
@@ -3924,8 +4142,9 @@
   "bitrate": 3272994,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5784114583333333,
-  "vsPeers": 82
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E03",
@@ -3952,8 +4171,9 @@
   "bitrate": 4008164,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.9329494598765433,
-  "vsPeers": 100
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E04",
@@ -3980,8 +4200,9 @@
   "bitrate": 5281280,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.5469135802469136,
-  "vsPeers": 132
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E05",
@@ -3993,7 +4214,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Right resolution, but 27% under the median bits per pixel for HEVC episodes of its era. Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -4007,9 +4228,10 @@
   "size": 1052899457,
   "bitrate": 2931455,
   "faststart": false,
-  "verdict": "thin",
-  "bpp": 1.4137032214506173,
-  "vsPeers": 73
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E06",
@@ -4036,8 +4258,9 @@
   "bitrate": 3479102,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.6778076774691357,
-  "vsPeers": 87
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E07",
@@ -4064,8 +4287,9 @@
   "bitrate": 3811881,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.8382913773148148,
-  "vsPeers": 96
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E08",
@@ -4092,8 +4316,9 @@
   "bitrate": 3717371,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.792713638117284,
-  "vsPeers": 93
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E09",
@@ -4120,8 +4345,9 @@
   "bitrate": 3304033,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.593380111882716,
-  "vsPeers": 83
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E10",
@@ -4148,8 +4374,9 @@
   "bitrate": 3663073,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.7665282600308643,
-  "vsPeers": 92
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E11",
@@ -4176,8 +4403,9 @@
   "bitrate": 5668856,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.7338233024691356,
-  "vsPeers": 142
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E12",
@@ -4204,8 +4432,9 @@
   "bitrate": 3242997,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5639453125,
-  "vsPeers": 81
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E13",
@@ -4232,8 +4461,9 @@
   "bitrate": 3196582,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5415615354938272,
-  "vsPeers": 80
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S08E14",
@@ -4260,8 +4490,9 @@
   "bitrate": 4161271,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.006785783179012,
-  "vsPeers": 104
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E01",
@@ -4273,7 +4504,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -4287,7 +4518,10 @@
   "size": 14212457,
   "bitrate": 927388,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S09E02",
@@ -4299,7 +4533,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Runs at 23.976fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -4313,7 +4547,10 @@
   "size": 99109469,
   "bitrate": 1985172,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "cadence",
+  "fps": 23.976,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S09E03",
@@ -4340,8 +4577,9 @@
   "bitrate": 3063619,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.4774397183641976,
-  "vsPeers": 77
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E04",
@@ -4368,8 +4606,9 @@
   "bitrate": 3316219,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5992568479938272,
-  "vsPeers": 83
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E05",
@@ -4396,8 +4635,9 @@
   "bitrate": 2983304,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.438707561728395,
-  "vsPeers": 75
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E06",
@@ -4409,7 +4649,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Right resolution, but 32% under the median bits per pixel for HEVC episodes of its era. Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -4423,9 +4663,10 @@
   "size": 862686777,
   "bitrate": 2712399,
   "faststart": false,
-  "verdict": "thin",
-  "bpp": 1.308062789351852,
-  "vsPeers": 68
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E07",
@@ -4452,8 +4693,9 @@
   "bitrate": 4070986,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.963245563271605,
-  "vsPeers": 102
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E08",
@@ -4480,8 +4722,9 @@
   "bitrate": 3112505,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5010151427469136,
-  "vsPeers": 78
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E09",
@@ -4508,8 +4751,9 @@
   "bitrate": 3325329,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.603650173611111,
-  "vsPeers": 83
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E10",
@@ -4536,8 +4780,9 @@
   "bitrate": 3225082,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.55530574845679,
-  "vsPeers": 81
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E11",
@@ -4549,7 +4794,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Right resolution, but 26% under the median bits per pixel for HEVC episodes of its era. Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -4563,9 +4808,10 @@
   "size": 1003824742,
   "bitrate": 2968656,
   "faststart": false,
-  "verdict": "thin",
-  "bpp": 1.4316435185185186,
-  "vsPeers": 74
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E12",
@@ -4592,8 +4838,9 @@
   "bitrate": 3271612,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5777449845679012,
-  "vsPeers": 82
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E13",
@@ -4620,8 +4867,9 @@
   "bitrate": 3019556,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.456190200617284,
-  "vsPeers": 76
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E14",
@@ -4648,8 +4896,9 @@
   "bitrate": 3046917,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.4693851273148149,
-  "vsPeers": 76
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E15",
@@ -4676,8 +4925,9 @@
   "bitrate": 3748644,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.8077951388888889,
-  "vsPeers": 94
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S09E16",
@@ -4704,8 +4954,9 @@
   "bitrate": 3826031,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.8451152584876542,
-  "vsPeers": 96
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E01",
@@ -4731,7 +4982,10 @@
   "size": 49996075,
   "bitrate": 3219659,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E02",
@@ -4758,8 +5012,9 @@
   "bitrate": 3592307,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.732401138117284,
-  "vsPeers": 90
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E03",
@@ -4786,8 +5041,9 @@
   "bitrate": 3972713,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.9158531057098764,
-  "vsPeers": 100
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E04",
@@ -4814,8 +5070,9 @@
   "bitrate": 3290937,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.587064525462963,
-  "vsPeers": 82
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E05",
@@ -4827,7 +5084,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Right resolution, but 33% under the median bits per pixel for HEVC episodes of its era. Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -4841,9 +5098,10 @@
   "size": 899097946,
   "bitrate": 2692901,
   "faststart": false,
-  "verdict": "thin",
-  "bpp": 1.2986598186728395,
-  "vsPeers": 67
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E06",
@@ -4870,8 +5128,9 @@
   "bitrate": 3634604,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.7527989969135802,
-  "vsPeers": 91
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E07",
@@ -4898,8 +5157,9 @@
   "bitrate": 3102889,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.4963777970679013,
-  "vsPeers": 78
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E08",
@@ -4926,8 +5186,9 @@
   "bitrate": 3158589,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5232392939814814,
-  "vsPeers": 79
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E09",
@@ -4939,7 +5200,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Right resolution, but 27% under the median bits per pixel for HEVC episodes of its era. Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -4953,9 +5214,10 @@
   "size": 982040499,
   "bitrate": 2930371,
   "faststart": false,
-  "verdict": "thin",
-  "bpp": 1.4131804591049382,
-  "vsPeers": 73
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E10",
@@ -4982,8 +5244,9 @@
   "bitrate": 3322628,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.6023476080246914,
-  "vsPeers": 83
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E11",
@@ -5010,8 +5273,9 @@
   "bitrate": 3126742,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5078809799382715,
-  "vsPeers": 78
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E12",
@@ -5038,8 +5302,9 @@
   "bitrate": 3289455,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5863498263888889,
-  "vsPeers": 82
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E13",
@@ -5066,8 +5331,9 @@
   "bitrate": 4589287,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2131978202160494,
-  "vsPeers": 115
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S10E14",
@@ -5094,8 +5360,9 @@
   "bitrate": 4407369,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.125467303240741,
-  "vsPeers": 110
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E01",
@@ -5122,8 +5389,9 @@
   "bitrate": 3075058,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.6683257378472223,
-  "vsPeers": 87
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E02",
@@ -5150,8 +5418,9 @@
   "bitrate": 3904798,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.118488498263889,
-  "vsPeers": 110
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E03",
@@ -5178,8 +5447,9 @@
   "bitrate": 3473010,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.884228515625,
-  "vsPeers": 98
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E04",
@@ -5206,8 +5476,9 @@
   "bitrate": 3111924,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.6883268229166666,
-  "vsPeers": 88
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E05",
@@ -5234,8 +5505,9 @@
   "bitrate": 3993024,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.166354166666667,
-  "vsPeers": 113
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E06",
@@ -5262,8 +5534,9 @@
   "bitrate": 3873381,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.1014436848958336,
-  "vsPeers": 109
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E07",
@@ -5290,8 +5563,9 @@
   "bitrate": 4631585,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.512795681423611,
-  "vsPeers": 131
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E08",
@@ -5318,8 +5592,9 @@
   "bitrate": 4179500,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.2675238715277777,
-  "vsPeers": 118
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E09",
@@ -5346,8 +5621,9 @@
   "bitrate": 3561094,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.9320171440972222,
-  "vsPeers": 100
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E10",
@@ -5374,8 +5650,9 @@
   "bitrate": 3370840,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.8287977430555555,
-  "vsPeers": 95
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S11E11",
@@ -5402,8 +5679,9 @@
   "bitrate": 2882977,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.5641151258680555,
-  "vsPeers": 81
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E01",
@@ -5430,8 +5708,9 @@
   "bitrate": 3596118,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.9510188802083333,
-  "vsPeers": 101
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E02",
@@ -5458,8 +5737,9 @@
   "bitrate": 3318421,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.8003586154513889,
-  "vsPeers": 94
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E03",
@@ -5486,8 +5766,9 @@
   "bitrate": 4678640,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.538324652777778,
-  "vsPeers": 132
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E04",
@@ -5514,8 +5795,9 @@
   "bitrate": 2918012,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.583122829861111,
-  "vsPeers": 82
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E05",
@@ -5542,8 +5824,9 @@
   "bitrate": 3042676,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.6507573784722223,
-  "vsPeers": 86
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E06",
@@ -5570,8 +5853,9 @@
   "bitrate": 3600330,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.9533040364583334,
-  "vsPeers": 102
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E07",
@@ -5598,8 +5882,9 @@
   "bitrate": 3027265,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.6423963758680555,
-  "vsPeers": 85
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E08",
@@ -5626,8 +5911,9 @@
   "bitrate": 3546746,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.9242328559027777,
-  "vsPeers": 100
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E09",
@@ -5654,8 +5940,9 @@
   "bitrate": 3761960,
   "faststart": false,
   "verdict": "best",
-  "bpp": 2.040993923611111,
-  "vsPeers": 106
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E10",
@@ -5682,8 +5969,9 @@
   "bitrate": 3416988,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.8538346354166666,
-  "vsPeers": 96
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S12E11",
@@ -5710,8 +5998,9 @@
   "bitrate": 2749015,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.4914360894097223,
-  "vsPeers": 78
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S13E01",
@@ -5738,8 +6027,9 @@
   "bitrate": 2737719,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.4853076171875,
-  "vsPeers": 77
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S13E02",
@@ -5766,8 +6056,9 @@
   "bitrate": 2762381,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.4986876085069445,
-  "vsPeers": 78
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S13E03",
@@ -5794,8 +6085,9 @@
   "bitrate": 2669341,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.448210177951389,
-  "vsPeers": 75
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S13E04",
@@ -5822,8 +6114,9 @@
   "bitrate": 2743106,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.488230251736111,
-  "vsPeers": 77
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S13E05",
@@ -5850,8 +6143,9 @@
   "bitrate": 2754022,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.4941525607638888,
-  "vsPeers": 78
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S13E06",
@@ -5878,8 +6172,9 @@
   "bitrate": 2747119,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.490407443576389,
-  "vsPeers": 77
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S13E07",
@@ -5906,8 +6201,9 @@
   "bitrate": 2762748,
   "faststart": false,
   "verdict": "best",
-  "bpp": 1.49888671875,
-  "vsPeers": 78
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S13E08",
@@ -5934,7 +6230,9 @@
   "bitrate": 9794591,
   "faststart": false,
   "verdict": "best",
-  "bpp": 5.313905707465278
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S13E09",
@@ -5946,7 +6244,7 @@
   "era": "hd",
   "eraLabel": "Native HD",
   "best": "1080p Blu-ray",
-  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "how": "Right resolution and rate, but the frame timing varies through the file rather than holding steady. Shot in HD and released on disc at its native frame. Never published in 4K.",
   "ceiling": 1080,
   "width": 1920,
   "height": 1080,
@@ -5960,8 +6258,10 @@
   "size": 3036182689,
   "bitrate": 4616460,
   "faststart": false,
-  "verdict": "best",
-  "bpp": 2.226302083333333
+  "verdict": "cadence",
+  "fps": 25.008,
+  "cfr": false,
+  "native": true
  },
  {
   "id": "S14E01",
@@ -5987,7 +6287,10 @@
   "size": 47163076,
   "bitrate": 1221003,
   "faststart": false,
-  "verdict": "best"
+  "verdict": "best",
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S14E02",
@@ -6014,8 +6317,9 @@
   "bitrate": 6732473,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.2467558834876544,
-  "vsPeers": 107
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S14E03",
@@ -6042,8 +6346,9 @@
   "bitrate": 6534034,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.1510580632716048,
-  "vsPeers": 104
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S14E04",
@@ -6070,8 +6375,9 @@
   "bitrate": 6545736,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.156701388888889,
-  "vsPeers": 104
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S15E01",
@@ -6098,8 +6404,9 @@
   "bitrate": 6886506,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.3210387731481483,
-  "vsPeers": 109
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S15E02",
@@ -6126,8 +6433,9 @@
   "bitrate": 7085095,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.4168089313271603,
-  "vsPeers": 112
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S15E03",
@@ -6154,8 +6462,9 @@
   "bitrate": 6002527,
   "faststart": false,
   "verdict": "below",
-  "bpp": 2.8947371720679014,
-  "vsPeers": 95
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S15E04",
@@ -6182,8 +6491,9 @@
   "bitrate": 6361522,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.0678636188271606,
-  "vsPeers": 101
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S15E05",
@@ -6210,8 +6520,9 @@
   "bitrate": 6309401,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.0427281057098767,
-  "vsPeers": 100
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S15E06",
@@ -6238,8 +6549,9 @@
   "bitrate": 7161696,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.45375,
-  "vsPeers": 114
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S15E07",
@@ -6266,8 +6578,9 @@
   "bitrate": 6392039,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.082580536265432,
-  "vsPeers": 101
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S15E08",
@@ -6294,8 +6607,9 @@
   "bitrate": 6904278,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.329609375,
-  "vsPeers": 109
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S15E09",
@@ -6322,8 +6636,9 @@
   "bitrate": 6682947,
   "faststart": false,
   "verdict": "below",
-  "bpp": 3.22287181712963,
-  "vsPeers": 106
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S15E10",
@@ -6349,7 +6664,10 @@
   "size": 76423389,
   "bitrate": 2252766,
   "faststart": false,
-  "verdict": "check"
+  "verdict": "check",
+  "fps": 29.662,
+  "cfr": false,
+  "native": false
  },
  {
   "id": "S15E11",
@@ -6376,8 +6694,9 @@
   "bitrate": 5624087,
   "faststart": false,
   "verdict": "below",
-  "bpp": 2.71223331404321,
-  "vsPeers": 89
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S16E01",
@@ -6404,8 +6723,9 @@
   "bitrate": 5705248,
   "faststart": false,
   "verdict": "below",
-  "bpp": 2.7513734567901236,
-  "vsPeers": 90
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S16E02",
@@ -6432,8 +6752,9 @@
   "bitrate": 5017936,
   "faststart": false,
   "verdict": "below",
-  "bpp": 2.41991512345679,
-  "vsPeers": 80
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S16E03",
@@ -6460,8 +6781,9 @@
   "bitrate": 5144832,
   "faststart": false,
   "verdict": "below",
-  "bpp": 2.4811111111111113,
-  "vsPeers": 82
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S16E04",
@@ -6488,8 +6810,9 @@
   "bitrate": 5199443,
   "faststart": false,
   "verdict": "below",
-  "bpp": 2.50744743441358,
-  "vsPeers": 82
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S16E05",
@@ -6516,8 +6839,9 @@
   "bitrate": 4795237,
   "faststart": false,
   "verdict": "below",
-  "bpp": 2.3125178433641977,
-  "vsPeers": 76
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S16E06",
@@ -6544,8 +6868,9 @@
   "bitrate": 6143798,
   "faststart": false,
   "verdict": "below",
-  "bpp": 2.962865547839506,
-  "vsPeers": 97
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S16E07",
@@ -6572,8 +6897,9 @@
   "bitrate": 5789035,
   "faststart": false,
   "verdict": "below",
-  "bpp": 2.791779996141975,
-  "vsPeers": 92
+  "fps": 25,
+  "cfr": true,
+  "native": true
  },
  {
   "id": "S16E08",
@@ -6600,7 +6926,8 @@
   "bitrate": 5881790,
   "faststart": false,
   "verdict": "below",
-  "bpp": 2.8365113811728393,
-  "vsPeers": 93
+  "fps": 25,
+  "cfr": true,
+  "native": true
  }
 ]

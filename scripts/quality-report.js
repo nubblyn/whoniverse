@@ -25,6 +25,9 @@ const { series } = require('../lib/series');
 const { episodesFor } = require('../lib/catalog');
 
 const probe = require('../data/media-probe.json');
+const origin = require('../data/media-origin.json');
+const cadence = {};
+for (const o of origin) cadence[o.id] = o;
 
 const HD_FROM = Date.parse('2009-04-11');  // Planet of the Dead
 const UHD_FROM = Date.parse('2023-11-25'); // The Star Beast
@@ -165,32 +168,35 @@ function main() {
     });
   }
 
-  // A thin encode is the right picture carrying too little data. Raw bitrate is
-  // the wrong number to compare on twice over: a 2:1 frame has eleven per cent
-  // fewer pixels than a 16:9 one, and HEVC needs roughly two thirds of what
-  // H.264 needs to look the same. So the score is bits per pixel, against
-  // episodes of the same era in the same codec.
-  const groups = {};
+  // Bitrate is deliberately not a verdict. These seasons were pulled whole from
+  // one source at a constant quality setting, where a dark, quiet, slow episode
+  // legitimately encodes smaller than a bright, busy one at the same quality.
+  // Listen, Sleep No More, Knock Knock and Before the Flood came out lowest,
+  // which is a list of the show's dimmest hours, not a list of its worst files.
+  //
+  // Frame rate is a verdict, because it is not a matter of taste. Doctor Who is
+  // finished at 25fps for UK broadcast and every disc of it carries 25. A file
+  // running at 23.976 or 29.97 has had its frames decimated or retimed to suit
+  // a different television standard, and no setting recovers them.
   for (const r of out) {
-    if (r.error || r.seconds < 1200 || SPECIAL_CASE[r.title]) continue;
-    r.bpp = r.bitrate / (r.width * r.height);
-    const k = `${r.era}|${r.vcodec}`;
-    (groups[k] = groups[k] || []).push(r);
-  }
-  for (const list of Object.values(groups)) {
-    if (list.length < 5) continue;
-    const sorted = list.map((x) => x.bpp).sort((a, b) => a - b);
-    const median = sorted[Math.floor(sorted.length / 2)];
-    for (const r of list) {
-      r.vsPeers = Math.round((r.bpp / median) * 100);
-      if (r.vsPeers < 75 && r.verdict === 'best') {
-        r.verdict = 'thin';
-        r.how = `Right resolution, but ${100 - r.vsPeers}% under the median bits per pixel for ${r.vcodec} episodes of its era. ${r.how}`;
-      }
+    if (r.error) continue;
+    const c = cadence[r.id];
+    if (!c) continue;
+    r.fps = c.fps;
+    r.cfr = c.stts <= 2;
+    r.native = Math.abs(c.fps - 25) <= 0.1;
+
+    if (r.verdict === 'best' && !r.native) {
+      r.verdict = 'cadence';
+      r.how = `Runs at ${c.fps}fps where the show is finished at 25. Frames have been dropped or retimed for another television standard, which no re-encode undoes. ${r.how}`;
+    } else if (r.verdict === 'best' && !r.cfr) {
+      r.verdict = 'cadence';
+      r.how = `Right resolution and rate, but the frame timing varies through the file rather than holding steady. ${r.how}`;
     }
   }
 
-  process.stdout.write(`${JSON.stringify(out, null, 1)}\n`);
+  process.stdout.write(`${JSON.stringify(out, null, 1)}
+`);
 }
 
 main();
