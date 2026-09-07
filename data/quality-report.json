@@ -8,7 +8,9 @@
   "released": "2005-03-26",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -22,10 +24,8 @@
   "bitrate": 4633308,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.281968085106383,
-  "vsPeers": 1.010194861353554,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 101
  },
  {
   "id": "S01E02",
@@ -36,7 +36,9 @@
   "released": "2005-04-02",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1872,
   "height": 1080,
   "vcodec": "HEVC",
@@ -50,10 +52,8 @@
   "bitrate": 3527808,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 1.7449192782526115,
-  "vsPeers": 0.7724509820589208,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 77
  },
  {
   "id": "S01E03",
@@ -64,7 +64,9 @@
   "released": "2005-04-09",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Right resolution, but 29% under the median bits per pixel for HEVC episodes of its era. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1872,
   "height": 1080,
   "vcodec": "HEVC",
@@ -78,11 +80,8 @@
   "bitrate": 3235321,
   "faststart": false,
   "verdict": "thin",
-  "note": "29% under the median for HEVC episodes of its era",
   "bpp": 1.6002497823678379,
-  "vsPeers": 0.7084078509164472,
-  "peerGroup": "sd HEVC",
-  "thin": true
+  "vsPeers": 71
  },
  {
   "id": "S01E04",
@@ -93,7 +92,9 @@
   "released": "2005-04-16",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1872,
   "height": 1080,
   "vcodec": "HEVC",
@@ -107,10 +108,8 @@
   "bitrate": 4448446,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.2002839110478,
-  "vsPeers": 0.9740344376270132,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 97
  },
  {
   "id": "S01E05",
@@ -121,7 +120,9 @@
   "released": "2005-04-23",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1872,
   "height": 1080,
   "vcodec": "HEVC",
@@ -135,10 +136,8 @@
   "bitrate": 4104422,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.0301232589427034,
-  "vsPeers": 0.8987067336669796,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 90
  },
  {
   "id": "S01E06",
@@ -149,7 +148,9 @@
   "released": "2005-04-30",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -163,10 +164,8 @@
   "bitrate": 3461090,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 1.6974115269930947,
-  "vsPeers": 0.7514199753108184,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 75
  },
  {
   "id": "S01E07",
@@ -177,7 +176,9 @@
   "released": "2005-05-07",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -191,10 +192,8 @@
   "bitrate": 3622541,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 1.7841513987391646,
-  "vsPeers": 0.7898184845994621,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 79
  },
  {
   "id": "S01E08",
@@ -205,7 +204,9 @@
   "released": "2005-05-14",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -219,10 +220,8 @@
   "bitrate": 4219805,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.0783121552403467,
-  "vsPeers": 0.9200392736494173,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 92
  },
  {
   "id": "S01E09",
@@ -233,7 +232,9 @@
   "released": "2005-05-21",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Right resolution, but 41% under the median bits per pixel for HEVC episodes of its era. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1872,
   "height": 1080,
   "vcodec": "HEVC",
@@ -247,11 +248,8 @@
   "bitrate": 2699313,
   "faststart": false,
   "verdict": "thin",
-  "note": "41% under the median for HEVC episodes of its era",
   "bpp": 1.3351302825261158,
-  "vsPeers": 0.5910432137277345,
-  "peerGroup": "sd HEVC",
-  "thin": true
+  "vsPeers": 59
  },
  {
   "id": "S01E10",
@@ -262,7 +260,9 @@
   "released": "2005-05-28",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Right resolution, but 38% under the median bits per pixel for HEVC episodes of its era. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1872,
   "height": 1080,
   "vcodec": "HEVC",
@@ -276,11 +276,8 @@
   "bitrate": 2852130,
   "faststart": false,
   "verdict": "thin",
-  "note": "38% under the median for HEVC episodes of its era",
   "bpp": 1.410716405508072,
-  "vsPeers": 0.6245041168509482,
-  "peerGroup": "sd HEVC",
-  "thin": true
+  "vsPeers": 62
  },
  {
   "id": "S01E11",
@@ -291,7 +288,9 @@
   "released": "2005-06-04",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Right resolution, but 26% under the median bits per pixel for HEVC episodes of its era. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1912,
   "height": 1080,
   "vcodec": "HEVC",
@@ -305,11 +304,8 @@
   "bitrate": 3435069,
   "faststart": false,
   "verdict": "thin",
-  "note": "26% under the median for HEVC episodes of its era",
   "bpp": 1.6635038935378894,
-  "vsPeers": 0.7364095475573945,
-  "peerGroup": "sd HEVC",
-  "thin": true
+  "vsPeers": 74
  },
  {
   "id": "S01E12",
@@ -320,7 +316,9 @@
   "released": "2005-06-11",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Right resolution, but 28% under the median bits per pixel for HEVC episodes of its era. Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -334,11 +332,8 @@
   "bitrate": 3297194,
   "faststart": false,
   "verdict": "thin",
-  "note": "28% under the median for HEVC episodes of its era",
   "bpp": 1.6239135145784083,
-  "vsPeers": 0.7188834490790965,
-  "peerGroup": "sd HEVC",
-  "thin": true
+  "vsPeers": 72
  },
  {
   "id": "S01E13",
@@ -349,7 +344,9 @@
   "released": "2005-06-18",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -363,10 +360,8 @@
   "bitrate": 3846437,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 1.886396049121155,
-  "vsPeers": 0.835080739181766,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 84
  },
  {
   "id": "S01E14",
@@ -377,7 +372,9 @@
   "released": "2005-11-18",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "No better version exists",
+  "best": "576p SD (Blu-ray extra)",
+  "how": "The 2023 box set deliberately left this and Time Crash un-upscaled. Its one improvement there is audio: earlier releases used an early edit that dropped Murray Gold’s score and the cloister bell.",
+  "ceiling": 576,
   "width": 720,
   "height": 576,
   "vcodec": "HEVC",
@@ -390,8 +387,7 @@
   "size": 60018814,
   "bitrate": 992047,
   "faststart": false,
-  "verdict": "best",
-  "note": "Children in Need skit, shot and shown in SD"
+  "verdict": "best"
  },
  {
   "id": "S01E15",
@@ -402,7 +398,9 @@
   "released": "2005-12-25",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -416,10 +414,8 @@
   "bitrate": 5194431,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.547488524011299,
-  "vsPeers": 1.1277369885711581,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 113
  },
  {
   "id": "S02E01",
@@ -430,7 +426,9 @@
   "released": "2006-04-15",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -444,10 +442,8 @@
   "bitrate": 3902319,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 1.9138020833333333,
-  "vsPeers": 0.847213001290038,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 85
  },
  {
   "id": "S02E02",
@@ -458,7 +454,9 @@
   "released": "2006-04-22",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -472,10 +470,8 @@
   "bitrate": 4430068,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.1726243722536096,
-  "vsPeers": 0.9617899526407134,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 96
  },
  {
   "id": "S02E03",
@@ -486,7 +482,9 @@
   "released": "2006-04-29",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -500,10 +498,8 @@
   "bitrate": 4650965,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.2809581960138106,
-  "vsPeers": 1.0097477977953422,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 101
  },
  {
   "id": "S02E04",
@@ -514,7 +510,9 @@
   "released": "2006-05-06",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -528,10 +526,8 @@
   "bitrate": 4560838,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.2462756107171002,
-  "vsPeers": 0.9943943098680297,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 99
  },
  {
   "id": "S02E05",
@@ -542,7 +538,9 @@
   "released": "2006-05-13",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -556,10 +554,8 @@
   "bitrate": 4186797,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.0620552600472815,
-  "vsPeers": 0.912842577037934,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 91
  },
  {
   "id": "S02E06",
@@ -570,7 +566,9 @@
   "released": "2006-05-20",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -584,10 +582,8 @@
   "bitrate": 3695263,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 1.81225625784683,
-  "vsPeers": 0.8022601065638226,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 80
  },
  {
   "id": "S02E07",
@@ -598,7 +594,9 @@
   "released": "2006-05-27",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -612,10 +610,8 @@
   "bitrate": 4956374,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.441082545311269,
-  "vsPeers": 1.0806325730442181,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 108
  },
  {
   "id": "S02E08",
@@ -626,7 +622,9 @@
   "released": "2006-06-03",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -640,10 +638,8 @@
   "bitrate": 5134697,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.518193365505336,
-  "vsPeers": 1.1147684379685399,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 111
  },
  {
   "id": "S02E09",
@@ -654,7 +650,9 @@
   "released": "2006-06-10",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -668,10 +666,8 @@
   "bitrate": 4250129,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.0932471434200157,
-  "vsPeers": 0.9266507808006114,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 93
  },
  {
   "id": "S02E10",
@@ -682,7 +678,9 @@
   "released": "2006-06-17",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -696,10 +694,8 @@
   "bitrate": 4731295,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.3203541862837413,
-  "vsPeers": 1.0271878431616048,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 103
  },
  {
   "id": "S02E11",
@@ -710,7 +706,9 @@
   "released": "2006-06-24",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -724,10 +722,8 @@
   "bitrate": 5929364,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.9202935382190702,
-  "vsPeers": 1.2927724735533996,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 129
  },
  {
   "id": "S02E12",
@@ -738,7 +734,9 @@
   "released": "2006-07-01",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -752,10 +750,8 @@
   "bitrate": 4557965,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.2448606185973206,
-  "vsPeers": 0.9937679129531971,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 99
  },
  {
   "id": "S02E13",
@@ -766,7 +762,9 @@
   "released": "2006-07-08",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -780,10 +778,8 @@
   "bitrate": 4876217,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.4016041174152876,
-  "vsPeers": 1.0631560337117332,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 106
  },
  {
   "id": "S02E14",
@@ -794,7 +790,9 @@
   "released": "2006-12-25",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -808,10 +806,8 @@
   "bitrate": 6033707,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.97168390464933,
-  "vsPeers": 1.3155222588942865,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 132
  },
  {
   "id": "S03E01",
@@ -822,7 +818,9 @@
   "released": "2007-03-31",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -836,10 +834,8 @@
   "bitrate": 4225783,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.0724375196170746,
-  "vsPeers": 0.9174386558942056,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 92
  },
  {
   "id": "S03E02",
@@ -850,7 +846,9 @@
   "released": "2007-04-07",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -864,10 +862,8 @@
   "bitrate": 4910226,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.4183540189125297,
-  "vsPeers": 1.0705709772120948,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 107
  },
  {
   "id": "S03E03",
@@ -878,7 +874,9 @@
   "released": "2007-04-14",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -892,10 +890,8 @@
   "bitrate": 4863788,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.3954826635145783,
-  "vsPeers": 1.060446153010566,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 106
  },
  {
   "id": "S03E04",
@@ -906,7 +902,9 @@
   "released": "2007-04-21",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -920,10 +918,8 @@
   "bitrate": 4358193,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.1373749411487757,
-  "vsPeers": 0.9461855301248396,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 95
  },
  {
   "id": "S03E05",
@@ -934,7 +930,9 @@
   "released": "2007-04-28",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -948,10 +946,8 @@
   "bitrate": 4730647,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.3299088849487783,
-  "vsPeers": 1.0314175725588728,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 103
  },
  {
   "id": "S03E06",
@@ -962,7 +958,9 @@
   "released": "2007-04-29",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "No better version exists",
+  "best": "1080i Blu-ray (upscaled)",
+  "how": "Made in SD for the CBBC website, then upscaled for the Animated Double Feature Blu-ray of 22 February 2019. This file is 540p.",
+  "ceiling": 1080,
   "width": 960,
   "height": 540,
   "vcodec": "H.264",
@@ -975,8 +973,7 @@
   "size": 598607958,
   "bitrate": 1709063,
   "faststart": false,
-  "verdict": "best",
-  "note": "animated serial, made at 540p for the CBBC website"
+  "verdict": "below"
  },
  {
   "id": "S03E07",
@@ -987,7 +984,9 @@
   "released": "2007-05-05",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1001,10 +1000,8 @@
   "bitrate": 4179295,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.0583604215918045,
-  "vsPeers": 0.9112069245300769,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 91
  },
  {
   "id": "S03E08",
@@ -1015,7 +1012,9 @@
   "released": "2007-05-19",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1029,10 +1028,8 @@
   "bitrate": 4606066,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.2589385200878844,
-  "vsPeers": 1,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 100
  },
  {
   "id": "S03E09",
@@ -1043,7 +1040,9 @@
   "released": "2007-05-26",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1057,10 +1056,8 @@
   "bitrate": 4343285,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.1300636574074074,
-  "vsPeers": 0.9429489286519125,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 94
  },
  {
   "id": "S03E10",
@@ -1071,7 +1068,9 @@
   "released": "2007-06-02",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1085,10 +1084,8 @@
   "bitrate": 3711653,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 1.8280402876280535,
-  "vsPeers": 0.8092474723734107,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 81
  },
  {
   "id": "S03E11",
@@ -1099,7 +1096,9 @@
   "released": "2007-06-09",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1113,10 +1112,8 @@
   "bitrate": 4475922,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.2044533096926715,
-  "vsPeers": 0.9758801711907179,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 98
  },
  {
   "id": "S03E12",
@@ -1127,7 +1124,9 @@
   "released": "2007-06-16",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1141,10 +1140,8 @@
   "bitrate": 4927327,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.4267764972419226,
-  "vsPeers": 1.0742994887472672,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 107
  },
  {
   "id": "S03E13",
@@ -1155,7 +1152,9 @@
   "released": "2007-06-23",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1169,10 +1168,8 @@
   "bitrate": 4495243,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.213969168636722,
-  "vsPeers": 0.9800927067951309,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 98
  },
  {
   "id": "S03E14",
@@ -1183,7 +1180,9 @@
   "released": "2007-06-30",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1197,10 +1196,8 @@
   "bitrate": 4657530,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.2938977541371157,
-  "vsPeers": 1.0154759564009166,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 102
  },
  {
   "id": "S03E15",
@@ -1211,7 +1208,9 @@
   "released": "2007-11-16",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "No better version exists",
+  "best": "576p SD (Blu-ray extra)",
+  "how": "Left un-upscaled on the 2023 box set alongside Born Again. SD is the ceiling.",
+  "ceiling": 576,
   "width": 720,
   "height": 576,
   "vcodec": "HEVC",
@@ -1224,8 +1223,7 @@
   "size": 75193905,
   "bitrate": 1249899,
   "faststart": false,
-  "verdict": "best",
-  "note": "Children in Need skit, shot and shown in SD"
+  "verdict": "best"
  },
  {
   "id": "S03E16",
@@ -1236,7 +1234,9 @@
   "released": "2007-12-25",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1250,10 +1250,8 @@
   "bitrate": 5612618,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.7642917651694248,
-  "vsPeers": 1.2237127042580511,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 122
  },
  {
   "id": "S04E01",
@@ -1264,7 +1262,9 @@
   "released": "2008-04-05",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1278,10 +1278,8 @@
   "bitrate": 5061502,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.492859535066982,
-  "vsPeers": 1.1035535110402195,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 110
  },
  {
   "id": "S04E02",
@@ -1292,7 +1290,9 @@
   "released": "2008-04-12",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1306,10 +1306,8 @@
   "bitrate": 5848280,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.880358550039401,
-  "vsPeers": 1.2750938214676777,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 128
  },
  {
   "id": "S04E03",
@@ -1320,7 +1318,9 @@
   "released": "2008-04-19",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1334,10 +1334,8 @@
   "bitrate": 5655561,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.7736390654425613,
-  "vsPeers": 1.227850621332825,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 123
  },
  {
   "id": "S04E04",
@@ -1348,7 +1346,9 @@
   "released": "2008-04-26",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1362,10 +1362,8 @@
   "bitrate": 5479934,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.687506865976146,
-  "vsPeers": 1.1897211199318465,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S04E05",
@@ -1376,7 +1374,9 @@
   "released": "2008-05-03",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1390,10 +1390,8 @@
   "bitrate": 4997065,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.4611234239558706,
-  "vsPeers": 1.0895043853872217,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 109
  },
  {
   "id": "S04E06",
@@ -1404,7 +1402,9 @@
   "released": "2008-05-10",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1418,10 +1418,8 @@
   "bitrate": 5056664,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.490476753349094,
-  "vsPeers": 1.102498687415451,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 110
  },
  {
   "id": "S04E07",
@@ -1432,7 +1430,9 @@
   "released": "2008-05-17",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1446,10 +1446,8 @@
   "bitrate": 5640483,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.778015661938534,
-  "vsPeers": 1.2297880784424602,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 123
  },
  {
   "id": "S04E08",
@@ -1460,7 +1458,9 @@
   "released": "2008-05-31",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1888,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1474,10 +1474,8 @@
   "bitrate": 4232394,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.075679731638418,
-  "vsPeers": 0.9188739371081526,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 92
  },
  {
   "id": "S04E09",
@@ -1488,7 +1486,9 @@
   "released": "2008-06-07",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1502,10 +1502,8 @@
   "bitrate": 4682190,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.306043144208038,
-  "vsPeers": 1.0208525480889674,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 102
  },
  {
   "id": "S04E10",
@@ -1516,7 +1514,9 @@
   "released": "2008-06-14",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1530,10 +1530,8 @@
   "bitrate": 4369400,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.15198975571316,
-  "vsPeers": 0.9526553009638511,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 95
  },
  {
   "id": "S04E11",
@@ -1544,7 +1542,9 @@
   "released": "2008-06-21",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1558,10 +1558,8 @@
   "bitrate": 5471093,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.6945887509850275,
-  "vsPeers": 1.1928561698439646,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S04E12",
@@ -1572,7 +1570,9 @@
   "released": "2008-06-28",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1586,10 +1586,8 @@
   "bitrate": 5328462,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.6243410165484633,
-  "vsPeers": 1.161758495510698,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 116
  },
  {
   "id": "S04E13",
@@ -1600,7 +1598,9 @@
   "released": "2008-07-05",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1614,10 +1614,8 @@
   "bitrate": 4823289,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.3755363475177305,
-  "vsPeers": 1.051616202208686,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 105
  },
  {
   "id": "S04E14",
@@ -1628,7 +1626,9 @@
   "released": "2008-07-27",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "No better version exists",
+  "best": "576p SD (DVD extra)",
+  "how": "Shot for the 2008 Proms in SD and released as a bonus feature with The Next Doctor. No HD version.",
+  "ceiling": 576,
   "width": 720,
   "height": 576,
   "vcodec": "H.264",
@@ -1641,8 +1641,7 @@
   "size": 56270063,
   "bitrate": 1253863,
   "faststart": false,
-  "verdict": "best",
-  "note": "Proms segment, shot and shown in SD"
+  "verdict": "best"
  },
  {
   "id": "S04E15",
@@ -1653,7 +1652,9 @@
   "released": "2008-12-25",
   "era": "sd",
   "eraLabel": "SD master",
-  "best": "Upscaled 1080p (BBC Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Upscaled from the SD master for the box set of 27 November 2023. No HD original exists.",
+  "ceiling": 1080,
   "width": 1880,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1667,10 +1668,8 @@
   "bitrate": 5134514,
   "faststart": false,
   "verdict": "best",
-  "note": "Made in SD, so every 1080p version is an upscale. This is as good as it gets",
   "bpp": 2.528818951930654,
-  "vsPeers": 1.1194722341678736,
-  "peerGroup": "sd HEVC"
+  "vsPeers": 112
  },
  {
   "id": "S04E16",
@@ -1681,7 +1680,9 @@
   "released": "2009-04-11",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1695,10 +1696,8 @@
   "bitrate": 4624118,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.229995177469136,
-  "vsPeers": 1.1589008942594456,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 116
  },
  {
   "id": "S04E17",
@@ -1709,7 +1708,9 @@
   "released": "2009-11-15",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1723,10 +1724,8 @@
   "bitrate": 4301395,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.074361014660494,
-  "vsPeers": 1.0780197460495402,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 108
  },
  {
   "id": "S04E18",
@@ -1737,7 +1736,9 @@
   "released": "2009-11-21",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "No better version exists",
+  "best": "1080i Blu-ray (native HD)",
+  "how": "Produced in HD, unlike The Infinite Quest, and released at that resolution on the 2019 Animated Double Feature Blu-ray. This file is 720p.",
+  "ceiling": 1080,
   "width": 1280,
   "height": 720,
   "vcodec": "H.264",
@@ -1750,8 +1751,7 @@
   "size": 1716777454,
   "bitrate": 5198339,
   "faststart": false,
-  "verdict": "best",
-  "note": "animated serial, made at 720p for the BBC Red Button"
+  "verdict": "below"
  },
  {
   "id": "S04E19",
@@ -1762,7 +1762,9 @@
   "released": "2009-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1776,10 +1778,8 @@
   "bitrate": 4445896,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.1440470679012344,
-  "vsPeers": 1.1142347254513167,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 111
  },
  {
   "id": "S04E20",
@@ -1790,7 +1790,9 @@
   "released": "2010-01-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1804,10 +1806,8 @@
   "bitrate": 4793356,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.311610725308642,
-  "vsPeers": 1.2013154843591531,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 120
  },
  {
   "id": "S05E01",
@@ -1818,7 +1818,9 @@
   "released": "2010-04-03",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1832,10 +1834,8 @@
   "bitrate": 4994984,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.408846450617284,
-  "vsPeers": 1.251847687366893,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 125
  },
  {
   "id": "S05E02",
@@ -1846,7 +1846,9 @@
   "released": "2010-04-04",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1859,8 +1861,7 @@
   "size": 67034029,
   "bitrate": 2721738,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S05E03",
@@ -1871,7 +1872,9 @@
   "released": "2010-04-10",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1885,10 +1888,8 @@
   "bitrate": 4747698,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.289592013888889,
-  "vsPeers": 1.189872632548257,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E04",
@@ -1899,7 +1900,9 @@
   "released": "2010-04-17",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1913,10 +1916,8 @@
   "bitrate": 4757403,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2942722800925925,
-  "vsPeers": 1.1923049089691415,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E05",
@@ -1927,7 +1928,9 @@
   "released": "2010-04-24",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1941,10 +1944,8 @@
   "bitrate": 4750621,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.291001639660494,
-  "vsPeers": 1.1906051976155672,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E06",
@@ -1955,7 +1956,9 @@
   "released": "2010-05-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1969,10 +1972,8 @@
   "bitrate": 4756681,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2939240933641973,
-  "vsPeers": 1.1921239606357175,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E07",
@@ -1983,7 +1984,9 @@
   "released": "2010-05-02",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -1996,8 +1999,7 @@
   "size": 69559957,
   "bitrate": 2377854,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S05E08",
@@ -2008,7 +2010,9 @@
   "released": "2010-05-08",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2022,10 +2026,8 @@
   "bitrate": 4748092,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2897820216049385,
-  "vsPeers": 1.189971377206663,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E09",
@@ -2036,7 +2038,9 @@
   "released": "2010-05-15",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2050,10 +2054,8 @@
   "bitrate": 4726742,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2794859182098763,
-  "vsPeers": 1.184620619701677,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 118
  },
  {
   "id": "S05E10",
@@ -2064,7 +2066,9 @@
   "released": "2010-05-22",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2078,10 +2082,8 @@
   "bitrate": 4728438,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2803038194444443,
-  "vsPeers": 1.185045672850551,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E11",
@@ -2092,7 +2094,9 @@
   "released": "2010-05-29",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2106,10 +2110,8 @@
   "bitrate": 4738698,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2852517361111113,
-  "vsPeers": 1.1876170439044693,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E12",
@@ -2120,7 +2122,9 @@
   "released": "2010-05-30",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "No better version exists",
+  "best": "576p SD (broadcast)",
+  "how": "A Blue Peter competition winner shown on CBBC in 2012. SD broadcast, no disc release.",
+  "ceiling": 576,
   "width": 720,
   "height": 576,
   "vcodec": "HEVC",
@@ -2133,8 +2137,7 @@
   "size": 16731075,
   "bitrate": 719519,
   "faststart": false,
-  "verdict": "best",
-  "note": "Blue Peter competition winner, shot in SD"
+  "verdict": "best"
  },
  {
   "id": "S05E13",
@@ -2145,7 +2148,9 @@
   "released": "2010-06-05",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2159,10 +2164,8 @@
   "bitrate": 4758227,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2946696566358025,
-  "vsPeers": 1.1925114206405283,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E14",
@@ -2173,7 +2176,9 @@
   "released": "2010-06-12",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2187,10 +2192,8 @@
   "bitrate": 4730832,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.281458333333333,
-  "vsPeers": 1.1856456594297984,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E15",
@@ -2201,7 +2204,9 @@
   "released": "2010-06-19",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2215,10 +2220,8 @@
   "bitrate": 4736532,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.284207175925926,
-  "vsPeers": 1.1870741989041975,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E16",
@@ -2229,7 +2232,9 @@
   "released": "2010-06-26",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2243,10 +2248,8 @@
   "bitrate": 4729186,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2806645447530864,
-  "vsPeers": 1.1852331373289458,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S05E17",
@@ -2257,7 +2260,9 @@
   "released": "2010-06-27",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -2270,8 +2275,7 @@
   "size": 148582788,
   "bitrate": 5241778,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S05E18",
@@ -2282,7 +2286,9 @@
   "released": "2010-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2296,10 +2302,8 @@
   "bitrate": 4736320,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.284104938271605,
-  "vsPeers": 1.1870210672605883,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 119
  },
  {
   "id": "S06E01",
@@ -2310,7 +2314,9 @@
   "released": "2011-03-18",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2323,8 +2329,7 @@
   "size": 117691154,
   "bitrate": 3955756,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E02",
@@ -2335,7 +2340,9 @@
   "released": "2011-03-18",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2348,8 +2355,7 @@
   "size": 109510861,
   "bitrate": 4761342,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E03",
@@ -2360,7 +2366,9 @@
   "released": "2011-03-22",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2373,8 +2381,7 @@
   "size": 14893839,
   "bitrate": 1156612,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E04",
@@ -2385,7 +2392,9 @@
   "released": "2011-04-23",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2399,10 +2408,8 @@
   "bitrate": 5121813,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.470010127314815,
-  "vsPeers": 1.2836336931561119,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 128
  },
  {
   "id": "S06E05",
@@ -2413,7 +2420,9 @@
   "released": "2011-04-30",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2427,10 +2436,8 @@
   "bitrate": 5859729,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.825872395833333,
-  "vsPeers": 1.4685709097860404,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 147
  },
  {
   "id": "S06E06",
@@ -2441,7 +2448,9 @@
   "released": "2011-04-30",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2454,8 +2463,7 @@
   "size": 16776194,
   "bitrate": 1560304,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E07",
@@ -2466,7 +2474,9 @@
   "released": "2011-05-07",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2480,10 +2490,8 @@
   "bitrate": 4838166,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.333220486111111,
-  "vsPeers": 1.2125458095956125,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 121
  },
  {
   "id": "S06E08",
@@ -2494,7 +2502,9 @@
   "released": "2011-05-08",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2507,8 +2517,7 @@
   "size": 100872426,
   "bitrate": 3718765,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E09",
@@ -2519,7 +2528,9 @@
   "released": "2011-05-14",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2533,10 +2544,8 @@
   "bitrate": 4825772,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.3272434413580245,
-  "vsPeers": 1.2094396134121561,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 121
  },
  {
   "id": "S06E10",
@@ -2547,7 +2556,9 @@
   "released": "2011-05-15",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2560,8 +2571,7 @@
   "size": 145782834,
   "bitrate": 4007390,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E11",
@@ -2572,7 +2582,9 @@
   "released": "2011-05-21",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2586,10 +2598,8 @@
   "bitrate": 4695719,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2645249807098766,
-  "vsPeers": 1.1768456056465404,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 118
  },
  {
   "id": "S06E12",
@@ -2600,7 +2610,9 @@
   "released": "2011-05-28",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2614,10 +2626,8 @@
   "bitrate": 5380343,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.5946870177469137,
-  "vsPeers": 1.34842673005372,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 135
  },
  {
   "id": "S06E13",
@@ -2628,7 +2638,9 @@
   "released": "2011-05-28",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2641,8 +2653,7 @@
   "size": 19970518,
   "bitrate": 1629831,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E14",
@@ -2653,7 +2664,9 @@
   "released": "2011-06-04",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2667,10 +2680,8 @@
   "bitrate": 4507444,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.1737287808641974,
-  "vsPeers": 1.1296599443233004,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 113
  },
  {
   "id": "S06E15",
@@ -2681,7 +2692,9 @@
   "released": "2011-08-15",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2694,8 +2707,7 @@
   "size": 27031038,
   "bitrate": 1832721,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E16",
@@ -2706,7 +2718,9 @@
   "released": "2011-08-27",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2720,10 +2734,8 @@
   "bitrate": 4891023,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.3587109375,
-  "vsPeers": 1.2257928817005785,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 123
  },
  {
   "id": "S06E17",
@@ -2734,7 +2746,9 @@
   "released": "2011-09-03",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2748,10 +2762,8 @@
   "bitrate": 4493958,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.1672251157407407,
-  "vsPeers": 1.1262800700510647,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 113
  },
  {
   "id": "S06E18",
@@ -2762,7 +2774,9 @@
   "released": "2011-09-04",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2775,8 +2789,7 @@
   "size": 39123554,
   "bitrate": 2318141,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E19",
@@ -2787,7 +2800,9 @@
   "released": "2011-09-04",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2800,8 +2815,7 @@
   "size": 62327581,
   "bitrate": 2329851,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E20",
@@ -2812,7 +2826,9 @@
   "released": "2011-09-10",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2826,10 +2842,8 @@
   "bitrate": 3913257,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.8871802662037036,
-  "vsPeers": 0.9807442277137034,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 98
  },
  {
   "id": "S06E21",
@@ -2840,7 +2854,9 @@
   "released": "2011-09-17",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2854,10 +2870,8 @@
   "bitrate": 4277994,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.063075810185185,
-  "vsPeers": 1.0721549649547313,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 107
  },
  {
   "id": "S06E22",
@@ -2868,7 +2882,9 @@
   "released": "2011-09-18",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2881,8 +2897,7 @@
   "size": 27932209,
   "bitrate": 1926193,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E23",
@@ -2893,7 +2908,9 @@
   "released": "2011-09-24",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2907,10 +2924,8 @@
   "bitrate": 4874998,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.3509828317901236,
-  "vsPeers": 1.221776680809834,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 122
  },
  {
   "id": "S06E24",
@@ -2921,7 +2936,9 @@
   "released": "2011-09-24",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2934,8 +2951,7 @@
   "size": 21035612,
   "bitrate": 2273352,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E25",
@@ -2946,7 +2962,9 @@
   "released": "2011-10-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2960,10 +2978,8 @@
   "bitrate": 4822029,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.3254383680555555,
-  "vsPeers": 1.2085015391573009,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 121
  },
  {
   "id": "S06E26",
@@ -2974,7 +2990,9 @@
   "released": "2011-12-06",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -2987,8 +3005,7 @@
   "size": 30340554,
   "bitrate": 2762313,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S06E27",
@@ -2999,7 +3016,9 @@
   "released": "2011-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3013,10 +3032,8 @@
   "bitrate": 3903244,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.8823514660493827,
-  "vsPeers": 0.9782347600370093,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 98
  },
  {
   "id": "S07E01",
@@ -3027,7 +3044,9 @@
   "released": "2012-08-27",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3040,8 +3059,7 @@
   "size": 121688141,
   "bitrate": 2616738,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E02",
@@ -3052,7 +3070,9 @@
   "released": "2012-09-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3065,8 +3085,7 @@
   "size": 40354825,
   "bitrate": 2082467,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E03",
@@ -3077,7 +3096,9 @@
   "released": "2012-09-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3091,10 +3112,8 @@
   "bitrate": 3247535,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5661337770061727,
-  "vsPeers": 0.8139003407003991,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 81
  },
  {
   "id": "S07E04",
@@ -3105,7 +3124,9 @@
   "released": "2012-09-02",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3118,8 +3139,7 @@
   "size": 45978248,
   "bitrate": 3198904,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E05",
@@ -3130,7 +3150,9 @@
   "released": "2012-09-08",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3144,10 +3166,8 @@
   "bitrate": 4648201,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2416092785493826,
-  "vsPeers": 1.1649365988492613,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 116
  },
  {
   "id": "S07E06",
@@ -3158,7 +3178,9 @@
   "released": "2012-09-08",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3171,8 +3193,7 @@
   "size": 20738674,
   "bitrate": 1564814,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E07",
@@ -3183,7 +3204,9 @@
   "released": "2012-09-15",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3197,10 +3220,8 @@
   "bitrate": 5916836,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.853412422839506,
-  "vsPeers": 1.4828831209727953,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 148
  },
  {
   "id": "S07E08",
@@ -3211,7 +3232,9 @@
   "released": "2012-09-22",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3225,10 +3248,8 @@
   "bitrate": 4422052,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.132548225308642,
-  "vsPeers": 1.1082589192710413,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 111
  },
  {
   "id": "S07E09",
@@ -3239,7 +3260,9 @@
   "released": "2012-09-29",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3253,10 +3276,8 @@
   "bitrate": 3847606,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.8555198688271606,
-  "vsPeers": 0.9642907110411127,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 96
  },
  {
   "id": "S07E10",
@@ -3267,7 +3288,9 @@
   "released": "2012-10-12",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "No better version exists",
+  "best": "Web upload (storyboard)",
+  "how": "Never filmed. Released as narrated storyboards on the BBC site and YouTube, which is the only version there has ever been.",
+  "ceiling": 480,
   "width": 854,
   "height": 480,
   "vcodec": "H.264",
@@ -3280,8 +3303,7 @@
   "size": 8915242,
   "bitrate": 256199,
   "faststart": false,
-  "verdict": "best",
-  "note": "unfilmed scene released as a webcast"
+  "verdict": "best"
  },
  {
   "id": "S07E11",
@@ -3292,7 +3314,9 @@
   "released": "2012-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3305,8 +3329,7 @@
   "size": 72419442,
   "bitrate": 3368170,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E12",
@@ -3317,7 +3340,9 @@
   "released": "2012-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3330,8 +3355,7 @@
   "size": 50011907,
   "bitrate": 2027092,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E13",
@@ -3342,7 +3366,9 @@
   "released": "2012-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3355,8 +3381,7 @@
   "size": 41379614,
   "bitrate": 2221545,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E14",
@@ -3367,7 +3392,9 @@
   "released": "2012-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3381,10 +3408,8 @@
   "bitrate": 4636401,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2359186921296295,
-  "vsPeers": 1.1619792715162949,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 116
  },
  {
   "id": "S07E15",
@@ -3395,7 +3420,9 @@
   "released": "2013-03-23",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3408,8 +3435,7 @@
   "size": 58419623,
   "bitrate": 2976569,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E16",
@@ -3420,7 +3446,9 @@
   "released": "2013-03-30",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3434,10 +3462,8 @@
   "bitrate": 4599484,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2181153549382717,
-  "vsPeers": 1.1527270975204378,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 115
  },
  {
   "id": "S07E17",
@@ -3448,7 +3474,9 @@
   "released": "2013-04-06",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3462,10 +3490,8 @@
   "bitrate": 4779230,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.3047984182098764,
-  "vsPeers": 1.1977752126722478,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 120
  },
  {
   "id": "S07E18",
@@ -3476,7 +3502,9 @@
   "released": "2013-04-07",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3489,8 +3517,7 @@
   "size": 78124620,
   "bitrate": 6314057,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E19",
@@ -3501,7 +3528,9 @@
   "released": "2013-04-13",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3515,10 +3544,8 @@
   "bitrate": 3927078,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.8938454861111111,
-  "vsPeers": 0.9842080600076804,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 98
  },
  {
   "id": "S07E20",
@@ -3529,7 +3556,9 @@
   "released": "2013-04-20",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3543,10 +3572,8 @@
   "bitrate": 5086712,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.453082561728395,
-  "vsPeers": 1.2748366468243788,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 127
  },
  {
   "id": "S07E21",
@@ -3557,7 +3584,9 @@
   "released": "2013-04-27",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3571,10 +3600,8 @@
   "bitrate": 5136936,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.4773032407407407,
-  "vsPeers": 1.2874238339405566,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 129
  },
  {
   "id": "S07E22",
@@ -3585,7 +3612,9 @@
   "released": "2013-04-28",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3598,8 +3627,7 @@
   "size": 28295561,
   "bitrate": 1782748,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E23",
@@ -3610,7 +3638,9 @@
   "released": "2013-05-04",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3624,10 +3654,8 @@
   "bitrate": 8439195,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 4.069827835648148,
-  "vsPeers": 2.115039156079028,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 212
  },
  {
   "id": "S07E24",
@@ -3638,7 +3666,9 @@
   "released": "2013-05-11",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3652,10 +3682,8 @@
   "bitrate": 3620716,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.7461014660493828,
-  "vsPeers": 0.907427321331221,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 91
  },
  {
   "id": "S07E25",
@@ -3666,7 +3694,9 @@
   "released": "2013-05-18",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3679,8 +3709,7 @@
   "size": 28203396,
   "bitrate": 1721977,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E26",
@@ -3691,7 +3720,9 @@
   "released": "2013-05-18",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3704,8 +3735,7 @@
   "size": 54562054,
   "bitrate": 2059062,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E27",
@@ -3716,7 +3746,9 @@
   "released": "2013-05-18",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3730,10 +3762,8 @@
   "bitrate": 4561806,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.1999450231481483,
-  "vsPeers": 1.1432842009737,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 114
  },
  {
   "id": "S07E28",
@@ -3744,7 +3774,9 @@
   "released": "2013-11-14",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3757,8 +3789,7 @@
   "size": 119226710,
   "bitrate": 2221840,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E29",
@@ -3769,7 +3800,9 @@
   "released": "2013-11-21",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3782,8 +3815,7 @@
   "size": 190641023,
   "bitrate": 6559409,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S07E30",
@@ -3794,7 +3826,9 @@
   "released": "2013-11-23",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3808,10 +3842,8 @@
   "bitrate": 5121564,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.4698900462962965,
-  "vsPeers": 1.283571288536967,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 128
  },
  {
   "id": "S07E31",
@@ -3822,7 +3854,9 @@
   "released": "2013-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3836,10 +3870,8 @@
   "bitrate": 3538022,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.7062220293209878,
-  "vsPeers": 0.8867024716301772,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 89
  },
  {
   "id": "S08E01",
@@ -3850,7 +3882,9 @@
   "released": "2014-08-18",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3863,8 +3897,7 @@
   "size": 304773525,
   "bitrate": 6462560,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S08E02",
@@ -3875,7 +3908,9 @@
   "released": "2014-08-23",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3889,10 +3924,8 @@
   "bitrate": 3272994,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5784114583333333,
-  "vsPeers": 0.8202808997317541,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 82
  },
  {
   "id": "S08E03",
@@ -3903,7 +3936,9 @@
   "released": "2014-08-30",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3917,10 +3952,8 @@
   "bitrate": 4008164,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.9329494598765433,
-  "vsPeers": 1.0045299112043673,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 100
  },
  {
   "id": "S08E04",
@@ -3931,7 +3964,9 @@
   "released": "2014-09-06",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3945,10 +3980,8 @@
   "bitrate": 5281280,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.5469135802469136,
-  "vsPeers": 1.323599465851547,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 132
  },
  {
   "id": "S08E05",
@@ -3959,7 +3992,9 @@
   "released": "2014-09-13",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Right resolution, but 27% under the median bits per pixel for HEVC episodes of its era. Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -3973,11 +4008,8 @@
   "bitrate": 2931455,
   "faststart": false,
   "verdict": "thin",
-  "note": "27% under the median for HEVC episodes of its era",
   "bpp": 1.4137032214506173,
-  "vsPeers": 0.7346840675305697,
-  "peerGroup": "hd HEVC",
-  "thin": true
+  "vsPeers": 73
  },
  {
   "id": "S08E06",
@@ -3988,7 +4020,9 @@
   "released": "2014-09-20",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4002,10 +4036,8 @@
   "bitrate": 3479102,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.6778076774691357,
-  "vsPeers": 0.8719358846421794,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 87
  },
  {
   "id": "S08E07",
@@ -4016,7 +4048,9 @@
   "released": "2014-09-27",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4030,10 +4064,8 @@
   "bitrate": 3811881,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.8382913773148148,
-  "vsPeers": 0.955337277230077,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 96
  },
  {
   "id": "S08E08",
@@ -4044,7 +4076,9 @@
   "released": "2014-10-04",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4058,10 +4092,8 @@
   "bitrate": 3717371,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.792713638117284,
-  "vsPeers": 0.9316510902607004,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 93
  },
  {
   "id": "S08E09",
@@ -4072,7 +4104,9 @@
   "released": "2014-10-11",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4086,10 +4120,8 @@
   "bitrate": 3304033,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.593380111882716,
-  "vsPeers": 0.8280599237222576,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 83
  },
  {
   "id": "S08E10",
@@ -4100,7 +4132,9 @@
   "released": "2014-10-18",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4114,10 +4148,8 @@
   "bitrate": 3663073,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.7665282600308643,
-  "vsPeers": 0.9180428733517678,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 92
  },
  {
   "id": "S08E11",
@@ -4128,7 +4160,9 @@
   "released": "2014-10-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4142,10 +4176,8 @@
   "bitrate": 5668856,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.7338233024691356,
-  "vsPeers": 1.4207341352076273,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 142
  },
  {
   "id": "S08E12",
@@ -4156,7 +4188,9 @@
   "released": "2014-11-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4170,10 +4204,8 @@
   "bitrate": 3242997,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5639453125,
-  "vsPeers": 0.8127630227820093,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 81
  },
  {
   "id": "S08E13",
@@ -4184,7 +4216,9 @@
   "released": "2014-11-08",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4198,10 +4232,8 @@
   "bitrate": 3196582,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5415615354938272,
-  "vsPeers": 0.8011304509040744,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 80
  },
  {
   "id": "S08E14",
@@ -4212,7 +4244,9 @@
   "released": "2014-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4226,10 +4260,8 @@
   "bitrate": 4161271,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.006785783179012,
-  "vsPeers": 1.0429017345915257,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 104
  },
  {
   "id": "S09E01",
@@ -4240,7 +4272,9 @@
   "released": "2015-09-11",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4253,8 +4287,7 @@
   "size": 14212457,
   "bitrate": 927388,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S09E02",
@@ -4265,7 +4298,9 @@
   "released": "2015-09-15",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4278,8 +4313,7 @@
   "size": 99109469,
   "bitrate": 1985172,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S09E03",
@@ -4290,7 +4324,9 @@
   "released": "2015-09-19",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4304,10 +4340,8 @@
   "bitrate": 3063619,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.4774397183641976,
-  "vsPeers": 0.7678071361436339,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 77
  },
  {
   "id": "S09E04",
@@ -4318,7 +4352,9 @@
   "released": "2015-09-26",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4332,10 +4368,8 @@
   "bitrate": 3316219,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5992568479938272,
-  "vsPeers": 0.8311139907459464,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 83
  },
  {
   "id": "S09E05",
@@ -4346,7 +4380,9 @@
   "released": "2015-10-03",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4359,12 +4395,9 @@
   "size": 969628974,
   "bitrate": 2983304,
   "faststart": false,
-  "verdict": "thin",
-  "note": "25% under the median for HEVC episodes of its era",
+  "verdict": "best",
   "bpp": 1.438707561728395,
-  "vsPeers": 0.7476785137074315,
-  "peerGroup": "hd HEVC",
-  "thin": true
+  "vsPeers": 75
  },
  {
   "id": "S09E06",
@@ -4375,7 +4408,9 @@
   "released": "2015-10-10",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Right resolution, but 32% under the median bits per pixel for HEVC episodes of its era. Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4389,11 +4424,8 @@
   "bitrate": 2712399,
   "faststart": false,
   "verdict": "thin",
-  "note": "32% under the median for HEVC episodes of its era",
   "bpp": 1.308062789351852,
-  "vsPeers": 0.679784042424615,
-  "peerGroup": "hd HEVC",
-  "thin": true
+  "vsPeers": 68
  },
  {
   "id": "S09E07",
@@ -4404,7 +4436,9 @@
   "released": "2015-10-17",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4418,10 +4452,8 @@
   "bitrate": 4070986,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.963245563271605,
-  "vsPeers": 1.0202744211799273,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 102
  },
  {
   "id": "S09E08",
@@ -4432,7 +4464,9 @@
   "released": "2015-10-24",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4446,10 +4480,8 @@
   "bitrate": 3112505,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5010151427469136,
-  "vsPeers": 0.7800589924147687,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 78
  },
  {
   "id": "S09E09",
@@ -4460,7 +4492,9 @@
   "released": "2015-10-31",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4474,10 +4508,8 @@
   "bitrate": 3325329,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.603650173611111,
-  "vsPeers": 0.8333971476953805,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 83
  },
  {
   "id": "S09E10",
@@ -4488,7 +4520,9 @@
   "released": "2015-11-07",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4502,10 +4536,8 @@
   "bitrate": 3225082,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.55530574845679,
-  "vsPeers": 0.8082731482760692,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 81
  },
  {
   "id": "S09E11",
@@ -4516,7 +4548,9 @@
   "released": "2015-11-14",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Right resolution, but 26% under the median bits per pixel for HEVC episodes of its era. Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4530,11 +4564,8 @@
   "bitrate": 2968656,
   "faststart": false,
   "verdict": "thin",
-  "note": "26% under the median for HEVC episodes of its era",
   "bpp": 1.4316435185185186,
-  "vsPeers": 0.7440074178791866,
-  "peerGroup": "hd HEVC",
-  "thin": true
+  "vsPeers": 74
  },
  {
   "id": "S09E12",
@@ -4545,7 +4576,9 @@
   "released": "2015-11-21",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4559,10 +4592,8 @@
   "bitrate": 3271612,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5777449845679012,
-  "vsPeers": 0.8199345415644526,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 82
  },
  {
   "id": "S09E13",
@@ -4573,7 +4604,9 @@
   "released": "2015-11-28",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4587,10 +4620,8 @@
   "bitrate": 3019556,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.456190200617284,
-  "vsPeers": 0.756764024764609,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 76
  },
  {
   "id": "S09E14",
@@ -4601,7 +4632,9 @@
   "released": "2015-12-05",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4615,10 +4648,8 @@
   "bitrate": 3046917,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.4693851273148149,
-  "vsPeers": 0.7636212648626846,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 76
  },
  {
   "id": "S09E15",
@@ -4629,7 +4660,9 @@
   "released": "2015-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4643,10 +4676,8 @@
   "bitrate": 3748644,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.8077951388888889,
-  "vsPeers": 0.9394887595559422,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 94
  },
  {
   "id": "S09E16",
@@ -4657,7 +4688,9 @@
   "released": "2016-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4671,10 +4704,8 @@
   "bitrate": 3826031,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.8451152584876542,
-  "vsPeers": 0.9588835638200324,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 96
  },
  {
   "id": "S10E01",
@@ -4685,7 +4716,9 @@
   "released": "2017-04-14",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -4698,8 +4731,7 @@
   "size": 49996075,
   "bitrate": 3219659,
   "faststart": false,
-  "verdict": "best",
-  "note": "Native HD at full frame height"
+  "verdict": "best"
  },
  {
   "id": "S10E02",
@@ -4710,7 +4742,9 @@
   "released": "2017-04-15",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4724,10 +4758,8 @@
   "bitrate": 3592307,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.732401138117284,
-  "vsPeers": 0.9003074304666243,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 90
  },
  {
   "id": "S10E03",
@@ -4738,7 +4770,9 @@
   "released": "2017-04-22",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4752,10 +4786,8 @@
   "bitrate": 3972713,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.9158531057098764,
-  "vsPeers": 0.9956451475364868,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 100
  },
  {
   "id": "S10E04",
@@ -4766,7 +4798,9 @@
   "released": "2017-04-29",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4780,10 +4814,8 @@
   "bitrate": 3290937,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.587064525462963,
-  "vsPeers": 0.8247777916245859,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 82
  },
  {
   "id": "S10E05",
@@ -4794,7 +4826,9 @@
   "released": "2017-05-06",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Right resolution, but 33% under the median bits per pixel for HEVC episodes of its era. Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4808,11 +4842,8 @@
   "bitrate": 2692901,
   "faststart": false,
   "verdict": "thin",
-  "note": "33% under the median for HEVC episodes of its era",
   "bpp": 1.2986598186728395,
-  "vsPeers": 0.6748974349383288,
-  "peerGroup": "hd HEVC",
-  "thin": true
+  "vsPeers": 67
  },
  {
   "id": "S10E06",
@@ -4823,7 +4854,9 @@
   "released": "2017-05-13",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4837,10 +4870,8 @@
   "bitrate": 3634604,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.7527989969135802,
-  "vsPeers": 0.910907945229546,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 91
  },
  {
   "id": "S10E07",
@@ -4851,7 +4882,9 @@
   "released": "2017-05-20",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4865,10 +4898,8 @@
   "bitrate": 3102889,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.4963777970679013,
-  "vsPeers": 0.7776490212593616,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 78
  },
  {
   "id": "S10E08",
@@ -4879,7 +4910,9 @@
   "released": "2017-05-27",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4893,10 +4926,8 @@
   "bitrate": 3158589,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5232392939814814,
-  "vsPeers": 0.7916086087548041,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 79
  },
  {
   "id": "S10E09",
@@ -4907,7 +4938,9 @@
   "released": "2017-06-03",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Right resolution, but 27% under the median bits per pixel for HEVC episodes of its era. Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4921,11 +4954,8 @@
   "bitrate": 2930371,
   "faststart": false,
   "verdict": "thin",
-  "note": "27% under the median for HEVC episodes of its era",
   "bpp": 1.4131804591049382,
-  "vsPeers": 0.7344123944094734,
-  "peerGroup": "hd HEVC",
-  "thin": true
+  "vsPeers": 73
  },
  {
   "id": "S10E10",
@@ -4936,7 +4966,9 @@
   "released": "2017-06-10",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4950,10 +4982,8 @@
   "bitrate": 3322628,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.6023476080246914,
-  "vsPeers": 0.8327202204812838,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 83
  },
  {
   "id": "S10E11",
@@ -4964,7 +4994,9 @@
   "released": "2017-06-17",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -4978,10 +5010,8 @@
   "bitrate": 3126742,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5078809799382715,
-  "vsPeers": 0.7836270830282807,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 78
  },
  {
   "id": "S10E12",
@@ -4992,7 +5022,9 @@
   "released": "2017-06-24",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -5006,10 +5038,8 @@
   "bitrate": 3289455,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5863498263888889,
-  "vsPeers": 0.8244063713612422,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 82
  },
  {
   "id": "S10E13",
@@ -5020,7 +5050,9 @@
   "released": "2017-07-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -5034,10 +5066,8 @@
   "bitrate": 4589287,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2131978202160494,
-  "vsPeers": 1.150171515587026,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 115
  },
  {
   "id": "S10E14",
@@ -5048,7 +5078,9 @@
   "released": "2017-12-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "HEVC",
@@ -5062,10 +5094,8 @@
   "bitrate": 4407369,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.125467303240741,
-  "vsPeers": 1.1045790517091818,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 110
  },
  {
   "id": "S11E01",
@@ -5076,7 +5106,9 @@
   "released": "2018-10-07",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5090,10 +5122,8 @@
   "bitrate": 3075058,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.6683257378472223,
-  "vsPeers": 0.8670082379736244,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 87
  },
  {
   "id": "S11E02",
@@ -5104,7 +5134,9 @@
   "released": "2018-10-14",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5118,10 +5150,8 @@
   "bitrate": 3904798,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.118488498263889,
-  "vsPeers": 1.1009522531356912,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 110
  },
  {
   "id": "S11E03",
@@ -5132,7 +5162,9 @@
   "released": "2018-10-21",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5146,10 +5178,8 @@
   "bitrate": 3473010,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.884228515625,
-  "vsPeers": 0.9792102394702074,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 98
  },
  {
   "id": "S11E04",
@@ -5160,7 +5190,9 @@
   "released": "2018-10-28",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5174,10 +5206,8 @@
   "bitrate": 3111924,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.6883268229166666,
-  "vsPeers": 0.8774025543413596,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 88
  },
  {
   "id": "S11E05",
@@ -5188,7 +5218,9 @@
   "released": "2018-11-04",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5202,10 +5234,8 @@
   "bitrate": 3993024,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.166354166666667,
-  "vsPeers": 1.1258274485965447,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 113
  },
  {
   "id": "S11E06",
@@ -5216,7 +5246,9 @@
   "released": "2018-11-11",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5230,10 +5262,8 @@
   "bitrate": 3873381,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.1014436848958336,
-  "vsPeers": 1.0920942745829558,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 109
  },
  {
   "id": "S11E07",
@@ -5244,7 +5274,9 @@
   "released": "2018-11-18",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5258,10 +5290,8 @@
   "bitrate": 4631585,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.512795681423611,
-  "vsPeers": 1.3058688160922716,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 131
  },
  {
   "id": "S11E08",
@@ -5272,7 +5302,9 @@
   "released": "2018-11-25",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5286,10 +5318,8 @@
   "bitrate": 4179500,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.2675238715277777,
-  "vsPeers": 1.1784040920889176,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 118
  },
  {
   "id": "S11E09",
@@ -5300,7 +5330,9 @@
   "released": "2018-12-02",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5314,10 +5346,8 @@
   "bitrate": 3561094,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.9320171440972222,
-  "vsPeers": 1.0040453982326336,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 100
  },
  {
   "id": "S11E10",
@@ -5328,7 +5358,9 @@
   "released": "2018-12-09",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5342,10 +5374,8 @@
   "bitrate": 3370840,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.8287977430555555,
-  "vsPeers": 0.9504035530032318,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 95
  },
  {
   "id": "S11E11",
@@ -5356,7 +5386,9 @@
   "released": "2019-01-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5370,10 +5402,8 @@
   "bitrate": 2882977,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.5641151258680555,
-  "vsPeers": 0.8128512726876974,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 81
  },
  {
   "id": "S12E01",
@@ -5384,7 +5414,9 @@
   "released": "2020-01-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5398,10 +5430,8 @@
   "bitrate": 3596118,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.9510188802083333,
-  "vsPeers": 1.0139203653151367,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 101
  },
  {
   "id": "S12E02",
@@ -5412,7 +5442,9 @@
   "released": "2020-01-05",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5426,10 +5458,8 @@
   "bitrate": 3318421,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.8003586154513889,
-  "vsPeers": 0.9356240903633922,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 94
  },
  {
   "id": "S12E03",
@@ -5440,7 +5470,9 @@
   "released": "2020-01-12",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5454,10 +5486,8 @@
   "bitrate": 4678640,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.538324652777778,
-  "vsPeers": 1.3191359065464514,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 132
  },
  {
   "id": "S12E04",
@@ -5468,7 +5498,9 @@
   "released": "2020-01-19",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5482,10 +5514,8 @@
   "bitrate": 2918012,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.583122829861111,
-  "vsPeers": 0.8227293412045859,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 82
  },
  {
   "id": "S12E05",
@@ -5496,7 +5526,9 @@
   "released": "2020-01-26",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5510,10 +5542,8 @@
   "bitrate": 3042676,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.6507573784722223,
-  "vsPeers": 0.857878179040732,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 86
  },
  {
   "id": "S12E06",
@@ -5524,7 +5554,9 @@
   "released": "2020-02-02",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5538,10 +5570,8 @@
   "bitrate": 3600330,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.9533040364583334,
-  "vsPeers": 1.015107932736091,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 102
  },
  {
   "id": "S12E07",
@@ -5552,7 +5582,9 @@
   "released": "2020-02-09",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5566,10 +5598,8 @@
   "bitrate": 3027265,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.6423963758680555,
-  "vsPeers": 0.8535330694670552,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 85
  },
  {
   "id": "S12E08",
@@ -5580,7 +5610,9 @@
   "released": "2020-02-16",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5594,10 +5626,8 @@
   "bitrate": 3546746,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.9242328559027777,
-  "vsPeers": 1,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 100
  },
  {
   "id": "S12E09",
@@ -5608,7 +5638,9 @@
   "released": "2020-02-23",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5622,10 +5654,8 @@
   "bitrate": 3761960,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.040993923611111,
-  "vsPeers": 1.06067928179802,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 106
  },
  {
   "id": "S12E10",
@@ -5636,7 +5666,9 @@
   "released": "2020-03-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5650,10 +5682,8 @@
   "bitrate": 3416988,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.8538346354166666,
-  "vsPeers": 0.9634149160949219,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 96
  },
  {
   "id": "S12E11",
@@ -5664,7 +5694,9 @@
   "released": "2021-01-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5678,10 +5710,8 @@
   "bitrate": 2749015,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.4914360894097223,
-  "vsPeers": 0.7750808769503089,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 78
  },
  {
   "id": "S13E01",
@@ -5692,7 +5722,9 @@
   "released": "2021-10-31",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5706,10 +5738,8 @@
   "bitrate": 2737719,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.4853076171875,
-  "vsPeers": 0.7718959857852804,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 77
  },
  {
   "id": "S13E02",
@@ -5720,7 +5750,9 @@
   "released": "2021-11-07",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5734,10 +5766,8 @@
   "bitrate": 2762381,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.4986876085069445,
-  "vsPeers": 0.7788494016769174,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 78
  },
  {
   "id": "S13E03",
@@ -5748,7 +5778,9 @@
   "released": "2021-11-14",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5762,10 +5794,8 @@
   "bitrate": 2669341,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.448210177951389,
-  "vsPeers": 0.7526169057496647,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 75
  },
  {
   "id": "S13E04",
@@ -5776,7 +5806,9 @@
   "released": "2021-11-21",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5790,10 +5822,8 @@
   "bitrate": 2743106,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.488230251736111,
-  "vsPeers": 0.773414842788291,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 77
  },
  {
   "id": "S13E05",
@@ -5804,7 +5834,9 @@
   "released": "2021-11-28",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5818,10 +5850,8 @@
   "bitrate": 2754022,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.4941525607638888,
-  "vsPeers": 0.7764925934927396,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 78
  },
  {
   "id": "S13E06",
@@ -5832,7 +5862,9 @@
   "released": "2021-12-05",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5846,10 +5878,8 @@
   "bitrate": 2747119,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.490407443576389,
-  "vsPeers": 0.7745463024417312,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 77
  },
  {
   "id": "S13E07",
@@ -5860,7 +5890,9 @@
   "released": "2022-01-01",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "HEVC",
@@ -5874,10 +5906,8 @@
   "bitrate": 2762748,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 1.49888671875,
-  "vsPeers": 0.7789528768059512,
-  "peerGroup": "hd HEVC"
+  "vsPeers": 78
  },
  {
   "id": "S13E08",
@@ -5888,7 +5918,9 @@
   "released": "2022-04-17",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 960,
   "vcodec": "H.264",
@@ -5902,7 +5934,6 @@
   "bitrate": 9794591,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 5.313905707465278
  },
  {
@@ -5914,7 +5945,9 @@
   "released": "2022-10-23",
   "era": "hd",
   "eraLabel": "Native HD",
-  "best": "Native 1080p (Blu-ray)",
+  "best": "1080p Blu-ray",
+  "how": "Shot in HD and released on disc at its native frame. Never published in 4K.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -5928,7 +5961,6 @@
   "bitrate": 4616460,
   "faststart": false,
   "verdict": "best",
-  "note": "Native HD at full frame height",
   "bpp": 2.226302083333333
  },
  {
@@ -5938,9 +5970,11 @@
   "title": "Destination: Skaro",
   "kind": "Minisode",
   "released": "2023-11-17",
-  "era": "uhd",
-  "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "era": "hd",
+  "eraLabel": "Native HD",
+  "best": "1080p broadcast / iPlayer",
+  "how": "A Children in Need minisode on BBC One, carried on iPlayer and YouTube. It sits beside the 60th specials but was not part of their 4K release.",
+  "ceiling": 1080,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -5953,8 +5987,7 @@
   "size": 47163076,
   "bitrate": 1221003,
   "faststart": false,
-  "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version"
+  "verdict": "best"
  },
  {
   "id": "S14E02",
@@ -5965,7 +5998,9 @@
   "released": "2023-11-25",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -5979,10 +6014,8 @@
   "bitrate": 6732473,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.2467558834876544,
-  "vsPeers": 1.0670542259082914,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 107
  },
  {
   "id": "S14E03",
@@ -5993,7 +6026,9 @@
   "released": "2023-12-02",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6007,10 +6042,8 @@
   "bitrate": 6534034,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.1510580632716048,
-  "vsPeers": 1.035602904301058,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 104
  },
  {
   "id": "S14E04",
@@ -6021,7 +6054,9 @@
   "released": "2023-12-09",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6035,10 +6070,8 @@
   "bitrate": 6545736,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.156701388888889,
-  "vsPeers": 1.0374575970048503,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 104
  },
  {
   "id": "S15E01",
@@ -6049,7 +6082,9 @@
   "released": "2023-12-25",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6063,10 +6098,8 @@
   "bitrate": 6886506,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.3210387731481483,
-  "vsPeers": 1.0914674784500145,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 109
  },
  {
   "id": "S15E02",
@@ -6077,7 +6110,9 @@
   "released": "2024-05-11",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6091,10 +6126,8 @@
   "bitrate": 7085095,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.4168089313271603,
-  "vsPeers": 1.122942574104895,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 112
  },
  {
   "id": "S15E03",
@@ -6105,7 +6138,9 @@
   "released": "2024-05-11",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6119,10 +6154,8 @@
   "bitrate": 6002527,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 2.8947371720679014,
-  "vsPeers": 0.9513624193485245,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 95
  },
  {
   "id": "S15E04",
@@ -6133,7 +6166,9 @@
   "released": "2024-05-18",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6147,10 +6182,8 @@
   "bitrate": 6361522,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.0678636188271606,
-  "vsPeers": 1.0082608475828372,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 101
  },
  {
   "id": "S15E05",
@@ -6161,7 +6194,9 @@
   "released": "2024-05-25",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6175,10 +6210,8 @@
   "bitrate": 6309401,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.0427281057098767,
-  "vsPeers": 1,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 100
  },
  {
   "id": "S15E06",
@@ -6189,7 +6222,9 @@
   "released": "2024-06-01",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6203,10 +6238,8 @@
   "bitrate": 7161696,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.45375,
-  "vsPeers": 1.1350833462637735,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 114
  },
  {
   "id": "S15E07",
@@ -6217,7 +6250,9 @@
   "released": "2024-06-08",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6231,10 +6266,8 @@
   "bitrate": 6392039,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.082580536265432,
-  "vsPeers": 1.0130975983298574,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 101
  },
  {
   "id": "S15E08",
@@ -6245,7 +6278,9 @@
   "released": "2024-06-15",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6259,10 +6294,8 @@
   "bitrate": 6904278,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.329609375,
-  "vsPeers": 1.094284227615268,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 109
  },
  {
   "id": "S15E09",
@@ -6273,7 +6306,9 @@
   "released": "2024-06-22",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6287,10 +6322,8 @@
   "bitrate": 6682947,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 3.22287181712963,
-  "vsPeers": 1.0592046693497528,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 106
  },
  {
   "id": "S15E10",
@@ -6301,7 +6334,9 @@
   "released": "2024-12-25",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "No better version exists",
+  "best": "1080p web upload",
+  "how": "A Proms 2024 minisode put out on YouTube rather than broadcast. The official upload runs higher than the copy held here — worth re-pulling. This file is 720p.",
+  "ceiling": 1080,
   "width": 1280,
   "height": 720,
   "vcodec": "H.264",
@@ -6314,8 +6349,7 @@
   "size": 76423389,
   "bitrate": 2252766,
   "faststart": false,
-  "verdict": "best",
-  "note": "online short"
+  "verdict": "check"
  },
  {
   "id": "S15E11",
@@ -6326,7 +6360,9 @@
   "released": "2024-12-25",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6340,10 +6376,8 @@
   "bitrate": 5624087,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 2.71223331404321,
-  "vsPeers": 0.8913820820708653,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 89
  },
  {
   "id": "S16E01",
@@ -6354,7 +6388,9 @@
   "released": "2025-04-12",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6368,10 +6404,8 @@
   "bitrate": 5705248,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 2.7513734567901236,
-  "vsPeers": 0.9042455852782221,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 90
  },
  {
   "id": "S16E02",
@@ -6382,7 +6416,9 @@
   "released": "2025-04-19",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6396,10 +6432,8 @@
   "bitrate": 5017936,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 2.41991512345679,
-  "vsPeers": 0.7953109970344253,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 80
  },
  {
   "id": "S16E03",
@@ -6410,7 +6444,9 @@
   "released": "2025-04-26",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6424,10 +6460,8 @@
   "bitrate": 5144832,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 2.4811111111111113,
-  "vsPeers": 0.8154232073694476,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 82
  },
  {
   "id": "S16E04",
@@ -6438,7 +6472,9 @@
   "released": "2025-05-03",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6452,10 +6488,8 @@
   "bitrate": 5199443,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 2.50744743441358,
-  "vsPeers": 0.82407870414323,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 82
  },
  {
   "id": "S16E05",
@@ -6466,7 +6500,9 @@
   "released": "2025-05-10",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6480,10 +6516,8 @@
   "bitrate": 4795237,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 2.3125178433641977,
-  "vsPeers": 0.7600146194543667,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 76
  },
  {
   "id": "S16E06",
@@ -6494,7 +6528,9 @@
   "released": "2025-05-17",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6508,10 +6544,8 @@
   "bitrate": 6143798,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 2.962865547839506,
-  "vsPeers": 0.9737529759164142,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 97
  },
  {
   "id": "S16E07",
@@ -6522,7 +6556,9 @@
   "released": "2025-05-24",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6536,10 +6572,8 @@
   "bitrate": 5789035,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 2.791779996141975,
-  "vsPeers": 0.9175252928130577,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 92
  },
  {
   "id": "S16E08",
@@ -6550,7 +6584,9 @@
   "released": "2025-05-31",
   "era": "uhd",
   "eraLabel": "4K era",
-  "best": "4K HDR (Disney+)",
+  "best": "2160p HDR (Disney+ / iPlayer)",
+  "how": "Mastered in 4K HLG HDR and Dolby Vision and streamed that way. The Blu-ray is 1080p only. This file is 1080p.",
+  "ceiling": 2160,
   "width": 1920,
   "height": 1080,
   "vcodec": "H.264",
@@ -6564,9 +6600,7 @@
   "bitrate": 5881790,
   "faststart": false,
   "verdict": "below",
-  "note": "Finished in 4K HDR and streamed that way; this is the 1080p version",
   "bpp": 2.8365113811728393,
-  "vsPeers": 0.9322263714099007,
-  "peerGroup": "uhd H.264"
+  "vsPeers": 93
  }
 ]
