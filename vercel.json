@@ -5,12 +5,6 @@
       "includeFiles": "{data,public}/**"
     }
   },
-  "rewrites": [
-    {
-      "source": "/((?!art/|api/).*)",
-      "destination": "/api"
-    }
-  ],
   "headers": [
     {
       "source": "/art/(.*)",

@@ -12,6 +12,7 @@ const { getRouter } = require('stremio-addon-sdk');
 const { manifest, addonInterface } = require('../lib/addon');
 const { landingPage } = require('../lib/landing');
 const { isSubtitlePath, serveSubtitle } = require('../lib/subtitles');
+const { postNews } = require('../lib/news');
 
 const router = getRouter(addonInterface);
 
@@ -34,6 +35,13 @@ module.exports = (req, res) => {
     res.setHeader('Content-Type', 'text/html; charset=utf-8');
     res.setHeader('Cache-Control', 'public, max-age=300');
     res.end(landingPage(manifest, originOf(req)));
+    return;
+  }
+
+  // The daily news job. Vercel routes every path to this file, so the cron's
+  // endpoint has to be dispatched here rather than living in its own api/ file.
+  if (path === '/api/news') {
+    postNews(req, res);
     return;
   }
 
