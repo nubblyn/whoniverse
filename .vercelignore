@@ -10,3 +10,9 @@ server.js
 art-src/
 !scripts/stamp.js
 art-cdn/
+# Working material, not part of the addon. The ledger is the reference file for
+# the whole project and the docs are notes; neither is read at request time, and
+# a CLI deploy uploads the working directory rather than the commit.
+ledger/
+docs/
+logs/
