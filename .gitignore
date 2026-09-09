@@ -20,3 +20,6 @@ art-cdn/
 
 # local preview config for the editor, not part of the addon
 .claude/
+
+# generated from ledger/*.tsv by ledger/build.py
+ledger/out/
