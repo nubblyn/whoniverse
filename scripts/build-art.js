@@ -84,6 +84,13 @@ async function cdn() {
       .toFile(path.join(CDN, 'poster', `${k}.jpg`));
     log(`art-cdn/poster/${k}.jpg`, poster);
 
+    // A series can be catalogued before anyone has made it a backdrop or a
+    // wordmark. Skip what is not there rather than failing the whole build;
+    // series.js then leaves those fields out of the meta entirely.
+    if (!fs.existsSync(path.join(SRC, 'cdn', `${k}-background.jpg`))) {
+      console.log(`${`art-cdn/background/${k}.jpg`.padEnd(36)} no source, skipped`);
+      continue;
+    }
     const bg = await sharp(path.join(SRC, 'cdn', `${k}-background.jpg`))
       .resize(1920, 1080, { fit: 'inside', withoutEnlargement: true }).jpeg({ quality: 80, mozjpeg: true })
       .toFile(path.join(CDN, 'background', `${k}.jpg`));

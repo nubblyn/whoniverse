@@ -16,7 +16,6 @@ const episodes = [
   type: "Special",
   released: "1996-05-14T00:00:00.000Z",
   overview: "The newly-regenerated Doctor takes on the Master on the turn of the millennium, 31 December 1999.",
-  thumbnail: "https://images.metahub.space/background/medium/tt0116118/img",
   imdb: { id: "tt0116118", season: 1, episode: 1 },
 }
 ];

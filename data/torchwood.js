@@ -4,122 +4,12 @@
 // so the addon does not offer these as streams and the landing page lists the
 // series as queued. Adding files means adding urls here, not refetching.
 //
-// Upstream's season 0 holds specials and shorts and is kept as season 0, which
-// is what Stremio expects. Everything in it is typed Special; refining that into
-// minisode, prequel and animated needs a pass by hand.
+// Web of Lies, the ten-chapter animated tie-in to Miracle Day, is one item at
+// season 4 episode 11, after The Blood Line, because its 2007 strand gives away
+// the season's mystery if watched alongside it. The two Starz teasers that
+// upstream filed as season 0 are out; there is no season 0 here.
 
 const episodes = [
-{
-  title: "Web of Lies: Gwen",
-  season: 0,
-  episode: 1,
-  type: "Special",
-  released: "2011-07-05T20:00:00.000Z",
-  overview: "Just because you're paranoid, it doesn't mean they're not out to get you. Conspiracy theorist Miles Mokri is shot on the very best day to be shot: Miracle Day. He doesn't die, but he is silenced, and his survivors are left only with cryptic clues he left behind. His sister Holly and friend Nick team up to decipher the clues and find out what Miles knew about a mysterious \"Key,\" one of the secrets of Miracle Day.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/1/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 1 },
-},
-{
-  title: "Web of Lies: Holly",
-  season: 0,
-  episode: 2,
-  type: "Special",
-  released: "2011-07-05T20:00:00.000Z",
-  overview: "During the frantic search for the Key, Holly, a cancer survivor, is faced with new enemies, betrayals, and mysterious references to something called \"Torchwood.\" By the time she uncovers the Key, she's learned something about it that may change her mind about everything, including the Miracle itself.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/2/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 2 },
-},
-{
-  title: "Web of Lies (1)",
-  season: 0,
-  episode: 3,
-  type: "Special",
-  released: "2011-07-09T20:00:00.000Z",
-  overview: "A young man is shot in Los Angeles, but he doesn't die -- this is Miracle Day. When it's revealed that he knew the Miracle was coming, his sister, Holly Mokri, sets to work to figure out what he knew and why he was silenced. And back in 2007, Gwen Cooper saw Jack Harkness abducted in front of her -- what happened to him and how is it tied to the events in LA four years later?",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/3/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 3 },
-},
-{
-  title: "Web of Lies (2)",
-  season: 0,
-  episode: 4,
-  type: "Special",
-  released: "2011-07-16T20:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/4/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 4 },
-},
-{
-  title: "Web of Lies (3)",
-  season: 0,
-  episode: 5,
-  type: "Special",
-  released: "2011-07-23T20:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/5/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 5 },
-},
-{
-  title: "Web of Lies (4)",
-  season: 0,
-  episode: 6,
-  type: "Special",
-  released: "2011-07-30T20:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/6/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 6 },
-},
-{
-  title: "Web of Lies (5)",
-  season: 0,
-  episode: 7,
-  type: "Special",
-  released: "2011-08-06T20:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/7/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 7 },
-},
-{
-  title: "Web of Lies (6)",
-  season: 0,
-  episode: 8,
-  type: "Special",
-  released: "2011-08-13T20:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/8/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 8 },
-},
-{
-  title: "Web of Lies (7)",
-  season: 0,
-  episode: 9,
-  type: "Special",
-  released: "2011-08-20T20:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/9/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 9 },
-},
-{
-  title: "Web of Lies (8)",
-  season: 0,
-  episode: 10,
-  type: "Special",
-  released: "2011-08-27T20:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/10/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 10 },
-},
-{
-  title: "Web of Lies (9)",
-  season: 0,
-  episode: 11,
-  type: "Special",
-  released: "2011-09-03T20:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/11/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 11 },
-},
-{
-  title: "Web of Lies (10)",
-  season: 0,
-  episode: 12,
-  type: "Special",
-  released: "2011-09-10T20:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0485301/0/12/w780.jpg",
-  imdb: { id: "tt0485301", season: 0, episode: 12 },
-},
 {
   title: "Everything Changes",
   season: 1,
@@ -127,7 +17,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-10-22T20:00:00.000Z",
   overview: "WPC Gwen Cooper is at the scene of a brutal murder, when the \"special ops,\" known only as Torchwood, arrive. After witnessing the group bring the dead man back to life, Gwen goes in pursuit of this mysterious organisation, only to see weirder things than she could ever imagine existed. Soon after, she begins to regret giving in to her curiosity, when she meets Captain Jack Harkness.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/1/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 1 },
 },
 {
@@ -137,7 +26,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-10-22T20:00:00.000Z",
   overview: "It's Gwen's first day on the job, and it's not going very well. After accidentally releasing a mysterious gas from a comet that landed, a new type of alien is let loose on the streets - an alien that's addicted to sex. Torchwood must find the inhabited body, and prevent anymore deaths from the violent form of sex.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/2/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 2 },
 },
 {
@@ -147,7 +35,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-10-29T20:00:00.000Z",
   overview: "Whilst chasing a man, Gwen retrieves an unusual machine that allows the user to see back into the past. It is considered dangerous, and no members of Torchwood are permitted to use it. But Owen has other plans, and witnesses a violent murder that took place over forty years ago. Using the information he gathered, Owen starts to track down the still-living murderer.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/3/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 3 },
 },
 {
@@ -157,7 +44,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-11-05T20:00:00.000Z",
   overview: "Ianto Jones hides a very big secret at Torchwood - his half-converted girlfriend from the Canary Wharf Battle - down in the basement. He is quick to hire a Japanese doctor who believes he can \"cure\" her. But things soon go wrong, and the Cyberwoman's destructive powers are released to the whole of Torchwood. Upgrading is compulsary.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/4/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 4 },
 },
 {
@@ -167,7 +53,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-11-12T20:00:00.000Z",
   overview: "Jack catches up with a very old friend of his, who is investigating fairy sightings in the local wood. After having visited her, Torchwood are informed of a man's mysterious death in a prison cell. Then, Tosh uncovers a series of localised, extreme weather patterns. Nobody at the organisation is sure of these events, or how they may be connected. Except Jack, who has witnessed the creatures causing this, almost a century ago.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/5/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 5 },
 },
 {
@@ -177,7 +62,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-11-19T20:00:00.000Z",
   overview: "Whilst investigating a group of unexplainable deaths in a village, the Torchwood team are separated. Discovering further, Jack, Gwen and Owen find a scared man, hiding from the thing responsible for the murders. But Tosh and Ianto go that one step extra, and locate the killer, who wants them as their next victims.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/6/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 6 },
 },
 {
@@ -187,7 +71,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-11-26T20:00:00.000Z",
   overview: "Tosh meets an unusual woman, Mary, at a bar, who gives her a strange pendant. She is upset, yet amazed by what she now has - the ability to read people's minds. However, Tosh finds this terrible curse, that contains her friends darkest secrets, must be broken. So she asks for help from Mary, the only person who knows, but first, Tosh has to get her into Torchwood.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/7/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 7 },
 },
 {
@@ -197,7 +80,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-12-03T20:00:00.000Z",
   overview: "Using the Resurrection Gauntlet that former Torchwood member Suzie Costello originally had, the team are able to bring a number of murder victims back to life. However, these all have a link with the now-deceased Suzie, and the group have no choice but to bring her back. After the process goes wrong, and permanently keeps her alive, Suzie manipulates the naïve Gwen into taking her to see her father.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/8/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 8 },
 },
 {
@@ -207,7 +89,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-12-10T20:00:00.000Z",
   overview: "Eugene Jones wakes up, finding himself lying on the middle of a road. He then discovers that he has been the victim of a hit-and-run incident, and is, now, not only dead, but invisible. Eugene recalls events leading up to his death, involving a mysterious alien eye. Simultaneously, Gwen investigates the suspicious circumstances around his fatality.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/9/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 9 },
 },
 {
@@ -217,7 +98,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-12-17T20:00:00.000Z",
   overview: "Three passengers from 1953 arrive in modern day Cardiff, when their plane flies through the Rift. With no means of travelling back, each person must adapt to their new life, starting personal relationships with the separate members of Torchwood.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/10/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 10 },
 },
 {
@@ -227,7 +107,6 @@ const episodes = [
   type: "Main Show",
   released: "2006-12-24T20:00:00.000Z",
   overview: "Weevils are appearing all over the streets of Cardiff, and then disappearing again - but not by alien forces. People are abducting them, and using the Weevils for their own purposes, so Owen investigates.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/11/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 11 },
 },
 {
@@ -237,7 +116,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-01-01T20:00:00.000Z",
   overview: "Whilst investigating an old, derelict dance hall, Jack and Tosh are transported back to the 1940s, during the Blitz. Owen, Ianto, and Gwen realise, in modern day, that this has happened, and go in search of clues Tosh may have left. Meanwhile, back in the forties, Jack meets a very interesting man. One with the name Captain Jack Harkness...\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/12/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 12 },
 },
 {
@@ -247,7 +125,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-01-01T20:00:00.000Z",
   overview: "With the Rift having been opened, people and objects throughout time are falling through it, and being spread across the world. \"The thing in the darkness\" has finally come, and Jack realises that he is the only one who can save planet Earth from the destruction that \"the son of the Beast\" will cause.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0485301/1/13/w780.jpg",
   imdb: { id: "tt0485301", season: 1, episode: 13 },
 },
 {
@@ -257,7 +134,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-01-16T20:00:00.000Z",
   overview: "Captain Jack returns, as the Torchwood team reunite to fight a rogue Time Agent. The mysterious Captain John Hart is determined to wreak havoc, and needs to find something hidden on Earth. But with Gwen's life in danger, and cluster bombs scattered across the city, whose side is Jack on? ",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/1/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 1 },
 },
 {
@@ -267,7 +143,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-01-23T20:00:00.000Z",
   overview: "When a burglary turns into a slaughter, Torchwood suspect alien involvement. Who is Beth, and can she be as innocent as she seems? But when the investigation escalates into a city-wide assault, Jack realises that the whole planet is in danger. ",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/2/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 2 },
 },
 {
@@ -277,7 +152,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-01-30T20:00:00.000Z",
   overview: "Toshiko falls for a handsome soldier, trapped out of his time, who unwittingly holds the key to saving the world. With an old hospital haunted by ghosts from 1918, a crisis foreseen by Torchwood 90 years ago is about to reach its climax. Time zones are colliding and with life and death decisions to be made, will Torchwood be able to stop an explosive end for Cardiff? ",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/3/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 3 },
 },
 {
@@ -287,7 +161,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-02-06T20:00:00.000Z",
   overview: "When Rhys discovers the truth about Torchwood, he helps the gang to find the source of an unusual alien meat supply.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/4/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 4 },
 },
 {
@@ -297,7 +170,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-02-13T20:00:00.000Z",
   overview: "A memory thief gets in to the minds of the Torchwood team, and uncovers long forgotten secrets.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/5/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 5 },
 },
 {
@@ -307,7 +179,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-02-20T20:00:00.000Z",
   overview: "Jack calls in an old friend for a favour, none other than Martha Jones, as they attempt to stop a pharmaceutical facility that uses aliens in the hope of discovering a cure for all diseases.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/6/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 6 },
 },
 {
@@ -317,7 +188,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-02-27T20:00:00.000Z",
   overview: "Captain Jack resurrects Owen with a resurrection glove, only to find out that the new glove isn't quite what they'd bargained for. Owen, in an undead state, helps the team figure out why he's still around.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/7/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 7 },
 },
 {
@@ -327,7 +197,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-03-05T20:00:00.000Z",
   overview: "A victim of his newfound circumstances, Owen Harper believes he needs absolution. Will the lonely girl on the rooftop help him, or will it be a mission to the retrieve an alien device that is proving more lethal by the second? And how far will Toshiko go to help him?",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/8/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 8 },
 },
 {
@@ -337,7 +206,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-03-12T20:00:00.000Z",
   overview: "Gwen awakes on her wedding day to find she has been impregnated by a shape-shifting alien male. With it's life-partner eager to retrieve it's mate at the cost of Gwen's life, the team race to intercept her as Gwen decides to go through with her marriage at a secluded location with all of her family present ",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/9/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 9 },
 },
 {
@@ -347,7 +215,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-03-19T20:00:00.000Z",
   overview: "An old cinema reopens and mysterious horrors of the past return to Cardiff.  Why are people trapped between life and death, questions are asked about the Night Travellers, and what Torchwood can do to stop them.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/10/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 10 },
 },
 {
@@ -357,7 +224,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-03-21T20:00:00.000Z",
   overview: "Gwen finds the darker side of Torchwood when a teenager disappears, investigating why hundreds of people have vanished without a trace. Jack is obstructing attempts to find them, and the answer appears to lie in the Rift.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/11/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 11 },
 },
 {
@@ -367,7 +233,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-03-28T20:00:00.000Z",
   overview: "As the team are knocked unconscious we find out how Jack, Toshiko, Ianto and Owen were initiated into Torchwood.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/12/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 12 },
 },
 {
@@ -377,7 +242,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-04-04T20:00:00.000Z",
   overview: "Captain John Hart returns to wreak havoc upon Jack's world, who ends up getting captured. It is up to the Torchwood team to rescue him and save the city.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/2/13/w780.jpg",
   imdb: { id: "tt0485301", season: 2, episode: 13 },
 },
 {
@@ -387,7 +251,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-07-06T20:00:00.000Z",
   overview: "At 8.45am, every child in the world suddenly stops, chanting the words \"we are coming\" again and again. Whilst investigating, the remaining Torchwood team face greater personal and professional challenges than ever before, having to work with their numbers depleted.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/3/1/w780.jpg",
   imdb: { id: "tt0485301", season: 3, episode: 1 },
 },
 {
@@ -397,7 +260,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-07-07T20:00:00.000Z",
   overview: "Torchwood are forced underground, as the government takes swift and brutal action.  With members of the team being hunted down, only Lois holds the key to Torchwood's salvation - but she is helpless as her superiors make plans for the mysterious Floor 13.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/3/2/w780.jpg",
   imdb: { id: "tt0485301", season: 3, episode: 2 },
 },
 {
@@ -407,7 +269,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-07-08T20:00:00.000Z",
   overview: "The eyes of the world turn to Britain, as the 456 announce, 'We are here'. As a pillar of fire descends upon London, the members of Torchwood must battle to protect their own families, as the fight gets personal. But will Clem's memories destroy everything?",
-  thumbnail: "https://episodes.metahub.space/tt0485301/3/3/w780.jpg",
   imdb: { id: "tt0485301", season: 3, episode: 3 },
 },
 {
@@ -417,7 +278,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-07-09T20:00:00.000Z",
   overview: "Torchwood finally learns the truth about the events of 1965. But Britain is in danger of becoming a rogue state, and everything now pivots around John Frobisher, as the Ambassador of the 456 destroys its old allegiances and reveals its true intent.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/3/4/w780.jpg",
   imdb: { id: "tt0485301", season: 3, episode: 4 },
 },
 {
@@ -427,7 +287,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-07-10T20:00:00.000Z",
   overview: "Torchwood is defenceless, and Gwen Cooper stands alone, as the final sanction begins. As violence erupts and the world descends into anarchy, an ordinary council estate becomes a battleground where the future of the human race will be decided.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/3/5/w780.jpg",
   imdb: { id: "tt0485301", season: 3, episode: 5 },
 },
 {
@@ -437,7 +296,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-07-08T20:00:00.000Z",
   overview: "Convicted child killer Oswald Danes is executed for his crimes and when he miraculously survives his fate a series of events is set in place that forces CIA Agent Rex Matheson to investigate a global event. His investigation leads him from America to Wales and an old defunct British Institute - Torchwood.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/4/1/w780.jpg",
   imdb: { id: "tt0485301", season: 4, episode: 1 },
 },
 {
@@ -447,7 +305,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-07-15T20:00:00.000Z",
   overview: "As the Torchwood team is reunited, Jack realizes he's the most vulnerable man on Earth. A flight to the United States turns into a desperate battle for survival.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/4/2/w780.jpg",
   imdb: { id: "tt0485301", season: 4, episode: 2 },
 },
 {
@@ -457,7 +314,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-07-22T20:00:00.000Z",
   overview: "Torchwood goes on the run and finds a new enemy, but as they launch a raid on PhiCorp headquarters, Jack must confront the mysterious Oswald Danes.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/4/3/w780.jpg",
   imdb: { id: "tt0485301", season: 4, episode: 3 },
 },
 {
@@ -467,7 +323,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-07-29T20:00:00.000Z",
   overview: "Torchwood relocates to LA to sneak into PhiCorp's headquarters to find some useful information, unaware that their mission has been compromised. Elsewhere, Oswald and Jilly face a new adversary in Ellis Hartley Monroe, who is using the Miracle Day for her own agenda.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/4/4/w780.jpg",
   imdb: { id: "tt0485301", season: 4, episode: 4 },
 },
 {
@@ -477,7 +332,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-08-05T20:00:00.000Z",
   overview: "Torchwood goes undercover and discovers the terrible truth behind the Miracle. The enemy is closing in, and death is about to make a shocking return. ",
-  thumbnail: "https://episodes.metahub.space/tt0485301/4/5/w780.jpg",
   imdb: { id: "tt0485301", season: 4, episode: 5 },
 },
 {
@@ -487,7 +341,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-08-12T20:00:00.000Z",
   overview: "With Gwen, Rex and Esther trapped on both sides of the Atlantic, it's a race against time as Jack goes straight to the heart of the conspiracy. ",
-  thumbnail: "https://episodes.metahub.space/tt0485301/4/6/w780.jpg",
   imdb: { id: "tt0485301", season: 4, episode: 6 },
 },
 {
@@ -497,7 +350,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-08-19T20:00:00.000Z",
   overview: "Gwen must fight to protect her family and takes a terrifying journey, covering both miles and decades, as the long history of the Miracle is revealed.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/4/7/w780.jpg",
   imdb: { id: "tt0485301", season: 4, episode: 7 },
 },
 {
@@ -507,7 +359,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-08-26T20:00:00.000Z",
   overview: "Jack faces a showdown with a man he thought was long since dead, while Rex takes extreme action to prevent the collapse of society. ",
-  thumbnail: "https://episodes.metahub.space/tt0485301/4/8/w780.jpg",
   imdb: { id: "tt0485301", season: 4, episode: 8 },
 },
 {
@@ -517,7 +368,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-09-02T20:00:00.000Z",
   overview: "With the whole world in recession, a defeated Torchwood team take their last chance and make a deal with the devil. ",
-  thumbnail: "https://episodes.metahub.space/tt0485301/4/9/w780.jpg",
   imdb: { id: "tt0485301", season: 4, episode: 9 },
 },
 {
@@ -527,8 +377,16 @@ const episodes = [
   type: "Main Show",
   released: "2011-09-09T20:00:00.000Z",
   overview: "As the Torchwood team launch a final, desperate mission against the seemingly undefeatable Three Families, they realize it may come down to the ultimate sacrifice.",
-  thumbnail: "https://episodes.metahub.space/tt0485301/4/10/w780.jpg",
   imdb: { id: "tt0485301", season: 4, episode: 10 },
+},
+{
+  title: "Web of Lies",
+  season: 4,
+  episode: 11,
+  type: "Animated Series",
+  released: "2011-09-10T20:00:00.000Z",
+  overview: "Conspiracy theorist Miles Mokri is shot on Miracle Day and does not die, leaving his sister Holly a trail of clues about a mysterious Key. In 2007, Gwen Cooper watches Jack Harkness abducted and follows the thread that ties his fate to the Miracle.",
+  imdb: { id: "tt0485301", season: 0, episode: 3 },
 }
 ];
 

@@ -16,7 +16,6 @@ const episodes = [
   type: "Special",
   released: "2007-01-01T17:15:00.000Z",
   overview: "When Maria meets the mysterious Sarah Jane Smith, she's thrown into a world of intrigue, danger, and terrifying monsters.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/1/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 1 },
 },
 {
@@ -26,7 +25,6 @@ const episodes = [
   type: "Special",
   released: "2009-03-13T17:15:00.000Z",
   overview: "A little skit from Comic Relief 2009.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/2/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 2 },
 },
 {
@@ -36,7 +34,6 @@ const episodes = [
   type: "Special",
   released: "2011-04-20T17:15:00.000Z",
   overview: "A celebration of Doctor Who's greatest companion, played by actress Elisabeth Sladen.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/3/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 3 },
 },
 {
@@ -46,7 +43,6 @@ const episodes = [
   type: "Special",
   released: "2012-02-06T17:15:00.000Z",
   overview: "Goodbye Bannerman Road: Remembering Elisabeth Sladen is a twenty~minute tribute to the late actress featuring Daniel Anthony (who played Clyde Langer), Anjli Mohindra (Rani Chandra), Gary Russell (Script Editor) and Matt Smith (The Eleventh Doctor).",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/4/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 4 },
 },
 {
@@ -56,7 +52,6 @@ const episodes = [
   type: "Special",
   released: "2020-04-19T17:15:00.000Z",
   overview: "In a new video, scripted by Russell T Davies and narrated by Jacob Dudman, Sarah Jane Smith’s closest friends come together to say “Farewell, Sarah Jane”.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/5/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 5 },
 },
 {
@@ -65,7 +60,6 @@ const episodes = [
   episode: 6,
   type: "Special",
   released: "2010-10-11T17:15:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/6/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 6 },
 },
 {
@@ -74,7 +68,6 @@ const episodes = [
   episode: 7,
   type: "Special",
   released: "2010-10-18T17:15:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/7/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 7 },
 },
 {
@@ -83,7 +76,6 @@ const episodes = [
   episode: 8,
   type: "Special",
   released: "2010-10-25T17:15:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/8/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 8 },
 },
 {
@@ -92,7 +84,6 @@ const episodes = [
   episode: 9,
   type: "Special",
   released: "2010-11-01T17:15:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/9/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 9 },
 },
 {
@@ -101,7 +92,6 @@ const episodes = [
   episode: 10,
   type: "Special",
   released: "2010-11-08T17:15:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/10/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 10 },
 },
 {
@@ -110,7 +100,6 @@ const episodes = [
   episode: 11,
   type: "Special",
   released: "2010-11-15T17:15:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/11/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 11 },
 },
 {
@@ -120,7 +109,6 @@ const episodes = [
   type: "Special",
   released: "2007-11-20T17:15:00.000Z",
   overview: "Outtakes from the first series.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/0/12/w780.jpg",
   imdb: { id: "tt0862620", season: 0, episode: 12 },
 },
 {
@@ -130,7 +118,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-09-24T17:15:00.000Z",
   overview: "Sarah Jane, Maria, Luke and Clyde discover the monstrous Slitheen are hiding in a school.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/1/1/w780.jpg",
   imdb: { id: "tt0862620", season: 1, episode: 1 },
 },
 {
@@ -140,7 +127,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-09-24T17:15:00.000Z",
   overview: "Sarah Jane, Maria, Luke and Clyde must save the Earth before the Slitheen switch off the sun.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/1/2/w780.jpg",
   imdb: { id: "tt0862620", season: 1, episode: 2 },
 },
 {
@@ -150,7 +136,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-10-01T17:15:00.000Z",
   overview: "Sarah Jane and her team encounter the Gorgon - a terrifying creature that turns its victims to stone.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/1/3/w780.jpg",
   imdb: { id: "tt0862620", season: 1, episode: 3 },
 },
 {
@@ -160,7 +145,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-10-08T17:15:00.000Z",
   overview: "Sinister nuns plan to unleash the Gorgon on the world.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/1/4/w780.jpg",
   imdb: { id: "tt0862620", season: 1, episode: 4 },
 },
 {
@@ -170,7 +154,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-10-15T17:15:00.000Z",
   overview: "Luke and Clyde enter Combat 3000, a game designed to train warriors, run by the sinister Kudlak.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/1/5/w780.jpg",
   imdb: { id: "tt0862620", season: 1, episode: 5 },
 },
 {
@@ -180,7 +163,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-10-22T17:15:00.000Z",
   overview: "Luke and Clyde have been kidnapped and drafted as soldiers in an endless intergalactic war.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/1/6/w780.jpg",
   imdb: { id: "tt0862620", season: 1, episode: 6 },
 },
 {
@@ -190,7 +172,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-10-29T17:15:00.000Z",
   overview: "Maria wakes one morning to discover Sarah Jane has disappeared - and she is the only person in the world who remembers her.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/1/7/w780.jpg",
   imdb: { id: "tt0862620", season: 1, episode: 7 },
 },
 {
@@ -200,7 +181,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-11-05T17:15:00.000Z",
   overview: "Maria is lost in time and a meteor heads for Earth - with no Sarah Jane to stop it.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/1/8/w780.jpg",
   imdb: { id: "tt0862620", season: 1, episode: 8 },
 },
 {
@@ -210,7 +190,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-11-12T17:15:00.000Z",
   overview: "A couple appear claiming to be Luke's real parents. Is it time for Sarah Jane to stop adventuring?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/1/9/w780.jpg",
   imdb: { id: "tt0862620", season: 1, episode: 9 },
 },
 {
@@ -220,7 +199,6 @@ const episodes = [
   type: "Main Show",
   released: "2007-11-19T17:15:00.000Z",
   overview: "With her old enemies triumphant, it seems that Sarah Jane has finally been defeated.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/1/10/w780.jpg",
   imdb: { id: "tt0862620", season: 1, episode: 10 },
 },
 {
@@ -230,7 +208,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-09-29T17:15:00.000Z",
   overview: "Sarah Jane investigates alien lights and encounters an enemy from the past. Maria faces a big decision.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/1/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 1 },
 },
 {
@@ -240,7 +217,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-09-29T17:15:00.000Z",
   overview: "Sarah Jane has 40 minutes to stop Sontaran Commander Kaagh from destroying the Earth.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/2/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 2 },
 },
 {
@@ -250,7 +226,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-10-06T17:15:00.000Z",
   overview: "New girl Rani is haunted by a sinister clown - could it be linked to the recent disappearances of several local children? When Clyde's friend also goes missing, Sarah Jane and the team are drawn towards a bizarre circus museum, and an old legend - has the Pied Piper come to Bannerman Road?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/3/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 3 },
 },
 {
@@ -260,7 +235,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-10-13T17:15:00.000Z",
   overview: "Luke is taken by Spellman and Sarah Jane has to confront her oldest fears to save him.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/4/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 4 },
 },
 {
@@ -270,7 +244,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-10-20T17:15:00.000Z",
   overview: "An astrologer attracts Sarah Jane's interest with his uncanny predictions. Earth is under threat - from the stars.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/5/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 5 },
 },
 {
@@ -280,7 +253,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-10-27T17:15:00.000Z",
   overview: "Sarah Jane and the others infiltrate Trueman's circle as he takes over the population through their star signs.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/6/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 6 },
 },
 {
@@ -290,7 +262,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-11-03T17:15:00.000Z",
   overview: "An alien pendant, which gives its wearer the power to control others, is stolen from Sarah Jane's attic.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/7/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 7 },
 },
 {
@@ -300,7 +271,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-11-10T17:15:00.000Z",
   overview: "Luke and Rani, with Clyde's mum, track Clyde and his father to a waterside confrontation with the Berserker.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/8/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 8 },
 },
 {
@@ -310,7 +280,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-11-17T17:15:00.000Z",
   overview: "Sarah Jane cannot resist going back in time to meet the parents she never knew - with disastrous consequences.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/9/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 9 },
 },
 {
@@ -320,7 +289,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-11-24T17:15:00.000Z",
   overview: "Sarah Jane has to make a devastating sacrifice in order to save Earth from the Trickster.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/10/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 10 },
 },
 {
@@ -330,7 +298,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-12-01T17:15:00.000Z",
   overview: "When former enemy Mrs Wormwood appears asking for help, Sarah Jane must turn to an old friend from her time with the Doctor.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/11/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 11 },
 },
 {
@@ -340,7 +307,6 @@ const episodes = [
   type: "Main Show",
   released: "2008-12-08T17:15:00.000Z",
   overview: "Gita vanishes and Sarah Jane encounters an unwelcome face from the past, Mrs Wormwood. Luke is kidnapped by Mrs Wormwood and Kaagh. Sarah Jane prepares for a showdown at a stone circle.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/2/12/w780.jpg",
   imdb: { id: "tt0862620", season: 2, episode: 12 },
 },
 {
@@ -350,7 +316,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-10-15T17:15:00.000Z",
   overview: "The rhino-like Judoon return, as their prisoner crash-lands on Earth. A Veil is on the loose.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/1/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 1 },
 },
 {
@@ -360,7 +325,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-10-16T17:15:00.000Z",
   overview: "Luke, Clyde and Rani must fight their most fearsome enemy yet - Sarah Jane Smith.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/2/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 2 },
 },
 {
@@ -370,7 +334,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-10-22T17:15:00.000Z",
   overview: "Far in the future, in the year 2059, Rani remembers the day when her whole life went wrong.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/3/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 3 },
 },
 {
@@ -380,7 +343,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-10-23T17:15:00.000Z",
   overview: "Eve's powers grow out of control, catching everyone in her endless sinister games.\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/4/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 4 },
 },
 {
@@ -390,7 +352,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-10-29T17:15:00.000Z",
   overview: "The Doctor returns on the happiest day of Sarah Jane's life, but a deadly trap is waiting for them.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/5/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 5 },
 },
 {
@@ -400,7 +361,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-10-30T17:15:00.000Z",
   overview: "The Doctor arrives to join the battle, but is he too late to save both Sarah Jane and the Earth itself?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/6/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 6 },
 },
 {
@@ -410,7 +370,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-11-05T17:15:00.000Z",
   overview: "A haunted house, with mysterious whispers and secrets in the shadows - time for Sarah Jane Smith!\r\n",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/7/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 7 },
 },
 {
@@ -420,7 +379,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-11-06T17:15:00.000Z",
   overview: "Sarah Jane and the gang discover the secret of Erasmus Darkening - but are they too late?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/8/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 8 },
 },
 {
@@ -430,7 +388,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-11-12T17:15:00.000Z",
   overview: "When the Mona Lisa comes to life, Clyde discovers that fine art can be dangerous.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/9/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 9 },
 },
 {
@@ -440,7 +397,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-11-13T17:15:00.000Z",
   overview: "The Mona Lisa vows to free the dreaded abomination from its prison - and Clyde is the key!",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/10/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 10 },
 },
 {
@@ -450,7 +406,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-11-19T17:15:00.000Z",
   overview: "When the Slitheen's latest scheme is halted, the Blathereen arrive - but can they be trusted?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/11/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 11 },
 },
 {
@@ -460,7 +415,6 @@ const episodes = [
   type: "Main Show",
   released: "2009-11-20T17:15:00.000Z",
   overview: "When the gift runs riot, Sarah Jane faces the battle of her life to save Luke.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/3/12/w780.jpg",
   imdb: { id: "tt0862620", season: 3, episode: 12 },
 },
 {
@@ -470,7 +424,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-10-11T17:15:00.000Z",
   overview: "Luke has his first nightmare which could have terrible consequences for the human race, and Bannerman Road will never be the same again.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/1/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 1 },
 },
 {
@@ -480,7 +433,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-10-12T17:15:00.000Z",
   overview: "With Luke, Clyde and Rani trapped in a bizarre dreamscape, Sarah Jane must fight alone. As the Nightmare Man grows stronger, only K-9 might hold the key. But can Luke summon the courage to face his adult life before the whole world is trapped in an endless nightmare?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/2/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 2 },
 },
 {
@@ -490,7 +442,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-10-18T17:15:00.000Z",
   overview: "An old enemy returns to Earth - can the Veil be trusted?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/3/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 3 },
 },
 {
@@ -500,7 +451,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-10-19T17:15:00.000Z",
   overview: "The battle for the Vault reaches a showdown - with planet Earth at stake.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/4/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 4 },
 },
 {
@@ -510,7 +460,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-10-25T17:15:00.000Z",
   overview: "When the Doctor is declared dead, Sarah Jane and Jo Grant unite to find out the truth.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/5/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 5 },
 },
 {
@@ -520,7 +469,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-10-26T17:15:00.000Z",
   overview: "Old friends fight together - but is it too late to stop the sinister Shansheeth?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/6/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 6 },
 },
 {
@@ -530,7 +478,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-11-01T17:15:00.000Z",
   overview: "Clyde and Rani discover that they are the only survivors of the human race!",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/7/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 7 },
 },
 {
@@ -540,7 +487,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-11-02T17:15:00.000Z",
   overview: "Clyde and Rani race against time - but what is the secret of the robots?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/8/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 8 },
 },
 {
@@ -550,7 +496,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-11-08T17:15:00.000Z",
   overview: "A harmless investigation turns into an epic quest across time and space.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/9/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 9 },
 },
 {
@@ -560,7 +505,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-11-09T17:15:00.000Z",
   overview: "Sarah Jane, Clyde and Rani fight across the centuries to be reunited.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/10/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 10 },
 },
 {
@@ -570,7 +514,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-11-15T17:15:00.000Z",
   overview: "No one can defend the earth forever, but who could ever replace Sarah Jane?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/11/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 11 },
 },
 {
@@ -580,7 +523,6 @@ const episodes = [
   type: "Main Show",
   released: "2010-11-16T17:15:00.000Z",
   overview: "Sarah Jane has gone for good and a new regime begins at Bannerman Road!",
-  thumbnail: "https://episodes.metahub.space/tt0862620/4/12/w780.jpg",
   imdb: { id: "tt0862620", season: 4, episode: 12 },
 },
 {
@@ -590,7 +532,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-10-03T17:15:00.000Z",
   overview: "Sarah Jane finds a baby girl on her doorstep and tries to find out who abandoned her. At a nuclear power station, a beautiful woman appears out of thin air and uses alien powers to take control. She's looking for something - and realises that Sarah Jane may just have it.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/5/1/w780.jpg",
   imdb: { id: "tt0862620", season: 5, episode: 1 },
 },
 {
@@ -600,7 +541,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-10-04T17:15:00.000Z",
   overview: "Metalkind fights Fleshkind for control of Sarah Jane's new friend, Sky. Can Sky stop herself destroying the world?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/5/2/w780.jpg",
   imdb: { id: "tt0862620", season: 5, episode: 2 },
 },
 {
@@ -610,7 +550,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-10-10T17:15:00.000Z",
   overview: "The world has a brand new Public Enemy Number One - and his name is Clyde Langer.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/5/3/w780.jpg",
   imdb: { id: "tt0862620", season: 5, episode: 3 },
 },
 {
@@ -620,7 +559,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-10-11T17:15:00.000Z",
   overview: "Clyde is living on the streets of London, lost and abandoned - and hiding from the Night Dragon.",
-  thumbnail: "https://episodes.metahub.space/tt0862620/5/4/w780.jpg",
   imdb: { id: "tt0862620", season: 5, episode: 4 },
 },
 {
@@ -630,7 +568,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-10-17T17:15:00.000Z",
   overview: "Everyone wants the new SerfBoard - and why not? What could be so dangerous about a computer?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/5/5/w780.jpg",
   imdb: { id: "tt0862620", season: 5, episode: 5 },
 },
 {
@@ -640,7 +577,6 @@ const episodes = [
   type: "Main Show",
   released: "2011-10-18T17:15:00.000Z",
   overview: "Luke and Sky must help the Skullions, but Sarah Jane is in danger too, so who will they save?",
-  thumbnail: "https://episodes.metahub.space/tt0862620/5/6/w780.jpg",
   imdb: { id: "tt0862620", season: 5, episode: 6 },
 }
 ];

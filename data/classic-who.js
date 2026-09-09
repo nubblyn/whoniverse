@@ -14,7 +14,6 @@ const episodes = [
   season: 0,
   episode: 1,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/1/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 1 },
 },
 {
@@ -23,7 +22,6 @@ const episodes = [
   episode: 2,
   type: "Special",
   released: "1983-11-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/2/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 2 },
 },
 {
@@ -32,7 +30,6 @@ const episodes = [
   episode: 3,
   type: "Special",
   released: "1993-11-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/3/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 3 },
 },
 {
@@ -41,7 +38,6 @@ const episodes = [
   episode: 4,
   type: "Special",
   released: "1993-11-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/4/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 4 },
 },
 {
@@ -50,7 +46,6 @@ const episodes = [
   episode: 5,
   type: "Special",
   released: "1996-05-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/5/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 5 },
 },
 {
@@ -59,7 +54,6 @@ const episodes = [
   episode: 6,
   type: "Special",
   released: "1999-03-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/6/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 6 },
 },
 {
@@ -68,7 +62,6 @@ const episodes = [
   episode: 7,
   type: "Special",
   released: "1999-03-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/7/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 7 },
 },
 {
@@ -77,7 +70,6 @@ const episodes = [
   episode: 8,
   type: "Special",
   released: "1999-03-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/8/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 8 },
 },
 {
@@ -86,7 +78,6 @@ const episodes = [
   episode: 9,
   type: "Special",
   released: "1999-03-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/9/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 9 },
 },
 {
@@ -95,7 +86,6 @@ const episodes = [
   episode: 10,
   type: "Special",
   released: "2006-04-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/10/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 10 },
 },
 {
@@ -104,7 +94,6 @@ const episodes = [
   episode: 11,
   type: "Special",
   released: "2005-11-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/11/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 11 },
 },
 {
@@ -113,7 +102,6 @@ const episodes = [
   episode: 12,
   type: "Special",
   released: "1995-02-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/12/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 12 },
 },
 {
@@ -122,7 +110,6 @@ const episodes = [
   episode: 13,
   type: "Special",
   released: "1977-09-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/13/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 13 },
 },
 {
@@ -130,7 +117,6 @@ const episodes = [
   season: 0,
   episode: 14,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/14/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 14 },
 },
 {
@@ -138,7 +124,6 @@ const episodes = [
   season: 0,
   episode: 15,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/15/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 15 },
 },
 {
@@ -146,7 +131,6 @@ const episodes = [
   season: 0,
   episode: 16,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/16/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 16 },
 },
 {
@@ -154,7 +138,6 @@ const episodes = [
   season: 0,
   episode: 17,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/17/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 17 },
 },
 {
@@ -162,7 +145,6 @@ const episodes = [
   season: 0,
   episode: 18,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/18/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 18 },
 },
 {
@@ -170,7 +152,6 @@ const episodes = [
   season: 0,
   episode: 19,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/19/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 19 },
 },
 {
@@ -178,7 +159,6 @@ const episodes = [
   season: 0,
   episode: 20,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/20/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 20 },
 },
 {
@@ -186,7 +166,6 @@ const episodes = [
   season: 0,
   episode: 21,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/21/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 21 },
 },
 {
@@ -194,7 +173,6 @@ const episodes = [
   season: 0,
   episode: 22,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/22/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 22 },
 },
 {
@@ -203,7 +181,6 @@ const episodes = [
   episode: 23,
   type: "Special",
   released: "1966-07-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/23/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 23 },
 },
 {
@@ -212,7 +189,6 @@ const episodes = [
   episode: 24,
   type: "Special",
   released: "1966-08-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/24/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 24 },
 },
 {
@@ -220,7 +196,6 @@ const episodes = [
   season: 0,
   episode: 25,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/25/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 25 },
 },
 {
@@ -228,7 +203,6 @@ const episodes = [
   season: 0,
   episode: 26,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/26/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 26 },
 },
 {
@@ -236,7 +210,6 @@ const episodes = [
   season: 0,
   episode: 27,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/27/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 27 },
 },
 {
@@ -244,7 +217,6 @@ const episodes = [
   season: 0,
   episode: 28,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/28/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 28 },
 },
 {
@@ -252,7 +224,6 @@ const episodes = [
   season: 0,
   episode: 29,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/29/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 29 },
 },
 {
@@ -260,7 +231,6 @@ const episodes = [
   season: 0,
   episode: 30,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/30/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 30 },
 },
 {
@@ -268,7 +238,6 @@ const episodes = [
   season: 0,
   episode: 31,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/31/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 31 },
 },
 {
@@ -276,7 +245,6 @@ const episodes = [
   season: 0,
   episode: 32,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/32/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 32 },
 },
 {
@@ -284,7 +252,6 @@ const episodes = [
   season: 0,
   episode: 33,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/33/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 33 },
 },
 {
@@ -292,7 +259,6 @@ const episodes = [
   season: 0,
   episode: 34,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/34/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 34 },
 },
 {
@@ -301,7 +267,6 @@ const episodes = [
   episode: 35,
   type: "Special",
   released: "2003-11-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/35/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 35 },
 },
 {
@@ -310,7 +275,6 @@ const episodes = [
   episode: 36,
   type: "Special",
   released: "2003-11-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/36/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 36 },
 },
 {
@@ -319,7 +283,6 @@ const episodes = [
   episode: 37,
   type: "Special",
   released: "2003-11-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/37/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 37 },
 },
 {
@@ -328,7 +291,6 @@ const episodes = [
   episode: 38,
   type: "Special",
   released: "2003-12-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/38/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 38 },
 },
 {
@@ -337,7 +299,6 @@ const episodes = [
   episode: 39,
   type: "Special",
   released: "2003-12-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/39/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 39 },
 },
 {
@@ -346,7 +307,6 @@ const episodes = [
   episode: 40,
   type: "Special",
   released: "2003-12-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/40/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 40 },
 },
 {
@@ -354,7 +314,6 @@ const episodes = [
   season: 0,
   episode: 41,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/41/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 41 },
 },
 {
@@ -363,7 +322,6 @@ const episodes = [
   episode: 42,
   type: "Special",
   released: "1985-02-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/42/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 42 },
 },
 {
@@ -371,7 +329,6 @@ const episodes = [
   season: 0,
   episode: 43,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/43/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 43 },
 },
 {
@@ -379,7 +336,6 @@ const episodes = [
   season: 0,
   episode: 44,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/44/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 44 },
 },
 {
@@ -387,7 +343,6 @@ const episodes = [
   season: 0,
   episode: 45,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/45/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 45 },
 },
 {
@@ -395,7 +350,6 @@ const episodes = [
   season: 0,
   episode: 46,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/46/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 46 },
 },
 {
@@ -404,7 +358,6 @@ const episodes = [
   episode: 47,
   type: "Special",
   released: "2003-12-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/47/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 47 },
 },
 {
@@ -412,7 +365,6 @@ const episodes = [
   season: 0,
   episode: 48,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/48/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 48 },
 },
 {
@@ -420,7 +372,6 @@ const episodes = [
   season: 0,
   episode: 49,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/49/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 49 },
 },
 {
@@ -428,7 +379,6 @@ const episodes = [
   season: 0,
   episode: 50,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/50/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 50 },
 },
 {
@@ -436,7 +386,6 @@ const episodes = [
   season: 0,
   episode: 51,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/51/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 51 },
 },
 {
@@ -444,7 +393,6 @@ const episodes = [
   season: 0,
   episode: 52,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/52/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 52 },
 },
 {
@@ -452,7 +400,6 @@ const episodes = [
   season: 0,
   episode: 53,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/53/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 53 },
 },
 {
@@ -460,7 +407,6 @@ const episodes = [
   season: 0,
   episode: 54,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/54/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 54 },
 },
 {
@@ -468,7 +414,6 @@ const episodes = [
   season: 0,
   episode: 55,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/55/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 55 },
 },
 {
@@ -476,7 +421,6 @@ const episodes = [
   season: 0,
   episode: 56,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/56/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 56 },
 },
 {
@@ -484,7 +428,6 @@ const episodes = [
   season: 0,
   episode: 57,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/57/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 57 },
 },
 {
@@ -492,7 +435,6 @@ const episodes = [
   season: 0,
   episode: 58,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/58/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 58 },
 },
 {
@@ -500,7 +442,6 @@ const episodes = [
   season: 0,
   episode: 59,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/59/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 59 },
 },
 {
@@ -508,7 +449,6 @@ const episodes = [
   season: 0,
   episode: 60,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/60/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 60 },
 },
 {
@@ -516,7 +456,6 @@ const episodes = [
   season: 0,
   episode: 61,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/61/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 61 },
 },
 {
@@ -525,7 +464,6 @@ const episodes = [
   episode: 62,
   type: "Special",
   released: "1999-11-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/62/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 62 },
 },
 {
@@ -534,7 +472,6 @@ const episodes = [
   episode: 63,
   type: "Special",
   released: "2002-08-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/63/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 63 },
 },
 {
@@ -543,7 +480,6 @@ const episodes = [
   episode: 64,
   type: "Special",
   released: "2002-08-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/64/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 64 },
 },
 {
@@ -552,7 +488,6 @@ const episodes = [
   episode: 65,
   type: "Special",
   released: "2002-08-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/65/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 65 },
 },
 {
@@ -561,7 +496,6 @@ const episodes = [
   episode: 66,
   type: "Special",
   released: "2002-08-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/66/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 66 },
 },
 {
@@ -570,7 +504,6 @@ const episodes = [
   episode: 67,
   type: "Special",
   released: "2002-08-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/67/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 67 },
 },
 {
@@ -579,7 +512,6 @@ const episodes = [
   episode: 68,
   type: "Special",
   released: "2002-09-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/68/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 68 },
 },
 {
@@ -587,7 +519,6 @@ const episodes = [
   season: 0,
   episode: 69,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/69/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 69 },
 },
 {
@@ -595,7 +526,6 @@ const episodes = [
   season: 0,
   episode: 70,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/70/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 70 },
 },
 {
@@ -603,7 +533,6 @@ const episodes = [
   season: 0,
   episode: 71,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/71/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 71 },
 },
 {
@@ -611,7 +540,6 @@ const episodes = [
   season: 0,
   episode: 72,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/72/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 72 },
 },
 {
@@ -619,7 +547,6 @@ const episodes = [
   season: 0,
   episode: 73,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/73/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 73 },
 },
 {
@@ -627,7 +554,6 @@ const episodes = [
   season: 0,
   episode: 74,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/74/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 74 },
 },
 {
@@ -635,7 +561,6 @@ const episodes = [
   season: 0,
   episode: 75,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/75/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 75 },
 },
 {
@@ -643,7 +568,6 @@ const episodes = [
   season: 0,
   episode: 76,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/76/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 76 },
 },
 {
@@ -651,7 +575,6 @@ const episodes = [
   season: 0,
   episode: 77,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/77/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 77 },
 },
 {
@@ -659,7 +582,6 @@ const episodes = [
   season: 0,
   episode: 78,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/78/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 78 },
 },
 {
@@ -667,7 +589,6 @@ const episodes = [
   season: 0,
   episode: 79,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/79/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 79 },
 },
 {
@@ -675,7 +596,6 @@ const episodes = [
   season: 0,
   episode: 80,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/80/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 80 },
 },
 {
@@ -683,7 +603,6 @@ const episodes = [
   season: 0,
   episode: 81,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/81/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 81 },
 },
 {
@@ -691,7 +610,6 @@ const episodes = [
   season: 0,
   episode: 82,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/82/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 82 },
 },
 {
@@ -699,7 +617,6 @@ const episodes = [
   season: 0,
   episode: 83,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/83/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 83 },
 },
 {
@@ -707,7 +624,6 @@ const episodes = [
   season: 0,
   episode: 84,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/84/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 84 },
 },
 {
@@ -715,7 +631,6 @@ const episodes = [
   season: 0,
   episode: 85,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/85/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 85 },
 },
 {
@@ -723,7 +638,6 @@ const episodes = [
   season: 0,
   episode: 86,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/86/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 86 },
 },
 {
@@ -731,7 +645,6 @@ const episodes = [
   season: 0,
   episode: 87,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/87/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 87 },
 },
 {
@@ -739,7 +652,6 @@ const episodes = [
   season: 0,
   episode: 88,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/88/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 88 },
 },
 {
@@ -747,7 +659,6 @@ const episodes = [
   season: 0,
   episode: 89,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/89/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 89 },
 },
 {
@@ -755,7 +666,6 @@ const episodes = [
   season: 0,
   episode: 90,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/90/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 90 },
 },
 {
@@ -763,7 +673,6 @@ const episodes = [
   season: 0,
   episode: 91,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/91/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 91 },
 },
 {
@@ -771,7 +680,6 @@ const episodes = [
   season: 0,
   episode: 92,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/92/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 92 },
 },
 {
@@ -779,7 +687,6 @@ const episodes = [
   season: 0,
   episode: 93,
   type: "Special",
-  thumbnail: "https://episodes.metahub.space/tt0056751/0/93/w780.jpg",
   imdb: { id: "tt0056751", season: 0, episode: 93 },
 },
 {
@@ -788,7 +695,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1963-11-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/1/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 1 },
 },
 {
@@ -797,7 +703,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1963-11-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/2/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 2 },
 },
 {
@@ -806,7 +711,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1963-12-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/3/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 3 },
 },
 {
@@ -815,7 +719,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1963-12-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/4/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 4 },
 },
 {
@@ -824,7 +727,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1963-12-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/5/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 5 },
 },
 {
@@ -833,7 +735,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1963-12-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/6/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 6 },
 },
 {
@@ -842,7 +743,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1964-01-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/7/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 7 },
 },
 {
@@ -851,7 +751,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1964-01-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/8/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 8 },
 },
 {
@@ -860,7 +759,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1964-01-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/9/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 9 },
 },
 {
@@ -869,7 +767,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1964-01-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/10/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 10 },
 },
 {
@@ -878,7 +775,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1964-02-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/11/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 11 },
 },
 {
@@ -887,7 +783,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1964-02-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/12/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 12 },
 },
 {
@@ -896,7 +791,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1964-02-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/13/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 13 },
 },
 {
@@ -905,7 +799,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1964-02-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/14/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 14 },
 },
 {
@@ -914,7 +807,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1964-02-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/15/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 15 },
 },
 {
@@ -923,7 +815,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1964-03-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/16/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 16 },
 },
 {
@@ -932,7 +823,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1964-03-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/17/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 17 },
 },
 {
@@ -941,7 +831,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1964-03-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/18/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 18 },
 },
 {
@@ -950,7 +839,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1964-03-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/19/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 19 },
 },
 {
@@ -959,7 +847,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1964-04-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/20/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 20 },
 },
 {
@@ -968,7 +855,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1964-04-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/21/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 21 },
 },
 {
@@ -977,7 +863,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1964-04-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/22/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 22 },
 },
 {
@@ -986,7 +871,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1964-04-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/23/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 23 },
 },
 {
@@ -995,7 +879,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1964-05-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/24/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 24 },
 },
 {
@@ -1004,7 +887,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1964-05-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/25/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 25 },
 },
 {
@@ -1013,7 +895,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1964-05-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/26/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 26 },
 },
 {
@@ -1022,7 +903,6 @@ const episodes = [
   episode: 27,
   type: "Main Show",
   released: "1964-05-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/27/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 27 },
 },
 {
@@ -1031,7 +911,6 @@ const episodes = [
   episode: 28,
   type: "Main Show",
   released: "1964-05-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/28/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 28 },
 },
 {
@@ -1040,7 +919,6 @@ const episodes = [
   episode: 29,
   type: "Main Show",
   released: "1964-06-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/29/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 29 },
 },
 {
@@ -1049,7 +927,6 @@ const episodes = [
   episode: 30,
   type: "Main Show",
   released: "1964-06-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/30/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 30 },
 },
 {
@@ -1058,7 +935,6 @@ const episodes = [
   episode: 31,
   type: "Main Show",
   released: "1964-06-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/31/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 31 },
 },
 {
@@ -1067,7 +943,6 @@ const episodes = [
   episode: 32,
   type: "Main Show",
   released: "1964-06-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/32/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 32 },
 },
 {
@@ -1076,7 +951,6 @@ const episodes = [
   episode: 33,
   type: "Main Show",
   released: "1964-07-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/33/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 33 },
 },
 {
@@ -1085,7 +959,6 @@ const episodes = [
   episode: 34,
   type: "Main Show",
   released: "1964-07-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/34/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 34 },
 },
 {
@@ -1094,7 +967,6 @@ const episodes = [
   episode: 35,
   type: "Main Show",
   released: "1964-07-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/35/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 35 },
 },
 {
@@ -1103,7 +975,6 @@ const episodes = [
   episode: 36,
   type: "Main Show",
   released: "1964-08-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/36/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 36 },
 },
 {
@@ -1112,7 +983,6 @@ const episodes = [
   episode: 37,
   type: "Main Show",
   released: "1964-08-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/37/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 37 },
 },
 {
@@ -1121,7 +991,6 @@ const episodes = [
   episode: 38,
   type: "Main Show",
   released: "1964-08-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/38/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 38 },
 },
 {
@@ -1130,7 +999,6 @@ const episodes = [
   episode: 39,
   type: "Main Show",
   released: "1964-08-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/39/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 39 },
 },
 {
@@ -1139,7 +1007,6 @@ const episodes = [
   episode: 40,
   type: "Main Show",
   released: "1964-08-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/40/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 40 },
 },
 {
@@ -1148,7 +1015,6 @@ const episodes = [
   episode: 41,
   type: "Main Show",
   released: "1964-09-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/41/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 41 },
 },
 {
@@ -1157,7 +1023,6 @@ const episodes = [
   episode: 42,
   type: "Main Show",
   released: "1964-09-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/1/42/w780.jpg",
   imdb: { id: "tt0056751", season: 1, episode: 42 },
 },
 {
@@ -1166,7 +1031,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1964-10-31T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/1/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 1 },
 },
 {
@@ -1175,7 +1039,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1964-11-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/2/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 2 },
 },
 {
@@ -1184,7 +1047,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1964-11-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/3/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 3 },
 },
 {
@@ -1193,7 +1055,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1964-11-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/4/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 4 },
 },
 {
@@ -1202,7 +1063,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1964-11-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/5/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 5 },
 },
 {
@@ -1211,7 +1071,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1964-12-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/6/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 6 },
 },
 {
@@ -1220,7 +1079,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1964-12-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/7/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 7 },
 },
 {
@@ -1229,7 +1087,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1964-12-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/8/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 8 },
 },
 {
@@ -1238,7 +1095,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1964-12-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/9/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 9 },
 },
 {
@@ -1247,7 +1103,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1965-01-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/10/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 10 },
 },
 {
@@ -1256,7 +1111,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1965-01-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/11/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 11 },
 },
 {
@@ -1265,7 +1119,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1965-01-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/12/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 12 },
 },
 {
@@ -1274,7 +1127,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1965-01-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/13/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 13 },
 },
 {
@@ -1283,7 +1135,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1965-01-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/14/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 14 },
 },
 {
@@ -1292,7 +1143,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1965-02-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/15/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 15 },
 },
 {
@@ -1301,7 +1151,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1965-02-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/16/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 16 },
 },
 {
@@ -1310,7 +1159,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1965-02-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/17/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 17 },
 },
 {
@@ -1319,7 +1167,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1965-02-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/18/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 18 },
 },
 {
@@ -1328,7 +1175,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1965-03-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/19/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 19 },
 },
 {
@@ -1337,7 +1183,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1965-03-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/20/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 20 },
 },
 {
@@ -1346,7 +1191,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1965-03-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/21/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 21 },
 },
 {
@@ -1355,7 +1199,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1965-03-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/22/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 22 },
 },
 {
@@ -1364,7 +1207,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1965-04-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/23/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 23 },
 },
 {
@@ -1373,7 +1215,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1965-04-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/24/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 24 },
 },
 {
@@ -1382,7 +1223,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1965-04-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/25/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 25 },
 },
 {
@@ -1391,7 +1231,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1965-04-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/26/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 26 },
 },
 {
@@ -1400,7 +1239,6 @@ const episodes = [
   episode: 27,
   type: "Main Show",
   released: "1965-05-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/27/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 27 },
 },
 {
@@ -1409,7 +1247,6 @@ const episodes = [
   episode: 28,
   type: "Main Show",
   released: "1965-05-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/28/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 28 },
 },
 {
@@ -1418,7 +1255,6 @@ const episodes = [
   episode: 29,
   type: "Main Show",
   released: "1965-05-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/29/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 29 },
 },
 {
@@ -1427,7 +1263,6 @@ const episodes = [
   episode: 30,
   type: "Main Show",
   released: "1965-05-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/30/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 30 },
 },
 {
@@ -1436,7 +1271,6 @@ const episodes = [
   episode: 31,
   type: "Main Show",
   released: "1965-05-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/31/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 31 },
 },
 {
@@ -1445,7 +1279,6 @@ const episodes = [
   episode: 32,
   type: "Main Show",
   released: "1965-06-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/32/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 32 },
 },
 {
@@ -1454,7 +1287,6 @@ const episodes = [
   episode: 33,
   type: "Main Show",
   released: "1965-06-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/33/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 33 },
 },
 {
@@ -1463,7 +1295,6 @@ const episodes = [
   episode: 34,
   type: "Main Show",
   released: "1965-06-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/34/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 34 },
 },
 {
@@ -1472,7 +1303,6 @@ const episodes = [
   episode: 35,
   type: "Main Show",
   released: "1965-06-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/35/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 35 },
 },
 {
@@ -1481,7 +1311,6 @@ const episodes = [
   episode: 36,
   type: "Main Show",
   released: "1965-07-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/36/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 36 },
 },
 {
@@ -1490,7 +1319,6 @@ const episodes = [
   episode: 37,
   type: "Main Show",
   released: "1965-07-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/37/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 37 },
 },
 {
@@ -1499,7 +1327,6 @@ const episodes = [
   episode: 38,
   type: "Main Show",
   released: "1965-07-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/38/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 38 },
 },
 {
@@ -1508,7 +1335,6 @@ const episodes = [
   episode: 39,
   type: "Main Show",
   released: "1965-07-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/2/39/w780.jpg",
   imdb: { id: "tt0056751", season: 2, episode: 39 },
 },
 {
@@ -1524,7 +1350,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1965-09-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/1/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 1 },
 },
 {
@@ -1533,7 +1358,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1965-09-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/2/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 2 },
 },
 {
@@ -1542,7 +1366,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1965-09-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/3/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 3 },
 },
 {
@@ -1551,7 +1374,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1965-10-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/4/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 4 },
 },
 {
@@ -1560,7 +1382,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1965-10-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/5/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 5 },
 },
 {
@@ -1569,7 +1390,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1965-10-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/6/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 6 },
 },
 {
@@ -1578,7 +1398,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1965-10-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/7/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 7 },
 },
 {
@@ -1587,7 +1406,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1965-10-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/8/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 8 },
 },
 {
@@ -1596,7 +1414,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1965-11-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/9/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 9 },
 },
 {
@@ -1605,7 +1422,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1965-11-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/10/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 10 },
 },
 {
@@ -1614,7 +1430,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1965-11-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/11/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 11 },
 },
 {
@@ -1623,7 +1438,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1965-11-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/12/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 12 },
 },
 {
@@ -1632,7 +1446,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1965-12-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/13/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 13 },
 },
 {
@@ -1641,7 +1454,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1965-12-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/14/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 14 },
 },
 {
@@ -1650,7 +1462,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1965-12-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/15/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 15 },
 },
 {
@@ -1659,7 +1470,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1965-12-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/16/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 16 },
 },
 {
@@ -1668,7 +1478,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1966-01-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/17/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 17 },
 },
 {
@@ -1677,7 +1486,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1966-01-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/18/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 18 },
 },
 {
@@ -1686,7 +1494,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1966-01-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/19/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 19 },
 },
 {
@@ -1695,7 +1502,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1966-01-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/20/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 20 },
 },
 {
@@ -1704,7 +1510,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1966-01-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/21/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 21 },
 },
 {
@@ -1713,7 +1518,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1966-02-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/22/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 22 },
 },
 {
@@ -1722,7 +1526,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1966-02-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/23/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 23 },
 },
 {
@@ -1731,7 +1534,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1966-02-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/24/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 24 },
 },
 {
@@ -1740,7 +1542,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1966-02-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/25/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 25 },
 },
 {
@@ -1749,7 +1550,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1966-03-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/26/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 26 },
 },
 {
@@ -1758,7 +1558,6 @@ const episodes = [
   episode: 27,
   type: "Main Show",
   released: "1966-03-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/27/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 27 },
 },
 {
@@ -1767,7 +1566,6 @@ const episodes = [
   episode: 28,
   type: "Main Show",
   released: "1966-03-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/28/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 28 },
 },
 {
@@ -1776,7 +1574,6 @@ const episodes = [
   episode: 29,
   type: "Main Show",
   released: "1966-03-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/29/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 29 },
 },
 {
@@ -1785,7 +1582,6 @@ const episodes = [
   episode: 30,
   type: "Main Show",
   released: "1966-04-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/30/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 30 },
 },
 {
@@ -1794,7 +1590,6 @@ const episodes = [
   episode: 31,
   type: "Main Show",
   released: "1966-04-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/31/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 31 },
 },
 {
@@ -1803,7 +1598,6 @@ const episodes = [
   episode: 32,
   type: "Main Show",
   released: "1966-04-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/32/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 32 },
 },
 {
@@ -1812,7 +1606,6 @@ const episodes = [
   episode: 33,
   type: "Main Show",
   released: "1966-04-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/33/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 33 },
 },
 {
@@ -1821,7 +1614,6 @@ const episodes = [
   episode: 34,
   type: "Main Show",
   released: "1966-04-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/34/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 34 },
 },
 {
@@ -1830,7 +1622,6 @@ const episodes = [
   episode: 35,
   type: "Main Show",
   released: "1966-05-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/35/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 35 },
 },
 {
@@ -1839,7 +1630,6 @@ const episodes = [
   episode: 36,
   type: "Main Show",
   released: "1966-05-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/36/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 36 },
 },
 {
@@ -1848,7 +1638,6 @@ const episodes = [
   episode: 37,
   type: "Main Show",
   released: "1966-05-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/37/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 37 },
 },
 {
@@ -1857,7 +1646,6 @@ const episodes = [
   episode: 38,
   type: "Main Show",
   released: "1966-05-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/38/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 38 },
 },
 {
@@ -1866,7 +1654,6 @@ const episodes = [
   episode: 39,
   type: "Main Show",
   released: "1966-06-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/39/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 39 },
 },
 {
@@ -1875,7 +1662,6 @@ const episodes = [
   episode: 40,
   type: "Main Show",
   released: "1966-06-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/40/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 40 },
 },
 {
@@ -1884,7 +1670,6 @@ const episodes = [
   episode: 41,
   type: "Main Show",
   released: "1966-06-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/41/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 41 },
 },
 {
@@ -1893,7 +1678,6 @@ const episodes = [
   episode: 42,
   type: "Main Show",
   released: "1966-06-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/42/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 42 },
 },
 {
@@ -1902,7 +1686,6 @@ const episodes = [
   episode: 43,
   type: "Main Show",
   released: "1966-07-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/43/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 43 },
 },
 {
@@ -1911,7 +1694,6 @@ const episodes = [
   episode: 44,
   type: "Main Show",
   released: "1966-07-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/44/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 44 },
 },
 {
@@ -1920,7 +1702,6 @@ const episodes = [
   episode: 45,
   type: "Main Show",
   released: "1966-07-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/3/45/w780.jpg",
   imdb: { id: "tt0056751", season: 3, episode: 45 },
 },
 {
@@ -1929,7 +1710,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1966-09-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/1/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 1 },
 },
 {
@@ -1938,7 +1718,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1966-09-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/2/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 2 },
 },
 {
@@ -1947,7 +1726,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1966-09-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/3/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 3 },
 },
 {
@@ -1956,7 +1734,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1966-10-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/4/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 4 },
 },
 {
@@ -1965,7 +1742,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1966-10-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/5/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 5 },
 },
 {
@@ -1974,7 +1750,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1966-10-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/6/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 6 },
 },
 {
@@ -1983,7 +1758,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1966-10-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/7/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 7 },
 },
 {
@@ -1992,7 +1766,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1966-10-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/8/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 8 },
 },
 {
@@ -2001,7 +1774,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1966-11-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/9/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 9 },
 },
 {
@@ -2010,7 +1782,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1966-11-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/10/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 10 },
 },
 {
@@ -2019,7 +1790,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1966-11-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/11/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 11 },
 },
 {
@@ -2028,7 +1798,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1966-11-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/12/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 12 },
 },
 {
@@ -2037,7 +1806,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1966-12-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/13/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 13 },
 },
 {
@@ -2046,7 +1814,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1966-12-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/14/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 14 },
 },
 {
@@ -2055,7 +1822,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1966-12-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/15/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 15 },
 },
 {
@@ -2064,7 +1830,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1966-12-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/16/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 16 },
 },
 {
@@ -2073,7 +1838,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1966-12-31T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/17/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 17 },
 },
 {
@@ -2082,7 +1846,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1967-01-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/18/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 18 },
 },
 {
@@ -2091,7 +1854,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1967-01-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/19/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 19 },
 },
 {
@@ -2100,7 +1862,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1967-01-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/20/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 20 },
 },
 {
@@ -2109,7 +1870,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1967-01-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/21/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 21 },
 },
 {
@@ -2118,7 +1878,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1967-02-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/22/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 22 },
 },
 {
@@ -2127,7 +1886,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1967-02-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/23/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 23 },
 },
 {
@@ -2136,7 +1894,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1967-02-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/24/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 24 },
 },
 {
@@ -2145,7 +1902,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1967-02-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/25/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 25 },
 },
 {
@@ -2154,7 +1910,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1967-03-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/26/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 26 },
 },
 {
@@ -2163,7 +1918,6 @@ const episodes = [
   episode: 27,
   type: "Main Show",
   released: "1967-03-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/27/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 27 },
 },
 {
@@ -2172,7 +1926,6 @@ const episodes = [
   episode: 28,
   type: "Main Show",
   released: "1967-03-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/28/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 28 },
 },
 {
@@ -2181,7 +1934,6 @@ const episodes = [
   episode: 29,
   type: "Main Show",
   released: "1967-03-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/29/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 29 },
 },
 {
@@ -2190,7 +1942,6 @@ const episodes = [
   episode: 30,
   type: "Main Show",
   released: "1967-04-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/30/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 30 },
 },
 {
@@ -2199,7 +1950,6 @@ const episodes = [
   episode: 31,
   type: "Main Show",
   released: "1967-04-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/31/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 31 },
 },
 {
@@ -2208,7 +1958,6 @@ const episodes = [
   episode: 32,
   type: "Main Show",
   released: "1967-04-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/32/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 32 },
 },
 {
@@ -2217,7 +1966,6 @@ const episodes = [
   episode: 33,
   type: "Main Show",
   released: "1967-04-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/33/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 33 },
 },
 {
@@ -2226,7 +1974,6 @@ const episodes = [
   episode: 34,
   type: "Main Show",
   released: "1967-04-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/34/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 34 },
 },
 {
@@ -2235,7 +1982,6 @@ const episodes = [
   episode: 35,
   type: "Main Show",
   released: "1967-05-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/35/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 35 },
 },
 {
@@ -2244,7 +1990,6 @@ const episodes = [
   episode: 36,
   type: "Main Show",
   released: "1967-05-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/36/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 36 },
 },
 {
@@ -2253,7 +1998,6 @@ const episodes = [
   episode: 37,
   type: "Main Show",
   released: "1967-05-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/37/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 37 },
 },
 {
@@ -2262,7 +2006,6 @@ const episodes = [
   episode: 38,
   type: "Main Show",
   released: "1967-05-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/38/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 38 },
 },
 {
@@ -2271,7 +2014,6 @@ const episodes = [
   episode: 39,
   type: "Main Show",
   released: "1967-06-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/39/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 39 },
 },
 {
@@ -2280,7 +2022,6 @@ const episodes = [
   episode: 40,
   type: "Main Show",
   released: "1967-06-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/40/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 40 },
 },
 {
@@ -2289,7 +2030,6 @@ const episodes = [
   episode: 41,
   type: "Main Show",
   released: "1967-06-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/41/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 41 },
 },
 {
@@ -2298,7 +2038,6 @@ const episodes = [
   episode: 42,
   type: "Main Show",
   released: "1967-06-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/42/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 42 },
 },
 {
@@ -2307,7 +2046,6 @@ const episodes = [
   episode: 43,
   type: "Main Show",
   released: "1967-07-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/4/43/w780.jpg",
   imdb: { id: "tt0056751", season: 4, episode: 43 },
 },
 {
@@ -2316,7 +2054,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1967-09-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/1/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 1 },
 },
 {
@@ -2325,7 +2062,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1967-09-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/2/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 2 },
 },
 {
@@ -2334,7 +2070,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1967-09-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/3/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 3 },
 },
 {
@@ -2343,7 +2078,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1967-09-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/4/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 4 },
 },
 {
@@ -2352,7 +2086,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1967-09-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/5/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 5 },
 },
 {
@@ -2361,7 +2094,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1967-10-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/6/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 6 },
 },
 {
@@ -2370,7 +2102,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1967-10-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/7/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 7 },
 },
 {
@@ -2379,7 +2110,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1967-10-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/8/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 8 },
 },
 {
@@ -2388,7 +2118,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1967-10-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/9/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 9 },
 },
 {
@@ -2397,7 +2126,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1967-11-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/10/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 10 },
 },
 {
@@ -2406,7 +2134,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1967-11-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/11/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 11 },
 },
 {
@@ -2415,7 +2142,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1967-11-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/12/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 12 },
 },
 {
@@ -2424,7 +2150,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1967-11-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/13/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 13 },
 },
 {
@@ -2433,7 +2158,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1967-12-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/14/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 14 },
 },
 {
@@ -2442,7 +2166,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1967-12-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/15/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 15 },
 },
 {
@@ -2451,7 +2174,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1967-12-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/16/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 16 },
 },
 {
@@ -2460,7 +2182,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1967-12-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/17/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 17 },
 },
 {
@@ -2469,7 +2190,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1967-12-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/18/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 18 },
 },
 {
@@ -2478,7 +2198,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1968-01-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/19/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 19 },
 },
 {
@@ -2487,7 +2206,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1968-01-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/20/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 20 },
 },
 {
@@ -2496,7 +2214,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1968-01-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/21/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 21 },
 },
 {
@@ -2505,7 +2222,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1968-01-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/22/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 22 },
 },
 {
@@ -2514,7 +2230,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1968-02-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/23/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 23 },
 },
 {
@@ -2523,7 +2238,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1968-02-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/24/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 24 },
 },
 {
@@ -2532,7 +2246,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1968-02-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/25/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 25 },
 },
 {
@@ -2541,7 +2254,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1968-02-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/26/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 26 },
 },
 {
@@ -2550,7 +2262,6 @@ const episodes = [
   episode: 27,
   type: "Main Show",
   released: "1968-03-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/27/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 27 },
 },
 {
@@ -2559,7 +2270,6 @@ const episodes = [
   episode: 28,
   type: "Main Show",
   released: "1968-03-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/28/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 28 },
 },
 {
@@ -2568,7 +2278,6 @@ const episodes = [
   episode: 29,
   type: "Main Show",
   released: "1968-03-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/29/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 29 },
 },
 {
@@ -2577,7 +2286,6 @@ const episodes = [
   episode: 30,
   type: "Main Show",
   released: "1968-03-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/30/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 30 },
 },
 {
@@ -2586,7 +2294,6 @@ const episodes = [
   episode: 31,
   type: "Main Show",
   released: "1968-03-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/31/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 31 },
 },
 {
@@ -2595,7 +2302,6 @@ const episodes = [
   episode: 32,
   type: "Main Show",
   released: "1968-04-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/32/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 32 },
 },
 {
@@ -2604,7 +2310,6 @@ const episodes = [
   episode: 33,
   type: "Main Show",
   released: "1968-04-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/33/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 33 },
 },
 {
@@ -2613,7 +2318,6 @@ const episodes = [
   episode: 34,
   type: "Main Show",
   released: "1968-04-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/34/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 34 },
 },
 {
@@ -2622,7 +2326,6 @@ const episodes = [
   episode: 35,
   type: "Main Show",
   released: "1968-04-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/35/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 35 },
 },
 {
@@ -2631,7 +2334,6 @@ const episodes = [
   episode: 36,
   type: "Main Show",
   released: "1968-05-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/36/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 36 },
 },
 {
@@ -2640,7 +2342,6 @@ const episodes = [
   episode: 37,
   type: "Main Show",
   released: "1968-05-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/37/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 37 },
 },
 {
@@ -2649,7 +2350,6 @@ const episodes = [
   episode: 38,
   type: "Main Show",
   released: "1968-05-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/38/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 38 },
 },
 {
@@ -2658,7 +2358,6 @@ const episodes = [
   episode: 39,
   type: "Main Show",
   released: "1968-05-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/39/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 39 },
 },
 {
@@ -2667,7 +2366,6 @@ const episodes = [
   episode: 40,
   type: "Main Show",
   released: "1968-06-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/5/40/w780.jpg",
   imdb: { id: "tt0056751", season: 5, episode: 40 },
 },
 {
@@ -2676,7 +2374,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1968-08-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/1/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 1 },
 },
 {
@@ -2685,7 +2382,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1968-08-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/2/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 2 },
 },
 {
@@ -2694,7 +2390,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1968-08-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/3/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 3 },
 },
 {
@@ -2703,7 +2398,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1968-08-31T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/4/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 4 },
 },
 {
@@ -2712,7 +2406,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1968-09-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/5/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 5 },
 },
 {
@@ -2721,7 +2414,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1968-09-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/6/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 6 },
 },
 {
@@ -2730,7 +2422,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1968-09-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/7/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 7 },
 },
 {
@@ -2739,7 +2430,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1968-09-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/8/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 8 },
 },
 {
@@ -2748,7 +2438,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1968-10-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/9/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 9 },
 },
 {
@@ -2757,7 +2446,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1968-10-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/10/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 10 },
 },
 {
@@ -2766,7 +2454,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1968-11-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/11/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 11 },
 },
 {
@@ -2775,7 +2462,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1968-11-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/12/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 12 },
 },
 {
@@ -2784,7 +2470,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1968-11-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/13/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 13 },
 },
 {
@@ -2793,7 +2478,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1968-11-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/14/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 14 },
 },
 {
@@ -2802,7 +2486,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1968-11-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/15/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 15 },
 },
 {
@@ -2811,7 +2494,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1968-12-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/16/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 16 },
 },
 {
@@ -2820,7 +2502,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1968-12-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/17/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 17 },
 },
 {
@@ -2829,7 +2510,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1968-12-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/18/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 18 },
 },
 {
@@ -2838,7 +2518,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1968-12-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/19/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 19 },
 },
 {
@@ -2847,7 +2526,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1969-01-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/20/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 20 },
 },
 {
@@ -2856,7 +2534,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1969-01-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/21/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 21 },
 },
 {
@@ -2865,7 +2542,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1969-01-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/22/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 22 },
 },
 {
@@ -2874,7 +2550,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1969-01-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/23/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 23 },
 },
 {
@@ -2883,7 +2558,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1969-02-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/24/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 24 },
 },
 {
@@ -2892,7 +2566,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1969-02-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/25/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 25 },
 },
 {
@@ -2901,7 +2574,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1969-02-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/26/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 26 },
 },
 {
@@ -2910,7 +2582,6 @@ const episodes = [
   episode: 27,
   type: "Main Show",
   released: "1969-02-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/27/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 27 },
 },
 {
@@ -2919,7 +2590,6 @@ const episodes = [
   episode: 28,
   type: "Main Show",
   released: "1969-03-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/28/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 28 },
 },
 {
@@ -2928,7 +2598,6 @@ const episodes = [
   episode: 29,
   type: "Main Show",
   released: "1969-03-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/29/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 29 },
 },
 {
@@ -2937,7 +2606,6 @@ const episodes = [
   episode: 30,
   type: "Main Show",
   released: "1969-03-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/30/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 30 },
 },
 {
@@ -2946,7 +2614,6 @@ const episodes = [
   episode: 31,
   type: "Main Show",
   released: "1969-03-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/31/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 31 },
 },
 {
@@ -2955,7 +2622,6 @@ const episodes = [
   episode: 32,
   type: "Main Show",
   released: "1969-03-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/32/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 32 },
 },
 {
@@ -2964,7 +2630,6 @@ const episodes = [
   episode: 33,
   type: "Main Show",
   released: "1969-04-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/33/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 33 },
 },
 {
@@ -2973,7 +2638,6 @@ const episodes = [
   episode: 34,
   type: "Main Show",
   released: "1969-04-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/34/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 34 },
 },
 {
@@ -2982,7 +2646,6 @@ const episodes = [
   episode: 35,
   type: "Main Show",
   released: "1969-04-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/35/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 35 },
 },
 {
@@ -2991,7 +2654,6 @@ const episodes = [
   episode: 36,
   type: "Main Show",
   released: "1969-04-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/36/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 36 },
 },
 {
@@ -3000,7 +2662,6 @@ const episodes = [
   episode: 37,
   type: "Main Show",
   released: "1969-05-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/37/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 37 },
 },
 {
@@ -3009,7 +2670,6 @@ const episodes = [
   episode: 38,
   type: "Main Show",
   released: "1969-05-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/38/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 38 },
 },
 {
@@ -3018,7 +2678,6 @@ const episodes = [
   episode: 39,
   type: "Main Show",
   released: "1969-05-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/39/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 39 },
 },
 {
@@ -3027,7 +2686,6 @@ const episodes = [
   episode: 40,
   type: "Main Show",
   released: "1969-05-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/40/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 40 },
 },
 {
@@ -3036,7 +2694,6 @@ const episodes = [
   episode: 41,
   type: "Main Show",
   released: "1969-05-31T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/41/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 41 },
 },
 {
@@ -3045,7 +2702,6 @@ const episodes = [
   episode: 42,
   type: "Main Show",
   released: "1969-06-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/42/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 42 },
 },
 {
@@ -3054,7 +2710,6 @@ const episodes = [
   episode: 43,
   type: "Main Show",
   released: "1969-06-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/43/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 43 },
 },
 {
@@ -3063,7 +2718,6 @@ const episodes = [
   episode: 44,
   type: "Main Show",
   released: "1969-06-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/6/44/w780.jpg",
   imdb: { id: "tt0056751", season: 6, episode: 44 },
 },
 {
@@ -3072,7 +2726,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1970-01-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/1/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 1 },
 },
 {
@@ -3081,7 +2734,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1970-01-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/2/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 2 },
 },
 {
@@ -3090,7 +2742,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1970-01-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/3/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 3 },
 },
 {
@@ -3099,7 +2750,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1970-01-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/4/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 4 },
 },
 {
@@ -3108,7 +2758,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1970-01-31T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/5/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 5 },
 },
 {
@@ -3117,7 +2766,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1970-02-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/6/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 6 },
 },
 {
@@ -3126,7 +2774,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1970-02-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/7/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 7 },
 },
 {
@@ -3135,7 +2782,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1970-02-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/8/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 8 },
 },
 {
@@ -3144,7 +2790,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1970-02-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/9/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 9 },
 },
 {
@@ -3153,7 +2798,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1970-03-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/10/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 10 },
 },
 {
@@ -3162,7 +2806,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1970-03-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/11/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 11 },
 },
 {
@@ -3171,7 +2814,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1970-03-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/12/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 12 },
 },
 {
@@ -3180,7 +2822,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1970-03-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/13/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 13 },
 },
 {
@@ -3189,7 +2830,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1970-04-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/14/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 14 },
 },
 {
@@ -3198,7 +2838,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1970-04-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/15/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 15 },
 },
 {
@@ -3207,7 +2846,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1970-04-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/16/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 16 },
 },
 {
@@ -3216,7 +2854,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1970-04-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/17/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 17 },
 },
 {
@@ -3225,7 +2862,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1970-05-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/18/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 18 },
 },
 {
@@ -3234,7 +2870,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1970-05-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/19/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 19 },
 },
 {
@@ -3243,7 +2878,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1970-05-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/20/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 20 },
 },
 {
@@ -3252,7 +2886,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1970-05-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/21/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 21 },
 },
 {
@@ -3261,7 +2894,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1970-05-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/22/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 22 },
 },
 {
@@ -3270,7 +2902,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1970-06-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/23/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 23 },
 },
 {
@@ -3279,7 +2910,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1970-06-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/24/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 24 },
 },
 {
@@ -3288,7 +2918,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1970-06-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/7/25/w780.jpg",
   imdb: { id: "tt0056751", season: 7, episode: 25 },
 },
 {
@@ -3297,7 +2926,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1971-01-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/1/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 1 },
 },
 {
@@ -3306,7 +2934,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1971-01-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/2/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 2 },
 },
 {
@@ -3315,7 +2942,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1971-01-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/3/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 3 },
 },
 {
@@ -3324,7 +2950,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1971-01-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/4/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 4 },
 },
 {
@@ -3333,7 +2958,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1971-01-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/5/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 5 },
 },
 {
@@ -3342,7 +2966,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1971-02-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/6/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 6 },
 },
 {
@@ -3351,7 +2974,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1971-02-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/7/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 7 },
 },
 {
@@ -3360,7 +2982,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1971-02-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/8/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 8 },
 },
 {
@@ -3369,7 +2990,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1971-02-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/9/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 9 },
 },
 {
@@ -3378,7 +2998,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1971-03-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/10/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 10 },
 },
 {
@@ -3387,7 +3006,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1971-03-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/11/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 11 },
 },
 {
@@ -3396,7 +3014,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1971-03-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/12/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 12 },
 },
 {
@@ -3405,7 +3022,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1971-03-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/13/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 13 },
 },
 {
@@ -3414,7 +3030,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1971-04-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/14/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 14 },
 },
 {
@@ -3423,7 +3038,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1971-04-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/15/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 15 },
 },
 {
@@ -3432,7 +3046,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1971-04-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/16/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 16 },
 },
 {
@@ -3441,7 +3054,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1971-04-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/17/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 17 },
 },
 {
@@ -3450,7 +3062,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1971-05-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/18/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 18 },
 },
 {
@@ -3459,7 +3070,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1971-05-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/19/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 19 },
 },
 {
@@ -3468,7 +3078,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1971-05-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/20/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 20 },
 },
 {
@@ -3477,7 +3086,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1971-05-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/21/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 21 },
 },
 {
@@ -3486,7 +3094,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1971-05-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/22/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 22 },
 },
 {
@@ -3495,7 +3102,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1971-06-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/23/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 23 },
 },
 {
@@ -3504,7 +3110,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1971-06-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/24/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 24 },
 },
 {
@@ -3513,7 +3118,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1971-06-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/8/25/w780.jpg",
   imdb: { id: "tt0056751", season: 8, episode: 25 },
 },
 {
@@ -3522,7 +3126,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1972-01-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/1/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 1 },
 },
 {
@@ -3531,7 +3134,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1972-01-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/2/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 2 },
 },
 {
@@ -3540,7 +3142,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1972-01-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/3/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 3 },
 },
 {
@@ -3549,7 +3150,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1972-01-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/4/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 4 },
 },
 {
@@ -3558,7 +3158,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1972-01-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/5/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 5 },
 },
 {
@@ -3567,7 +3166,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1972-02-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/6/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 6 },
 },
 {
@@ -3576,7 +3174,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1972-02-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/7/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 7 },
 },
 {
@@ -3585,7 +3182,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1972-02-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/8/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 8 },
 },
 {
@@ -3594,7 +3190,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1972-02-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/9/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 9 },
 },
 {
@@ -3603,7 +3198,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1972-03-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/10/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 10 },
 },
 {
@@ -3612,7 +3206,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1972-03-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/11/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 11 },
 },
 {
@@ -3621,7 +3214,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1972-03-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/12/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 12 },
 },
 {
@@ -3630,7 +3222,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1972-03-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/13/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 13 },
 },
 {
@@ -3639,7 +3230,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1972-04-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/14/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 14 },
 },
 {
@@ -3648,7 +3238,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1972-04-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/15/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 15 },
 },
 {
@@ -3657,7 +3246,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1972-04-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/16/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 16 },
 },
 {
@@ -3666,7 +3254,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1972-04-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/17/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 17 },
 },
 {
@@ -3675,7 +3262,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1972-04-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/18/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 18 },
 },
 {
@@ -3684,7 +3270,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1972-05-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/19/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 19 },
 },
 {
@@ -3693,7 +3278,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1972-05-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/20/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 20 },
 },
 {
@@ -3702,7 +3286,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1972-05-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/21/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 21 },
 },
 {
@@ -3711,7 +3294,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1972-05-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/22/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 22 },
 },
 {
@@ -3720,7 +3302,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1972-06-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/23/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 23 },
 },
 {
@@ -3729,7 +3310,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1972-06-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/24/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 24 },
 },
 {
@@ -3738,7 +3318,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1972-06-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/25/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 25 },
 },
 {
@@ -3747,7 +3326,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1972-06-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/9/26/w780.jpg",
   imdb: { id: "tt0056751", season: 9, episode: 26 },
 },
 {
@@ -3756,7 +3334,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1972-12-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/1/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 1 },
 },
 {
@@ -3765,7 +3342,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1973-01-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/2/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 2 },
 },
 {
@@ -3774,7 +3350,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1973-01-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/3/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 3 },
 },
 {
@@ -3783,7 +3358,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1973-01-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/4/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 4 },
 },
 {
@@ -3792,7 +3366,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1973-01-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/5/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 5 },
 },
 {
@@ -3801,7 +3374,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1973-02-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/6/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 6 },
 },
 {
@@ -3810,7 +3382,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1973-02-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/7/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 7 },
 },
 {
@@ -3819,7 +3390,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1973-02-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/8/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 8 },
 },
 {
@@ -3828,7 +3398,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1973-02-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/9/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 9 },
 },
 {
@@ -3837,7 +3406,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1973-03-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/10/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 10 },
 },
 {
@@ -3846,7 +3414,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1973-03-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/11/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 11 },
 },
 {
@@ -3855,7 +3422,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1973-03-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/12/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 12 },
 },
 {
@@ -3864,7 +3430,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1973-03-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/13/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 13 },
 },
 {
@@ -3873,7 +3438,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1973-03-31T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/14/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 14 },
 },
 {
@@ -3882,7 +3446,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1973-04-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/15/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 15 },
 },
 {
@@ -3891,7 +3454,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1973-04-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/16/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 16 },
 },
 {
@@ -3900,7 +3462,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1973-04-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/17/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 17 },
 },
 {
@@ -3909,7 +3470,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1973-04-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/18/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 18 },
 },
 {
@@ -3918,7 +3478,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1973-05-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/19/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 19 },
 },
 {
@@ -3927,7 +3486,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1973-05-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/20/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 20 },
 },
 {
@@ -3936,7 +3494,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1973-05-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/21/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 21 },
 },
 {
@@ -3945,7 +3502,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1973-05-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/22/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 22 },
 },
 {
@@ -3954,7 +3510,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1973-06-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/23/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 23 },
 },
 {
@@ -3963,7 +3518,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1973-06-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/24/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 24 },
 },
 {
@@ -3972,7 +3526,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1973-06-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/25/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 25 },
 },
 {
@@ -3981,7 +3534,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1973-06-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/10/26/w780.jpg",
   imdb: { id: "tt0056751", season: 10, episode: 26 },
 },
 {
@@ -3990,7 +3542,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1973-12-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/1/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 1 },
 },
 {
@@ -3999,7 +3550,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1973-12-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/2/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 2 },
 },
 {
@@ -4008,7 +3558,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1973-12-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/3/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 3 },
 },
 {
@@ -4017,7 +3566,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1974-01-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/4/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 4 },
 },
 {
@@ -4026,7 +3574,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1974-01-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/5/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 5 },
 },
 {
@@ -4035,7 +3582,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1974-01-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/6/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 6 },
 },
 {
@@ -4044,7 +3590,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1974-01-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/7/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 7 },
 },
 {
@@ -4053,7 +3598,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1974-02-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/8/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 8 },
 },
 {
@@ -4062,7 +3606,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1974-02-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/9/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 9 },
 },
 {
@@ -4071,7 +3614,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1974-02-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/10/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 10 },
 },
 {
@@ -4080,7 +3622,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1974-02-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/11/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 11 },
 },
 {
@@ -4089,7 +3630,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1974-03-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/12/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 12 },
 },
 {
@@ -4098,7 +3638,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1974-03-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/13/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 13 },
 },
 {
@@ -4107,7 +3646,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1974-03-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/14/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 14 },
 },
 {
@@ -4116,7 +3654,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1974-03-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/15/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 15 },
 },
 {
@@ -4125,7 +3662,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1974-03-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/16/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 16 },
 },
 {
@@ -4134,7 +3670,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1974-04-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/17/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 17 },
 },
 {
@@ -4143,7 +3678,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1974-04-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/18/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 18 },
 },
 {
@@ -4152,7 +3686,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1974-04-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/19/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 19 },
 },
 {
@@ -4161,7 +3694,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1974-04-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/20/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 20 },
 },
 {
@@ -4170,7 +3702,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1974-05-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/21/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 21 },
 },
 {
@@ -4179,7 +3710,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1974-05-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/22/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 22 },
 },
 {
@@ -4188,7 +3718,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1974-05-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/23/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 23 },
 },
 {
@@ -4197,7 +3726,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1974-05-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/24/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 24 },
 },
 {
@@ -4206,7 +3734,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1974-06-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/25/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 25 },
 },
 {
@@ -4215,7 +3742,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1974-06-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/11/26/w780.jpg",
   imdb: { id: "tt0056751", season: 11, episode: 26 },
 },
 {
@@ -4224,7 +3750,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1974-12-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/1/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 1 },
 },
 {
@@ -4233,7 +3758,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1975-01-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/2/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 2 },
 },
 {
@@ -4242,7 +3766,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1975-01-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/3/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 3 },
 },
 {
@@ -4251,7 +3774,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1975-01-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/4/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 4 },
 },
 {
@@ -4260,7 +3782,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1975-01-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/5/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 5 },
 },
 {
@@ -4269,7 +3790,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1975-02-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/6/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 6 },
 },
 {
@@ -4278,7 +3798,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1975-02-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/7/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 7 },
 },
 {
@@ -4287,7 +3806,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1975-02-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/8/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 8 },
 },
 {
@@ -4296,7 +3814,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1975-02-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/9/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 9 },
 },
 {
@@ -4305,7 +3822,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1975-03-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/10/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 10 },
 },
 {
@@ -4314,7 +3830,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1975-03-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/11/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 11 },
 },
 {
@@ -4323,7 +3838,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1975-03-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/12/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 12 },
 },
 {
@@ -4332,7 +3846,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1975-03-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/13/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 13 },
 },
 {
@@ -4341,7 +3854,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1975-03-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/14/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 14 },
 },
 {
@@ -4350,7 +3862,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1975-04-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/15/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 15 },
 },
 {
@@ -4359,7 +3870,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1975-04-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/16/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 16 },
 },
 {
@@ -4368,7 +3878,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1975-04-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/17/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 17 },
 },
 {
@@ -4377,7 +3886,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1975-04-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/18/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 18 },
 },
 {
@@ -4386,7 +3894,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1975-05-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/19/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 19 },
 },
 {
@@ -4395,7 +3902,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1975-05-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/12/20/w780.jpg",
   imdb: { id: "tt0056751", season: 12, episode: 20 },
 },
 {
@@ -4404,7 +3910,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1975-08-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/1/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 1 },
 },
 {
@@ -4413,7 +3918,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1975-09-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/2/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 2 },
 },
 {
@@ -4422,7 +3926,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1975-09-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/3/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 3 },
 },
 {
@@ -4431,7 +3934,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1975-09-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/4/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 4 },
 },
 {
@@ -4440,7 +3942,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1975-09-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/5/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 5 },
 },
 {
@@ -4449,7 +3950,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1975-10-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/6/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 6 },
 },
 {
@@ -4458,7 +3958,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1975-10-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/7/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 7 },
 },
 {
@@ -4467,7 +3966,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1975-10-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/8/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 8 },
 },
 {
@@ -4476,7 +3974,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1975-10-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/9/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 9 },
 },
 {
@@ -4485,7 +3982,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1975-11-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/10/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 10 },
 },
 {
@@ -4494,7 +3990,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1975-11-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/11/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 11 },
 },
 {
@@ -4503,7 +3998,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1975-11-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/12/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 12 },
 },
 {
@@ -4512,7 +4006,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1975-11-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/13/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 13 },
 },
 {
@@ -4521,7 +4014,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1975-11-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/14/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 14 },
 },
 {
@@ -4530,7 +4022,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1975-12-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/15/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 15 },
 },
 {
@@ -4539,7 +4030,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1975-12-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/16/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 16 },
 },
 {
@@ -4548,7 +4038,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1976-01-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/17/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 17 },
 },
 {
@@ -4557,7 +4046,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1976-01-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/18/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 18 },
 },
 {
@@ -4566,7 +4054,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1976-01-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/19/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 19 },
 },
 {
@@ -4575,7 +4062,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1976-01-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/20/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 20 },
 },
 {
@@ -4584,7 +4070,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1976-01-31T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/21/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 21 },
 },
 {
@@ -4593,7 +4078,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1976-02-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/22/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 22 },
 },
 {
@@ -4602,7 +4086,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1976-02-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/23/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 23 },
 },
 {
@@ -4611,7 +4094,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1976-02-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/24/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 24 },
 },
 {
@@ -4620,7 +4102,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1976-02-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/25/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 25 },
 },
 {
@@ -4629,7 +4110,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1976-03-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/13/26/w780.jpg",
   imdb: { id: "tt0056751", season: 13, episode: 26 },
 },
 {
@@ -4638,7 +4118,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1976-09-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/1/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 1 },
 },
 {
@@ -4647,7 +4126,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1976-09-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/2/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 2 },
 },
 {
@@ -4656,7 +4134,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1976-09-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/3/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 3 },
 },
 {
@@ -4665,7 +4142,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1976-09-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/4/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 4 },
 },
 {
@@ -4674,7 +4150,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1976-10-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/5/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 5 },
 },
 {
@@ -4683,7 +4158,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1976-10-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/6/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 6 },
 },
 {
@@ -4692,7 +4166,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1976-10-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/7/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 7 },
 },
 {
@@ -4701,7 +4174,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1976-10-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/8/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 8 },
 },
 {
@@ -4710,7 +4182,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1976-10-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/9/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 9 },
 },
 {
@@ -4719,7 +4190,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1976-11-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/10/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 10 },
 },
 {
@@ -4728,7 +4198,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1976-11-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/11/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 11 },
 },
 {
@@ -4737,7 +4206,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1976-11-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/12/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 12 },
 },
 {
@@ -4746,7 +4214,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1977-01-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/13/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 13 },
 },
 {
@@ -4755,7 +4222,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1977-01-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/14/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 14 },
 },
 {
@@ -4764,7 +4230,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1977-01-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/15/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 15 },
 },
 {
@@ -4773,7 +4238,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1977-01-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/16/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 16 },
 },
 {
@@ -4782,7 +4246,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1977-01-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/17/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 17 },
 },
 {
@@ -4791,7 +4254,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1977-02-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/18/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 18 },
 },
 {
@@ -4800,7 +4262,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1977-02-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/19/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 19 },
 },
 {
@@ -4809,7 +4270,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1977-02-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/20/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 20 },
 },
 {
@@ -4818,7 +4278,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1977-02-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/21/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 21 },
 },
 {
@@ -4827,7 +4286,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1977-03-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/22/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 22 },
 },
 {
@@ -4836,7 +4294,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1977-03-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/23/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 23 },
 },
 {
@@ -4845,7 +4302,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1977-03-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/24/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 24 },
 },
 {
@@ -4854,7 +4310,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1977-03-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/25/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 25 },
 },
 {
@@ -4863,7 +4318,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1977-04-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/14/26/w780.jpg",
   imdb: { id: "tt0056751", season: 14, episode: 26 },
 },
 {
@@ -4872,7 +4326,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1977-09-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/1/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 1 },
 },
 {
@@ -4881,7 +4334,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1977-09-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/2/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 2 },
 },
 {
@@ -4890,7 +4342,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1977-09-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/3/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 3 },
 },
 {
@@ -4899,7 +4350,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1977-09-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/4/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 4 },
 },
 {
@@ -4908,7 +4358,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1977-10-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/5/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 5 },
 },
 {
@@ -4917,7 +4366,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1977-10-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/6/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 6 },
 },
 {
@@ -4926,7 +4374,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1977-10-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/7/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 7 },
 },
 {
@@ -4935,7 +4382,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1977-10-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/8/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 8 },
 },
 {
@@ -4944,7 +4390,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1977-10-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/9/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 9 },
 },
 {
@@ -4953,7 +4398,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1977-11-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/10/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 10 },
 },
 {
@@ -4962,7 +4406,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1977-11-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/11/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 11 },
 },
 {
@@ -4971,7 +4414,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1977-11-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/12/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 12 },
 },
 {
@@ -4980,7 +4422,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1977-11-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/13/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 13 },
 },
 {
@@ -4989,7 +4430,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1977-12-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/14/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 14 },
 },
 {
@@ -4998,7 +4438,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1977-12-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/15/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 15 },
 },
 {
@@ -5007,7 +4446,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1977-12-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/16/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 16 },
 },
 {
@@ -5016,7 +4454,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1978-01-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/17/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 17 },
 },
 {
@@ -5025,7 +4462,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1978-01-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/18/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 18 },
 },
 {
@@ -5034,7 +4470,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1978-01-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/19/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 19 },
 },
 {
@@ -5043,7 +4478,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1978-01-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/20/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 20 },
 },
 {
@@ -5052,7 +4486,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1978-02-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/21/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 21 },
 },
 {
@@ -5061,7 +4494,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1978-02-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/22/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 22 },
 },
 {
@@ -5070,7 +4502,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1978-02-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/23/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 23 },
 },
 {
@@ -5079,7 +4510,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1978-02-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/24/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 24 },
 },
 {
@@ -5088,7 +4518,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1978-03-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/25/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 25 },
 },
 {
@@ -5097,7 +4526,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1978-03-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/15/26/w780.jpg",
   imdb: { id: "tt0056751", season: 15, episode: 26 },
 },
 {
@@ -5106,7 +4534,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1978-09-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/1/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 1 },
 },
 {
@@ -5115,7 +4542,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1978-09-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/2/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 2 },
 },
 {
@@ -5124,7 +4550,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1978-09-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/3/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 3 },
 },
 {
@@ -5133,7 +4558,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1978-09-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/4/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 4 },
 },
 {
@@ -5142,7 +4566,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1978-09-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/5/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 5 },
 },
 {
@@ -5151,7 +4574,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1978-10-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/6/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 6 },
 },
 {
@@ -5160,7 +4582,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1978-10-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/7/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 7 },
 },
 {
@@ -5169,7 +4590,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1978-10-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/8/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 8 },
 },
 {
@@ -5178,7 +4598,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1978-10-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/9/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 9 },
 },
 {
@@ -5187,7 +4606,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1978-11-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/10/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 10 },
 },
 {
@@ -5196,7 +4614,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1978-11-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/11/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 11 },
 },
 {
@@ -5205,7 +4622,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1978-11-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/12/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 12 },
 },
 {
@@ -5214,7 +4630,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1978-11-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/13/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 13 },
 },
 {
@@ -5223,7 +4638,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1978-12-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/14/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 14 },
 },
 {
@@ -5232,7 +4646,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1978-12-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/15/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 15 },
 },
 {
@@ -5241,7 +4654,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1978-12-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/16/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 16 },
 },
 {
@@ -5250,7 +4662,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1978-12-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/17/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 17 },
 },
 {
@@ -5259,7 +4670,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1978-12-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/18/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 18 },
 },
 {
@@ -5268,7 +4678,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1979-01-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/19/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 19 },
 },
 {
@@ -5277,7 +4686,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1979-01-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/20/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 20 },
 },
 {
@@ -5286,7 +4694,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1979-01-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/21/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 21 },
 },
 {
@@ -5295,7 +4702,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1979-01-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/22/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 22 },
 },
 {
@@ -5304,7 +4710,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1979-02-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/23/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 23 },
 },
 {
@@ -5313,7 +4718,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1979-02-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/24/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 24 },
 },
 {
@@ -5322,7 +4726,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1979-02-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/25/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 25 },
 },
 {
@@ -5331,7 +4734,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1979-02-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/16/26/w780.jpg",
   imdb: { id: "tt0056751", season: 16, episode: 26 },
 },
 {
@@ -5340,7 +4742,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1979-09-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/1/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 1 },
 },
 {
@@ -5349,7 +4750,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1979-09-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/2/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 2 },
 },
 {
@@ -5358,7 +4758,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1979-09-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/3/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 3 },
 },
 {
@@ -5367,7 +4766,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1979-09-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/4/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 4 },
 },
 {
@@ -5376,7 +4774,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1979-09-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/5/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 5 },
 },
 {
@@ -5385,7 +4782,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1979-10-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/6/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 6 },
 },
 {
@@ -5394,7 +4790,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1979-10-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/7/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 7 },
 },
 {
@@ -5403,7 +4798,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1979-10-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/8/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 8 },
 },
 {
@@ -5412,7 +4806,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1979-10-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/9/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 9 },
 },
 {
@@ -5421,7 +4814,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1979-11-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/10/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 10 },
 },
 {
@@ -5430,7 +4822,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1979-11-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/11/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 11 },
 },
 {
@@ -5439,7 +4830,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1979-11-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/12/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 12 },
 },
 {
@@ -5448,7 +4838,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1979-11-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/13/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 13 },
 },
 {
@@ -5457,7 +4846,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1979-12-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/14/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 14 },
 },
 {
@@ -5466,7 +4854,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1979-12-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/15/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 15 },
 },
 {
@@ -5475,7 +4862,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1979-12-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/16/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 16 },
 },
 {
@@ -5484,7 +4870,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1979-12-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/17/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 17 },
 },
 {
@@ -5493,7 +4878,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1979-12-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/18/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 18 },
 },
 {
@@ -5502,7 +4886,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1980-01-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/19/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 19 },
 },
 {
@@ -5511,7 +4894,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1980-01-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/20/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 20 },
 },
 {
@@ -5519,7 +4901,6 @@ const episodes = [
   season: 17,
   episode: 21,
   type: "Main Show",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/21/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 21 },
 },
 {
@@ -5527,7 +4908,6 @@ const episodes = [
   season: 17,
   episode: 22,
   type: "Main Show",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/22/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 22 },
 },
 {
@@ -5535,7 +4915,6 @@ const episodes = [
   season: 17,
   episode: 23,
   type: "Main Show",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/23/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 23 },
 },
 {
@@ -5543,7 +4922,6 @@ const episodes = [
   season: 17,
   episode: 24,
   type: "Main Show",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/24/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 24 },
 },
 {
@@ -5551,7 +4929,6 @@ const episodes = [
   season: 17,
   episode: 25,
   type: "Main Show",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/25/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 25 },
 },
 {
@@ -5559,7 +4936,6 @@ const episodes = [
   season: 17,
   episode: 26,
   type: "Main Show",
-  thumbnail: "https://episodes.metahub.space/tt0056751/17/26/w780.jpg",
   imdb: { id: "tt0056751", season: 17, episode: 26 },
 },
 {
@@ -5568,7 +4944,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1980-08-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/1/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 1 },
 },
 {
@@ -5577,7 +4952,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1980-09-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/2/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 2 },
 },
 {
@@ -5586,7 +4960,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1980-09-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/3/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 3 },
 },
 {
@@ -5595,7 +4968,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1980-09-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/4/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 4 },
 },
 {
@@ -5604,7 +4976,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1980-09-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/5/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 5 },
 },
 {
@@ -5613,7 +4984,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1980-10-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/6/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 6 },
 },
 {
@@ -5622,7 +4992,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1980-10-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/7/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 7 },
 },
 {
@@ -5631,7 +5000,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1980-10-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/8/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 8 },
 },
 {
@@ -5640,7 +5008,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1980-10-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/9/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 9 },
 },
 {
@@ -5649,7 +5016,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1980-11-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/10/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 10 },
 },
 {
@@ -5658,7 +5024,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1980-11-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/11/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 11 },
 },
 {
@@ -5667,7 +5032,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1980-11-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/12/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 12 },
 },
 {
@@ -5676,7 +5040,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1980-11-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/13/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 13 },
 },
 {
@@ -5685,7 +5048,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1980-11-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/14/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 14 },
 },
 {
@@ -5694,7 +5056,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1980-12-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/15/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 15 },
 },
 {
@@ -5703,7 +5064,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1980-12-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/16/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 16 },
 },
 {
@@ -5712,7 +5072,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1981-01-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/17/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 17 },
 },
 {
@@ -5721,7 +5080,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1981-01-10T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/18/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 18 },
 },
 {
@@ -5730,7 +5088,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1981-01-17T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/19/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 19 },
 },
 {
@@ -5739,7 +5096,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1981-01-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/20/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 20 },
 },
 {
@@ -5748,7 +5104,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1981-01-31T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/21/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 21 },
 },
 {
@@ -5757,7 +5112,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1981-02-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/22/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 22 },
 },
 {
@@ -5766,7 +5120,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1981-02-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/23/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 23 },
 },
 {
@@ -5775,7 +5128,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1981-02-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/24/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 24 },
 },
 {
@@ -5784,7 +5136,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1981-02-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/25/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 25 },
 },
 {
@@ -5793,7 +5144,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1981-03-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/26/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 26 },
 },
 {
@@ -5802,7 +5152,6 @@ const episodes = [
   episode: 27,
   type: "Main Show",
   released: "1981-03-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/27/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 27 },
 },
 {
@@ -5811,7 +5160,6 @@ const episodes = [
   episode: 28,
   type: "Main Show",
   released: "1981-03-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/18/28/w780.jpg",
   imdb: { id: "tt0056751", season: 18, episode: 28 },
 },
 {
@@ -5820,7 +5168,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1982-01-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/1/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 1 },
 },
 {
@@ -5829,7 +5176,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1982-01-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/2/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 2 },
 },
 {
@@ -5838,7 +5184,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1982-01-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/3/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 3 },
 },
 {
@@ -5847,7 +5192,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1982-01-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/4/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 4 },
 },
 {
@@ -5856,7 +5200,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1982-01-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/5/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 5 },
 },
 {
@@ -5865,7 +5208,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1982-01-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/6/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 6 },
 },
 {
@@ -5874,7 +5216,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1982-01-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/7/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 7 },
 },
 {
@@ -5883,7 +5224,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1982-01-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/8/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 8 },
 },
 {
@@ -5892,7 +5232,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1982-02-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/9/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 9 },
 },
 {
@@ -5901,7 +5240,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1982-02-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/10/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 10 },
 },
 {
@@ -5910,7 +5248,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1982-02-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/11/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 11 },
 },
 {
@@ -5919,7 +5256,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1982-02-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/12/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 12 },
 },
 {
@@ -5928,7 +5264,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1982-02-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/13/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 13 },
 },
 {
@@ -5937,7 +5272,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1982-02-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/14/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 14 },
 },
 {
@@ -5946,7 +5280,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1982-02-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/15/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 15 },
 },
 {
@@ -5955,7 +5288,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1982-02-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/16/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 16 },
 },
 {
@@ -5964,7 +5296,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1982-03-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/17/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 17 },
 },
 {
@@ -5973,7 +5304,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1982-03-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/18/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 18 },
 },
 {
@@ -5982,7 +5312,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1982-03-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/19/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 19 },
 },
 {
@@ -5991,7 +5320,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1982-03-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/20/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 20 },
 },
 {
@@ -6000,7 +5328,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1982-03-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/21/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 21 },
 },
 {
@@ -6009,7 +5336,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1982-03-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/22/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 22 },
 },
 {
@@ -6018,7 +5344,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1982-03-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/23/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 23 },
 },
 {
@@ -6027,7 +5352,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1982-03-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/24/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 24 },
 },
 {
@@ -6036,7 +5360,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1982-03-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/25/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 25 },
 },
 {
@@ -6045,7 +5368,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1982-03-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/19/26/w780.jpg",
   imdb: { id: "tt0056751", season: 19, episode: 26 },
 },
 {
@@ -6054,7 +5376,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1983-01-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/1/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 1 },
 },
 {
@@ -6063,7 +5384,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1983-01-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/2/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 2 },
 },
 {
@@ -6072,7 +5392,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1983-01-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/3/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 3 },
 },
 {
@@ -6081,7 +5400,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1983-01-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/4/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 4 },
 },
 {
@@ -6090,7 +5408,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1983-01-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/5/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 5 },
 },
 {
@@ -6099,7 +5416,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1983-01-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/6/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 6 },
 },
 {
@@ -6108,7 +5424,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1983-01-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/7/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 7 },
 },
 {
@@ -6117,7 +5432,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1983-01-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/8/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 8 },
 },
 {
@@ -6126,7 +5440,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1983-02-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/9/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 9 },
 },
 {
@@ -6135,7 +5448,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1983-02-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/10/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 10 },
 },
 {
@@ -6144,7 +5456,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1983-02-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/11/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 11 },
 },
 {
@@ -6153,7 +5464,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1983-02-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/12/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 12 },
 },
 {
@@ -6162,7 +5472,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1983-02-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/13/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 13 },
 },
 {
@@ -6171,7 +5480,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1983-02-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/14/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 14 },
 },
 {
@@ -6180,7 +5488,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1983-02-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/15/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 15 },
 },
 {
@@ -6189,7 +5496,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1983-02-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/16/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 16 },
 },
 {
@@ -6198,7 +5504,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1983-03-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/17/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 17 },
 },
 {
@@ -6207,7 +5512,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1983-03-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/18/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 18 },
 },
 {
@@ -6216,7 +5520,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1983-03-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/19/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 19 },
 },
 {
@@ -6225,7 +5528,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1983-03-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/20/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 20 },
 },
 {
@@ -6234,7 +5536,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1983-03-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/21/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 21 },
 },
 {
@@ -6243,7 +5544,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1983-03-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/20/22/w780.jpg",
   imdb: { id: "tt0056751", season: 20, episode: 22 },
 },
 {
@@ -6252,7 +5552,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1984-01-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/1/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 1 },
 },
 {
@@ -6261,7 +5560,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1984-01-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/2/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 2 },
 },
 {
@@ -6270,7 +5568,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1984-01-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/3/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 3 },
 },
 {
@@ -6279,7 +5576,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1984-01-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/4/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 4 },
 },
 {
@@ -6288,7 +5584,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1984-01-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/5/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 5 },
 },
 {
@@ -6297,7 +5592,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1984-01-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/6/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 6 },
 },
 {
@@ -6306,7 +5600,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1984-01-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/7/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 7 },
 },
 {
@@ -6315,7 +5608,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1984-01-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/8/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 8 },
 },
 {
@@ -6324,7 +5616,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1984-02-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/9/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 9 },
 },
 {
@@ -6333,7 +5624,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1984-02-03T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/10/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 10 },
 },
 {
@@ -6342,7 +5632,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1984-02-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/11/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 11 },
 },
 {
@@ -6351,7 +5640,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1984-02-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/12/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 12 },
 },
 {
@@ -6360,7 +5648,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1984-02-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/13/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 13 },
 },
 {
@@ -6369,7 +5656,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1984-02-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/14/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 14 },
 },
 {
@@ -6378,7 +5664,6 @@ const episodes = [
   episode: 15,
   type: "Main Show",
   released: "1984-02-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/15/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 15 },
 },
 {
@@ -6387,7 +5672,6 @@ const episodes = [
   episode: 16,
   type: "Main Show",
   released: "1984-02-24T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/16/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 16 },
 },
 {
@@ -6396,7 +5680,6 @@ const episodes = [
   episode: 17,
   type: "Main Show",
   released: "1984-03-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/17/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 17 },
 },
 {
@@ -6405,7 +5688,6 @@ const episodes = [
   episode: 18,
   type: "Main Show",
   released: "1984-03-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/18/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 18 },
 },
 {
@@ -6414,7 +5696,6 @@ const episodes = [
   episode: 19,
   type: "Main Show",
   released: "1984-03-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/19/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 19 },
 },
 {
@@ -6423,7 +5704,6 @@ const episodes = [
   episode: 20,
   type: "Main Show",
   released: "1984-03-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/20/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 20 },
 },
 {
@@ -6432,7 +5712,6 @@ const episodes = [
   episode: 21,
   type: "Main Show",
   released: "1984-03-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/21/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 21 },
 },
 {
@@ -6441,7 +5720,6 @@ const episodes = [
   episode: 22,
   type: "Main Show",
   released: "1984-03-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/22/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 22 },
 },
 {
@@ -6450,7 +5728,6 @@ const episodes = [
   episode: 23,
   type: "Main Show",
   released: "1984-03-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/23/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 23 },
 },
 {
@@ -6459,7 +5736,6 @@ const episodes = [
   episode: 24,
   type: "Main Show",
   released: "1984-03-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/24/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 24 },
 },
 {
@@ -6468,7 +5744,6 @@ const episodes = [
   episode: 25,
   type: "Main Show",
   released: "1984-03-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/25/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 25 },
 },
 {
@@ -6477,7 +5752,6 @@ const episodes = [
   episode: 26,
   type: "Main Show",
   released: "1984-03-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/21/26/w780.jpg",
   imdb: { id: "tt0056751", season: 21, episode: 26 },
 },
 {
@@ -6486,7 +5760,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1985-01-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/1/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 1 },
 },
 {
@@ -6495,7 +5768,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1985-01-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/2/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 2 },
 },
 {
@@ -6504,7 +5776,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1985-01-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/3/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 3 },
 },
 {
@@ -6513,7 +5784,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1985-01-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/4/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 4 },
 },
 {
@@ -6522,7 +5792,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1985-02-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/5/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 5 },
 },
 {
@@ -6531,7 +5800,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1985-02-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/6/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 6 },
 },
 {
@@ -6540,7 +5808,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1985-02-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/7/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 7 },
 },
 {
@@ -6549,7 +5816,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1985-02-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/8/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 8 },
 },
 {
@@ -6558,7 +5824,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1985-03-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/9/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 9 },
 },
 {
@@ -6567,7 +5832,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1985-03-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/10/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 10 },
 },
 {
@@ -6576,7 +5840,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1985-03-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/11/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 11 },
 },
 {
@@ -6585,7 +5848,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1985-03-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/12/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 12 },
 },
 {
@@ -6594,7 +5856,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1985-03-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/22/13/w780.jpg",
   imdb: { id: "tt0056751", season: 22, episode: 13 },
 },
 {
@@ -6603,7 +5864,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1986-09-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/1/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 1 },
 },
 {
@@ -6612,7 +5872,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1986-09-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/2/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 2 },
 },
 {
@@ -6621,7 +5880,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1986-09-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/3/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 3 },
 },
 {
@@ -6630,7 +5888,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1986-09-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/4/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 4 },
 },
 {
@@ -6639,7 +5896,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1986-10-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/5/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 5 },
 },
 {
@@ -6648,7 +5904,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1986-10-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/6/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 6 },
 },
 {
@@ -6657,7 +5912,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1986-10-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/7/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 7 },
 },
 {
@@ -6666,7 +5920,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1986-10-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/8/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 8 },
 },
 {
@@ -6675,7 +5928,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1986-11-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/9/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 9 },
 },
 {
@@ -6684,7 +5936,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1986-11-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/10/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 10 },
 },
 {
@@ -6693,7 +5944,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1986-11-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/11/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 11 },
 },
 {
@@ -6702,7 +5952,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1986-11-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/12/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 12 },
 },
 {
@@ -6711,7 +5960,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1986-11-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/13/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 13 },
 },
 {
@@ -6720,7 +5968,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1986-12-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/23/14/w780.jpg",
   imdb: { id: "tt0056751", season: 23, episode: 14 },
 },
 {
@@ -6729,7 +5976,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1987-09-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/1/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 1 },
 },
 {
@@ -6738,7 +5984,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1987-09-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/2/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 2 },
 },
 {
@@ -6747,7 +5992,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1987-09-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/3/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 3 },
 },
 {
@@ -6756,7 +6000,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1987-09-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/4/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 4 },
 },
 {
@@ -6765,7 +6008,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1987-10-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/5/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 5 },
 },
 {
@@ -6774,7 +6016,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1987-10-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/6/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 6 },
 },
 {
@@ -6783,7 +6024,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1987-10-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/7/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 7 },
 },
 {
@@ -6792,7 +6032,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1987-10-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/8/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 8 },
 },
 {
@@ -6801,7 +6040,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1987-11-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/9/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 9 },
 },
 {
@@ -6810,7 +6048,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1987-11-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/10/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 10 },
 },
 {
@@ -6819,7 +6056,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1987-11-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/11/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 11 },
 },
 {
@@ -6828,7 +6064,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1987-11-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/12/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 12 },
 },
 {
@@ -6837,7 +6072,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1987-11-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/13/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 13 },
 },
 {
@@ -6846,7 +6080,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1987-12-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/24/14/w780.jpg",
   imdb: { id: "tt0056751", season: 24, episode: 14 },
 },
 {
@@ -6855,7 +6088,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1988-10-05T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/1/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 1 },
 },
 {
@@ -6864,7 +6096,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1988-10-12T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/2/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 2 },
 },
 {
@@ -6873,7 +6104,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1988-10-19T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/3/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 3 },
 },
 {
@@ -6882,7 +6112,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1988-10-26T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/4/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 4 },
 },
 {
@@ -6891,7 +6120,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1988-11-02T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/5/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 5 },
 },
 {
@@ -6900,7 +6128,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1988-11-09T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/6/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 6 },
 },
 {
@@ -6909,7 +6136,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1988-11-16T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/7/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 7 },
 },
 {
@@ -6918,7 +6144,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1988-11-23T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/8/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 8 },
 },
 {
@@ -6927,7 +6152,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1988-11-30T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/9/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 9 },
 },
 {
@@ -6936,7 +6160,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1988-12-07T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/10/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 10 },
 },
 {
@@ -6945,7 +6168,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1988-12-14T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/11/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 11 },
 },
 {
@@ -6954,7 +6176,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1988-12-21T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/12/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 12 },
 },
 {
@@ -6963,7 +6184,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1988-12-28T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/13/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 13 },
 },
 {
@@ -6972,7 +6192,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1989-01-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/25/14/w780.jpg",
   imdb: { id: "tt0056751", season: 25, episode: 14 },
 },
 {
@@ -6981,7 +6200,6 @@ const episodes = [
   episode: 1,
   type: "Main Show",
   released: "1989-09-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/1/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 1 },
 },
 {
@@ -6990,7 +6208,6 @@ const episodes = [
   episode: 2,
   type: "Main Show",
   released: "1989-09-13T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/2/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 2 },
 },
 {
@@ -6999,7 +6216,6 @@ const episodes = [
   episode: 3,
   type: "Main Show",
   released: "1989-09-20T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/3/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 3 },
 },
 {
@@ -7008,7 +6224,6 @@ const episodes = [
   episode: 4,
   type: "Main Show",
   released: "1989-09-27T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/4/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 4 },
 },
 {
@@ -7017,7 +6232,6 @@ const episodes = [
   episode: 5,
   type: "Main Show",
   released: "1989-10-04T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/5/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 5 },
 },
 {
@@ -7026,7 +6240,6 @@ const episodes = [
   episode: 6,
   type: "Main Show",
   released: "1989-10-11T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/6/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 6 },
 },
 {
@@ -7035,7 +6248,6 @@ const episodes = [
   episode: 7,
   type: "Main Show",
   released: "1989-10-18T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/7/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 7 },
 },
 {
@@ -7044,7 +6256,6 @@ const episodes = [
   episode: 8,
   type: "Main Show",
   released: "1989-10-25T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/8/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 8 },
 },
 {
@@ -7053,7 +6264,6 @@ const episodes = [
   episode: 9,
   type: "Main Show",
   released: "1989-11-01T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/9/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 9 },
 },
 {
@@ -7062,7 +6272,6 @@ const episodes = [
   episode: 10,
   type: "Main Show",
   released: "1989-11-08T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/10/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 10 },
 },
 {
@@ -7071,7 +6280,6 @@ const episodes = [
   episode: 11,
   type: "Main Show",
   released: "1989-11-15T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/11/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 11 },
 },
 {
@@ -7080,7 +6288,6 @@ const episodes = [
   episode: 12,
   type: "Main Show",
   released: "1989-11-22T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/12/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 12 },
 },
 {
@@ -7089,7 +6296,6 @@ const episodes = [
   episode: 13,
   type: "Main Show",
   released: "1989-11-29T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/13/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 13 },
 },
 {
@@ -7098,7 +6304,6 @@ const episodes = [
   episode: 14,
   type: "Main Show",
   released: "1989-12-06T00:00:00.000Z",
-  thumbnail: "https://episodes.metahub.space/tt0056751/26/14/w780.jpg",
   imdb: { id: "tt0056751", season: 26, episode: 14 },
 }
 ];
