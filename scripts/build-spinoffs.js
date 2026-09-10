@@ -20,12 +20,10 @@
 
 const fs = require('fs');
 const path = require('path');
-const crypto = require('crypto');
 const { execFileSync } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
 const CDN = 'https://cdn.nubblyn.com/file/whoniverse';
-const CONTENT = 'C:/Users/hello/Downloads/content';
 const WRITE = process.argv.includes('--write');
 
 const SERIES = [
@@ -44,17 +42,6 @@ function findRclone() {
   const local = path.join(process.env.LOCALAPPDATA || '', 'rclone', 'rclone.exe');
   if (fs.existsSync(local)) return local;
   return 'rclone';
-}
-
-/**
- * Eight characters of the subtitle's own content, read from the copy on disk
- * under content/. The bucket copy is the same file; hashing the local one
- * saves a download per episode and fails loudly if the two ever drift, because
- * a missing local file throws rather than quietly stamping nothing.
- */
-function subtitleHash(bucket, rel) {
-  const local = path.join(CONTENT, bucket, rel);
-  return crypto.createHash('md5').update(fs.readFileSync(local)).digest('hex').slice(0, 8);
 }
 
 function tsv(file) {
@@ -106,20 +93,23 @@ let missing = 0;
 for (const s of SERIES) {
   const rows = tsv(path.join(ROOT, 'ledger', 'series', `${s.ledger}.tsv`));
 
-  const listing = execFileSync(rclone, ['ls', `b2:whoniverse/${s.bucket}`], {
-    encoding: 'utf8', maxBuffer: 1 << 24,
-  }).split('\n').map((l) => l.trim()).filter(Boolean);
+  // The bucket is asked for its own SHA1s alongside the listing. Media is not
+  // kept on this machine once the bucket holds it, so a subtitle's
+  // cache-busting hash has to come from the copy actually being served.
+  const listing = JSON.parse(execFileSync(rclone,
+    ['lsjson', '-R', '--hash', '--files-only', `b2:whoniverse/${s.bucket}`],
+    { encoding: 'utf8', maxBuffer: 1 << 26 }));
 
   const video = new Map();
   const still = new Map();
   const subs = new Map();
-  for (const line of listing) {
-    const rel = line.replace(/^\d+\s+/, '');
+  for (const f of listing) {
+    const rel = f.Path.replace(/\\/g, '/');
     const m = /^season_\d+\/S(\d+)_E(\d+)_.+\.(mkv|mp4|m4v|jpg|srt)$/.exec(rel);
     if (!m) continue;
     const key = `${+m[1]}x${+m[2]}`;
     if (m[3] === 'jpg') still.set(key, rel);
-    else if (m[3] === 'srt') subs.set(key, rel);
+    else if (m[3] === 'srt') subs.set(key, { rel, sha1: (f.Hashes && f.Hashes.sha1) || '' });
     else if (!video.has(key) || rel.endsWith('.mkv')) video.set(key, rel);
   }
 
@@ -157,7 +147,7 @@ for (const s of SERIES) {
       // its name, and without a changed URL the relay's reply sits in the edge
       // cache for a day while viewers read the old text.
       subtitleUrl: subs.has(key)
-        ? `${CDN}/${s.bucket}/${subs.get(key)}?v=${subtitleHash(s.bucket, subs.get(key))}`
+        ? `${CDN}/${s.bucket}/${subs.get(key).rel}?v=${subs.get(key).sha1.slice(0, 8)}`
         : undefined,
       filename: have ? path.basename(video.get(key)) : undefined,
     };
