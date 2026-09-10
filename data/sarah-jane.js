@@ -4,14 +4,20 @@
 // so the addon does not offer these as streams and the landing page lists the
 // series as queued. Adding files means adding urls here, not refetching.
 //
-// Upstream's season 0 holds specials and shorts and is kept as season 0, which
-// is what Stremio expects. Everything in it is typed Special; refining that into
-// minisode, prequel and animated needs a pass by hand.
+// There is no season 0, the same call Torchwood took. Upstream files the
+// specials there; three of them are story and sit in a season instead —
+// Invasion of the Bane at 1x01, which pushes series one to eleven episodes,
+// From Raxacoricofallapatorius with Love at 2x13 as a minisode, and Farewell,
+// Sarah Jane at 5x07. The other nine were tributes, the six Alien Files clip
+// shows and a reel of outtakes, all excluded by the content rules.
+//
+// `imdb` keeps upstream's own numbering, which is why the three moved entries
+// still point at its season 0. It is an address, not an order.
 
 const episodes = [
 {
   title: "Invasion of the Bane",
-  season: 0,
+  season: 1,
   episode: 1,
   type: "Special",
   released: "2007-01-01T17:15:00.000Z",
@@ -19,102 +25,9 @@ const episodes = [
   imdb: { id: "tt0862620", season: 0, episode: 1 },
 },
 {
-  title: "From Raxacoricofallapatorius with Love",
-  season: 0,
-  episode: 2,
-  type: "Special",
-  released: "2009-03-13T17:15:00.000Z",
-  overview: "A little skit from Comic Relief 2009.",
-  imdb: { id: "tt0862620", season: 0, episode: 2 },
-},
-{
-  title: "My Sarah Jane: A Tribute to Elisabeth Sladen",
-  season: 0,
-  episode: 3,
-  type: "Special",
-  released: "2011-04-20T17:15:00.000Z",
-  overview: "A celebration of Doctor Who's greatest companion, played by actress Elisabeth Sladen.",
-  imdb: { id: "tt0862620", season: 0, episode: 3 },
-},
-{
-  title: "Goodbye Bannerman Road - Remembering Elisabeth Sladen",
-  season: 0,
-  episode: 4,
-  type: "Special",
-  released: "2012-02-06T17:15:00.000Z",
-  overview: "Goodbye Bannerman Road: Remembering Elisabeth Sladen is a twenty~minute tribute to the late actress featuring Daniel Anthony (who played Clyde Langer), Anjli Mohindra (Rani Chandra), Gary Russell (Script Editor) and Matt Smith (The Eleventh Doctor).",
-  imdb: { id: "tt0862620", season: 0, episode: 4 },
-},
-{
-  title: "Farewell, Sarah Jane",
-  season: 0,
-  episode: 5,
-  type: "Special",
-  released: "2020-04-19T17:15:00.000Z",
-  overview: "In a new video, scripted by Russell T Davies and narrated by Jacob Dudman, Sarah Jane Smith’s closest friends come together to say “Farewell, Sarah Jane”.",
-  imdb: { id: "tt0862620", season: 0, episode: 5 },
-},
-{
-  title: "Alien Files - Trickster and Grasker",
-  season: 0,
-  episode: 6,
-  type: "Special",
-  released: "2010-10-11T17:15:00.000Z",
-  imdb: { id: "tt0862620", season: 0, episode: 6 },
-},
-{
-  title: "Alien Files - Entity, Eve, and Ship",
-  season: 0,
-  episode: 7,
-  type: "Special",
-  released: "2010-10-18T17:15:00.000Z",
-  imdb: { id: "tt0862620", season: 0, episode: 7 },
-},
-{
-  title: "Alien Files - Mrs. Wormwood, Bane Mother, and Sontarans",
-  season: 0,
-  episode: 8,
-  type: "Special",
-  released: "2010-10-25T17:15:00.000Z",
-  imdb: { id: "tt0862620", season: 0, episode: 8 },
-},
-{
-  title: "Alien Files - Slitheen, Blathereen, and Rakweed",
-  season: 0,
-  episode: 9,
-  type: "Special",
-  released: "2010-11-01T17:15:00.000Z",
-  imdb: { id: "tt0862620", season: 0, episode: 9 },
-},
-{
-  title: "Alien Files - Berserkers and Mona Lisa",
-  season: 0,
-  episode: 10,
-  type: "Special",
-  released: "2010-11-08T17:15:00.000Z",
-  imdb: { id: "tt0862620", season: 0, episode: 10 },
-},
-{
-  title: "Alien Files - Judoon, Androvax, and Mr. Dread",
-  season: 0,
-  episode: 11,
-  type: "Special",
-  released: "2010-11-15T17:15:00.000Z",
-  imdb: { id: "tt0862620", season: 0, episode: 11 },
-},
-{
-  title: "Series 1 Outtakes",
-  season: 0,
-  episode: 12,
-  type: "Special",
-  released: "2007-11-20T17:15:00.000Z",
-  overview: "Outtakes from the first series.",
-  imdb: { id: "tt0862620", season: 0, episode: 12 },
-},
-{
   title: "Revenge of the Slitheen (1)",
   season: 1,
-  episode: 1,
+  episode: 2,
   type: "Main Show",
   released: "2007-09-24T17:15:00.000Z",
   overview: "Sarah Jane, Maria, Luke and Clyde discover the monstrous Slitheen are hiding in a school.",
@@ -123,7 +36,7 @@ const episodes = [
 {
   title: "Revenge of the Slitheen (2)",
   season: 1,
-  episode: 2,
+  episode: 3,
   type: "Main Show",
   released: "2007-09-24T17:15:00.000Z",
   overview: "Sarah Jane, Maria, Luke and Clyde must save the Earth before the Slitheen switch off the sun.",
@@ -132,7 +45,7 @@ const episodes = [
 {
   title: "Eye of the Gorgon (1)",
   season: 1,
-  episode: 3,
+  episode: 4,
   type: "Main Show",
   released: "2007-10-01T17:15:00.000Z",
   overview: "Sarah Jane and her team encounter the Gorgon - a terrifying creature that turns its victims to stone.",
@@ -141,7 +54,7 @@ const episodes = [
 {
   title: "Eye of the Gorgon (2)",
   season: 1,
-  episode: 4,
+  episode: 5,
   type: "Main Show",
   released: "2007-10-08T17:15:00.000Z",
   overview: "Sinister nuns plan to unleash the Gorgon on the world.",
@@ -150,7 +63,7 @@ const episodes = [
 {
   title: "Warriors of Kudlak (1)",
   season: 1,
-  episode: 5,
+  episode: 6,
   type: "Main Show",
   released: "2007-10-15T17:15:00.000Z",
   overview: "Luke and Clyde enter Combat 3000, a game designed to train warriors, run by the sinister Kudlak.",
@@ -159,7 +72,7 @@ const episodes = [
 {
   title: "Warriors of Kudlak (2)",
   season: 1,
-  episode: 6,
+  episode: 7,
   type: "Main Show",
   released: "2007-10-22T17:15:00.000Z",
   overview: "Luke and Clyde have been kidnapped and drafted as soldiers in an endless intergalactic war.",
@@ -168,7 +81,7 @@ const episodes = [
 {
   title: "Whatever Happened to Sarah Jane? (1)",
   season: 1,
-  episode: 7,
+  episode: 8,
   type: "Main Show",
   released: "2007-10-29T17:15:00.000Z",
   overview: "Maria wakes one morning to discover Sarah Jane has disappeared - and she is the only person in the world who remembers her.",
@@ -177,7 +90,7 @@ const episodes = [
 {
   title: "Whatever Happened to Sarah Jane? (2)",
   season: 1,
-  episode: 8,
+  episode: 9,
   type: "Main Show",
   released: "2007-11-05T17:15:00.000Z",
   overview: "Maria is lost in time and a meteor heads for Earth - with no Sarah Jane to stop it.",
@@ -186,7 +99,7 @@ const episodes = [
 {
   title: "The Lost Boy (1)",
   season: 1,
-  episode: 9,
+  episode: 10,
   type: "Main Show",
   released: "2007-11-12T17:15:00.000Z",
   overview: "A couple appear claiming to be Luke's real parents. Is it time for Sarah Jane to stop adventuring?",
@@ -195,7 +108,7 @@ const episodes = [
 {
   title: "The Lost Boy (2)",
   season: 1,
-  episode: 10,
+  episode: 11,
   type: "Main Show",
   released: "2007-11-19T17:15:00.000Z",
   overview: "With her old enemies triumphant, it seems that Sarah Jane has finally been defeated.",
@@ -256,7 +169,7 @@ const episodes = [
   imdb: { id: "tt0862620", season: 2, episode: 6 },
 },
 {
-  title: "Mark of the Berserker (1)",
+  title: "The Mark of the Berserker (1)",
   season: 2,
   episode: 7,
   type: "Main Show",
@@ -265,7 +178,7 @@ const episodes = [
   imdb: { id: "tt0862620", season: 2, episode: 7 },
 },
 {
-  title: "Mark of the Berserker (2)",
+  title: "The Mark of the Berserker (2)",
   season: 2,
   episode: 8,
   type: "Main Show",
@@ -292,7 +205,7 @@ const episodes = [
   imdb: { id: "tt0862620", season: 2, episode: 10 },
 },
 {
-  title: "The Enemy of the Bane (1)",
+  title: "Enemy of the Bane (1)",
   season: 2,
   episode: 11,
   type: "Main Show",
@@ -301,13 +214,22 @@ const episodes = [
   imdb: { id: "tt0862620", season: 2, episode: 11 },
 },
 {
-  title: "The Enemy of the Bane (2)",
+  title: "Enemy of the Bane (2)",
   season: 2,
   episode: 12,
   type: "Main Show",
   released: "2008-12-08T17:15:00.000Z",
   overview: "Gita vanishes and Sarah Jane encounters an unwelcome face from the past, Mrs Wormwood. Luke is kidnapped by Mrs Wormwood and Kaagh. Sarah Jane prepares for a showdown at a stone circle.",
   imdb: { id: "tt0862620", season: 2, episode: 12 },
+},
+{
+  title: "From Raxacoricofallapatorius with Love",
+  season: 2,
+  episode: 13,
+  type: "Minisode",
+  released: "2009-03-13T17:15:00.000Z",
+  overview: "A little skit from Comic Relief 2009.",
+  imdb: { id: "tt0862620", season: 0, episode: 2 },
 },
 {
   title: "Prisoner of the Judoon (1)",
@@ -578,6 +500,15 @@ const episodes = [
   released: "2011-10-18T17:15:00.000Z",
   overview: "Luke and Sky must help the Skullions, but Sarah Jane is in danger too, so who will they save?",
   imdb: { id: "tt0862620", season: 5, episode: 6 },
+},
+{
+  title: "Farewell, Sarah Jane",
+  season: 5,
+  episode: 7,
+  type: "Special",
+  released: "2020-04-19T17:15:00.000Z",
+  overview: "In a new video, scripted by Russell T Davies and narrated by Jacob Dudman, Sarah Jane Smith’s closest friends come together to say “Farewell, Sarah Jane”.",
+  imdb: { id: "tt0862620", season: 0, episode: 5 },
 }
 ];
 
