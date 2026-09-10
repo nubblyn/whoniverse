@@ -20,10 +20,9 @@
 
 const fs = require('fs');
 const path = require('path');
-const { execFileSync } = require('child_process');
+const { CDN, listing, shortHash } = require('./lib/bucket');
 
 const ROOT = path.join(__dirname, '..');
-const CDN = 'https://cdn.nubblyn.com/file/whoniverse';
 const WRITE = process.argv.includes('--write');
 
 const SERIES = [
@@ -37,12 +36,6 @@ const SERIES = [
   { data: 'class', ledger: '07-class', bucket: 'class', name: 'Class' },
   { data: 'land-and-sea', ledger: '08-land-and-sea', bucket: 'the_war_between_the_land_and_the_sea', name: 'The War Between the Land and the Sea' },
 ];
-
-function findRclone() {
-  const local = path.join(process.env.LOCALAPPDATA || '', 'rclone', 'rclone.exe');
-  if (fs.existsSync(local)) return local;
-  return 'rclone';
-}
 
 function tsv(file) {
   const rows = fs.readFileSync(file, 'utf8').replace(/\r/g, '').split('\n').filter(Boolean);
@@ -87,29 +80,35 @@ function released(date) {
   return /^\d{4}-\d{2}-\d{2}$/.test(date || '') ? `${date}T12:00:00.000Z` : undefined;
 }
 
-const rclone = findRclone();
 let missing = 0;
+
+// A stamped URL: the file's own hash in the query, so replacing the file
+// changes the address. Cloudflare holds the bucket for four hours and keys on
+// the URL, and Stremio's image and subtitle caches hold on far longer than
+// that with no expiry we control. Without this a corrected subtitle or a new
+// still reaches nobody who has already looked.
+function stamped(bucket, entry) {
+  const v = shortHash(entry.sha1);
+  return `${CDN}/${bucket}/${entry.rel}${v ? `?v=${v}` : ''}`;
+}
 
 for (const s of SERIES) {
   const rows = tsv(path.join(ROOT, 'ledger', 'series', `${s.ledger}.tsv`));
 
   // The bucket is asked for its own SHA1s alongside the listing. Media is not
-  // kept on this machine once the bucket holds it, so a subtitle's
-  // cache-busting hash has to come from the copy actually being served.
-  const listing = JSON.parse(execFileSync(rclone,
-    ['lsjson', '-R', '--hash', '--files-only', `b2:whoniverse/${s.bucket}`],
-    { encoding: 'utf8', maxBuffer: 1 << 26 }));
+  // kept on this machine once the bucket holds it, so the cache-busting hashes
+  // have to come from the copies actually being served.
+  const files = listing(s.bucket);
 
   const video = new Map();
   const still = new Map();
   const subs = new Map();
-  for (const f of listing) {
-    const rel = f.Path.replace(/\\/g, '/');
+  for (const [rel, f] of files) {
     const m = /^season_\d+\/S(\d+)_E(\d+)_.+\.(mkv|mp4|m4v|jpg|srt)$/.exec(rel);
     if (!m) continue;
     const key = `${+m[1]}x${+m[2]}`;
-    if (m[3] === 'jpg') still.set(key, rel);
-    else if (m[3] === 'srt') subs.set(key, { rel, sha1: (f.Hashes && f.Hashes.sha1) || '' });
+    if (m[3] === 'jpg') still.set(key, { rel, sha1: f.sha1 });
+    else if (m[3] === 'srt') subs.set(key, { rel, sha1: f.sha1 });
     else if (!video.has(key) || rel.endsWith('.mkv')) video.set(key, rel);
   }
 
@@ -136,19 +135,19 @@ for (const s of SERIES) {
       released: released(r.released),
       overview: r.description || undefined,
       ...(have ? fromHave(r.have) : {}),
-      thumbnail: still.has(key) ? `${CDN}/${s.bucket}/${still.get(key)}` : undefined,
+      // Stamped, like the artwork. A replaced still keeps its name, because
+      // the name is what matches it to its video, so the hash is the only
+      // thing that can tell a client the picture has changed.
+      thumbnail: still.has(key) ? stamped(s.bucket, still.get(key)) : undefined,
+      // The stream is not stamped. A video file is never edited in place: a
+      // better master arrives as a different name, and stamping it would only
+      // break the resume position of everyone already watching.
       streamUrl: have ? `${CDN}/${s.bucket}/${video.get(key)}` : undefined,
       // Almost every episode came off a disc and carries the broadcaster's own
       // subtitles inside the file, so there is nothing to serve alongside it.
       // The exceptions are the few taken from the web, which have none: those
       // get an .srt in the bucket, and it is picked up here if it is there.
-      //
-      // The hash is the same trick the artwork uses. A corrected subtitle keeps
-      // its name, and without a changed URL the relay's reply sits in the edge
-      // cache for a day while viewers read the old text.
-      subtitleUrl: subs.has(key)
-        ? `${CDN}/${s.bucket}/${subs.get(key).rel}?v=${subs.get(key).sha1.slice(0, 8)}`
-        : undefined,
+      subtitleUrl: subs.has(key) ? stamped(s.bucket, subs.get(key)) : undefined,
       filename: have ? path.basename(video.get(key)) : undefined,
     };
     episodes.push(e);

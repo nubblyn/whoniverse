@@ -31,7 +31,7 @@ const episodes = [
   overview: "The Doctor is carrying the Master's remains home to Gallifrey when the TARDIS is forced down in San Francisco, days before the millennium. A surgeon who has never seen two hearts is about to lose him, and the Master is already looking for a new body.",
   quality: "2160p",
   audio: "TrueHD",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E03_doctor_who_the_movie.jpg",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E03_doctor_who_the_movie.jpg?v=e6baebd8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E03_doctor_who_the_movie.mkv",
   filename: "S01_E03_doctor_who_the_movie.mkv",
 },

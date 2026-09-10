@@ -17,7 +17,8 @@
     "build": "node scripts/stamp.js",
     "art": "node scripts/build-art.js",
     "art:upload": "node scripts/run.js upload-art",
-    "thumbs": "node scripts/build-thumbs.js"
+    "thumbs": "node scripts/build-thumbs.js",
+    "stamp:media": "node scripts/stamp-media.js"
   },
   "dependencies": {
     "stremio-addon-sdk": "^1.6.10"
