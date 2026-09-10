@@ -20,10 +20,12 @@
 
 const fs = require('fs');
 const path = require('path');
+const crypto = require('crypto');
 const { execFileSync } = require('child_process');
 
 const ROOT = path.join(__dirname, '..');
 const CDN = 'https://cdn.nubblyn.com/file/whoniverse';
+const CONTENT = 'C:/Users/hello/Downloads/content';
 const WRITE = process.argv.includes('--write');
 
 const SERIES = [
@@ -42,6 +44,17 @@ function findRclone() {
   const local = path.join(process.env.LOCALAPPDATA || '', 'rclone', 'rclone.exe');
   if (fs.existsSync(local)) return local;
   return 'rclone';
+}
+
+/**
+ * Eight characters of the subtitle's own content, read from the copy on disk
+ * under content/. The bucket copy is the same file; hashing the local one
+ * saves a download per episode and fails loudly if the two ever drift, because
+ * a missing local file throws rather than quietly stamping nothing.
+ */
+function subtitleHash(bucket, rel) {
+  const local = path.join(CONTENT, bucket, rel);
+  return crypto.createHash('md5').update(fs.readFileSync(local)).digest('hex').slice(0, 8);
 }
 
 function tsv(file) {
@@ -137,7 +150,13 @@ for (const s of SERIES) {
       // subtitles inside the file, so there is nothing to serve alongside it.
       // The exceptions are the few taken from the web, which have none: those
       // get an .srt in the bucket, and it is picked up here if it is there.
-      subtitleUrl: subs.has(key) ? `${CDN}/${s.bucket}/${subs.get(key)}` : undefined,
+      //
+      // The hash is the same trick the artwork uses. A corrected subtitle keeps
+      // its name, and without a changed URL the relay's reply sits in the edge
+      // cache for a day while viewers read the old text.
+      subtitleUrl: subs.has(key)
+        ? `${CDN}/${s.bucket}/${subs.get(key)}?v=${subtitleHash(s.bucket, subs.get(key))}`
+        : undefined,
       filename: path.basename(video.get(key)),
     };
     episodes.push(e);
