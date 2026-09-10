@@ -12,6 +12,11 @@
 //   <series>/S01/E01_rose.mp4
 // The spin-offs keep .mkv, because MP4 carries neither PGS nor VobSub and the
 // disc subtitles are worth more than Stremio Web is.
+//
+// This one reads the local content folder and will not run without it. That is
+// fine: it is only used to port a new series in, when the files are on the disk
+// by definition. Once a series is in the bucket the copies here are deleted,
+// and everything that runs afterwards asks the bucket instead.
 
 const fs = require('fs');
 const path = require('path');
