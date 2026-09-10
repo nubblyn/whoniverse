@@ -27,6 +27,11 @@ const CDN = 'https://cdn.nubblyn.com/file/whoniverse';
 const WRITE = process.argv.includes('--write');
 
 const SERIES = [
+  // The 1996 film is a one-episode series, not Stremio's movie type, so it is
+  // built exactly like the rest. Its ledger row has no released or description
+  // column yet, and an absent field is left absent rather than filled from
+  // somewhere else.
+  { data: 'the-movie', ledger: '03-the-movie', bucket: 'doctor_who_the_movie', name: 'Doctor Who: The Movie' },
   { data: 'torchwood', ledger: '05-torchwood', bucket: 'torchwood', name: 'Torchwood' },
   { data: 'sarah-jane', ledger: '06-sarah-jane', bucket: 'the_sarah_jane_adventures', name: 'The Sarah Jane Adventures' },
   { data: 'class', ledger: '07-class', bucket: 'class', name: 'Class' },
@@ -48,19 +53,30 @@ function tsv(file) {
   });
 }
 
-/** "1080p 25fps AAC" -> { quality: '1080p', audio: 'AAC' } */
+/**
+ * Read the ledger's `have` column, which is free text describing the master.
+ *   "1080p 25fps AAC"                    -> { quality: '1080p', audio: 'AAC' }
+ *   "720x576 25fps AAC"                  -> { quality: '576p',  audio: 'AAC' }
+ *   "2160p 23.976fps TrueHD/DTS/AC-3"    -> { quality: '2160p', audio: 'TrueHD' }
+ *
+ * Where several audio codecs are listed the first is the default track, which
+ * is the one a client will actually play and the one web-readiness turns on.
+ */
 function fromHave(have) {
   const out = {};
   const res = /(\d{3,4})p|(\d{3,4})x(\d{3,4})/.exec(have || '');
   if (res) {
     const height = res[1] ? +res[1] : +res[3];
     const width = res[2] ? +res[2] : null;
-    // A 1920-wide letterboxed master is still a 1080p tier to a client badge.
-    out.quality = (width && width >= 1900) || height >= 1000 ? '1080p'
-      : height >= 700 ? '720p'
-        : height >= 570 ? '576p' : `${height}p`;
+    // Tiers a client badges, chosen on height, with width as the tie-break for
+    // a letterboxed master that is wider than it is tall for its class.
+    out.quality = height >= 2000 || (width && width >= 3800) ? '2160p'
+      : height >= 1400 ? '1440p'
+        : height >= 1000 || (width && width >= 1900) ? '1080p'
+          : height >= 700 ? '720p'
+            : height >= 570 ? '576p' : `${height}p`;
   }
-  const aud = /\b(E-AC-3|AC-3|AAC|MP3|Opus|FLAC|DTS[^\s]*)\b/i.exec(have || '');
+  const aud = /(TrueHD|E-AC-3|AC-3|AAC|MP3|Opus|FLAC|DTS-HD(?:\s*MA)?|DTS)/i.exec(have || '');
   if (aud) out.audio = aud[1];
   return out;
 }
