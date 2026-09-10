@@ -15,6 +15,8 @@ const episodes = [
   season: 1,
   episode: 1,
   type: "Movie",
+  released: "1996-05-27T12:00:00.000Z",
+  overview: "The Doctor is carrying the Master's remains home to Gallifrey when the TARDIS is forced down in San Francisco, days before the millennium. A surgeon who has never seen two hearts is about to lose him, and the Master is already looking for a new body.",
   quality: "2160p",
   audio: "TrueHD",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/doctor_who_the_movie/season_1/S01_E01_doctor_who_the_movie.jpg",

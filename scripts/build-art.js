@@ -68,6 +68,7 @@ const FOLDER = {
   'sarah-jane': 'the_sarah_jane_adventures',
   class: 'class',
   'land-and-sea': 'the_war_between_the_land_and_the_sea',
+  'complete-chronology': 'complete_chronology',
 };
 
 async function cdn() {

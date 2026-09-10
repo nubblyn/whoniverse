@@ -1,0 +1,143 @@
+{
+ "addon": {
+  "id": "community.whoniverse.addon",
+  "name": "Whoniverse",
+  "logo": "addon-logo.png",
+  "description": "Doctor Who in original UK broadcast order, with every special, minisode and prequel inside its season. New Who is complete. Classic Who, the Wilderness Years, the 1996 film, Torchwood, The Sarah Jane Adventures, Class and The War Between the Land and the Sea are catalogued and on the way."
+ },
+ "series": [
+  {
+   "key": "classic-who",
+   "stremioId": "whoniverse_classic_who",
+   "name": "Classic Who",
+   "folder": "classic_who",
+   "data": "classic-who",
+   "art": "card-1.webp",
+   "releaseInfo": "1963-1989",
+   "genres": [
+    "Sci-Fi",
+    "Adventure",
+    "Drama"
+   ],
+   "description": "The original run of Doctor Who, from An Unearthly Child in 1963 to Survival in 1989. Seven Doctors across 26 seasons, told as multi-part serials and presented here in UK broadcast order with the specials in their place."
+  },
+  {
+   "key": "wilderness-years",
+   "stremioId": "whoniverse_wilderness_years",
+   "name": "Wilderness Years",
+   "folder": "wilderness_years",
+   "data": "wilderness-years",
+   "art": "card-8.webp",
+   "releaseInfo": "1993-2003",
+   "genres": [
+    "Sci-Fi",
+    "Adventure"
+   ],
+   "description": "The sixteen years off the air, between Survival in 1989 and Rose in 2005. Two charity specials and three webcasts: everything the programme managed while it was cancelled."
+  },
+  {
+   "key": "the-movie",
+   "stremioId": "whoniverse_the_movie",
+   "name": "Doctor Who: The Movie",
+   "folder": "doctor_who_the_movie",
+   "data": "the-movie",
+   "art": "card-2.webp",
+   "releaseInfo": "1996",
+   "genres": [
+    "Sci-Fi",
+    "Adventure"
+   ],
+   "description": "The 1996 television film that bridges the classic and modern eras. Sylvester McCoy's Seventh Doctor regenerates into Paul McGann's Eighth in San Francisco on the eve of the millennium, and the Master, in a stolen body, wants the TARDIS for himself."
+  },
+  {
+   "key": "new-who",
+   "stremioId": "whoniverse_new_who",
+   "name": "New Who",
+   "folder": "new_who",
+   "data": "new-who",
+   "art": "card-3.webp",
+   "releaseInfo": "2005-Present",
+   "genres": [
+    "Sci-Fi",
+    "Adventure",
+    "Drama"
+   ],
+   "description": "The revived series, from Rose in 2005 to the present day, in original UK broadcast order. Specials, minisodes and prequels sit inside their seasons, so the story runs straight through from the Ninth Doctor onward."
+  },
+  {
+   "key": "torchwood",
+   "stremioId": "whoniverse_torchwood",
+   "name": "Torchwood",
+   "folder": "torchwood",
+   "data": "torchwood",
+   "art": "card-4.webp",
+   "releaseInfo": "2006-2011",
+   "genres": [
+    "Sci-Fi",
+    "Drama",
+    "Thriller"
+   ],
+   "description": "Captain Jack Harkness leads a secret Cardiff institute that catches whatever falls through the Rift, in the darker spin-off made for adults. Four series, from the standalone cases of the early years to the worldwide crises of Children of Earth and Miracle Day."
+  },
+  {
+   "key": "sarah-jane",
+   "stremioId": "whoniverse_sarah_jane",
+   "name": "The Sarah Jane Adventures",
+   "folder": "the_sarah_jane_adventures",
+   "data": "sarah-jane",
+   "art": "card-5.webp",
+   "releaseInfo": "2007-2011",
+   "genres": [
+    "Sci-Fi",
+    "Adventure",
+    "Family"
+   ],
+   "description": "Sarah Jane Smith, the Doctor's longest-serving companion, investigates alien activity from her attic on Bannerman Road with her son Luke and his friends. Five series of family adventures that run in step with the Tenth and Eleventh Doctors' eras."
+  },
+  {
+   "key": "class",
+   "stremioId": "whoniverse_class",
+   "name": "Class",
+   "folder": "class",
+   "data": "class",
+   "art": "card-6.webp",
+   "releaseInfo": "2016",
+   "genres": [
+    "Sci-Fi",
+    "Drama",
+    "Horror"
+   ],
+   "description": "Coal Hill Academy sixth-formers guard a tear in space and time left behind by the Doctor's many visits, with an alien prince and his exiled guardian hiding among the students. A single eight-episode series from 2016."
+  },
+  {
+   "key": "land-and-sea",
+   "stremioId": "whoniverse_land_and_sea",
+   "name": "The War Between the Land and the Sea",
+   "folder": "the_war_between_the_land_and_the_sea",
+   "data": "land-and-sea",
+   "art": "card-7.webp",
+   "releaseInfo": "2025",
+   "genres": [
+    "Sci-Fi",
+    "Drama",
+    "Thriller"
+   ],
+   "description": "An ancient species rises from the ocean floor to claim the planet, and UNIT stands between humanity and the deep. A five-part story from December 2025, the newest branch of the Whoniverse."
+  },
+  {
+   "key": "complete-chronology",
+   "stremioId": "whoniverse_complete_chronology",
+   "name": "Complete Chronology",
+   "folder": "complete_chronology",
+   "data": "complete-chronology",
+   "art": "card-9.webp",
+   "releaseInfo": "1963-Present",
+   "genres": [
+    "Sci-Fi",
+    "Adventure",
+    "Drama"
+   ],
+   "description": "Every Doctor Who story in one running order, from An Unearthly Child in 1963 to the newest arrival, with the spin-offs, specials, minisodes and animated serials each in the place a viewer would watch it. One list instead of eight."
+  }
+ ]
+}
