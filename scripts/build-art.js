@@ -56,8 +56,22 @@ async function site() {
   }
 }
 
+// A series' artwork goes in that series' own folder, named the way the file on
+// disk is named, so the bucket reads the same as the content folder it mirrors
+// and there is one place per series rather than a separate art directory.
+const FOLDER = {
+  'classic-who': 'classic_who',
+  'wilderness-years': 'wilderness_years',
+  'the-movie': 'doctor_who_the_movie',
+  'new-who': 'new_who',
+  torchwood: 'torchwood',
+  'sarah-jane': 'the_sarah_jane_adventures',
+  class: 'class',
+  'land-and-sea': 'the_war_between_the_land_and_the_sea',
+};
+
 async function cdn() {
-  for (const dir of ['poster', 'background', 'logo']) fs.mkdirSync(path.join(CDN, dir), { recursive: true });
+  for (const f of Object.values(FOLDER)) fs.mkdirSync(path.join(CDN, f), { recursive: true });
 
   // Trimmed first: the source carries transparent padding, which at favicon
   // sizes is the difference between a legible TARDIS and a blue smudge.
@@ -78,28 +92,29 @@ async function cdn() {
 
   for (const entry of series) {
     const k = entry.key;
+    const f = FOLDER[k];
     // The poster is the same picture as the website card, from the same file.
     const poster = await sharp(path.join(SRC, entry.art.replace(/\.webp$/, '.png')))
       .resize(800, 1200, { fit: 'inside', withoutEnlargement: true }).jpeg({ quality: 86, mozjpeg: true })
-      .toFile(path.join(CDN, 'poster', `${k}.jpg`));
-    log(`art-cdn/poster/${k}.jpg`, poster);
+      .toFile(path.join(CDN, f, `${f}_poster.jpg`));
+    log(`art-cdn/${f}/${f}_poster.jpg`, poster);
 
     // A series can be catalogued before anyone has made it a backdrop or a
     // wordmark. Skip what is not there rather than failing the whole build;
     // series.js then leaves those fields out of the meta entirely.
     if (!fs.existsSync(path.join(SRC, 'cdn', `${k}-background.jpg`))) {
-      console.log(`${`art-cdn/background/${k}.jpg`.padEnd(36)} no source, skipped`);
+      console.log(`${`art-cdn/${f}/${f}_background.jpg`.padEnd(46)} no source, skipped`);
       continue;
     }
     const bg = await sharp(path.join(SRC, 'cdn', `${k}-background.jpg`))
       .resize(1920, 1080, { fit: 'inside', withoutEnlargement: true }).jpeg({ quality: 80, mozjpeg: true })
-      .toFile(path.join(CDN, 'background', `${k}.jpg`));
-    log(`art-cdn/background/${k}.jpg`, bg);
+      .toFile(path.join(CDN, f, `${f}_background.jpg`));
+    log(`art-cdn/${f}/${f}_background.jpg`, bg);
 
     const logo = await sharp(path.join(SRC, 'cdn', `${k}-logo.png`))
       .resize(800, 400, { fit: 'inside', withoutEnlargement: true }).png()
-      .toFile(path.join(CDN, 'logo', `${k}.png`));
-    log(`art-cdn/logo/${k}.png`, logo);
+      .toFile(path.join(CDN, f, `${f}_logo.png`));
+    log(`art-cdn/${f}/${f}_logo.png`, logo);
   }
 
   // The addon logo has carried a hash in its URL for a while, for the reason
@@ -108,10 +123,11 @@ async function cdn() {
   // posters needed the same treatment and did not have it, so a new poster
   // looked like it had not uploaded at all.
   const stamps = { addonLogo: version(path.join(CDN, 'addon-logo.png')) };
-  for (const dir of ['poster', 'background', 'logo']) {
-    stamps[dir] = Object.fromEntries(series.map((e) => {
-      const ext = dir === 'logo' ? 'png' : 'jpg';
-      return [e.key, version(path.join(CDN, dir, `${e.key}.${ext}`))];
+  for (const kind of ['poster', 'background', 'logo']) {
+    stamps[kind] = Object.fromEntries(series.map((e) => {
+      const f = FOLDER[e.key];
+      const ext = kind === 'logo' ? 'png' : 'jpg';
+      return [e.key, version(path.join(CDN, f, `${f}_${kind}.${ext}`))];
     }));
   }
   fs.writeFileSync(path.join(ROOT, 'data', 'art-version.json'), `${JSON.stringify(stamps)}\n`);
