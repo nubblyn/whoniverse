@@ -29,15 +29,15 @@ const CONTENT = 'C:/Users/hello/Downloads/content';
 const WRITE = process.argv.includes('--write');
 
 const SERIES = [
-  // The 1996 film is a one-episode series, not Stremio's movie type, so it is
-  // built exactly like the rest. Its ledger row has no released or description
-  // column yet, and an absent field is left absent rather than filled from
-  // somewhere else.
-  { data: 'the-movie', ledger: '03-the-movie', bucket: 'doctor_who_the_movie', name: 'Doctor Who: The Movie' },
+  // The 1996 film sits inside the Wilderness Years, at 1x03 between Dimensions
+  // in Time and the Curse of Fatal Death, so this builds that series and the
+  // film comes with it. The other nine rows have no file yet and contribute a
+  // title and nothing else.
+  { data: 'wilderness-years', ledger: '02-wilderness-years', bucket: 'wilderness_years', name: 'Wilderness Years' },
   { data: 'torchwood', ledger: '05-torchwood', bucket: 'torchwood', name: 'Torchwood' },
   { data: 'sarah-jane', ledger: '06-sarah-jane', bucket: 'the_sarah_jane_adventures', name: 'The Sarah Jane Adventures' },
   { data: 'class', ledger: '07-class', bucket: 'class', name: 'Class' },
-  { data: 'land-and-sea', ledger: '08-war-between-land-and-sea', bucket: 'the_war_between_the_land_and_the_sea', name: 'The War Between the Land and the Sea' },
+  { data: 'land-and-sea', ledger: '08-land-and-sea', bucket: 'the_war_between_the_land_and_the_sea', name: 'The War Between the Land and the Sea' },
 ];
 
 function findRclone() {
@@ -101,7 +101,7 @@ function released(date) {
 }
 
 const rclone = findRclone();
-let failed = 0;
+let missing = 0;
 
 for (const s of SERIES) {
   const rows = tsv(path.join(ROOT, 'ledger', 'series', `${s.ledger}.tsv`));
@@ -131,11 +131,13 @@ for (const s of SERIES) {
     const episode = counter[season];
     const key = `${season}x${episode}`;
 
-    if (!video.has(key)) {
-      console.error(`  ${s.data} ${key} "${r.title}" has no file in the bucket`);
-      failed++;
-      continue;
-    }
+    // A series can be part downloaded. The Wilderness Years holds the 1996
+    // film and nine webcasts and charity specials that have no file yet, and
+    // dropping those would have quietly shrunk the series from ten rows to
+    // one. An item with nothing to play still gets its title, date and
+    // description; the client greys it out.
+    const have = video.has(key);
+    if (!have) missing++;
     const e = {
       title: r.title,
       season,
@@ -143,9 +145,9 @@ for (const s of SERIES) {
       type: r.category,
       released: released(r.released),
       overview: r.description || undefined,
-      ...fromHave(r.have),
+      ...(have ? fromHave(r.have) : {}),
       thumbnail: still.has(key) ? `${CDN}/${s.bucket}/${still.get(key)}` : undefined,
-      streamUrl: `${CDN}/${s.bucket}/${video.get(key)}`,
+      streamUrl: have ? `${CDN}/${s.bucket}/${video.get(key)}` : undefined,
       // Almost every episode came off a disc and carries the broadcaster's own
       // subtitles inside the file, so there is nothing to serve alongside it.
       // The exceptions are the few taken from the web, which have none: those
@@ -157,7 +159,7 @@ for (const s of SERIES) {
       subtitleUrl: subs.has(key)
         ? `${CDN}/${s.bucket}/${subs.get(key)}?v=${subtitleHash(s.bucket, subs.get(key))}`
         : undefined,
-      filename: path.basename(video.get(key)),
+      filename: have ? path.basename(video.get(key)) : undefined,
     };
     episodes.push(e);
   }
@@ -207,7 +209,6 @@ const episodes = [
 }
 
 console.log(WRITE ? '\nwritten' : '\ndry run. add --write.');
-if (failed) {
-  console.error(`\n${failed} episodes had no file — nothing is complete until that is nil`);
-  process.exitCode = 1;
+if (missing) {
+  console.log(`${missing} items have no file yet and are listed unavailable`);
 }

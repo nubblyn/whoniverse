@@ -62,7 +62,6 @@ async function site() {
 const FOLDER = {
   'classic-who': 'classic_who',
   'wilderness-years': 'wilderness_years',
-  'the-movie': 'doctor_who_the_movie',
   'new-who': 'new_who',
   torchwood: 'torchwood',
   'sarah-jane': 'the_sarah_jane_adventures',

@@ -1,6 +1,6 @@
 // The War Between the Land and the Sea — from the ledger, not from anywhere else.
 //
-// Every field a viewer reads is written by hand in ledger/series/08-war-between-land-and-sea.tsv
+// Every field a viewer reads is written by hand in ledger/series/08-land-and-sea.tsv
 // and copied here by scripts/build-spinoffs.js. Nothing comes from Cinemeta,
 // TMDB or IMDb, and no episode carries an external id: these series were never
 // playable before, so there are no old links to keep resolving. Edit the

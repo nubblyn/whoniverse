@@ -1,10 +1,11 @@
-season	category	title	status	note	ceiling	have
-1	Special	Dimensions in Time (1)	ok		576p broadcast	
-1	Special	Dimensions in Time (2)	ok		576p broadcast	
-1	Special	Doctor Who and the Curse of Fatal Death (1)	ok		576p DVD	
-1	Special	Doctor Who and the Curse of Fatal Death (2)	ok		576p DVD	
-1	Special	Doctor Who and the Curse of Fatal Death (3)	ok		576p DVD	
-1	Special	Doctor Who and the Curse of Fatal Death (4)	ok		576p DVD	
-1	Animated Series	Death Comes to Time	ok		SD webcast, no disc	
-1	Animated Series	Real Time	ok		SD webcast, no disc	
-1	Animated Series	Scream of the Shalka	ok		SD webcast, no disc	
+season	category	title	status	note	ceiling	have	released	description
+1	Special	Dimensions in Time (1)	ok		576p broadcast			
+1	Special	Dimensions in Time (2)	ok		576p broadcast			
+1	Movie	Doctor Who: The Movie	ok		2160p UHD disc, 2026 restoration	2160p 23.976fps TrueHD/DTS/AC-3	1996-05-27	The Doctor is carrying the Master's remains home to Gallifrey when the TARDIS is forced down in San Francisco, days before the millennium. A surgeon who has never seen two hearts is about to lose him, and the Master is already looking for a new body.
+1	Special	Doctor Who and the Curse of Fatal Death (1)	ok		576p DVD			
+1	Special	Doctor Who and the Curse of Fatal Death (2)	ok		576p DVD			
+1	Special	Doctor Who and the Curse of Fatal Death (3)	ok		576p DVD			
+1	Special	Doctor Who and the Curse of Fatal Death (4)	ok		576p DVD			
+1	Animated Series	Death Comes to Time	ok		SD webcast, no disc			
+1	Animated Series	Real Time	ok		SD webcast, no disc			
+1	Animated Series	Scream of the Shalka	ok		SD webcast, no disc			

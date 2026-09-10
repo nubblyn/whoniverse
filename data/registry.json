@@ -33,21 +33,7 @@
     "Sci-Fi",
     "Adventure"
    ],
-   "description": "The sixteen years off the air, between Survival in 1989 and Rose in 2005. Two charity specials and three webcasts: everything the programme managed while it was cancelled."
-  },
-  {
-   "key": "the-movie",
-   "stremioId": "whoniverse_the_movie",
-   "name": "Doctor Who: The Movie",
-   "folder": "doctor_who_the_movie",
-   "data": "the-movie",
-   "art": "card-2.webp",
-   "releaseInfo": "1996",
-   "genres": [
-    "Sci-Fi",
-    "Adventure"
-   ],
-   "description": "The 1996 television film that bridges the classic and modern eras. Sylvester McCoy's Seventh Doctor regenerates into Paul McGann's Eighth in San Francisco on the eve of the millennium, and the Master, in a stolen body, wants the TARDIS for himself."
+   "description": "The sixteen years off the air, between Survival in 1989 and Rose in 2005. The 1996 television film, two charity specials and three webcasts: everything the programme managed while it was cancelled."
   },
   {
    "key": "new-who",

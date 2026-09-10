@@ -206,7 +206,7 @@ def quality(r, series_key=''):
     fps = float(fps.group(1)) if fps else None
     if want and got and got < want:
         return ('below', 'have %dp, %s exists' % (got, ceiling))
-    if fps and round(fps, 3) in BAD_CADENCE and series_key != 'the-movie':
+    if fps and round(fps, 3) in BAD_CADENCE and series_key != 'wilderness-years':
         return ('cadence', '%gfps, converted from another standard' % fps)
     if want and got and got > want:
         return ('upscale', 'have %dp but the real ceiling is %s' % (got, ceiling))

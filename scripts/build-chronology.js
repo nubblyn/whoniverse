@@ -44,7 +44,7 @@ for (const n of names) {
 
 // (series, season, episode) -> the published entry
 const source = new Map();
-const DATA = ['classic-who', 'wilderness-years', 'the-movie', 'new-who',
+const DATA = ['classic-who', 'wilderness-years', 'new-who',
   'torchwood', 'sarah-jane', 'class', 'land-and-sea'];
 for (const key of DATA) {
   let eps;

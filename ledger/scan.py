@@ -27,7 +27,6 @@ FFPROBE_CANDIDATES = [
 FOLDER = {
     'classic-who': '1. Classic Who',
     'wilderness-years': '2. Wilderness Years',
-    'the-movie': '3. Doctor Who - The Movie',
     'torchwood': '4. Torchwood ✅',
     'sarah-jane': '5. The Sarah Jane Adventures ✅',
     'class': '6. Class ✅',
