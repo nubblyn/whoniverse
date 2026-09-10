@@ -104,8 +104,15 @@ async function cdn() {
     // this used to `continue` past a missing background, which quietly skipped
     // the logo as well, so a series could have a wordmark on disk that never
     // reached the bucket. series.js leaves out whichever field is absent.
-    const bgSrc = path.join(SRC, 'cdn', `${k}-background.jpg`);
-    if (fs.existsSync(bgSrc)) {
+    // PNG first, JPEG second. Where the original is lossless it is kept that
+    // way, so the backdrop that ships is one JPEG encode rather than two: at
+    // the quality these are stored and served, going through an intermediate
+    // JPEG costs about 1.3% RMSE, which is invisible on a face and is not
+    // invisible on the flat gradient of a sky or a wall. The older four are
+    // still .jpg because that is the best copy of them there is.
+    const bgSrc = [`${k}-background.png`, `${k}-background.jpg`]
+      .map((n) => path.join(SRC, 'cdn', n)).find((p) => fs.existsSync(p));
+    if (bgSrc) {
       const bg = await sharp(bgSrc)
         .resize(1920, 1080, { fit: 'inside', withoutEnlargement: true }).jpeg({ quality: 80, mozjpeg: true })
         .toFile(path.join(CDN, f, `${f}_background.jpg`));
