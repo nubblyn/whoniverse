@@ -12,12 +12,22 @@ which is why the ledger moved here on 9 September 2026.
 
 | File | What it holds |
 | --- | --- |
-| `tabs.tsv` | One row per series: its key, the name its tab takes in the sheet, whether it is numbered, and which category columns it uses |
+| `addon.tsv` | What the addon says about itself: id, name, description, logo |
+| `series.tsv` | One row per series: its key, sheet name, whether it is numbered, its category columns, and everything the addon needs — bucket folder, Stremio id, artwork, release span, genres and description |
 | `series/*.tsv` | One file per series, rows in viewing order |
 | `all-who.tsv` | The combined running order, referencing rows in the series files |
-| `build.py` | Validates all of the above and writes `out/` |
+| `build.py` | Validates all of the above, writes `out/` and `data/registry.json` |
 | `out/whoniverse.xlsx` | Generated. Import this into the Google Sheet |
 | `out/file-names.tsv` | Generated. Every item with its `S01_E01_slug` name, for matching media files |
+| `../data/registry.json` | Generated. What the addon reads for its own name and every series' prose and artwork |
+
+## The Complete Chronology
+
+`series.tsv` marks it `derived`: it has no file under `series/` because it is
+all of `all-who.tsv`, every other series in UK broadcast order. The addon
+builds its episode list with `scripts/build-chronology.js`, and each episode
+reuses the stream and still its own series already publishes, so there is one
+copy of everything and the two cannot drift.
 
 ## A series row
 
