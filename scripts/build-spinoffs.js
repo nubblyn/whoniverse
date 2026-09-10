@@ -84,9 +84,16 @@ let missing = 0;
 
 // A stamped URL: the file's own hash in the query, so replacing the file
 // changes the address. Cloudflare holds the bucket for four hours and keys on
-// the URL, and Stremio's image and subtitle caches hold on far longer than
-// that with no expiry we control. Without this a corrected subtitle or a new
-// still reaches nobody who has already looked.
+// the URL, and the clients keep their own copies with no expiry we control.
+// Without this a corrected subtitle, a new still or a better master reaches
+// nobody who has already looked.
+//
+// Streams are stamped too. The name of a file is fixed by what it is, so a
+// better master of an episode is uploaded over the old one rather than
+// alongside it, and an unchanged address is one nobody re-fetches. This is
+// safe because nothing is keyed on the stream URL: Stremio tracks watched and
+// resume state against the video id, which is ours and permanent, and
+// behaviorHints.filename carries the plain name for anything that reads it.
 function stamped(bucket, entry) {
   const v = shortHash(entry.sha1);
   return `${CDN}/${bucket}/${entry.rel}${v ? `?v=${v}` : ''}`;
@@ -109,7 +116,7 @@ for (const s of SERIES) {
     const key = `${+m[1]}x${+m[2]}`;
     if (m[3] === 'jpg') still.set(key, { rel, sha1: f.sha1 });
     else if (m[3] === 'srt') subs.set(key, { rel, sha1: f.sha1 });
-    else if (!video.has(key) || rel.endsWith('.mkv')) video.set(key, rel);
+    else if (!video.has(key) || rel.endsWith('.mkv')) video.set(key, { rel, sha1: f.sha1 });
   }
 
   const counter = {};
@@ -139,16 +146,16 @@ for (const s of SERIES) {
       // the name is what matches it to its video, so the hash is the only
       // thing that can tell a client the picture has changed.
       thumbnail: still.has(key) ? stamped(s.bucket, still.get(key)) : undefined,
-      // The stream is not stamped. A video file is never edited in place: a
-      // better master arrives as a different name, and stamping it would only
-      // break the resume position of everyone already watching.
-      streamUrl: have ? `${CDN}/${s.bucket}/${video.get(key)}` : undefined,
+      streamUrl: have ? stamped(s.bucket, video.get(key)) : undefined,
       // Almost every episode came off a disc and carries the broadcaster's own
       // subtitles inside the file, so there is nothing to serve alongside it.
       // The exceptions are the few taken from the web, which have none: those
       // get an .srt in the bucket, and it is picked up here if it is there.
       subtitleUrl: subs.has(key) ? stamped(s.bucket, subs.get(key)) : undefined,
-      filename: have ? path.basename(video.get(key)) : undefined,
+      // The plain name, with no hash on it. This is what a client shows and
+      // what a player reads the container from, so it has to stay the name of
+      // the file rather than the address it is fetched by.
+      filename: have ? path.basename(video.get(key).rel) : undefined,
     };
     episodes.push(e);
   }

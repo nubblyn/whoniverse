@@ -20,7 +20,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E01_for_tonight_we_might_die.jpg?v=84ea545f",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E01_for_tonight_we_might_die.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E01_for_tonight_we_might_die.mkv?v=bd995bb5",
   filename: "S01_E01_for_tonight_we_might_die.mkv",
 },
 {
@@ -33,7 +33,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E02_the_coach_with_the_dragon_tattoo.jpg?v=b3c60e99",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E02_the_coach_with_the_dragon_tattoo.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E02_the_coach_with_the_dragon_tattoo.mkv?v=dba5d0fd",
   filename: "S01_E02_the_coach_with_the_dragon_tattoo.mkv",
 },
 {
@@ -46,7 +46,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E03_nightvisiting.jpg?v=e3d7be5a",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E03_nightvisiting.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E03_nightvisiting.mkv?v=7d1ae9e9",
   filename: "S01_E03_nightvisiting.mkv",
 },
 {
@@ -59,7 +59,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E04_coowner_of_a_lonely_heart.jpg?v=80442feb",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E04_coowner_of_a_lonely_heart.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E04_coowner_of_a_lonely_heart.mkv?v=0f57016a",
   filename: "S01_E04_coowner_of_a_lonely_heart.mkv",
 },
 {
@@ -72,7 +72,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E05_braveish_heart.jpg?v=970f4588",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E05_braveish_heart.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E05_braveish_heart.mkv?v=7dbcb4fc",
   filename: "S01_E05_braveish_heart.mkv",
 },
 {
@@ -85,7 +85,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E06_detained.jpg?v=cf61a903",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E06_detained.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E06_detained.mkv?v=9d9ca15c",
   filename: "S01_E06_detained.mkv",
 },
 {
@@ -98,7 +98,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E07_the_metaphysical_engine_or_what_quill_did.jpg?v=d7f8441f",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E07_the_metaphysical_engine_or_what_quill_did.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E07_the_metaphysical_engine_or_what_quill_did.mkv?v=0adaa6f0",
   filename: "S01_E07_the_metaphysical_engine_or_what_quill_did.mkv",
 },
 {
@@ -111,7 +111,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E08_the_lost.jpg?v=2bc7c86b",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E08_the_lost.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/class/season_1/S01_E08_the_lost.mkv?v=259d5ae6",
   filename: "S01_E08_the_lost.mkv",
 }
 ];

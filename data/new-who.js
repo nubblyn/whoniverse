@@ -8,7 +8,7 @@ imdb: { id: "tt0436992", season: 1, episode: 1 },
 released: new Date("2005-03-26").toISOString(),
 overview: "Ordinary shop assistant Rose Tyler's life is turned upside down when a mysterious stranger called the Doctor saves her from an attack by living mannequins. Drawn into his dangerous world, she must help him stop an alien consciousness from taking over London.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E01_rose.jpg?v=2966ccf2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E01_rose.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E01_rose.mp4?v=5f6e911d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E01_rose.srt?v=37e0f9a6"
 },
 {
@@ -20,7 +20,7 @@ imdb: { id: "tt0436992", season: 1, episode: 2 },
 released: new Date("2005-04-02").toISOString(),
 overview: "For her first trip through time, the Doctor takes Rose to the year five billion to witness the final destruction of Earth from a luxurious space station. But when a deadly saboteur strikes, the station's guests are put in mortal danger.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E02_the_end_of_the_world.jpg?v=c1bb5141",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E02_the_end_of_the_world.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E02_the_end_of_the_world.mp4?v=029dab25",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E02_the_end_of_the_world.srt?v=f2ff2475"
 },
 {
@@ -32,7 +32,7 @@ imdb: { id: "tt0436992", season: 1, episode: 3 },
 released: new Date("2005-04-09").toISOString(),
 overview: "The Doctor and Rose travel to 1869 Cardiff, where the dead are walking and spectres haunt a local funeral parlour. Teaming up with Charles Dickens, they must uncover the ghostly truth behind the seemingly reanimated corpses.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E03_the_unquiet_dead.jpg?v=8aca8afb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E03_the_unquiet_dead.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E03_the_unquiet_dead.mp4?v=5b9bebc5",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E03_the_unquiet_dead.srt?v=daba437b"
 },
 {
@@ -44,7 +44,7 @@ imdb: { id: "tt0436992", season: 1, episode: 4 },
 released: new Date("2005-04-16").toISOString(),
 overview: "After returning Rose home a year late, the Doctor's reunion with her family is cut short when a spaceship crash-lands in the Thames. The incident triggers a global state of alert, but the real threat is already inside the government.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E04_aliens_of_london.jpg?v=0710be00",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E04_aliens_of_london.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E04_aliens_of_london.mp4?v=5f255f03",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E04_aliens_of_london.srt?v=83a8273d"
 },
 {
@@ -56,7 +56,7 @@ imdb: { id: "tt0436992", season: 1, episode: 5 },
 released: new Date("2005-04-23").toISOString(),
 overview: "With the alien Slitheen in control of 10 Downing Street, the Doctor, Rose, and Harriet Jones are trapped and declared international fugitives. They must find a way to expose the conspiracy and stop Earth from being sold for scrap.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E05_world_war_three.jpg?v=6bf9ab00",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E05_world_war_three.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E05_world_war_three.mp4?v=f2898cb0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E05_world_war_three.srt?v=4381c4e9"
 },
 {
@@ -68,7 +68,7 @@ imdb: { id: "tt0436992", season: 1, episode: 6 },
 released: new Date("2005-04-30").toISOString(),
 overview: "In a secret underground vault in Utah, the Doctor confronts the last survivor of the Time War: a lone, captive Dalek. But when the creature escapes, the Doctor is forced to face the horror of his past and the darkness within himself.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E06_dalek.jpg?v=279b7e61",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E06_dalek.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E06_dalek.mp4?v=8e01d0b1",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E06_dalek.srt?v=c3d9dce5"
 },
 {
@@ -80,7 +80,7 @@ imdb: { id: "tt0436992", season: 1, episode: 7 },
 released: new Date("2005-05-07").toISOString(),
 overview: "The Doctor, Rose, and new companion Adam Mitchell visit Satellite Five in the year 200,000, a space station that broadcasts news across the entire human empire. But a sinister force on Floor 500 is manipulating humanity's development.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_the_long_game.jpg?v=8dbd506e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_the_long_game.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_the_long_game.mp4?v=5190ad9d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_the_long_game.srt?v=8b554f51"
 },
 {
@@ -92,7 +92,7 @@ imdb: { id: "tt0436992", season: 1, episode: 8 },
 released: new Date("2005-05-14").toISOString(),
 overview: "Rose asks the Doctor to take her to the day her father died in 1987, hoping to be there for him in his final moments. But when she impulsively changes history, deadly Reapers are unleashed to sterilise the wound in time.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_fathers_day.jpg?v=982243d2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_fathers_day.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_fathers_day.mp4?v=02099c86",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_fathers_day.srt?v=49f07687"
 },
 {
@@ -104,7 +104,7 @@ imdb: { id: "tt0436992", season: 1, episode: 9 },
 released: new Date("2005-05-21").toISOString(),
 overview: "The TARDIS lands in London during the Blitz, where the Doctor and Rose encounter a terrifying plague sweeping through the city. A mysterious child in a gas mask wanders the streets, asking the same chilling question of everyone he meets.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_the_empty_child.jpg?v=978cc1a2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_the_empty_child.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_the_empty_child.mp4?v=e1d08e13",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_the_empty_child.srt?v=ad15a961"
 },
 {
@@ -116,7 +116,7 @@ imdb: { id: "tt0436992", season: 1, episode: 10 },
 released: new Date("2005-05-28").toISOString(),
 overview: "The gas-mask plague is spreading across war-torn London, and the Doctor discovers the epidemic's source is an alien hospital ship. With time running out, he, Rose, and Captain Jack must stop the nanogenes before they consume the entire human race.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_doctor_dances.jpg?v=5bb820e3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_doctor_dances.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_doctor_dances.mp4?v=43caa91d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_doctor_dances.srt?v=41a072ca"
 },
 {
@@ -128,7 +128,7 @@ imdb: { id: "tt0436992", season: 1, episode: 11 },
 released: new Date("2005-06-04").toISOString(),
 overview: "The TARDIS team makes a pit stop in modern-day Cardiff, only to find a familiar enemy, a Slitheen, has survived and is plotting a new, catastrophic scheme. The Doctor is faced with a moral dilemma: whether to show mercy to a remorseless killer.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_boom_town.jpg?v=813a05a3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_boom_town.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_boom_town.mp4?v=80039172",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_boom_town.srt?v=1cf9dce7"
 },
 {
@@ -140,7 +140,7 @@ imdb: { id: "tt0436992", season: 1, episode: 12 },
 released: new Date("2005-06-11").toISOString(),
 overview: "The Doctor, Rose, and Captain Jack find themselves trapped in twisted, futuristic versions of popular reality TV shows. But this is no game; losers are disintegrated. A familiar, ancient enemy is pulling the strings from behind the scenes.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_bad_wolf.jpg?v=4d7e5d14",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_bad_wolf.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_bad_wolf.mp4?v=4ecd7fef",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_bad_wolf.srt?v=41d8799f"
 },
 {
@@ -152,7 +152,7 @@ imdb: { id: "tt0436992", season: 1, episode: 13 },
 released: new Date("2005-06-18").toISOString(),
 overview: "The Dalek fleet prepares to invade Earth, and the Doctor is faced with an impossible choice to save the universe. As he sends Rose home for her safety, he must confront the Dalek Emperor in a final, devastating showdown.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_the_parting_of_the_ways.jpg?v=8046bf28",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_the_parting_of_the_ways.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_the_parting_of_the_ways.mp4?v=2bd6b2a1",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_the_parting_of_the_ways.srt?v=81e193cb"
 },
 {
@@ -164,7 +164,7 @@ imdb: { id: "tt0436992", season: 0, episode: 1 },
 released: new Date("2005-11-18").toISOString(),
 overview: "Immediately following his regeneration, the new Doctor must explain his radical change in appearance to a shocked and disbelieving Rose. As he struggles with his new body, the TARDIS hurtles towards London on Christmas Eve.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.jpg?v=64a45a2a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.mp4?v=b50ab2e2",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.srt?v=ddcc5b52"
 },
 {
@@ -176,7 +176,7 @@ imdb: { id: "tt0436992", season: 0, episode: 2 },
 released: new Date("2005-12-25").toISOString(),
 overview: "It's Christmas, but the newly regenerated Doctor is in a coma, leaving Rose and her family to defend Earth from the Sycorax. As the aliens threaten to release a deadly virus, humanity's only hope lies with a Doctor who can't even wake up.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_the_christmas_invasion_special.jpg?v=53234e13",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_the_christmas_invasion_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_the_christmas_invasion_special.mp4?v=b7a876fe",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_the_christmas_invasion_special.srt?v=d5ca5f2b"
 },
 {
@@ -188,7 +188,7 @@ imdb: { id: "tt0436992", season: 2, episode: 1 },
 released: new Date("2006-04-15").toISOString(),
 overview: "The Doctor and Rose journey to humanity's new home planet, where they visit a state-of-the-art hospital run by cat-like nuns. They soon uncover a dark secret: the hospital's miraculous cures come at an unspeakable price.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E01_new_earth.jpg?v=cd4ef97c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E01_new_earth.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E01_new_earth.mp4?v=73e03827",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E01_new_earth.srt?v=8f5e2385"
 },
 {
@@ -200,7 +200,7 @@ imdb: { id: "tt0436992", season: 2, episode: 2 },
 released: new Date("2006-04-22").toISOString(),
 overview: "Landing in 19th-century Scotland, the Doctor and Rose must protect Queen Victoria from a band of warrior monks and a ravenous werewolf. Their investigation leads to the founding of the Torchwood Institute, an organisation created to fight alien threats.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_tooth_and_claw.jpg?v=f2b57b40",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_tooth_and_claw.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_tooth_and_claw.mp4?v=afbddef8",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_tooth_and_claw.srt?v=98ee5787"
 },
 {
@@ -212,7 +212,7 @@ imdb: { id: "tt0436992", season: 2, episode: 3 },
 released: new Date("2006-04-29").toISOString(),
 overview: "Investigating a school run by strange, bat-like aliens, the Doctor and Rose are shocked to find two familiar faces working undercover: former companion Sarah Jane Smith and her robot dog, K-9. The reunited team must stop the Krillitanes from cracking the 'God-Maker' paradigm.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E03_school_reunion.jpg?v=338e5300",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E03_school_reunion.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E03_school_reunion.mp4?v=4d12b3fc",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E03_school_reunion.srt?v=5255165d"
 },
 {
@@ -224,7 +224,7 @@ imdb: { id: "tt0436992", season: 2, episode: 4 },
 released: new Date("2006-05-06").toISOString(),
 overview: "The Doctor finds a time window to 18th-century France on a derelict spaceship and becomes entangled in the life of Madame de Pompadour. He must fight clockwork droids who seek to complete their ship by using her as a final component.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_the_girl_in_the_fireplace.jpg?v=583988df",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_the_girl_in_the_fireplace.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_the_girl_in_the_fireplace.mp4?v=82dbf04a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_the_girl_in_the_fireplace.srt?v=18d411ae"
 },
 {
@@ -236,7 +236,7 @@ imdb: { id: "tt0436992", season: 2, episode: 5 },
 released: new Date("2006-05-13").toISOString(),
 overview: "The TARDIS crash-lands on a parallel Earth where Rose's father is alive and humanity is being forcibly 'upgraded' by the emotionless Cybermen. Trapped in a world not their own, the Doctor and his friends must fight the dawn of a new steel age.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E05_rise_of_the_cybermen.jpg?v=7a620324",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E05_rise_of_the_cybermen.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E05_rise_of_the_cybermen.mp4?v=ec133bbb",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E05_rise_of_the_cybermen.srt?v=30d1ffb9"
 },
 {
@@ -248,7 +248,7 @@ imdb: { id: "tt0436992", season: 2, episode: 6 },
 released: new Date("2006-05-20").toISOString(),
 overview: "The Cybermen have seized control of London, and the Doctor, Rose, and Mickey have become fugitives. They join a small band of rebels in a desperate attempt to shut down the Cyber-conversion factories and save humanity from deletion.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_the_age_of_steel.jpg?v=2e000b44",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_the_age_of_steel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_the_age_of_steel.mp4?v=f743dae7",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_the_age_of_steel.srt?v=2643b37e"
 },
 {
@@ -260,7 +260,7 @@ imdb: { id: "tt0436992", season: 2, episode: 7 },
 released: new Date("2006-05-27").toISOString(),
 overview: "It's 1953, the year of Queen Elizabeth II's coronation, and a malevolent alien entity known as the Wire is stealing people's faces through their television sets. The Doctor and Rose must stop it before it consumes the minds of millions watching the broadcast.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E07_the_idiots_lantern.jpg?v=c62742a8",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E07_the_idiots_lantern.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E07_the_idiots_lantern.mp4?v=f73a31ed",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E07_the_idiots_lantern.srt?v=6f0c6b83"
 },
 {
@@ -272,7 +272,7 @@ imdb: { id: "tt0436992", season: 2, episode: 8 },
 released: new Date("2006-06-03").toISOString(),
 overview: "The TARDIS lands on a sanctuary base impossibly orbiting a black hole, where a human crew works alongside their servants, the Ood. As an ancient evil begins to awaken from deep within the planet, the Doctor and Rose face a terrifying enemy.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_impossible_planet.jpg?v=b224a839",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_impossible_planet.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_impossible_planet.mp4?v=a140521c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_impossible_planet.srt?v=6bbf69b5"
 },
 {
@@ -284,7 +284,7 @@ imdb: { id: "tt0436992", season: 2, episode: 9 },
 released: new Date("2006-06-10").toISOString(),
 overview: "With the Beast possessing the Ood, Rose and the surviving crew members fight for their lives against the Legion of the Beast. The Doctor descends into the planet's core to confront the ancient creature, facing a choice that could mean his own demise.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_the_satan_pit.jpg?v=bc2121cb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_the_satan_pit.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_the_satan_pit.mp4?v=f63de17a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_the_satan_pit.srt?v=8b960a60"
 },
 {
@@ -296,7 +296,7 @@ imdb: { id: "tt0436992", season: 2, episode: 10 },
 released: new Date("2006-06-17").toISOString(),
 overview: "From the perspective of an ordinary man named Elton Pope, the episode shows the impact the Doctor has on the lives of those he encounters. Elton joins a group of Doctor-enthusiasts, but their hobby takes a dark turn when a mysterious man takes over their meetings.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E10_love_and_monsters.jpg?v=ccdd8b43",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E10_love_and_monsters.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E10_love_and_monsters.mp4?v=5cbc7bfc",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E10_love_and_monsters.srt?v=b686abad"
 },
 {
@@ -308,7 +308,7 @@ imdb: { id: "tt0436992", season: 2, episode: 11 },
 released: new Date("2006-06-24").toISOString(),
 overview: "On the eve of the 2012 London Olympics, the Doctor and Rose investigate a quiet suburban street where children are mysteriously vanishing. They discover a lonely girl whose drawings can trap living people, and a hidden alien presence feeding on fear.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_fear_her.jpg?v=54dbf0c5",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_fear_her.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_fear_her.mp4?v=b6cfb322",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_fear_her.srt?v=0074a485"
 },
 {
@@ -320,7 +320,7 @@ imdb: { id: "tt0436992", season: 2, episode: 12 },
 released: new Date("2006-07-01").toISOString(),
 overview: "Ghostly apparitions are appearing all over the world, but they are not what they seem. The Doctor traces the phenomenon to the Torchwood Institute, where he discovers an alien sphere that heralds the arrival of his deadliest enemies.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E12_army_of_ghosts.jpg?v=7c77839e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E12_army_of_ghosts.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E12_army_of_ghosts.mp4?v=1441267c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E12_army_of_ghosts.srt?v=a932a9f5"
 },
 {
@@ -332,7 +332,7 @@ imdb: { id: "tt0436992", season: 2, episode: 13 },
 released: new Date("2006-07-08").toISOString(),
 overview: "Earth becomes the battleground for a war between the Daleks and the Cybermen. With the planet at stake, the Doctor must make a heart-wrenching sacrifice to close the void between worlds, leading to a devastating farewell.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_doomsday.jpg?v=f6d92b76",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_doomsday.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_doomsday.mp4?v=9acad87e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_doomsday.srt?v=7b85254a"
 },
 {
@@ -344,7 +344,7 @@ imdb: { id: "tt0436992", season: 0, episode: 4 },
 released: new Date("2006-12-25").toISOString(),
 overview: "Still reeling from the loss of Rose, the Doctor is stunned when a bride named Donna Noble suddenly materialises inside the TARDIS. He must uncover how she is connected to an ancient alien plot to destroy the Earth.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E14_the_runaway_bride_special.jpg?v=59c5468d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E14_the_runaway_bride_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E14_the_runaway_bride_special.mp4?v=35ccbfeb",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E14_the_runaway_bride_special.srt?v=21545f17"
 },
 {
@@ -356,7 +356,7 @@ imdb: { id: "tt0436992", season: 3, episode: 1 },
 released: new Date("2007-03-31").toISOString(),
 overview: "When her hospital is transported to the moon, medical student Martha Jones teams up with the Doctor to find a fugitive alien hiding among the patients. They must expose the creature before the rhino-like Judoon police destroy the entire building.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.jpg?v=78ea0eda",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.mp4?v=a8ede31b",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.srt?v=fba12201"
 },
 {
@@ -368,7 +368,7 @@ imdb: { id: "tt0436992", season: 3, episode: 2 },
 released: new Date("2007-04-07").toISOString(),
 overview: "The Doctor takes Martha to Elizabethan England, where they meet William Shakespeare at the Globe Theatre. They soon discover that three powerful witches are using his new play to open a portal for their species to conquer Earth.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.jpg?v=450f9ad6",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.mp4?v=95534a87",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.srt?v=138fff2a"
 },
 {
@@ -380,7 +380,7 @@ imdb: { id: "tt0436992", season: 3, episode: 3 },
 released: new Date("2007-04-14").toISOString(),
 overview: "The Doctor and Martha visit New Earth, only for Martha to be kidnapped and taken into the dark underbelly of New New York. There, the population is trapped in a perpetual traffic jam, and a monstrous secret lurks in the fast lane.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.jpg?v=45737bee",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.mp4?v=9cac6137",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.srt?v=b940ea0e"
 },
 {
@@ -392,7 +392,7 @@ imdb: { id: "tt0436992", season: 3, episode: 4 },
 released: new Date("2007-04-21").toISOString(),
 overview: "In 1930s New York City, people are disappearing from Hooverville, and a mysterious Pig-Slave army serves a hidden master. The Doctor and Martha uncover a plot by the Cult of Skaro to create a new race of Dalek-human hybrids.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E04_daleks_in_manhattan.jpg?v=d2e741cc",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E04_daleks_in_manhattan.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E04_daleks_in_manhattan.mp4?v=8caa8cc2",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E04_daleks_in_manhattan.srt?v=61f53660"
 },
 {
@@ -404,7 +404,7 @@ imdb: { id: "tt0436992", season: 3, episode: 5 },
 released: new Date("2007-04-28").toISOString(),
 overview: "The Daleks' final experiment is in full swing at the Empire State Building, and the first Dalek-human hybrid has been created. The Doctor must convince his oldest enemies to choose a new path, or face the destruction of both races.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_evolution_of_the_daleks.jpg?v=f422760d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_evolution_of_the_daleks.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_evolution_of_the_daleks.mp4?v=2364845a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_evolution_of_the_daleks.srt?v=d05c8c35"
 },
 {
@@ -416,7 +416,7 @@ imdb: { id: "tt0436992", season: 0, episode: 5 },
 released: new Date("2007-04-29").toISOString(),
 overview: "The Doctor and Martha embark on an animated adventure across the galaxy to find the location of the legendary lost starship, the Infinite. They must outwit the evil Baltazar, who seeks the ship's power to grant his heart's desire: control of the universe.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_the_infinite_quest_animated_series.jpg?v=7f4856bb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_the_infinite_quest_animated_series.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_the_infinite_quest_animated_series.mp4?v=654b50a5",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_the_infinite_quest_animated_series.srt?v=19444a45"
 },
 {
@@ -428,7 +428,7 @@ imdb: { id: "tt0436992", season: 3, episode: 6 },
 released: new Date("2007-05-05").toISOString(),
 overview: "Back in modern-day London, Martha's family gets caught up in the work of an elderly scientist who claims to have reversed the ageing process. But his experiment has a terrible side effect, unleashing a monstrous creature with an insatiable appetite.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_lazarus_experiment.jpg?v=08386356",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_lazarus_experiment.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_lazarus_experiment.mp4?v=84df06bf",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_lazarus_experiment.srt?v=55a86aba"
 },
 {
@@ -440,7 +440,7 @@ imdb: { id: "tt0436992", season: 3, episode: 7 },
 released: new Date("2007-05-19").toISOString(),
 overview: "The Doctor and Martha find themselves on a spaceship hurtling towards a sun, with only 42 minutes until impact. As the crew becomes possessed by a living star, they must solve a series of cryptic puzzles to survive.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_42.jpg?v=174a7b9d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_42.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_42.mp4?v=fd52b3c0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_42.srt?v=c9219dc3"
 },
 {
@@ -452,7 +452,7 @@ imdb: { id: "tt0436992", season: 3, episode: 8 },
 released: new Date("2007-05-26").toISOString(),
 overview: "To escape a family of hunters, the Doctor transforms himself into a human schoolteacher named John Smith in 1913 England, storing his Time Lord essence in a fob watch. But as he falls in love, he forgets his true identity, leaving Martha to protect him alone.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_human_nature.jpg?v=67fe08ea",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_human_nature.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_human_nature.mp4?v=fa6056f6",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_human_nature.srt?v=3749a343"
 },
 {
@@ -464,7 +464,7 @@ imdb: { id: "tt0436992", season: 3, episode: 9 },
 released: new Date("2007-06-02").toISOString(),
 overview: "The relentless Family of Blood has cornered John Smith and Martha, demanding he become the Doctor again. As war breaks out at the school, John must confront the terrible choice between his human life and his Time Lord destiny.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_the_family_of_blood.jpg?v=4aa32d4c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_the_family_of_blood.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_the_family_of_blood.mp4?v=7a007582",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_the_family_of_blood.srt?v=74e9c730"
 },
 {
@@ -476,7 +476,7 @@ imdb: { id: "tt0436992", season: 3, episode: 10 },
 released: new Date("2007-06-09").toISOString(),
 overview: "In 2007, Sally Sparrow finds cryptic messages from a man called the Doctor, whom she's never met. She must unravel the mystery of the Weeping Angels, terrifying statues that move only when no one is looking, to save the world and the Doctor himself.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_blink.jpg?v=52c852c7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_blink.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_blink.mp4?v=eacb894e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_blink.srt?v=54250331"
 },
 {
@@ -488,7 +488,7 @@ imdb: { id: "tt0436992", season: 3, episode: 11 },
 released: new Date("2007-06-16").toISOString(),
 overview: "The TARDIS is forced to the end of the universe, where the last remnants of humanity struggle to reach a fabled paradise called Utopia. Reunited with Captain Jack Harkness, the Doctor uncovers a chilling secret: he is not the only Time Lord left.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_utopia.jpg?v=5e7debce",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_utopia.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_utopia.mp4?v=2b3414d4",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_utopia.srt?v=91963bf0"
 },
 {
@@ -500,7 +500,7 @@ imdb: { id: "tt0436992", season: 3, episode: 12 },
 released: new Date("2007-06-23").toISOString(),
 overview: "The Master has become the Prime Minister of Great Britain and brands the Doctor a wanted man. As the Doctor, Martha, and Jack become fugitives, they must uncover the Master's sinister plan for the human race and the mysterious Toclafane.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_the_sound_of_drums.jpg?v=3f620836",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_the_sound_of_drums.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_the_sound_of_drums.mp4?v=68c631a2",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_the_sound_of_drums.srt?v=c9e38697"
 },
 {
@@ -512,7 +512,7 @@ imdb: { id: "tt0436992", season: 3, episode: 13 },
 released: new Date("2007-06-30").toISOString(),
 overview: "A year after the Master conquered Earth, an aged and captive Doctor is helpless. It falls to Martha Jones, who has travelled the world spreading a legend, to unite humanity and defeat the Master's terrifying reign.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_last_of_the_time_lords.jpg?v=77c67f85",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_last_of_the_time_lords.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_last_of_the_time_lords.mp4?v=cf9b477d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_last_of_the_time_lords.srt?v=087c1341"
 },
 {
@@ -524,7 +524,7 @@ imdb: { id: "tt0436992", season: 0, episode: 6 },
 released: new Date("2007-11-16").toISOString(),
 overview: "Worlds collide when the Tenth Doctor's TARDIS inexplicably merges with the Fifth Doctor's. The two incarnations must work together to prevent a temporal paradox from creating a black hole the size of Belgium.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_time_crash_minisode.jpg?v=7ce8978a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_time_crash_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_time_crash_minisode.mp4?v=f4b6f6c1",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_time_crash_minisode.srt?v=20cf879e"
 },
 {
@@ -536,7 +536,7 @@ imdb: { id: "tt0436992", season: 0, episode: 7 },
 released: new Date("2007-12-25").toISOString(),
 overview: "A luxurious space-liner replica of the Titanic is on a collision course with Earth. The Doctor must team up with a waitress named Astrid Peth to save the passengers from killer robotic angels and stop the ship from causing planetary annihilation.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_voyage_of_the_damned_special.jpg?v=809900d6",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_voyage_of_the_damned_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_voyage_of_the_damned_special.mp4?v=65e8b997",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_voyage_of_the_damned_special.srt?v=bdc68fb4"
 },
 {
@@ -548,7 +548,7 @@ imdb: { id: "tt0436992", season: 4, episode: 1 },
 released: new Date("2008-04-05").toISOString(),
 overview: "Investigating a revolutionary weight-loss pill, the Doctor is reunited with Donna Noble, who is conducting her own inquiry into Adipose Industries. Together, they must stop a scheme that turns human fat into adorable, but potentially dangerous, alien creatures.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.jpg?v=dcc1b094",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.mp4?v=b7ce73de",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.srt?v=3d909564"
 },
 {
@@ -560,7 +560,7 @@ imdb: { id: "tt0436992", season: 4, episode: 2 },
 released: new Date("2008-04-12").toISOString(),
 overview: "The Doctor and Donna land in Pompeii on the eve of the eruption of Mount Vesuvius, a fixed point in time. They discover that the volcano's power is being harnessed by stony aliens, forcing the Doctor to decide whether to save the city or let history run its course.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.jpg?v=a7a7140d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.mp4?v=42ed5ae1",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.srt?v=bbcdda9d"
 },
 {
@@ -572,7 +572,7 @@ imdb: { id: "tt0436992", season: 4, episode: 3 },
 released: new Date("2008-04-19").toISOString(),
 overview: "The Doctor and Donna travel to the Ood-Sphere, the home planet of the seemingly docile Ood. They uncover the horrific truth behind the Ood's servitude to humanity and must fight to liberate the species from corporate enslavement.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E03_planet_of_the_ood.jpg?v=2d271bcf",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E03_planet_of_the_ood.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E03_planet_of_the_ood.mp4?v=d0b40d06",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E03_planet_of_the_ood.srt?v=f6a4a3ff"
 },
 {
@@ -584,7 +584,7 @@ imdb: { id: "tt0436992", season: 4, episode: 4 },
 released: new Date("2008-04-26").toISOString(),
 overview: "Martha Jones, now a UNIT officer, summons the Doctor back to Earth to investigate a new technology called ATMOS that is installed in cars worldwide. They discover it is a plot by the warlike Sontarans to choke the planet with poison gas.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_the_sontaran_stratagem.jpg?v=8430f8fb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_the_sontaran_stratagem.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_the_sontaran_stratagem.mp4?v=986906a2",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_the_sontaran_stratagem.srt?v=1bb9215a"
 },
 {
@@ -596,7 +596,7 @@ imdb: { id: "tt0436992", season: 4, episode: 5 },
 released: new Date("2008-05-03").toISOString(),
 overview: "As the Sontarans' poison gas fills the atmosphere, the Doctor and UNIT must find a way to clear the sky and repel the invasion. With a traitor in their midst and the Sontaran fleet descending, the Doctor must make a dangerous gamble.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_poison_sky.jpg?v=c7729ee9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_poison_sky.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_poison_sky.mp4?v=330e6e34",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_poison_sky.srt?v=f512affc"
 },
 {
@@ -608,7 +608,7 @@ imdb: { id: "tt0436992", season: 4, episode: 6 },
 released: new Date("2008-05-10").toISOString(),
 overview: "On the planet Messaline, a cloning machine instantly creates a soldier from the Doctor's DNA: his daughter, Jenny. Thrown into a brutal war between humans and the fish-like Hath, the Doctor must come to terms with his unexpected fatherhood.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_doctors_daughter.jpg?v=65263f25",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_doctors_daughter.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_doctors_daughter.mp4?v=06af3435",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_doctors_daughter.srt?v=6cb6d9f9"
 },
 {
@@ -620,7 +620,7 @@ imdb: { id: "tt0436992", season: 4, episode: 7 },
 released: new Date("2008-05-17").toISOString(),
 overview: "In 1926, the Doctor and Donna join a dinner party with famed mystery author Agatha Christie. When a murder occurs, they find themselves in a real-life whodunnit involving a jewel thief, a mysterious vicar, and a giant alien wasp.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_unicorn_and_the_wasp.jpg?v=bb872c39",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_unicorn_and_the_wasp.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_unicorn_and_the_wasp.mp4?v=ddd5f59c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_unicorn_and_the_wasp.srt?v=a933462a"
 },
 {
@@ -632,7 +632,7 @@ imdb: { id: "tt0436992", season: 4, episode: 8 },
 released: new Date("2008-05-31").toISOString(),
 overview: "The Doctor and Donna arrive at The Library, a planet-sized database, only to find it deserted. They soon encounter a team of archaeologists led by the enigmatic River Song, a woman who knows the Doctor's future, and face a deadly, flesh-eating shadow.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_silence_in_the_library.jpg?v=098a6c4a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_silence_in_the_library.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_silence_in_the_library.mp4?v=53a01f09",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_silence_in_the_library.srt?v=277d1c33"
 },
 {
@@ -644,7 +644,7 @@ imdb: { id: "tt0436992", season: 4, episode: 9 },
 released: new Date("2008-06-07").toISOString(),
 overview: "As the Vashta Nerada shadows close in, the Doctor races to save the archaeological team. Meanwhile, Donna finds herself trapped in a bizarre simulated reality, and the Doctor must come to terms with his tragic future with River Song.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_forest_of_the_dead.jpg?v=930f3c1e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_forest_of_the_dead.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_forest_of_the_dead.mp4?v=13a97df0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_forest_of_the_dead.srt?v=5e084030"
 },
 {
@@ -656,7 +656,7 @@ imdb: { id: "tt0436992", season: 4, episode: 10 },
 released: new Date("2008-06-14").toISOString(),
 overview: "While on a leisure cruise on the diamond planet Midnight, the Doctor is trapped with a group of terrified tourists. An unseen creature from outside begins to knock, and as paranoia sets in, the greatest threat may come from within.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_midnight.jpg?v=98dc3562",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_midnight.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_midnight.mp4?v=6a91c525",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_midnight.srt?v=cf3c5d14"
 },
 {
@@ -668,7 +668,7 @@ imdb: { id: "tt0436992", season: 4, episode: 11 },
 released: new Date("2008-06-21").toISOString(),
 overview: "A single decision in Donna's past creates a dark, alternate timeline where she never met the Doctor. As Earth spirals into chaos, a familiar face from a parallel world arrives to show Donna the importance of her journey and help set things right.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_turn_left.jpg?v=79249243",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_turn_left.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_turn_left.mp4?v=b86b7d7a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_turn_left.srt?v=f2579168"
 },
 {
@@ -680,7 +680,7 @@ imdb: { id: "tt0436992", season: 4, episode: 12 },
 released: new Date("2008-06-28").toISOString(),
 overview: "Earth and 26 other planets have vanished from the universe, and the Doctor's past companions must unite to fight back. As the Doctor and Donna race to find the missing Earth, they discover it is at the heart of Davros' new Dalek empire.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_the_stolen_earth.jpg?v=bf6a21b2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_the_stolen_earth.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_the_stolen_earth.mp4?v=a33f47bd",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_the_stolen_earth.srt?v=b5e6677b"
 },
 {
@@ -692,7 +692,7 @@ imdb: { id: "tt0436992", season: 4, episode: 13 },
 released: new Date("2008-07-05").toISOString(),
 overview: "As Davros prepares to detonate a reality bomb that will destroy all of existence, the Doctor and his companions converge for a final battle. With sacrifices and prophecies coming to pass, the universe's fate rests on their shoulders.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_journeys_end.jpg?v=7ce13bc8",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_journeys_end.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_journeys_end.mp4?v=c2becbd1",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_journeys_end.srt?v=523eb0b7"
 },
 {
@@ -703,7 +703,7 @@ type: "Minisode",
 released: new Date("2008-07-27").toISOString(),
 overview: "The Doctor attempts to compose his 'Ode to the Universe' inside the TARDIS, only to be interrupted by a mischievous Graske. Their antics are broadcast live to the audience at the Doctor Who Proms, bridging the gap between fiction and reality.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_music_of_the_spheres_minisode.jpg?v=2c7940bd",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_music_of_the_spheres_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_music_of_the_spheres_minisode.mp4?v=533dc5a4",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_music_of_the_spheres_minisode.srt?v=cc2ed257"
 },
 {
@@ -715,7 +715,7 @@ imdb: { id: "tt0436992", season: 0, episode: 9 },
 released: new Date("2008-12-25").toISOString(),
 overview: "Arriving in Victorian London on Christmas Eve, the Doctor is shocked to meet another man who claims to be 'the Doctor'. Together, they must investigate a series of mysterious deaths and stop a Cyberman plot to raise a new army.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_the_next_doctor_special.jpg?v=720f9485",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_the_next_doctor_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_the_next_doctor_special.mp4?v=48c2551c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_the_next_doctor_special.srt?v=114fda28"
 },
 {
@@ -727,7 +727,7 @@ imdb: { id: "tt0436992", season: 0, episode: 13 },
 released: new Date("2009-04-11").toISOString(),
 overview: "When a London double-decker bus is transported to a desert planet, the Doctor and a mysterious cat burglar, Lady Christina de Souza, must lead the surviving passengers to safety. They discover the planet is being consumed by a swarm of metallic aliens.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E16_planet_of_the_dead_special.jpg?v=6d33db7b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E16_planet_of_the_dead_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E16_planet_of_the_dead_special.mp4?v=a7b01a76",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E16_planet_of_the_dead_special.srt?v=212f51ab"
 },
 {
@@ -739,7 +739,7 @@ imdb: { id: "tt0436992", season: 0, episode: 14 },
 released: new Date("2009-11-15").toISOString(),
 overview: "On Mars, the Doctor encounters the first human colony, whose members are being infected by a sentient water virus. He faces a terrible dilemma: obey the laws of time and let the crew die, or break the rules and change a fixed point in history.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E17_the_waters_of_mars_special.jpg?v=f94608cf",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E17_the_waters_of_mars_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E17_the_waters_of_mars_special.mp4?v=d0eb03f4",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E17_the_waters_of_mars_special.srt?v=77210d1f"
 },
 {
@@ -751,7 +751,7 @@ imdb: { id: "tt0436992", season: 0, episode: 15 },
 released: new Date("2009-11-21").toISOString(),
 overview: "In this animated adventure, the Doctor lands in the Nevada desert in 1958 and uncovers a sinister alien conspiracy at the infamous Area 51. He must team up with two local diner workers to stop the Men in Black and their reptilian masters.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_dreamland_animated_series.jpg?v=6c614acc",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_dreamland_animated_series.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_dreamland_animated_series.mp4?v=a956f1b0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_dreamland_animated_series.srt?v=827f75ff"
 },
 {
@@ -763,7 +763,7 @@ imdb: { id: "tt0436992", season: 0, episode: 16 },
 released: new Date("2009-12-25").toISOString(),
 overview: "As a prophecy foretells his death, the Doctor learns that his old nemesis, the Master, has been resurrected. With the help of Donna's grandfather, Wilf, he must confront his returning foe and the even greater threat of the Time Lords themselves.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E19_the_end_of_time_part_one_special.jpg?v=820bb140",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E19_the_end_of_time_part_one_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E19_the_end_of_time_part_one_special.mp4?v=5e3b0b63",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E19_the_end_of_time_part_one_special.srt?v=8aa749d2"
 },
 {
@@ -775,7 +775,7 @@ imdb: { id: "tt0436992", season: 0, episode: 17 },
 released: new Date("2010-01-01").toISOString(),
 overview: "With the Master's plan revealed and the Time Lords returning from the Time War, the Doctor faces his final battle. To save his friends and the universe, he must make the ultimate sacrifice, leading to a spectacular and emotional regeneration.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E20_the_end_of_time_part_two_special.jpg?v=30dd97c3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E20_the_end_of_time_part_two_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E20_the_end_of_time_part_two_special.mp4?v=ff5ee886",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E20_the_end_of_time_part_two_special.srt?v=f6172ff1"
 },
 {
@@ -787,7 +787,7 @@ imdb: { id: "tt0436992", season: 5, episode: 1 },
 released: new Date("2010-04-03").toISOString(),
 overview: "A newly regenerated Doctor crashes his TARDIS in the garden of a young Amelia Pond. Years later, he returns to find a grown-up Amy, and together they must stop an alien fugitive from destroying Earth in just twenty minutes.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E01_the_eleventh_hour.jpg?v=15036356",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E01_the_eleventh_hour.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E01_the_eleventh_hour.mp4?v=d6a644f5",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E01_the_eleventh_hour.srt?v=c76faffb"
 },
 {
@@ -799,7 +799,7 @@ imdb: { id: "tt0436992", season: 0, episode: 67 },
 released: new Date("2010-04-04").toISOString(),
 overview: "On her very first trip in the TARDIS, Amy Pond grills the Doctor about his past, his alien nature, and why his time machine looks like a police box. As he explains, he opens the doors to reveal the wonders and dangers of outer space.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E02_meanwhile_in_the_tardis_1_minisode.jpg?v=45b3b48b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E02_meanwhile_in_the_tardis_1_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E02_meanwhile_in_the_tardis_1_minisode.mp4?v=a6bea51e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E02_meanwhile_in_the_tardis_1_minisode.srt?v=663697cf"
 },
 {
@@ -811,7 +811,7 @@ imdb: { id: "tt0436992", season: 5, episode: 2 },
 released: new Date("2010-04-10").toISOString(),
 overview: "The Doctor takes Amy to Starship UK, a massive spacecraft carrying the last of the British people. They discover a dark secret at the heart of the ship: the entire civilisation is built on the suffering of a gentle, ancient creature.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E03_the_beast_below.jpg?v=651366e3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E03_the_beast_below.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E03_the_beast_below.mp4?v=94bf4c03",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E03_the_beast_below.srt?v=f5c6bd80"
 },
 {
@@ -823,7 +823,7 @@ imdb: { id: "tt0436992", season: 5, episode: 3 },
 released: new Date("2010-04-17").toISOString(),
 overview: "The Doctor and Amy arrive in London during World War II, where Winston Churchill has a new secret weapon: the Daleks. The Doctor must convince Churchill of the Daleks' true nature before they unleash their new, more powerful paradigm.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E04_victory_of_the_daleks.jpg?v=771a6e3d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E04_victory_of_the_daleks.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E04_victory_of_the_daleks.mp4?v=11f1248e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E04_victory_of_the_daleks.srt?v=7b7f7998"
 },
 {
@@ -835,7 +835,7 @@ imdb: { id: "tt0436992", season: 5, episode: 4 },
 released: new Date("2010-04-24").toISOString(),
 overview: "A message from River Song summons the Doctor and Amy to the crashed starship Byzantium, where an army of Weeping Angels is awakening. With the help of Father Octavian and his military clerics, they must navigate a deadly maze of statues.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E05_the_time_of_angels.jpg?v=49449a91",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E05_the_time_of_angels.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E05_the_time_of_angels.mp4?v=834c1421",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E05_the_time_of_angels.srt?v=b16b5c94"
 },
 {
@@ -847,7 +847,7 @@ imdb: { id: "tt0436992", season: 5, episode: 5 },
 released: new Date("2010-05-01").toISOString(),
 overview: "Trapped in the forest of the Byzantium, the Doctor must outwit the relentless Weeping Angels. As a crack in time threatens to erase them from existence, Amy discovers that looking at an Angel is not the only danger they pose.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E06_flesh_and_stone.jpg?v=ae3dc09e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E06_flesh_and_stone.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E06_flesh_and_stone.mp4?v=686a1f8d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E06_flesh_and_stone.srt?v=13506d4d"
 },
 {
@@ -859,7 +859,7 @@ imdb: { id: "tt0436992", season: 0, episode: 68 },
 released: new Date("2010-05-02").toISOString(),
 overview: "As Amy continues her attempts to seduce him, the Doctor explains why he travels with companions, showing her glimpses of his past friends. He then decides it's time to pick up her fiancé, Rory, from his stag party.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E07_meanwhile_in_the_tardis_2_minisode.jpg?v=35104049",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E07_meanwhile_in_the_tardis_2_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E07_meanwhile_in_the_tardis_2_minisode.mp4?v=12b4c33f",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E07_meanwhile_in_the_tardis_2_minisode.srt?v=a9f1a639"
 },
 {
@@ -871,7 +871,7 @@ imdb: { id: "tt0436992", season: 5, episode: 6 },
 released: new Date("2010-05-08").toISOString(),
 overview: "To patch things up with Amy and Rory, the Doctor takes them on a romantic trip to 16th-century Venice. They soon discover the city is under the control of strange, fish-like vampires who are converting young women for a sinister purpose.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E08_the_vampires_of_venice.jpg?v=a57c09f7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E08_the_vampires_of_venice.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E08_the_vampires_of_venice.mp4?v=a1fd5f2a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E08_the_vampires_of_venice.srt?v=31f541b2"
 },
 {
@@ -883,7 +883,7 @@ imdb: { id: "tt0436992", season: 5, episode: 7 },
 released: new Date("2010-05-15").toISOString(),
 overview: "The Doctor, Amy, and Rory are tormented by the mysterious Dream Lord, who forces them to switch between two realities: one in the TARDIS, and one in their future married life. They must figure out which reality is real before one of them kills them.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E09_amys_choice.jpg?v=e7e1fb9b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E09_amys_choice.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E09_amys_choice.mp4?v=786637e4",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E09_amys_choice.srt?v=1a0fb30c"
 },
 {
@@ -895,7 +895,7 @@ imdb: { id: "tt0436992", season: 5, episode: 8 },
 released: new Date("2010-05-22").toISOString(),
 overview: "In a Welsh village in 2020, a drilling operation awakens a sleeping race of reptilian humanoids, the Silurians. As the ground swallows people up, the Doctor must negotiate a fragile peace between two species claiming ownership of the Earth.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E10_the_hungry_earth.jpg?v=7c45272c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E10_the_hungry_earth.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E10_the_hungry_earth.mp4?v=f3a1ac8d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E10_the_hungry_earth.srt?v=52c4683d"
 },
 {
@@ -907,7 +907,7 @@ imdb: { id: "tt0436992", season: 5, episode: 9 },
 released: new Date("2010-05-29").toISOString(),
 overview: "The Silurians have declared war on humanity, and the Doctor is caught in the middle. He must prevent a global conflict while dealing with a familiar crack in time, which leads to a heartbreaking sacrifice for one of his companions.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E11_cold_blood.jpg?v=e06a0983",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E11_cold_blood.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E11_cold_blood.mp4?v=2feded76",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E11_cold_blood.srt?v=8122e123"
 },
 {
@@ -919,7 +919,7 @@ imdb: { id: "tt0436992", season: 0, episode: 56 },
 released: new Date("2010-05-30").toISOString(),
 overview: "The Doctor's plans for a quiet moment are interrupted when the TARDIS materialises in the path of the Olympic Torch. Aided by a school athletics team, he must outsmart a determined Weeping Angel intent on stealing the historic flame.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E12_good_as_gold_minisode.jpg?v=6dc4b695",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E12_good_as_gold_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E12_good_as_gold_minisode.mp4?v=b8665e12",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E12_good_as_gold_minisode.srt?v=44ac9c29"
 },
 {
@@ -931,7 +931,7 @@ imdb: { id: "tt0436992", season: 5, episode: 10 },
 released: new Date("2010-06-05").toISOString(),
 overview: "The Doctor and Amy travel to Provence to meet Vincent van Gogh, hoping to find an alien creature hidden in his paintings. They join the troubled artist in his battle against a monster that only he can see, and against his own inner demons.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_vincent_and_the_doctor.jpg?v=43c81228",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_vincent_and_the_doctor.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_vincent_and_the_doctor.mp4?v=b14fe56d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_vincent_and_the_doctor.srt?v=cd994cd2"
 },
 {
@@ -943,7 +943,7 @@ imdb: { id: "tt0436992", season: 5, episode: 11 },
 released: new Date("2010-06-12").toISOString(),
 overview: "Separated from the TARDIS by a temporal anomaly, the Doctor must move in with a man named Craig and attempt to live a normal human life. He soon discovers a sinister force lurking in the flat upstairs, luring people to their doom.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E14_the_lodger.jpg?v=206df1f9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E14_the_lodger.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E14_the_lodger.mp4?v=66bd9fe0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E14_the_lodger.srt?v=99a091e7"
 },
 {
@@ -955,7 +955,7 @@ imdb: { id: "tt0436992", season: 5, episode: 12 },
 released: new Date("2010-06-19").toISOString(),
 overview: "The Doctor's enemies, including Daleks, Cybermen, and Sontarans, form an alliance to trap him in the Pandorica, a legendary prison. As they converge on Stonehenge, the Doctor must unravel a plot that threatens all of reality.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E15_the_pandorica_opens.jpg?v=f71de576",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E15_the_pandorica_opens.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E15_the_pandorica_opens.mp4?v=f6b64ef8",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E15_the_pandorica_opens.srt?v=be179501"
 },
 {
@@ -967,7 +967,7 @@ imdb: { id: "tt0436992", season: 5, episode: 13 },
 released: new Date("2010-06-26").toISOString(),
 overview: "With the Doctor trapped in the Pandorica and the universe collapsing, a young Amelia Pond and a Roman Centurion must help restart reality. The Doctor races through time to close the cracks, leading to a wedding and a final, cryptic warning.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E16_the_big_bang.jpg?v=c381c6a0",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E16_the_big_bang.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E16_the_big_bang.mp4?v=4fb864c9",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E16_the_big_bang.srt?v=47020135"
 },
 {
@@ -979,7 +979,7 @@ imdb: { id: "tt0436992", season: 0, episode: 38 },
 released: new Date("2010-06-27").toISOString(),
 overview: "While experimenting with a fez once owned by Albert Einstein, the Doctor is interrupted by the scientist himself, who materialises from a strange goo. Einstein reveals a sinister plan involving a species called the Ogrons, forcing a bizarre confrontation.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E17_death_is_the_only_answer_minisode.jpg?v=63d94fbd",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E17_death_is_the_only_answer_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E17_death_is_the_only_answer_minisode.mp4?v=9b7c036f",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E17_death_is_the_only_answer_minisode.srt?v=fd18a413"
 },
 {
@@ -991,7 +991,7 @@ imdb: { id: "tt0436992", season: 0, episode: 34 },
 released: new Date("2010-12-25").toISOString(),
 overview: "To save Amy and Rory from a crashing star-liner, the Doctor must convince a bitter old miser to change his ways. He uses the TARDIS to travel through the man's past, present, and future, but discovers a dark secret lurking in the Christmas fog.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E18_a_christmas_carol_special.jpg?v=fd6be33d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E18_a_christmas_carol_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E18_a_christmas_carol_special.mp4?v=9cb8df34",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E18_a_christmas_carol_special.srt?v=05853c06"
 },
 {
@@ -1003,7 +1003,7 @@ imdb: { id: "tt0436992", season: 0, episode: 35 },
 released: new Date("2011-03-18").toISOString(),
 overview: "A simple moment in the TARDIS goes awry when a 'spatial loop' causes the exterior shell to materialise inside the console room. This leads to a confusing encounter between Amy and a future version of herself, setting up a timey-wimey paradox.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E01_space_minisode.jpg?v=ec5c16b9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E01_space_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E01_space_minisode.mp4?v=a4129337",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E01_space_minisode.srt?v=d410dc56"
 },
 {
@@ -1015,7 +1015,7 @@ imdb: { id: "tt0436992", season: 0, episode: 36 },
 released: new Date("2011-03-18").toISOString(),
 overview: "Continuing from 'Space', the TARDIS crew, now with two Amys, must resolve their paradoxical predicament. As the Doctor tries to reboot the system, they must work together to prevent the TARDIS from collapsing in on itself.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E02_time_minisode.jpg?v=24a8b9c3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E02_time_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E02_time_minisode.mp4?v=41c224f5",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E02_time_minisode.srt?v=7c4602c3"
 },
 {
@@ -1026,7 +1026,7 @@ type: "Prequel",
 released: new Date("2011-03-22").toISOString(),
 overview: "President Nixon receives a mysterious phone call from a terrified little girl, setting the stage for the Doctor's arrival. This brief prequel shows the strange events in the Oval Office that lead to the Doctor being summoned to America.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E03_the_impossible_astronaut_prequel.jpg?v=510db0d7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E03_the_impossible_astronaut_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E03_the_impossible_astronaut_prequel.mp4?v=d5da3916",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E03_the_impossible_astronaut_prequel.srt?v=d13d6a0c"
 },
 {
@@ -1038,7 +1038,7 @@ imdb: { id: "tt0436992", season: 6, episode: 1 },
 released: new Date("2011-04-23").toISOString(),
 overview: "The Doctor, Amy, Rory, and River Song are summoned to the Utah desert, where they witness a shocking event that must not be changed. Their investigation leads them to 1969 and a terrifying new enemy, the Silence, who are forgotten the moment they are unseen.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut.jpg?v=7d54f167",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut.mp4?v=c4049de0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut.srt?v=c04f231e"
 },
 {
@@ -1050,7 +1050,7 @@ imdb: { id: "tt0436992", season: 6, episode: 2 },
 released: new Date("2011-04-30").toISOString(),
 overview: "With the Doctor imprisoned, Amy, Rory, and River must uncover the truth about the Silence and their control over humanity. They mount a rebellion that culminates during the Apollo 11 moon landing, forcing them to make a terrible choice.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E05_day_of_the_moon.jpg?v=7d48dc08",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E05_day_of_the_moon.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E05_day_of_the_moon.mp4?v=c1125a8d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E05_day_of_the_moon.srt?v=45cbed8f"
 },
 {
@@ -1061,7 +1061,7 @@ type: "Prequel",
 released: new Date("2011-04-30").toISOString(),
 overview: "Aboard a 17th-century pirate ship, the TARDIS scanner reveals a terrifying sea-siren. This short scene sets up the mystery as Captain Avery's ship is becalmed and his crew begins to vanish one by one.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E06_the_curse_of_the_black_spot_prequel.jpg?v=5da32be8",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E06_the_curse_of_the_black_spot_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E06_the_curse_of_the_black_spot_prequel.mp4?v=b3172baa",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E06_the_curse_of_the_black_spot_prequel.srt?v=0ea70791"
 },
 {
@@ -1073,7 +1073,7 @@ imdb: { id: "tt0436992", season: 6, episode: 3 },
 released: new Date("2011-05-07").toISOString(),
 overview: "The TARDIS lands on a pirate ship in the 17th century, where the crew is being marked for death by a mysterious siren. The Doctor, Amy, and Rory must uncover the siren's true nature before they all fall victim to her song.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot.jpg?v=eabfc5b8",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot.mp4?v=46b2cb0d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot.srt?v=2eebc434"
 },
 {
@@ -1085,7 +1085,7 @@ imdb: { id: "tt0436992", season: 0, episode: 51 },
 released: new Date("2011-05-08").toISOString(),
 overview: "Amy is awoken by a frantic Doctor, who needs her help dealing with a time-travelling goldfish, a misunderstanding with British royalty, and a housefly that might alter the course of history, all while Rory sleeps through the chaos.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E08_bad_night_minisode.jpg?v=ea6766b9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E08_bad_night_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E08_bad_night_minisode.mp4?v=844e8c9b",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E08_bad_night_minisode.srt?v=15c71c7d"
 },
 {
@@ -1097,7 +1097,7 @@ imdb: { id: "tt0436992", season: 6, episode: 4 },
 released: new Date("2011-05-14").toISOString(),
 overview: "A Time Lord distress signal lures the Doctor to a junkyard asteroid outside the universe. There, the TARDIS's matrix is placed into a human body, allowing the Doctor to talk to his ship for the first time, but at a terrible cost.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E09_the_doctors_wife.jpg?v=a7ac874b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E09_the_doctors_wife.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E09_the_doctors_wife.mp4?v=7e4f9528",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E09_the_doctors_wife.srt?v=a2c8912b"
 },
 {
@@ -1109,7 +1109,7 @@ imdb: { id: "tt0436992", season: 0, episode: 52 },
 released: new Date("2011-05-15").toISOString(),
 overview: "Amy ponders how she can remember two different pasts, prompting the Doctor to take her on a trip to visit her younger self. This quiet moment offers a chance for a small act of kindness and a glimpse into the Doctor's own lonely past.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E10_good_night_minisode.jpg?v=8269cff4",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E10_good_night_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E10_good_night_minisode.mp4?v=631e5dd0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E10_good_night_minisode.srt?v=abb3817b"
 },
 {
@@ -1121,7 +1121,7 @@ imdb: { id: "tt0436992", season: 6, episode: 5 },
 released: new Date("2011-05-21").toISOString(),
 overview: "The Doctor, Amy, and Rory land in a 22nd-century factory where workers use flesh avatars called Gangers to handle dangerous acid. When a solar tsunami hits, the Gangers gain independence and declare war on their human counterparts.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E11_the_rebel_flesh.jpg?v=3a4df09a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E11_the_rebel_flesh.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E11_the_rebel_flesh.mp4?v=28ec7b25",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E11_the_rebel_flesh.srt?v=2663ce1c"
 },
 {
@@ -1133,7 +1133,7 @@ imdb: { id: "tt0436992", season: 6, episode: 6 },
 released: new Date("2011-05-28").toISOString(),
 overview: "As the battle between humans and their Ganger duplicates rages on, the Doctor must convince both sides to find a peaceful solution. The situation becomes more complex when a Ganger version of the Doctor is created, leading to a shocking revelation about Amy.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E12_the_almost_people.jpg?v=b0ed3ee5",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E12_the_almost_people.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E12_the_almost_people.mp4?v=4e65f21a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E12_the_almost_people.srt?v=ebd48808"
 },
 {
@@ -1144,7 +1144,7 @@ type: "Prequel",
 released: new Date("2011-05-28").toISOString(),
 overview: "Dorium Maldovar tries to warn the Doctor against raising an army to rescue Amy Pond from Demon's Run. Despite the warnings, the Doctor prepares to call in every favour he's owed across time and space for a climactic battle.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E13_a_good_man_goes_to_war_prequel.jpg?v=36e58832",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E13_a_good_man_goes_to_war_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E13_a_good_man_goes_to_war_prequel.mp4?v=7b77713c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E13_a_good_man_goes_to_war_prequel.srt?v=a30af434"
 },
 {
@@ -1156,7 +1156,7 @@ imdb: { id: "tt0436992", season: 6, episode: 7 },
 released: new Date("2011-06-04").toISOString(),
 overview: "The Doctor assembles an army of allies to storm the asteroid fortress Demon's Run and rescue Amy and her newborn child, Melody. The battle reveals the Doctor's darker side and uncovers a devastating secret about River Song's true identity.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war.jpg?v=3c675820",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war.mp4?v=a7d5dd0c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war.srt?v=48af59a9"
 },
 {
@@ -1167,7 +1167,7 @@ type: "Prequel",
 released: new Date("2011-08-15").toISOString(),
 overview: "Amy leaves a message for her childhood friend Mels, wondering where she is and why she hasn't responded. This short prequel sets the stage for the search for Melody Pond, teasing the arrival of a character who will change everything.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E15_lets_kill_hitler_prequel.jpg?v=f0ff9aed",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E15_lets_kill_hitler_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E15_lets_kill_hitler_prequel.mp4?v=fb0ad1c7",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E15_lets_kill_hitler_prequel.srt?v=0bb10024"
 },
 {
@@ -1179,7 +1179,7 @@ imdb: { id: "tt0436992", season: 6, episode: 8 },
 released: new Date("2011-08-27").toISOString(),
 overview: "Amy and Rory's search for Melody leads them to 1930s Berlin, where they crash a dinner party with Adolf Hitler. The situation escalates when they confront a time-travelling justice department and witness Melody Pond's shocking regeneration.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler.jpg?v=af2a9a79",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler.mp4?v=99e669cf",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler.srt?v=f0b615da"
 },
 {
@@ -1191,7 +1191,7 @@ imdb: { id: "tt0436992", season: 6, episode: 9 },
 released: new Date("2011-09-03").toISOString(),
 overview: "The Doctor follows a distress call from a terrified boy named George, whose fears have become reality. Trapped in a dollhouse with creepy peg dolls, the Doctor must uncover the source of George's psychic powers to save everyone.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E17_night_terrors.jpg?v=94466e22",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E17_night_terrors.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E17_night_terrors.mp4?v=a802f1ce",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E17_night_terrors.srt?v=6cb60e25"
 },
 {
@@ -1203,7 +1203,7 @@ imdb: { id: "tt0436992", season: 0, episode: 53 },
 released: new Date("2011-09-04").toISOString(),
 overview: "On the night of her imprisonment, the Doctor arrives to take River Song on a date to the Singing Towers of Darillium. Their plans are complicated when a future version of River shows up, creating a chaotic temporal encounter.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E18_first_night_minisode.jpg?v=2a5012c4",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E18_first_night_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E18_first_night_minisode.mp4?v=3926ee80",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E18_first_night_minisode.srt?v=2c683e24"
 },
 {
@@ -1215,7 +1215,7 @@ imdb: { id: "tt0436992", season: 0, episode: 54 },
 released: new Date("2011-09-04").toISOString(),
 overview: "With no fewer than three River Songs from different times now in the TARDIS, the Doctor must prevent them from meeting to avoid contaminating the timeline. The chaotic situation culminates in a surprisingly poignant moment for River.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E19_last_night_minisode.jpg?v=a6a52b45",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E19_last_night_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E19_last_night_minisode.mp4?v=e1dfcbee",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E19_last_night_minisode.srt?v=33c56c9b"
 },
 {
@@ -1227,7 +1227,7 @@ imdb: { id: "tt0436992", season: 6, episode: 10 },
 released: new Date("2011-09-10").toISOString(),
 overview: "Amy becomes trapped in a quarantine facility where time moves faster, leaving her to fend for herself for decades. The Doctor and Rory must race against time to save her, but they are faced with a bitter, older Amy who refuses to be rescued.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E20_the_girl_who_waited.jpg?v=c2b2ad30",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E20_the_girl_who_waited.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E20_the_girl_who_waited.mp4?v=3ecbebfb",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E20_the_girl_who_waited.srt?v=32d67edb"
 },
 {
@@ -1239,7 +1239,7 @@ imdb: { id: "tt0436992", season: 6, episode: 11 },
 released: new Date("2011-09-17").toISOString(),
 overview: "The TARDIS lands in a strange hotel with shifting corridors, where a minotaur-like creature feeds on the faith of its victims. The Doctor must break his companions' faith in him to save them from becoming the next meal.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E21_the_god_complex.jpg?v=9ea55ed2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E21_the_god_complex.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E21_the_god_complex.mp4?v=287545e5",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E21_the_god_complex.srt?v=b0e1513b"
 },
 {
@@ -1251,7 +1251,7 @@ imdb: { id: "tt0436992", season: 0, episode: 55 },
 released: new Date("2011-09-18").toISOString(),
 overview: "Craig Owens struggles with the anxieties of being a new father, confiding in his baby, Alfie, about his fears. This brief scene provides a glimpse into Craig's life before the Doctor's unexpected return.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E22_up_all_night_minisode.jpg?v=c7475743",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E22_up_all_night_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E22_up_all_night_minisode.mp4?v=69965efd",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E22_up_all_night_minisode.srt?v=6e3dbc56"
 },
 {
@@ -1263,7 +1263,7 @@ imdb: { id: "tt0436992", season: 6, episode: 12 },
 released: new Date("2011-09-24").toISOString(),
 overview: "On a farewell tour before his impending death, the Doctor visits his old friend Craig. He soon discovers a Cyberman infestation in a local department store and must stop their plan to convert humanity, all while babysitting.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E23_closing_time.jpg?v=eed009f7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E23_closing_time.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E23_closing_time.mp4?v=6572fc5d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E23_closing_time.srt?v=df93b5b9"
 },
 {
@@ -1274,7 +1274,7 @@ type: "Prequel",
 released: new Date("2011-09-24").toISOString(),
 overview: "In Area 52, the Silent prisoner known as 'the Doctor' is about to be released by River Song. This short prequel shows the moments leading up to the shocking event at Lake Silencio, as the clock ticks down to 5:02 PM.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E24_the_wedding_of_river_song_prequel.jpg?v=eb1b7766",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E24_the_wedding_of_river_song_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E24_the_wedding_of_river_song_prequel.mp4?v=0fc2a7f3",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E24_the_wedding_of_river_song_prequel.srt?v=3bbdf692"
 },
 {
@@ -1286,7 +1286,7 @@ imdb: { id: "tt0436992", season: 6, episode: 13 },
 released: new Date("2011-10-01").toISOString(),
 overview: "River Song's refusal to kill the Doctor creates an alternate timeline where all of history is happening at once. The Doctor must convince River to correct time, leading to their wedding and a clever plan to cheat his own death.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song.jpg?v=08da078b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song.mp4?v=f7b686cb",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song.srt?v=fa86b884"
 },
 {
@@ -1297,7 +1297,7 @@ type: "Prequel",
 released: new Date("2011-12-06").toISOString(),
 overview: "The Doctor, alone in the TARDIS, holds a red button that could destroy a hostile spaceship. His dilemma over whether to press it leads to a decision that will put him in debt to a family on Earth during Christmas 1941.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E26_the_doctor_the_widow_and_the_wardrobe_prequel.jpg?v=99e00de6",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E26_the_doctor_the_widow_and_the_wardrobe_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E26_the_doctor_the_widow_and_the_wardrobe_prequel.mp4?v=8ee42453",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E26_the_doctor_the_widow_and_the_wardrobe_prequel.srt?v=9a921610"
 },
 {
@@ -1309,7 +1309,7 @@ imdb: { id: "tt0436992", season: 0, episode: 48 },
 released: new Date("2011-12-25").toISOString(),
 overview: "Posing as a caretaker, the Doctor gives a grieving war widow and her two children a magical Christmas gift: a portal to a snowy forest planet. But the idyllic world holds a dangerous secret, and the family is soon caught in a fight for survival.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_special.jpg?v=2c75828b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_special.mp4?v=cec3967f",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_special.srt?v=3e4104c7"
 },
 {
@@ -1320,7 +1320,7 @@ type: "Prequel",
 released: new Date("2012-08-27").toISOString(),
 overview: "A series of voicemails from the Doctor charts his chaotic adventures, from surfing on a solar wave to encountering an Ood in their bathroom. This prequel shows the humorous and sometimes dangerous reality of life for Amy and Rory between TARDIS trips.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E01_pond_life_prequel.jpg?v=6df81365",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E01_pond_life_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E01_pond_life_prequel.mp4?v=311cd613",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E01_pond_life_prequel.srt?v=23cc3659"
 },
 {
@@ -1331,7 +1331,7 @@ type: "Prequel",
 released: new Date("2012-09-01").toISOString(),
 overview: "A hooded messenger journeys through the ruins of Skaro to deliver a cryptic message to the Doctor. The message warns of a coming mission to the most dangerous place in the universe: the Asylum of the Daleks.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E02_asylum_of_the_daleks_prequel.jpg?v=166fd273",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E02_asylum_of_the_daleks_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E02_asylum_of_the_daleks_prequel.mp4?v=fe32c57b",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E02_asylum_of_the_daleks_prequel.srt?v=73d75aaa"
 },
 {
@@ -1343,7 +1343,7 @@ imdb: { id: "tt0436992", season: 7, episode: 1 },
 released: new Date("2012-09-01").toISOString(),
 overview: "Kidnapped by the Daleks, the Doctor, Amy, and Rory are forced to enter the Dalek Asylum, a planet where the most insane and battle-scarred Daleks are imprisoned. There, they meet the enigmatic Oswin Oswald, who may hold the key to their survival.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.jpg?v=a0f0692b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.mp4?v=7dcc6941",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.srt?v=b8343a6f"
 },
 {
@@ -1355,7 +1355,7 @@ imdb: { id: "tt0436992", season: 0, episode: 100 },
 released: new Date("2012-09-02").toISOString(),
 overview: "To erase himself from every database in the universe, the Doctor visits the Inforarium, a place of forbidden knowledge. In this brief adventure, he cleverly deletes all records of his existence, one memory-wiped informant at a time.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E04_the_inforarium_minisode.jpg?v=123a0c3b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E04_the_inforarium_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E04_the_inforarium_minisode.mp4?v=811eec69",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E04_the_inforarium_minisode.srt?v=abb7edbb"
 },
 {
@@ -1367,7 +1367,7 @@ imdb: { id: "tt0436992", season: 7, episode: 2 },
 released: new Date("2012-09-08").toISOString(),
 overview: "The Doctor assembles a gang, including Queen Nefertiti and Rory's dad, to investigate a Silurian spaceship filled with dinosaurs that is on a collision course with Earth. They must stop a ruthless trader from claiming the precious cargo.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E05_dinosaurs_on_a_spaceship.jpg?v=867ec0f1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E05_dinosaurs_on_a_spaceship.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E05_dinosaurs_on_a_spaceship.mp4?v=64a67d24",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E05_dinosaurs_on_a_spaceship.srt?v=1590c44a"
 },
 {
@@ -1379,7 +1379,7 @@ imdb: { id: "tt0436992", season: 0, episode: 70 },
 released: new Date("2012-09-08").toISOString(),
 overview: "This prequel offers a glimpse into the creation of the Gunslinger, the cyborg antagonist from 'A Town Called Mercy'. It shows the reluctant subject being converted into a weapon, setting up his tragic backstory and quest for justice.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E06_the_making_of_the_gunslinger_prequel.jpg?v=bae63809",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E06_the_making_of_the_gunslinger_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E06_the_making_of_the_gunslinger_prequel.mp4?v=10d33af7",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E06_the_making_of_the_gunslinger_prequel.srt?v=1cd33d82"
 },
 {
@@ -1391,7 +1391,7 @@ imdb: { id: "tt0436992", season: 7, episode: 3 },
 released: new Date("2012-09-15").toISOString(),
 overview: "The Doctor becomes the reluctant sheriff of a Wild West town that is being terrorised by a relentless cyborg, the Gunslinger. He discovers the town is protecting a fugitive alien doctor, forcing him to make a difficult moral choice.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E07_a_town_called_mercy.jpg?v=0280357c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E07_a_town_called_mercy.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E07_a_town_called_mercy.mp4?v=1b940195",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E07_a_town_called_mercy.srt?v=1cdbee01"
 },
 {
@@ -1403,7 +1403,7 @@ imdb: { id: "tt0436992", season: 7, episode: 4 },
 released: new Date("2012-09-22").toISOString(),
 overview: "Millions of mysterious black cubes appear overnight across the globe, and the Doctor decides to stay with Amy and Rory to investigate. As humanity adapts to the strange objects, the Doctor uncovers a sinister, slow-burning invasion.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E08_the_power_of_three.jpg?v=8ffa85b6",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E08_the_power_of_three.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E08_the_power_of_three.mp4?v=aed47890",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E08_the_power_of_three.srt?v=af775321"
 },
 {
@@ -1415,7 +1415,7 @@ imdb: { id: "tt0436992", season: 7, episode: 5 },
 released: new Date("2012-09-29").toISOString(),
 overview: "The Weeping Angels have taken over New York City, creating a temporal farm that traps their victims in the past. When Rory becomes their next victim, the Doctor and Amy must face a heartbreaking paradox to save him, leading to a final, tragic farewell.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E09_the_angels_take_manhattan.jpg?v=a4dbd7bb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E09_the_angels_take_manhattan.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E09_the_angels_take_manhattan.mp4?v=3169709e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E09_the_angels_take_manhattan.srt?v=f2cadf62"
 },
 {
@@ -1426,7 +1426,7 @@ type: "Minisode",
 released: new Date("2012-10-12").toISOString(),
 overview: "In this animated storyboard, Rory's father, Brian, receives a final letter from his son, delivered by a man from the past. The letter explains what happened to Amy and Rory and asks him to look after a very special new member of the family.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E10_p.s._minisode.jpg?v=7b5f3b8d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E10_p.s._minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E10_p.s._minisode.mp4?v=d6abce0a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E10_p.s._minisode.srt?v=0333812b"
 },
 {
@@ -1437,7 +1437,7 @@ type: "Prequel",
 released: new Date("2012-12-25").toISOString(),
 overview: "Two days after the battle at Demon's Run, Strax the Sontaran reports to Madame Vastra about his recent adventures. This prequel connects past events to the present as Strax relays his encounters with a 'Great Detective' and a mysterious governess.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E11_the_battle_of_demons_run_two_days_later_prequel.jpg?v=532f4969",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E11_the_battle_of_demons_run_two_days_later_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E11_the_battle_of_demons_run_two_days_later_prequel.mp4?v=74c08f6f",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E11_the_battle_of_demons_run_two_days_later_prequel.srt?v=f59ca1ad"
 },
 {
@@ -1448,7 +1448,7 @@ type: "Prequel",
 released: new Date("2012-12-25").toISOString(),
 overview: "In Victorian London, the Paternoster Gang, Vastra, Jenny, and Strax, discuss the Doctor's recent reclusive behaviour. Their conversation reveals that the Doctor has withdrawn from the universe, setting the stage for his reluctant return to action.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E12_the_great_detective_prequel.jpg?v=6b0e0575",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E12_the_great_detective_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E12_the_great_detective_prequel.mp4?v=bdf32873",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E12_the_great_detective_prequel.srt?v=afc910e5"
 },
 {
@@ -1459,7 +1459,7 @@ type: "Prequel",
 released: new Date("2012-12-25").toISOString(),
 overview: "Madame Vastra and Jenny investigate a mysterious case involving people whose memories have been wiped. Their investigation leads them to a clue about the Doctor's next adventure and the sinister 'memory worms' at play.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E13_vastra_investigates_prequel.jpg?v=833c1aa0",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E13_vastra_investigates_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E13_vastra_investigates_prequel.mp4?v=d58abb0e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E13_vastra_investigates_prequel.srt?v=f1aa5d04"
 },
 {
@@ -1471,7 +1471,7 @@ imdb: { id: "tt0436992", season: 0, episode: 66 },
 released: new Date("2012-12-25").toISOString(),
 overview: "A grieving, reclusive Doctor is drawn back into action by a curious governess named Clara Oswald. Together, they must stop the Great Intelligence from creating an army of sentient snowmen to take over Victorian London.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E14_the_snowmen_special.jpg?v=16d96f2d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E14_the_snowmen_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E14_the_snowmen_special.mp4?v=bd85cd58",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E14_the_snowmen_special.srt?v=d9e3b3b2"
 },
 {
@@ -1482,7 +1482,7 @@ type: "Prequel",
 released: new Date("2013-03-23").toISOString(),
 overview: "Still searching for Clara Oswald, the Doctor sits on a swing in a playground, where he has a conversation with a little girl. This encounter reminds him of his purpose and sets him on the path to finding the impossible girl once more.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E15_the_bells_of_saint_john_prequel.jpg?v=2088505b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E15_the_bells_of_saint_john_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E15_the_bells_of_saint_john_prequel.mp4?v=158ecc99",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E15_the_bells_of_saint_john_prequel.srt?v=ad1deb35"
 },
 {
@@ -1494,7 +1494,7 @@ imdb: { id: "tt0436992", season: 7, episode: 6 },
 released: new Date("2013-03-30").toISOString(),
 overview: "The Doctor finally finds a version of Clara in modern-day London, only to discover she's connected to a sinister plot to upload human minds via WiFi. He must save her from the Great Intelligence before she is deleted forever.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E16_the_bells_of_saint_john.jpg?v=a94aba43",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E16_the_bells_of_saint_john.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E16_the_bells_of_saint_john.mp4?v=6d72e08f",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E16_the_bells_of_saint_john.srt?v=4fe71909"
 },
 {
@@ -1506,7 +1506,7 @@ imdb: { id: "tt0436992", season: 7, episode: 7 },
 released: new Date("2013-04-06").toISOString(),
 overview: "For her first proper trip, Clara asks the Doctor to take her somewhere awesome, so he brings her to the vibrant rings of Akhaten. They must help a young girl face a parasitic old god that feeds on memories and emotions.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_rings_of_akhaten.jpg?v=31a0e424",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_rings_of_akhaten.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_rings_of_akhaten.mp4?v=bde648f1",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_rings_of_akhaten.srt?v=4ac1a75a"
 },
 {
@@ -1518,7 +1518,7 @@ imdb: { id: "tt0436992", season: 0, episode: 99 },
 released: new Date("2013-04-07").toISOString(),
 overview: "In a deleted scene from 'The Rings of Akhaten', the Doctor and River Song find themselves on the planet of the Rain Gods, trying to escape a ritual sacrifice. This short, humorous exchange highlights their chaotic and intertwined relationship.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E18_rain_gods_minisode.jpg?v=52464efe",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E18_rain_gods_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E18_rain_gods_minisode.mp4?v=6ce29694",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E18_rain_gods_minisode.srt?v=d2df36e6"
 },
 {
@@ -1530,7 +1530,7 @@ imdb: { id: "tt0436992", season: 7, episode: 8 },
 released: new Date("2013-04-13").toISOString(),
 overview: "The TARDIS lands on a damaged Russian submarine during the Cold War in 1983. The Doctor and Clara must prevent a revived Ice Warrior from launching nuclear missiles and starting a global catastrophe.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E19_cold_war.jpg?v=a5bf496a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E19_cold_war.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E19_cold_war.mp4?v=8ff225ff",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E19_cold_war.srt?v=c9fa126c"
 },
 {
@@ -1542,7 +1542,7 @@ imdb: { id: "tt0436992", season: 7, episode: 9 },
 released: new Date("2013-04-20").toISOString(),
 overview: "The Doctor and Clara visit a haunted mansion in 1974 to investigate a ghost with a psychic and a ghost hunter. They discover the 'ghost' is actually a stranded time traveller, and they must venture into a dangerous pocket universe to save her.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E20_hide.jpg?v=b4d1863b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E20_hide.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E20_hide.mp4?v=0a276985",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E20_hide.srt?v=7d318f09"
 },
 {
@@ -1554,7 +1554,7 @@ imdb: { id: "tt0436992", season: 7, episode: 10 },
 released: new Date("2013-04-27").toISOString(),
 overview: "When the TARDIS is damaged by a space salvage crew, Clara becomes lost in its infinite corridors. The Doctor must recruit the salvagers to help him find her before the ship's self-destruct sequence activates, all while hiding a dark secret.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E21_journey_to_the_centre_of_the_tardis.jpg?v=2cf53da1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E21_journey_to_the_centre_of_the_tardis.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E21_journey_to_the_centre_of_the_tardis.mp4?v=528b0476",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E21_journey_to_the_centre_of_the_tardis.srt?v=397b5c3a"
 },
 {
@@ -1566,7 +1566,7 @@ imdb: { id: "tt0436992", season: 0, episode: 98 },
 released: new Date("2013-04-28").toISOString(),
 overview: "While alone in the TARDIS, Clara has a conversation with the ship itself, which displays holographic images of past companions and even herself. This minisode explores the TARDIS's consciousness and its apparent distrust of the Doctor's newest friend.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E22_clara_and_the_tardis_minisode.jpg?v=28d92d88",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E22_clara_and_the_tardis_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E22_clara_and_the_tardis_minisode.mp4?v=315201fe",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E22_clara_and_the_tardis_minisode.srt?v=b13a93ca"
 },
 {
@@ -1578,7 +1578,7 @@ imdb: { id: "tt0436992", season: 7, episode: 11 },
 released: new Date("2013-05-04").toISOString(),
 overview: "In 19th-century Yorkshire, the Paternoster Gang investigates a utopian community where bodies are turning up bright red and petrified. They discover the Doctor is a captive of the sinister Mrs Gillyflower and her parasitic 'Mr Sweet'.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E23_the_crimson_horror.jpg?v=b68249f3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E23_the_crimson_horror.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E23_the_crimson_horror.mp4?v=36a08c9e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E23_the_crimson_horror.srt?v=33f5606f"
 },
 {
@@ -1590,7 +1590,7 @@ imdb: { id: "tt0436992", season: 7, episode: 12 },
 released: new Date("2013-05-11").toISOString(),
 overview: "The Doctor and Clara visit an alien theme park, only to find it's the hunting ground for a new, upgraded generation of Cybermen. The Doctor is forced into a deadly game of chess for control of his own mind against the Cyber-Planner.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E24_nightmare_in_silver.jpg?v=52f774ea",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E24_nightmare_in_silver.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E24_nightmare_in_silver.mp4?v=fea4bbca",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E24_nightmare_in_silver.srt?v=e7e5311a"
 },
 {
@@ -1602,7 +1602,7 @@ imdb: { id: "tt0436992", season: 0, episode: 86 },
 released: new Date("2013-05-18").toISOString(),
 overview: "A convicted murderer in prison receives a visit from the faceless Whispermen. They offer him a deal: his freedom in exchange for information about the Doctor's greatest secret: his grave on the planet Trenzalore.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E25_clarence_and_the_whispermen_prequel.jpg?v=748e9275",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E25_clarence_and_the_whispermen_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E25_clarence_and_the_whispermen_prequel.mp4?v=31463b8d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E25_clarence_and_the_whispermen_prequel.srt?v=4a81cc76"
 },
 {
@@ -1614,7 +1614,7 @@ imdb: { id: "tt0436992", season: 0, episode: 85 },
 released: new Date("2013-05-18").toISOString(),
 overview: "In separate monologues, the Doctor and Clara reflect on their relationship and the mystery surrounding the 'impossible girl'. They both know they have a secret, but neither understands the other's, leading them towards a fateful confrontation.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E26_she_said_he_said_prequel.jpg?v=3c1ea9bd",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E26_she_said_he_said_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E26_she_said_he_said_prequel.mp4?v=18b0fe44",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E26_she_said_he_said_prequel.srt?v=fd448773"
 },
 {
@@ -1626,7 +1626,7 @@ imdb: { id: "tt0436992", season: 7, episode: 13 },
 released: new Date("2013-05-18").toISOString(),
 overview: "The Great Intelligence kidnaps the Doctor's friends and lures him to Trenzalore, the site of his future grave. There, his greatest secret is revealed, and Clara must make a devastating sacrifice to save him by entering his own timeline.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E27_the_name_of_the_doctor.jpg?v=a79adeeb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E27_the_name_of_the_doctor.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E27_the_name_of_the_doctor.mp4?v=5dd86fa0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E27_the_name_of_the_doctor.srt?v=200e61d1"
 },
 {
@@ -1638,7 +1638,7 @@ imdb: { id: "tt0436992", season: 0, episode: 82 },
 released: new Date("2013-11-14").toISOString(),
 overview: "On the eve of the Time War, the Eighth Doctor tries to rescue a pilot from a crashing ship but is rejected for being a Time Lord. Mortally wounded, he is given a choice by the Sisterhood of Karn: regenerate into a warrior who can end the war.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E28_the_night_of_the_doctor_minisode.jpg?v=c908ff36",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E28_the_night_of_the_doctor_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E28_the_night_of_the_doctor_minisode.mp4?v=13c76185",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E28_the_night_of_the_doctor_minisode.srt?v=7a532da2"
 },
 {
@@ -1650,7 +1650,7 @@ imdb: { id: "tt0436992", season: 0, episode: 93 },
 released: new Date("2013-11-21").toISOString(),
 overview: "Seen through the eyes of a Gallifreyan soldier on his first day on the front lines of the Time War, this brief but intense prequel shows the fall of the city of Arcadia and the sheer destructive power of the Dalek invasion.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E29_the_last_day_minisode.jpg?v=e40d13e2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E29_the_last_day_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E29_the_last_day_minisode.mp4?v=be630869",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E29_the_last_day_minisode.srt?v=77be6b13"
 },
 {
@@ -1662,7 +1662,7 @@ imdb: { id: "tt0436992", season: 0, episode: 83 },
 released: new Date("2013-11-23").toISOString(),
 overview: "Three incarnations of the Doctor, the Tenth, the Eleventh, and the forgotten War Doctor, converge to stop a Zygon invasion and confront a terrible decision from the Time War. They must unite to rewrite their own history and save Gallifrey.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E30_the_day_of_the_doctor_special.jpg?v=a9d85968",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E30_the_day_of_the_doctor_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E30_the_day_of_the_doctor_special.mp4?v=aea30df6",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E30_the_day_of_the_doctor_special.srt?v=f92cddef"
 },
 {
@@ -1674,7 +1674,7 @@ imdb: { id: "tt0436992", season: 0, episode: 84 },
 released: new Date("2013-12-25").toISOString(),
 overview: "Orbiting a quiet backwater planet, the massed forces of the Doctor's deadliest enemies gather, drawn to a mysterious message that echoes out to the stars. The Doctor must defend the town of Christmas for centuries, leading to his final battle and the end of his eleventh life.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E31_the_time_of_the_doctor_special.jpg?v=ad50d415",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E31_the_time_of_the_doctor_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E31_the_time_of_the_doctor_special.mp4?v=0c7c2df3",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E31_the_time_of_the_doctor_special.srt?v=8a905367"
 },
 {
@@ -1685,7 +1685,7 @@ type: "Prequel",
 released: new Date("2014-08-18").toISOString(),
 overview: "Madame Vastra, Jenny, and Strax discuss the Doctor's unpredictable new regeneration. They express their concern over his erratic behaviour and wonder if this new, more volatile incarnation can be trusted to save the day.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E01_deep_breath_prequel.jpg?v=b3196c91",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E01_deep_breath_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E01_deep_breath_prequel.mp4?v=ae2c2df9",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E01_deep_breath_prequel.srt?v=3027e93c"
 },
 {
@@ -1697,7 +1697,7 @@ imdb: { id: "tt0436992", season: 8, episode: 1 },
 released: new Date("2014-08-23").toISOString(),
 overview: "A newly regenerated, and highly unstable, Doctor arrives in Victorian London with a confused Clara. They must stop a clockwork droid from harvesting human organs, all while Clara grapples with whether this new, older Doctor is still her friend.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_deep_breath.jpg?v=f8df78d2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_deep_breath.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_deep_breath.mp4?v=a7426815",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_deep_breath.srt?v=fb7ff84e"
 },
 {
@@ -1709,7 +1709,7 @@ imdb: { id: "tt0436992", season: 8, episode: 2 },
 released: new Date("2014-08-30").toISOString(),
 overview: "The Doctor and Clara are miniaturised and sent on a mission inside a damaged Dalek that has turned 'good'. As they navigate the deadly interior, the Doctor is forced to confront his own hatred and question whether he is a good man.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E03_into_the_dalek.jpg?v=10861c1b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E03_into_the_dalek.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E03_into_the_dalek.mp4?v=ee888ecb",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E03_into_the_dalek.srt?v=8ca27633"
 },
 {
@@ -1721,7 +1721,7 @@ imdb: { id: "tt0436992", season: 8, episode: 3 },
 released: new Date("2014-09-06").toISOString(),
 overview: "The Doctor and Clara meet Robin Hood in Sherwood Forest, but the Doctor insists the legendary hero is a myth. Their rivalry is put to the test when they uncover a plot by the Sheriff of Nottingham and his robot knights to take over England.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E04_robot_of_sherwood.jpg?v=67fed033",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E04_robot_of_sherwood.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E04_robot_of_sherwood.mp4?v=1ab6fb07",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E04_robot_of_sherwood.srt?v=030a7557"
 },
 {
@@ -1733,7 +1733,7 @@ imdb: { id: "tt0436992", season: 8, episode: 4 },
 released: new Date("2014-09-13").toISOString(),
 overview: "The Doctor becomes obsessed with the idea of a creature that is perfectly evolved to hide. His search takes him and Clara to the end of the universe and into their own pasts, where they confront a fear that has haunted the Doctor his entire life.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E05_listen.jpg?v=326f497a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E05_listen.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E05_listen.mp4?v=95ba958f",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E05_listen.srt?v=7b40dc66"
 },
 {
@@ -1745,7 +1745,7 @@ imdb: { id: "tt0436992", season: 8, episode: 5 },
 released: new Date("2014-09-20").toISOString(),
 overview: "The Doctor and Clara, along with two strangers, wake up with their memories erased, tasked with robbing the most secure bank in the universe. They must outsmart a telepathic security chief and a creature that detects guilt to pull off the ultimate heist.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E06_time_heist.jpg?v=8eb6a0df",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E06_time_heist.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E06_time_heist.mp4?v=f9e36ba8",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E06_time_heist.srt?v=55d6d42f"
 },
 {
@@ -1757,7 +1757,7 @@ imdb: { id: "tt0436992", season: 8, episode: 6 },
 released: new Date("2014-09-27").toISOString(),
 overview: "The Doctor goes undercover as a caretaker at Clara's school to stop a deadly robot, the Skovox Blitzer. His presence complicates Clara's double life, forcing a tense and awkward meeting with her boyfriend, Danny Pink.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E07_the_caretaker.jpg?v=3def6a55",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E07_the_caretaker.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E07_the_caretaker.mp4?v=c6203596",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E07_the_caretaker.srt?v=5a963f2f"
 },
 {
@@ -1769,7 +1769,7 @@ imdb: { id: "tt0436992", season: 8, episode: 7 },
 released: new Date("2014-10-04").toISOString(),
 overview: "The Doctor and Clara join a suicide mission to the Moon, which has suddenly gained mass and is causing catastrophic tides on Earth. They discover the Moon is a giant egg, forcing Clara to make an impossible decision for all of humanity.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E08_kill_the_moon.jpg?v=8462a00a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E08_kill_the_moon.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E08_kill_the_moon.mp4?v=e988a735",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E08_kill_the_moon.srt?v=f7403c8f"
 },
 {
@@ -1781,7 +1781,7 @@ imdb: { id: "tt0436992", season: 8, episode: 8 },
 released: new Date("2014-10-11").toISOString(),
 overview: "On a lavish replica of the Orient Express in space, passengers are being killed by a mummy that only its victims can see. The Doctor must solve the mystery in 66 seconds before he becomes the next target, all while navigating a strained relationship with Clara.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E09_mummy_on_the_orient_express.jpg?v=06b54b38",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E09_mummy_on_the_orient_express.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E09_mummy_on_the_orient_express.mp4?v=4cf66fb5",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E09_mummy_on_the_orient_express.srt?v=e473fe89"
 },
 {
@@ -1793,7 +1793,7 @@ imdb: { id: "tt0436992", season: 8, episode: 9 },
 released: new Date("2014-10-18").toISOString(),
 overview: "When the TARDIS shrinks, the Doctor is trapped inside, leaving Clara to face a new threat from another dimension. She must become the Doctor to stop the two-dimensional creatures, known as the Boneless, from flattening all of humanity.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E10_flatline.jpg?v=12602a9c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E10_flatline.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E10_flatline.mp4?v=07465ee9",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E10_flatline.srt?v=038749f6"
 },
 {
@@ -1805,7 +1805,7 @@ imdb: { id: "tt0436992", season: 8, episode: 10 },
 released: new Date("2014-10-25").toISOString(),
 overview: "The entire world wakes up to find that a massive forest has grown overnight, covering every city and town. The Doctor, Clara, and Danny must unravel the mystery of the sudden woodland invasion while searching for a missing schoolgirl.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E11_in_the_forest_of_the_night.jpg?v=59f49555",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E11_in_the_forest_of_the_night.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E11_in_the_forest_of_the_night.mp4?v=0cc19aff",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E11_in_the_forest_of_the_night.srt?v=d063dd4c"
 },
 {
@@ -1817,7 +1817,7 @@ imdb: { id: "tt0436992", season: 8, episode: 11 },
 released: new Date("2014-11-01").toISOString(),
 overview: "Following a tragic accident, a grieving Clara forces the Doctor to take her to the afterlife. They discover the Nethersphere, a mysterious world where the dead are conscious, and uncover a sinister plot orchestrated by a familiar face: Missy.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E12_dark_water.jpg?v=f26ab04a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E12_dark_water.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E12_dark_water.mp4?v=17a071ca",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E12_dark_water.srt?v=35d45bfa"
 },
 {
@@ -1829,7 +1829,7 @@ imdb: { id: "tt0436992", season: 8, episode: 12 },
 released: new Date("2014-11-08").toISOString(),
 overview: "With Cybermen on the streets of London and Missy revealed as the Master, the Doctor faces his greatest challenge yet. As old friends unite and sacrifices are made, the Doctor must confront two impossible choices in a battle for the soul of humanity.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E13_death_in_heaven.jpg?v=f35a274a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E13_death_in_heaven.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E13_death_in_heaven.mp4?v=777e46da",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E13_death_in_heaven.srt?v=83720f6f"
 },
 {
@@ -1841,7 +1841,7 @@ imdb: { id: "tt0436992", season: 0, episode: 142 },
 released: new Date("2014-12-25").toISOString(),
 overview: "The Doctor and Clara are trapped on an Arctic base with Santa Claus, under attack from terrifying Dream Crabs. They soon realise they are caught in a multi-layered dream, and must find a way to wake up before the creatures consume their minds.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E14_last_christmas_special.jpg?v=5d6a934e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E14_last_christmas_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E14_last_christmas_special.mp4?v=b34673d6",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E14_last_christmas_special.srt?v=601be483"
 },
 {
@@ -1852,7 +1852,7 @@ type: "Prequel",
 released: new Date("2015-09-11").toISOString(),
 overview: "On the planet Karn, the Doctor confides in Ohila of the Sisterhood about a past mistake he must atone for. This brief prologue sets a sombre tone, revealing that the Doctor is preparing to face an old and dangerous acquaintance.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E01_prologue_prequel.jpg?v=90e611c1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E01_prologue_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E01_prologue_prequel.mp4?v=72573d8d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E01_prologue_prequel.srt?v=a09bed26"
 },
 {
@@ -1863,7 +1863,7 @@ type: "Prequel",
 released: new Date("2015-09-15").toISOString(),
 overview: "In medieval times, the Doctor attempts to meditate before facing his 'old friend' Davros, but he's constantly interrupted. This humorous prequel shows his struggle to prepare for a confrontation that could have devastating consequences.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E02_the_doctors_meditation_prequel.jpg?v=4e2d64b0",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E02_the_doctors_meditation_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E02_the_doctors_meditation_prequel.mp4?v=32a7c4de",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E02_the_doctors_meditation_prequel.srt?v=154905ea"
 },
 {
@@ -1875,7 +1875,7 @@ imdb: { id: "tt0436992", season: 9, episode: 1 },
 released: new Date("2015-09-19").toISOString(),
 overview: "When the skies of Earth are frozen by a mysterious alien force, Clara and Missy must team up to find the Doctor. Their search leads them to the planet Skaro, where the Doctor has gone to confront Davros, the creator of the Daleks.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E03_the_magicians_apprentice.jpg?v=55a3364d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E03_the_magicians_apprentice.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E03_the_magicians_apprentice.mp4?v=0c2870f2",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E03_the_magicians_apprentice.srt?v=74b95421"
 },
 {
@@ -1887,7 +1887,7 @@ imdb: { id: "tt0436992", season: 9, episode: 2 },
 released: new Date("2015-09-26").toISOString(),
 overview: "Trapped in the heart of a Dalek city without his TARDIS or sonic screwdriver, the Doctor faces his greatest temptation. He must use his cunning to survive and save Clara, while confronting the dying Davros about the nature of mercy.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E04_the_witchs_familiar.jpg?v=6cb3081a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E04_the_witchs_familiar.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E04_the_witchs_familiar.mp4?v=24b272df",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E04_the_witchs_familiar.srt?v=4adf0f25"
 },
 {
@@ -1899,7 +1899,7 @@ imdb: { id: "tt0436992", season: 9, episode: 3 },
 released: new Date("2015-10-03").toISOString(),
 overview: "The Doctor and Clara arrive at an underwater mining base that is being haunted by ghostly apparitions. They must solve the mystery of an alien craft and its cryptic message before the ghosts can add them to their ranks.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E05_under_the_lake.jpg?v=2767484d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E05_under_the_lake.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E05_under_the_lake.mp4?v=6e642c68",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E05_under_the_lake.srt?v=9713d03d"
 },
 {
@@ -1911,7 +1911,7 @@ imdb: { id: "tt0436992", season: 9, episode: 4 },
 released: new Date("2015-10-10").toISOString(),
 overview: "To save the present, the Doctor travels back in time to before the flood, where he confronts the alien Fisher King. He must create a bootstrap paradox to outsmart the creature and save Clara, all while facing his own ghostly future.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E06_before_the_flood.jpg?v=a104c032",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E06_before_the_flood.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E06_before_the_flood.mp4?v=491bb9ef",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E06_before_the_flood.srt?v=2645ef91"
 },
 {
@@ -1923,7 +1923,7 @@ imdb: { id: "tt0436992", season: 9, episode: 5 },
 released: new Date("2015-10-17").toISOString(),
 overview: "Captured by Vikings, the Doctor and Clara must help a small village defend itself against one of the deadliest warrior races in the galaxy, the Mire. A tragic event forces the Doctor to make a choice that will have repercussions for centuries.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E07_the_girl_who_died.jpg?v=2f0299c0",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E07_the_girl_who_died.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E07_the_girl_who_died.mp4?v=03ce3d49",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E07_the_girl_who_died.srt?v=ce836e3e"
 },
 {
@@ -1935,7 +1935,7 @@ imdb: { id: "tt0436992", season: 9, episode: 6 },
 released: new Date("2015-10-24").toISOString(),
 overview: "In 17th-century England, the Doctor encounters Ashildr, the Viking girl he made immortal, now living as a lonely highwayman. Together, they must stop a leonine alien from opening a portal that would destroy Earth.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E08_the_woman_who_lived.jpg?v=41241afa",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E08_the_woman_who_lived.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E08_the_woman_who_lived.mp4?v=0e1d99ad",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E08_the_woman_who_lived.srt?v=e691afaa"
 },
 {
@@ -1947,7 +1947,7 @@ imdb: { id: "tt0436992", season: 9, episode: 7 },
 released: new Date("2015-10-31").toISOString(),
 overview: "A fragile peace treaty between humans and shape-shifting Zygons is threatened by a radical splinter group. The Doctor and UNIT must stop the rebellion before it escalates into a full-scale war, but with Zygons able to duplicate anyone, trust is impossible.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E09_the_zygon_invasion.jpg?v=9204b586",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E09_the_zygon_invasion.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E09_the_zygon_invasion.mp4?v=84546d0a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E09_the_zygon_invasion.srt?v=4521ff8d"
 },
 {
@@ -1959,7 +1959,7 @@ imdb: { id: "tt0436992", season: 9, episode: 8 },
 released: new Date("2015-11-07").toISOString(),
 overview: "With the Zygon rebellion escalating, the Doctor races against time to prevent a war that would devastate both species. He must appeal to the humanity in both sides to stop a catastrophe.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E10_the_zygon_inversion.jpg?v=8c7a46a1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E10_the_zygon_inversion.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E10_the_zygon_inversion.mp4?v=0fa675b9",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E10_the_zygon_inversion.srt?v=0a107137"
 },
 {
@@ -1971,7 +1971,7 @@ imdb: { id: "tt0436992", season: 9, episode: 9 },
 released: new Date("2015-11-14").toISOString(),
 overview: "The Doctor and Clara arrive on a space station in the 38th century where a rescue team is investigating why the crew has vanished. They discover the station's sleep-replacement pods have created monstrous creatures from sleep dust, and that nothing is as it seems.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E11_sleep_no_more.jpg?v=1f8b1cf7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E11_sleep_no_more.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E11_sleep_no_more.mp4?v=5846979e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E11_sleep_no_more.srt?v=c4adbe3c"
 },
 {
@@ -1983,7 +1983,7 @@ imdb: { id: "tt0436992", season: 9, episode: 10 },
 released: new Date("2015-11-21").toISOString(),
 overview: "When their old friend Rigsy is marked for death, the Doctor and Clara's investigation leads them to a secret alien refugee camp hidden in London. They soon discover Clara has unknowingly taken on Rigsy's death sentence.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E12_face_the_raven.jpg?v=2081400a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E12_face_the_raven.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E12_face_the_raven.mp4?v=fb9e3099",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E12_face_the_raven.srt?v=d4f3ee0e"
 },
 {
@@ -1995,7 +1995,7 @@ imdb: { id: "tt0436992", season: 9, episode: 11 },
 released: new Date("2015-11-28").toISOString(),
 overview: "Following Clara's death, the Doctor is teleported to a strange castle-like prison, pursued by a terrifying creature from his worst nightmares. Trapped in a cycle of death and rebirth, he must solve the puzzle of the confession dial to escape.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E13_heaven_sent.jpg?v=8ba26cb0",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E13_heaven_sent.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E13_heaven_sent.mp4?v=d3691320",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E13_heaven_sent.srt?v=3102b04a"
 },
 {
@@ -2007,7 +2007,7 @@ imdb: { id: "tt0436992", season: 9, episode: 12 },
 released: new Date("2015-12-05").toISOString(),
 overview: "Having escaped his prison, the Doctor returns to Gallifrey and confronts the Time Lords who trapped him. He will stop at nothing to save Clara, even if it means breaking the laws of time and risking the entire universe to bring her back.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E14_hell_bent.jpg?v=4cd4dbcb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E14_hell_bent.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E14_hell_bent.mp4?v=98c147c6",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E14_hell_bent.srt?v=a8ca0a17"
 },
 {
@@ -2019,7 +2019,7 @@ imdb: { id: "tt0436992", season: 0, episode: 148 },
 released: new Date("2015-12-25").toISOString(),
 overview: "On Christmas Day, the Doctor is unwittingly recruited by River Song for a heist, but she fails to recognise his new face. Their chaotic adventure leads to a final, long-awaited date at the Singing Towers of Darillium, bringing their story full circle.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E15_the_husbands_of_river_song_special.jpg?v=f21aaed9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E15_the_husbands_of_river_song_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E15_the_husbands_of_river_song_special.mp4?v=6bb52ba5",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E15_the_husbands_of_river_song_special.srt?v=cb022600"
 },
 {
@@ -2031,7 +2031,7 @@ imdb: { id: "tt0436992", season: 0, episode: 149 },
 released: new Date("2016-12-25").toISOString(),
 overview: "In New York, the Doctor teams up with an investigative journalist and a superhero known as 'The Ghost' to combat brain-swapping aliens. He soon discovers the superhero is a man he accidentally gave powers to as a child, and must help him save the city.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E16_the_return_of_doctor_mysterio_special.jpg?v=93218bd1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E16_the_return_of_doctor_mysterio_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E16_the_return_of_doctor_mysterio_special.mp4?v=b18557f0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E16_the_return_of_doctor_mysterio_special.srt?v=72430a91"
 },
 {
@@ -2042,7 +2042,7 @@ type: "Prequel",
 released: new Date("2017-04-14").toISOString(),
 overview: "The Doctor introduces his new companion, Bill Potts, as she hides from Daleks in the TARDIS. The scene shows the Doctor trying to explain his long and complicated history with his greatest enemies.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E01_friend_from_the_future_prequel.jpg?v=3f426601",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E01_friend_from_the_future_prequel.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E01_friend_from_the_future_prequel.mp4?v=fc9c3a14",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E01_friend_from_the_future_prequel.srt?v=ca6d9c78"
 },
 {
@@ -2054,7 +2054,7 @@ imdb: { id: "tt0436992", season: 10, episode: 1 },
 released: new Date("2017-04-15").toISOString(),
 overview: "The Doctor is living under cover as a university professor, guarding a mysterious vault. He befriends a curious canteen worker named Bill Potts, and their friendship leads them into a chase across time and space against a sinister, fluid-like alien.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E02_the_pilot.jpg?v=92fc9ab7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E02_the_pilot.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E02_the_pilot.mp4?v=8ba11e41",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E02_the_pilot.srt?v=9be32cf7"
 },
 {
@@ -2066,7 +2066,7 @@ imdb: { id: "tt0436992", season: 10, episode: 2 },
 released: new Date("2017-04-22").toISOString(),
 overview: "The Doctor takes Bill to a future Earth colony where cute EmojiBots ensure everyone is happy. Anyone who shows any sign of sadness is 'deleted'. They must find a way to coexist with the deadly robots before the colonists awaken.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E03_smile.jpg?v=e7f7bad9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E03_smile.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E03_smile.mp4?v=307eb74d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E03_smile.srt?v=b0f9ed71"
 },
 {
@@ -2078,7 +2078,7 @@ imdb: { id: "tt0436992", season: 10, episode: 3 },
 released: new Date("2017-04-29").toISOString(),
 overview: "In Regency London, the Doctor and Bill attend the last of the great frost fairs on the frozen River Thames. They discover a giant creature trapped beneath the ice, being exploited for fuel, forcing them to confront a dark moral question.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E04_thin_ice.jpg?v=c9df3cc4",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E04_thin_ice.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E04_thin_ice.mp4?v=617665f9",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E04_thin_ice.srt?v=4b8e0a86"
 },
 {
@@ -2090,7 +2090,7 @@ imdb: { id: "tt0436992", season: 10, episode: 4 },
 released: new Date("2017-05-06").toISOString(),
 overview: "Bill and her friends move into a strange, creaky old house offered by a mysterious landlord. The Doctor suspects something is wrong, and they soon discover the house is infested with terrifying alien lice that consume its tenants.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E05_knock_knock.jpg?v=584360b9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E05_knock_knock.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E05_knock_knock.mp4?v=4d441a07",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E05_knock_knock.srt?v=c775b8a5"
 },
 {
@@ -2102,7 +2102,7 @@ imdb: { id: "tt0436992", season: 10, episode: 5 },
 released: new Date("2017-05-13").toISOString(),
 overview: "The Doctor, Bill, and Nardole are trapped on a space station where oxygen is a commodity and the automated spacesuits are killing the crew. In a world where capitalism has run rampant, they must fight for every breath.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E06_oxygen.jpg?v=ea050fbf",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E06_oxygen.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E06_oxygen.mp4?v=b8686aa5",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E06_oxygen.srt?v=2201c86a"
 },
 {
@@ -2114,7 +2114,7 @@ imdb: { id: "tt0436992", season: 10, episode: 6 },
 released: new Date("2017-05-20").toISOString(),
 overview: "The Vatican calls on the Doctor to investigate the Veritas, a forbidden text that causes its readers to take their own lives. His investigation reveals a shocking truth about his own reality and the nature of the threat hidden in the vault.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E07_extremis.jpg?v=c5615e6e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E07_extremis.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E07_extremis.mp4?v=e11f520c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E07_extremis.srt?v=d5978c8c"
 },
 {
@@ -2126,7 +2126,7 @@ imdb: { id: "tt0436992", season: 10, episode: 7 },
 released: new Date("2017-05-27").toISOString(),
 overview: "A 5,000-year-old pyramid mysteriously appears overnight, and its alien occupants, the Monks, offer to save humanity from an impending catastrophe. The Doctor must discover their true motives before humanity willingly consents to its own enslavement.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E08_the_pyramid_at_the_end_of_the_world.jpg?v=4c1c8fc7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E08_the_pyramid_at_the_end_of_the_world.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E08_the_pyramid_at_the_end_of_the_world.mp4?v=17d89969",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E08_the_pyramid_at_the_end_of_the_world.srt?v=10f5d5d6"
 },
 {
@@ -2138,7 +2138,7 @@ imdb: { id: "tt0436992", season: 10, episode: 8 },
 released: new Date("2017-06-03").toISOString(),
 overview: "With the Monks in control of Earth and the Doctor seemingly on their side, Bill and Nardole must mount a resistance. As humanity lives under a veil of fake history, they must find a way to break the Monks' psychic hold and free the planet.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E09_the_lie_of_the_land.jpg?v=32ee59b1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E09_the_lie_of_the_land.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E09_the_lie_of_the_land.mp4?v=bb152ba0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E09_the_lie_of_the_land.srt?v=4f0ec962"
 },
 {
@@ -2150,7 +2150,7 @@ imdb: { id: "tt0436992", season: 10, episode: 9 },
 released: new Date("2017-06-10").toISOString(),
 overview: "The Doctor, Bill, and Nardole travel to Mars and discover a group of Victorian soldiers have befriended an Ice Warrior. Their fragile peace is shattered when the soldiers awaken the Ice Warrior Empress, leading to a clash of empires.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E10_empress_of_mars.jpg?v=d966e9e6",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E10_empress_of_mars.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E10_empress_of_mars.mp4?v=293782ab",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E10_empress_of_mars.srt?v=f297489e"
 },
 {
@@ -2162,7 +2162,7 @@ imdb: { id: "tt0436992", season: 10, episode: 10 },
 released: new Date("2017-06-17").toISOString(),
 overview: "The Doctor and his friends travel to ancient Scotland to solve the mystery of the missing Ninth Legion. They find the soldiers were sacrificed to stop a dimension-hopping monster, and now must convince two warring tribes to unite against the creature.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E11_the_eaters_of_light.jpg?v=39257e7b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E11_the_eaters_of_light.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E11_the_eaters_of_light.mp4?v=149e2362",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E11_the_eaters_of_light.srt?v=b66f6f15"
 },
 {
@@ -2174,7 +2174,7 @@ imdb: { id: "tt0436992", season: 10, episode: 11 },
 released: new Date("2017-06-24").toISOString(),
 overview: "The Doctor puts Missy's redemption to the test by sending her on a rescue mission. The team arrives on a massive colony ship reversing away from a black hole, where they encounter the original Mondasian Cybermen and an old, familiar enemy.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E12_world_enough_and_time.jpg?v=162ba490",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E12_world_enough_and_time.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E12_world_enough_and_time.mp4?v=650bebbb",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E12_world_enough_and_time.srt?v=9bade6bd"
 },
 {
@@ -2186,7 +2186,7 @@ imdb: { id: "tt0436992", season: 10, episode: 12 },
 released: new Date("2017-07-01").toISOString(),
 overview: "Facing an army of Cybermen, two versions of the Master, and his own impending regeneration, the Doctor makes a final, desperate stand. He must protect the last of a human colony as the Cybermen close in.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E13_the_doctor_falls.jpg?v=ddeb5069",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E13_the_doctor_falls.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E13_the_doctor_falls.mp4?v=12bfe027",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E13_the_doctor_falls.srt?v=216bc3db"
 },
 {
@@ -2198,7 +2198,7 @@ imdb: { id: "tt0436992", season: 0, episode: 154 },
 released: new Date("2017-12-25").toISOString(),
 overview: "At the South Pole, two Doctors refuse to regenerate: the Twelfth and the First. They are brought together by a mysterious glass entity and a World War I captain, forcing them to confront their pasts and accept their futures in one final adventure.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E14_twice_upon_a_time_special.jpg?v=f9cb722b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E14_twice_upon_a_time_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E14_twice_upon_a_time_special.mp4?v=e52245c9",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E14_twice_upon_a_time_special.srt?v=260b4405"
 },
 {
@@ -2210,7 +2210,7 @@ imdb: { id: "tt0436992", season: 11, episode: 1 },
 released: new Date("2018-10-07").toISOString(),
 overview: "In Sheffield, a group of strangers' lives are changed forever when a mysterious woman, unable to remember her own name, falls from the sky. They must unite to solve the mystery of a strange pod and a deadly alien hunter.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E01_the_woman_who_fell_to_earth.jpg?v=1644ad36",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E01_the_woman_who_fell_to_earth.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E01_the_woman_who_fell_to_earth.mp4?v=40842ed0",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E01_the_woman_who_fell_to_earth.srt?v=76cf16a0"
 },
 {
@@ -2222,7 +2222,7 @@ imdb: { id: "tt0436992", season: 11, episode: 2 },
 released: new Date("2018-10-14").toISOString(),
 overview: "Stranded on the hostile planet of Desolation, the newly regenerated Doctor and her friends join a deadly intergalactic race. Their only hope of finding the TARDIS is to reach the mysterious Ghost Monument before the planet's dangers consume them.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E02_the_ghost_monument.jpg?v=ea14d852",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E02_the_ghost_monument.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E02_the_ghost_monument.mp4?v=a07a7100",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E02_the_ghost_monument.srt?v=7b594dee"
 },
 {
@@ -2234,7 +2234,7 @@ imdb: { id: "tt0436992", season: 11, episode: 3 },
 released: new Date("2018-10-21").toISOString(),
 overview: "The Doctor and her friends land in 1955 Montgomery, Alabama, where they meet Rosa Parks. They soon discover a time-travelling racist is attempting to alter a pivotal moment in the civil rights movement, and they must ensure history stays on course.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E03_rosa.jpg?v=42b704e4",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E03_rosa.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E03_rosa.mp4?v=ae95b6f9",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E03_rosa.srt?v=f55672dc"
 },
 {
@@ -2246,7 +2246,7 @@ imdb: { id: "tt0436992", season: 11, episode: 4 },
 released: new Date("2018-10-28").toISOString(),
 overview: "The TARDIS team returns to present-day Sheffield, only to find the city is being terrorised by giant spiders. Their investigation leads to a new luxury hotel, where a corrupt businessman's toxic waste has created a monstrous problem.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E04_arachnids_in_the_uk.jpg?v=479fec52",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E04_arachnids_in_the_uk.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E04_arachnids_in_the_uk.mp4?v=7379fa37",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E04_arachnids_in_the_uk.srt?v=84b89f81"
 },
 {
@@ -2258,7 +2258,7 @@ imdb: { id: "tt0436992", season: 11, episode: 5 },
 released: new Date("2018-11-04").toISOString(),
 overview: "Injured and stranded on a medical spaceship, the Doctor and her friends find themselves targeted by a cute but deadly alien creature, the Pting. They must work with the ship's crew to stop the creature before it consumes the ship's power source.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E05_the_tsuranga_conundrum.jpg?v=ed2b305b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E05_the_tsuranga_conundrum.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E05_the_tsuranga_conundrum.mp4?v=a35c6322",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E05_the_tsuranga_conundrum.srt?v=bc930a7d"
 },
 {
@@ -2270,7 +2270,7 @@ imdb: { id: "tt0436992", season: 11, episode: 6 },
 released: new Date("2018-11-11").toISOString(),
 overview: "Yaz asks the Doctor to take her to see her grandmother's past in 1947 India, during the turbulent Partition. They become entangled in her family's history and encounter mysterious aliens, forcing them to witness a tragic moment without interfering.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E06_demons_of_the_punjab.jpg?v=de92da51",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E06_demons_of_the_punjab.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E06_demons_of_the_punjab.mp4?v=66f95ce4",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E06_demons_of_the_punjab.srt?v=e90e91fd"
 },
 {
@@ -2282,7 +2282,7 @@ imdb: { id: "tt0436992", season: 11, episode: 7 },
 released: new Date("2018-11-18").toISOString(),
 overview: "A cryptic message for help on a packing slip leads the Doctor and her friends to go undercover at Kerblam!, a galaxy-wide online shopping service. They discover the company's automated systems are behaving strangely, and a sinister conspiracy is afoot.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E07_kerblam.jpg?v=f7d1c7fe",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E07_kerblam.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E07_kerblam.mp4?v=c6bf5a2a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E07_kerblam.srt?v=55b133ea"
 },
 {
@@ -2294,7 +2294,7 @@ imdb: { id: "tt0436992", season: 11, episode: 8 },
 released: new Date("2018-11-25").toISOString(),
 overview: "The TARDIS lands in 17th-century Lancashire, where the Doctor is accused of being a witch during a village's paranoid witch hunt. They soon discover an alien intelligence is reanimating the dead, and must stop it before the entire village is consumed.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E08_the_witchfinders.jpg?v=a2028a3a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E08_the_witchfinders.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E08_the_witchfinders.mp4?v=1c07888b",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E08_the_witchfinders.srt?v=d2be798c"
 },
 {
@@ -2306,7 +2306,7 @@ imdb: { id: "tt0436992", season: 11, episode: 9 },
 released: new Date("2018-12-02").toISOString(),
 overview: "In present-day Norway, the Doctor and her friends find a boarded-up cottage, a terrified blind girl, and a mirror that is actually a portal. They journey through to a strange parallel dimension and uncover a sentient universe's lonely plan.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E09_it_takes_you_away.jpg?v=0534485b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E09_it_takes_you_away.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E09_it_takes_you_away.mp4?v=4340b101",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E09_it_takes_you_away.srt?v=d174a7b6"
 },
 {
@@ -2318,7 +2318,7 @@ imdb: { id: "tt0436992", season: 11, episode: 10 },
 released: new Date("2018-12-09").toISOString(),
 overview: "Answering multiple distress calls, the Doctor and her team arrive on the psychic planet of Ranskoor Av Kolos. They reunite with a vengeful Graham and confront Tzim-Sha, the Stenza warrior from their first adventure, who has a devastating new plan.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E10_the_battle_of_ranskoor_av_kolos.jpg?v=84298b55",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E10_the_battle_of_ranskoor_av_kolos.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E10_the_battle_of_ranskoor_av_kolos.mp4?v=8b65aa05",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E10_the_battle_of_ranskoor_av_kolos.srt?v=f4973126"
 },
 {
@@ -2330,7 +2330,7 @@ imdb: { id: "tt0436992", season: 0, episode: 156 },
 released: new Date("2019-01-01").toISOString(),
 overview: "On New Year's Day, an ancient evil is unearthed by archaeologists in Sheffield. The Doctor and her friends discover it is a reconnaissance Dalek, separated from its casing, and must stop it from summoning a full-scale invasion fleet.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E11_resolution_special.jpg?v=a2ba9e58",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E11_resolution_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E11_resolution_special.mp4?v=458b9d9d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_11/S11_E11_resolution_special.srt?v=235cef98"
 },
 {
@@ -2342,7 +2342,7 @@ imdb: { id: "tt0436992", season: 12, episode: 1 },
 released: new Date("2020-01-01").toISOString(),
 overview: "When intelligence agents worldwide are targeted by alien forces, MI6 summons the Doctor and her friends. Their investigation leads them to a tech billionaire, a mysterious new foe, and a shocking revelation about an old acquaintance.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E01_spyfall_part_1.jpg?v=e5fd6a17",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E01_spyfall_part_1.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E01_spyfall_part_1.mp4?v=17369dad",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E01_spyfall_part_1.srt?v=40c5e52e"
 },
 {
@@ -2354,7 +2354,7 @@ imdb: { id: "tt0436992", season: 12, episode: 2 },
 released: new Date("2020-01-05").toISOString(),
 overview: "Scattered across time and space, the Doctor must escape her prison and reunite with her friends to stop the Master's devastating plan. With the help of historical figures, she uncovers a conspiracy that threatens the very fabric of Time Lord society.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E02_spyfall_part_2.jpg?v=b6fd0f06",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E02_spyfall_part_2.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E02_spyfall_part_2.mp4?v=51efd81a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E02_spyfall_part_2.srt?v=c90a546f"
 },
 {
@@ -2366,7 +2366,7 @@ imdb: { id: "tt0436992", season: 12, episode: 3 },
 released: new Date("2020-01-12").toISOString(),
 overview: "A trip to a luxury holiday spa turns into a fight for survival when the resort comes under attack from ferocious monsters called Dregs. The Doctor and her friends discover the spa is a 'fakation' on a dead planet, with a terrifying secret.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E03_orphan_55.jpg?v=8d853661",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E03_orphan_55.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E03_orphan_55.mp4?v=dc633f6c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E03_orphan_55.srt?v=877b7246"
 },
 {
@@ -2378,7 +2378,7 @@ imdb: { id: "tt0436992", season: 12, episode: 4 },
 released: new Date("2020-01-19").toISOString(),
 overview: "In 1903 New York, the Doctor and her friends must help inventor Nikola Tesla defend his work from his rival Thomas Edison and a mysterious alien threat. They soon discover a scorpion-like alien race is trying to kidnap Tesla for his genius.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_nikola_teslas_night_of_terror.jpg?v=414bd345",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_nikola_teslas_night_of_terror.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_nikola_teslas_night_of_terror.mp4?v=980beeed",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_nikola_teslas_night_of_terror.srt?v=3b27b3d3"
 },
 {
@@ -2390,7 +2390,7 @@ imdb: { id: "tt0436992", season: 12, episode: 5 },
 released: new Date("2020-01-26").toISOString(),
 overview: "The rhino-like Judoon descend on Gloucester in search of a fugitive, putting the entire city on lockdown. The Doctor's investigation leads to the return of a familiar face and a shocking revelation that changes everything she knows about her own past.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E05_fugitive_of_the_judoon.jpg?v=331ed80c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E05_fugitive_of_the_judoon.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E05_fugitive_of_the_judoon.mp4?v=9c89e5bf",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E05_fugitive_of_the_judoon.srt?v=36a2e3fc"
 },
 {
@@ -2402,7 +2402,7 @@ imdb: { id: "tt0436992", season: 12, episode: 6 },
 released: new Date("2020-02-02").toISOString(),
 overview: "The Doctor and her friends investigate a deadly pathogen that is causing birds to behave aggressively and humans to calcify. Their quest takes them from Peru to Madagascar, where they uncover an alien conspiracy involving microplastics.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E06_praxeus.jpg?v=ce312bc2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E06_praxeus.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E06_praxeus.mp4?v=608e61c3",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E06_praxeus.srt?v=72e516c2"
 },
 {
@@ -2414,7 +2414,7 @@ imdb: { id: "tt0436992", season: 12, episode: 7 },
 released: new Date("2020-02-09").toISOString(),
 overview: "From ancient Syria to modern-day Sheffield, the Doctor and her team investigate a sinister force that feeds on nightmares. They must confront two immortal beings who are terrorising humanity and face their own deepest fears.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E07_can_you_hear_me.jpg?v=08a30704",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E07_can_you_hear_me.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E07_can_you_hear_me.mp4?v=cfeac34e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E07_can_you_hear_me.srt?v=0322cacb"
 },
 {
@@ -2426,7 +2426,7 @@ imdb: { id: "tt0436992", season: 12, episode: 8 },
 released: new Date("2020-02-16").toISOString(),
 overview: "On the night that inspired 'Frankenstein', the Doctor and her friends visit Lord Byron, Percy, and Mary Shelley. They discover the villa is haunted by a lone, partially converted Cyberman, forcing the Doctor to make a choice that could endanger the future.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E08_the_haunting_of_villa_diodati.jpg?v=60865af6",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E08_the_haunting_of_villa_diodati.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E08_the_haunting_of_villa_diodati.mp4?v=3acfe907",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E08_the_haunting_of_villa_diodati.srt?v=79c3543f"
 },
 {
@@ -2438,7 +2438,7 @@ imdb: { id: "tt0436992", season: 12, episode: 9 },
 released: new Date("2020-02-23").toISOString(),
 overview: "In the far future, the Doctor and her friends join the last remnants of humanity in a desperate battle against a new generation of Cybermen. Their journey leads them to a mysterious boundary and a shocking discovery about the history of Gallifrey.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E09_ascension_of_the_cybermen.jpg?v=34da2bb3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E09_ascension_of_the_cybermen.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E09_ascension_of_the_cybermen.mp4?v=58d89d37",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E09_ascension_of_the_cybermen.srt?v=abf400ee"
 },
 {
@@ -2450,7 +2450,7 @@ imdb: { id: "tt0436992", season: 12, episode: 10 },
 released: new Date("2020-03-01").toISOString(),
 overview: "As the Cybermen ascend, the Doctor is trapped by the Master, who reveals a devastating secret about her past and the origin of the Time Lords. With lies exposed and civilisations falling, the Doctor's identity is changed forever.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E10_the_timeless_children.jpg?v=63662da9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E10_the_timeless_children.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E10_the_timeless_children.mp4?v=441eeb11",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E10_the_timeless_children.srt?v=2ff5de60"
 },
 {
@@ -2462,7 +2462,7 @@ imdb: { id: "tt0436992", season: 0, episode: 157 },
 released: new Date("2021-01-01").toISOString(),
 overview: "With the Doctor imprisoned, her friends on Earth must team up with Captain Jack Harkness to fight a new breed of Daleks created by a corrupt businessman. They must find a way to stop the Dalek takeover before they exterminate all of humanity.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E11_revolution_of_the_daleks_special.jpg?v=96abf16f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E11_revolution_of_the_daleks_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E11_revolution_of_the_daleks_special.mp4?v=e69f01f2",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E11_revolution_of_the_daleks_special.srt?v=7c7be925"
 },
 {
@@ -2474,7 +2474,7 @@ imdb: { id: "tt0436992", season: 13, episode: 1 },
 released: new Date("2021-10-31").toISOString(),
 overview: "On Halloween, the Doctor and Yaz are pursued by a mysterious new enemy, Karvanista. They cross paths with a man named Dan Lewis and discover an ancient evil known as the Flux is breaking free, threatening to unravel the entire universe.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E01_the_halloween_apocalypse.jpg?v=8402b64f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E01_the_halloween_apocalypse.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E01_the_halloween_apocalypse.mp4?v=a5ba25e6",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E01_the_halloween_apocalypse.srt?v=8fd1291d"
 },
 {
@@ -2486,7 +2486,7 @@ imdb: { id: "tt0436992", season: 13, episode: 2 },
 released: new Date("2021-11-07").toISOString(),
 overview: "The Flux deposits the Doctor in the Crimean War, where she finds the British army fighting an army of Sontarans. Meanwhile, Yaz and Dan are thrown into a mysterious temple, where they must survive against deadly temporal forces.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E02_war_of_the_sontarans.jpg?v=e6439f97",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E02_war_of_the_sontarans.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E02_war_of_the_sontarans.mp4?v=0e0a3e1d",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E02_war_of_the_sontarans.srt?v=4d0b535f"
 },
 {
@@ -2498,7 +2498,7 @@ imdb: { id: "tt0436992", season: 13, episode: 3 },
 released: new Date("2021-11-14").toISOString(),
 overview: "Caught in a time storm, the Doctor, Yaz, Dan, and a new ally named Vinder are scattered across their own pasts. They must navigate fragmented memories to survive and uncover clues about the Flux and the Doctor's hidden history.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E03_once_upon_time.jpg?v=79af44f2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E03_once_upon_time.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E03_once_upon_time.mp4?v=c59cc3a1",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E03_once_upon_time.srt?v=3f7bc3c5"
 },
 {
@@ -2510,7 +2510,7 @@ imdb: { id: "tt0436992", season: 13, episode: 4 },
 released: new Date("2021-11-21").toISOString(),
 overview: "The TARDIS lands in 1967 in a village haunted by Weeping Angels. The Doctor, Yaz, and Dan must help a psychic researcher save a missing girl and uncover the Angels' sinister plan, which has a shocking connection to the Doctor herself.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E04_village_of_the_angels.jpg?v=d9683a2a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E04_village_of_the_angels.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E04_village_of_the_angels.mp4?v=b527d8e9",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E04_village_of_the_angels.srt?v=3c78cdd3"
 },
 {
@@ -2522,7 +2522,7 @@ imdb: { id: "tt0436992", season: 13, episode: 5 },
 released: new Date("2021-11-28").toISOString(),
 overview: "As the Flux consumes the universe, the Doctor confronts her forgotten past with the secret organisation known as the Division. Meanwhile, Yaz, Dan, and their allies must survive against the Sontarans, Cybermen, and Daleks.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E05_survivors_of_the_flux.jpg?v=57b4f08a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E05_survivors_of_the_flux.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E05_survivors_of_the_flux.mp4?v=67263fe2",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E05_survivors_of_the_flux.srt?v=f2cf2543"
 },
 {
@@ -2534,7 +2534,7 @@ imdb: { id: "tt0436992", season: 13, episode: 6 },
 released: new Date("2021-12-05").toISOString(),
 overview: "In the final chapter of the Flux, the Doctor must outsmart her enemies and find a way to reverse the destruction of the universe. With the help of her friends and a few surprises, she confronts the Sontarans, the Ravagers, and her own past.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E06_the_vanquishers.jpg?v=1101dc08",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E06_the_vanquishers.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E06_the_vanquishers.mp4?v=ae9d57ac",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E06_the_vanquishers.srt?v=b4cc0ff9"
 },
 {
@@ -2546,7 +2546,7 @@ imdb: { id: "tt0436992", season: 0, episode: 158 },
 released: new Date("2022-01-01").toISOString(),
 overview: "On New Year's Eve, the Doctor, Yaz, and Dan are trapped in a time loop with two strangers in a storage facility. They are being hunted by an executioner Dalek, and must use the loop to find a way to survive and break the cycle.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E07_eve_of_the_daleks_special.jpg?v=ea0f12ca",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E07_eve_of_the_daleks_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E07_eve_of_the_daleks_special.mp4?v=682d45ff",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E07_eve_of_the_daleks_special.srt?v=270a1b52"
 },
 {
@@ -2559,7 +2559,7 @@ imdb: { id: "tt0436992", season: 0, episode: 159 },
 released: new Date("2022-04-17").toISOString(),
 overview: "In 19th-century China, the Doctor, Yaz, and Dan team up with a legendary pirate queen to fight the fearsome Sea Devils. They must uncover the secrets of a lost treasure and stop the reptilian aliens from flooding the planet.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E08_legend_of_the_sea_devils_special.jpg?v=b782c883",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E08_legend_of_the_sea_devils_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E08_legend_of_the_sea_devils_special.mp4?v=230c04e6",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E08_legend_of_the_sea_devils_special.srt?v=6f3eb423"
 },
 {
@@ -2572,7 +2572,7 @@ imdb: { id: "tt0436992", season: 0, episode: 161 },
 released: new Date("2022-10-23").toISOString(),
 overview: "In her final battle, the Thirteenth Doctor confronts her deadliest enemies: the Daleks, the Cybermen, and the Master. With the help of old friends, she must fight for her very existence and face a forced regeneration that will change everything.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.jpg?v=4f928e65",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.mp4?v=de0d4f29",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.srt?v=c801189a"
 },
 {
@@ -2583,7 +2583,7 @@ type: "Minisode",
 released: new Date("2023-11-17").toISOString(),
 overview: "Before the Daleks had a name, their creator Davros presents his new 'Mark III Travel Machine' to a nervous colleague. But a chance encounter with the TARDIS gives Davros the perfect, chilling name for his monstrous creations.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E01_destination_skaro_minisode.jpg?v=aa3e4cf9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E01_destination_skaro_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E01_destination_skaro_minisode.mp4?v=3a1c1714",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E01_destination_skaro_minisode.srt?v=21fafb21"
 },
 {
@@ -2596,7 +2596,7 @@ imdb: { id: "tt31433814", season: 0, episode: 1 },
 released: new Date("2023-11-25").toISOString(),
 overview: "The newly regenerated Fourteenth Doctor is reunited with Donna Noble, just as a spaceship crashes in London. They must protect a cute and cuddly alien, the Meep, from deadly soldiers, and prevent Donna's memories from destroying her mind.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.jpg?v=7cbfdd1e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.mp4?v=365c5262",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.srt?v=d1fbd4b0"
 },
 {
@@ -2609,7 +2609,7 @@ imdb: { id: "tt31433814", season: 0, episode: 2 },
 released: new Date("2023-12-02").toISOString(),
 overview: "The TARDIS takes the Doctor and Donna to a desolate spaceship at the edge of the universe. There, they are hunted by two mysterious beings that can duplicate their forms and memories, forcing them into a terrifying psychological battle.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.jpg?v=77abacf1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.mp4?v=248f3aef",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.srt?v=6a839d83"
 },
 {
@@ -2622,7 +2622,7 @@ imdb: { id: "tt31433814", season: 0, episode: 3 },
 released: new Date("2023-12-09").toISOString(),
 overview: "The Doctor discovers the giggle of a mysterious puppet is driving humanity insane. His investigation leads to the return of the cosmic Toymaker, forcing the Doctor into a fight he can't win.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.jpg?v=0765ebe0",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.mp4?v=51135e2f",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.srt?v=94b39924"
 },
 {
@@ -2635,7 +2635,7 @@ imdb: { id: "tt31433814", season: 0, episode: 4 },
 released: new Date("2023-12-25").toISOString(),
 overview: "On Christmas Eve, a foundling named Ruby Sunday meets the newly bi-generated Fifteenth Doctor. Together, they must stop a band of time-travelling goblins from eating babies and uncover the secrets of Ruby's mysterious birth.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E01_the_church_on_ruby_road_special.jpg?v=ed269302",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E01_the_church_on_ruby_road_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E01_the_church_on_ruby_road_special.mp4?v=b594ecf6",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E01_the_church_on_ruby_road_special.srt?v=88d992ea"
 },
 {
@@ -2648,7 +2648,7 @@ imdb: { id: "tt31433814", season: 1, episode: 1 },
 released: new Date("2024-05-11").toISOString(),
 overview: "The Doctor takes Ruby to a futuristic baby farm run by talking infants. Their adventure takes a dark turn when they discover a terrifying Bogeyman lurking in the lower decks, forcing them to protect the station's young inhabitants.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E02_space_babies.jpg?v=466e8aba",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E02_space_babies.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E02_space_babies.mp4?v=44829267",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E02_space_babies.srt?v=1a0c584e"
 },
 {
@@ -2661,7 +2661,7 @@ imdb: { id: "tt31433814", season: 1, episode: 2 },
 released: new Date("2024-05-11").toISOString(),
 overview: "A trip to see The Beatles in the 1960s reveals a world where music has been erased from existence. The Doctor and Ruby must confront Maestro, a powerful being who feeds on sound, in a battle for the future of humanity's creativity.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E03_the_devils_chord.jpg?v=21439923",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E03_the_devils_chord.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E03_the_devils_chord.mp4?v=9f28f64a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E03_the_devils_chord.srt?v=e6e0c4fb"
 },
 {
@@ -2674,7 +2674,7 @@ imdb: { id: "tt31433814", season: 1, episode: 3 },
 released: new Date("2024-05-18").toISOString(),
 overview: "On the war-torn planet of Kastarion 3, the Doctor steps on a landmine and cannot move without detonating it. He must save himself, Ruby, and the entire planet while contending with a faith-driven army and the AI of a soulless arms manufacturer.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E04_boom.jpg?v=b9a54d61",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E04_boom.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E04_boom.mp4?v=62561c91",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E04_boom.srt?v=2c6289f5"
 },
 {
@@ -2687,7 +2687,7 @@ imdb: { id: "tt31433814", season: 1, episode: 4 },
 released: new Date("2024-05-25").toISOString(),
 overview: "After the Doctor mysteriously vanishes on the Welsh coast, Ruby is stalked by a strange woman who is always 73 yards away. She must navigate a life of isolation and fear to understand the woman's purpose and solve a decades-long mystery.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E05_73_yards.jpg?v=4332094a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E05_73_yards.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E05_73_yards.mp4?v=68bcbbe2",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E05_73_yards.srt?v=1f8bc3df"
 },
 {
@@ -2700,7 +2700,7 @@ imdb: { id: "tt31433814", season: 1, episode: 5 },
 released: new Date("2024-06-01").toISOString(),
 overview: "The Doctor and Ruby arrive in the idyllic world of Finetime, where citizens live in social media-like bubbles. They must convince a young woman named Lindy to see the terrifying truth about the giant slugs devouring her friends before it's too late.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E06_dot_and_bubble.jpg?v=825e789d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E06_dot_and_bubble.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E06_dot_and_bubble.mp4?v=20dc0fb7",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E06_dot_and_bubble.srt?v=ecd40225"
 },
 {
@@ -2713,7 +2713,7 @@ imdb: { id: "tt31433814", season: 1, episode: 6 },
 released: new Date("2024-06-08").toISOString(),
 overview: "The Doctor and Ruby land at a Regency-era ball, where they meet a mysterious bounty hunter named Rogue. Together, they must unmask shape-shifting aliens who are murdering the guests, leading to a fateful and romantic encounter for the Doctor.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E07_rogue.jpg?v=290710ea",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E07_rogue.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E07_rogue.mp4?v=40e0960f",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E07_rogue.srt?v=b42decd4"
 },
 {
@@ -2726,7 +2726,7 @@ imdb: { id: "tt31433814", season: 1, episode: 7 },
 released: new Date("2024-06-15").toISOString(),
 overview: "The Doctor and UNIT use a time window to investigate Ruby's past, hoping to find her birth mother. Their search wakes Sutekh, the god of death, who has been hiding in plain sight since their travels began.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E08_the_legend_of_ruby_sunday.jpg?v=40c4751d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E08_the_legend_of_ruby_sunday.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E08_the_legend_of_ruby_sunday.mp4?v=af61557f",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E08_the_legend_of_ruby_sunday.srt?v=fd895518"
 },
 {
@@ -2739,7 +2739,7 @@ imdb: { id: "tt31433814", season: 1, episode: 8 },
 released: new Date("2024-06-22").toISOString(),
 overview: "With Sutekh triumphant and a dust of death sweeping across creation, the Doctor has lost. His only hope lies with Ruby Sunday, an ordinary woman who may hold the key to defeating an ancient and all-powerful enemy.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.jpg?v=7b9035c0",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.mp4?v=f14b5b9e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.srt?v=d408a173"
 },
 {
@@ -2750,7 +2750,7 @@ type: "Minisode",
 released: new Date("2024-12-25").toISOString(),
 overview: "In this festive short, the Doctor tries to teach Ruby Sunday's band how to play a Christmas carol on a futuristic instrument. Their attempts result in chaotic, 'bad' music, providing a lighthearted moment before their next big adventure.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.jpg?v=5b41c068",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.mp4?v=cf3deb29",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.srt?v=a9e2a426"
 },
 {
@@ -2763,7 +2763,7 @@ imdb: { id: "tt31433814", season: 0, episode: 5 },
 released: new Date("2024-12-25").toISOString(),
 overview: "On Christmas Day, a young girl named Joy discovers a secret doorway to a magical Time Hotel. Her adventure with the Doctor reveals danger, dinosaurs, and a deadly plan unfolding across the Earth, all set against a festive backdrop.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E11_joy_to_the_world_special.jpg?v=86c07383",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E11_joy_to_the_world_special.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E11_joy_to_the_world_special.mp4?v=2895f65e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E11_joy_to_the_world_special.srt?v=818192c5"
 },
 {
@@ -2776,7 +2776,7 @@ imdb: { id: "tt31433814", season: 2, episode: 1 },
 released: new Date("2025-04-12").toISOString(),
 overview: "The Doctor embarks on an intergalactic quest to rescue his new friend, nurse Belinda Chandra, after she is kidnapped by robots from outer space. His journey to bring her back home to Earth will test his resolve against a new mechanical threat.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E01_the_robot_revolution.jpg?v=d2234399",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E01_the_robot_revolution.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E01_the_robot_revolution.mp4?v=fbc062d5",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E01_the_robot_revolution.srt?v=c09bda15"
 },
 {
@@ -2789,7 +2789,7 @@ imdb: { id: "tt31433814", season: 2, episode: 2 },
 released: new Date("2025-04-19").toISOString(),
 overview: "The search for Belinda leads the Doctor to an abandoned cinema on a forgotten world. What begins as a simple investigation uncovers a terrifying secret lurking in the darkness, turning the quest for home into a fight for survival.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E02_lux.jpg?v=62688f06",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E02_lux.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E02_lux.mp4?v=0d25d5a8",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E02_lux.srt?v=9ba88c96"
 },
 {
@@ -2802,7 +2802,7 @@ imdb: { id: "tt31433814", season: 2, episode: 3 },
 released: new Date("2025-04-26").toISOString(),
 overview: "On a brutal, far-future planet, the Doctor and Belinda discover a devastated mining colony with only one survivor. To uncover the truth behind the disaster, they must confront an absolute terror that lurks deep within the planet's wells.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E03_the_well.jpg?v=031cd914",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E03_the_well.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E03_the_well.mp4?v=c5e9d45c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E03_the_well.srt?v=0aa9fe9c"
 },
 {
@@ -2815,7 +2815,7 @@ imdb: { id: "tt31433814", season: 2, episode: 4 },
 released: new Date("2025-05-03").toISOString(),
 overview: "Back on Earth, Ruby Sunday faces life without the Doctor. When a dangerous new threat called the Shreek emerges, she must team up with UNIT to save her new boyfriend, Conrad, from a terrifying fate.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E04_lucky_day.jpg?v=d61869a4",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E04_lucky_day.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E04_lucky_day.mp4?v=409da8d3",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E04_lucky_day.srt?v=95bb109c"
 },
 {
@@ -2828,7 +2828,7 @@ imdb: { id: "tt31433814", season: 2, episode: 5 },
 released: new Date("2025-05-10").toISOString(),
 overview: "In Lagos, the Doctor confronts a mysterious figure called the Barber and a vengeful Spider weaving a web of powerful stories. He soon discovers that in this place, narratives hold real, tangible power, and he must unravel the tale to survive.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E05_the_story_and_the_engine.jpg?v=247ecfbb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E05_the_story_and_the_engine.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E05_the_story_and_the_engine.mp4?v=c53e7581",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E05_the_story_and_the_engine.srt?v=761f960f"
 },
 {
@@ -2841,7 +2841,7 @@ imdb: { id: "tt31433814", season: 2, episode: 6 },
 released: new Date("2025-05-17").toISOString(),
 overview: "The Doctor's mission to get Belinda home brings them to a galactic song competition aboard a massive space station. What starts as a lighthearted musical journey quickly turns into a desperate fight for survival against a hidden threat.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E06_the_interstellar_song_contest.jpg?v=2714b72c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E06_the_interstellar_song_contest.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E06_the_interstellar_song_contest.mp4?v=f9e0bfe5",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E06_the_interstellar_song_contest.srt?v=9adb9f0d"
 },
 {
@@ -2854,7 +2854,7 @@ imdb: { id: "tt31433814", season: 2, episode: 7 },
 released: new Date("2025-05-24").toISOString(),
 overview: "The Doctor and Belinda finally arrive home to find a very different world, where old enemies have united and traps are sprung. As midnight approaches, the Doctor must see through the illusion of this 'Wish World' before reality is rewritten forever.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E07_wish_world.jpg?v=9e937deb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E07_wish_world.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E07_wish_world.mp4?v=49deb27e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E07_wish_world.srt?v=2ce85b48"
 },
 {
@@ -2867,7 +2867,7 @@ imdb: { id: "tt31433814", season: 2, episode: 8 },
 released: new Date("2025-05-31").toISOString(),
 overview: "As battle rages across the skies, the Unholy Trinity moves against the universe. The Doctor, Belinda and Ruby set out to save one child, with reality itself resting on it.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E08_the_reality_war.jpg?v=c7b86e42",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E08_the_reality_war.mp4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E08_the_reality_war.mp4?v=76fcb30e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E08_the_reality_war.srt?v=b0b722c1"
 }
 ];

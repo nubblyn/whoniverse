@@ -20,7 +20,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E01_everything_changes.jpg?v=f620246e",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E01_everything_changes.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E01_everything_changes.mkv?v=9fe1660d",
   filename: "S01_E01_everything_changes.mkv",
 },
 {
@@ -33,7 +33,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E02_day_one.jpg?v=6b171db0",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E02_day_one.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E02_day_one.mkv?v=0f5cf679",
   filename: "S01_E02_day_one.mkv",
 },
 {
@@ -46,7 +46,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E03_ghost_machine.jpg?v=32025a2e",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E03_ghost_machine.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E03_ghost_machine.mkv?v=c6c5d26a",
   filename: "S01_E03_ghost_machine.mkv",
 },
 {
@@ -59,7 +59,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E04_cyberwoman.jpg?v=2a1d8b42",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E04_cyberwoman.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E04_cyberwoman.mkv?v=af4aec38",
   filename: "S01_E04_cyberwoman.mkv",
 },
 {
@@ -72,7 +72,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E05_small_worlds.jpg?v=a6446194",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E05_small_worlds.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E05_small_worlds.mkv?v=e8efabf3",
   filename: "S01_E05_small_worlds.mkv",
 },
 {
@@ -85,7 +85,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E06_countrycide.jpg?v=b52a673f",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E06_countrycide.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E06_countrycide.mkv?v=160704e2",
   filename: "S01_E06_countrycide.mkv",
 },
 {
@@ -98,7 +98,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E07_greeks_bearing_gifts.jpg?v=f4e0caf6",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E07_greeks_bearing_gifts.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E07_greeks_bearing_gifts.mkv?v=72aa434c",
   filename: "S01_E07_greeks_bearing_gifts.mkv",
 },
 {
@@ -111,7 +111,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E08_they_keep_killing_suzie.jpg?v=b56d4e71",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E08_they_keep_killing_suzie.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E08_they_keep_killing_suzie.mkv?v=55ec0665",
   filename: "S01_E08_they_keep_killing_suzie.mkv",
 },
 {
@@ -124,7 +124,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E09_random_shoes.jpg?v=860323f3",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E09_random_shoes.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E09_random_shoes.mkv?v=09d97742",
   filename: "S01_E09_random_shoes.mkv",
 },
 {
@@ -137,7 +137,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E10_out_of_time.jpg?v=d2fde0f5",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E10_out_of_time.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E10_out_of_time.mkv?v=56ca3fd7",
   filename: "S01_E10_out_of_time.mkv",
 },
 {
@@ -150,7 +150,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E11_combat.jpg?v=38ede2ce",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E11_combat.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E11_combat.mkv?v=98d10862",
   filename: "S01_E11_combat.mkv",
 },
 {
@@ -163,7 +163,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E12_captain_jack_harkness.jpg?v=495060f8",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E12_captain_jack_harkness.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E12_captain_jack_harkness.mkv?v=84d32891",
   filename: "S01_E12_captain_jack_harkness.mkv",
 },
 {
@@ -176,7 +176,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E13_end_of_days.jpg?v=e523441a",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E13_end_of_days.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_1/S01_E13_end_of_days.mkv?v=4263d8e1",
   filename: "S01_E13_end_of_days.mkv",
 },
 {
@@ -189,7 +189,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E01_kiss_kiss_bang_bang.jpg?v=dc9be39f",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E01_kiss_kiss_bang_bang.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E01_kiss_kiss_bang_bang.mkv?v=ee6b9432",
   filename: "S02_E01_kiss_kiss_bang_bang.mkv",
 },
 {
@@ -202,7 +202,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E02_sleeper.jpg?v=99daea89",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E02_sleeper.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E02_sleeper.mkv?v=06170ee1",
   filename: "S02_E02_sleeper.mkv",
 },
 {
@@ -215,7 +215,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E03_to_the_last_man.jpg?v=84d91a93",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E03_to_the_last_man.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E03_to_the_last_man.mkv?v=9d0ea296",
   filename: "S02_E03_to_the_last_man.mkv",
 },
 {
@@ -228,7 +228,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E04_meat.jpg?v=06a7b954",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E04_meat.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E04_meat.mkv?v=911189d6",
   filename: "S02_E04_meat.mkv",
 },
 {
@@ -241,7 +241,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E05_adam.jpg?v=29bc416c",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E05_adam.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E05_adam.mkv?v=ca0e6382",
   filename: "S02_E05_adam.mkv",
 },
 {
@@ -254,7 +254,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E06_reset.jpg?v=1f9903a1",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E06_reset.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E06_reset.mkv?v=a55320d4",
   filename: "S02_E06_reset.mkv",
 },
 {
@@ -267,7 +267,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E07_dead_man_walking.jpg?v=44ee717a",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E07_dead_man_walking.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E07_dead_man_walking.mkv?v=00779234",
   filename: "S02_E07_dead_man_walking.mkv",
 },
 {
@@ -280,7 +280,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E08_a_day_in_the_death.jpg?v=133aa640",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E08_a_day_in_the_death.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E08_a_day_in_the_death.mkv?v=366792bc",
   filename: "S02_E08_a_day_in_the_death.mkv",
 },
 {
@@ -293,7 +293,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E09_something_borrowed.jpg?v=50901a4a",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E09_something_borrowed.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E09_something_borrowed.mkv?v=c6d5d11d",
   filename: "S02_E09_something_borrowed.mkv",
 },
 {
@@ -306,7 +306,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E10_from_out_of_the_rain.jpg?v=91d04d20",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E10_from_out_of_the_rain.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E10_from_out_of_the_rain.mkv?v=9d4f5594",
   filename: "S02_E10_from_out_of_the_rain.mkv",
 },
 {
@@ -319,7 +319,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E11_adrift.jpg?v=f5cfc70e",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E11_adrift.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E11_adrift.mkv?v=dffc4d9f",
   filename: "S02_E11_adrift.mkv",
 },
 {
@@ -332,7 +332,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E12_fragments.jpg?v=56f77c4b",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E12_fragments.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E12_fragments.mkv?v=aac1d13e",
   filename: "S02_E12_fragments.mkv",
 },
 {
@@ -345,7 +345,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E13_exit_wounds.jpg?v=0588769b",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E13_exit_wounds.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_2/S02_E13_exit_wounds.mkv?v=d36778d1",
   filename: "S02_E13_exit_wounds.mkv",
 },
 {
@@ -358,7 +358,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E01_children_of_earth_day_one.jpg?v=068ea2d6",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E01_children_of_earth_day_one.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E01_children_of_earth_day_one.mkv?v=5978c75c",
   filename: "S03_E01_children_of_earth_day_one.mkv",
 },
 {
@@ -371,7 +371,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E02_children_of_earth_day_two.jpg?v=b87a155c",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E02_children_of_earth_day_two.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E02_children_of_earth_day_two.mkv?v=7cf66fd8",
   filename: "S03_E02_children_of_earth_day_two.mkv",
 },
 {
@@ -384,7 +384,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E03_children_of_earth_day_three.jpg?v=54bb65b6",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E03_children_of_earth_day_three.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E03_children_of_earth_day_three.mkv?v=e12e079e",
   filename: "S03_E03_children_of_earth_day_three.mkv",
 },
 {
@@ -397,7 +397,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E04_children_of_earth_day_four.jpg?v=1d026eda",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E04_children_of_earth_day_four.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E04_children_of_earth_day_four.mkv?v=a6adf281",
   filename: "S03_E04_children_of_earth_day_four.mkv",
 },
 {
@@ -410,7 +410,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E05_children_of_earth_day_five.jpg?v=06df7fa9",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E05_children_of_earth_day_five.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_3/S03_E05_children_of_earth_day_five.mkv?v=7bcf0f5f",
   filename: "S03_E05_children_of_earth_day_five.mkv",
 },
 {
@@ -423,7 +423,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E01_the_new_world.jpg?v=62e7950e",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E01_the_new_world.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E01_the_new_world.mkv?v=e93d9ae1",
   filename: "S04_E01_the_new_world.mkv",
 },
 {
@@ -436,7 +436,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E02_rendition.jpg?v=b9e45f99",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E02_rendition.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E02_rendition.mkv?v=9f95977c",
   filename: "S04_E02_rendition.mkv",
 },
 {
@@ -449,7 +449,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E03_dead_of_night.jpg?v=ce21535e",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E03_dead_of_night.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E03_dead_of_night.mkv?v=109cf2e5",
   filename: "S04_E03_dead_of_night.mkv",
 },
 {
@@ -462,7 +462,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E04_escape_to_la.jpg?v=2975737c",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E04_escape_to_la.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E04_escape_to_la.mkv?v=dffa14bb",
   filename: "S04_E04_escape_to_la.mkv",
 },
 {
@@ -475,7 +475,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E05_the_categories_of_life.jpg?v=c36fec19",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E05_the_categories_of_life.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E05_the_categories_of_life.mkv?v=1e9b617b",
   filename: "S04_E05_the_categories_of_life.mkv",
 },
 {
@@ -488,7 +488,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E06_the_middle_men.jpg?v=7f9b3f6f",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E06_the_middle_men.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E06_the_middle_men.mkv?v=614e15d0",
   filename: "S04_E06_the_middle_men.mkv",
 },
 {
@@ -501,7 +501,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E07_immortal_sins.jpg?v=e7b4a094",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E07_immortal_sins.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E07_immortal_sins.mkv?v=c2a8366c",
   filename: "S04_E07_immortal_sins.mkv",
 },
 {
@@ -514,7 +514,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E08_end_of_the_road.jpg?v=a3766f71",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E08_end_of_the_road.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E08_end_of_the_road.mkv?v=86cf79e6",
   filename: "S04_E08_end_of_the_road.mkv",
 },
 {
@@ -527,7 +527,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E09_the_gathering.jpg?v=72b973a9",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E09_the_gathering.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E09_the_gathering.mkv?v=391a6854",
   filename: "S04_E09_the_gathering.mkv",
 },
 {
@@ -540,7 +540,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E10_the_blood_line.jpg?v=fb0d9588",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E10_the_blood_line.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E10_the_blood_line.mkv?v=d0106d0e",
   filename: "S04_E10_the_blood_line.mkv",
 },
 {
@@ -553,7 +553,7 @@ const episodes = [
   quality: "1080p",
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E11_web_of_lies_animated_series.jpg?v=f0439f6b",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E11_web_of_lies_animated_series.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/torchwood/season_4/S04_E11_web_of_lies_animated_series.mkv?v=34172e07",
   filename: "S04_E11_web_of_lies_animated_series.mkv",
 }
 ];

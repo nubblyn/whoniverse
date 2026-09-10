@@ -20,7 +20,7 @@ const episodes = [
   quality: "1080p",
   audio: "E-AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E01_homo_aqua.jpg?v=e9c6912e",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E01_homo_aqua.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E01_homo_aqua.mkv?v=cef588c1",
   filename: "S01_E01_homo_aqua.mkv",
 },
 {
@@ -33,7 +33,7 @@ const episodes = [
   quality: "1080p",
   audio: "E-AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E02_plastic_apocalypse.jpg?v=93603520",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E02_plastic_apocalypse.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E02_plastic_apocalypse.mkv?v=cc4cbe3c",
   filename: "S01_E02_plastic_apocalypse.mkv",
 },
 {
@@ -46,7 +46,7 @@ const episodes = [
   quality: "1080p",
   audio: "E-AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E03_the_deep.jpg?v=136f005d",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E03_the_deep.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E03_the_deep.mkv?v=9a357572",
   filename: "S01_E03_the_deep.mkv",
 },
 {
@@ -59,7 +59,7 @@ const episodes = [
   quality: "1080p",
   audio: "E-AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E04_the_witch_of_the_waterfall.jpg?v=99b4365a",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E04_the_witch_of_the_waterfall.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E04_the_witch_of_the_waterfall.mkv?v=31b5e013",
   filename: "S01_E04_the_witch_of_the_waterfall.mkv",
 },
 {
@@ -72,7 +72,7 @@ const episodes = [
   quality: "1080p",
   audio: "E-AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E05_the_end_of_the_war.jpg?v=95c75c4e",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E05_the_end_of_the_war.mkv",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_war_between_the_land_and_the_sea/season_1/S01_E05_the_end_of_the_war.mkv?v=de0e129a",
   filename: "S01_E05_the_end_of_the_war.mkv",
 }
 ];
