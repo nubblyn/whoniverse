@@ -101,21 +101,29 @@ async function cdn() {
     log(`art-cdn/${f}/${f}_poster.jpg`, poster);
 
     // A series can be catalogued before anyone has made it a backdrop or a
-    // wordmark. Skip what is not there rather than failing the whole build;
-    // series.js then leaves those fields out of the meta entirely.
-    if (!fs.existsSync(path.join(SRC, 'cdn', `${k}-background.jpg`))) {
-      console.log(`${`art-cdn/${f}/${f}_background.jpg`.padEnd(46)} no source, skipped`);
-      continue;
+    // wordmark, and the two arrive separately. They are checked one at a time:
+    // this used to `continue` past a missing background, which quietly skipped
+    // the logo as well, so a series could have a wordmark on disk that never
+    // reached the bucket. series.js leaves out whichever field is absent.
+    const bgSrc = path.join(SRC, 'cdn', `${k}-background.jpg`);
+    if (fs.existsSync(bgSrc)) {
+      const bg = await sharp(bgSrc)
+        .resize(1920, 1080, { fit: 'inside', withoutEnlargement: true }).jpeg({ quality: 80, mozjpeg: true })
+        .toFile(path.join(CDN, f, `${f}_background.jpg`));
+      log(`art-cdn/${f}/${f}_background.jpg`, bg);
+    } else {
+      console.log(`${`art-cdn/${f}/${f}_background.jpg`.padEnd(50)} no source, skipped`);
     }
-    const bg = await sharp(path.join(SRC, 'cdn', `${k}-background.jpg`))
-      .resize(1920, 1080, { fit: 'inside', withoutEnlargement: true }).jpeg({ quality: 80, mozjpeg: true })
-      .toFile(path.join(CDN, f, `${f}_background.jpg`));
-    log(`art-cdn/${f}/${f}_background.jpg`, bg);
 
-    const logo = await sharp(path.join(SRC, 'cdn', `${k}-logo.png`))
-      .resize(800, 400, { fit: 'inside', withoutEnlargement: true }).png()
-      .toFile(path.join(CDN, f, `${f}_logo.png`));
-    log(`art-cdn/${f}/${f}_logo.png`, logo);
+    const logoSrc = path.join(SRC, 'cdn', `${k}-logo.png`);
+    if (fs.existsSync(logoSrc)) {
+      const logo = await sharp(logoSrc)
+        .resize(800, 400, { fit: 'inside', withoutEnlargement: true }).png()
+        .toFile(path.join(CDN, f, `${f}_logo.png`));
+      log(`art-cdn/${f}/${f}_logo.png`, logo);
+    } else {
+      console.log(`${`art-cdn/${f}/${f}_logo.png`.padEnd(50)} no source, skipped`);
+    }
   }
 
   // The addon logo has carried a hash in its URL for a while, for the reason
