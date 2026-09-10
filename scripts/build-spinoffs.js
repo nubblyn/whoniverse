@@ -99,12 +99,14 @@ for (const s of SERIES) {
 
   const video = new Map();
   const still = new Map();
+  const subs = new Map();
   for (const line of listing) {
     const rel = line.replace(/^\d+\s+/, '');
-    const m = /^season_\d+\/S(\d+)_E(\d+)_.+\.(mkv|mp4|m4v|jpg)$/.exec(rel);
+    const m = /^season_\d+\/S(\d+)_E(\d+)_.+\.(mkv|mp4|m4v|jpg|srt)$/.exec(rel);
     if (!m) continue;
     const key = `${+m[1]}x${+m[2]}`;
     if (m[3] === 'jpg') still.set(key, rel);
+    else if (m[3] === 'srt') subs.set(key, rel);
     else if (!video.has(key) || rel.endsWith('.mkv')) video.set(key, rel);
   }
 
@@ -131,6 +133,11 @@ for (const s of SERIES) {
       ...fromHave(r.have),
       thumbnail: still.has(key) ? `${CDN}/${s.bucket}/${still.get(key)}` : undefined,
       streamUrl: `${CDN}/${s.bucket}/${video.get(key)}`,
+      // Almost every episode came off a disc and carries the broadcaster's own
+      // subtitles inside the file, so there is nothing to serve alongside it.
+      // The exceptions are the few taken from the web, which have none: those
+      // get an .srt in the bucket, and it is picked up here if it is there.
+      subtitleUrl: subs.has(key) ? `${CDN}/${s.bucket}/${subs.get(key)}` : undefined,
       filename: path.basename(video.get(key)),
     };
     episodes.push(e);
@@ -151,7 +158,7 @@ const episodes = [
 `;
 
   const KEYS = ['title', 'season', 'episode', 'type', 'released', 'overview',
-    'quality', 'audio', 'thumbnail', 'streamUrl', 'filename'];
+    'quality', 'audio', 'thumbnail', 'streamUrl', 'subtitleUrl', 'filename'];
   const body = episodes.map((e) => {
     const lines = KEYS
       .filter((k) => e[k] !== undefined)
