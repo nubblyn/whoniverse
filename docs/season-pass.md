@@ -419,9 +419,15 @@ deliberately (rewriting 305 GB for no picture gain). New material gets it right;
   (`-Oh, sweetheart.`). A single speaker gets no dash even when the speaker changed from
   the previous cue; the new cue is the signal. This is what the discs do.
 - Byte order marks and CRLF preserved as found.
-- Prefer, in order: the uploader's or disc's English text track (not the SDH one); then
-  a Whisper transcription through `clean.py` → `srtify.py`; never YouTube auto-captions
-  as they come.
+- Prefer, in order: **the new file's own English track**, because it is timed to that
+  exact cut and cadence (a WEB-DL carries subrip text, take the plain one not the SDH;
+  a disc rip carries PGS bitmaps, OCR them in Subtitle Edit → Tools → Batch Convert, then
+  fix what OCR got wrong); then the existing `.srt` retimed to the new file (Part G);
+  then a Whisper transcription through `clean.py` → `srtify.py`; never YouTube
+  auto-captions as they come. Whatever the source, the output goes through the house
+  rules above: strip SDH cues, UK spelling, two lines, 42 characters, dash-no-space.
+- This is one more reason to prefer a disc or WEB-DL source over a broadcast capture
+  when the picture is otherwise equal: it brings its own subtitles.
 - Timing has never been verified against audio on the older files. ffsubsync is not
   installed and was unreliable when it was (a -56 s shift on a synced file); check by
   opening the video at two cues rather than trusting a tool.
@@ -562,7 +568,10 @@ Changes: ledger `best`, `checked`.
 2. Probe the real file: cadence, resolution, audio, subtitle streams.
 3. Make the MP4: `node scripts/remux.js <folder> --write` when codec fits; the NVENC
    encode line for VP9/AV1; the tone-map line for HDR. Name it from `file-names.tsv`.
-4. Subtitles: extract the plain English track, or Whisper → `clean.py` → `srtify.py`.
+4. Subtitles, in the Part D order: `ffprobe` the new file's subtitle streams first;
+   extract the plain English text track (`-map 0:s:<n> -c:s srt`), or OCR the PGS one;
+   only if there is none, retime the old `.srt` (Part G) or run Whisper → `clean.py` →
+   `srtify.py`. Then the house rules.
 5. Still: `node scripts/build-stills.js <folder>`.
 6. `python scripts/ledger/ready.py` on the folder: hvc1, faststart, audio flag, srt is text.
 7. Upload: `rclone copy <folder> b2:whoniverse/new_who/ --include "season_1/**"`.
@@ -600,7 +609,7 @@ the README.
 | `best` | `1080p Blu-ray x264` on the main run (the OFT per-episode set seen 15 Sep, 2.25 GB an episode, cadence unconfirmed); `1080p Blu-ray x265` on Christmas Invasion; `720p HDTV` on Born Again |
 | Candidates | OFT x264 per episode; KONTRAST `S01 1080p BluRay x265` pack (~1.2 GB an episode, 275 seeders); Truth4U 281 GB S01-13 pack (15 Dec 2023, three weeks after the 25fps box set, circumstantial). One file from each, probed, settles it |
 | Born Again | the 2023 box set carries it at 576p deliberately, un-upscaled, with corrected audio (score and cloister bell restored). 576p from that set is the honest `best`; a 720p HDTV rip is the older audio |
-| Subtitles | 14 present in the bucket, from the archive.org era; never checked against the rules or against audio |
+| Subtitles | 14 present in the bucket, from the archive.org era; never checked against the rules or against audio. Timed to the 23.976 files, so they do not fit a 25fps replacement. Whether the OFT or KONTRAST files carry a subtitle track is one of the things the single-file probe in step 6 answers |
 | Summaries | 15 present in `data/new-who.js`, from the original 239 |
 | IMDb | `tt0436992`; Born Again maps to season 0 |
 
@@ -616,15 +625,22 @@ box set is ripped.
 Season 1 is this case, and so is every Classic season that ever gets a Blu-ray. Four
 things that adding a new season never runs into.
 
-**The subtitles no longer fit.** A 23.976fps file and a 25fps file of the same episode
-differ in running time by 4.27 % (25 / 23.976). Every existing `.srt` was timed to the
-held file; drop it beside the new one and it drifts by two seconds a minute, forty-five
-seconds by the end. Retime before uploading: a linear scale of every timestamp by
-23.976 / 25 = 0.95904 (going from 23.976 to 25). Check by opening the new video at a cue
-near the start and one near the end. Different *cuts* (a Blu-ray with a recap trimmed, a
-special with a Children in Need frame) shift rather than scale, and need an offset as
-well; if the durations differ by more than the ratio predicts, that is why. Do this
-check on every replaced episode, not a sample.
+**The old subtitles no longer fit.** A 23.976fps file and a 25fps file of the same
+episode differ in running time by 4.27 % (25 / 23.976). Every existing `.srt` was timed
+to the held file; drop it beside the new one and it drifts by two seconds a minute,
+forty-five seconds by the end.
+
+The clean answer is not to reuse them: **a disc or WEB-DL rip carries its own subtitle
+track, timed to that file.** Probe for it first (`ffprobe -select_streams s`), extract it
+(text) or OCR it (PGS), and the timing problem does not arise. That is a real reason to
+weight disc and WEB-DL sources above a broadcast capture of equal picture.
+
+Only when the new file has no track at all, retime the old `.srt`: a linear scale of
+every timestamp by 23.976 / 25 = 0.95904 (going from 23.976 to 25), then open the new
+video at a cue near the start and one near the end. Different *cuts* (a Blu-ray with a
+recap trimmed, a special with a Children in Need frame) shift rather than scale and need
+an offset as well; if the durations differ by more than the ratio predicts, that is why.
+Check every replaced episode, not a sample.
 
 **Keep the old file until the new one has played.** `rclone copy` under the same name
 overwrites, and B2 keeps old versions only if versioning is on for the bucket (check
