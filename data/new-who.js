@@ -72,112 +72,122 @@ streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E06_dal
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E06_dalek.srt?v=c3d9dce5"
 },
 {
-title: "The Long Game",
+title: "Sven and the Scarf (Minisode)",
 season: 1,
 episode: 7,
+type: "Minisode",
+overview: "A cataloguer in Henry van Statten's underground vault works through the alien traces caught in a battered scarf, logging each specimen as he finds it. He pays little attention to the caged survivor stirring in the dark beside him.",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_sven_and_the_scarf_minisode.jpg?v=9f73ff7f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_sven_and_the_scarf_minisode.mp4?v=f97afaad",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_sven_and_the_scarf_minisode.srt?v=94ed63f9"
+},
+{
+title: "The Long Game",
+season: 1,
+episode: 8,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 1, episode: 7 },
 released: new Date("2005-05-07").toISOString(),
 overview: "The Doctor, Rose, and new companion Adam Mitchell visit Satellite Five in the year 200,000, a space station that broadcasts news across the entire human empire. But a sinister force on Floor 500 is manipulating humanity's development.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_the_long_game.jpg?v=e0476934",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_the_long_game.mp4?v=e1c624c0",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_the_long_game.srt?v=8b554f51"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_the_long_game.jpg?v=e0476934",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_the_long_game.mp4?v=e1c624c0",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_the_long_game.srt?v=8b554f51"
 },
 {
 title: "Father's Day",
 season: 1,
-episode: 8,
+episode: 9,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 1, episode: 8 },
 released: new Date("2005-05-14").toISOString(),
 overview: "Rose asks the Doctor to take her to the day her father died in 1987, hoping to be there for him in his final moments. But when she impulsively changes history, deadly Reapers are unleashed to sterilise the wound in time.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_fathers_day.jpg?v=eeea757f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_fathers_day.mp4?v=d2d9bf69",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_fathers_day.srt?v=49f07687"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_fathers_day.jpg?v=eeea757f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_fathers_day.mp4?v=d2d9bf69",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_fathers_day.srt?v=49f07687"
 },
 {
 title: "The Empty Child",
 season: 1,
-episode: 9,
+episode: 10,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 1, episode: 9 },
 released: new Date("2005-05-21").toISOString(),
 overview: "The TARDIS lands in London during the Blitz, where the Doctor and Rose encounter a terrifying plague sweeping through the city. A mysterious child in a gas mask wanders the streets, asking the same chilling question of everyone he meets.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_the_empty_child.jpg?v=d4b820cc",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_the_empty_child.mp4?v=9daed945",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_the_empty_child.srt?v=ad15a961"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_empty_child.jpg?v=d4b820cc",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_empty_child.mp4?v=9daed945",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_empty_child.srt?v=ad15a961"
 },
 {
 title: "The Doctor Dances",
 season: 1,
-episode: 10,
+episode: 11,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 1, episode: 10 },
 released: new Date("2005-05-28").toISOString(),
 overview: "The gas-mask plague is spreading across war-torn London, and the Doctor discovers the epidemic's source is an alien hospital ship. With time running out, he, Rose, and Captain Jack must stop the nanogenes before they consume the entire human race.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_doctor_dances.jpg?v=a109d100",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_doctor_dances.mp4?v=4e844419",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_doctor_dances.srt?v=41a072ca"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_the_doctor_dances.jpg?v=a109d100",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_the_doctor_dances.mp4?v=4e844419",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_the_doctor_dances.srt?v=41a072ca"
 },
 {
 title: "Boom Town",
 season: 1,
-episode: 11,
+episode: 12,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 1, episode: 11 },
 released: new Date("2005-06-04").toISOString(),
 overview: "The TARDIS team makes a pit stop in modern-day Cardiff, only to find a familiar enemy, a Slitheen, has survived and is plotting a new, catastrophic scheme. The Doctor is faced with a moral dilemma: whether to show mercy to a remorseless killer.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_boom_town.jpg?v=6e0a1818",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_boom_town.mp4?v=5a6bb8b7",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_boom_town.srt?v=1cf9dce7"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_boom_town.jpg?v=6e0a1818",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_boom_town.mp4?v=5a6bb8b7",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_boom_town.srt?v=1cf9dce7"
 },
 {
 title: "Bad Wolf",
 season: 1,
-episode: 12,
+episode: 13,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 1, episode: 12 },
 released: new Date("2005-06-11").toISOString(),
 overview: "The Doctor, Rose, and Captain Jack find themselves trapped in twisted, futuristic versions of popular reality TV shows where losers are disintegrated. A familiar, ancient enemy is pulling the strings from behind the scenes.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_bad_wolf.jpg?v=a51d8a53",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_bad_wolf.mp4?v=944166f6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_bad_wolf.srt?v=41d8799f"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_bad_wolf.jpg?v=a51d8a53",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_bad_wolf.mp4?v=944166f6",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_bad_wolf.srt?v=41d8799f"
 },
 {
 title: "The Parting of the Ways",
 season: 1,
-episode: 13,
+episode: 14,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 1, episode: 13 },
 released: new Date("2005-06-18").toISOString(),
 overview: "The Dalek fleet prepares to invade Earth, and the Doctor is faced with an impossible choice to save the universe. As he sends Rose home for her safety, he must confront the Dalek Emperor in a final, devastating showdown.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_the_parting_of_the_ways.jpg?v=49e30a99",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_the_parting_of_the_ways.mp4?v=9271e717",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_the_parting_of_the_ways.srt?v=81e193cb"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_the_parting_of_the_ways.jpg?v=49e30a99",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_the_parting_of_the_ways.mp4?v=9271e717",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_the_parting_of_the_ways.srt?v=81e193cb"
 },
 {
 title: "Born Again (Minisode)",
 season: 1,
-episode: 14,
+episode: 15,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 1 },
 released: new Date("2005-11-18").toISOString(),
 overview: "Immediately following his regeneration, the new Doctor must explain his radical change in appearance to a shocked and disbelieving Rose. As he struggles with his new body, the TARDIS hurtles towards London on Christmas Eve.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.jpg?v=c574cb42",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.mp4?v=861b29df",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.srt?v=29098df1"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_born_again_minisode.jpg?v=c574cb42",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_born_again_minisode.mp4?v=861b29df",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_born_again_minisode.srt?v=29098df1"
 },
 {
 title: "The Christmas Invasion (Special)",
 season: 1,
-episode: 15,
+episode: 16,
 type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 2 },
 released: new Date("2005-12-25").toISOString(),
 overview: "It's Christmas, but the newly regenerated Doctor is in a coma, leaving Rose and her family to defend Earth from the Sycorax. As the aliens threaten to release a deadly virus, humanity's only hope lies with a Doctor who can't even wake up.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_the_christmas_invasion_special.jpg?v=35943571",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_the_christmas_invasion_special.mp4?v=a618bc32",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_the_christmas_invasion_special.srt?v=d5ca5f2b"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the_christmas_invasion_special.jpg?v=35943571",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the_christmas_invasion_special.mp4?v=a618bc32",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the_christmas_invasion_special.srt?v=d5ca5f2b"
 },
 {
 title: "New Earth",
