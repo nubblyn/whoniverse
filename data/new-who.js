@@ -138,7 +138,7 @@ episode: 12,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 1, episode: 12 },
 released: new Date("2005-06-11").toISOString(),
-overview: "The Doctor, Rose, and Captain Jack find themselves trapped in twisted, futuristic versions of popular reality TV shows. But this is no game; losers are disintegrated. A familiar, ancient enemy is pulling the strings from behind the scenes.",
+overview: "The Doctor, Rose, and Captain Jack find themselves trapped in twisted, futuristic versions of popular reality TV shows where losers are disintegrated. A familiar, ancient enemy is pulling the strings from behind the scenes.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_bad_wolf.jpg?v=a51d8a53",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_bad_wolf.mp4?v=944166f6",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_bad_wolf.srt?v=41d8799f"
