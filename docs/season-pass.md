@@ -551,9 +551,22 @@ Changes: `data/new-who.js` for text fixes (these are safe to do now; they touch 
 
 `best` reads as source + resolution + audio; `checked` present; `note` only on `missing`;
 `category` right; `released` and `description` filled. Then
+
 ```
+awk -F'\t' 'NR==1{n=NF} NF!=n{print FILENAME" line "NR": "NF" cols, want "n}' ledger/series/*.tsv ledger/all-who.tsv ledger/series.tsv
 python ledger/build.py       # must run clean; it validates the note rule
 ```
+
+**The column count is the first thing to check, before anything reads the file.** A
+row must have exactly as many columns as its header. One lost tab does not look like
+an error: it merges two cells and shifts every column after it left, so `best` still
+reads right while `checked` becomes `2026-09-151872x1080 23.976fps AAC`, `released`
+holds the description, and the description is empty. `build.py` used to pad short rows
+with empty strings and say nothing. It now refuses to build and names the file, the
+line, and both counts; the `awk` line above is the same check by hand when the build
+is not being run. Editing a TSV with a script that rebuilds whole lines (the pattern in
+`apply_found.py`) is how the tab goes missing, so run this after any such edit.
+
 Changes: ledger TSV.
 
 ### 6. Fresh search, then the decision  (audit → decide)

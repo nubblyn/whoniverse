@@ -60,10 +60,22 @@ ALL_WHO_NAME = 'Complete Chronology'
 
 
 def read_tsv(path):
+    # Every row must have exactly as many columns as the header. This used to
+    # pad short rows with empty strings, which hid a lost tab: The Christmas
+    # Invasion ran `checked` and `have` together into one cell, so best stayed
+    # right, checked became "2026-09-151872x1080 23.976fps AAC", released took
+    # the description and the description went empty, and the build said
+    # nothing. A dropped tab is a typo, not a shape to accommodate.
     with open(path, encoding='utf8') as fh:
         rows = [ln.rstrip('\n').split('\t') for ln in fh if ln.strip('\n')]
     head, body = rows[0], rows[1:]
-    return [OrderedDict(zip(head, r + [''] * (len(head) - len(r)))) for r in body]
+    ragged = ['%s line %d: %d columns, header has %d'
+              % (os.path.basename(path), i, len(r), len(head))
+              for i, r in enumerate(body, 2) if len(r) != len(head)]
+    if ragged:
+        raise SystemExit('ragged TSV, a tab is missing or doubled:\n  '
+                         + '\n  '.join(ragged))
+    return [OrderedDict(zip(head, r)) for r in body]
 
 
 def load():
