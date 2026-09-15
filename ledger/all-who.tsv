@@ -643,7 +643,7 @@ classic-who	22	Main Show	The Mark of the Rani (2)
 classic-who	22	Main Show	The Two Doctors (1)
 classic-who	22	Main Show	The Two Doctors (2)
 classic-who	22	Main Show	The Two Doctors (3)
-classic-who	22	Special	A Fix with Sontarans
+classic-who	22	Minisode	A Fix with Sontarans
 classic-who	22	Main Show	Timelash (1)
 classic-who	22	Main Show	Timelash (2)
 classic-who	22	Main Show	Revelation of the Daleks (1)
@@ -729,32 +729,18 @@ new-who	1	Main Show	Bad Wolf
 new-who	1	Main Show	The Parting of the Ways
 new-who	1	Minisode	Born Again
 new-who	1	Special	The Christmas Invasion
-new-who	-	Minisode	Attack of the Graske
-new-who	-	Prequel	Tardisode 1
 new-who	2	Main Show	New Earth
-new-who	-	Prequel	Tardisode 2
 new-who	2	Main Show	Tooth and Claw
-new-who	-	Prequel	Tardisode 3
 new-who	2	Main Show	School Reunion
-new-who	-	Prequel	Tardisode 4
 new-who	2	Main Show	The Girl in the Fireplace
-new-who	-	Prequel	Tardisode 5
 new-who	2	Main Show	Rise of the Cybermen
-new-who	-	Prequel	Tardisode 6
 new-who	2	Main Show	The Age of Steel
-new-who	-	Prequel	Tardisode 7
 new-who	2	Main Show	The Idiot's Lantern
-new-who	-	Prequel	Tardisode 8
 new-who	2	Main Show	The Impossible Planet
-new-who	-	Prequel	Tardisode 9
 new-who	2	Main Show	The Satan Pit
-new-who	-	Prequel	Tardisode 10
 new-who	2	Main Show	Love & Monsters
-new-who	-	Prequel	Tardisode 11
 new-who	2	Main Show	Fear Her
-new-who	-	Prequel	Tardisode 12
 new-who	2	Main Show	Army of Ghosts
-new-who	-	Prequel	Tardisode 13
 new-who	2	Main Show	Doomsday
 torchwood	1	Main Show	Everything Changes
 torchwood	1	Main Show	Day One
@@ -860,8 +846,8 @@ sarah-jane	3	Main Show	The Gift (1)
 sarah-jane	3	Main Show	The Gift (2)
 new-who	4	Animated Series	Dreamland
 new-who	4	Minisode	A Ghost Story for Christmas
-new-who	4	Special	The End of Time Part One
-new-who	4	Special	The End of Time Part Two
+new-who	4	Special	The End of Time: Part One
+new-who	4	Special	The End of Time: Part Two
 new-who	5	Main Show	The Eleventh Hour
 new-who	5	Minisode	Meanwhile in the TARDIS 1
 new-who	5	Main Show	The Beast Below
@@ -1001,7 +987,7 @@ new-who	9	Special	The Husbands of River Song
 class	1	Main Show	For Tonight We Might Die
 class	1	Main Show	The Coach with the Dragon Tattoo
 class	1	Main Show	Nightvisiting
-class	1	Main Show	Co-owner of a Lonely Heart
+class	1	Main Show	Co-Owner of a Lonely Heart
 class	1	Main Show	Brave-ish Heart
 class	1	Main Show	Detained
 class	1	Main Show	The Metaphysical Engine, or What Quill Did
@@ -1031,11 +1017,12 @@ new-who	11	Main Show	Kerblam!
 new-who	11	Main Show	The Witchfinders
 new-who	11	Main Show	It Takes You Away
 new-who	11	Main Show	The Battle of Ranskoor Av Kolos
+new-who	11	Minisode	'Twas the Night Before Christmas
 new-who	11	Special	Resolution
 classic-who	10	Minisode	Hello Boys!
 classic-who	26	Minisode	The Promise
-new-who	12	Main Show	Spyfall: Part 1
-new-who	12	Main Show	Spyfall: Part 2
+new-who	12	Main Show	Spyfall, Part 1
+new-who	12	Main Show	Spyfall, Part 2
 new-who	12	Main Show	Orphan 55
 new-who	12	Animated Series	The Runaway
 new-who	12	Main Show	Nikola Tesla's Night of Terror

@@ -11,19 +11,21 @@
 
 const episodes = [
 {
-  title: "Dimensions in Time (1)",
+  title: "Dimensions in Time (1) (Special)",
   season: 1,
   episode: 1,
   type: "Special",
+  overview: "Several Doctors and their companions are pulled out of their own times and dropped into Albert Square, where the Rani has set a trap. The residents carry on as the travellers flicker between years around them.",
 },
 {
-  title: "Dimensions in Time (2)",
+  title: "Dimensions in Time (2) (Special)",
   season: 1,
   episode: 2,
   type: "Special",
+  overview: "Several Doctors and their companions are pulled out of their own times and dropped into Albert Square, where the Rani has set a trap. The residents carry on as the travellers flicker between years around them.",
 },
 {
-  title: "Doctor Who: The Movie",
+  title: "Doctor Who: The Movie (Movie)",
   season: 1,
   episode: 3,
   type: "Movie",
@@ -36,46 +38,53 @@ const episodes = [
   filename: "S01_E03_doctor_who_the_movie.mkv",
 },
 {
-  title: "Doctor Who and the Curse of Fatal Death (1)",
+  title: "Doctor Who and the Curse of Fatal Death (1) (Special)",
   season: 1,
   episode: 4,
   type: "Special",
+  overview: "The Master lures the Doctor to Tersurus for a final reckoning, having spent centuries arranging the sewers beneath it. Both keep going back to bribe the same architect, and the Doctor is expected at his own wedding.",
 },
 {
-  title: "Doctor Who and the Curse of Fatal Death (2)",
+  title: "Doctor Who and the Curse of Fatal Death (2) (Special)",
   season: 1,
   episode: 5,
   type: "Special",
+  overview: "The Master lures the Doctor to Tersurus for a final reckoning, having spent centuries arranging the sewers beneath it. Both keep going back to bribe the same architect, and the Doctor is expected at his own wedding.",
 },
 {
-  title: "Doctor Who and the Curse of Fatal Death (3)",
+  title: "Doctor Who and the Curse of Fatal Death (3) (Special)",
   season: 1,
   episode: 6,
   type: "Special",
+  overview: "The Master lures the Doctor to Tersurus for a final reckoning, having spent centuries arranging the sewers beneath it. Both keep going back to bribe the same architect, and the Doctor is expected at his own wedding.",
 },
 {
-  title: "Doctor Who and the Curse of Fatal Death (4)",
+  title: "Doctor Who and the Curse of Fatal Death (4) (Special)",
   season: 1,
   episode: 7,
   type: "Special",
+  overview: "The Master lures the Doctor to Tersurus for a final reckoning, having spent centuries arranging the sewers beneath it. Both keep going back to bribe the same architect, and the Doctor is expected at his own wedding.",
 },
 {
-  title: "Death Comes to Time",
+  title: "Death Comes to Time (Animated Series)",
   season: 1,
   episode: 8,
   type: "Animated Series",
+  overview: "The Doctor and Ace are drawn into a war in which Time Lords act openly as gods and one of them has taken a side. The rules the Doctor has lived by are being broken by his own people, and somebody is counting the cost.",
 },
 {
-  title: "Real Time",
+  title: "Real Time (Animated Series)",
   season: 1,
   episode: 9,
   type: "Animated Series",
+  overview: "A team investigating a derelict station finds the Cybermen midway through an experiment, converting rather than killing. The Sixth Doctor and Evelyn arrive in the middle of it, with the conversions already under way.",
 },
 {
-  title: "Scream of the Shalka",
+  title: "Scream of the Shalka (Animated Series)",
   season: 1,
   episode: 10,
   type: "Animated Series",
+  overview: "Called to the Lancashire town of Lannet, the Doctor finds the people cowed into silence and something burrowing beneath the streets. The Shalka rule by sound, and this Doctor travels with a Master of his own.",
 }
 ];
 

@@ -544,7 +544,7 @@ const episodes = [
   filename: "S04_E10_the_blood_line.mkv",
 },
 {
-  title: "Web of Lies",
+  title: "Web of Lies (Animated Series)",
   season: 4,
   episode: 11,
   type: "Animated Series",

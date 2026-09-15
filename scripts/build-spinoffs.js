@@ -22,6 +22,21 @@ const fs = require('fs');
 const path = require('path');
 const { CDN, listing, shortHash } = require('./lib/bucket');
 
+// What an episode is called in the app, as against what it is called in the
+// ledger. A season list mixes the run with the specials, minisodes, prequels
+// and animations that sit between them, and by title alone there is nothing to
+// tell them apart: "Invasion of the Bane" reads like episode one until it says
+// "(Special)". Episodes with no film left get the same treatment, since a
+// viewer opening one should know before they click that what survives is the
+// telesnaps. The ledger itself keeps the plain title — this is presentation,
+// and it belongs on the way out rather than in the source of truth.
+function displayTitle(r) {
+  const tags = [];
+  if (r.category && r.category !== 'Main Show') tags.push(r.category);
+  if (r.status === 'missing' && /telesnap/i.test(r.note || '')) tags.push('Telesnaps');
+  return tags.length ? `${r.title} (${tags.join(', ')})` : r.title;
+}
+
 const ROOT = path.join(__dirname, '..');
 const WRITE = process.argv.includes('--write');
 
@@ -30,6 +45,12 @@ const SERIES = [
   // in Time and the Curse of Fatal Death, so this builds that series and the
   // film comes with it. The other nine rows have no file yet and contribute a
   // title and nothing else.
+  // Classic Who joined this on 13 September 2026, when its 701 files went into
+  // the bucket. It was the last series still carrying Cinemeta's episode list
+  // rather than the ledger's, and the two disagree — Cinemeta splits the
+  // specials into a season 0 the ledger folds into their seasons. Nothing was
+  // playable before, so no link or watch history depends on the old numbering.
+  { data: 'classic-who', ledger: '01-classic-who', bucket: 'classic_who', name: 'Classic Who' },
   { data: 'wilderness-years', ledger: '02-wilderness-years', bucket: 'wilderness_years', name: 'Wilderness Years' },
   { data: 'torchwood', ledger: '05-torchwood', bucket: 'torchwood', name: 'Torchwood' },
   { data: 'sarah-jane', ledger: '06-sarah-jane', bucket: 'the_sarah_jane_adventures', name: 'The Sarah Jane Adventures' },
@@ -63,11 +84,17 @@ function fromHave(have) {
     const width = res[2] ? +res[2] : null;
     // Tiers a client badges, chosen on height, with width as the tie-break for
     // a letterboxed master that is wider than it is tall for its class.
+    // Below 570 the ladder used to fall through to a literal height, which no
+    // series exercised until Classic Who arrived at 704x528, 688x512, 720x564
+    // and so on. Those are cropped PAL masters, not a tier of their own, and a
+    // "528p" badge tells a viewer nothing. Anything from 500 up is PAL and
+    // badges 576p; below that is NTSC or a telesnap reconstruction at 480.
     out.quality = height >= 2000 || (width && width >= 3800) ? '2160p'
       : height >= 1400 ? '1440p'
         : height >= 1000 || (width && width >= 1900) ? '1080p'
           : height >= 700 ? '720p'
-            : height >= 570 ? '576p' : `${height}p`;
+            : height >= 500 ? '576p'
+              : height >= 440 ? '480p' : `${height}p`;
   }
   const aud = /(TrueHD|E-AC-3|AC-3|AAC|MP3|Opus|FLAC|DTS-HD(?:\s*MA)?|DTS)/i.exec(have || '');
   if (aud) out.audio = aud[1];
@@ -135,7 +162,7 @@ for (const s of SERIES) {
     const have = video.has(key);
     if (!have) missing++;
     const e = {
-      title: r.title,
+      title: displayTitle(r),
       season,
       episode,
       type: r.category,

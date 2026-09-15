@@ -16,28 +16,72 @@ const { manifest, addonInterface } = require('./lib/addon');
 const { landingPage } = require('./lib/landing');
 const { playableSeries, toSeriesMeta } = require('./lib/catalog');
 const { isSubtitlePath, serveSubtitle } = require('./lib/subtitles');
+const { bucketIndex, generatedAt } = require('./lib/bucket');
 
 const port = process.env.PORT || 7000;
 const router = getRouter(addonInterface);
 
-http.createServer((req, res) => {
+http.createServer(async (req, res) => {
   const path = (req.url || '/').split('?')[0];
 
   // Vercel serves public/ statically; locally we have to do it ourselves.
-  if (path.startsWith('/art/')) {
+  // /fonts/ belongs here as much as /art/ — without it the page falls back to
+  // a system face locally and every spacing judgement is made against the
+  // wrong metrics.
+  if (path.startsWith('/art/') || path.startsWith('/fonts/')) {
     const file = pathMod.join(__dirname, 'public', path);
     if (fsp.existsSync(file)) {
       const ext = pathMod.extname(file).toLowerCase();
-      const types = { '.png': 'image/png', '.webp': 'image/webp', '.svg': 'image/svg+xml', '.jpg': 'image/jpeg' };
+      const types = {
+        '.png': 'image/png', '.webp': 'image/webp', '.svg': 'image/svg+xml',
+        '.jpg': 'image/jpeg', '.woff2': 'font/woff2',
+      };
       res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' });
       res.end(fsp.readFileSync(file));
       return;
     }
   }
 
+  // The ledgers, matching api/index.js so the links work locally too. Two of
+  // them: the printed table and the board, built by different scripts and
+  // living at their own addresses so either can be worked on without
+  // disturbing the other.
+  const LEDGERS = {
+    '/ledger': ['ledger.html', 'python ledger/viewer.py'],
+    '/ledger.html': ['ledger.html', 'python ledger/viewer.py'],
+    '/ledger-v2': ['ledger-v2.html', 'python ledger/v2.py'],
+    '/ledger-v2.html': ['ledger-v2.html', 'python ledger/v2.py'],
+  };
+  if (LEDGERS[path]) {
+    const [name, how] = LEDGERS[path];
+    const file = pathMod.join(__dirname, 'public', name);
+    if (!fsp.existsSync(file)) {
+      res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+      res.end(`That ledger has not been built. Run: ${how}`);
+      return;
+    }
+    res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
+    res.end(fsp.readFileSync(file));
+    return;
+  }
+
   if (path === '/' || path === '/index.html' || path === '/configure') {
     res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-    res.end(landingPage(manifest, `http://127.0.0.1:${port}`));
+    res.end(landingPage(manifest, `http://127.0.0.1:${port}`, await bucketIndex()));
+    return;
+  }
+
+  if (path === '/api/bucket') {
+    const index = await bucketIndex();
+    res.writeHead(index ? 200 : 503, {
+      'Content-Type': 'application/json; charset=utf-8',
+      'Access-Control-Allow-Origin': '*',
+    });
+    let subs = {};
+    try { subs = require('./data/subtitles.json'); } catch { /* not probed yet */ }
+    res.end(JSON.stringify(index
+      ? { generated: generatedAt(), count: index.size, files: [...index], subs }
+      : { error: 'bucket listing unavailable' }));
     return;
   }
 

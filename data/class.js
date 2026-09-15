@@ -50,7 +50,7 @@ const episodes = [
   filename: "S01_E03_nightvisiting.mkv",
 },
 {
-  title: "Co-owner of a Lonely Heart",
+  title: "Co-Owner of a Lonely Heart",
   season: 1,
   episode: 4,
   type: "Main Show",

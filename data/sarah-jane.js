@@ -11,7 +11,7 @@
 
 const episodes = [
 {
-  title: "Invasion of the Bane",
+  title: "Invasion of the Bane (Special)",
   season: 1,
   episode: 1,
   type: "Special",
@@ -310,7 +310,7 @@ const episodes = [
   filename: "S02_E12_enemy_of_the_bane_2.mkv",
 },
 {
-  title: "From Raxacoricofallapatorius with Love",
+  title: "From Raxacoricofallapatorius with Love (Minisode)",
   season: 2,
   episode: 13,
   type: "Minisode",
@@ -713,7 +713,7 @@ const episodes = [
   filename: "S05_E06_the_man_who_never_was_2.mkv",
 },
 {
-  title: "Farewell, Sarah Jane",
+  title: "Farewell, Sarah Jane (Special)",
   season: 5,
   episode: 7,
   type: "Special",

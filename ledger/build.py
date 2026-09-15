@@ -39,7 +39,10 @@ DESCRIPTION = {
     'Prequel': 'Prequel episodes of other main story episodes.',
     'Animated Restoration': 'Missing episodes surviving as BBC animations.',
     'Movie': 'The 1996 television film.',
-    'Best Available': 'The best version that exists anywhere, and so what to go and get.',
+    'Best Found': 'The best copy worth getting: its source, resolution and audio, '
+                  'and the day the indexers were last asked. Not the largest file that '
+                  'exists anywhere — everything here is re-encoded for streaming, so a '
+                  'disc remux is not a target.',
     'We Have': 'What the file we hold actually is. Blank means nothing downloaded yet.',
 }
 HEADER_FILL = 'd9d9d9'
@@ -193,24 +196,56 @@ def _height(text):
 
 
 def quality(r, series_key=''):
-    """Compare what we hold against the best that exists.
+    """Compare what we hold against the best copy worth getting.
 
     Returns (status, reason). Status is one of missing, below, cadence,
     upscale, ok. Only ok means there is nothing left to do.
+
+    There used to be two targets here — what exists anywhere, and what a search
+    had actually turned up — and rows were held against both. That produced 523
+    permanently red rows chasing disc remuxes that would never ship: every file
+    in the bucket is re-encoded for streaming, so a 90GB season pack is not a
+    goal, it is a different hobby. One target now, `best`, describing the source
+    and resolution worth having.
     """
-    have, ceiling = (r.get('have') or ''), (r.get('ceiling') or '')
+    have = (r.get('have') or '')
     if not have:
         return ('missing', 'nothing downloaded')
-    want, got = _height(ceiling), _height(have)
+    target = (r.get('best') or '')
+    want, got = _height(target), _height(have)
     fps = re.search(r'([\d.]+)fps', have)
     fps = float(fps.group(1)) if fps else None
     if want and got and got < want:
-        return ('below', 'have %dp, %s exists' % (got, ceiling))
+        return ('below', 'have %dp, %s is worth getting' % (got, target))
     if fps and round(fps, 3) in BAD_CADENCE and series_key != 'wilderness-years':
+        # A converted cadence is only a fault while a clean copy can still be
+        # had. Once a search has established that what we hold IS the best
+        # obtainable, the cadence is a fact about the release rather than a job
+        # on the list, and colouring hundreds of rows amber for it buries the
+        # rows that can actually be fixed.
+        if want and got and got >= want:
+            return ('ok', 'the best worth getting, though %gfps is a conversion' % fps)
         return ('cadence', '%gfps, converted from another standard' % fps)
     if want and got and got > want:
-        return ('upscale', 'have %dp but the real ceiling is %s' % (got, ceiling))
-    return ('ok', 'matches the best that exists')
+        return ('upscale', 'have %dp, above the %s we record' % (got, target))
+    return ('ok', 'matches the best worth getting')
+
+
+def hunt(r):
+    """Has anyone actually checked this row, and was the answer any good?
+
+    Returns (worth_searching, reason). `best` is only ever what somebody knew on
+    the day it was written, so the question this answers is not "does something
+    better exist" — something better always exists — but "is this row's target
+    stale". A row nobody has asked the indexers about is the one to ask about.
+    """
+    on = (r.get('checked') or '').strip()
+    best = (r.get('best') or '').strip()
+    if not on:
+        return (True, 'never searched')
+    if not best:
+        return (True, 'searched %s, nothing to aim at recorded' % on)
+    return (False, '')
 
 
 def safe_title(name):
@@ -222,17 +257,20 @@ def safe_title(name):
 
 
 def layout(tab):
-    """column numbers: season, ep, {category: col}, file"""
+    """column numbers: season, ep, {category: col}, file, then the two quality
+    columns in the order they are read: the best copy worth getting, and what we
+    hold."""
     if not tab['numbered']:
         return dict(season=None, ep=None, cats={tab['cats'][0]: 2}, file=4,
-                    ceiling=6, have=8, width=8)
+                    best=6, have=8, width=8)
     cats = {c: 6 + 2 * i for i, c in enumerate(tab['cats'])}
     last = 6 + 2 * (len(tab['cats']) - 1)
     if tab['name'] == ALL_WHO_NAME:
-        return dict(season=2, ep=4, cats=cats, file=None, ceiling=None,
+        return dict(season=2, ep=4, cats=cats, file=None, best=None,
                     have=None, width=last)
     return dict(season=2, ep=4, cats=cats, file=last + 2,
-                ceiling=last + 4, have=last + 6, width=last + 6)
+                best=last + 4, have=last + 6,
+                width=last + 6)
 
 
 def formula(tab, lay, last_row):
@@ -263,7 +301,7 @@ def paint(ws, tab, rows, lay):
             wide = 50.13
             if col in (2, 4):
                 wide = 6.13
-            elif col in (lay.get('ceiling'), lay.get('have')):
+            elif col in (lay.get('best'), lay.get('have')):
                 wide = 34.0
             ws.column_dimensions[letter].width = 1.13 if col % 2 else wide
     ws.row_dimensions[1].height = 6
@@ -278,8 +316,8 @@ def paint(ws, tab, rows, lay):
     headers += [(c, name, DESCRIPTION[name]) for name, c in lay['cats'].items()]
     if lay['file']:
         headers.append((lay['file'], 'File Name', None))
-    if lay.get('ceiling'):
-        headers.append((lay['ceiling'], 'Best Available', DESCRIPTION['Best Available']))
+    if lay.get('best'):
+        headers.append((lay['best'], 'Best Found', DESCRIPTION['Best Found']))
     if lay.get('have'):
         headers.append((lay['have'], 'We Have', DESCRIPTION['We Have']))
     for col, name, desc in headers:
@@ -312,10 +350,15 @@ def paint(ws, tab, rows, lay):
             f.fill = PatternFill('solid', fgColor=FILE_FILL)
             if i == 0:
                 f.value = formula(tab, lay, 4 + len(rows))
-        if lay.get('ceiling'):
-            c = ws.cell(row, lay['ceiling'])
-            c.value = r.get('ceiling') or None
-            c.fill = PatternFill('solid', fgColor=FILE_FILL)
+        if lay.get('best'):
+            c = ws.cell(row, lay['best'])
+            on = r.get('checked') or ''
+            c.value = ('%s  (%s)' % (r.get('best'), on) if r.get('best') and on
+                       else (r.get('best') or None))
+            # Amber where nobody has asked the indexers yet, which is a gap in
+            # the work rather than a fault in the file.
+            worth, _why = hunt(r)
+            c.fill = PatternFill('solid', fgColor=STATUS_FILL['below'] if worth else FILE_FILL)
         if lay.get('have'):
             status, why = quality(r, tab['key'])
             c = ws.cell(row, lay['have'])
@@ -407,7 +450,11 @@ def main():
     xlsx = os.path.join(OUT, 'whoniverse.xlsx')
     wb.save(xlsx)
 
-    names = ['series\tseason\tepisode\tcategory\tstatus\ttitle\tfile_name\tceiling\thave']
+    # released and description ride along so anything building a data file has
+    # the whole row and does not have to go back to the series TSV for the two
+    # columns the addon actually shows a viewer.
+    names = ['series\tseason\tepisode\tcategory\tstatus\ttitle\tfile_name\t'
+             'best	checked	have	released	description	note']
     for t in real:
         for r in series[t['key']]:
             fn = ''
@@ -416,7 +463,11 @@ def main():
                       else 'S%02d_E%02d_%s' % (int(r['season']), r['ep'], slug(cell_text(r))))
             names.append('\t'.join([t['key'], r['season'], str(r['ep'] or ''),
                                     r['category'], r['status'], r['title'], fn,
-                                    r.get('ceiling') or '', r.get('have') or '']))
+                                    r.get('best') or '', r.get('checked') or '',
+                                    r.get('have') or '',
+                                    r.get('released') or '',
+                                    (r.get('description') or '').replace('\t', ' '),
+                                    (r.get('note') or '').replace('\t', ' ')]))
     with open(os.path.join(OUT, 'file-names.tsv'), 'w', encoding='utf8', newline='\n') as fh:
         fh.write('\n'.join(names) + '\n')
 

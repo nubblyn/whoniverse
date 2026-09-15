@@ -23,3 +23,9 @@ art-cdn/
 
 # generated from ledger/*.tsv by ledger/build.py
 ledger/out/
+
+# Prowlarr API key, read by scripts/search/pq.py; never committed
+scripts/search/.pk
+
+# Python bytecode
+__pycache__/
