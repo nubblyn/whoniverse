@@ -463,10 +463,33 @@ file stem from `ledger/out/file-names.tsv`.
 - Every ledger row has one addon entry, `title` carrying the tag, in the ledger's order
   and numbering. Every entry with a `streamUrl` has that `.mp4` in `bucket-index.txt`;
   every bucket file in the season's folder belongs to a row. Name orphans both ways.
-- Compare the row list against Wikipedia's episode list and the supplementary list for
-  the season: anything broadcast that is not a row, anything that is a row and should
-  not be under Part D scope. Propose, do not add.
-- Changes: ledger TSV only. The addon entry list changes only in step 7.
+- **Check the season against the world**, not only against itself. Build the season's
+  full list of story content from the references in Part C, then diff it against the
+  ledger rows. Four sources, in this order, because each catches what the one before
+  misses:
+  1. **Wikipedia, the series article** (e.g. *Doctor Who series 1*): the broadcast
+     episodes with air dates and production codes, and the Christmas/New Year special
+     attached to the run. This is the spine; every row here is a `Main Show` or `Special`.
+  2. **Wikipedia, *List of supplementary Doctor Who episodes***: the minisodes, prequels,
+     Children in Need and Comic Relief pieces, Proms shorts, webcasts, animated serials,
+     by year. Read the year(s) the season aired plus the gap to the next season. Each
+     item is either already a row, out of scope under Part D (documentary, ident, trailer,
+     prose, impressions, fan upload only), or **a candidate to propose**.
+  3. **TARDIS Wiki, the series page and the *Lockdown!* list**: story placement of the
+     minisodes (which episode each sits after), which YouTube upload is the official one,
+     and anything the Wikipedia list files under a different year.
+  4. **The official YouTube channel**: search it for the season's title words and for
+     the events (Children in Need YYYY, Comic Relief, Proms YYYY, Lockdown). Uploads are
+     renamed there, so the episode title alone can miss them (Destination: Skaro is
+     "The Fourteenth Doctor is Here!"). An item that exists only on a fan channel is
+     recorded as such and stays out.
+  Output a table: every candidate item, its source, whether it is a row, and if not,
+  why (out of scope / no legitimate source / **propose**). Proposals name the placement
+  (after which episode) and the source URL. **Propose, do not add**: a new row renumbers
+  the season, which changes video ids and resets watch history, so it is the user's call.
+- Also the reverse: any row whose title, date or category does not match the references.
+- Changes: ledger TSV only, and only for corrections to existing rows. The addon entry
+  list changes only in step 7.
 
 ### 2. Probe what the bucket holds
 
