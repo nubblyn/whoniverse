@@ -611,7 +611,53 @@ box set is ripped.
 
 ---
 
-## G. Loose ends from before this plan, not to be picked up out of turn
+## G. When a season's files are being replaced, not added
+
+Season 1 is this case, and so is every Classic season that ever gets a Blu-ray. Four
+things that adding a new season never runs into.
+
+**The subtitles no longer fit.** A 23.976fps file and a 25fps file of the same episode
+differ in running time by 4.27 % (25 / 23.976). Every existing `.srt` was timed to the
+held file; drop it beside the new one and it drifts by two seconds a minute, forty-five
+seconds by the end. Retime before uploading: a linear scale of every timestamp by
+23.976 / 25 = 0.95904 (going from 23.976 to 25). Check by opening the new video at a cue
+near the start and one near the end. Different *cuts* (a Blu-ray with a recap trimmed, a
+special with a Children in Need frame) shift rather than scale, and need an offset as
+well; if the durations differ by more than the ratio predicts, that is why. Do this
+check on every replaced episode, not a sample.
+
+**Keep the old file until the new one has played.** `rclone copy` under the same name
+overwrites, and B2 keeps old versions only if versioning is on for the bucket (check
+with `rclone backend features b2:whoniverse` or the B2 console before relying on it).
+Cheaper and certain: before the upload, `rclone copyto b2:whoniverse/new_who/season_1/X.mp4
+b2:whoniverse/_previous/new_who/season_1/X.mp4`, and delete `_previous/` at the end of the
+season once the replacements have been opened in a client. The same for the `.srt`.
+
+**Stills.** A replaced video keeps its still unless the frame is wrong for the new cut;
+the hash stamp already changes the URL, so nothing needs re-fetching. Regenerate only
+where the old one was bad.
+
+**The stream label.** `lib/streams.js` reads `episode.quality` into the stream name
+(`Whoniverse
+1080p Blu-ray`) and none of `data/new-who.js` sets it. When a season is
+brought to its `best`, set `quality` on its entries to the same source + resolution
+string, so a viewer can see which seasons have been done. Optional, but it is the one
+place the work shows in the client.
+
+**When the answer at step 6 is no.** Write `best` and `checked` anyway, leave `have`,
+and the season is finished for this pass: the ledger records that the upgrade exists
+and was declined, which is different from never having looked. Move on.
+
+**Time.** A Prowlarr query is 30 to 90 seconds and a season wants six to ten of them.
+A pack download is hours and runs unattended. Whisper on CPU is roughly real time
+(a 45-minute episode takes 40 to 60 minutes); on the GPU it is minutes. NVENC encodes a
+45-minute episode in 3 to 6 minutes; the tone-map chain is slower, 15 to 25. One GPU job
+at a time, one unzip watcher at a time, and nothing else touching the files either is
+working on.
+
+---
+
+## H. Loose ends from before this plan, not to be picked up out of turn
 
 - **Encoding, landing in `~/Downloads/content/new_who/`**: *Daleks!* (S12_E14, five parts
   concatenated, 1080p60 H.264) and *The Story & the Engine* (S16_E05, tone-mapped from the
