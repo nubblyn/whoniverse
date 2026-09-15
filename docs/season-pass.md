@@ -240,9 +240,13 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
 - **Encode** (YouTube VP9/AV1, or anything that must change resolution):
   ```
   -vf scale=-2:1080 -c:v h264_nvenc -preset p5 -rc vbr -cq 24 -b:v 0 -maxrate 8M -bufsize 16M \
-  -profile:v high -pix_fmt yuv420p -bf 2 -c:a aac -b:a 192k -movflags +faststart
+  -profile:v high -pix_fmt yuv420p -bf 2 -c:a aac -b:a 192k -map_chapters -1 -dn -sn -movflags +faststart
   ```
   NVENC because the source is already a delivery encode; x264 buys nothing back.
+  `-map_chapters -1 -dn -sn` on every encode and remux: without them ffmpeg writes the
+  source's chapters into the MP4 as a `text` data track, which clients then offer as a
+  subtitle, and smuggles PGS back in as `bin_data`. `remux.js` already does this; a hand
+  ffmpeg line has to say it. S16E05 needed a second pass for exactly this.
 - **HDR to SDR** (the 2160p Disney+/iPlayer rips are HDR10 with a Dolby Vision layer;
   downscaled without tone mapping they play grey on every SDR client):
   ```
@@ -693,11 +697,11 @@ working on.
 
 ## H. Loose ends from before this plan, not to be picked up out of turn
 
-- **Encoding, landing in `~/Downloads/content/new_who/`**: *Daleks!* (S12_E14, five parts
-  concatenated, 1080p60 H.264) and *The Story & the Engine* (S16_E05, tone-mapped from the
-  2160p rip). Not uploaded. Belong to the S12 and S16 passes.
-- **Built, not uploaded**: `S11_E11_twas_the_night_before_christmas_minisode.mp4` and
-  `S12_E04_the_runaway_animated_series.mp4` in the same folder. S11 and S12 passes.
+- **Built, verified, not uploaded**, in `~/Downloads/content/new_who/`: *Daleks!*
+  (S12_E14, five parts concatenated, 3.05 GB 1080p60 H.264, 573 cues), *The Runaway*
+  (S12_E04), *'Twas the Night* (S11_E11), and *The Story & the Engine* (S16_E05, 3.19 GB
+  1080p25 H.264 bt709 tone-mapped, E-AC-3 5.1 like its siblings, English .srt extracted,
+  chapter track stripped). Belong to the S11, S12 and S16 passes.
 - **Fourteen 2160p mkvs in `~/Downloads`** (S14: Wild Blue Yonder, The Giggle; S15: Space
   Babies, Devil's Chord, Boom, 73 Yards, Legend of Ruby Sunday, Joy to the World; S16: Lux,
   The Well, Story and the Engine, Interstellar Song Contest, Wish World, Reality War),
