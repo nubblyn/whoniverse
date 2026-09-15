@@ -553,7 +553,7 @@ Changes: `data/new-who.js` for text fixes (these are safe to do now; they touch 
 `category` right; `released` and `description` filled. Then
 
 ```
-awk -F'\t' 'NR==1{n=NF} NF!=n{print FILENAME" line "NR": "NF" cols, want "n}' ledger/series/*.tsv ledger/all-who.tsv ledger/series.tsv
+awk -F'\t' 'FNR==1{n=NF} NF!=n{print FILENAME" line "FNR": "NF" cols, want "n}' ledger/series/*.tsv ledger/all-who.tsv ledger/series.tsv
 python ledger/build.py       # must run clean; it validates the note rule
 ```
 
