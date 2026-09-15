@@ -4,8 +4,22 @@ One season at a time. Three surfaces every time: the **ledger**, the **addon dat
 the **bucket**. A season is finished when the three agree, the ledger's `checked`
 date is today, the site is deployed, and the commit names the season.
 
-Steps 1 to 5 only read, and only the ledger changes. Nothing is downloaded, encoded or
-uploaded until step 6 has put the case to the user and been answered.
+**This is an audit of something that already exists, not a build from nothing.** Nearly
+every season has files in the bucket, entries in the addon and rows in the ledger already.
+So a pass has three phases, and the first two are reading:
+
+1. **Audit** (steps 1 to 6): what the references say the season contains, what the
+   ledger says, what the bucket actually holds when probed, what the addon shows, and
+   what the indexers have today. Each of these is written down before anything is judged.
+   The only file that changes is the ledger.
+2. **Decide** (the end of step 6): one paragraph per proposed action, held against found,
+   with size and a recommendation. The user answers. A "no" is a valid end to the season.
+3. **Act and publish** (steps 7 and 8): only what was agreed, then the deploy and the
+   commit.
+
+Most seasons will end after phase 2 with a few corrections and a fresh `checked` date.
+That is a completed pass, not a failed one. Nothing is downloaded, encoded or uploaded
+before phase 3.
 
 This document is written so a fresh session can run a season without asking where
 anything is. Part A maps the moving parts. Part B is the toolbox, one entry per tool.
@@ -461,7 +475,7 @@ python scripts/search/pq.py "doctor who 2005 S01" --limit 5     # Prowlarr answe
 git status --short | wc -l                       # start from a committed tree
 ```
 
-### 1. Reconcile the row list
+### 1. Reconcile the row list  (audit)
 
 Ledger rows for the season ↔ addon entries ↔ bucket files. Three lists, one join on the
 file stem from `ledger/out/file-names.tsv`.
@@ -497,7 +511,7 @@ file stem from `ledger/out/file-names.tsv`.
 - Changes: ledger TSV only, and only for corrections to existing rows. The addon entry
   list changes only in step 7.
 
-### 2. Probe what the bucket holds
+### 2. Probe what the bucket holds  (audit)
 
 ```
 node scripts/probe-media.js      # resolution, codec, audio, duration per file
@@ -510,7 +524,7 @@ files all read 23.976 has one problem, not thirteen; say it once.
 
 Changes: ledger `have`.
 
-### 3. Sidecars
+### 3. Sidecars  (audit)
 
 `bucket-index.txt` shows `.jpg` and `.srt` per stem. Missing ones are jobs. Then
 `node scripts/probe-subtitles.js new-who` for embedded tracks, and open two `.srt` at
@@ -519,7 +533,7 @@ two lines, 42 chars, dash-no-space.
 
 Changes: none yet; a list of sidecar jobs for step 7.
 
-### 4. Addon metadata
+### 4. Addon metadata  (audit)
 
 For each entry in the season: `title` tag matches `category`; `overview` passes the
 two-sentence rule (count sentences and characters, do not eyeball); `released` matches
@@ -529,7 +543,7 @@ nothing out of step for the season.
 
 Changes: `data/new-who.js` for text fixes (these are safe to do now; they touch no file).
 
-### 5. Ledger columns
+### 5. Ledger columns  (audit)
 
 `best` reads as source + resolution + audio; `checked` present; `note` only on `missing`;
 `category` right; `released` and `description` filled. Then
@@ -538,7 +552,7 @@ python ledger/build.py       # must run clean; it validates the note rule
 ```
 Changes: ledger TSV.
 
-### 6. Fresh search
+### 6. Fresh search, then the decision  (audit → decide)
 
 Prowlarr, short queries, this season only. Record candidates verbatim (indexer, seeders,
 GB, age, title, hash).
@@ -555,13 +569,16 @@ are 23.976; no listing says which.
 
 Write the winner into `best`, today into `checked`, for every row searched, beat or not.
 
-Then one paragraph to the user: what is held, what was found, the difference in
-resolution/cadence/source, the download size, and a yes/no recommendation. **Stop and
-wait.**
+Then the decision, as a short list to the user: every action the audit turned up
+(a source upgrade, a missing minisode with a legitimate source, subtitles to redo, an
+entry to correct), each as one paragraph with what is held, what was found, the
+difference, the cost, and a recommendation. **Stop and wait.** Corrections that touch
+no file (a wrong date, a summary out of shape, a missing `audio` flag) can be listed as
+"done" rather than asked, since steps 4 and 5 already made them.
 
 Changes: ledger `best`, `checked`.
 
-### 7. Act (only on a yes)
+### 7. Act (only on a yes)  (act)
 
 1. Download: magnets into qBittorrent or TorBox; zips through the watcher
    (`bash scripts/media/unzip-watcher.sh`, one instance, path fix applied); YouTube via `python -m yt_dlp`.
@@ -582,7 +599,7 @@ Changes: ledger `best`, `checked`.
 11. Ledger `have` from the probe of the uploaded file; local copy deleted once the bucket
     holds it.
 
-### 8. Publish
+### 8. Publish  (act)
 
 ```
 python ledger/build.py && python ledger/v2.py && python ledger/viewer.py
@@ -613,8 +630,9 @@ the README.
 | Summaries | 15 present in `data/new-who.js`, from the original 239 |
 | IMDb | `tt0436992`; Born Again maps to season 0 |
 
-Why first: one problem (cadence), one known fix (a 25fps source), one decisive check (probe
-a file). If the OFT or KONTRAST file runs 25, the whole season is a re-download and a
+Why first: the season is already complete and playable, so the pass is a pure audit with
+one likely action. One problem (cadence), one known fix (a 25fps source), one decisive
+check (probe a file). A good first run of the method. If the OFT or KONTRAST file runs 25, the whole season is a re-download and a
 remux; if 23.976, the ledger says so and the season is at its best obtainable until the
 box set is ripped.
 
