@@ -18,10 +18,20 @@ const { series } = require('../lib/series');
 const CDN = 'https://cdn.nubblyn.com/file/whoniverse/';
 const OUT = path.join(__dirname, '..', 'art-cdn', 'thumbs');
 
+/** The bucket path of a URL, without the ?v=hash cache buster.
+ *
+ * Every URL in data/*.js carries the file's SHA1 as a query string, so the
+ * extension is never last and an anchored replace never fired: the path kept
+ * `.jpg?v=abcd1234`, and Windows refuses a filename with a `?` in it. That is
+ * why this reported 2113 failures and built nothing. */
+function relPath(url) {
+  return url.slice(CDN.length).split('?')[0].replace(/\.(jpe?g|png|webp)$/i, '.webp');
+}
+
 /** Where a still's small version lives, or null when the still is not ours. */
 function thumbFor(stillUrl) {
   if (!stillUrl || !stillUrl.startsWith(CDN)) return null;
-  return `${CDN}art/thumbs/${stillUrl.slice(CDN.length).replace(/\.(jpe?g|png|webp)$/i, '.webp')}`;
+  return `${CDN}art/thumbs/${relPath(stillUrl)}`;
 }
 
 async function main() {
@@ -30,7 +40,7 @@ async function main() {
     for (const episode of require(path.join(__dirname, '..', 'data', `${entry.data}.js`))) {
       const src = episode.thumbnail;
       if (!src || !src.startsWith(CDN)) continue;
-      const rel = src.slice(CDN.length).replace(/\.(jpe?g|png|webp)$/i, '.webp');
+      const rel = relPath(src);
       const dest = path.join(OUT, rel);
       if (fs.existsSync(dest)) { kept++; continue; }
       try {

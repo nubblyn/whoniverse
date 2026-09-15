@@ -163,8 +163,9 @@ type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 1 },
 released: new Date("2005-11-18").toISOString(),
 overview: "Immediately following his regeneration, the new Doctor must explain his radical change in appearance to a shocked and disbelieving Rose. As he struggles with his new body, the TARDIS hurtles towards London on Christmas Eve.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.jpg?v=64a45a2a",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.srt?v=ddcc5b52"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.jpg?v=c574cb42",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.mp4?v=861b29df",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.srt?v=29098df1"
 },
 {
 title: "The Christmas Invasion (Special)",
