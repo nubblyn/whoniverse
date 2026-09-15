@@ -405,6 +405,27 @@ What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doct
   do not renumber without flagging (video ids).
 - Wiped episodes stay as rows, `status: missing`, with a `note`; animated restorations
   take the episode's place as `Animated Restoration`.
+- **`missing` is for anything in scope that cannot be had, not only wiped film.** New Who
+  carried no `missing` rows at all while Classic carried 42, so fourteen items that exist
+  and have no legitimate source were simply absent rather than recorded: the 13 Tardisodes
+  and Attack of the Graske, both in scope by the 9 September decision. A row with
+  `status: missing`, a `note` and no file says "this exists and we cannot get it", which
+  is different from saying nothing.
+- **When a row is added or removed, renumber the whole season and push it through to the
+  data file.** The ledger has no episode column: `build.py` derives the number from row
+  order, so an insert silently shifts every stem below it. `data/*.js` does not follow on
+  its own. Nine entries in New Who seasons 6, 7 and 8 had drifted this way — each prequel
+  carried its episode's number, leaving a gap one below — because earlier inserts renumbered
+  the ledger and not the data. Take the numbers from `ledger/out/file-names.tsv`, joining on
+  (season, category, title) with the addon's `(Tag)` suffix stripped, and check afterwards
+  that no season has a duplicate or a gap:
+
+  ```
+  node -e 'for(const f of ["new-who","classic-who","torchwood","sarah-jane","class","land-and-sea","wilderness-years"]){const d=require("./data/"+f+".js"),b={};for(const e of d)(b[e.season]=b[e.season]||[]).push(e.episode);for(const s in b){const e=b[s],dup=[...new Set(e.filter((v,i,a)=>a.indexOf(v)!==i))],g=[];for(let i=1;i<=Math.max(...e);i++)if(!e.includes(i))g.push(i);if(dup.length||g.length)console.log(f,"s"+s,"dup",dup,"gaps",g);}}'
+  ```
+
+  Renumbering resets watch history for every row that moves (video ids), so it stays the
+  user's call; doing it by halves is worse than not doing it.
 
 ### The file
 

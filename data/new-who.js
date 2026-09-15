@@ -175,7 +175,7 @@ released: new Date("2005-11-18").toISOString(),
 overview: "Immediately following his regeneration, the new Doctor must explain his radical change in appearance to a shocked and disbelieving Rose. As he struggles with his new body, the TARDIS hurtles towards London on Christmas Eve.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_born_again_minisode.jpg?v=c574cb42",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_born_again_minisode.mp4?v=861b29df",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_born_again_minisode.srt?v=29098df1"
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E15_born_again_minisode.srt?v=41ee12be"
 },
 {
 title: "The Christmas Invasion (Special)",
@@ -1213,7 +1213,7 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E02_t
 {
 title: "The Impossible Astronaut",
 season: 6,
-episode: 4,
+episode: 3,
 type: "Prequel",
 released: new Date("2011-03-22").toISOString(),
 overview: "President Nixon receives a mysterious phone call from a terrified little girl, setting the stage for the Doctor's arrival. This brief prequel shows the strange events in the Oval Office that lead to the Doctor being summoned to America.",
@@ -1248,7 +1248,7 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E05_d
 {
 title: "The Curse of the Black Spot",
 season: 6,
-episode: 7,
+episode: 6,
 type: "Prequel",
 released: new Date("2011-04-30").toISOString(),
 overview: "Aboard a 17th-century pirate ship, the TARDIS scanner reveals a terrifying sea-siren. This short scene sets up the mystery as Captain Avery's ship is becalmed and his crew begins to vanish one by one.",
@@ -1331,7 +1331,7 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E12_t
 {
 title: "A Good Man Goes to War",
 season: 6,
-episode: 14,
+episode: 13,
 type: "Prequel",
 released: new Date("2011-05-28").toISOString(),
 overview: "Dorium Maldovar tries to warn the Doctor against raising an army to rescue Amy Pond from Demon's Run. Despite the warnings, the Doctor prepares to call in every favour he's owed across time and space for a climactic battle.",
@@ -1354,7 +1354,7 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a
 {
 title: "Let's Kill Hitler",
 season: 6,
-episode: 16,
+episode: 15,
 type: "Prequel",
 released: new Date("2011-08-15").toISOString(),
 overview: "Amy leaves a message for her childhood friend Mels, wondering where she is and why she hasn't responded. This short prequel sets the stage for the search for Melody Pond, teasing the arrival of a character who will change everything.",
@@ -1461,7 +1461,7 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E23_c
 {
 title: "The Wedding of River Song",
 season: 6,
-episode: 25,
+episode: 24,
 type: "Prequel",
 released: new Date("2011-09-24").toISOString(),
 overview: "In Area 52, the Silent prisoner known as 'the Doctor' is about to be released by River Song. This short prequel shows the moments leading up to the shocking event at Lake Silencio, as the clock ticks down to 5:02 PM.",
@@ -1484,7 +1484,7 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_t
 {
 title: "The Doctor, the Widow and the Wardrobe (Special)",
 season: 6,
-episode: 27,
+episode: 26,
 type: "Prequel",
 released: new Date("2011-12-06").toISOString(),
 overview: "The Doctor, alone in the TARDIS, holds a red button that could destroy a hostile spaceship. His dilemma over whether to press it leads to a decision that will put him in debt to a family on Earth during Christmas 1941.",
@@ -1518,7 +1518,7 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E01_p
 {
 title: "Asylum of the Daleks",
 season: 7,
-episode: 3,
+episode: 2,
 type: "Prequel",
 released: new Date("2012-09-01").toISOString(),
 overview: "A hooded messenger journeys through the ruins of Skaro to deliver a cryptic message to the Doctor. The message warns of a coming mission to the most dangerous place in the universe: the Asylum of the Daleks.",
@@ -1678,7 +1678,7 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E15_t
 {
 title: "The Bells of Saint John",
 season: 7,
-episode: 17,
+episode: 16,
 type: "Prequel",
 released: new Date("2013-03-23").toISOString(),
 overview: "Still searching for Clara Oswald, the Doctor sits on a swing in a playground, where he has a conversation with a little girl. This encounter reminds him of his purpose and sets him on the path to finding the impossible girl once more.",
@@ -1889,7 +1889,7 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E33_t
 {
 title: "Deep Breath",
 season: 8,
-episode: 2,
+episode: 1,
 type: "Prequel",
 released: new Date("2014-08-18").toISOString(),
 overview: "Madame Vastra, Jenny, and Strax discuss the Doctor's unpredictable new regeneration. They express their concern over his erratic behaviour and wonder if this new, more volatile incarnation can be trusted to save the day.",
