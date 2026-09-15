@@ -190,192 +190,304 @@ streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the_christmas_invasion_special.srt?v=d5ca5f2b"
 },
 {
-title: "New Earth",
+title: "Attack of the Graske (Minisode)",
+season: 1,
+episode: 17,
+type: "Minisode",
+released: new Date("2005-12-25").toISOString(),
+overview: "An interactive Red Button adventure in which the Doctor recruits the viewer to chase a Graske swapping people for changelings across time. Only a branching version was ever made, and its Flash player is gone."
+},
+{
+title: "Tardisode 1",
 season: 2,
 episode: 1,
+type: "Prequel",
+released: new Date("2006-04-01").toISOString(),
+overview: "Novice Hame films a commercial for the New New York Hospital, promising viewers that the Sisters of Plenitude never lose a patient. A scream from somewhere behind her cuts the recording short."
+},
+{
+title: "New Earth",
+season: 2,
+episode: 2,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 1 },
 released: new Date("2006-04-15").toISOString(),
 overview: "The Doctor and Rose journey to humanity's new home planet, where they visit a state-of-the-art hospital run by cat-like nuns. They soon uncover a dark secret: the hospital's miraculous cures come at an unspeakable price.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E01_new_earth.jpg?v=b3aeff6f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E01_new_earth.mp4?v=3822ff04",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E01_new_earth.srt?v=dddb2ac1"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_new_earth.jpg?v=b3aeff6f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_new_earth.mp4?v=3822ff04",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_new_earth.srt?v=dddb2ac1"
+},
+{
+title: "Tardisode 2",
+season: 2,
+episode: 3,
+type: "Prequel",
+released: new Date("2006-04-15").toISOString(),
+overview: "Three hundred years after a meteor falls on a Scottish moor, a crofter walking home hears something growling in the grass behind him. He turns to face whatever came down with it."
 },
 {
 title: "Tooth and Claw",
 season: 2,
-episode: 2,
+episode: 4,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 2 },
 released: new Date("2006-04-22").toISOString(),
 overview: "Landing in 19th-century Scotland, the Doctor and Rose must protect Queen Victoria from a band of warrior monks and a ravenous werewolf. Their investigation leads to the founding of the Torchwood Institute, an organisation created to fight alien threats.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_tooth_and_claw.jpg?v=314e9089",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_tooth_and_claw.mp4?v=fa705ccd",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_tooth_and_claw.srt?v=77d80220"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_tooth_and_claw.jpg?v=314e9089",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_tooth_and_claw.mp4?v=fa705ccd",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_tooth_and_claw.srt?v=77d80220"
+},
+{
+title: "Tardisode 3",
+season: 2,
+episode: 5,
+type: "Prequel",
+released: new Date("2006-04-22").toISOString(),
+overview: "Mickey trawls a UFO sightings site from an internet cafe and finds his search blocked by a notice naming Torchwood. He calls Rose for help, having traced strange lights to a London school."
 },
 {
 title: "School Reunion",
 season: 2,
-episode: 3,
+episode: 6,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 3 },
 released: new Date("2006-04-29").toISOString(),
 overview: "Investigating a school run by strange, bat-like aliens, the Doctor and Rose are shocked to find two familiar faces working undercover: former companion Sarah Jane Smith and her robot dog, K-9. The reunited team must stop the Krillitanes from cracking the 'God-Maker' paradigm.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E03_school_reunion.jpg?v=79508378",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E03_school_reunion.mp4?v=f3aeddb5",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E03_school_reunion.srt?v=c655db2e"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_school_reunion.jpg?v=79508378",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_school_reunion.mp4?v=f3aeddb5",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_school_reunion.srt?v=c655db2e"
+},
+{
+title: "Tardisode 4",
+season: 2,
+episode: 7,
+type: "Prequel",
+released: new Date("2006-04-29").toISOString(),
+overview: "An ion storm tears through the SS Madame de Pompadour, leaving one pilot dead and the other alone in a cockpit lit red. Something ticks in the dark beyond her, and a clock face cracks."
 },
 {
 title: "The Girl in the Fireplace",
 season: 2,
-episode: 4,
+episode: 8,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 4 },
 released: new Date("2006-05-06").toISOString(),
 overview: "The Doctor finds a time window to 18th-century France on a derelict spaceship and becomes entangled in the life of Madame de Pompadour. He must fight clockwork droids who seek to complete their ship by using her as a final component.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_the_girl_in_the_fireplace.jpg?v=ec462489",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_the_girl_in_the_fireplace.mp4?v=f177cdd3",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_the_girl_in_the_fireplace.srt?v=0c40d1e8"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_girl_in_the_fireplace.jpg?v=ec462489",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_girl_in_the_fireplace.mp4?v=f177cdd3",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_girl_in_the_fireplace.srt?v=0c40d1e8"
 },
 {
 title: "Pompadour (Minisode)",
 season: 2,
-episode: 5,
+episode: 9,
 type: "Minisode",
 overview: "Alone in the dark, Madame de Pompadour talks to a Doctor who does not answer, turning over the clockwork droids who once scanned her mind. What she has begun to suspect about her own thoughts frightens her more than the silence.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E05_pompadour_minisode.jpg?v=08b0edef",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E05_pompadour_minisode.mp4?v=e61caa43",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E05_pompadour_minisode.srt?v=01b6218e"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_pompadour_minisode.jpg?v=08b0edef",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_pompadour_minisode.mp4?v=e61caa43",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_pompadour_minisode.srt?v=01b6218e"
+},
+{
+title: "Tardisode 5",
+season: 2,
+episode: 10,
+type: "Prequel",
+released: new Date("2006-05-06").toISOString(),
+overview: "A Preacher briefing calls every agent into action against Cybus Industries and the thousands of people missing from its records. Ricky Smith drives away as the radio promises the ultimate upgrade."
 },
 {
 title: "Rise of the Cybermen",
 season: 2,
-episode: 6,
+episode: 11,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 5 },
 released: new Date("2006-05-13").toISOString(),
 overview: "The TARDIS crash-lands on a parallel Earth where Rose's father is alive and humanity is being forcibly 'upgraded' by the emotionless Cybermen. Trapped in a world not their own, the Doctor and his friends must fight the dawn of a new steel age.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_rise_of_the_cybermen.jpg?v=838c6d8e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_rise_of_the_cybermen.mp4?v=acf80123",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_rise_of_the_cybermen.srt?v=f10d8360"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_rise_of_the_cybermen.jpg?v=838c6d8e",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_rise_of_the_cybermen.mp4?v=acf80123",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_rise_of_the_cybermen.srt?v=f10d8360"
+},
+{
+title: "Tardisode 6",
+season: 2,
+episode: 12,
+type: "Prequel",
+released: new Date("2006-05-13").toISOString(),
+overview: "John Lumic orders the upgrade of humanity to begin across the world, illustrated by a diagram of skin becoming metal. His Cybermen are told to delete anyone the process cannot convert."
 },
 {
 title: "The Age of Steel",
 season: 2,
-episode: 7,
+episode: 13,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 6 },
 released: new Date("2006-05-20").toISOString(),
 overview: "The Cybermen have seized control of London, and the Doctor, Rose, and Mickey have become fugitives. They join a small band of rebels in a desperate attempt to shut down the Cyber-conversion factories and save humanity from deletion.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E07_the_age_of_steel.jpg?v=9a3a47bc",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E07_the_age_of_steel.mp4?v=9eda0cef",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E07_the_age_of_steel.srt?v=e7341647"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_the_age_of_steel.jpg?v=9a3a47bc",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_the_age_of_steel.mp4?v=9eda0cef",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_the_age_of_steel.srt?v=e7341647"
+},
+{
+title: "Tardisode 7",
+season: 2,
+episode: 14,
+type: "Prequel",
+released: new Date("2006-05-20").toISOString(),
+overview: "Grandma Connolly settles down in front of her newly installed television as red lightning reaches out of the screen towards her. When she strikes the set, the light goes for her face."
 },
 {
 title: "The Idiot's Lantern",
 season: 2,
-episode: 8,
+episode: 15,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 7 },
 released: new Date("2006-05-27").toISOString(),
 overview: "It's 1953, the year of Queen Elizabeth II's coronation, and a malevolent alien entity known as the Wire is stealing people's faces through their television sets. The Doctor and Rose must stop it before it consumes the minds of millions watching the broadcast.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_idiots_lantern.jpg?v=e8fb0642",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_idiots_lantern.mp4?v=e9c4b2a8",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_idiots_lantern.srt?v=d32f5ff1"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_the_idiots_lantern.jpg?v=e8fb0642",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_the_idiots_lantern.mp4?v=e9c4b2a8",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_the_idiots_lantern.srt?v=d32f5ff1"
+},
+{
+title: "Tardisode 8",
+season: 2,
+episode: 16,
+type: "Prequel",
+released: new Date("2006-05-27").toISOString(),
+overview: "A woman in a suit sends Captain Walker to a planet impossibly orbiting a black hole, offering him a top-class ship and the chance to save the Empire. As he leaves, an Ood tells him the Beast will rise from the pit."
 },
 {
 title: "The Impossible Planet",
 season: 2,
-episode: 9,
+episode: 17,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 8 },
 released: new Date("2006-06-03").toISOString(),
 overview: "The TARDIS lands on a sanctuary base impossibly orbiting a black hole, where a human crew works alongside their servants, the Ood. As an ancient evil begins to awaken from deep within the planet, the Doctor and Rose face a terrifying enemy.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_the_impossible_planet.jpg?v=d9208721",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_the_impossible_planet.mp4?v=1214ad08",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_the_impossible_planet.srt?v=5dc2b4b9"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E17_the_impossible_planet.jpg?v=d9208721",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E17_the_impossible_planet.mp4?v=1214ad08",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E17_the_impossible_planet.srt?v=5dc2b4b9"
+},
+{
+title: "Tardisode 9",
+season: 2,
+episode: 18,
+type: "Prequel",
+released: new Date("2006-06-03").toISOString(),
+overview: "An Ood delivers Captain Walker's belongings to Curt, and the lights fail as the case is opened. The notebook inside burns in his hands while the monitors repeat that the Beast is awake."
 },
 {
 title: "The Satan Pit",
 season: 2,
-episode: 10,
+episode: 19,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 9 },
 released: new Date("2006-06-10").toISOString(),
 overview: "With the Beast possessing the Ood, Rose and the surviving crew members fight for their lives against the Legion of the Beast. The Doctor descends into the planet's core to confront the ancient creature, facing a choice that could mean his own demise.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E10_the_satan_pit.jpg?v=d765969d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E10_the_satan_pit.mp4?v=b03717c6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E10_the_satan_pit.srt?v=318dc848"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E19_the_satan_pit.jpg?v=d765969d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E19_the_satan_pit.mp4?v=b03717c6",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E19_the_satan_pit.srt?v=318dc848"
+},
+{
+title: "Tardisode 10",
+season: 2,
+episode: 20,
+type: "Prequel",
+released: new Date("2006-06-10").toISOString(),
+overview: "A figure in an office forces his way into the LINDA website, hunting the group who have been asking who the Doctor is. He traces them to a street, then turns on the woman bringing his tea."
 },
 {
 title: "Love & Monsters",
 season: 2,
-episode: 11,
+episode: 21,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 10 },
 released: new Date("2006-06-17").toISOString(),
 overview: "From the perspective of an ordinary man named Elton Pope, the episode shows the impact the Doctor has on the lives of those he encounters. Elton joins a group of Doctor-enthusiasts, but their hobby takes a dark turn when a mysterious man takes over their meetings.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_love__monsters.jpg?v=e202660f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_love__monsters.mp4?v=fda7f32a",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_love__monsters.srt?v=a8cc72ed"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E21_love__monsters.jpg?v=e202660f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E21_love__monsters.mp4?v=fda7f32a",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E21_love__monsters.srt?v=a8cc72ed"
 },
 {
 title: "The Genuine Article (Minisode)",
 season: 2,
-episode: 12,
+episode: 22,
 type: "Minisode",
 overview: "An old enemy corners the Doctor in what appears to be a Cardiff back alley and takes evident pleasure in explaining that it is nothing of the sort. The trap has been a long time in the building, and the Doctor is standing in it.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E12_the_genuine_article_minisode.jpg?v=67d6e7bc",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E12_the_genuine_article_minisode.mp4?v=e791d425",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E12_the_genuine_article_minisode.srt?v=77383384"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E22_the_genuine_article_minisode.jpg?v=67d6e7bc",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E22_the_genuine_article_minisode.mp4?v=e791d425",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E22_the_genuine_article_minisode.srt?v=77383384"
+},
+{
+title: "Tardisode 11",
+season: 2,
+episode: 23,
+type: "Prequel",
+released: new Date("2006-06-17").toISOString(),
+overview: "A Crimewatch-style programme appeals for news of two children who have vanished from Dame Kelly Holmes Close. In a dark room nearby a cupboard bangs open on red eyes and a voice saying it is coming."
 },
 {
 title: "Fear Her",
 season: 2,
-episode: 13,
+episode: 24,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 11 },
 released: new Date("2006-06-24").toISOString(),
 overview: "On the eve of the 2012 London Olympics, the Doctor and Rose investigate a quiet suburban street where children are mysteriously vanishing. They discover a lonely girl whose drawings can trap living people, and a hidden alien presence feeding on fear.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_fear_her.jpg?v=328bd975",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_fear_her.mp4?v=0ac909af",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_fear_her.srt?v=531ca7b4"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E24_fear_her.jpg?v=328bd975",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E24_fear_her.mp4?v=0ac909af",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E24_fear_her.srt?v=531ca7b4"
+},
+{
+title: "Tardisode 12",
+season: 2,
+episode: 25,
+type: "Prequel",
+released: new Date("2006-06-24").toISOString(),
+overview: "A reporter convinces his editor that Torchwood is the story of the century and gathers photographs of the Doctor going back to Queen Victoria. When he brings her the truth, other men are waiting."
 },
 {
 title: "Army of Ghosts",
 season: 2,
-episode: 14,
+episode: 26,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 12 },
 released: new Date("2006-07-01").toISOString(),
 overview: "Ghostly apparitions are appearing all over the world, but they are not what they seem. The Doctor traces the phenomenon to the Torchwood Institute, where he discovers an alien sphere that heralds the arrival of his deadliest enemies.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E14_army_of_ghosts.jpg?v=ddf2574a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E14_army_of_ghosts.mp4?v=8fb83379",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E14_army_of_ghosts.srt?v=c6cc0a12"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E26_army_of_ghosts.jpg?v=ddf2574a",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E26_army_of_ghosts.mp4?v=8fb83379",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E26_army_of_ghosts.srt?v=c6cc0a12"
+},
+{
+title: "Tardisode 13",
+season: 2,
+episode: 27,
+type: "Prequel",
+released: new Date("2006-07-01").toISOString(),
+overview: "A newsreader announces a state of emergency as the Cyberman invasion tears London apart and contact with the government is lost. She is still on air, telling her parents to run, when a Dalek enters the studio."
 },
 {
 title: "Doomsday",
 season: 2,
-episode: 15,
+episode: 28,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 2, episode: 13 },
 released: new Date("2006-07-08").toISOString(),
 overview: "Earth becomes the battleground for a war between the Daleks and the Cybermen. With the planet at stake, the Doctor must make a heart-wrenching sacrifice to close the void between worlds, leading to a devastating farewell.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_doomsday.jpg?v=bd664d01",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_doomsday.mp4?v=868ecac2",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_doomsday.srt?v=76648158"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E28_doomsday.jpg?v=bd664d01",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E28_doomsday.mp4?v=868ecac2",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E28_doomsday.srt?v=76648158"
 },
 {
 title: "The Runaway Bride (Special)",
 season: 2,
-episode: 16,
+episode: 29,
 type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 4 },
 released: new Date("2006-12-25").toISOString(),
 overview: "Still reeling from the loss of Rose, the Doctor is stunned when a bride named Donna Noble suddenly materialises inside the TARDIS. He must uncover how she is connected to an ancient alien plot to destroy the Earth.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E16_the_runaway_bride_special.jpg?v=c163d23c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E16_the_runaway_bride_special.mp4?v=3653825f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E16_the_runaway_bride_special.srt?v=754c21da"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E29_the_runaway_bride_special.jpg?v=c163d23c",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E29_the_runaway_bride_special.mp4?v=3653825f",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E29_the_runaway_bride_special.srt?v=754c21da"
 },
 {
 title: "Smith and Jones",
