@@ -466,7 +466,7 @@ def main():
     # the whole row and does not have to go back to the series TSV for the two
     # columns the addon actually shows a viewer.
     names = ['series\tseason\tepisode\tcategory\tstatus\ttitle\tfile_name\t'
-             'best	checked	have	released	description	note']
+             'best	checked	have	source	released	description	note']
     for t in real:
         for r in series[t['key']]:
             fn = ''
@@ -477,6 +477,7 @@ def main():
                                     r['category'], r['status'], r['title'], fn,
                                     r.get('best') or '', r.get('checked') or '',
                                     r.get('have') or '',
+                                    (r.get('source') or '').replace('	', ' '),
                                     r.get('released') or '',
                                     (r.get('description') or '').replace('\t', ' '),
                                     (r.get('note') or '').replace('\t', ' ')]))

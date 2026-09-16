@@ -165,6 +165,7 @@ def build_rows():
             ext,
             (1 if video else 0) | (2 if still else 0) | (4 if subs else 0),
             r.get('note') or '',
+            r.get('source') or '',
         ])
     return by_series
 
@@ -387,6 +388,7 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   padding:var(--s3) 0;border-bottom:1px solid var(--hair);font-size:12.5px}
 .detail .grid2 dt{font-size:11px;font-weight:700;color:var(--dim);letter-spacing:.06em}
 .detail .grid2 dd{margin:0;overflow-wrap:anywhere}
+.detail .grid2 dd.src{font-size:.85em;line-height:1.45;color:var(--mute)}
 .detail .shot{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;
   background:var(--sunk);margin-top:var(--s4);box-shadow:inset 0 0 0 1px var(--hair)}
 .detail .open{display:inline-flex;align-items:center;min-height:44px;margin-top:var(--s4);
@@ -446,7 +448,7 @@ function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c
 
 /* A row is an array; these name its slots so the rest reads as English. */
 var SEASON=0, EP=1, TITLE=2, CAT=3, STATE=4, BEST=5, CHECKED=6,
-    HAVE=7, RELEASED=8, DESC=9, FILE=10, EXT=11, ASSETS=12, NOTE=13,
+    HAVE=7, RELEASED=8, DESC=9, FILE=10, EXT=11, ASSETS=12, NOTE=13, SOURCE=14,
     SRC=14, SRCFOLDER=15;
 
 /* The name as the catalogue shows it. A season list mixes the run with the
@@ -637,6 +639,7 @@ function drawDetail(){
         return ((r[ASSETS] & p[0]) ? '' : 'no ') + p[1]; }).join(' · ') +
     '</dd></div>' +
     (r[FILE] ? '<div class="grid2"><dt>Name</dt><dd>' + esc(r[FILE]) + '</dd></div>' : '') +
+    (r[SOURCE] ? '<div class="grid2"><dt>Source</dt><dd class="src">' + esc(r[SOURCE]) + '</dd></div>' : '') +
     ((r[ASSETS] & 1) ? '<a class="open" href="' + CDN + '/' + base + r[EXT] +
       '" target="_blank" rel="noopener">Open the video file</a>' : '') +
     '</div>';

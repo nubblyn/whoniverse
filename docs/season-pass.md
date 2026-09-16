@@ -51,6 +51,7 @@ passes were running; read those two before starting a season.**
 - `best`: the copy worth getting, as **source + resolution + audio**: `1080p Blu-ray x264`, `576i DVD`, `2160p HDR WEB-DL`, `1080p YouTube, official channel`. Not the largest file in existence; everything is re-encoded for streaming, so a 40 GB remux is never the target. Merged from the old `ceiling` and `found` columns on 15 September 2026.
 - `checked`: the date the indexers were last asked. Blank means never.
 - `have`: what is **in the bucket**, as probed: `1872x1080 23.976fps AAC`. Blank means nothing in the bucket. Never a local file.
+- `source`: **where that file came from**, as `<who> | <what>`: `Panda | 1080p BluRay x265 HEVC 10bit AAC 5.1`, `get_iplayer | b007zv0y original, hlsxsd1, 960x540 50fps`, `NTb | 576i BluRay Remux DTS-HD MA 2.0 H264`, `YouTube | official @DoctorWho channel`. The release group or service, then what the file actually is. Where the copy is older than the record, say so plainly rather than guessing: `held before Sep 2026, provenance unrecorded`. Blank only where `have` is blank. It is shown on `/ledger-v2` when an episode is opened, never in the list.
 - `released`: air date, `YYYY-MM-DD`.
 - `description`: the two-sentence summary (rules in Part D). The addon's `overview` for New Who and Classic is still hand-held in `data/*.js`; the spin-offs take theirs from here.
 
@@ -848,7 +849,7 @@ on seasons 1 and 2 and had to be redone.
 | 6 | **Stills regenerated** | `.jpg` rebuilt for every video added *or replaced*, from the file that will be served |
 | 7 | **Uploaded to the bucket** | `rclone copy`, then sizes checked against the local originals |
 | 8 | **Old files kept** | `_previous/` holds anything overwritten, until the user has played one |
-| 9 | **Ledger updated** | `have` probed from the real file, `best` and `checked` from today's search, columns rectangular |
+| 9 | **Ledger updated** | `have` probed from the real file, **`source` naming the release it came from**, `best` and `checked` from today's search, columns rectangular |
 | 10 | **Addon updated** | `data/*.js` URLs, episode numbers renumbered if a row moved, `audio` flag iff Dolby |
 | 11 | **Regenerated and checked** | `bucket-index.sh` → `stamp-media --write` → `check-links` → `build.py` → `v2.py` → `viewer.py` → `build-chronology` |
 | 12 | **Deployed** | `npx vercel deploy --prod`, then the live hash compared against the local one |
@@ -881,6 +882,12 @@ drifted this way. The check is in Part D.
 
 **`missing` covers anything in scope that cannot be had**, not only wiped film. See
 Part D.
+
+**Record where every file came from.** The `source` column, filled the moment a file is
+uploaded, while it is still known. It answers the question neither `best` nor `have` can:
+what release is this, and who made it. Commit messages are not a substitute; nobody looks
+up an episode by reading git log. Seasons 1 to 4 were backfilled on 16 September 2026;
+anything older than that says so rather than inventing a provenance.
 
 **A game is not an episode.** Attack of the Graske is an interactive Red Button
 production with no linear cut. It went in on an inferred yes and came back out. When a
