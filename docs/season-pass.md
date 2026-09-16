@@ -757,6 +757,12 @@ Cheaper and certain: before the upload, `rclone copyto b2:whoniverse/new_who/sea
 b2:whoniverse/_previous/new_who/season_1/X.mp4`, and delete `_previous/` at the end of the
 season once the replacements have been opened in a client. The same for the `.srt`.
 
+**A still is always a frame from the episode's own video.** `build-stills.js` samples
+four points across the middle and scores them; that is the only way one is ever made.
+Never a promotional image, never a frame from another release, never anything fetched
+from outside. The single exception is a row with no video at all, which cannot have a
+frame taken from it and carries the shared missing-episode card instead (Part D).
+
 **Everything derived from a video is remade when that video is replaced — the still, and
 any subtitle we generated.** Both are derived from one specific file; swap the file and
 they describe something that is no longer there. Never carry a sidecar across from a

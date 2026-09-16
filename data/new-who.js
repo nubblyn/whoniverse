@@ -704,8 +704,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 1 },
 released: new Date("2008-04-05").toISOString(),
 overview: "Investigating a revolutionary weight-loss pill, the Doctor is reunited with Donna Noble, who is conducting her own inquiry into Adipose Industries. Together, they must stop a scheme that turns human fat into adorable, but potentially dangerous, alien creatures.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.jpg?v=0f04ee83",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.mp4?v=6e8d5249",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.jpg?v=82ab16e6",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.mkv?v=4b7aa457",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.srt?v=64af292a"
 },
 {
@@ -716,8 +716,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 2 },
 released: new Date("2008-04-12").toISOString(),
 overview: "The Doctor and Donna land in Pompeii on the eve of the eruption of Mount Vesuvius, a fixed point in time. They discover that the volcano's power is being harnessed by stony aliens, forcing the Doctor to decide whether to save the city or let history run its course.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.jpg?v=2334eb12",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.mp4?v=cdde4cf7",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.jpg?v=1316078f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.mkv?v=668ed705",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.srt?v=3c41731f"
 },
 {
@@ -738,8 +738,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 3 },
 released: new Date("2008-04-19").toISOString(),
 overview: "The Doctor and Donna travel to the Ood-Sphere, the home planet of the seemingly docile Ood. They uncover the horrific truth behind the Ood's servitude to humanity and must fight to liberate the species from corporate enslavement.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_planet_of_the_ood.jpg?v=cd410af4",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_planet_of_the_ood.mp4?v=1398f593",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_planet_of_the_ood.jpg?v=5a2bdf3e",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_planet_of_the_ood.mkv?v=7874b3d8",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_planet_of_the_ood.srt?v=5a5fe7f3"
 },
 {
@@ -750,8 +750,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 4 },
 released: new Date("2008-04-26").toISOString(),
 overview: "Martha Jones, now a UNIT officer, summons the Doctor back to Earth to investigate a new technology called ATMOS that is installed in cars worldwide. They discover it is a plot by the warlike Sontarans to choke the planet with poison gas.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_sontaran_stratagem.jpg?v=2a170a54",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_sontaran_stratagem.mp4?v=286859bf",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_sontaran_stratagem.jpg?v=776cc339",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_sontaran_stratagem.mkv?v=f8317153",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_sontaran_stratagem.srt?v=7d90b239"
 },
 {
@@ -762,8 +762,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 5 },
 released: new Date("2008-05-03").toISOString(),
 overview: "As the Sontarans' poison gas fills the atmosphere, the Doctor and UNIT must find a way to clear the sky and repel the invasion. With a traitor in their midst and the Sontaran fleet descending, the Doctor must make a dangerous gamble.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_poison_sky.jpg?v=147dc611",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_poison_sky.mp4?v=29302cce",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_poison_sky.jpg?v=ca9ee7c3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_poison_sky.mkv?v=c0196b8e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_poison_sky.srt?v=8ec2f6e7"
 },
 {
@@ -774,8 +774,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 6 },
 released: new Date("2008-05-10").toISOString(),
 overview: "On the planet Messaline, a cloning machine instantly creates a soldier from the Doctor's DNA: his daughter, Jenny. Thrown into a brutal war between humans and the fish-like Hath, the Doctor must come to terms with his unexpected fatherhood.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_doctors_daughter.jpg?v=85c1353d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_doctors_daughter.mp4?v=3a72636e",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_doctors_daughter.jpg?v=9d6ff2ff",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_doctors_daughter.mkv?v=2397a23c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_doctors_daughter.srt?v=6a3ba0d3"
 },
 {
@@ -786,8 +786,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 7 },
 released: new Date("2008-05-17").toISOString(),
 overview: "In 1926, the Doctor and Donna join a dinner party with famed mystery author Agatha Christie. When a murder occurs, they find themselves in a real-life whodunnit involving a jewel thief, a mysterious vicar, and a giant alien wasp.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_the_unicorn_and_the_wasp.jpg?v=5b121f02",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_the_unicorn_and_the_wasp.mp4?v=ef00fb02",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_the_unicorn_and_the_wasp.jpg?v=145d4072",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_the_unicorn_and_the_wasp.mkv?v=fb5c375e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_the_unicorn_and_the_wasp.srt?v=c12531f5"
 },
 {
@@ -798,8 +798,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 8 },
 released: new Date("2008-05-31").toISOString(),
 overview: "The Doctor and Donna arrive at The Library, a planet-sized database, only to find it deserted. They soon encounter a team of archaeologists led by the enigmatic River Song, a woman who knows the Doctor's future, and face a deadly, flesh-eating shadow.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_silence_in_the_library.jpg?v=bf5c7635",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_silence_in_the_library.mp4?v=55cdd134",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_silence_in_the_library.jpg?v=2647cac4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_silence_in_the_library.mkv?v=a238ec5c",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_silence_in_the_library.srt?v=2291271d"
 },
 {
@@ -810,8 +810,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 9 },
 released: new Date("2008-06-07").toISOString(),
 overview: "As the Vashta Nerada shadows close in, the Doctor races to save the archaeological team. Meanwhile, Donna finds herself trapped in a bizarre simulated reality, and the Doctor must come to terms with his tragic future with River Song.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_forest_of_the_dead.jpg?v=ac3b368c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_forest_of_the_dead.mp4?v=0209f747",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_forest_of_the_dead.jpg?v=0dc17e6d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_forest_of_the_dead.mkv?v=ebd2a0a7",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_forest_of_the_dead.srt?v=10533218"
 },
 {
@@ -822,8 +822,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 10 },
 released: new Date("2008-06-14").toISOString(),
 overview: "While on a leisure cruise on the diamond planet Midnight, the Doctor is trapped with a group of terrified tourists. An unseen creature from outside begins to knock, and as paranoia sets in, the greatest threat may come from within.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_midnight.jpg?v=8ab85495",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_midnight.mp4?v=0ce1613b",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_midnight.jpg?v=fd71d829",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_midnight.mkv?v=e33b5644",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_midnight.srt?v=0ca9beb6"
 },
 {
@@ -834,8 +834,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 11 },
 released: new Date("2008-06-21").toISOString(),
 overview: "A single decision in Donna's past creates a dark, alternate timeline where she never met the Doctor. As Earth spirals into chaos, a familiar face from a parallel world arrives to show Donna the importance of her journey and help set things right.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_turn_left.jpg?v=beab2df3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_turn_left.mp4?v=d25d7061",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_turn_left.jpg?v=155efaa2",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_turn_left.mkv?v=df2e764e",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_turn_left.srt?v=e2f792f1"
 },
 {
@@ -846,8 +846,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 12 },
 released: new Date("2008-06-28").toISOString(),
 overview: "Earth and 26 other planets have vanished from the universe, and the Doctor's past companions must unite to fight back. As the Doctor and Donna race to find the missing Earth, they discover it is at the heart of Davros' new Dalek empire.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_the_stolen_earth.jpg?v=ad338c58",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_the_stolen_earth.mp4?v=a3cfcb41",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_the_stolen_earth.jpg?v=71035747",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_the_stolen_earth.mkv?v=92f8f6ad",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_the_stolen_earth.srt?v=d96bac85"
 },
 {
@@ -858,8 +858,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 4, episode: 13 },
 released: new Date("2008-07-05").toISOString(),
 overview: "As Davros prepares to detonate a reality bomb that will destroy all of existence, the Doctor and his companions converge for a final battle. With sacrifices and prophecies coming to pass, the universe's fate rests on their shoulders.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_journeys_end.jpg?v=d739eb0a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_journeys_end.mp4?v=068f4948",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_journeys_end.jpg?v=220cc6ee",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_journeys_end.mkv?v=564a0d36",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_journeys_end.srt?v=ac47e527"
 },
 {
@@ -869,8 +869,9 @@ episode: 15,
 type: "Minisode",
 released: new Date("2008-07-27").toISOString(),
 overview: "The Doctor attempts to compose his 'Ode to the Universe' inside the TARDIS, only to be interrupted by a mischievous Graske. Their antics are broadcast live to the audience at the Doctor Who Proms, bridging the gap between fiction and reality.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_music_of_the_spheres_minisode.jpg?v=2c7940bd",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_music_of_the_spheres_minisode.srt?v=cc2ed257"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_music_of_the_spheres_minisode.jpg?v=8e8d5239",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_music_of_the_spheres_minisode.srt?v=cc2ed257",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_music_of_the_spheres_minisode.mp4?v=69cb7b02"
 },
 {
 title: "The Next Doctor (Special)",
@@ -902,7 +903,8 @@ season: 4,
 episode: 18,
 type: "Minisode",
 overview: "Captain Jack Harkness lets himself into the TARDIS and finds a blue-headed stranger who claims to be the Doctor, freshly regenerated. One detail is wrong, because the man is armed and the Doctor never is.",
-
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_tonights_the_night_minisode.mp4?v=64cd99d2",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_tonights_the_night_minisode.srt?v=84d96b95"
 },
 {
 title: "The Waters of Mars (Special)",
@@ -924,8 +926,9 @@ type: "Animated Series",
 imdb: { id: "tt0436992", season: 0, episode: 15 },
 released: new Date("2009-11-21").toISOString(),
 overview: "In this animated adventure, the Doctor lands in the Nevada desert in 1958 and uncovers a sinister alien conspiracy at the infamous Area 51. He must team up with two local diner workers to stop the Men in Black and their reptilian masters.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E20_dreamland_animated_series.jpg?v=6c614acc",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E20_dreamland_animated_series.srt?v=827f75ff"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E20_dreamland_animated_series.jpg?v=96af44ed",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E20_dreamland_animated_series.srt?v=827f75ff",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E20_dreamland_animated_series.mp4?v=d6e39832"
 },
 {
 title: "A Ghost Story for Christmas (Minisode)",
