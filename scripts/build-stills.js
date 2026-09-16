@@ -1,6 +1,14 @@
 // Episode stills, pulled from the video files themselves.
 //
 //   node scripts/build-stills.js <folder> [--force]
+//   node scripts/build-stills.js --urls <file> --out <dir> [--force]
+//
+// The --urls form reads one bucket URL a line and writes <stem>.jpg into --out.
+// ffmpeg range-requests an mp4 with moov at the front, so seeking to four
+// sample points in a 1.5GB episode costs about three seconds and a few MB, not
+// a download. That is what makes it practical to redo the stills of a season
+// whose files have already been uploaded and deleted locally, which is the
+// usual case when a video is replaced rather than added.
 //
 // Writes <episode>.jpg beside each video: 1280x720 JPEG, centre-cropped, which
 // is what the 239 New Who stills already on the CDN are. Sources that are not
@@ -31,21 +39,43 @@ function tool(name) {
 const ffprobe = tool('ffprobe');
 const ffmpeg = tool('ffmpeg');
 
-const root = process.argv[2];
 const force = process.argv.includes('--force');
-if (!root || !fs.existsSync(root)) {
+const argOf = (flag) => {
+  const i = process.argv.indexOf(flag);
+  return i === -1 ? null : process.argv[i + 1];
+};
+const urlList = argOf('--urls');
+const outDir = argOf('--out');
+const root = process.argv[2] && !process.argv[2].startsWith('--') ? process.argv[2] : null;
+if (!urlList && (!root || !fs.existsSync(root))) {
   console.error('usage: node scripts/build-stills.js <folder> [--force]');
+  console.error('       node scripts/build-stills.js --urls <file> --out <dir> [--force]');
+  process.exit(1);
+}
+if (urlList && !outDir) {
+  console.error('--urls needs --out <dir>');
   process.exit(1);
 }
 
+// Each entry is [source ffmpeg can open, where the .jpg goes].
 const videos = [];
-(function walk(d) {
-  for (const f of fs.readdirSync(d).sort()) {
-    const p = path.join(d, f);
-    if (fs.statSync(p).isDirectory()) walk(p);
-    else if (VIDEO.has(path.extname(f).toLowerCase())) videos.push(p);
+if (urlList) {
+  fs.mkdirSync(outDir, { recursive: true });
+  for (const line of fs.readFileSync(urlList, 'utf8').split(/\r?\n/)) {
+    const url = line.trim();
+    if (!url || url.startsWith('#')) continue;
+    const stem = decodeURIComponent(url.split('?')[0].split('/').pop()).replace(/\.[^.]+$/, '');
+    videos.push([url, path.join(outDir, `${stem}.jpg`)]);
   }
-})(root);
+} else {
+  (function walk(d) {
+    for (const f of fs.readdirSync(d).sort()) {
+      const p = path.join(d, f);
+      if (fs.statSync(p).isDirectory()) walk(p);
+      else if (VIDEO.has(path.extname(f).toLowerCase())) videos.push([p, p.replace(/\.[^.]+$/, '.jpg')]);
+    }
+  })(root);
+}
 
 // iw*sar corrects anamorphic SD, where a 720x576 frame is really 16:9.
 const FILTER = `scale=iw*sar:ih,scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1`;
@@ -69,8 +99,7 @@ async function score(buf) {
 
 async function main() {
   let built = 0, kept = 0, failed = 0;
-  for (const video of videos) {
-    const out = video.replace(/\.[^.]+$/, '.jpg');
+  for (const [video, out] of videos) {
     if (fs.existsSync(out) && !force) { kept += 1; continue; }
     const total = duration(video);
     if (!total) { failed += 1; console.log(`  no duration   ${path.basename(video)}`); continue; }

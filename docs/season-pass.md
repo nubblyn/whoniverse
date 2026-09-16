@@ -25,6 +25,9 @@ This document is written so a fresh session can run a season without asking wher
 anything is. Part A maps the moving parts. Part B is the toolbox, one entry per tool.
 Part C is where episodes and their facts live. Part D is the rules the files must meet.
 Part E is the eight steps with the exact commands. Part F is season 1 as it stands.
+Part G is what changes when a season is replaced rather than added. **Part H is the
+checklist every finished season reports against, and Part I the rules settled while the
+passes were running; read those two before starting a season.**
 
 ---
 
@@ -705,9 +708,27 @@ Cheaper and certain: before the upload, `rclone copyto b2:whoniverse/new_who/sea
 b2:whoniverse/_previous/new_who/season_1/X.mp4`, and delete `_previous/` at the end of the
 season once the replacements have been opened in a client. The same for the `.srt`.
 
-**Stills.** A replaced video keeps its still unless the frame is wrong for the new cut;
-the hash stamp already changes the URL, so nothing needs re-fetching. Regenerate only
-where the old one was bad.
+**Stills. Always regenerate them when the video is replaced.** This used to say that a
+replaced video keeps its still when the cut has not changed, which is true of the frame
+and wrong as a rule: the still is part of the episode, and a new encode means a new
+still, so the picture a viewer sees in the list comes from the file they will actually
+play. If the video changed, everything shipped beside it changes with it.
+
+The files are usually gone from disk by the time this comes up, because they are deleted
+after upload. That does not mean re-downloading a season:
+
+```
+node scripts/build-stills.js --urls <file of bucket urls> --out <dir> --force
+```
+
+ffmpeg range-requests an mp4 whose `moov` is at the front, so four sample points in a
+1.5 GB episode cost about three seconds and a few MB. Thirty-two stills of seasons 1 and
+2 were rebuilt straight from the bucket this way, with nothing downloaded.
+
+Two traps. Run it on a folder holding both the `.mkv` sources and the remuxed `.mp4` and
+every episode is done twice, writing the same `.jpg` from each; delete the sources first.
+And `--force` is required, or it skips every stem that already has one, which is all of
+them.
 
 **The stream label.** `lib/streams.js` reads `episode.quality` into the stream name
 (`Whoniverse
@@ -729,7 +750,109 @@ working on.
 
 ---
 
-## H. Loose ends from before this plan, not to be picked up out of turn
+## H. The closing checklist, one per season
+
+Every finished season ends with this, filled in, in the report to the user. Not a
+summary in prose: the list, with what actually happened against each line, and "n/a"
+where a line does not apply. It exists because a season touches seven things and it is
+easy to do six of them and believe you are finished. Stills were missed exactly that way
+on seasons 1 and 2 and had to be redone.
+
+| | Line | Done when |
+| --- | --- | --- |
+| 1 | **Rows reconciled** | ledger ↔ addon ↔ bucket agree; row list checked against the four references; candidates proposed, not added |
+| 2 | **Videos downloaded** | every file named, with its source and release group |
+| 3 | **Videos remuxed** | `remux.js`; hvc1, faststart, PGS/chapters/data dropped, commentary kept |
+| 4 | **Videos verified** | tag, depth, cadence, channel order, no stray streams, before upload |
+| 5 | **Subtitles** | taken from the file's own track, or Whisper for a generated one. A track that came with an official upload or a rip is left **intact** |
+| 6 | **Stills regenerated** | `.jpg` rebuilt for every video added *or replaced*, from the file that will be served |
+| 7 | **Uploaded to the bucket** | `rclone copy`, then sizes checked against the local originals |
+| 8 | **Old files kept** | `_previous/` holds anything overwritten, until the user has played one |
+| 9 | **Ledger updated** | `have` probed from the real file, `best` and `checked` from today's search, columns rectangular |
+| 10 | **Addon updated** | `data/*.js` URLs, episode numbers renumbered if a row moved, `audio` flag iff Dolby |
+| 11 | **Regenerated and checked** | `bucket-index.sh` → `stamp-media --write` → `check-links` → `build.py` → `v2.py` → `viewer.py` → `build-chronology` |
+| 12 | **Deployed** | `npx vercel deploy --prod`, then the live hash compared against the local one |
+| 13 | **Cleaned up** | superseded bucket names deleted, local sources and uploaded copies deleted, torrents removed |
+| 14 | **Committed** | one commit naming the season |
+
+Lines 12 and 13 are the two that get stranded. A deploy that did not take is invisible
+until the live hash is compared with the local one, and it has silently not taken once
+already; **check it, do not assume it.** Superseded bucket names are only safe to delete
+*after* the deploy, never before.
+
+---
+
+## I. Rules settled while the passes were running
+
+Each of these came out of a real mistake or a decision made mid-pass, and each is a
+standing rule now.
+
+**Subtitles that came with the file are never edited.** Only generated ones are. A rip's
+`.srt` and an official upload's own track are both finished work: the speaker labels,
+the dash-space turns, the ellipses are theirs. Born Again's BBC track was house-styled
+and had to be put back. Whisper output is ours and does get cleaned. The one edit
+allowed on a supplied track is dropping cues that fall outside a trim, because they
+describe content the file no longer contains.
+
+**Adding or removing a row renumbers the season, and the data file has to follow.**
+`build.py` derives the episode number from row order, so an insert shifts every stem
+below it; `data/*.js` does not update itself. Nine entries across seasons 6, 7 and 8 had
+drifted this way. The check is in Part D.
+
+**`missing` covers anything in scope that cannot be had**, not only wiped film. See
+Part D.
+
+**A game is not an episode.** Attack of the Graske is an interactive Red Button
+production with no linear cut. It went in on an inferred yes and came back out. When a
+decision list has a trailing "the same applies to X", X is a separate question: ask it.
+
+**Panda is the first choice for New Who seasons 1 to 12, and the search still runs.**
+The 15 September restore replaced 10-bit AAC 5.1 files with 8-bit stereo across seasons
+1 to 13; Panda is the encode that was there before. Probing it beat reasoning about it
+three times running. The full search still happens every season, because the answer is
+not guaranteed to hold.
+
+**Panda files a Christmas special with the season that follows it**, as `S00Exx`, while
+the catalogue attaches it to the run before. So The Christmas Invasion (our 1x16) is in
+Panda's season 2 pack and The Runaway Bride (our 2x29) is in season 3's; Voyage of the
+Damned (3x17) and the 2008-2010 specials are all in season 4's. Pull the single file out
+of the neighbouring pack rather than looking for a standalone release.
+
+**Match release files on the full name, never on a bare `SxxExx`.** Panda's packs carry
+*Doctor Who Confidential* episodes with the same codes; matching loosely let six of them
+overwrite real episodes during staging. Match
+`^Doctor Who \(2005\) - SxxExx - .* \(1080p BluRay x265 Panda\)\.mkv$`, and assert that
+no destination already exists before moving.
+
+**Drive `rclone` from Python, not from a shell loop over a generated file.** A list
+written in Windows text mode gives every line a trailing `\r`, which becomes part of the
+object name: 24 objects were created as `...the_long_game␍.mp4`. `rclone lsf` renders
+that CR as `␍` (U+240D), so a byte scan for `\r` finds nothing and the names look fine.
+
+**A rename in the bucket is a copy, then a delete after the deploy.** Never a move: the
+live addon points at the old names until the new data is deployed.
+
+**`probe-media.js <series> <season>` overwrites the whole probe file** with just that
+season. Restore it from git afterwards. The committed `data/media-probe.json` is the only
+record of what the bucket held before 15 September and is worth keeping intact.
+
+**`scripts/build-thumbs.js` is dead.** It writes to `art-cdn/thumbs/` and points at an
+`art/thumbs/` prefix that does not exist in this bucket; nothing in `lib/` reads it. Art
+lives in each series folder (`new_who/new_who_background.jpg`) with `addon-logo.png` at
+the root, and the per-episode image is the `.jpg` still beside the video. Do not run it,
+and do not confuse it with stills.
+
+**get_iplayer media is still 403 from this connection**, confirmed again on
+16 September; only `--verbose` shows it. Metadata works. The Infinite Quest is also no
+longer in the Doctor Who brand listing, so even the metadata route is gone for it.
+
+**`PYTHONIOENCODING=utf-8` on every python call in Git Bash**, or `build.py` dies
+printing a tab name with an emoji in it. `pq.py` throws the same error on a broken pipe
+under `head`, which is not a failure of the search.
+
+---
+
+## J. Loose ends from before this plan, not to be picked up out of turn
 
 - **Built, verified, not uploaded**, in `~/Downloads/content/new_who/`: *Daleks!*
   (S12_E14, five parts concatenated, 3.05 GB 1080p60 H.264, 573 cues), *The Runaway*
