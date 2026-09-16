@@ -264,8 +264,10 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
 - **Stills**: `node scripts/build-stills.js <folder> [--force]` writes `<stem>.jpg` beside
   each video: 1280x720 centre-cropped JPEG, frame chosen by sampling four points across
   the middle 80% and scoring brightness and variance, so no title cards or credits.
-- **Thumbnails** (the website's 320x180 WebP): `npm run thumbs` reads the stills from the
-  CDN into `art-cdn/thumbs/`, then `npm run art:upload`. Skips what exists.
+- **Thumbnails**: there are none, and `npm run thumbs` is **not to be run**. It drives
+  `scripts/build-thumbs.js`, which writes to `art-cdn/thumbs/` and points at an `art/thumbs/`
+  prefix this bucket does not have; nothing in `lib/` reads it. The per-episode image is the
+  `.jpg` still beside the video, and that is the only one. See Part I.
 - **Cadence sanity on a candidate pack**: pull one file, probe it, before downloading the
   rest. No torrent listing states a frame rate.
 
@@ -333,9 +335,9 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
 
 ### Subtitle Edit 5.1 and MKVToolNix
 
-- Subtitle Edit is GUI only as installed (no `seconv`; `/convert` does nothing). Use
-  Tools → Batch Convert for OCR of PGS/VobSub, which is what every disc rip carries.
-  The spin-offs and the Classic Blu-ray rips need this; New Who mostly does not.
+- Subtitle Edit is installed and **is not used**. We never OCR (Part D), so the Batch
+  Convert route for PGS/VobSub that earlier versions of this document recommended is not
+  a step in any pass. A bitmap track stays a bitmap track, inside the file it came in.
 - `mkvmerge`/`mkvextract` on PATH for pulling tracks out of MKVs when ffmpeg's mapping is
   awkward.
 
@@ -348,7 +350,7 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
 | `scripts/probe-subtitles.js [series]` | which bucket videos carry embedded text tracks; writes `data/subtitles.json`, which the ledger reads | step 3 |
 | `scripts/remux.js <folder> --write [--replace] [--out dir]` | MKV → MP4 the right way | step 7 |
 | `scripts/build-stills.js <folder> [--force]` | the .jpg beside each video | step 7 |
-| `npm run thumbs` then `npm run art:upload` | website thumbnails from the CDN stills | step 7, after upload |
+| `npm run thumbs` | **dead, do not run**: writes `art-cdn/thumbs/` for an `art/thumbs/` prefix that does not exist here | never |
 | `scripts/stamp-media.js [--write]` | puts each bucket file's SHA1 in its URLs; dry run doubles as a drift check | after every upload |
 | `scripts/check-links.js` | one byte from every URL in New Who; 740 in 47 s | after stamping |
 | `scripts/bucket-index.sh` | the bucket listing for the ledger and the site | after every upload or delete |
@@ -391,7 +393,7 @@ The originals sit in the session scratchpad
 | **Official Doctor Who YouTube channel** | minisodes, Lockdown shorts, animated serials (Daleks!, The Runaway), Children in Need pieces, A Ghost Story for Christmas, 'Twas the Night | `python -m yt_dlp` | renamed uploads; VP9/AV1 need re-encoding; 360° video plays flat |
 | **BBC iPlayer** | the only clean 25fps source for anything, and the only HD for 53 Classic animations | get_iplayer | **works from here**; try it first for any gap |
 | **Internet Archive** | Classic DVD ISOs (`doctor-who-season-1-dvd`, `DoctorWhoLostInTime` NTSC, `doctor-who-galaxy-4-region-free`…), the Wilderness webcast reconstructions (`doctor-who-bbci-webcasts-death-comes-to-time-real-time-shada`), 614 Classic .srt (`doctor-who-1963_20251231`) | `rclone` has an IA backend; `scripts/mirror-archive.sh` | no Blu-ray sets there; "1280x720" webcasts are upscales; every complete-run item is a mixed compilation |
-| **Discs** | Doctor Who: The Collection Blu-rays (19 of 26 Classic seasons), the 2023 New Who 1-4 upscale box set (25fps, the fix for the 23.976 problem), spin-off Blu-rays | buy, rip with MakeMKV, OCR the PGS | the only route for Classic HD; UK Region B avoids the 60i US conversions |
+| **Discs** | Doctor Who: The Collection Blu-rays (19 of 26 Classic seasons), the 2023 New Who 1-4 upscale box set (25fps, the fix for the 23.976 problem), spin-off Blu-rays | buy, rip with MakeMKV, ship the PGS as it is | the only route for Classic HD; UK Region B avoids the 60i US conversions |
 | **Disney+ / iPlayer 2160p** | the 2023+ HDR masters | rips via Prowlarr only | HDR needs tone mapping; no UHD disc exists |
 | **The BBC webcast pages** | nothing: the players are RealPlayer and the media host is gone | | |
 
@@ -481,7 +483,7 @@ inside it exactly as the encoder built them.
 | SDR | HDR sources tone-mapped, never just scaled | grey picture otherwise |
 | size | whatever the release is | |
 | name | from `file-names.tsv`, exactly | the still and subtitle match the video by stem |
-| beside it | `<stem>.jpg` 1280x720; `<stem>.srt` only when the file carries no subtitles of its own | |
+| beside it | `<stem>.jpg` 1280x720; `<stem>.srt` **only when the file carries no subtitles of its own**, bitmap tracks counting as its own, and an existing sidecar is deleted when a replacement brings its own | a sidecar beside a file that already has subtitles is a second, foreign version of them |
 
 The only thing still worth checking before upload is that it **streams**: open it from the
 bucket and confirm it starts without downloading the whole file first.
@@ -626,12 +628,29 @@ Changes: ledger `have`.
 
 ### 3. Sidecars  (audit)
 
-`bucket-index.txt` shows `.jpg` and `.srt` per stem. Missing ones are jobs. Then
-`node scripts/probe-subtitles.js new-who` for embedded tracks, and open two `.srt` at
-random (`curl -s <url> | head -40`) against the subtitle rules. Stripped SDH, UK spelling,
-two lines, 42 chars, dash-no-space.
+`bucket-index.txt` shows `.jpg` and `.srt` per stem. A missing one is a job, and so is
+**a `.srt` sitting beside a video that carries its own subtitle track**: that sidecar
+does not belong there and step 7 removes it. Both directions have to be checked, because
+only one of them looks like a hole.
 
-Changes: none yet; a list of sidecar jobs for step 7.
+Probe rather than assume, per file, because a season is not all one release:
+
+```
+ffprobe -v error -select_streams s -show_entries stream=codec_name:stream_tags=language   -of json "<bucket url>"
+```
+
+A bitmap track counts. PGS and VobSub are what the disc shipped, they are the original,
+and the MKV is `notWebReady` whatever we do, so the browser player was never the audience.
+
+`node scripts/probe-subtitles.js new-who` answers the narrower question of which files
+carry **text** tracks and writes `data/subtitles.json` for the ledger; it is not the test
+for whether a sidecar belongs.
+
+Only a **generated** sidecar is read against the subtitle rules (`curl -s <url> | head -40`;
+stripped SDH, UK spelling, two lines, 42 chars, dash-no-space). A supplied one is never
+edited, so auditing it against house style asks a question with no permitted answer.
+
+Changes: none yet; a list of sidecar jobs for step 7, additions and removals both.
 
 ### 4. Addon metadata  (audit)
 
@@ -695,22 +714,46 @@ Changes: ledger `best`, `checked`.
 
 1. Download: magnets into qBittorrent or TorBox; zips through the watcher
    (`bash scripts/media/unzip-watcher.sh`, one instance, path fix applied); YouTube via `python -m yt_dlp`.
-2. Probe the real file: cadence, resolution, audio, subtitle streams.
-3. Make the MP4: `node scripts/remux.js <folder> --write` when codec fits; the NVENC
-   encode line for VP9/AV1; the tone-map line for HDR. Name it from `file-names.tsv`.
-4. Subtitles, in the Part D order: `ffprobe` the new file's subtitle streams first;
-   extract the plain English text track (`-map 0:s:<n> -c:s srt`), or OCR the PGS one;
-   only if there is none, retime the old `.srt` (Part G) or run Whisper → `clean.py` →
-   `srtify.py`. Then the house rules.
-5. Still: `node scripts/build-stills.js <folder>`.
-6. `python scripts/ledger/ready.py` on the folder: hvc1, faststart, audio flag, srt is text.
-7. Upload: `rclone copy <folder> b2:whoniverse/new_who/ --include "season_1/**"`.
-8. `bash scripts/bucket-index.sh`.
-9. Entry: URLs in (pattern in `fill_urls.py`: gate on the bucket), `audio` flag if needed,
+   Match pack files on the full release name, never a bare `SxxExx` (Part I).
+2. Probe the real file: cadence, resolution, audio codec and channels, **and subtitle
+   streams**. Everything below reads off this probe, so do it once and write it down.
+3. **Rename to the stem from `file-names.tsv`. That is the whole of the file work.**
+   No remux, no transcode, no repackage, no container change: Part D. The three
+   exceptions there are the only reasons to touch the bytes, and each one is the user's
+   call before it is done, not after.
+4. Subtitles. The release's own tracks stay inside the file, in whatever format they
+   came. Then the sidecar follows from the probe in 2, and there are only two cases:
+   - **The file carries a subtitle track of any kind, text or bitmap: there is no
+     sidecar.** If the bucket holds one from the file being replaced, that is a removal:
+     drop `subtitleUrl` from the entry in this commit, and delete the object in step 8
+     after the deploy. A sidecar from a different release is still a removal, however
+     well its timings happen to line up.
+   - **The file carries none at all:** generate one. Whisper → `clean.py` → `srtify.py`
+     with the season's `initial_prompt`, then the house rules in Part D. A generated
+     sidecar belongs to one file and is regenerated whenever that video changes.
+
+   Never extract, never OCR, never normalise, never house-style a supplied track.
+5. Still: `node scripts/build-stills.js <folder> --force`, for every video added **or
+   replaced**, from the file that will be served. Run it on a folder holding only those
+   files, or each episode is done twice.
+6. Upload: `rclone copy <folder> b2:whoniverse/new_who/ --include "season_1/**"`, then
+   `rclone check <folder> <dest> --size-only` and read the matching count.
+7. `bash scripts/bucket-index.sh`.
+8. Entry: URLs in (pattern in `fill_urls.py`: gate on the bucket), `audio` flag iff the
+   audio is not AAC or MP3, `subtitleUrl` only where a sidecar legitimately exists,
    `node scripts/stamp-media.js --write`, `node scripts/check-links.js` → `failed 0`.
-10. `npm run thumbs && npm run art:upload` for the website list.
-11. Ledger `have` from the probe of the uploaded file; local copy deleted once the bucket
-    holds it.
+9. Ledger: `have` from the probe of the uploaded file, `source` naming the release it
+   came from, `best` and `checked` from this season's search.
+10. **Superseded bucket names are deleted in step 8, after the deploy, never here.**
+    That covers the old video under a different extension and any sidecar that no longer
+    belongs. Until the deploy lands, the live addon still points at them.
+11. Local sources and staged copies deleted once the bucket holds them; torrents removed,
+    unless a neighbouring season needs a file from the same pack.
+
+`scripts/remux.js` and `python scripts/ledger/ready.py` belong to the MP4 era and are not
+part of this step: `ready.py` checks `hvc1` tagging and faststart, which are MP4
+properties, and a shipped MKV has neither. `npm run thumbs` is not part of it either,
+because it runs `scripts/build-thumbs.js`, which Part I records as dead.
 
 ### 8. Publish  (act)
 
@@ -762,9 +805,11 @@ to the held file; drop it beside the new one and it drifts by two seconds a minu
 forty-five seconds by the end.
 
 The clean answer is not to reuse them: **a disc or WEB-DL rip carries its own subtitle
-track, timed to that file.** Probe for it first (`ffprobe -select_streams s`), extract it
-(text) or OCR it (PGS), and the timing problem does not arise. That is a real reason to
-weight disc and WEB-DL sources above a broadcast capture of equal picture.
+track, timed to that file.** Probe for it first (`ffprobe -select_streams s`) and ship it
+inside the file exactly as it came, bitmap or text, and the timing problem does not arise.
+Nothing is extracted and nothing is OCR'd. The old sidecar is then not retimed but
+**deleted**, because the file it belonged to is gone and the new file has its own. That is
+a real reason to weight disc and WEB-DL sources above a broadcast capture of equal picture.
 
 Only when the new file has no track at all, retime the old `.srt`: a linear scale of
 every timestamp by 23.976 / 25 = 0.95904 (going from 23.976 to 25), then open the new
