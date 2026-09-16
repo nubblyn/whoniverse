@@ -9830,7 +9830,8 @@ const episodes = [
   type: "Animated Series",
   released: "2007-04-29T00:00:00.000Z",
   overview: "The Doctor and Martha embark on an animated adventure across the galaxy to find the location of the legendary lost starship, the Infinite. They must outwit the evil Baltazar, who seeks the ship's power to grant his heart's desire: control of the universe.",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.jpg?v=7f4856bb",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.jpg?v=6edf292b",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.mp4?v=cc50db57",
   subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.srt?v=19444a45",
 },
 {
