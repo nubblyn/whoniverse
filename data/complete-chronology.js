@@ -9335,6 +9335,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-04-01T00:00:00.000Z",
   overview: "Novice Hame films a commercial for the New New York Hospital, promising viewers that the Sisters of Plenitude never lose a patient. A scream from somewhere behind her cuts the recording short.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "New Earth",
@@ -9354,6 +9355,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-04-15T00:00:00.000Z",
   overview: "Three hundred years after a meteor falls on a Scottish moor, a crofter walking home hears something growling in the grass behind him. He turns to face whatever came down with it.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "Tooth and Claw",
@@ -9373,6 +9375,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-04-22T00:00:00.000Z",
   overview: "Mickey trawls a UFO sightings site from an internet cafe and finds his search blocked by a notice naming Torchwood. He calls Rose for help, having traced strange lights to a London school.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "School Reunion",
@@ -9392,6 +9395,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-04-29T00:00:00.000Z",
   overview: "An ion storm tears through the SS Madame de Pompadour, leaving one pilot dead and the other alone in a cockpit lit red. Something ticks in the dark beyond her, and a clock face cracks.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "The Girl in the Fireplace",
@@ -9411,6 +9415,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-05-06T00:00:00.000Z",
   overview: "A Preacher briefing calls every agent into action against Cybus Industries and the thousands of people missing from its records. Ricky Smith drives away as the radio promises the ultimate upgrade.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "Rise of the Cybermen",
@@ -9430,6 +9435,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-05-13T00:00:00.000Z",
   overview: "John Lumic orders the upgrade of humanity to begin across the world, illustrated by a diagram of skin becoming metal. His Cybermen are told to delete anyone the process cannot convert.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "The Age of Steel",
@@ -9449,6 +9455,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-05-20T00:00:00.000Z",
   overview: "Grandma Connolly settles down in front of her newly installed television as red lightning reaches out of the screen towards her. When she strikes the set, the light goes for her face.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "The Idiot's Lantern",
@@ -9468,6 +9475,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-05-27T00:00:00.000Z",
   overview: "A woman in a suit sends Captain Walker to a planet impossibly orbiting a black hole, offering him a top-class ship and the chance to save the Empire. As he leaves, an Ood tells him the Beast will rise from the pit.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "The Impossible Planet",
@@ -9487,6 +9495,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-06-03T00:00:00.000Z",
   overview: "An Ood delivers Captain Walker's belongings to Curt, and the lights fail as the case is opened. The notebook inside burns in his hands while the monitors repeat that the Beast is awake.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "The Satan Pit",
@@ -9506,6 +9515,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-06-10T00:00:00.000Z",
   overview: "A figure in an office forces his way into the LINDA website, hunting the group who have been asking who the Doctor is. He traces them to a street, then turns on the woman bringing his tea.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "Love & Monsters",
@@ -9525,6 +9535,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-06-17T00:00:00.000Z",
   overview: "A Crimewatch-style programme appeals for news of two children who have vanished from Dame Kelly Holmes Close. In a dark room nearby a cupboard bangs open on red eyes and a voice saying it is coming.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "Fear Her",
@@ -9544,6 +9555,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-06-24T00:00:00.000Z",
   overview: "A reporter convinces his editor that Torchwood is the story of the century and gathers photographs of the Doctor going back to Queen Victoria. When he brings her the truth, other men are waiting.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "Army of Ghosts",
@@ -9563,6 +9575,7 @@ const episodes = [
   type: "Prequel",
   released: "2006-07-01T00:00:00.000Z",
   overview: "A newsreader announces a state of emergency as the Cyberman invasion tears London apart and contact with the government is lost. She is still on air, telling her parents to run, when a Dalek enters the studio.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "Doomsday",
@@ -10842,6 +10855,7 @@ const episodes = [
   episode: 861,
   type: "Minisode",
   overview: "Captain Jack Harkness sets out what is known about the Weeping Angels while Julia Hardwick works through papers suggesting she once lived a century before she was born. The trail she is following leads her towards a churchyard after dark.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d",
 },
 {
   title: "The End of Time: Part One (Special)",

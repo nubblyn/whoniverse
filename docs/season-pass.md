@@ -408,6 +408,13 @@ What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doct
   do not renumber without flagging (video ids).
 - Wiped episodes stay as rows, `status: missing`, with a `note`; animated restorations
   take the episode's place as `Animated Restoration`.
+- **A `missing` row with no file gets the shared missing-episode card** as its
+  `thumbnail`: `https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg`, 1280x720 to
+  match every other still. One file at the bucket root, used by every such row, stamped
+  like any other URL. It applies only where `status` is `missing` **and** there is no
+  video: a row that is `ok` but simply not fetched yet is pending work, not a missing
+  episode, and must not carry the card. Fourteen rows use it today, the 13 Tardisodes and
+  A Ghost Story for Christmas; 35 others have no video and correctly do not.
 - **`missing` is for anything in scope that cannot be had, not only wiped film.** New Who
   carried no `missing` rows at all while Classic carried 42, so fourteen items that exist
   and have no legitimate source were simply absent rather than recorded: the 13 Tardisodes
@@ -432,47 +439,89 @@ What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doct
 
 ### The file
 
+**Ship the encoder's file. Do not remux, do not transcode, do not repackage.** Rename it
+to the stem from `file-names.tsv`, check that it streams, upload it. That is the whole
+job. This replaced a rule that required MP4 with `moov` first and a remux of everything;
+the remux was buying container tidiness at the cost of throwing away what the release
+actually shipped, above all its subtitles.
+
+Keep the container it came in. An MKV stays an MKV, with its PGS or VobSub or SRT tracks
+inside it exactly as the encoder built them.
+
 | | Rule | Why |
 | --- | --- | --- |
 | frame rate | 25 (or native 50) | anything else is a converted master and nothing recovers it. Exception: the 1996 TV Movie at 24 |
 | resolution | what `best` says; 1920x960 is a full 1080-class frame for Series 11-13 and Land and Sea (2.00:1), not a shortfall | |
-| video | H.264, or HEVC tagged `hvc1` | Apple refuses `hev1` |
-| container | MP4, `moov` first | otherwise a round trip before playback |
-| audio | AAC, or the entry carries `audio: "E-AC-3"` / `"AC-3"` | browsers play Dolby silent, with no error |
+| container | **as it came** | the original wins; see above |
+| video | **as it came** | |
+| audio | **as it came**; the entry carries `audio: "E-AC-3"` / `"AC-3"` / `"DTS"` when it is not AAC or MP3 | browsers play those silent with no error, so the flag tells the client |
 | SDR | HDR sources tone-mapped, never just scaled | grey picture otherwise |
-| size | in the neighbourhood of the season's siblings; roughly 1-3 GB an episode at 1080p | over 512 MB nothing caches anyway; 45 GB masters are not for streaming |
+| size | whatever the release is | |
 | name | from `file-names.tsv`, exactly | the still and subtitle match the video by stem |
-| beside it | `<stem>.jpg` 1280x720, `<stem>.srt` | |
+| beside it | `<stem>.jpg` 1280x720; `<stem>.srt` only when the file carries no subtitles of its own | |
 
-The 239 older New Who files are `hev1` with `moov` at the end and were left alone
-deliberately (rewriting 305 GB for no picture gain). New material gets it right; do not
-"fix" the old ones in passing.
+The only thing still worth checking before upload is that it **streams**: open it from the
+bucket and confirm it starts without downloading the whole file first.
+
+**The three exceptions, and there are only three.** Everything else ships untouched.
+
+1. **The episode only exists inside a larger programme.** Music of the Spheres is a
+   segment of the 2008 Proms, The Boy Who Saved the Proms of the 2010 one. There is no
+   release of the minisode on its own, so it has to be cut out and re-encoded. Find the
+   in and out points frame by frame and have the user confirm them: the first attempt at
+   Music of the Spheres began 65 seconds early, on a presenter link rather than the piece.
+   A good check afterwards is the running time against whatever the row held before.
+2. **The container cannot carry what is in it.** Nothing else fits here today, and if it
+   comes up, ask before converting.
+3. **HDR that must be tone-mapped** for SDR clients, per the entry in Part B.
+
+**Do not transcode audio to please a web browser.** The desktop, TV and mobile clients
+decode DTS, AC-3, E-AC-3 and TrueHD perfectly well; only the browser player cannot, and
+the browser player is not what this catalogue is for. Keep the track the encoder shipped
+and set `audio:` on the entry so `lib/streams.js` marks the stream not-web-ready. Time
+Crash was transcoded from DTS-HD MA to AAC for exactly this bad reason and had to be
+redone.
+
+**Everything derived from a video is remade when that video is replaced.** The still and,
+where we generated one, the subtitle both come out of a specific file; swap the file and
+they are derived from something that is no longer there. Regenerate rather than reuse,
+and never carry a sidecar across from a file that has been replaced. See Part G.
 
 ### Subtitles
 
+**The original wins, always, whatever format it is.** PGS, VobSub, SRT: whatever the
+release ships is what we ship, inside the file it came in. It is not converted, not
+extracted, not normalised, not house-styled, not cleaned. It is already finished work by
+people who had the broadcast in front of them.
+
+**We never OCR.** Not with Subtitle Edit, not with anything. A bitmap track stays a
+bitmap track.
+
+The house rules below apply to **generated** subtitles only, and a subtitle is only
+generated when the file carries none at all:
+
 - Dialogue only: hearing-impaired cues stripped (`[door creaks]`, `(BREATHING SHAKILY)`),
-  no speaker labels, no `<font>` or other markup. Off-screen italics cannot be recovered
-  from text sources and are not attempted.
-- **UK spelling** throughout; OCR damage and misspellings fixed; the show's proper nouns
-  spelled the show's way (TARDIS, Gallifrey, Sontaran).
+  no speaker labels, no `<font>` or other markup.
+- **UK spelling** throughout; the show's proper nouns spelled the show's way (TARDIS,
+  Gallifrey, Sontaran).
 - At most **two lines**, at most **42 characters** a line. On screen 0.8 s to 7 s. Reading
   speed under 25 characters a second. No overlapping cues; cues in order.
 - Two speakers in one cue: a dash on **every** line, **no space after it**
   (`-Oh, sweetheart.`). A single speaker gets no dash even when the speaker changed from
-  the previous cue; the new cue is the signal. This is what the discs do.
-- Byte order marks and CRLF preserved as found.
-- Prefer, in order: **the new file's own English track**, because it is timed to that
-  exact cut and cadence (a WEB-DL carries subrip text, take the plain one not the SDH;
-  a disc rip carries PGS bitmaps, OCR them in Subtitle Edit → Tools → Batch Convert, then
-  fix what OCR got wrong); then the existing `.srt` retimed to the new file (Part G);
-  then a Whisper transcription through `clean.py` → `srtify.py`; never YouTube
-  auto-captions as they come. Whatever the source, the output goes through the house
-  rules above: strip SDH cues, UK spelling, two lines, 42 characters, dash-no-space.
-- This is one more reason to prefer a disc or WEB-DL source over a broadcast capture
-  when the picture is otherwise equal: it brings its own subtitles.
-- Timing has never been verified against audio on the older files. ffsubsync is not
-  installed and was unreliable when it was (a -56 s shift on a synced file); check by
-  opening the video at two cues rather than trusting a tool.
+  the previous cue; the new cue is the signal.
+- Whisper large-v3 through `clean.py` → `srtify.py`, with an `initial_prompt` naming the
+  season's vocabulary. Never YouTube auto-captions as they come.
+
+Two things this rule cost before it was written down, both of which had to be undone:
+Born Again's BBC track was house-styled and had to be re-pulled and restored, and three
+seasons were remuxed to MP4, which silently discarded every PGS track the encoder shipped.
+
+**A generated subtitle belongs to one file.** If that video is replaced, the subtitle is
+regenerated from the new one, never carried across.
+
+Timing on the older files has never been verified against audio. ffsubsync is not
+installed and was unreliable when it was (a -56 s shift on a synced file); check by
+opening the video at two cues rather than trusting a tool.
 
 ### Episode summaries (`description` in the ledger, `overview` in the data)
 
@@ -708,11 +757,14 @@ Cheaper and certain: before the upload, `rclone copyto b2:whoniverse/new_who/sea
 b2:whoniverse/_previous/new_who/season_1/X.mp4`, and delete `_previous/` at the end of the
 season once the replacements have been opened in a client. The same for the `.srt`.
 
-**Stills. Always regenerate them when the video is replaced.** This used to say that a
-replaced video keeps its still when the cut has not changed, which is true of the frame
-and wrong as a rule: the still is part of the episode, and a new encode means a new
-still, so the picture a viewer sees in the list comes from the file they will actually
-play. If the video changed, everything shipped beside it changes with it.
+**Everything derived from a video is remade when that video is replaced — the still, and
+any subtitle we generated.** Both are derived from one specific file; swap the file and
+they describe something that is no longer there. Never carry a sidecar across from a
+replaced file, and never reason about whether the old one "still fits". Regenerate.
+
+This used to say a replaced video keeps its still when the cut has not changed, which is
+true of the frame and wrong as a rule. The stills of seasons 1 and 2 were missed that way
+and had to be redone.
 
 The files are usually gone from disk by the time this comes up, because they are deleted
 after upload. That does not mean re-downloading a season:
@@ -762,9 +814,9 @@ on seasons 1 and 2 and had to be redone.
 | --- | --- | --- |
 | 1 | **Rows reconciled** | ledger ↔ addon ↔ bucket agree; row list checked against the four references; candidates proposed, not added |
 | 2 | **Videos downloaded** | every file named, with its source and release group |
-| 3 | **Videos remuxed** | `remux.js`; hvc1, faststart, PGS/chapters/data dropped, commentary kept |
-| 4 | **Videos verified** | tag, depth, cadence, channel order, no stray streams, before upload |
-| 5 | **Subtitles** | taken from the file's own track, or Whisper for a generated one. A track that came with an official upload or a rip is left **intact** |
+| 3 | **Videos kept as they came** | no remux, no transcode, no repackage; renamed to the stem and nothing else |
+| 4 | **Videos verified** | cadence, resolution, audio codec, and that it **streams** from the bucket |
+| 5 | **Subtitles** | the release's own tracks ride inside the file untouched; a generated one only where the file has none, and it is regenerated whenever its video is |
 | 6 | **Stills regenerated** | `.jpg` rebuilt for every video added *or replaced*, from the file that will be served |
 | 7 | **Uploaded to the bucket** | `rclone copy`, then sizes checked against the local originals |
 | 8 | **Old files kept** | `_previous/` holds anything overwritten, until the user has played one |
