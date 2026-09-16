@@ -299,14 +299,36 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
 
 ### get_iplayer 3.36.0
 
-- `C:/Program Files/get_iplayer/get_iplayer.cmd`. **Metadata works, media does not**: the
-  media selector answers 403 from this connection (Portugal), and the 403 only shows under
-  `--verbose`; the default message is "No media streams found", which reads like a mode
-  problem and is not.
+- `C:/Program Files/get_iplayer/get_iplayer.cmd`. **It works. Media downloads fine from
+  this connection**, corrected 16 September 2026 after the entry below had claimed
+  otherwise for weeks.
+
+  The old claim was that the media selector answers 403 from Portugal and only metadata
+  works. What actually happens is that get_iplayer tries **three hosts in turn** and the
+  first ones answer 403 while a later one serves the file. Running `--info --verbose` and
+  reading the 403 warnings as fatal is the mistake: they are warnings, each one followed
+  by `Ignore this warning if programme download is successful`, and the download then
+  succeeds on `hlsxsd1/cf`. The Infinite Quest came down at 628 MB in about a minute at
+  41.88 Mb/s.
+
+  **Never conclude iPlayer is blocked from an `--info` run.** Attempt the download.
+
+  ```
+  get_iplayer --pid=<pid> --versions=original --output=<dir> --file-prefix=<stem>
+  get_iplayer --pid=<pid> --versions=original --subsonly --output=<dir> --file-prefix=<stem>
+  ```
+
+  Subtitles come down as `.srt` carrying the BBC's `<font color=...>` speaker colouring;
+  that is the original and it ships as it is. The programme PID is on the
+  `bbc.co.uk/programmes/<pid>` page and in the filename of anyone else's capture.
+
+  This reopens iPlayer as a real source: the 53 Classic animations that are HD only
+  there, anything wiped from the indexers, and every future gap should try it first.
 - Useful for planning: brand PIDs `p0ggwr8l` (Classic, 658 episodes) and `b006q2x0`
   (2005-2022). `--pid=<brand> --pid-recursive-list` lists everything with its own PID.
-- The 22 season 14-16 files in the bucket came from iPlayer at 1080p25 H.264 E-AC-3 when
-  access existed. Do not plan a season around fetching from it now.
+- The 22 season 14-16 files in the bucket came from iPlayer at 1080p25 H.264 E-AC-3.
+  Access never went away, so a season **can** be planned around it: it is often the only
+  clean 25 or 50fps source, where the torrent packs are conversions.
 
 ### Subtitle Edit 5.1 and MKVToolNix
 
@@ -366,7 +388,7 @@ The originals sit in the session scratchpad
 | --- | --- | --- | --- |
 | **Public indexers via Prowlarr** | everything broadcast: season packs (KONTRAST x265 for all 13 New Who seasons, OFT x264 per-episode for 1, 2, 7, 12, RiCK Blu-ray packs), 2160p WEB-DLs for 2023 onward (NewDoctorWhoDis, SuccessfulCrab, FLUX, Kitsune, playWEB) | Part B, Prowlarr | cadence unknown until probed; Classic Collection Blu-rays are **not** on public indexers |
 | **Official Doctor Who YouTube channel** | minisodes, Lockdown shorts, animated serials (Daleks!, The Runaway), Children in Need pieces, A Ghost Story for Christmas, 'Twas the Night | `python -m yt_dlp` | renamed uploads; VP9/AV1 need re-encoding; 360° video plays flat |
-| **BBC iPlayer** | the only clean 25fps source for anything, and the only HD for 53 Classic animations | get_iplayer, **UK only** | 403 from here |
+| **BBC iPlayer** | the only clean 25fps source for anything, and the only HD for 53 Classic animations | get_iplayer | **works from here**; try it first for any gap |
 | **Internet Archive** | Classic DVD ISOs (`doctor-who-season-1-dvd`, `DoctorWhoLostInTime` NTSC, `doctor-who-galaxy-4-region-free`…), the Wilderness webcast reconstructions (`doctor-who-bbci-webcasts-death-comes-to-time-real-time-shada`), 614 Classic .srt (`doctor-who-1963_20251231`) | `rclone` has an IA backend; `scripts/mirror-archive.sh` | no Blu-ray sets there; "1280x720" webcasts are upscales; every complete-run item is a mixed compilation |
 | **Discs** | Doctor Who: The Collection Blu-rays (19 of 26 Classic seasons), the 2023 New Who 1-4 upscale box set (25fps, the fix for the 23.976 problem), spin-off Blu-rays | buy, rip with MakeMKV, OCR the PGS | the only route for Classic HD; UK Region B avoids the 60i US conversions |
 | **Disney+ / iPlayer 2160p** | the 2023+ HDR masters | rips via Prowlarr only | HDR needs tone mapping; no UHD disc exists |
@@ -900,9 +922,11 @@ lives in each series folder (`new_who/new_who_background.jpg`) with `addon-logo.
 the root, and the per-episode image is the `.jpg` still beside the video. Do not run it,
 and do not confuse it with stills.
 
-**get_iplayer media is still 403 from this connection**, confirmed again on
-16 September; only `--verbose` shows it. Metadata works. The Infinite Quest is also no
-longer in the Doctor Who brand listing, so even the metadata route is gone for it.
+**get_iplayer media works from this connection.** The opposite was written here and
+acted on twice. `--info --verbose` prints 403 warnings from the first hosts it tries and
+they are not fatal; get_iplayer falls through to a mirror that serves the file. Never
+decide iPlayer is blocked without attempting a download, and check
+`~/.get_iplayer/download_history` first, because the thing may already have been pulled.
 
 **`PYTHONIOENCODING=utf-8` on every python call in Git Bash**, or `build.py` dies
 printing a tab name with an emoji in it. `pq.py` throws the same error on a broken pipe

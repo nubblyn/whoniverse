@@ -503,7 +503,7 @@ imdb: { id: "tt0436992", season: 3, episode: 1 },
 released: new Date("2007-03-31").toISOString(),
 overview: "When her hospital is transported to the moon, medical student Martha Jones teams up with the Doctor to find a fugitive alien hiding among the patients. They must expose the creature before the rhino-like Judoon police destroy the entire building.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.jpg?v=e5a02aa7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.mp4?v=2c389c05",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.mkv?v=cbc72b42",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.srt?v=c971ed6c"
 },
 {
@@ -515,7 +515,7 @@ imdb: { id: "tt0436992", season: 3, episode: 2 },
 released: new Date("2007-04-07").toISOString(),
 overview: "The Doctor takes Martha to Elizabethan England, where they meet William Shakespeare at the Globe Theatre. They soon discover that three powerful witches are using his new play to open a portal for their species to conquer Earth.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.jpg?v=6cc5baa5",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.mp4?v=55f3710d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.mkv?v=d5cca760",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.srt?v=a8788ab0"
 },
 {
@@ -527,7 +527,7 @@ imdb: { id: "tt0436992", season: 3, episode: 3 },
 released: new Date("2007-04-14").toISOString(),
 overview: "The Doctor and Martha visit New Earth, only for Martha to be kidnapped and taken into the dark underbelly of New New York. There, the population is trapped in a perpetual traffic jam, and a monstrous secret lurks in the fast lane.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.jpg?v=32aec4c1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.mp4?v=0d21d15c",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.mkv?v=58be9628",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.srt?v=47bee99c"
 },
 {
@@ -549,7 +549,7 @@ imdb: { id: "tt0436992", season: 3, episode: 4 },
 released: new Date("2007-04-21").toISOString(),
 overview: "In 1930s New York City, people are disappearing from Hooverville, and a mysterious Pig-Slave army serves a hidden master. The Doctor and Martha uncover a plot by the Cult of Skaro to create a new race of Dalek-human hybrids.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_daleks_in_manhattan.jpg?v=316dfd6e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_daleks_in_manhattan.mp4?v=c5e808cd",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_daleks_in_manhattan.mkv?v=bedc2166",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_daleks_in_manhattan.srt?v=30249249"
 },
 {
@@ -561,7 +561,7 @@ imdb: { id: "tt0436992", season: 3, episode: 5 },
 released: new Date("2007-04-28").toISOString(),
 overview: "The Daleks' final experiment is in full swing at the Empire State Building, and the first Dalek-human hybrid has been created. The Doctor must convince his oldest enemies to choose a new path, or face the destruction of both races.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_evolution_of_the_daleks.jpg?v=8aa701cf",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_evolution_of_the_daleks.mp4?v=150bf205",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_evolution_of_the_daleks.mkv?v=010e47ff",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_evolution_of_the_daleks.srt?v=e2262633"
 },
 {
@@ -573,8 +573,8 @@ imdb: { id: "tt0436992", season: 0, episode: 5 },
 released: new Date("2007-04-29").toISOString(),
 overview: "The Doctor and Martha embark on an animated adventure across the galaxy to find the location of the legendary lost starship, the Infinite. They must outwit the evil Baltazar, who seeks the ship's power to grant his heart's desire: control of the universe.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.jpg?v=6edf292b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.mp4?v=cc50db57",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.srt?v=19444a45"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.mp4?v=1eedd3ff",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.srt?v=8dc000d8"
 },
 {
 title: "The Lazarus Experiment",
@@ -585,7 +585,7 @@ imdb: { id: "tt0436992", season: 3, episode: 6 },
 released: new Date("2007-05-05").toISOString(),
 overview: "Back in modern-day London, Martha's family gets caught up in the work of an elderly scientist who claims to have reversed the ageing process. But his experiment has a terrible side effect, unleashing a monstrous creature with an insatiable appetite.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_the_lazarus_experiment.jpg?v=62a7b27e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_the_lazarus_experiment.mp4?v=d5e403d7",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_the_lazarus_experiment.mkv?v=dc80733a",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_the_lazarus_experiment.srt?v=2b5f9d87"
 },
 {
@@ -597,7 +597,7 @@ imdb: { id: "tt0436992", season: 3, episode: 7 },
 released: new Date("2007-05-19").toISOString(),
 overview: "The Doctor and Martha find themselves on a spaceship hurtling towards a sun, with only 42 minutes until impact. As the crew becomes possessed by a living star, they must solve a series of cryptic puzzles to survive.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_42.jpg?v=8f81a700",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_42.mp4?v=f752dca9",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_42.mkv?v=126470aa",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_42.srt?v=071d1bd6"
 },
 {
@@ -609,7 +609,7 @@ imdb: { id: "tt0436992", season: 3, episode: 8 },
 released: new Date("2007-05-26").toISOString(),
 overview: "To escape a family of hunters, the Doctor transforms himself into a human schoolteacher named John Smith in 1913 England, storing his Time Lord essence in a fob watch. But as he falls in love, he forgets his true identity, leaving Martha to protect him alone.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_human_nature.jpg?v=a4db4d34",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_human_nature.mp4?v=e7102685",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_human_nature.mkv?v=d5b6abec",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_human_nature.srt?v=a5eed7cd"
 },
 {
@@ -621,7 +621,7 @@ imdb: { id: "tt0436992", season: 3, episode: 9 },
 released: new Date("2007-06-02").toISOString(),
 overview: "The relentless Family of Blood has cornered John Smith and Martha, demanding he become the Doctor again. As war breaks out at the school, John must confront the terrible choice between his human life and his Time Lord destiny.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_the_family_of_blood.jpg?v=dd751a7e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_the_family_of_blood.mp4?v=ae79cd0e",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_the_family_of_blood.mkv?v=a89a2513",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_the_family_of_blood.srt?v=04dd9874"
 },
 {
@@ -633,7 +633,7 @@ imdb: { id: "tt0436992", season: 3, episode: 10 },
 released: new Date("2007-06-09").toISOString(),
 overview: "In 2007, Sally Sparrow finds cryptic messages from a man called the Doctor, whom she's never met. She must unravel the mystery of the Weeping Angels, terrifying statues that move only when no one is looking, to save the world and the Doctor himself.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_blink.jpg?v=2c490a1e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_blink.mp4?v=096c16dc",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_blink.mkv?v=7f7ea6a7",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_blink.srt?v=afc52f19"
 },
 {
@@ -645,7 +645,7 @@ imdb: { id: "tt0436992", season: 3, episode: 11 },
 released: new Date("2007-06-16").toISOString(),
 overview: "The TARDIS is forced to the end of the universe, where the last remnants of humanity struggle to reach a fabled paradise called Utopia. Reunited with Captain Jack Harkness, the Doctor uncovers a chilling secret: he is not the only Time Lord left.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_utopia.jpg?v=4508c016",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_utopia.mp4?v=3bd12f4e",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_utopia.mkv?v=478b13cb",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_utopia.srt?v=47dcbb67"
 },
 {
@@ -657,7 +657,7 @@ imdb: { id: "tt0436992", season: 3, episode: 12 },
 released: new Date("2007-06-23").toISOString(),
 overview: "The Master has become the Prime Minister of Great Britain and brands the Doctor a wanted man. As the Doctor, Martha, and Jack become fugitives, they must uncover the Master's sinister plan for the human race and the mysterious Toclafane.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_the_sound_of_drums.jpg?v=0915f65e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_the_sound_of_drums.mp4?v=7324e3fb",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_the_sound_of_drums.mkv?v=653681b9",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_the_sound_of_drums.srt?v=456a7497"
 },
 {
@@ -669,7 +669,7 @@ imdb: { id: "tt0436992", season: 3, episode: 13 },
 released: new Date("2007-06-30").toISOString(),
 overview: "A year after the Master conquered Earth, an aged and captive Doctor is helpless. It falls to Martha Jones, who has travelled the world spreading a legend, to unite humanity and defeat the Master's terrifying reign.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_last_of_the_time_lords.jpg?v=7339c987",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_last_of_the_time_lords.mp4?v=666e277f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_last_of_the_time_lords.mkv?v=84a95e59",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_last_of_the_time_lords.srt?v=ea85a18c"
 },
 {
@@ -677,11 +677,12 @@ title: "Time Crash (Minisode)",
 season: 3,
 episode: 16,
 type: "Minisode",
+audio: "DTS",
 imdb: { id: "tt0436992", season: 0, episode: 6 },
 released: new Date("2007-11-16").toISOString(),
 overview: "Worlds collide when the Tenth Doctor's TARDIS inexplicably merges with the Fifth Doctor's. The two incarnations must work together to prevent a temporal paradox from creating a black hole the size of Belgium.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.jpg?v=a1237ac5",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.mp4?v=c54e778d",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.jpg?v=cdcd5752",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.mkv?v=93bd3c46",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.srt?v=20cf879e"
 },
 {
@@ -693,7 +694,7 @@ imdb: { id: "tt0436992", season: 0, episode: 7 },
 released: new Date("2007-12-25").toISOString(),
 overview: "A luxurious space-liner replica of the Titanic is on a collision course with Earth. The Doctor must team up with a waitress named Astrid Peth to save the passengers from killer robotic angels and stop the ship from causing planetary annihilation.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E17_voyage_of_the_damned_special.jpg?v=d559949d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E17_voyage_of_the_damned_special.mp4?v=5a425f3a",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E17_voyage_of_the_damned_special.mkv?v=5b52ee02",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E17_voyage_of_the_damned_special.srt?v=58028a53"
 },
 {
