@@ -889,6 +889,31 @@ what release is this, and who made it. Commit messages are not a substitute; nob
 up an episode by reading git log. Seasons 1 to 4 were backfilled on 16 September 2026;
 anything older than that says so rather than inventing a provenance.
 
+**No sidecar `.srt` beside a file that carries its own subtitles, and "carries"
+means probed, not assumed.** Part D has always said a sidecar belongs only where
+the file has none, and seasons 2, 3 and 4 were each uploaded with the rule
+unapplied: 42 MKVs went up carrying the encoder's PGS while the bucket kept the
+old `.srt` beside them. Those sidecars were not even from the same release. The
+season 2 ones are KONTRAST's, verified byte-identical to KONTRAST's external
+subtitle, sitting next to Panda's video. They fit only because both groups encode
+the same 23.976 master, which is luck, not provenance.
+
+Flagging this instead of resolving it is what let it repeat. When a replaced file
+raises a question about its sidecar, settle it in that season's pass.
+
+The check before deleting any sidecar is that every file really does have a track,
+because a season is not all one release: Time Crash is an NTb remux among Panda
+episodes and had to be probed like the rest.
+
+```
+ffprobe -v error -select_streams s -show_entries stream=codec_name:stream_tags=language   -of json "<bucket url>"
+```
+
+A bitmap track counts. PGS is what the disc shipped and it is the original; the
+MKV is `notWebReady` regardless, so the browser player was never the audience.
+Dropping the sidecar means dropping `subtitleUrl` from the entry in the same
+commit, and the bucket delete waits for the deploy like any other superseded name.
+
 **A game is not an episode.** Attack of the Graske is an interactive Red Button
 production with no linear cut. It went in on an inferred yes and came back out. When a
 decision list has a trailing "the same applies to X", X is a separate question: ask it.

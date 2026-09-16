@@ -9346,7 +9346,6 @@ const episodes = [
   overview: "The Doctor and Rose journey to humanity's new home planet, where they visit a state-of-the-art hospital run by cat-like nuns. They soon uncover a dark secret: the hospital's miraculous cures come at an unspeakable price.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_new_earth.jpg?v=2dacabc1",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_new_earth.mkv?v=9e580ec6",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_new_earth.srt?v=dddb2ac1",
 },
 {
   title: "Tardisode 2",
@@ -9366,7 +9365,6 @@ const episodes = [
   overview: "Landing in 19th-century Scotland, the Doctor and Rose must protect Queen Victoria from a band of warrior monks and a ravenous werewolf. Their investigation leads to the founding of the Torchwood Institute, an organisation created to fight alien threats.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_tooth_and_claw.jpg?v=715009d2",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_tooth_and_claw.mkv?v=fc7e4193",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_tooth_and_claw.srt?v=77d80220",
 },
 {
   title: "Tardisode 3",
@@ -9386,7 +9384,6 @@ const episodes = [
   overview: "Investigating a school run by strange, bat-like aliens, the Doctor and Rose are shocked to find two familiar faces working undercover: former companion Sarah Jane Smith and her robot dog, K-9. The reunited team must stop the Krillitanes from cracking the 'God-Maker' paradigm.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_school_reunion.jpg?v=f5a0c2cc",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_school_reunion.mkv?v=9c163d8c",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_school_reunion.srt?v=c655db2e",
 },
 {
   title: "Tardisode 4",
@@ -9406,7 +9403,6 @@ const episodes = [
   overview: "The Doctor finds a time window to 18th-century France on a derelict spaceship and becomes entangled in the life of Madame de Pompadour. He must fight clockwork droids who seek to complete their ship by using her as a final component.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_girl_in_the_fireplace.jpg?v=fbf04a56",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_girl_in_the_fireplace.mkv?v=2ffbf8e3",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E08_the_girl_in_the_fireplace.srt?v=0c40d1e8",
 },
 {
   title: "Tardisode 5",
@@ -9426,7 +9422,6 @@ const episodes = [
   overview: "The TARDIS crash-lands on a parallel Earth where Rose's father is alive and humanity is being forcibly 'upgraded' by the emotionless Cybermen. Trapped in a world not their own, the Doctor and his friends must fight the dawn of a new steel age.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_rise_of_the_cybermen.jpg?v=ec475708",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_rise_of_the_cybermen.mkv?v=c487be49",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_rise_of_the_cybermen.srt?v=f10d8360",
 },
 {
   title: "Tardisode 6",
@@ -9446,7 +9441,6 @@ const episodes = [
   overview: "The Cybermen have seized control of London, and the Doctor, Rose, and Mickey have become fugitives. They join a small band of rebels in a desperate attempt to shut down the Cyber-conversion factories and save humanity from deletion.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_the_age_of_steel.jpg?v=cf866257",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_the_age_of_steel.mkv?v=32869789",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_the_age_of_steel.srt?v=e7341647",
 },
 {
   title: "Tardisode 7",
@@ -9466,7 +9460,6 @@ const episodes = [
   overview: "It's 1953, the year of Queen Elizabeth II's coronation, and a malevolent alien entity known as the Wire is stealing people's faces through their television sets. The Doctor and Rose must stop it before it consumes the minds of millions watching the broadcast.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_the_idiots_lantern.jpg?v=90c5d522",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_the_idiots_lantern.mkv?v=9b675e83",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_the_idiots_lantern.srt?v=d32f5ff1",
 },
 {
   title: "Tardisode 8",
@@ -9486,7 +9479,6 @@ const episodes = [
   overview: "The TARDIS lands on a sanctuary base impossibly orbiting a black hole, where a human crew works alongside their servants, the Ood. As an ancient evil begins to awaken from deep within the planet, the Doctor and Rose face a terrifying enemy.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E17_the_impossible_planet.jpg?v=d61bc5ca",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E17_the_impossible_planet.mkv?v=e0e06616",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E17_the_impossible_planet.srt?v=5dc2b4b9",
 },
 {
   title: "Tardisode 9",
@@ -9506,7 +9498,6 @@ const episodes = [
   overview: "With the Beast possessing the Ood, Rose and the surviving crew members fight for their lives against the Legion of the Beast. The Doctor descends into the planet's core to confront the ancient creature, facing a choice that could mean his own demise.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E19_the_satan_pit.jpg?v=95cb15ed",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E19_the_satan_pit.mkv?v=71e5b002",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E19_the_satan_pit.srt?v=318dc848",
 },
 {
   title: "Tardisode 10",
@@ -9526,7 +9517,6 @@ const episodes = [
   overview: "From the perspective of an ordinary man named Elton Pope, the episode shows the impact the Doctor has on the lives of those he encounters. Elton joins a group of Doctor-enthusiasts, but their hobby takes a dark turn when a mysterious man takes over their meetings.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E21_love__monsters.jpg?v=8582aeb1",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E21_love__monsters.mkv?v=15e403d4",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E21_love__monsters.srt?v=a8cc72ed",
 },
 {
   title: "Tardisode 11",
@@ -9546,7 +9536,6 @@ const episodes = [
   overview: "On the eve of the 2012 London Olympics, the Doctor and Rose investigate a quiet suburban street where children are mysteriously vanishing. They discover a lonely girl whose drawings can trap living people, and a hidden alien presence feeding on fear.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E24_fear_her.jpg?v=ef4797bc",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E24_fear_her.mkv?v=52dd4f3a",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E24_fear_her.srt?v=531ca7b4",
 },
 {
   title: "Tardisode 12",
@@ -9566,7 +9555,6 @@ const episodes = [
   overview: "Ghostly apparitions are appearing all over the world, but they are not what they seem. The Doctor traces the phenomenon to the Torchwood Institute, where he discovers an alien sphere that heralds the arrival of his deadliest enemies.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E26_army_of_ghosts.jpg?v=be9cc993",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E26_army_of_ghosts.mkv?v=e9d567e6",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E26_army_of_ghosts.srt?v=c6cc0a12",
 },
 {
   title: "Tardisode 13",
@@ -9586,7 +9574,6 @@ const episodes = [
   overview: "Earth becomes the battleground for a war between the Daleks and the Cybermen. With the planet at stake, the Doctor must make a heart-wrenching sacrifice to close the void between worlds, leading to a devastating farewell.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E28_doomsday.jpg?v=8bd97d41",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E28_doomsday.mkv?v=f4de166f",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E28_doomsday.srt?v=76648158",
 },
 {
   title: "Everything Changes",
@@ -9740,7 +9727,6 @@ const episodes = [
   overview: "Still reeling from the loss of Rose, the Doctor is stunned when a bride named Donna Noble suddenly materialises inside the TARDIS. He must uncover how she is connected to an ancient alien plot to destroy the Earth.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E29_the_runaway_bride_special.jpg?v=dd13c545",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E29_the_runaway_bride_special.mkv?v=4aec80d4",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E29_the_runaway_bride_special.srt?v=754c21da",
 },
 {
   title: "Captain Jack Harkness",
@@ -9790,7 +9776,6 @@ const episodes = [
   overview: "When her hospital is transported to the moon, medical student Martha Jones teams up with the Doctor to find a fugitive alien hiding among the patients. They must expose the creature before the rhino-like Judoon police destroy the entire building.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.jpg?v=e5a02aa7",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.mkv?v=cbc72b42",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E01_smith_and_jones.srt?v=c971ed6c",
 },
 {
   title: "The Shakespeare Code",
@@ -9801,7 +9786,6 @@ const episodes = [
   overview: "The Doctor takes Martha to Elizabethan England, where they meet William Shakespeare at the Globe Theatre. They soon discover that three powerful witches are using his new play to open a portal for their species to conquer Earth.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.jpg?v=6cc5baa5",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.mkv?v=d5cca760",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E02_the_shakespeare_code.srt?v=a8788ab0",
 },
 {
   title: "Gridlock",
@@ -9812,7 +9796,6 @@ const episodes = [
   overview: "The Doctor and Martha visit New Earth, only for Martha to be kidnapped and taken into the dark underbelly of New New York. There, the population is trapped in a perpetual traffic jam, and a monstrous secret lurks in the fast lane.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.jpg?v=32aec4c1",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.mkv?v=58be9628",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E03_gridlock.srt?v=47bee99c",
 },
 {
   title: "Daleks in Manhattan",
@@ -9823,7 +9806,6 @@ const episodes = [
   overview: "In 1930s New York City, people are disappearing from Hooverville, and a mysterious Pig-Slave army serves a hidden master. The Doctor and Martha uncover a plot by the Cult of Skaro to create a new race of Dalek-human hybrids.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_daleks_in_manhattan.jpg?v=316dfd6e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_daleks_in_manhattan.mkv?v=bedc2166",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E05_daleks_in_manhattan.srt?v=30249249",
 },
 {
   title: "Evolution of the Daleks",
@@ -9834,7 +9816,6 @@ const episodes = [
   overview: "The Daleks' final experiment is in full swing at the Empire State Building, and the first Dalek-human hybrid has been created. The Doctor must convince his oldest enemies to choose a new path, or face the destruction of both races.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_evolution_of_the_daleks.jpg?v=8aa701cf",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_evolution_of_the_daleks.mkv?v=010e47ff",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E06_evolution_of_the_daleks.srt?v=e2262633",
 },
 {
   title: "The Infinite Quest (Animated Series)",
@@ -9856,7 +9837,6 @@ const episodes = [
   overview: "Back in modern-day London, Martha's family gets caught up in the work of an elderly scientist who claims to have reversed the ageing process. But his experiment has a terrible side effect, unleashing a monstrous creature with an insatiable appetite.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_the_lazarus_experiment.jpg?v=62a7b27e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_the_lazarus_experiment.mkv?v=dc80733a",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E08_the_lazarus_experiment.srt?v=2b5f9d87",
 },
 {
   title: "42",
@@ -9867,7 +9847,6 @@ const episodes = [
   overview: "The Doctor and Martha find themselves on a spaceship hurtling towards a sun, with only 42 minutes until impact. As the crew becomes possessed by a living star, they must solve a series of cryptic puzzles to survive.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_42.jpg?v=8f81a700",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_42.mkv?v=126470aa",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E09_42.srt?v=071d1bd6",
 },
 {
   title: "Human Nature",
@@ -9878,7 +9857,6 @@ const episodes = [
   overview: "To escape a family of hunters, the Doctor transforms himself into a human schoolteacher named John Smith in 1913 England, storing his Time Lord essence in a fob watch. But as he falls in love, he forgets his true identity, leaving Martha to protect him alone.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_human_nature.jpg?v=a4db4d34",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_human_nature.mkv?v=d5b6abec",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E10_human_nature.srt?v=a5eed7cd",
 },
 {
   title: "The Family of Blood",
@@ -9889,7 +9867,6 @@ const episodes = [
   overview: "The relentless Family of Blood has cornered John Smith and Martha, demanding he become the Doctor again. As war breaks out at the school, John must confront the terrible choice between his human life and his Time Lord destiny.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_the_family_of_blood.jpg?v=dd751a7e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_the_family_of_blood.mkv?v=a89a2513",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E11_the_family_of_blood.srt?v=04dd9874",
 },
 {
   title: "Blink",
@@ -9900,7 +9877,6 @@ const episodes = [
   overview: "In 2007, Sally Sparrow finds cryptic messages from a man called the Doctor, whom she's never met. She must unravel the mystery of the Weeping Angels, terrifying statues that move only when no one is looking, to save the world and the Doctor himself.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_blink.jpg?v=2c490a1e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_blink.mkv?v=7f7ea6a7",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E12_blink.srt?v=afc52f19",
 },
 {
   title: "Utopia",
@@ -9911,7 +9887,6 @@ const episodes = [
   overview: "The TARDIS is forced to the end of the universe, where the last remnants of humanity struggle to reach a fabled paradise called Utopia. Reunited with Captain Jack Harkness, the Doctor uncovers a chilling secret: he is not the only Time Lord left.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_utopia.jpg?v=4508c016",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_utopia.mkv?v=478b13cb",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E13_utopia.srt?v=47dcbb67",
 },
 {
   title: "The Sound of Drums",
@@ -9922,7 +9897,6 @@ const episodes = [
   overview: "The Master has become the Prime Minister of Great Britain and brands the Doctor a wanted man. As the Doctor, Martha, and Jack become fugitives, they must uncover the Master's sinister plan for the human race and the mysterious Toclafane.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_the_sound_of_drums.jpg?v=0915f65e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_the_sound_of_drums.mkv?v=653681b9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E14_the_sound_of_drums.srt?v=456a7497",
 },
 {
   title: "Last of the Time Lords",
@@ -9933,7 +9907,6 @@ const episodes = [
   overview: "A year after the Master conquered Earth, an aged and captive Doctor is helpless. It falls to Martha Jones, who has travelled the world spreading a legend, to unite humanity and defeat the Master's terrifying reign.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_last_of_the_time_lords.jpg?v=7339c987",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_last_of_the_time_lords.mkv?v=84a95e59",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E15_last_of_the_time_lords.srt?v=ea85a18c",
 },
 {
   title: "Revenge of the Slitheen (1)",
@@ -10062,7 +10035,6 @@ const episodes = [
   audio: "DTS",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.jpg?v=cdcd5752",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.mkv?v=93bd3c46",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.srt?v=20cf879e",
 },
 {
   title: "The Lost Boy (2)",
@@ -10086,7 +10058,6 @@ const episodes = [
   overview: "A luxurious space-liner replica of the Titanic is on a collision course with Earth. The Doctor must team up with a waitress named Astrid Peth to save the passengers from killer robotic angels and stop the ship from causing planetary annihilation.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E17_voyage_of_the_damned_special.jpg?v=d559949d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E17_voyage_of_the_damned_special.mkv?v=5b52ee02",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E17_voyage_of_the_damned_special.srt?v=58028a53",
 },
 {
   title: "Kiss Kiss, Bang Bang",
@@ -10266,7 +10237,6 @@ const episodes = [
   overview: "Investigating a revolutionary weight-loss pill, the Doctor is reunited with Donna Noble, who is conducting her own inquiry into Adipose Industries. Together, they must stop a scheme that turns human fat into adorable, but potentially dangerous, alien creatures.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.jpg?v=82ab16e6",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.mkv?v=4b7aa457",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E01_partners_in_crime.srt?v=64af292a",
 },
 {
   title: "The Fires of Pompeii",
@@ -10277,7 +10247,6 @@ const episodes = [
   overview: "The Doctor and Donna land in Pompeii on the eve of the eruption of Mount Vesuvius, a fixed point in time. They discover that the volcano's power is being harnessed by stony aliens, forcing the Doctor to decide whether to save the city or let history run its course.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.jpg?v=1316078f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.mkv?v=668ed705",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E02_the_fires_of_pompeii.srt?v=3c41731f",
 },
 {
   title: "Planet of the Ood",
@@ -10288,7 +10257,6 @@ const episodes = [
   overview: "The Doctor and Donna travel to the Ood-Sphere, the home planet of the seemingly docile Ood. They uncover the horrific truth behind the Ood's servitude to humanity and must fight to liberate the species from corporate enslavement.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_planet_of_the_ood.jpg?v=5a2bdf3e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_planet_of_the_ood.mkv?v=7874b3d8",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E04_planet_of_the_ood.srt?v=5a5fe7f3",
 },
 {
   title: "The Sontaran Stratagem",
@@ -10299,7 +10267,6 @@ const episodes = [
   overview: "Martha Jones, now a UNIT officer, summons the Doctor back to Earth to investigate a new technology called ATMOS that is installed in cars worldwide. They discover it is a plot by the warlike Sontarans to choke the planet with poison gas.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_sontaran_stratagem.jpg?v=776cc339",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_sontaran_stratagem.mkv?v=f8317153",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E05_the_sontaran_stratagem.srt?v=7d90b239",
 },
 {
   title: "The Poison Sky",
@@ -10310,7 +10277,6 @@ const episodes = [
   overview: "As the Sontarans' poison gas fills the atmosphere, the Doctor and UNIT must find a way to clear the sky and repel the invasion. With a traitor in their midst and the Sontaran fleet descending, the Doctor must make a dangerous gamble.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_poison_sky.jpg?v=ca9ee7c3",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_poison_sky.mkv?v=c0196b8e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E06_the_poison_sky.srt?v=8ec2f6e7",
 },
 {
   title: "The Doctor's Daughter",
@@ -10321,7 +10287,6 @@ const episodes = [
   overview: "On the planet Messaline, a cloning machine instantly creates a soldier from the Doctor's DNA: his daughter, Jenny. Thrown into a brutal war between humans and the fish-like Hath, the Doctor must come to terms with his unexpected fatherhood.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_doctors_daughter.jpg?v=9d6ff2ff",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_doctors_daughter.mkv?v=2397a23c",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E07_the_doctors_daughter.srt?v=6a3ba0d3",
 },
 {
   title: "The Unicorn and the Wasp",
@@ -10332,7 +10297,6 @@ const episodes = [
   overview: "In 1926, the Doctor and Donna join a dinner party with famed mystery author Agatha Christie. When a murder occurs, they find themselves in a real-life whodunnit involving a jewel thief, a mysterious vicar, and a giant alien wasp.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_the_unicorn_and_the_wasp.jpg?v=145d4072",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_the_unicorn_and_the_wasp.mkv?v=fb5c375e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E08_the_unicorn_and_the_wasp.srt?v=c12531f5",
 },
 {
   title: "Silence in the Library",
@@ -10343,7 +10307,6 @@ const episodes = [
   overview: "The Doctor and Donna arrive at The Library, a planet-sized database, only to find it deserted. They soon encounter a team of archaeologists led by the enigmatic River Song, a woman who knows the Doctor's future, and face a deadly, flesh-eating shadow.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_silence_in_the_library.jpg?v=2647cac4",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_silence_in_the_library.mkv?v=a238ec5c",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E09_silence_in_the_library.srt?v=2291271d",
 },
 {
   title: "Forest of the Dead",
@@ -10354,7 +10317,6 @@ const episodes = [
   overview: "As the Vashta Nerada shadows close in, the Doctor races to save the archaeological team. Meanwhile, Donna finds herself trapped in a bizarre simulated reality, and the Doctor must come to terms with his tragic future with River Song.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_forest_of_the_dead.jpg?v=0dc17e6d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_forest_of_the_dead.mkv?v=ebd2a0a7",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E10_forest_of_the_dead.srt?v=10533218",
 },
 {
   title: "Midnight",
@@ -10365,7 +10327,6 @@ const episodes = [
   overview: "While on a leisure cruise on the diamond planet Midnight, the Doctor is trapped with a group of terrified tourists. An unseen creature from outside begins to knock, and as paranoia sets in, the greatest threat may come from within.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_midnight.jpg?v=fd71d829",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_midnight.mkv?v=e33b5644",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E11_midnight.srt?v=0ca9beb6",
 },
 {
   title: "Turn Left",
@@ -10376,7 +10337,6 @@ const episodes = [
   overview: "A single decision in Donna's past creates a dark, alternate timeline where she never met the Doctor. As Earth spirals into chaos, a familiar face from a parallel world arrives to show Donna the importance of her journey and help set things right.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_turn_left.jpg?v=155efaa2",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_turn_left.mkv?v=df2e764e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E12_turn_left.srt?v=e2f792f1",
 },
 {
   title: "The Stolen Earth",
@@ -10387,7 +10347,6 @@ const episodes = [
   overview: "Earth and 26 other planets have vanished from the universe, and the Doctor's past companions must unite to fight back. As the Doctor and Donna race to find the missing Earth, they discover it is at the heart of Davros' new Dalek empire.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_the_stolen_earth.jpg?v=71035747",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_the_stolen_earth.mkv?v=92f8f6ad",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E13_the_stolen_earth.srt?v=d96bac85",
 },
 {
   title: "Journey's End",
@@ -10398,7 +10357,6 @@ const episodes = [
   overview: "As Davros prepares to detonate a reality bomb that will destroy all of existence, the Doctor and his companions converge for a final battle. With sacrifices and prophecies coming to pass, the universe's fate rests on their shoulders.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_journeys_end.jpg?v=220cc6ee",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_journeys_end.mkv?v=564a0d36",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E14_journeys_end.srt?v=ac47e527",
 },
 {
   title: "Music of the Spheres (Minisode)",
