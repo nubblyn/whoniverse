@@ -10045,7 +10045,8 @@ const episodes = [
   type: "Minisode",
   released: "2007-11-16T00:00:00.000Z",
   overview: "Worlds collide when the Tenth Doctor's TARDIS inexplicably merges with the Fifth Doctor's. The two incarnations must work together to prevent a temporal paradox from creating a black hole the size of Belgium.",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.jpg?v=7ce8978a",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.jpg?v=a1237ac5",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.mp4?v=c54e778d",
   subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E16_time_crash_minisode.srt?v=20cf879e",
 },
 {
