@@ -634,8 +634,22 @@ file stem from `ledger/out/file-names.tsv`.
 node scripts/probe-media.js      # resolution, codec, audio, duration per file
 node scripts/probe-origin.js     # frame rate, timing, muxer tag
 ```
-(both read `f003.backblazeb2.com`, about 2 MB per episode.) For each file write the
-truth into `have` as `WxH fps AUDIO` or `1080p 25fps AAC`, and note against the Part D
+(both read `f003.backblazeb2.com`, about 2 MB per episode.)
+
+> **`probe-media.js` overwrites `data/media-probe.json`, and that file is the only
+> surviving record of what the bucket held before the 15 September 2026 regression.**
+> Running it rewrites the evidence with the state you are trying to diff against, and
+> nothing warns you. It happened during the season 10 pass. The committed copy at
+> `1403d4d` (7 September) is the original; `git checkout -- data/media-probe.json`
+> puts it back, and the commit is worth confirming before trusting any comparison.
+>
+> For a single season do not run it at all. `ffprobe` the season's bucket URLs
+> directly - fifteen files take under a minute, give the same facts, and write
+> nothing. Read the 7 September record first, and keep what you read, because the
+> comparison is the whole point of this step and the seasons above 10 still depend
+> on it.
+
+For each file write the truth into `have` as `WxH fps AUDIO` or `1080p 25fps AAC`, and note against the Part D
 table: cadence, tag, moov, Dolby-without-flag, outlier size. A season whose thirteen
 files all read 23.976 has one problem, not thirteen; say it once.
 
