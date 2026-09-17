@@ -1136,322 +1136,316 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E20_a_c
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E20_a_christmas_carol_special.mkv?v=51f870d4"
 },
 {
-title: "Space (Minisode)",
+title: "Dermot and the Doctor (Minisode)",
 season: 6,
 episode: 1,
+type: "Minisode",
+released: new Date("2011-01-26").toISOString(),
+overview: "Dermot O'Leary oversleeps on the morning of the National Television Awards, leaving the ceremony without a host. The Doctor materialises in his bedroom offering a lift, though the TARDIS has its own ideas about punctuality.",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E01_dermot_and_the_doctor_minisode.jpg?v=3471e431",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E01_dermot_and_the_doctor_minisode.mp4?v=3cb2e1b1",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E01_dermot_and_the_doctor_minisode.srt?v=f631abf9"
+},
+{
+title: "Space (Minisode)",
+season: 6,
+episode: 2,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 35 },
 released: new Date("2011-03-18").toISOString(),
 overview: "A simple moment in the TARDIS goes awry when a 'spatial loop' causes the exterior shell to materialise inside the console room. This leads to a confusing encounter between Amy and a future version of herself, setting up a timey-wimey paradox.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E01_space_minisode.jpg?v=215432ca",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E01_space_minisode.mp4?v=4b3a1130",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E01_space_minisode.srt?v=d410dc56"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E02_space_minisode.jpg?v=215432ca",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E02_space_minisode.mkv?v=1906fadd"
 },
 {
 title: "Time (Minisode)",
 season: 6,
-episode: 2,
+episode: 3,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 36 },
 released: new Date("2011-03-18").toISOString(),
 overview: "Continuing from 'Space', the TARDIS crew, now with two Amys, must resolve their paradoxical predicament. As the Doctor tries to reboot the system, they must work together to prevent the TARDIS from collapsing in on itself.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E02_time_minisode.jpg?v=f847c85e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E02_time_minisode.mp4?v=d46a7e2f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E02_time_minisode.srt?v=7c4602c3"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E03_time_minisode.jpg?v=f847c85e",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E03_time_minisode.mkv?v=70e1d650"
 },
 {
-title: "The Impossible Astronaut",
+title: "The Impossible Astronaut (Prequel)",
 season: 6,
-episode: 3,
+episode: 4,
 type: "Prequel",
 released: new Date("2011-03-22").toISOString(),
 overview: "President Nixon receives a mysterious phone call from a terrified little girl, setting the stage for the Doctor's arrival. This brief prequel shows the strange events in the Oval Office that lead to the Doctor being summoned to America.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut.jpg?v=0dac509f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut.mp4?v=6ad9eb65",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut.srt?v=d6788db0"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut_prequel.jpg?v=cd7df194",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut_prequel.mkv?v=405cc255"
 },
 {
 title: "The Impossible Astronaut",
 season: 6,
-episode: 4,
+episode: 5,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 1 },
 released: new Date("2011-04-23").toISOString(),
 overview: "The Doctor, Amy, Rory, and River Song are summoned to the Utah desert, where they witness a shocking event that must not be changed. Their investigation leads them to 1969 and a terrifying new enemy, the Silence, who are forgotten the moment they are unseen.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut.jpg?v=0dac509f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut.mp4?v=6ad9eb65",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E04_the_impossible_astronaut.srt?v=d6788db0"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E05_the_impossible_astronaut.jpg?v=5898383f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E05_the_impossible_astronaut.mkv?v=1f55d0ca"
 },
 {
 title: "Day of the Moon",
 season: 6,
-episode: 5,
+episode: 6,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 2 },
 released: new Date("2011-04-30").toISOString(),
 overview: "With the Doctor imprisoned, Amy, Rory, and River must uncover the truth about the Silence and their control over humanity. They mount a rebellion that culminates during the Apollo 11 moon landing, forcing them to make a terrible choice.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E05_day_of_the_moon.jpg?v=6607ba1b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E05_day_of_the_moon.mp4?v=a2cf6681",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E05_day_of_the_moon.srt?v=8a70800f"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E06_day_of_the_moon.jpg?v=4e27682d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E06_day_of_the_moon.mkv?v=f2ec8aad"
 },
 {
-title: "The Curse of the Black Spot",
+title: "The Curse of the Black Spot (Prequel)",
 season: 6,
-episode: 6,
+episode: 7,
 type: "Prequel",
 released: new Date("2011-04-30").toISOString(),
 overview: "Aboard a 17th-century pirate ship, the TARDIS scanner reveals a terrifying sea-siren. This short scene sets up the mystery as Captain Avery's ship is becalmed and his crew begins to vanish one by one.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot.jpg?v=3535538a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot.mp4?v=0cf53d18",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot.srt?v=c2bd0ac1"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot_prequel.jpg?v=90539a56",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot_prequel.mkv?v=e2c40ed3"
 },
 {
 title: "The Curse of the Black Spot",
 season: 6,
-episode: 7,
+episode: 8,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 3 },
 released: new Date("2011-05-07").toISOString(),
 overview: "The TARDIS lands on a pirate ship in the 17th century, where the crew is being marked for death by a mysterious siren. The Doctor, Amy, and Rory must uncover the siren's true nature before they all fall victim to her song.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot.jpg?v=3535538a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot.mp4?v=0cf53d18",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E07_the_curse_of_the_black_spot.srt?v=c2bd0ac1"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E08_the_curse_of_the_black_spot.jpg?v=58cf7dd8",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E08_the_curse_of_the_black_spot.mkv?v=84f4e5f9"
 },
 {
 title: "Bad Night (Minisode)",
 season: 6,
-episode: 8,
+episode: 9,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 51 },
 released: new Date("2011-05-08").toISOString(),
-overview: "Amy is awoken by a frantic Doctor, who needs her help dealing with a time-travelling goldfish, a misunderstanding with British royalty, and a housefly that might alter the course of history, all while Rory sleeps through the chaos.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E08_bad_night_minisode.jpg?v=d4f0b841",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E08_bad_night_minisode.mp4?v=6ab59df1",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E08_bad_night_minisode.srt?v=15c71c7d"
+overview: "Amy is woken by a frantic Doctor who needs help with a time-travelling goldfish and a misunderstanding involving British royalty. A housefly loose in the TARDIS threatens to alter history while Rory sleeps through it all.",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E09_bad_night_minisode.jpg?v=d4f0b841",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E09_bad_night_minisode.mkv?v=d4f9ce9f"
 },
 {
 title: "The Doctor's Wife",
 season: 6,
-episode: 9,
+episode: 10,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 4 },
 released: new Date("2011-05-14").toISOString(),
 overview: "A Time Lord distress signal lures the Doctor to a junkyard asteroid outside the universe. There, the TARDIS's matrix is placed into a human body, allowing the Doctor to talk to his ship for the first time, but at a terrible cost.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E09_the_doctors_wife.jpg?v=59398a93",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E09_the_doctors_wife.mp4?v=5d944c78",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E09_the_doctors_wife.srt?v=4204295e"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E10_the_doctors_wife.jpg?v=c8c2a1cb",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E10_the_doctors_wife.mkv?v=cf9396c0"
 },
 {
 title: "Good Night (Minisode)",
 season: 6,
-episode: 10,
+episode: 11,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 52 },
 released: new Date("2011-05-15").toISOString(),
 overview: "Amy ponders how she can remember two different pasts, prompting the Doctor to take her on a trip to visit her younger self. This quiet moment offers a chance for a small act of kindness and a glimpse into the Doctor's own lonely past.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E10_good_night_minisode.jpg?v=59edd40b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E10_good_night_minisode.mp4?v=465e69cf",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E10_good_night_minisode.srt?v=abb3817b"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E11_good_night_minisode.jpg?v=59edd40b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E11_good_night_minisode.mkv?v=801ecedc"
 },
 {
 title: "The Rebel Flesh",
 season: 6,
-episode: 11,
+episode: 12,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 5 },
 released: new Date("2011-05-21").toISOString(),
 overview: "The Doctor, Amy, and Rory land in a 22nd-century factory where workers use flesh avatars called Gangers to handle dangerous acid. When a solar tsunami hits, the Gangers gain independence and declare war on their human counterparts.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E11_the_rebel_flesh.jpg?v=4c61a9cd",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E11_the_rebel_flesh.mp4?v=4082230e",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E11_the_rebel_flesh.srt?v=14849d18"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E12_the_rebel_flesh.jpg?v=190f3c3b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E12_the_rebel_flesh.mkv?v=80544309"
 },
 {
 title: "The Almost People",
 season: 6,
-episode: 12,
+episode: 13,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 6 },
 released: new Date("2011-05-28").toISOString(),
 overview: "As the battle between humans and their Ganger duplicates rages on, the Doctor must convince both sides to find a peaceful solution. The situation becomes more complex when a Ganger version of the Doctor is created, leading to a shocking revelation about Amy.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E12_the_almost_people.jpg?v=73ff9cd4",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E12_the_almost_people.mp4?v=7e75dfe8",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E12_the_almost_people.srt?v=da5c9b02"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E13_the_almost_people.jpg?v=fe73247f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E13_the_almost_people.mkv?v=3cab6286"
 },
 {
-title: "A Good Man Goes to War",
+title: "A Good Man Goes to War (Prequel)",
 season: 6,
-episode: 13,
+episode: 14,
 type: "Prequel",
 released: new Date("2011-05-28").toISOString(),
 overview: "Dorium Maldovar tries to warn the Doctor against raising an army to rescue Amy Pond from Demon's Run. Despite the warnings, the Doctor prepares to call in every favour he's owed across time and space for a climactic battle.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war.jpg?v=1ce9806d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war.mp4?v=2c2de7c5",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war.srt?v=73bf5833"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war_prequel.jpg?v=0c5c9c98",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war_prequel.mkv?v=fcafe309"
 },
 {
 title: "A Good Man Goes to War",
 season: 6,
-episode: 14,
+episode: 15,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 7 },
 released: new Date("2011-06-04").toISOString(),
 overview: "The Doctor assembles an army of allies to storm the asteroid fortress Demon's Run and rescue Amy and her newborn child, Melody. The battle reveals the Doctor's darker side and uncovers a devastating secret about River Song's true identity.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war.jpg?v=1ce9806d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war.mp4?v=2c2de7c5",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E14_a_good_man_goes_to_war.srt?v=73bf5833"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E15_a_good_man_goes_to_war.jpg?v=a4f5bd0d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E15_a_good_man_goes_to_war.mkv?v=2799b1fe"
 },
 {
-title: "Let's Kill Hitler",
+title: "Let's Kill Hitler (Prequel)",
 season: 6,
-episode: 15,
+episode: 16,
 type: "Prequel",
 released: new Date("2011-08-15").toISOString(),
 overview: "Amy leaves a message for her childhood friend Mels, wondering where she is and why she hasn't responded. This short prequel sets the stage for the search for Melody Pond, teasing the arrival of a character who will change everything.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler.jpg?v=1013d53a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler.mp4?v=993811f6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler.srt?v=ac7c6986"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler_prequel.jpg?v=f5448caf",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler_prequel.mkv?v=9a05375b"
 },
 {
 title: "Let's Kill Hitler",
 season: 6,
-episode: 16,
+episode: 17,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 8 },
 released: new Date("2011-08-27").toISOString(),
 overview: "Amy and Rory's search for Melody leads them to 1930s Berlin, where they crash a dinner party with Adolf Hitler. The situation escalates when they confront a time-travelling justice department and witness Melody Pond's shocking regeneration.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler.jpg?v=1013d53a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler.mp4?v=993811f6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E16_lets_kill_hitler.srt?v=ac7c6986"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E17_lets_kill_hitler.jpg?v=bad0a11b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E17_lets_kill_hitler.mkv?v=de3490c8"
 },
 {
 title: "Night Terrors",
 season: 6,
-episode: 17,
+episode: 18,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 9 },
 released: new Date("2011-09-03").toISOString(),
 overview: "The Doctor follows a distress call from a terrified boy named George, whose fears have become reality. Trapped in a dollhouse with creepy peg dolls, the Doctor must uncover the source of George's psychic powers to save everyone.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E17_night_terrors.jpg?v=a2ea5ad9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E17_night_terrors.mp4?v=fb7b3c4f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E17_night_terrors.srt?v=1a37b674"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E18_night_terrors.jpg?v=8fec5e3b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E18_night_terrors.mkv?v=428220ac"
 },
 {
 title: "First Night (Minisode)",
 season: 6,
-episode: 18,
+episode: 19,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 53 },
 released: new Date("2011-09-04").toISOString(),
 overview: "On the night of her imprisonment, the Doctor arrives to take River Song on a date to the Singing Towers of Darillium. Their plans are complicated when a future version of River shows up, creating a chaotic temporal encounter.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E18_first_night_minisode.jpg?v=e902b66d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E18_first_night_minisode.mp4?v=bfdd572a",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E18_first_night_minisode.srt?v=2c683e24"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E19_first_night_minisode.jpg?v=e902b66d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E19_first_night_minisode.mkv?v=f9a262d0"
 },
 {
 title: "Last Night (Minisode)",
 season: 6,
-episode: 19,
+episode: 20,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 54 },
 released: new Date("2011-09-04").toISOString(),
 overview: "With no fewer than three River Songs from different times now in the TARDIS, the Doctor must prevent them from meeting to avoid contaminating the timeline. The chaotic situation culminates in a surprisingly poignant moment for River.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E19_last_night_minisode.jpg?v=dc30c38a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E19_last_night_minisode.mp4?v=58cbf6ff",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E19_last_night_minisode.srt?v=33c56c9b"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E20_last_night_minisode.jpg?v=dc30c38a",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E20_last_night_minisode.mkv?v=c3d95965"
 },
 {
 title: "The Girl Who Waited",
 season: 6,
-episode: 20,
+episode: 21,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 10 },
 released: new Date("2011-09-10").toISOString(),
 overview: "Amy becomes trapped in a quarantine facility where time moves faster, leaving her to fend for herself for decades. The Doctor and Rory must race against time to save her, but they are faced with a bitter, older Amy who refuses to be rescued.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E20_the_girl_who_waited.jpg?v=b935b4f5",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E20_the_girl_who_waited.mp4?v=c3b060ec",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E20_the_girl_who_waited.srt?v=cfb627ee"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E21_the_girl_who_waited.jpg?v=117a6d95",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E21_the_girl_who_waited.mkv?v=74d7862f"
 },
 {
 title: "The God Complex",
 season: 6,
-episode: 21,
+episode: 22,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 11 },
 released: new Date("2011-09-17").toISOString(),
 overview: "The TARDIS lands in a strange hotel with shifting corridors, where a minotaur-like creature feeds on the faith of its victims. The Doctor must break his companions' faith in him to save them from becoming the next meal.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E21_the_god_complex.jpg?v=ec8799af",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E21_the_god_complex.mp4?v=1f7c4c40",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E21_the_god_complex.srt?v=65e2cf01"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E22_the_god_complex.jpg?v=f37424dc",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E22_the_god_complex.mkv?v=98bd1c6c"
 },
 {
 title: "Up All Night (Minisode)",
 season: 6,
-episode: 22,
+episode: 23,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 55 },
 released: new Date("2011-09-18").toISOString(),
 overview: "Craig Owens struggles with the anxieties of being a new father, confiding in his baby, Alfie, about his fears. This brief scene provides a glimpse into Craig's life before the Doctor's unexpected return.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E22_up_all_night_minisode.jpg?v=49e089d0",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E22_up_all_night_minisode.mp4?v=295e64c6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E22_up_all_night_minisode.srt?v=6e3dbc56"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E23_up_all_night_minisode.jpg?v=49e089d0",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E23_up_all_night_minisode.mkv?v=adabb82f"
 },
 {
 title: "Closing Time",
 season: 6,
-episode: 23,
+episode: 24,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 12 },
 released: new Date("2011-09-24").toISOString(),
 overview: "On a farewell tour before his impending death, the Doctor visits his old friend Craig. He soon discovers a Cyberman infestation in a local department store and must stop their plan to convert humanity, all while babysitting.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E23_closing_time.jpg?v=52b423d6",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E23_closing_time.mp4?v=6e25b70a",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E23_closing_time.srt?v=87277751"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E24_closing_time.jpg?v=95b1219b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E24_closing_time.mkv?v=dd24b205"
 },
 {
-title: "The Wedding of River Song",
+title: "The Wedding of River Song (Prequel)",
 season: 6,
-episode: 24,
+episode: 25,
 type: "Prequel",
 released: new Date("2011-09-24").toISOString(),
 overview: "In Area 52, the Silent prisoner known as 'the Doctor' is about to be released by River Song. This short prequel shows the moments leading up to the shocking event at Lake Silencio, as the clock ticks down to 5:02 PM.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song.jpg?v=68cdcd20",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song.mp4?v=b68b8932",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song.srt?v=1b5a20cf"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song_prequel.jpg?v=3f41e317",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song_prequel.mkv?v=05af389e"
 },
 {
 title: "The Wedding of River Song",
 season: 6,
-episode: 25,
+episode: 26,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 6, episode: 13 },
 released: new Date("2011-10-01").toISOString(),
 overview: "River Song's refusal to kill the Doctor creates an alternate timeline where all of history is happening at once. The Doctor must convince River to correct time, leading to their wedding and a clever plan to cheat his own death.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song.jpg?v=68cdcd20",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song.mp4?v=b68b8932",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E25_the_wedding_of_river_song.srt?v=1b5a20cf"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E26_the_wedding_of_river_song.jpg?v=a8467913",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E26_the_wedding_of_river_song.mkv?v=59dc793a"
 },
 {
-title: "The Doctor, the Widow and the Wardrobe (Special)",
+title: "The Naked Truth (Minisode)",
 season: 6,
-episode: 26,
+episode: 27,
+type: "Minisode",
+released: new Date("2011-11-18").toISOString(),
+overview: "Viewers pressing the red button strip the Doctor of his clothes one garment at a time while he addresses the camera for Children in Need. He keeps talking, and the audience decides how much further to go.",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+},
+{
+title: "The Doctor, the Widow and the Wardrobe (Prequel)",
+season: 6,
+episode: 28,
 type: "Prequel",
 released: new Date("2011-12-06").toISOString(),
 overview: "The Doctor, alone in the TARDIS, holds a red button that could destroy a hostile spaceship. His dilemma over whether to press it leads to a decision that will put him in debt to a family on Earth during Christmas 1941.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_special.jpg?v=984e749a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_special.mp4?v=5c3184f3",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_special.srt?v=4b5d558c"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E28_the_doctor_the_widow_and_the_wardrobe_prequel.jpg?v=45ff6091",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E28_the_doctor_the_widow_and_the_wardrobe_prequel.mp4?v=5ca9a674",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E28_the_doctor_the_widow_and_the_wardrobe_prequel.srt?v=9a921610"
 },
 {
 title: "The Doctor, the Widow and the Wardrobe (Special)",
 season: 6,
-episode: 27,
+episode: 29,
 type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 48 },
 released: new Date("2011-12-25").toISOString(),
 overview: "Posing as a caretaker, the Doctor gives a grieving war widow and her two children a magical Christmas gift: a portal to a snowy forest planet. But the idyllic world holds a dangerous secret, and the family is soon caught in a fight for survival.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_special.jpg?v=984e749a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_special.mp4?v=5c3184f3",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_special.srt?v=4b5d558c"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E29_the_doctor_the_widow_and_the_wardrobe_special.jpg?v=bd19bb73",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E29_the_doctor_the_widow_and_the_wardrobe_special.mkv?v=6bc7ac0e"
 },
 {
 title: "Pond Life (Prequel)",
