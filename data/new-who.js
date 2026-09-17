@@ -8,8 +8,7 @@ imdb: { id: "tt0436992", season: 1, episode: 1 },
 released: new Date("2005-03-26").toISOString(),
 overview: "Ordinary shop assistant Rose Tyler's life is turned upside down when a mysterious stranger called the Doctor saves her from an attack by living mannequins. Drawn into his dangerous world, she must help him stop an alien consciousness from taking over London.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E01_rose.jpg?v=e0a99b4d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E01_rose.mp4?v=71558608",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E01_rose.srt?v=37e0f9a6"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E01_rose.mkv?v=6804adbe"
 },
 {
 title: "The End of the World",
@@ -20,8 +19,7 @@ imdb: { id: "tt0436992", season: 1, episode: 2 },
 released: new Date("2005-04-02").toISOString(),
 overview: "For her first trip through time, the Doctor takes Rose to the year five billion to witness the final destruction of Earth from a luxurious space station. But when a deadly saboteur strikes, the station's guests are put in mortal danger.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E02_the_end_of_the_world.jpg?v=18e802b9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E02_the_end_of_the_world.mp4?v=ac80623b",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E02_the_end_of_the_world.srt?v=f2ff2475"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E02_the_end_of_the_world.mkv?v=f77d70e4"
 },
 {
 title: "The Unquiet Dead",
@@ -32,8 +30,7 @@ imdb: { id: "tt0436992", season: 1, episode: 3 },
 released: new Date("2005-04-09").toISOString(),
 overview: "The Doctor and Rose travel to 1869 Cardiff, where the dead are walking and spectres haunt a local funeral parlour. Teaming up with Charles Dickens, they must uncover the ghostly truth behind the seemingly reanimated corpses.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E03_the_unquiet_dead.jpg?v=82592878",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E03_the_unquiet_dead.mp4?v=403fa52b",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E03_the_unquiet_dead.srt?v=daba437b"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E03_the_unquiet_dead.mkv?v=70109bd0"
 },
 {
 title: "Aliens of London",
@@ -44,8 +41,7 @@ imdb: { id: "tt0436992", season: 1, episode: 4 },
 released: new Date("2005-04-16").toISOString(),
 overview: "After returning Rose home a year late, the Doctor's reunion with her family is cut short when a spaceship crash-lands in the Thames. The incident triggers a global state of alert, but the real threat is already inside the government.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E04_aliens_of_london.jpg?v=8decf9c2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E04_aliens_of_london.mp4?v=e74312c1",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E04_aliens_of_london.srt?v=83a8273d"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E04_aliens_of_london.mkv?v=e1f545b6"
 },
 {
 title: "World War Three",
@@ -56,8 +52,7 @@ imdb: { id: "tt0436992", season: 1, episode: 5 },
 released: new Date("2005-04-23").toISOString(),
 overview: "With the alien Slitheen in control of 10 Downing Street, the Doctor, Rose, and Harriet Jones are trapped and declared international fugitives. They must find a way to expose the conspiracy and stop Earth from being sold for scrap.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E05_world_war_three.jpg?v=4be19012",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E05_world_war_three.mp4?v=242c4012",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E05_world_war_three.srt?v=4381c4e9"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E05_world_war_three.mkv?v=bf6cdfb2"
 },
 {
 title: "Dalek",
@@ -68,8 +63,7 @@ imdb: { id: "tt0436992", season: 1, episode: 6 },
 released: new Date("2005-04-30").toISOString(),
 overview: "In a secret underground vault in Utah, the Doctor confronts the last survivor of the Time War: a lone, captive Dalek. But when the creature escapes, the Doctor is forced to face the horror of his past and the darkness within himself.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E06_dalek.jpg?v=a3da6330",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E06_dalek.mp4?v=e9823fae",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E06_dalek.srt?v=c3d9dce5"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E06_dalek.mkv?v=5f6d26e9"
 },
 {
 title: "Sven and the Scarf (Minisode)",
@@ -90,8 +84,7 @@ imdb: { id: "tt0436992", season: 1, episode: 7 },
 released: new Date("2005-05-07").toISOString(),
 overview: "The Doctor, Rose, and new companion Adam Mitchell visit Satellite Five in the year 200,000, a space station that broadcasts news across the entire human empire. But a sinister force on Floor 500 is manipulating humanity's development.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_the_long_game.jpg?v=1309d6ad",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_the_long_game.mp4?v=eea77d21",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_the_long_game.srt?v=8b554f51"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E08_the_long_game.mkv?v=53f2e1b1"
 },
 {
 title: "Father's Day",
@@ -102,8 +95,7 @@ imdb: { id: "tt0436992", season: 1, episode: 8 },
 released: new Date("2005-05-14").toISOString(),
 overview: "Rose asks the Doctor to take her to the day her father died in 1987, hoping to be there for him in his final moments. But when she impulsively changes history, deadly Reapers are unleashed to sterilise the wound in time.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_fathers_day.jpg?v=d5e5afec",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_fathers_day.mp4?v=83b1137f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_fathers_day.srt?v=49f07687"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E09_fathers_day.mkv?v=db06478f"
 },
 {
 title: "The Empty Child",
@@ -114,8 +106,7 @@ imdb: { id: "tt0436992", season: 1, episode: 9 },
 released: new Date("2005-05-21").toISOString(),
 overview: "The TARDIS lands in London during the Blitz, where the Doctor and Rose encounter a terrifying plague sweeping through the city. A mysterious child in a gas mask wanders the streets, asking the same chilling question of everyone he meets.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_empty_child.jpg?v=babfd511",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_empty_child.mp4?v=aac2cf5f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_empty_child.srt?v=ad15a961"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E10_the_empty_child.mkv?v=78631195"
 },
 {
 title: "The Doctor Dances",
@@ -126,8 +117,7 @@ imdb: { id: "tt0436992", season: 1, episode: 10 },
 released: new Date("2005-05-28").toISOString(),
 overview: "The gas-mask plague is spreading across war-torn London, and the Doctor discovers the epidemic's source is an alien hospital ship. With time running out, he, Rose, and Captain Jack must stop the nanogenes before they consume the entire human race.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_the_doctor_dances.jpg?v=c9b3b8a1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_the_doctor_dances.mp4?v=c81fd2b4",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_the_doctor_dances.srt?v=41a072ca"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E11_the_doctor_dances.mkv?v=59177602"
 },
 {
 title: "Boom Town",
@@ -138,8 +128,7 @@ imdb: { id: "tt0436992", season: 1, episode: 11 },
 released: new Date("2005-06-04").toISOString(),
 overview: "The TARDIS team makes a pit stop in modern-day Cardiff, only to find a familiar enemy, a Slitheen, has survived and is plotting a new, catastrophic scheme. The Doctor is faced with a moral dilemma: whether to show mercy to a remorseless killer.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_boom_town.jpg?v=e4bf3fcc",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_boom_town.mp4?v=20ec0553",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_boom_town.srt?v=1cf9dce7"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E12_boom_town.mkv?v=8c16f458"
 },
 {
 title: "Bad Wolf",
@@ -150,8 +139,7 @@ imdb: { id: "tt0436992", season: 1, episode: 12 },
 released: new Date("2005-06-11").toISOString(),
 overview: "The Doctor, Rose, and Captain Jack find themselves trapped in twisted, futuristic versions of popular reality TV shows where losers are disintegrated. A familiar, ancient enemy is pulling the strings from behind the scenes.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_bad_wolf.jpg?v=a82bb4e2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_bad_wolf.mp4?v=818a93b0",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_bad_wolf.srt?v=41d8799f"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E13_bad_wolf.mkv?v=5f326179"
 },
 {
 title: "The Parting of the Ways",
@@ -162,8 +150,7 @@ imdb: { id: "tt0436992", season: 1, episode: 13 },
 released: new Date("2005-06-18").toISOString(),
 overview: "The Dalek fleet prepares to invade Earth, and the Doctor is faced with an impossible choice to save the universe. As he sends Rose home for her safety, he must confront the Dalek Emperor in a final, devastating showdown.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_the_parting_of_the_ways.jpg?v=a9c14467",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_the_parting_of_the_ways.mp4?v=54f69c27",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_the_parting_of_the_ways.srt?v=81e193cb"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_the_parting_of_the_ways.mkv?v=63eb0d42"
 },
 {
 title: "Born Again (Minisode)",
@@ -186,8 +173,7 @@ imdb: { id: "tt0436992", season: 0, episode: 2 },
 released: new Date("2005-12-25").toISOString(),
 overview: "It's Christmas, but the newly regenerated Doctor is in a coma, leaving Rose and her family to defend Earth from the Sycorax. As the aliens threaten to release a deadly virus, humanity's only hope lies with a Doctor who can't even wake up.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the_christmas_invasion_special.jpg?v=af518ad3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the_christmas_invasion_special.mp4?v=cde5e5a8",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the_christmas_invasion_special.srt?v=d5ca5f2b"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the_christmas_invasion_special.mkv?v=c5108b0f"
 },
 {
 title: "Tardisode 1",

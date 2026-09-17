@@ -78,7 +78,7 @@ data/*.js + lib/*.js ──► npx vercel deploy --prod ──► the addon, the
 ```
 
 Order of operations after any bucket change, or nothing downstream sees it:
-`bucket-index.sh` → `stamp-media.js --write` → `check-links.js` → `build.py` → `v2.py` → `viewer.py` → `vercel deploy --prod`.
+`bucket-index.sh` → `stamp-media.js --write` → `check-links.js` → `build.py` → `v2.py` → `viewer.py` → `vercel deploy --prod` → `rclone rc vfs/refresh` (the W: mount, see Part B).
 
 ### The file naming scheme
 
@@ -281,6 +281,17 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
   Same name overwrites; that is deliberate, the hash in the URL is what changes.
 - Then always `bash scripts/bucket-index.sh` (needs Git Bash, not WSL; `node scripts/run.js`
   exists for the scripts that must find the Windows rclone).
+- **The W: mount does not see what another process wrote.** It is `rclone mount b2:whoniverse W:`
+  with `--dir-cache-time 24h`, and B2 has no change-notification API, so the `--poll-interval`
+  it used to carry did nothing (rclone says so in `%LOCALAPPDATA%\rclone\mount.log`:
+  `poll-interval is not supported by this remote`). Every upload and delete here runs as a
+  separate process, so the drive stays stale for up to 24 hours and shows files that no longer
+  exist. The mount now runs with `--rc`, so after any bucket change ask it to refresh:
+  ```
+  rclone rc vfs/refresh recursive=true --url 127.0.0.1:5572
+  ```
+  Launcher is `%LOCALAPPDATA%\rclone\mount-whoniverse.cmd`, started at logon by a `.vbs` in
+  the Startup folder.
 - Cloudflare caches nothing over 512 MB, so episodes stream from B2 every view and file
   size is a bandwidth cost as well as a storage one.
 
@@ -762,6 +773,7 @@ python ledger/build.py && python ledger/v2.py && python ledger/viewer.py
 node scripts/build-chronology.js --write        # if any data file changed
 npx vercel deploy --prod                        # Vercel is NOT connected to GitHub
 curl -s https://whoniverse.nubblyn.com/ledger-v2 | grep -c "Best found"   # live?
+rclone rc vfs/refresh recursive=true --url 127.0.0.1:5572   # W: still lists deleted files otherwise
 git add ledger data public docs && git commit -m "New Who season 1: <what changed>"
 ```
 Then the hand-written surfaces if a series' availability changed: manifest description
@@ -818,12 +830,12 @@ recap trimmed, a special with a Children in Need frame) shift rather than scale 
 an offset as well; if the durations differ by more than the ratio predicts, that is why.
 Check every replaced episode, not a sample.
 
-**Keep the old file until the new one has played.** `rclone copy` under the same name
-overwrites, and B2 keeps old versions only if versioning is on for the bucket (check
-with `rclone backend features b2:whoniverse` or the B2 console before relying on it).
-Cheaper and certain: before the upload, `rclone copyto b2:whoniverse/new_who/season_1/X.mp4
-b2:whoniverse/_previous/new_who/season_1/X.mp4`, and delete `_previous/` at the end of the
-season once the replacements have been opened in a client. The same for the `.srt`.
+**No backup copies in the bucket.** An earlier version of this document had every
+replaced file copied to `_previous/` first and deleted at the end of the season. That
+folder reached 97 objects and 51 GB across four seasons and was removed on 17 September
+2026; do not recreate it. The source is a torrent that can be pulled again, the still is
+regenerated from the file in one command, and the bucket is for what is served. `rclone
+copy` under the same name overwrites, which is the intent.
 
 **A still is always a frame from the episode's own video.** `build-stills.js` samples
 four points across the middle and scores them; that is the only way one is ever made.
@@ -893,7 +905,7 @@ on seasons 1 and 2 and had to be redone.
 | 5 | **Subtitles** | the release's own tracks ride inside the file untouched; a generated one only where the file has none, and it is regenerated whenever its video is |
 | 6 | **Stills regenerated** | `.jpg` rebuilt for every video added *or replaced*, from the file that will be served |
 | 7 | **Uploaded to the bucket** | `rclone copy`, then sizes checked against the local originals |
-| 8 | **Old files kept** | `_previous/` holds anything overwritten, until the user has played one |
+| 8 | **Bucket holds only what is served** | no backup copies; superseded names deleted after the deploy, nothing else left behind |
 | 9 | **Ledger updated** | `have` probed from the real file, **`source` naming the release it came from**, `best` and `checked` from today's search, columns rectangular |
 | 10 | **Addon updated** | `data/*.js` URLs, episode numbers renumbered if a row moved, `audio` flag iff Dolby |
 | 11 | **Regenerated and checked** | `bucket-index.sh` → `stamp-media --write` → `check-links` → `build.py` → `v2.py` → `viewer.py` → `build-chronology` |
