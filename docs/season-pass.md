@@ -211,6 +211,10 @@ them (see the 7-Zip entry for why).
      mid-clause; two lines max, 42 characters max; cue starts on its first word and ends
      on its last. No speaker dashes (Whisper has no speaker labels, and the style only
      dashes two speakers sharing one cue, so omitting is never wrong).
+- `scripts/subs/housestyle.py in.srt out.srt` brings a **supplied** subtitle into house
+  style: colour markup to speaker dashes, SDH out, two lines of 42, no overlaps, cues
+  split rather than truncated. Use it on every BBC iPlayer track. See Part I for the five
+  traps it exists to avoid.
 - Where a video has a real text track (subrip in the MKV, or the uploader's en-GB from
   YouTube), use that instead of Whisper; extract with
   `ffmpeg -i in.mkv -map 0:s:<n> -c:s srt out.srt` after `ffprobe` shows which stream is
@@ -494,7 +498,7 @@ inside it exactly as the encoder built them.
 | SDR | HDR sources tone-mapped, never just scaled | grey picture otherwise |
 | size | whatever the release is | |
 | name | from `file-names.tsv`, exactly | the still and subtitle match the video by stem |
-| beside it | `<stem>.jpg` 1280x720; `<stem>.srt` **only when the file carries no subtitles of its own**, bitmap tracks counting as its own, and an existing sidecar is deleted when a replacement brings its own | a sidecar beside a file that already has subtitles is a second, foreign version of them |
+| beside it | `<stem>.jpg` 1280x720; `<stem>.srt` **only when the file carries no subtitles of its own in a language we serve**, bitmap tracks counting as its own, and an existing sidecar is deleted when a replacement brings its own | a sidecar beside a file that already has subtitles is a second, foreign version of them |
 
 The only thing still worth checking before upload is that it **streams**: open it from the
 bucket and confirm it starts without downloading the whole file first.
@@ -970,6 +974,72 @@ A bitmap track counts. PGS is what the disc shipped and it is the original; the
 MKV is `notWebReady` regardless, so the browser player was never the audience.
 Dropping the sidecar means dropping `subtitleUrl` from the entry in the same
 commit, and the bucket delete waits for the deploy like any other superseded name.
+
+**A supplied subtitle keeps its words and gets our presentation.** This replaces the
+rule settled after Born Again, which said an official track ships exactly as it came.
+That was written to stop the wording being rewritten, and the wording is still
+untouchable: the words, their order, and each cue's start time are the subtitler's work.
+Everything about how they are shown is ours.
+
+`scripts/subs/housestyle.py in.srt out.srt` does it, and is the counterpart to
+`srtify.py`, which only ever handled Whisper output. It applies the Part D rules to a
+finished `.srt`: colour markup out, speaker dashes in, SDH out, at most two lines of 42
+characters, 0.8 s to 7 s, no overlaps.
+
+Five things it has to get right, each of which it got wrong first:
+
+- **Colour becomes a dash, not nothing.** The BBC uses `<font color>` to tell speakers
+  apart. Read the colour, emit the house dash, then discard the markup. Do not simply
+  strip it, or two speakers merge into one line.
+- **A tag per line is not a speaker per line.** The BBC opens a fresh `<font>` on every
+  line, so one speaker over two lines looks like two speakers. Only a *change* of colour
+  is a change of speaker. Getting this wrong dashed 374 cues where 144 was right.
+- **A leading dash is also a speaker marker.** The BBC uses colour or dashes as it likes,
+  sometimes dashes inside a single colour. Key on both.
+- **Never drop a word.** Where a two-speaker cue will not fit two lines of 42, split it
+  into two cues and divide the time in proportion. Truncating to fit lost 56 words of the
+  Infinite Quest before this was caught; check with a word-count diff afterwards, which is
+  the only thing that catches it.
+- **Cues sharing a timestamp are one cue.** The BBC splits a single on-screen subtitle
+  across two records when it wants three lines. Left alone they read as an overlap and
+  wrap separately, landing the dashes wrong. Merge them first: that took the Infinite
+  Quest from 35 overlaps to none.
+
+Two rules lose when they conflict with the rest. **No-overlap beats the 0.8 s minimum**,
+because stealing time from the next cue puts two subtitles on screen at once; where the
+source packs cues tighter, the cue stays short. And the 25-characters-a-second reading
+speed cannot always be met without merging cues, which would change the subtitler's
+structure. The Infinite Quest ends with 23 short cues and 3 fast ones, and that is the
+right answer, not a failure.
+
+**A ripper's credit inside a subtitle is not a subtitle.** Six season 9 files carry
+`Ripped By mstoll / Happy New Year 2016` as real cues, on screen like dialogue at 2:31
+and again near the end. Delete those cues outright. That is not editing someone's
+subtitling work; it is removing an advert inserted into it. Not yet fixed across that
+season: it belongs to the season 9 pass.
+
+**Retiming a subtitle onto a different cut is measured, never guessed.** Correlate the
+loudness envelope of the new file's audio against the old one over a 40 s window, search
+offsets in 0.02 s steps, and confirm the same answer at three widely spaced points. The
+Infinite Quest subtitle moved +0.96 s onto the DVD, identical at 5, 25 and 43 minutes with
+correlation above 0.9, which is what proves it is a constant shift and not drift.
+
+**A foreign-market disc is a legitimate source, but read every track before shipping.**
+The Infinite Quest DVD is a Russian release: audio 0 a Russian dub, audio 1 the English
+original, subtitles Russian, and no Russian text in the picture. Identify an unknown track
+by correlating its loudness against a copy already held, then confirm with a few seconds
+of Whisper language detection. Map English first and set the default with `mkvpropedit`:
+ffmpeg's `-disposition` reported success and did not take, and `mkvmerge -J` is the only
+honest check of what an MKV's flags actually say.
+
+**Where a file's only subtitles are in a language we do not serve, a sidecar still
+belongs.** Part D says a sidecar goes beside a file carrying none of its own; that assumed
+"its own" meant usable. A Russian VobSub does not serve an English viewer.
+
+**A DVD cannot be shipped as it came, and that is exception 2.** `VIDEO_TS` is seventy
+files and the feature is split across VOBs. Byte-join the parts (`cat a.VOB b.VOB > one.vob`;
+the `concat:` protocol stops at the first timestamp discontinuity, two seconds in) and remux
+with `-c copy -dn`. Nothing is re-encoded; only the container changes.
 
 **A game is not an episode.** Attack of the Graske is an interactive Red Button
 production with no linear cut. It went in on an inferred yes and came back out. When a

@@ -9811,9 +9811,10 @@ const episodes = [
   type: "Animated Series",
   released: "2007-04-29T00:00:00.000Z",
   overview: "The Doctor and Martha embark on an animated adventure across the galaxy to find the location of the legendary lost starship, the Infinite. They must outwit the evil Baltazar, who seeks the ship's power to grant his heart's desire: control of the universe.",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.jpg?v=6edf292b",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.mp4?v=1eedd3ff",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.srt?v=8dc000d8",
+  audio: "AC-3",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.jpg?v=7bb07c45",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.mkv?v=14358d74",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.srt?v=ca6a2629",
 },
 {
   title: "The Lazarus Experiment",
@@ -12250,7 +12251,7 @@ const episodes = [
   overview: "A fragile peace treaty between humans and shape-shifting Zygons is threatened by a radical splinter group. The Doctor and UNIT must stop the rebellion before it escalates into a full-scale war, but with Zygons able to duplicate anyone, trust is impossible.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E09_the_zygon_invasion.jpg?v=35a690f8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E09_the_zygon_invasion.mp4?v=6c2ac2db",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E09_the_zygon_invasion.srt?v=6fb9656f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E09_the_zygon_invasion.srt?v=6c7ced43",
 },
 {
   title: "The Zygon Inversion",
@@ -12261,7 +12262,7 @@ const episodes = [
   overview: "With the Zygon rebellion escalating, the Doctor races against time to prevent a war that would devastate both species. He must appeal to the humanity in both sides to stop a catastrophe.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E10_the_zygon_inversion.jpg?v=b021d446",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E10_the_zygon_inversion.mp4?v=97c229f2",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E10_the_zygon_inversion.srt?v=53b8a7e9",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E10_the_zygon_inversion.srt?v=12a4c517",
 },
 {
   title: "Sleep No More",
@@ -12272,7 +12273,7 @@ const episodes = [
   overview: "The Doctor and Clara arrive on a space station in the 38th century where a rescue team is investigating why the crew has vanished. They discover the station's sleep-replacement pods have created monstrous creatures from sleep dust, and that nothing is as it seems.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E12_sleep_no_more.jpg?v=27b3a464",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E12_sleep_no_more.mp4?v=1517c1de",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E12_sleep_no_more.srt?v=8db93018",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E12_sleep_no_more.srt?v=01754328",
 },
 {
   title: "Face the Raven",
@@ -12283,7 +12284,7 @@ const episodes = [
   overview: "When their old friend Rigsy is marked for death, the Doctor and Clara's investigation leads them to a secret alien refugee camp hidden in London. They soon discover Clara has unknowingly taken on Rigsy's death sentence.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E13_face_the_raven.jpg?v=9eb1131e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E13_face_the_raven.mp4?v=b753ed7c",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E13_face_the_raven.srt?v=349fa6ab",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E13_face_the_raven.srt?v=62e9f689",
 },
 {
   title: "Heaven Sent",
@@ -12294,7 +12295,7 @@ const episodes = [
   overview: "Following Clara's death, the Doctor is teleported to a strange castle-like prison, pursued by a terrifying creature from his worst nightmares. Trapped in a cycle of death and rebirth, he must solve the puzzle of the confession dial to escape.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E14_heaven_sent.jpg?v=6caa8b50",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E14_heaven_sent.mp4?v=da751c74",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E14_heaven_sent.srt?v=beeda036",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E14_heaven_sent.srt?v=ec539c16",
 },
 {
   title: "Hell Bent",
@@ -12305,7 +12306,7 @@ const episodes = [
   overview: "Having escaped his prison, the Doctor returns to Gallifrey and confronts the Time Lords who trapped him. He will stop at nothing to save Clara, even if it means breaking the laws of time and risking the entire universe to bring her back.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E15_hell_bent.jpg?v=ecfc73ce",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E15_hell_bent.mp4?v=d6ec469d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E15_hell_bent.srt?v=67223855",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_9/S09_E15_hell_bent.srt?v=8adcb1db",
 },
 {
   title: "The Husbands of River Song (Special)",
