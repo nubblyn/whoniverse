@@ -1422,8 +1422,7 @@ type: "Prequel",
 released: new Date("2011-12-06").toISOString(),
 overview: "The Doctor, alone in the TARDIS, holds a red button that could destroy a hostile spaceship. His dilemma over whether to press it leads to a decision that will put him in debt to a family on Earth during Christmas 1941.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_prequel.jpg?v=45ff6091",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_prequel.mp4?v=5ca9a674",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_prequel.srt?v=9a921610"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_prequel.mkv?v=c7721856"
 },
 {
 title: "The Doctor, the Widow and the Wardrobe (Special)",
@@ -1444,19 +1443,17 @@ type: "Prequel",
 released: new Date("2012-08-27").toISOString(),
 overview: "A series of voicemails from the Doctor charts his chaotic adventures, from surfing on a solar wave to encountering an Ood in their bathroom. This prequel shows the humorous and sometimes dangerous reality of life for Amy and Rory between TARDIS trips.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E01_pond_life_prequel.jpg?v=7b63a459",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E01_pond_life_prequel.mp4?v=c9742db0",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E01_pond_life_prequel.srt?v=23cc3659"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E01_pond_life_prequel.mkv?v=0ad6fc31"
 },
 {
-title: "Asylum of the Daleks",
+title: "Asylum of the Daleks (Prequel)",
 season: 7,
 episode: 2,
 type: "Prequel",
 released: new Date("2012-09-01").toISOString(),
 overview: "A hooded messenger journeys through the ruins of Skaro to deliver a cryptic message to the Doctor. The message warns of a coming mission to the most dangerous place in the universe: the Asylum of the Daleks.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.jpg?v=ca04979b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.mp4?v=d85edc0a",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.srt?v=5d7a531b"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E02_asylum_of_the_daleks_prequel.jpg?v=6212f7d6",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E02_asylum_of_the_daleks_prequel.mkv?v=747fb844"
 },
 {
 title: "Asylum of the Daleks",
@@ -1466,9 +1463,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 1 },
 released: new Date("2012-09-01").toISOString(),
 overview: "Kidnapped by the Daleks, the Doctor, Amy, and Rory are forced to enter the Dalek Asylum, a planet where the most insane and battle-scarred Daleks are imprisoned. There, they meet the enigmatic Oswin Oswald, who may hold the key to their survival.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.jpg?v=ca04979b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.mp4?v=d85edc0a",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.srt?v=5d7a531b"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.jpg?v=9b907a9a",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E03_asylum_of_the_daleks.mkv?v=2a4c2a1b"
 },
 {
 title: "The Inforarium (Minisode)",
@@ -1479,8 +1475,7 @@ imdb: { id: "tt0436992", season: 0, episode: 100 },
 released: new Date("2012-09-02").toISOString(),
 overview: "To erase himself from every database in the universe, the Doctor visits the Inforarium, a place of forbidden knowledge. In this brief adventure, he cleverly deletes all records of his existence, one memory-wiped informant at a time.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E04_the_inforarium_minisode.jpg?v=827de59b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E04_the_inforarium_minisode.mp4?v=3c106049",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E04_the_inforarium_minisode.srt?v=abb7edbb"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E04_the_inforarium_minisode.mkv?v=fc0f9cc9"
 },
 {
 title: "Dinosaurs on a Spaceship",
@@ -1490,9 +1485,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 2 },
 released: new Date("2012-09-08").toISOString(),
 overview: "The Doctor assembles a gang, including Queen Nefertiti and Rory's dad, to investigate a Silurian spaceship filled with dinosaurs that is on a collision course with Earth. They must stop a ruthless trader from claiming the precious cargo.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E05_dinosaurs_on_a_spaceship.jpg?v=9a7c50ac",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E05_dinosaurs_on_a_spaceship.mp4?v=cff1cdbc",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E05_dinosaurs_on_a_spaceship.srt?v=6e054c05"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E05_dinosaurs_on_a_spaceship.jpg?v=caa13f6d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E05_dinosaurs_on_a_spaceship.mkv?v=cb28a5c9"
 },
 {
 title: "The Making of the Gunslinger (Prequel)",
@@ -1503,8 +1497,7 @@ imdb: { id: "tt0436992", season: 0, episode: 70 },
 released: new Date("2012-09-08").toISOString(),
 overview: "This prequel offers a glimpse into the creation of the Gunslinger, the cyborg antagonist from 'A Town Called Mercy'. It shows the reluctant subject being converted into a weapon, setting up his tragic backstory and quest for justice.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E06_the_making_of_the_gunslinger_prequel.jpg?v=97373692",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E06_the_making_of_the_gunslinger_prequel.mp4?v=aa3ede7f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E06_the_making_of_the_gunslinger_prequel.srt?v=1cd33d82"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E06_the_making_of_the_gunslinger_prequel.mkv?v=5cfd1859"
 },
 {
 title: "A Town Called Mercy",
@@ -1514,9 +1507,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 3 },
 released: new Date("2012-09-15").toISOString(),
 overview: "The Doctor becomes the reluctant sheriff of a Wild West town that is being terrorised by a relentless cyborg, the Gunslinger. He discovers the town is protecting a fugitive alien doctor, forcing him to make a difficult moral choice.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E07_a_town_called_mercy.jpg?v=06881fa2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E07_a_town_called_mercy.mp4?v=a473433c",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E07_a_town_called_mercy.srt?v=e35c4f98"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E07_a_town_called_mercy.jpg?v=109f7534",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E07_a_town_called_mercy.mkv?v=f30f467a"
 },
 {
 title: "The Power of Three",
@@ -1526,9 +1518,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 4 },
 released: new Date("2012-09-22").toISOString(),
 overview: "Millions of mysterious black cubes appear overnight across the globe, and the Doctor decides to stay with Amy and Rory to investigate. As humanity adapts to the strange objects, the Doctor uncovers a sinister, slow-burning invasion.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E08_the_power_of_three.jpg?v=d00b4038",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E08_the_power_of_three.mp4?v=527759a6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E08_the_power_of_three.srt?v=bef3f1a2"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E08_the_power_of_three.jpg?v=bcf54931",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E08_the_power_of_three.mkv?v=48753e54"
 },
 {
 title: "The Angels Take Manhattan",
@@ -1538,9 +1529,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 5 },
 released: new Date("2012-09-29").toISOString(),
 overview: "The Weeping Angels have taken over New York City, creating a temporal farm that traps their victims in the past. When Rory becomes their next victim, the Doctor and Amy must face a heartbreaking paradox to save him, leading to a final, tragic farewell.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E09_the_angels_take_manhattan.jpg?v=02983cb7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E09_the_angels_take_manhattan.mp4?v=a4763fb0",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E09_the_angels_take_manhattan.srt?v=193d5236"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E09_the_angels_take_manhattan.jpg?v=bf3739cb",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E09_the_angels_take_manhattan.mkv?v=5f0f7410"
 },
 {
 title: "P.S. (Minisode)",
@@ -1549,14 +1539,16 @@ episode: 10,
 type: "Minisode",
 released: new Date("2012-10-12").toISOString(),
 overview: "In this animated storyboard, Rory's father, Brian, receives a final letter from his son, delivered by a man from the past. The letter explains what happened to Amy and Rory and asks him to look after a very special new member of the family.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E10_ps_minisode.jpg?v=7b5f3b8d",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E10_ps_minisode.srt?v=0333812b"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E10_ps_minisode.jpg?v=4c706d09",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E10_ps_minisode.mp4?v=802ddfbb",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E10_ps_minisode.srt?v=567c19d0"
 },
 {
 title: "Rory's Story (Minisode)",
 season: 7,
 episode: 11,
 type: "Minisode",
+released: new Date("2020-04-11").toISOString(),
 overview: "Stranded in 1946, Rory Williams records a book for the son he and Amy are about to bring home, working through how he met her and the times he has died since. He has one working smartphone and a great deal to explain.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E11_rorys_story_minisode.jpg?v=3b2f0fa0",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E11_rorys_story_minisode.mp4?v=a151ba9c",
@@ -1570,8 +1562,7 @@ type: "Prequel",
 released: new Date("2012-12-25").toISOString(),
 overview: "Two days after the battle at Demon's Run, Strax the Sontaran reports to Madame Vastra about his recent adventures. This prequel connects past events to the present as Strax relays his encounters with a 'Great Detective' and a mysterious governess.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E12_the_battle_of_demons_run_two_days_later_prequel.jpg?v=ea80084f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E12_the_battle_of_demons_run_two_days_later_prequel.mp4?v=f7f998ff",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E12_the_battle_of_demons_run_two_days_later_prequel.srt?v=f59ca1ad"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E12_the_battle_of_demons_run_two_days_later_prequel.mkv?v=ab3282d0"
 },
 {
 title: "The Great Detective (Prequel)",
@@ -1581,8 +1572,7 @@ type: "Prequel",
 released: new Date("2012-12-25").toISOString(),
 overview: "In Victorian London, the Paternoster Gang, Vastra, Jenny, and Strax, discuss the Doctor's recent reclusive behaviour. Their conversation reveals that the Doctor has withdrawn from the universe, setting the stage for his reluctant return to action.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E13_the_great_detective_prequel.jpg?v=d1aca096",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E13_the_great_detective_prequel.mp4?v=a97f015e",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E13_the_great_detective_prequel.srt?v=afc910e5"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E13_the_great_detective_prequel.mkv?v=7defc7db"
 },
 {
 title: "Vastra Investigates (Prequel)",
@@ -1592,8 +1582,7 @@ type: "Prequel",
 released: new Date("2012-12-25").toISOString(),
 overview: "Madame Vastra and Jenny investigate a mysterious case involving people whose memories have been wiped. Their investigation leads them to a clue about the Doctor's next adventure and the sinister 'memory worms' at play.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E14_vastra_investigates_prequel.jpg?v=2a19fb67",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E14_vastra_investigates_prequel.mp4?v=bbf58be3",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E14_vastra_investigates_prequel.srt?v=f1aa5d04"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E14_vastra_investigates_prequel.mkv?v=cfe1f022"
 },
 {
 title: "The Snowmen (Special)",
@@ -1603,20 +1592,18 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 66 },
 released: new Date("2012-12-25").toISOString(),
 overview: "A grieving, reclusive Doctor is drawn back into action by a curious governess named Clara Oswald. Together, they must stop the Great Intelligence from creating an army of sentient snowmen to take over Victorian London.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E15_the_snowmen_special.jpg?v=634d7ad3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E15_the_snowmen_special.mp4?v=355e5ad4",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E15_the_snowmen_special.srt?v=d9e3b3b2"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E15_the_snowmen_special.jpg?v=2378ef23",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E15_the_snowmen_special.mkv?v=46c7b5f9"
 },
 {
-title: "The Bells of Saint John",
+title: "The Bells of Saint John (Prequel)",
 season: 7,
 episode: 16,
 type: "Prequel",
 released: new Date("2013-03-23").toISOString(),
 overview: "Still searching for Clara Oswald, the Doctor sits on a swing in a playground, where he has a conversation with a little girl. This encounter reminds him of his purpose and sets him on the path to finding the impossible girl once more.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_bells_of_saint_john.jpg?v=39b070d9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_bells_of_saint_john.mp4?v=246e3433",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_bells_of_saint_john.srt?v=8300ea5e"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E16_the_bells_of_saint_john_prequel.jpg?v=2fd0aef3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E16_the_bells_of_saint_john_prequel.mkv?v=362f84d6"
 },
 {
 title: "The Bells of Saint John",
@@ -1626,9 +1613,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 6 },
 released: new Date("2013-03-30").toISOString(),
 overview: "The Doctor finally finds a version of Clara in modern-day London, only to discover she's connected to a sinister plot to upload human minds via WiFi. He must save her from the Great Intelligence before she is deleted forever.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_bells_of_saint_john.jpg?v=39b070d9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_bells_of_saint_john.mp4?v=246e3433",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_bells_of_saint_john.srt?v=8300ea5e"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_bells_of_saint_john.jpg?v=186bac25",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E17_the_bells_of_saint_john.mkv?v=186edb64"
 },
 {
 title: "The Rings of Akhaten",
@@ -1638,9 +1624,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 7 },
 released: new Date("2013-04-06").toISOString(),
 overview: "For her first proper trip, Clara asks the Doctor to take her somewhere awesome, so he brings her to the vibrant rings of Akhaten. They must help a young girl face a parasitic old god that feeds on memories and emotions.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E18_the_rings_of_akhaten.jpg?v=d1bbbead",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E18_the_rings_of_akhaten.mp4?v=25be3bc6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E18_the_rings_of_akhaten.srt?v=e3609e05"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E18_the_rings_of_akhaten.jpg?v=3931a71d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E18_the_rings_of_akhaten.mkv?v=b6cfeaf5"
 },
 {
 title: "Rain Gods (Minisode)",
@@ -1651,8 +1636,7 @@ imdb: { id: "tt0436992", season: 0, episode: 99 },
 released: new Date("2013-04-07").toISOString(),
 overview: "In a deleted scene from 'The Rings of Akhaten', the Doctor and River Song find themselves on the planet of the Rain Gods, trying to escape a ritual sacrifice. This short, humorous exchange highlights their chaotic and intertwined relationship.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E19_rain_gods_minisode.jpg?v=e95e604d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E19_rain_gods_minisode.mp4?v=f3b2d8bd",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E19_rain_gods_minisode.srt?v=d2df36e6"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E19_rain_gods_minisode.mkv?v=fa7adf83"
 },
 {
 title: "Cold War",
@@ -1662,9 +1646,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 8 },
 released: new Date("2013-04-13").toISOString(),
 overview: "The TARDIS lands on a damaged Russian submarine during the Cold War in 1983. The Doctor and Clara must prevent a revived Ice Warrior from launching nuclear missiles and starting a global catastrophe.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E20_cold_war.jpg?v=72be7117",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E20_cold_war.mp4?v=045e0c8e",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E20_cold_war.srt?v=c7e65e02"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E20_cold_war.jpg?v=56737655",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E20_cold_war.mkv?v=26758dee"
 },
 {
 title: "Hide",
@@ -1674,9 +1657,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 9 },
 released: new Date("2013-04-20").toISOString(),
 overview: "The Doctor and Clara visit a haunted mansion in 1974 to investigate a ghost with a psychic and a ghost hunter. They discover the 'ghost' is actually a stranded time traveller, and they must venture into a dangerous pocket universe to save her.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E21_hide.jpg?v=4fd88ce3",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E21_hide.mp4?v=d7753c64",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E21_hide.srt?v=28fa178c"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E21_hide.jpg?v=d6b76e8c",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E21_hide.mkv?v=255b8230"
 },
 {
 title: "Journey to the Centre of the TARDIS",
@@ -1686,9 +1668,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 10 },
 released: new Date("2013-04-27").toISOString(),
 overview: "When the TARDIS is damaged by a space salvage crew, Clara becomes lost in its infinite corridors. The Doctor must recruit the salvagers to help him find her before the ship's self-destruct sequence activates, all while hiding a dark secret.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E22_journey_to_the_centre_of_the_tardis.jpg?v=1c10a8ef",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E22_journey_to_the_centre_of_the_tardis.mp4?v=75047a19",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E22_journey_to_the_centre_of_the_tardis.srt?v=52fc4c97"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E22_journey_to_the_centre_of_the_tardis.jpg?v=7742995b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E22_journey_to_the_centre_of_the_tardis.mkv?v=011f97f0"
 },
 {
 title: "Clara and the TARDIS (Minisode)",
@@ -1699,8 +1680,7 @@ imdb: { id: "tt0436992", season: 0, episode: 98 },
 released: new Date("2013-04-28").toISOString(),
 overview: "While alone in the TARDIS, Clara has a conversation with the ship itself, which displays holographic images of past companions and even herself. This minisode explores the TARDIS's consciousness and its apparent distrust of the Doctor's newest friend.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E23_clara_and_the_tardis_minisode.jpg?v=be624345",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E23_clara_and_the_tardis_minisode.mp4?v=dff41063",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E23_clara_and_the_tardis_minisode.srt?v=b13a93ca"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E23_clara_and_the_tardis_minisode.mkv?v=b6d38e44"
 },
 {
 title: "The Crimson Horror",
@@ -1710,9 +1690,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 11 },
 released: new Date("2013-05-04").toISOString(),
 overview: "In 19th-century Yorkshire, the Paternoster Gang investigates a utopian community where bodies are turning up bright red and petrified. They discover the Doctor is a captive of the sinister Mrs Gillyflower and her parasitic 'Mr Sweet'.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E24_the_crimson_horror.jpg?v=b672275e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E24_the_crimson_horror.mp4?v=afd3c8c3",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E24_the_crimson_horror.srt?v=c2b8f52e"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E24_the_crimson_horror.jpg?v=0eb2f57b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E24_the_crimson_horror.mkv?v=5acd511b"
 },
 {
 title: "Nightmare in Silver",
@@ -1722,9 +1701,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 12 },
 released: new Date("2013-05-11").toISOString(),
 overview: "The Doctor and Clara visit an alien theme park, only to find it's the hunting ground for a new, upgraded generation of Cybermen. The Doctor is forced into a deadly game of chess for control of his own mind against the Cyber-Planner.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E25_nightmare_in_silver.jpg?v=22d28399",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E25_nightmare_in_silver.mp4?v=3714d021",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E25_nightmare_in_silver.srt?v=5f3db8bc"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E25_nightmare_in_silver.jpg?v=056e4912",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E25_nightmare_in_silver.mkv?v=0ae5ee2d"
 },
 {
 title: "Clarence and the Whispermen (Prequel)",
@@ -1735,8 +1713,7 @@ imdb: { id: "tt0436992", season: 0, episode: 86 },
 released: new Date("2013-05-18").toISOString(),
 overview: "A convicted murderer in prison receives a visit from the faceless Whispermen. They offer him a deal: his freedom in exchange for information about the Doctor's greatest secret: his grave on the planet Trenzalore.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E26_clarence_and_the_whispermen_prequel.jpg?v=7c98a7b9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E26_clarence_and_the_whispermen_prequel.mp4?v=586e2666",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E26_clarence_and_the_whispermen_prequel.srt?v=4a81cc76"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E26_clarence_and_the_whispermen_prequel.mkv?v=97c8fd0b"
 },
 {
 title: "She Said, He Said (Prequel)",
@@ -1747,8 +1724,7 @@ imdb: { id: "tt0436992", season: 0, episode: 85 },
 released: new Date("2013-05-18").toISOString(),
 overview: "In separate monologues, the Doctor and Clara reflect on their relationship and the mystery surrounding the 'impossible girl'. They both know they have a secret, but neither understands the other's, leading them towards a fateful confrontation.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E27_she_said_he_said_prequel.jpg?v=14ed59ef",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E27_she_said_he_said_prequel.mp4?v=7695538b",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E27_she_said_he_said_prequel.srt?v=fd448773"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E27_she_said_he_said_prequel.mkv?v=bd3b08a6"
 },
 {
 title: "The Name of the Doctor",
@@ -1758,9 +1734,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 7, episode: 13 },
 released: new Date("2013-05-18").toISOString(),
 overview: "The Great Intelligence kidnaps the Doctor's friends and lures him to Trenzalore, the site of his future grave. There, his greatest secret is revealed, and Clara must make a devastating sacrifice to save him by entering his own timeline.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E28_the_name_of_the_doctor.jpg?v=a9d0324e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E28_the_name_of_the_doctor.mp4?v=da0336fa",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E28_the_name_of_the_doctor.srt?v=f2d9b68f"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E28_the_name_of_the_doctor.jpg?v=c29ab316",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E28_the_name_of_the_doctor.mkv?v=eb36e9db"
 },
 {
 title: "A Hyperscape Body Swap Ticket (Minisode)",
@@ -1768,7 +1743,9 @@ season: 7,
 episode: 29,
 type: "Minisode",
 overview: "The Eleventh Doctor talks Clara into using a Hyperscape Body Swap Ticket so the two of them can get into the Royal Albert Hall for the Proms. Clara has questions about whose bodies the ticket actually involves, and the concert is starting.",
-
+released: new Date("2013-08-26").toISOString(),
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E29_a_hyperscape_body_swap_ticket_minisode.jpg?v=c3274abc",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E29_a_hyperscape_body_swap_ticket_minisode.mkv?v=84441061"
 },
 {
 title: "The Night of the Doctor (Minisode)",
@@ -1779,8 +1756,7 @@ imdb: { id: "tt0436992", season: 0, episode: 82 },
 released: new Date("2013-11-14").toISOString(),
 overview: "On the eve of the Time War, the Eighth Doctor tries to rescue a pilot from a crashing ship but is rejected for being a Time Lord. Mortally wounded, he is given a choice by the Sisterhood of Karn: regenerate into a warrior who can end the war.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E30_the_night_of_the_doctor_minisode.jpg?v=064f6228",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E30_the_night_of_the_doctor_minisode.mp4?v=4aef7940",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E30_the_night_of_the_doctor_minisode.srt?v=7a532da2"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E30_the_night_of_the_doctor_minisode.mkv?v=99cc5164"
 },
 {
 title: "The Last Day (Minisode)",
@@ -1791,8 +1767,7 @@ imdb: { id: "tt0436992", season: 0, episode: 93 },
 released: new Date("2013-11-21").toISOString(),
 overview: "Seen through the eyes of a Gallifreyan soldier on his first day on the front lines of the Time War, this brief but intense prequel shows the fall of the city of Arcadia and the sheer destructive power of the Dalek invasion.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E31_the_last_day_minisode.jpg?v=aaba2982",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E31_the_last_day_minisode.mp4?v=9df93048",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E31_the_last_day_minisode.srt?v=77be6b13"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E31_the_last_day_minisode.mkv?v=27f48729"
 },
 {
 title: "The Day of the Doctor (Special)",
@@ -1802,9 +1777,8 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 83 },
 released: new Date("2013-11-23").toISOString(),
 overview: "Three incarnations of the Doctor, the Tenth, the Eleventh, and the forgotten War Doctor, converge to stop a Zygon invasion and confront a terrible decision from the Time War. They must unite to rewrite their own history and save Gallifrey.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E32_the_day_of_the_doctor_special.jpg?v=a87733e2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E32_the_day_of_the_doctor_special.mp4?v=c4bbe2a9",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E32_the_day_of_the_doctor_special.srt?v=236108d5"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E32_the_day_of_the_doctor_special.jpg?v=39e467d3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E32_the_day_of_the_doctor_special.mkv?v=878c2895"
 },
 {
 title: "The Time of the Doctor (Special)",
@@ -1814,9 +1788,8 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 84 },
 released: new Date("2013-12-25").toISOString(),
 overview: "Orbiting a quiet backwater planet, the massed forces of the Doctor's deadliest enemies gather, drawn to a mysterious message that echoes out to the stars. The Doctor must defend the town of Christmas for centuries, leading to his final battle and the end of his eleventh life.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E33_the_time_of_the_doctor_special.jpg?v=fefba04e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E33_the_time_of_the_doctor_special.mp4?v=8f9f034c",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E33_the_time_of_the_doctor_special.srt?v=06f8d3d1"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E33_the_time_of_the_doctor_special.jpg?v=f3229257",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E33_the_time_of_the_doctor_special.mkv?v=1f0476ff"
 },
 {
 title: "Deep Breath",
