@@ -1126,6 +1126,19 @@ files; their fourteen 2160p HDR mkvs sit untouched in `~/Downloads` (Part J), an
 one tone-mapped build, The Story & the Engine, was never uploaded. The precedent was
 claimed during the season 10 pass and does not exist.
 
+**Twice Upon a Time is 2160p at 23.976, on purpose.** Decided 18 September 2026 with the
+measurements in hand, and it is the one row that breaks the frame-rate rule above.
+
+Every 2160p release of it comes off the same UHD Blu-ray, the 54 GB remuxes included, and
+that disc is film cadence. The file runs 62.5 minutes against a 59.9-minute broadcast:
+62.5/59.9 = 1.043 and 25/23.976 = 1.043, so it is the 25fps master slowed by 4.3%, with
+the pitch drop that normally comes with it. There is no 25fps 4K to be had. The choice
+was resolution against speed, it was put that way, and resolution won.
+
+So the row reads 2160p HDR 23.976 DTS-HD MA, `audio: "DTS"`, shipped untouched. **Do not
+retime it, do not re-encode it, and do not file it as a fault in a later audit.** If a
+25fps 2160p master ever appears, that is worth raising; nothing else about this file is.
+
 ---
 
 ## J. Loose ends from before this plan, not to be picked up out of turn
