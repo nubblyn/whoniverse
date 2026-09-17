@@ -409,7 +409,7 @@ The originals sit in the session scratchpad
 | **BBC iPlayer** | the only clean 25fps source for anything, and the only HD for 53 Classic animations | get_iplayer | **works from here**; try it first for any gap |
 | **Internet Archive** | Classic DVD ISOs (`doctor-who-season-1-dvd`, `DoctorWhoLostInTime` NTSC, `doctor-who-galaxy-4-region-free`…), the Wilderness webcast reconstructions (`doctor-who-bbci-webcasts-death-comes-to-time-real-time-shada`), 614 Classic .srt (`doctor-who-1963_20251231`) | `rclone` has an IA backend; `scripts/mirror-archive.sh` | no Blu-ray sets there; "1280x720" webcasts are upscales; every complete-run item is a mixed compilation |
 | **Discs** | Doctor Who: The Collection Blu-rays (19 of 26 Classic seasons), the 2023 New Who 1-4 upscale box set (25fps, the fix for the 23.976 problem), spin-off Blu-rays | buy, rip with MakeMKV, ship the PGS as it is | the only route for Classic HD; UK Region B avoids the 60i US conversions |
-| **Disney+ / iPlayer 2160p** | the 2023+ HDR masters | rips via Prowlarr only | HDR needs tone mapping; no UHD disc exists |
+| **Disney+ / iPlayer 2160p** | the 2023+ HDR masters | rips via Prowlarr only | shipped as they come, HDR and all (Part I); no UHD disc exists **for the 2023+ era** - Twice Upon a Time does have a 2017 UHD Blu-ray |
 | **The BBC webcast pages** | nothing: the players are RealPlayer and the media host is gone | | |
 
 What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doctor-Who-AI-Remastered`, `doctor-who_202207`), the oldtvshow size-target re-encodes as a ceiling (they are what the bucket held before).
@@ -495,7 +495,7 @@ inside it exactly as the encoder built them.
 | container | **as it came** | the original wins; see above |
 | video | **as it came** | |
 | audio | **as it came**; the entry carries `audio: "E-AC-3"` / `"AC-3"` / `"DTS"` when it is not AAC or MP3 | browsers play those silent with no error, so the flag tells the client |
-| SDR | HDR sources tone-mapped, never just scaled | grey picture otherwise |
+| HDR | **as it came**, like everything else | the original wins. An HDR file looks washed out on an SDR display; that is the cost of shipping originals, not a reason to re-encode one. Tone-mapping is not automatic - see Part I |
 | size | whatever the release is | |
 | name | from `file-names.tsv`, exactly | the still and subtitle match the video by stem |
 | beside it | `<stem>.jpg` 1280x720; `<stem>.srt` **only when the file carries no subtitles of its own in a language we serve**, bitmap tracks counting as its own, and an existing sidecar is deleted when a replacement brings its own | a sidecar beside a file that already has subtitles is a second, foreign version of them |
@@ -513,7 +513,9 @@ bucket and confirm it starts without downloading the whole file first.
    A good check afterwards is the running time against whatever the row held before.
 2. **The container cannot carry what is in it.** Nothing else fits here today, and if it
    comes up, ask before converting.
-3. **HDR that must be tone-mapped** for SDR clients, per the entry in Part B.
+3. **HDR tone-mapped down to SDR, and only when asked for that file by name.** The
+   recipe is in Part B and it works, but it is not a rule and nothing triggers it
+   on its own. See Part I.
 
 **Do not transcode audio to please a web browser.** The desktop, TV and mobile clients
 decode DTS, AC-3, E-AC-3 and TrueHD perfectly well; only the browser player cannot, and
@@ -1104,6 +1106,25 @@ decide iPlayer is blocked without attempting a download, and check
 **`PYTHONIOENCODING=utf-8` on every python call in Git Bash**, or `build.py` dies
 printing a tab name with an emoji in it. `pq.py` throws the same error on a broken pipe
 under `head`, which is not a failure of the search.
+
+**HDR ships untouched, and the original always wins.** Settled 18 September 2026, on
+Twice Upon a Time. Part D used to say HDR sources were tone-mapped and never just
+scaled. That line was not the user's; it was written into the plan on 15 and 16
+September as an inference, in the same commit that established *Ship the encoder's
+file*, and it contradicted the rule it was an exception to. The user's rule is
+**original files whenever possible, and the highest resolution available for an
+episode**. So a 2160p HDR release is uploaded as it came, with `audio:` set for its
+track, and its `have` says HDR.
+
+The cost is real and was stated before the choice: an HDR file looks washed out on an
+SDR display, on a television as much as in a browser. That is accepted. The tone-map
+chain in Part B stays because it works and because a specific file may still want it,
+but nothing invokes it on its own and no pass should propose it as routine.
+
+Do not cite seasons 14 to 16 as precedent for tone-mapping. They serve 1080p iPlayer
+files; their fourteen 2160p HDR mkvs sit untouched in `~/Downloads` (Part J), and the
+one tone-mapped build, The Story & the Engine, was never uploaded. The precedent was
+claimed during the season 10 pass and does not exist.
 
 ---
 
