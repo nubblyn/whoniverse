@@ -657,7 +657,7 @@ ffprobe -v error -select_streams s -show_entries stream=codec_name:stream_tags=l
 A bitmap track counts. PGS and VobSub are what the disc shipped, they are the original,
 and the MKV is `notWebReady` whatever we do, so the browser player was never the audience.
 
-`node scripts/probe-subtitles.js new-who` answers the narrower question of which files
+`node scripts/probe-subtitles.js new_who` (the **bucket folder**, underscore, not the series slug) answers the narrower question of which files
 carry **text** tracks and writes `data/subtitles.json` for the ledger; it is not the test
 for whether a sidecar belongs.
 
