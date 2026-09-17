@@ -70,6 +70,7 @@ title: "Sven and the Scarf (Minisode)",
 season: 1,
 episode: 7,
 type: "Minisode",
+released: new Date("2020-04-30").toISOString(),
 overview: "A cataloguer in Henry van Statten's underground vault works through the alien traces caught in a battered scarf, logging each specimen as he finds it. He pays little attention to the caged survivor stirring in the dark beside him.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_sven_and_the_scarf_minisode.jpg?v=9f73ff7f",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E07_sven_and_the_scarf_minisode.mp4?v=f97afaad",
@@ -176,7 +177,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the_christmas_invasion_special.mkv?v=c5108b0f"
 },
 {
-title: "Tardisode 1",
+title: "Tardisode 1 (Prequel)",
 season: 2,
 episode: 1,
 type: "Prequel",
@@ -196,7 +197,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_new
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_new_earth.mkv?v=9e580ec6"
 },
 {
-title: "Tardisode 2",
+title: "Tardisode 2 (Prequel)",
 season: 2,
 episode: 3,
 type: "Prequel",
@@ -216,7 +217,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_too
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_tooth_and_claw.mkv?v=fc7e4193"
 },
 {
-title: "Tardisode 3",
+title: "Tardisode 3 (Prequel)",
 season: 2,
 episode: 5,
 type: "Prequel",
@@ -236,7 +237,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_sch
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_school_reunion.mkv?v=9c163d8c"
 },
 {
-title: "Tardisode 4",
+title: "Tardisode 4 (Prequel)",
 season: 2,
 episode: 7,
 type: "Prequel",
@@ -260,13 +261,14 @@ title: "Pompadour (Minisode)",
 season: 2,
 episode: 9,
 type: "Minisode",
+released: new Date("2020-05-06").toISOString(),
 overview: "Alone in the dark, Madame de Pompadour talks to a Doctor who does not answer, turning over the clockwork droids who once scanned her mind. What she has begun to suspect about her own thoughts frightens her more than the silence.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_pompadour_minisode.jpg?v=08b0edef",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_pompadour_minisode.mp4?v=e61caa43",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_pompadour_minisode.srt?v=01b6218e"
 },
 {
-title: "Tardisode 5",
+title: "Tardisode 5 (Prequel)",
 season: 2,
 episode: 10,
 type: "Prequel",
@@ -286,7 +288,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_ris
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_rise_of_the_cybermen.mkv?v=c487be49"
 },
 {
-title: "Tardisode 6",
+title: "Tardisode 6 (Prequel)",
 season: 2,
 episode: 12,
 type: "Prequel",
@@ -306,7 +308,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_the
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_the_age_of_steel.mkv?v=32869789"
 },
 {
-title: "Tardisode 7",
+title: "Tardisode 7 (Prequel)",
 season: 2,
 episode: 14,
 type: "Prequel",
@@ -326,7 +328,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_the
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_the_idiots_lantern.mkv?v=9b675e83"
 },
 {
-title: "Tardisode 8",
+title: "Tardisode 8 (Prequel)",
 season: 2,
 episode: 16,
 type: "Prequel",
@@ -346,7 +348,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E17_the
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E17_the_impossible_planet.mkv?v=e0e06616"
 },
 {
-title: "Tardisode 9",
+title: "Tardisode 9 (Prequel)",
 season: 2,
 episode: 18,
 type: "Prequel",
@@ -366,7 +368,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E19_the
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E19_the_satan_pit.mkv?v=71e5b002"
 },
 {
-title: "Tardisode 10",
+title: "Tardisode 10 (Prequel)",
 season: 2,
 episode: 20,
 type: "Prequel",
@@ -390,13 +392,14 @@ title: "The Genuine Article (Minisode)",
 season: 2,
 episode: 22,
 type: "Minisode",
+released: new Date("2021-02-14").toISOString(),
 overview: "An old enemy corners the Doctor in what appears to be a Cardiff back alley and takes evident pleasure in explaining that it is nothing of the sort. The trap has been a long time in the building, and the Doctor is standing in it.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E22_the_genuine_article_minisode.jpg?v=67d6e7bc",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E22_the_genuine_article_minisode.mp4?v=e791d425",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E22_the_genuine_article_minisode.srt?v=77383384"
 },
 {
-title: "Tardisode 11",
+title: "Tardisode 11 (Prequel)",
 season: 2,
 episode: 23,
 type: "Prequel",
@@ -416,7 +419,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E24_fea
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E24_fear_her.mkv?v=52dd4f3a"
 },
 {
-title: "Tardisode 12",
+title: "Tardisode 12 (Prequel)",
 season: 2,
 episode: 25,
 type: "Prequel",
@@ -436,7 +439,7 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E26_arm
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E26_army_of_ghosts.mkv?v=e9d567e6"
 },
 {
-title: "Tardisode 13",
+title: "Tardisode 13 (Prequel)",
 season: 2,
 episode: 27,
 type: "Prequel",
@@ -504,6 +507,7 @@ title: "The Secret of Novice Hame (Minisode)",
 season: 3,
 episode: 4,
 type: "Minisode",
+released: new Date("2020-05-30").toISOString(),
 overview: "On the last day of her life, Novice Hame lies in a bower above the new Atlantic and tells how the mechanical wars left her an orphan for sale. The years she spent paying that debt are the secret she has carried since.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E04_the_secret_of_novice_hame_minisode.jpg?v=356f4eed",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E04_the_secret_of_novice_hame_minisode.mp4?v=d97a1277",
@@ -681,6 +685,7 @@ title: "The Descendants of Pompeii (Minisode)",
 season: 4,
 episode: 3,
 type: "Minisode",
+released: new Date("2020-05-17").toISOString(),
 overview: "Two thousand years after the eruption, Evelina and her mother fight their way through a video call about her name and the tedium of lockdown. The family the Doctor carried out of the ash is still here, and still arguing.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E03_the_descendants_of_pompeii_minisode.jpg?v=f2df2cc8",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E03_the_descendants_of_pompeii_minisode.mp4?v=4130977a",
@@ -847,6 +852,7 @@ title: "Tonight's the Night (Minisode)",
 season: 4,
 episode: 18,
 type: "Minisode",
+released: new Date("2009-05-23").toISOString(),
 overview: "Captain Jack Harkness lets himself into the TARDIS and finds a blue-headed stranger who claims to be the Doctor, freshly regenerated. One detail is wrong, because the man is armed and the Doctor never is.",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_tonights_the_night_minisode.mp4?v=64cd99d2",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_tonights_the_night_minisode.srt?v=84d96b95"
@@ -880,6 +886,7 @@ title: "A Ghost Story for Christmas (Minisode)",
 season: 4,
 episode: 21,
 type: "Minisode",
+released: new Date("2009-12-24").toISOString(),
 overview: "Captain Jack Harkness sets out what is known about the Weeping Angels while Julia Hardwick works through papers suggesting she once lived a century before she was born. The trail she is following leads her towards a churchyard after dark.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
 
