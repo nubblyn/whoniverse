@@ -946,8 +946,7 @@ imdb: { id: "tt0436992", season: 0, episode: 67 },
 released: new Date("2010-11-08").toISOString(),
 overview: "On her very first trip in the TARDIS, Amy Pond grills the Doctor about his past, his alien nature, and why his time machine looks like a police box. As he explains, he opens the doors to reveal the wonders and dangers of outer space.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E03_meanwhile_in_the_tardis_1_minisode.jpg?v=b487bd9f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E03_meanwhile_in_the_tardis_1_minisode.mp4?v=6418a06b",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E03_meanwhile_in_the_tardis_1_minisode.srt?v=663697cf"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E03_meanwhile_in_the_tardis_1_minisode.mkv?v=cda1b650"
 },
 {
 title: "The Beast Below",
@@ -1002,8 +1001,7 @@ imdb: { id: "tt0436992", season: 0, episode: 68 },
 released: new Date("2010-11-08").toISOString(),
 overview: "As Amy continues her attempts to seduce him, the Doctor explains why he travels with companions, showing her glimpses of his past friends. He then decides it's time to pick up her fiancé, Rory, from his stag party.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E08_meanwhile_in_the_tardis_2_minisode.jpg?v=ea0373b1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E08_meanwhile_in_the_tardis_2_minisode.mp4?v=45f524a4",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E08_meanwhile_in_the_tardis_2_minisode.srt?v=a9f1a639"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E08_meanwhile_in_the_tardis_2_minisode.mkv?v=aa34c403"
 },
 {
 title: "The Vampires of Venice",
@@ -1057,9 +1055,8 @@ type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 56 },
 released: new Date("2012-05-24").toISOString(),
 overview: "The Doctor's plans for a quiet moment are interrupted when the TARDIS materialises in the path of the Olympic Torch. Aided by a school athletics team, he must outsmart a determined Weeping Angel intent on stealing the historic flame.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_good_as_gold_minisode.jpg?v=0fd6bdcb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_good_as_gold_minisode.mp4?v=8fab828d",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_good_as_gold_minisode.srt?v=44ac9c29"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_good_as_gold_minisode.jpg?v=e78792a0",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_good_as_gold_minisode.mkv?v=21f851d0"
 },
 {
 title: "Vincent and the Doctor",
