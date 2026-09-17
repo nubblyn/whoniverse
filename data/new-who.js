@@ -1796,178 +1796,155 @@ streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E33_the
 title: "Deep Breath",
 season: 8,
 episode: 1,
-type: "Prequel",
-released: new Date("2014-08-18").toISOString(),
-overview: "Madame Vastra, Jenny, and Strax discuss the Doctor's unpredictable new regeneration. They express their concern over his erratic behaviour and wonder if this new, more volatile incarnation can be trusted to save the day.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_deep_breath.jpg?v=f37789ca",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_deep_breath.mp4?v=f5d36bec",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_deep_breath.srt?v=48287f3a"
-},
-{
-title: "Deep Breath",
-season: 8,
-episode: 2,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 1 },
 released: new Date("2014-08-23").toISOString(),
 overview: "A newly regenerated, and highly unstable, Doctor arrives in Victorian London with a confused Clara. They must stop a clockwork droid from harvesting human organs, all while Clara grapples with whether this new, older Doctor is still her friend.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_deep_breath.jpg?v=f37789ca",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_deep_breath.mp4?v=f5d36bec",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_deep_breath.srt?v=48287f3a"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E01_deep_breath.jpg?v=82e5d983",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E01_deep_breath.mkv?v=b467e317"
 },
 {
 title: "Into the Dalek",
 season: 8,
-episode: 3,
+episode: 2,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 2 },
 released: new Date("2014-08-30").toISOString(),
 overview: "The Doctor and Clara are miniaturised and sent on a mission inside a damaged Dalek that has turned 'good'. As they navigate the deadly interior, the Doctor is forced to confront his own hatred and question whether he is a good man.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E03_into_the_dalek.jpg?v=cced0dd2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E03_into_the_dalek.mp4?v=f7872073",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E03_into_the_dalek.srt?v=08946fa5"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_into_the_dalek.jpg?v=9065796f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E02_into_the_dalek.mkv?v=97610d6f"
 },
 {
 title: "Robot of Sherwood",
 season: 8,
-episode: 4,
+episode: 3,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 3 },
 released: new Date("2014-09-06").toISOString(),
 overview: "The Doctor and Clara meet Robin Hood in Sherwood Forest, but the Doctor insists the legendary hero is a myth. Their rivalry is put to the test when they uncover a plot by the Sheriff of Nottingham and his robot knights to take over England.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E04_robot_of_sherwood.jpg?v=7b3bb321",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E04_robot_of_sherwood.mp4?v=7561faa2",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E04_robot_of_sherwood.srt?v=f8ff9a96"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E03_robot_of_sherwood.jpg?v=495841bf",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E03_robot_of_sherwood.mkv?v=3b241429"
 },
 {
 title: "Listen",
 season: 8,
-episode: 5,
+episode: 4,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 4 },
 released: new Date("2014-09-13").toISOString(),
 overview: "The Doctor becomes obsessed with the idea of a creature that is perfectly evolved to hide. His search takes him and Clara to the end of the universe and into their own pasts, where they confront a fear that has haunted the Doctor his entire life.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E05_listen.jpg?v=e7acb123",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E05_listen.mp4?v=712a24f3",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E05_listen.srt?v=abab92de"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E04_listen.jpg?v=b2dd8f03",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E04_listen.mkv?v=eef24493"
 },
 {
 title: "Time Heist",
 season: 8,
-episode: 6,
+episode: 5,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 5 },
 released: new Date("2014-09-20").toISOString(),
 overview: "The Doctor and Clara, along with two strangers, wake up with their memories erased, tasked with robbing the most secure bank in the universe. They must outsmart a telepathic security chief and a creature that detects guilt to pull off the ultimate heist.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E06_time_heist.jpg?v=1c7539e4",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E06_time_heist.mp4?v=d573d0f0",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E06_time_heist.srt?v=abd1c1ce"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E05_time_heist.jpg?v=bfaf4015",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E05_time_heist.mkv?v=3395bc2a"
 },
 {
 title: "The Caretaker",
 season: 8,
-episode: 7,
+episode: 6,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 6 },
 released: new Date("2014-09-27").toISOString(),
 overview: "The Doctor goes undercover as a caretaker at Clara's school to stop a deadly robot, the Skovox Blitzer. His presence complicates Clara's double life, forcing a tense and awkward meeting with her boyfriend, Danny Pink.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E07_the_caretaker.jpg?v=801f48fd",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E07_the_caretaker.mp4?v=c69ea470",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E07_the_caretaker.srt?v=8cd7a446"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E06_the_caretaker.jpg?v=6f6ef631",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E06_the_caretaker.mkv?v=5f148849"
 },
 {
 title: "Kill the Moon",
 season: 8,
-episode: 8,
+episode: 7,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 7 },
 released: new Date("2014-10-04").toISOString(),
 overview: "The Doctor and Clara join a suicide mission to the Moon, which has suddenly gained mass and is causing catastrophic tides on Earth. They discover the Moon is a giant egg, forcing Clara to make an impossible decision for all of humanity.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E08_kill_the_moon.jpg?v=56ed9b1d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E08_kill_the_moon.mp4?v=f9c57778",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E08_kill_the_moon.srt?v=dfdbe509"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E07_kill_the_moon.jpg?v=c57cccd6",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E07_kill_the_moon.mkv?v=b1ed3ba1"
 },
 {
 title: "Mummy on the Orient Express",
 season: 8,
-episode: 9,
+episode: 8,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 8 },
 released: new Date("2014-10-11").toISOString(),
 overview: "On a lavish replica of the Orient Express in space, passengers are being killed by a mummy that only its victims can see. The Doctor must solve the mystery in 66 seconds before he becomes the next target, all while navigating a strained relationship with Clara.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E09_mummy_on_the_orient_express.jpg?v=bbfaa10a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E09_mummy_on_the_orient_express.mp4?v=be730c70",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E09_mummy_on_the_orient_express.srt?v=08497a04"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E08_mummy_on_the_orient_express.jpg?v=85d903d5",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E08_mummy_on_the_orient_express.mkv?v=2a826a4e"
 },
 {
 title: "Flatline",
 season: 8,
-episode: 10,
+episode: 9,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 9 },
 released: new Date("2014-10-18").toISOString(),
 overview: "When the TARDIS shrinks, the Doctor is trapped inside, leaving Clara to face a new threat from another dimension. She must become the Doctor to stop the two-dimensional creatures, known as the Boneless, from flattening all of humanity.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E10_flatline.jpg?v=ff518542",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E10_flatline.mp4?v=56c045d1",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E10_flatline.srt?v=85d80e7c"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E09_flatline.jpg?v=f02a681c",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E09_flatline.mkv?v=a9747b53"
 },
 {
 title: "In the Forest of the Night",
 season: 8,
-episode: 11,
+episode: 10,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 10 },
 released: new Date("2014-10-25").toISOString(),
 overview: "The entire world wakes up to find that a massive forest has grown overnight, covering every city and town. The Doctor, Clara, and Danny must unravel the mystery of the sudden woodland invasion while searching for a missing schoolgirl.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E11_in_the_forest_of_the_night.jpg?v=3ede0625",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E11_in_the_forest_of_the_night.mp4?v=72544ac3",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E11_in_the_forest_of_the_night.srt?v=104b4722"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E10_in_the_forest_of_the_night.jpg?v=da05a7a1",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E10_in_the_forest_of_the_night.mkv?v=a2aafba4"
 },
 {
 title: "Dark Water",
 season: 8,
-episode: 12,
+episode: 11,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 11 },
 released: new Date("2014-11-01").toISOString(),
 overview: "Following a tragic accident, a grieving Clara forces the Doctor to take her to the afterlife. They discover the Nethersphere, a mysterious world where the dead are conscious, and uncover a sinister plot orchestrated by a familiar face: Missy.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E12_dark_water.jpg?v=f67e74aa",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E12_dark_water.mp4?v=e315b638",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E12_dark_water.srt?v=2963c157"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E11_dark_water.jpg?v=212f6fb5",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E11_dark_water.mkv?v=e05efc82"
 },
 {
 title: "Death in Heaven",
 season: 8,
-episode: 13,
+episode: 12,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 8, episode: 12 },
 released: new Date("2014-11-08").toISOString(),
 overview: "With Cybermen on the streets of London and Missy revealed as the Master, the Doctor faces his greatest challenge yet. As old friends unite and sacrifices are made, the Doctor must confront two impossible choices in a battle for the soul of humanity.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E13_death_in_heaven.jpg?v=e6ddc99f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E13_death_in_heaven.mp4?v=0647b2c7",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E13_death_in_heaven.srt?v=a527f137"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E12_death_in_heaven.jpg?v=fbfbe679",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E12_death_in_heaven.mkv?v=306f3696"
 },
 {
 title: "Fear Is a Superpower (Minisode)",
 season: 8,
-episode: 14,
+episode: 13,
 type: "Minisode",
+released: new Date("2020-05-20").toISOString(),
 overview: "Danny Pink has been frightened since a night in a children's home when a stranger told him that scared is a superpower. The words follow him from that bedroom through the army and into a classroom, and he is not done with them.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E14_fear_is_a_superpower_minisode.jpg?v=99c2c5f5",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E14_fear_is_a_superpower_minisode.mp4?v=3809fee6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E14_fear_is_a_superpower_minisode.srt?v=2122e93b"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E13_fear_is_a_superpower_minisode.jpg?v=99c2c5f5",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E13_fear_is_a_superpower_minisode.mp4?v=3809fee6",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E13_fear_is_a_superpower_minisode.srt?v=2122e93b"
 },
 {
 title: "Last Christmas (Special)",
 season: 8,
-episode: 15,
+episode: 14,
 type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 142 },
 released: new Date("2014-12-25").toISOString(),
 overview: "The Doctor and Clara are trapped on an Arctic base with Santa Claus, under attack from terrifying Dream Crabs. They soon realise they are caught in a multi-layered dream, and must find a way to wake up before the creatures consume their minds.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E15_last_christmas_special.jpg?v=83eae339",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E15_last_christmas_special.mp4?v=002418b6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E15_last_christmas_special.srt?v=e979b625"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E14_last_christmas_special.jpg?v=cc664f0e",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_8/S08_E14_last_christmas_special.mkv?v=bf05e2b2"
 },
 {
 title: "Prologue (Prequel)",
