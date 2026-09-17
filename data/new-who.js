@@ -920,6 +920,7 @@ title: "The Raggedy Doctor by Amelia Pond (Minisode)",
 season: 5,
 episode: 1,
 type: "Minisode",
+released: new Date("2020-04-03").toISOString(),
 overview: "Amelia Pond sets down everything she knows about her best friend, who lives in a blue box with a swimming pool in the library. She is seven years old, nobody believes her, and she is keeping a careful record for when he returns.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E01_the_raggedy_doctor_by_amelia_pond_minisode.jpg?v=aa8d07da",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E01_the_raggedy_doctor_by_amelia_pond_minisode.mp4?v=1c768774",
@@ -933,9 +934,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 1 },
 released: new Date("2010-04-03").toISOString(),
 overview: "A newly regenerated Doctor crashes his TARDIS in the garden of a young Amelia Pond. Years later, he returns to find a grown-up Amy, and together they must stop an alien fugitive from destroying Earth in just twenty minutes.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E02_the_eleventh_hour.jpg?v=004ea559",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E02_the_eleventh_hour.mp4?v=d9392d7e",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E02_the_eleventh_hour.srt?v=86707be2"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E02_the_eleventh_hour.jpg?v=25a35fa1",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E02_the_eleventh_hour.mkv?v=5c752b9b"
 },
 {
 title: "Meanwhile in the TARDIS 1 (Minisode)",
@@ -943,7 +943,7 @@ season: 5,
 episode: 3,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 67 },
-released: new Date("2010-04-04").toISOString(),
+released: new Date("2010-11-08").toISOString(),
 overview: "On her very first trip in the TARDIS, Amy Pond grills the Doctor about his past, his alien nature, and why his time machine looks like a police box. As he explains, he opens the doors to reveal the wonders and dangers of outer space.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E03_meanwhile_in_the_tardis_1_minisode.jpg?v=b487bd9f",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E03_meanwhile_in_the_tardis_1_minisode.mp4?v=6418a06b",
@@ -957,9 +957,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 2 },
 released: new Date("2010-04-10").toISOString(),
 overview: "The Doctor takes Amy to Starship UK, a massive spacecraft carrying the last of the British people. They discover a dark secret at the heart of the ship: the entire civilisation is built on the suffering of a gentle, ancient creature.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E04_the_beast_below.jpg?v=b491ff1f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E04_the_beast_below.mp4?v=861a0ebc",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E04_the_beast_below.srt?v=eef9556b"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E04_the_beast_below.jpg?v=522d038b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E04_the_beast_below.mkv?v=0541693f"
 },
 {
 title: "Victory of the Daleks",
@@ -969,9 +968,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 3 },
 released: new Date("2010-04-17").toISOString(),
 overview: "The Doctor and Amy arrive in London during World War II, where Winston Churchill has a new secret weapon: the Daleks. The Doctor must convince Churchill of the Daleks' true nature before they unleash their new, more powerful paradigm.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E05_victory_of_the_daleks.jpg?v=60db6ddb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E05_victory_of_the_daleks.mp4?v=98b8e597",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E05_victory_of_the_daleks.srt?v=40097c7d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E05_victory_of_the_daleks.jpg?v=40710d6b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E05_victory_of_the_daleks.mkv?v=78fafc7e"
 },
 {
 title: "The Time of Angels",
@@ -981,9 +979,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 4 },
 released: new Date("2010-04-24").toISOString(),
 overview: "A message from River Song summons the Doctor and Amy to the crashed starship Byzantium, where an army of Weeping Angels is awakening. With the help of Father Octavian and his military clerics, they must navigate a deadly maze of statues.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E06_the_time_of_angels.jpg?v=96773b13",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E06_the_time_of_angels.mp4?v=85915354",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E06_the_time_of_angels.srt?v=586378a2"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E06_the_time_of_angels.jpg?v=30309ead",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E06_the_time_of_angels.mkv?v=26e9bca8"
 },
 {
 title: "Flesh and Stone",
@@ -993,9 +990,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 5 },
 released: new Date("2010-05-01").toISOString(),
 overview: "Trapped in the forest of the Byzantium, the Doctor must outwit the relentless Weeping Angels. As a crack in time threatens to erase them from existence, Amy discovers that looking at an Angel is not the only danger they pose.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E07_flesh_and_stone.jpg?v=7097ff25",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E07_flesh_and_stone.mp4?v=8c8eb9fd",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E07_flesh_and_stone.srt?v=b26dc594"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E07_flesh_and_stone.jpg?v=7430b1f1",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E07_flesh_and_stone.mkv?v=2338d495"
 },
 {
 title: "Meanwhile in the TARDIS 2 (Minisode)",
@@ -1003,7 +999,7 @@ season: 5,
 episode: 8,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 68 },
-released: new Date("2010-05-02").toISOString(),
+released: new Date("2010-11-08").toISOString(),
 overview: "As Amy continues her attempts to seduce him, the Doctor explains why he travels with companions, showing her glimpses of his past friends. He then decides it's time to pick up her fiancé, Rory, from his stag party.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E08_meanwhile_in_the_tardis_2_minisode.jpg?v=ea0373b1",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E08_meanwhile_in_the_tardis_2_minisode.mp4?v=45f524a4",
@@ -1017,9 +1013,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 6 },
 released: new Date("2010-05-08").toISOString(),
 overview: "To patch things up with Amy and Rory, the Doctor takes them on a romantic trip to 16th-century Venice. They soon discover the city is under the control of strange, fish-like vampires who are converting young women for a sinister purpose.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E09_the_vampires_of_venice.jpg?v=7f270ae0",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E09_the_vampires_of_venice.mp4?v=011abcca",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E09_the_vampires_of_venice.srt?v=07d0f513"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E09_the_vampires_of_venice.jpg?v=843925f6",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E09_the_vampires_of_venice.mkv?v=26291181"
 },
 {
 title: "Amy's Choice",
@@ -1029,9 +1024,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 7 },
 released: new Date("2010-05-15").toISOString(),
 overview: "The Doctor, Amy, and Rory are tormented by the mysterious Dream Lord, who forces them to switch between two realities: one in the TARDIS, and one in their future married life. They must figure out which reality is real before one of them kills them.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E10_amys_choice.jpg?v=ce941787",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E10_amys_choice.mp4?v=04a02bd9",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E10_amys_choice.srt?v=dc817a19"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E10_amys_choice.jpg?v=d4515136",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E10_amys_choice.mkv?v=697b6b99"
 },
 {
 title: "The Hungry Earth",
@@ -1041,9 +1035,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 8 },
 released: new Date("2010-05-22").toISOString(),
 overview: "In a Welsh village in 2020, a drilling operation awakens a sleeping race of reptilian humanoids, the Silurians. As the ground swallows people up, the Doctor must negotiate a fragile peace between two species claiming ownership of the Earth.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E11_the_hungry_earth.jpg?v=eb864572",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E11_the_hungry_earth.mp4?v=bd4468af",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E11_the_hungry_earth.srt?v=7168c0f9"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E11_the_hungry_earth.jpg?v=426b8914",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E11_the_hungry_earth.mkv?v=fd0f9aea"
 },
 {
 title: "Cold Blood",
@@ -1053,9 +1046,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 9 },
 released: new Date("2010-05-29").toISOString(),
 overview: "The Silurians have declared war on humanity, and the Doctor is caught in the middle. He must prevent a global conflict while dealing with a familiar crack in time, which leads to a heartbreaking sacrifice for one of his companions.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E12_cold_blood.jpg?v=f02a8719",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E12_cold_blood.mp4?v=db3cf93d",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E12_cold_blood.srt?v=b6474f3a"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E12_cold_blood.jpg?v=3101d7ce",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E12_cold_blood.mkv?v=71795e93"
 },
 {
 title: "Good as Gold (Minisode)",
@@ -1063,7 +1055,7 @@ season: 5,
 episode: 13,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 56 },
-released: new Date("2010-05-30").toISOString(),
+released: new Date("2012-05-24").toISOString(),
 overview: "The Doctor's plans for a quiet moment are interrupted when the TARDIS materialises in the path of the Olympic Torch. Aided by a school athletics team, he must outsmart a determined Weeping Angel intent on stealing the historic flame.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_good_as_gold_minisode.jpg?v=0fd6bdcb",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E13_good_as_gold_minisode.mp4?v=8fab828d",
@@ -1077,9 +1069,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 10 },
 released: new Date("2010-06-05").toISOString(),
 overview: "The Doctor and Amy travel to Provence to meet Vincent van Gogh, hoping to find an alien creature hidden in his paintings. They join the troubled artist in his battle against a monster that only he can see, and against his own inner demons.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E14_vincent_and_the_doctor.jpg?v=27ede1df",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E14_vincent_and_the_doctor.mp4?v=392067be",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E14_vincent_and_the_doctor.srt?v=90817411"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E14_vincent_and_the_doctor.jpg?v=495ab387",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E14_vincent_and_the_doctor.mkv?v=c051a9e0"
 },
 {
 title: "The Lodger",
@@ -1089,9 +1080,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 11 },
 released: new Date("2010-06-12").toISOString(),
 overview: "Separated from the TARDIS by a temporal anomaly, the Doctor must move in with a man named Craig and attempt to live a normal human life. He soon discovers a sinister force lurking in the flat upstairs, luring people to their doom.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E15_the_lodger.jpg?v=ccf2ce30",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E15_the_lodger.mp4?v=7f647d2d",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E15_the_lodger.srt?v=de39cdbe"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E15_the_lodger.jpg?v=300fe167",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E15_the_lodger.mkv?v=0c32dd5b"
 },
 {
 title: "The Pandorica Opens",
@@ -1101,9 +1091,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 12 },
 released: new Date("2010-06-19").toISOString(),
 overview: "The Doctor's enemies, including Daleks, Cybermen, and Sontarans, form an alliance to trap him in the Pandorica, a legendary prison. As they converge on Stonehenge, the Doctor must unravel a plot that threatens all of reality.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E16_the_pandorica_opens.jpg?v=1e67bc97",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E16_the_pandorica_opens.mp4?v=b5214c76",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E16_the_pandorica_opens.srt?v=d5b4ff1d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E16_the_pandorica_opens.jpg?v=9eb1b282",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E16_the_pandorica_opens.mkv?v=12ae4a19"
 },
 {
 title: "The Big Bang",
@@ -1113,17 +1102,18 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 5, episode: 13 },
 released: new Date("2010-06-26").toISOString(),
 overview: "With the Doctor trapped in the Pandorica and the universe collapsing, a young Amelia Pond and a Roman Centurion must help restart reality. The Doctor races through time to close the cracks, leading to a wedding and a final, cryptic warning.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E17_the_big_bang.jpg?v=70227c1f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E17_the_big_bang.mp4?v=b5156a8f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E17_the_big_bang.srt?v=a7a49726"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E17_the_big_bang.jpg?v=0dd1010e",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E17_the_big_bang.mkv?v=7b4ede54"
 },
 {
 title: "The Boy Who Saved the Proms (Minisode)",
 season: 5,
 episode: 18,
 type: "Minisode",
+released: new Date("2010-09-06").toISOString(),
 overview: "The Eleventh Doctor arrives in the Royal Albert Hall carrying an engine that will detonate at the slightest vibration, and tells the audience not to worry while the beeping continues. When it stops, he picks a boy called Ellis out of the seats to help.",
-
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E18_the_boy_who_saved_the_proms_minisode.jpg?v=ee43423f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E18_the_boy_who_saved_the_proms_minisode.mkv?v=09699f54"
 },
 {
 title: "Death Is the Only Answer (Minisode)",
@@ -1131,7 +1121,7 @@ season: 5,
 episode: 19,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 38 },
-released: new Date("2010-06-27").toISOString(),
+released: new Date("2011-10-01").toISOString(),
 overview: "While experimenting with a fez once owned by Albert Einstein, the Doctor is interrupted by the scientist himself, who materialises from a strange goo. Einstein reveals a sinister plan involving a species called the Ogrons, forcing a bizarre confrontation.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E19_death_is_the_only_answer_minisode.jpg?v=c4668488",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E19_death_is_the_only_answer_minisode.mp4?v=da7a4415",
@@ -1145,9 +1135,8 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 34 },
 released: new Date("2010-12-25").toISOString(),
 overview: "To save Amy and Rory from a crashing star-liner, the Doctor must convince a bitter old miser to change his ways. He uses the TARDIS to travel through the man's past, present, and future, but discovers a dark secret lurking in the Christmas fog.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E20_a_christmas_carol_special.jpg?v=91aba4d7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E20_a_christmas_carol_special.mp4?v=661b1c91",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E20_a_christmas_carol_special.srt?v=9dffcf19"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E20_a_christmas_carol_special.jpg?v=0f71af01",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E20_a_christmas_carol_special.mkv?v=51f870d4"
 },
 {
 title: "Space (Minisode)",
