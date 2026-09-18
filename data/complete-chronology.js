@@ -12401,8 +12401,8 @@ const episodes = [
   type: "Prequel",
   released: "2016-04-23T00:00:00.000Z",
   overview: "The Doctor introduces his new companion, Bill Potts, as she hides from Daleks in the TARDIS. The scene shows the Doctor trying to explain his long and complicated history with his greatest enemies.",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E01_friend_from_the_future_prequel.jpg?v=b31bd8a0",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E01_friend_from_the_future_prequel.mp4?v=87b0263b",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E01_friend_from_the_future_prequel.jpg?v=ed9bf6cc",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E01_friend_from_the_future_prequel.mp4?v=2c4e9545",
   subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E01_friend_from_the_future_prequel.srt?v=ca6d9c78",
 },
 {
