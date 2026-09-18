@@ -2458,135 +2458,124 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E03_or
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E03_orphan_55.mkv?v=7791056b"
 },
 {
-title: "The Runaway (Animated Series)",
-season: 12,
-episode: 4,
-type: "Animated Series",
-released: new Date("2020-01-16").toISOString(),
-overview: "An animated short in which the Doctor finds a creature loose aboard the TARDIS, filmed so the viewer can look in any direction. Wherever the audience turns, something is moving at the edge of the room.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_the_runaway_animated_series.jpg?v=cedf6138",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_the_runaway_animated_series.mp4?v=3f5f8e76",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_the_runaway_animated_series.srt?v=ac808a0e"
-},
-{
 title: "Nikola Tesla's Night of Terror",
 season: 12,
-episode: 5,
+episode: 4,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 12, episode: 4 },
 released: new Date("2020-01-19").toISOString(),
 overview: "In 1903 New York, the Doctor and her friends must help inventor Nikola Tesla defend his work from his rival Thomas Edison and a mysterious alien threat. They soon discover a scorpion-like alien race is trying to kidnap Tesla for his genius.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E05_nikola_teslas_night_of_terror.jpg?v=f8fbf79b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E05_nikola_teslas_night_of_terror.mkv?v=2d759afb"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_nikola_teslas_night_of_terror.jpg?v=f8fbf79b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_nikola_teslas_night_of_terror.mkv?v=2d759afb"
 },
 {
 title: "Fugitive of the Judoon",
 season: 12,
-episode: 6,
+episode: 5,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 12, episode: 5 },
 released: new Date("2020-01-26").toISOString(),
 overview: "The rhino-like Judoon descend on Gloucester in search of a fugitive, putting the entire city on lockdown. The Doctor's investigation leads to the return of a familiar face and a shocking revelation that changes everything she knows about her own past.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E06_fugitive_of_the_judoon.jpg?v=9d96f3ee",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E06_fugitive_of_the_judoon.mkv?v=0112f9b4"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E05_fugitive_of_the_judoon.jpg?v=9d96f3ee",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E05_fugitive_of_the_judoon.mkv?v=0112f9b4"
 },
 {
 title: "Praxeus",
 season: 12,
-episode: 7,
+episode: 6,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 12, episode: 6 },
 released: new Date("2020-02-02").toISOString(),
 overview: "The Doctor and her friends investigate a deadly pathogen that is causing birds to behave aggressively and humans to calcify. Their quest takes them from Peru to Madagascar, where they uncover an alien conspiracy involving microplastics.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E07_praxeus.jpg?v=26f2e473",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E07_praxeus.mkv?v=b68fbe85"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E06_praxeus.jpg?v=26f2e473",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E06_praxeus.mkv?v=b68fbe85"
 },
 {
 title: "Can You Hear Me?",
 season: 12,
-episode: 8,
+episode: 7,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 12, episode: 7 },
 released: new Date("2020-02-09").toISOString(),
 overview: "From ancient Syria to modern-day Sheffield, the Doctor and her team investigate a sinister force that feeds on nightmares. They must confront two immortal beings who are terrorising humanity and face their own deepest fears.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E08_can_you_hear_me.jpg?v=63182b68",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E08_can_you_hear_me.mkv?v=55854534"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E07_can_you_hear_me.jpg?v=63182b68",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E07_can_you_hear_me.mkv?v=55854534"
 },
 {
 title: "The Haunting of Villa Diodati",
 season: 12,
-episode: 9,
+episode: 8,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 12, episode: 8 },
 released: new Date("2020-02-16").toISOString(),
 overview: "On the night that inspired 'Frankenstein', the Doctor and her friends visit Lord Byron, Percy, and Mary Shelley. They discover the villa is haunted by a lone, partially converted Cyberman, forcing the Doctor to make a choice that could endanger the future.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E09_the_haunting_of_villa_diodati.jpg?v=11b3285b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E09_the_haunting_of_villa_diodati.mkv?v=4ddd84da"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E08_the_haunting_of_villa_diodati.jpg?v=11b3285b",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E08_the_haunting_of_villa_diodati.mkv?v=4ddd84da"
 },
 {
 title: "Ascension of the Cybermen",
 season: 12,
-episode: 10,
+episode: 9,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 12, episode: 9 },
 released: new Date("2020-02-23").toISOString(),
 overview: "In the far future, the Doctor and her friends join the last remnants of humanity in a desperate battle against a new generation of Cybermen. Their journey leads them to a mysterious boundary and a shocking discovery about the history of Gallifrey.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E10_ascension_of_the_cybermen.jpg?v=6b30ecbb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E10_ascension_of_the_cybermen.mkv?v=20f92367"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E09_ascension_of_the_cybermen.jpg?v=6b30ecbb",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E09_ascension_of_the_cybermen.mkv?v=20f92367"
 },
 {
 title: "The Timeless Children",
 season: 12,
-episode: 11,
+episode: 10,
 type: "Main Show",
 imdb: { id: "tt0436992", season: 12, episode: 10 },
 released: new Date("2020-03-01").toISOString(),
 overview: "As the Cybermen ascend, the Doctor is trapped by the Master, who reveals a devastating secret about her past and the origin of the Time Lords. With lies exposed and civilisations falling, the Doctor's identity is changed forever.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E11_the_timeless_children.jpg?v=cd8fd6f5",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E11_the_timeless_children.mkv?v=adb16c5f"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E10_the_timeless_children.jpg?v=cd8fd6f5",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E10_the_timeless_children.mkv?v=adb16c5f"
 },
 {
 title: "Shadow of a Doubt (Minisode)",
 season: 12,
-episode: 12,
+episode: 11,
 type: "Minisode",
 overview: "An archaeologist recovers a mirror from the ruins of Andromeda that has lasted far longer than any mirror should. The woman trapped inside it has been visited by the Doctor once a month for centuries, and she has never apologised.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E12_shadow_of_a_doubt_minisode.jpg?v=169aa6a2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E12_shadow_of_a_doubt_minisode.mp4?v=cccae4d6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E12_shadow_of_a_doubt_minisode.srt?v=7cfc3518"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E11_shadow_of_a_doubt_minisode.jpg?v=169aa6a2",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E11_shadow_of_a_doubt_minisode.mp4?v=cccae4d6",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E11_shadow_of_a_doubt_minisode.srt?v=7cfc3518"
 },
 {
 title: "The Shadow in the Mirror (Minisode)",
 season: 12,
-episode: 13,
+episode: 12,
 type: "Minisode",
 overview: "After centuries behind the glass, the prisoner is found by a Doctor who does not know her and has never asked her to say sorry. The visit goes differently from the hundreds that came before it.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E13_the_shadow_in_the_mirror_minisode.jpg?v=034c008c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E13_the_shadow_in_the_mirror_minisode.mp4?v=32ae3918",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E13_the_shadow_in_the_mirror_minisode.srt?v=19919ee0"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E12_the_shadow_in_the_mirror_minisode.jpg?v=034c008c",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E12_the_shadow_in_the_mirror_minisode.mp4?v=32ae3918",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E12_the_shadow_in_the_mirror_minisode.srt?v=19919ee0"
 },
 {
 title: "Daleks! (Animated Series)",
 season: 12,
-episode: 14,
+episode: 13,
 type: "Animated Series",
 released: new Date("2020-11-12").toISOString(),
 overview: "With the Archive of Islos closing in, Skaro's fleet faces an enemy that consumes whole worlds and has no interest in terms. The Daleks must decide how much of their own doctrine they are willing to spend to survive.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E14_daleks_animated_series.jpg?v=10b64d9e",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E14_daleks_animated_series.mp4?v=2aee3d50",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E14_daleks_animated_series.srt?v=f2d92440"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E13_daleks_animated_series.jpg?v=ffde9512",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E13_daleks_animated_series.mp4?v=288f6187",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E13_daleks_animated_series.srt?v=313c8721"
 },
 {
 title: "Revolution of the Daleks (Special)",
 season: 12,
-episode: 15,
+episode: 14,
 type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 157 },
 released: new Date("2021-01-01").toISOString(),
 overview: "With the Doctor imprisoned, her friends on Earth must team up with Captain Jack Harkness to fight a new breed of Daleks created by a corrupt businessman. They must find a way to stop the Dalek takeover before they exterminate all of humanity.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E15_revolution_of_the_daleks_special.jpg?v=2a316dc0",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E14_revolution_of_the_daleks_special.jpg?v=2a316dc0",
 audio: "DTS",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E15_revolution_of_the_daleks_special.mkv?v=21b0583e"
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E14_revolution_of_the_daleks_special.mkv?v=21b0583e"
 },
 {
 title: "The Halloween Apocalypse",
