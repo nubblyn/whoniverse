@@ -48,7 +48,7 @@ passes were running; read those two before starting a season.**
 - `category`: `Main Show`, `Special`, `Minisode`, `Prequel`, `Animated Series`, `Animated Restoration`, `Movie`. Becomes the title tag in the addon: `Born Again (Minisode)`.
 - `status`: `ok` or `missing`. `missing` means no legitimate source exists anywhere (wiped film, never released). Not "not downloaded yet".
 - `note`: text **only on `missing` rows**. The builder refuses otherwise.
-- `best`: the copy worth getting, as **source + resolution + audio**: `1080p Blu-ray x264`, `576i DVD`, `2160p HDR WEB-DL`, `1080p YouTube, official channel`. Not the largest file in existence; everything is re-encoded for streaming, so a 40 GB remux is never the target. Merged from the old `ceiling` and `found` columns on 15 September 2026.
+- `best`: **the best release the BBC put out**, as **source + resolution + audio**: `2160p UHD Blu-ray x265 HDR DTS-HD MA 5.1`, `1080p Blu-ray x264`, `576i DVD`, `1080p YouTube, official channel`. Highest resolution available for the episode, and the official release beats a rip of it. Frame rate does not enter into it (Part I). Size is a practical limit, not a principle: prefer a good encode of the best master over a 40 GB lossless remux of it, and say so in `source` rather than pretending the remux does not exist. Merged from the old `ceiling` and `found` columns on 15 September 2026.
 - `checked`: the date the indexers were last asked. Blank means never.
 - `have`: what is **in the bucket**, as probed: `1872x1080 23.976fps AAC`. Blank means nothing in the bucket. Never a local file.
 - `source`: **where that file came from**, as `<who> | <what>`: `Panda | 1080p BluRay x265 HEVC 10bit AAC 5.1`, `get_iplayer | b007zv0y original, hlsxsd1, 960x540 50fps`, `NTb | 576i BluRay Remux DTS-HD MA 2.0 H264`, `YouTube | official @DoctorWho channel`. The release group or service, then what the file actually is. Where the copy is older than the record, say so plainly rather than guessing: `held before Sep 2026, provenance unrecorded`. Blank only where `have` is blank. It is shown on `/ledger-v2` when an episode is opened, never in the list.
@@ -272,8 +272,9 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
   `scripts/build-thumbs.js`, which writes to `art-cdn/thumbs/` and points at an `art/thumbs/`
   prefix this bucket does not have; nothing in `lib/` reads it. The per-episode image is the
   `.jpg` still beside the video, and that is the only one. See Part I.
-- **Cadence sanity on a candidate pack**: pull one file, probe it, before downloading the
-  rest. No torrent listing states a frame rate.
+- **Probe one file of a candidate pack before pulling the rest.** No listing states a frame
+  rate, a bit depth or an audio layout, and those identify which master a pack came off.
+  The frame rate identifies the release; it does not disqualify one (Part I).
 
 ### rclone 1.75.1, the bucket
 
@@ -490,7 +491,7 @@ inside it exactly as the encoder built them.
 
 | | Rule | Why |
 | --- | --- | --- |
-| frame rate | 25 (or native 50) | anything else is a converted master and nothing recovers it. Exception: the 1996 TV Movie at 24 |
+| frame rate | **whatever the best release runs at** | not a selection criterion. The BBC chose the cadence of what it released; we take its best release and record the rate in `have`. Where a 25fps official release exists and a 23.976 rip also does - New Who 1-4, where the 2023 box set is the fix - the box set wins for being the better official release, not for its cadence |
 | resolution | what `best` says; 1920x960 is a full 1080-class frame for Series 11-13 and Land and Sea (2.00:1), not a shortfall | |
 | container | **as it came** | the original wins; see above |
 | video | **as it came** | |
@@ -726,9 +727,11 @@ python scripts/search/pq.py "doctor who 2005 S01 bluray"
 python scripts/search/pq.py "doctor who born again" --raw            # per row not covered by a pack
 ```
 Rank seeders-first inside the size cap. For **seasons 1-4 and the 2009 specials the
-whole question is cadence**: pull one file from the leading candidate (add the magnet to
-qBittorrent, select a single episode), `ffprobe` it, and only then decide about the pack. The 2023 box-set upscale is 25fps; older masters
-are 23.976; no listing says which.
+whole question is which release is the 2023 box set**: pull one file from the leading
+candidate (add the magnet to qBittorrent, select a single episode), `ffprobe` it, and only
+then decide about the pack. The box set is the better official release and the one to
+have; 25fps is how you recognise it in a probe, not the reason to want it. No listing
+says which a pack came from.
 
 Write the winner into `best`, today into `checked`, for every row searched, beat or not.
 
@@ -1126,18 +1129,26 @@ files; their fourteen 2160p HDR mkvs sit untouched in `~/Downloads` (Part J), an
 one tone-mapped build, The Story & the Engine, was never uploaded. The precedent was
 claimed during the season 10 pass and does not exist.
 
-**Twice Upon a Time is 2160p at 23.976, on purpose.** Decided 18 September 2026 with the
-measurements in hand, and it is the one row that breaks the frame-rate rule above.
+**The target is the best release the BBC put out. Frame rate is not a criterion.**
+Stated by the user on 18 September 2026, and it is the rule; what stood in Part D before
+was mine.
 
-Every 2160p release of it comes off the same UHD Blu-ray, the 54 GB remuxes included, and
-that disc is film cadence. The file runs 62.5 minutes against a 59.9-minute broadcast:
-62.5/59.9 = 1.043 and 25/23.976 = 1.043, so it is the 25fps master slowed by 4.3%, with
-the pitch drop that normally comes with it. There is no 25fps 4K to be had. The choice
-was resolution against speed, it was put that way, and resolution won.
+Get the highest quality the BBC actually released for an episode - highest resolution
+first, the official release over a rip of it - and take it as it comes. The BBC decided
+what cadence to release at. That decision is not ours to second-guess, to weigh against
+resolution, or to raise as an objection when a release is otherwise the best there is.
+Record the rate in `have` and move on.
 
-So the row reads 2160p HDR 23.976 DTS-HD MA, `audio: "DTS"`, shipped untouched. **Do not
-retime it, do not re-encode it, and do not file it as a fault in a later audit.** If a
-25fps 2160p master ever appears, that is worth raising; nothing else about this file is.
+Twice Upon a Time is the worked example. Every 2160p release of it comes off one UHD
+Blu-ray, that disc is film cadence, and the file runs 62.5 minutes against a 59.9-minute
+broadcast - the 25fps master slowed by 4.3%. No 25fps 4K exists. It was raised as a
+resolution-against-speed trade and it should not have been: the 4K is what the BBC put
+out, so the 4K is the file. It ships 2160p HDR 23.976 DTS-HD MA with `audio: "DTS"`,
+untouched. **Do not retime it, do not re-encode it, do not flag it in a later audit.**
+
+Where cadence still earns a mention: it identifies which master a pack came from, which
+is how New Who 1-4 tell the 2023 box set from an older rip. The box set is wanted because
+it is the better official release. 25fps is the fingerprint, not the reason.
 
 ---
 
