@@ -2150,9 +2150,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 1 },
 released: new Date("2017-04-15").toISOString(),
 overview: "The Doctor is living under cover as a university professor, guarding a mysterious vault. He befriends a curious canteen worker named Bill Potts, and their friendship leads them into a chase across time and space against a sinister, fluid-like alien.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E02_the_pilot.jpg?v=842a40eb",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E02_the_pilot.mp4?v=9882bd96",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E02_the_pilot.srt?v=9be32cf7"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E02_the_pilot.jpg?v=e71f34aa",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E02_the_pilot.mkv?v=99522b38"
 },
 {
 title: "Smile",
@@ -2162,9 +2161,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 2 },
 released: new Date("2017-04-22").toISOString(),
 overview: "The Doctor takes Bill to a future Earth colony where cute EmojiBots ensure everyone is happy, and anyone who shows a sign of sadness is 'deleted'. They must find a way to coexist with the deadly robots before the colonists awaken.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E03_smile.jpg?v=a42fbd94",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E03_smile.mp4?v=91113393",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E03_smile.srt?v=b0f9ed71"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E03_smile.jpg?v=e826686a",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E03_smile.mkv?v=9aeabea7"
 },
 {
 title: "Thin Ice",
@@ -2174,9 +2172,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 3 },
 released: new Date("2017-04-29").toISOString(),
 overview: "In Regency London, the Doctor and Bill attend the last of the great frost fairs on the frozen River Thames. They discover a giant creature trapped beneath the ice, being exploited for fuel, forcing them to confront a dark moral question.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E04_thin_ice.jpg?v=55f6ef77",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E04_thin_ice.mp4?v=3002649f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E04_thin_ice.srt?v=4b8e0a86"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E04_thin_ice.jpg?v=007a525c",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E04_thin_ice.mkv?v=3d85bd67"
 },
 {
 title: "Knock Knock",
@@ -2186,9 +2183,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 4 },
 released: new Date("2017-05-06").toISOString(),
 overview: "Bill and her friends move into a strange, creaky old house offered by a mysterious landlord. The Doctor suspects something is wrong, and they soon discover the house is infested with terrifying alien lice that consume its tenants.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E05_knock_knock.jpg?v=bd04fc25",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E05_knock_knock.mp4?v=f43458df",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E05_knock_knock.srt?v=c775b8a5"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E05_knock_knock.jpg?v=7cf58583",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E05_knock_knock.mkv?v=07a60e06"
 },
 {
 title: "Oxygen",
@@ -2198,9 +2194,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 5 },
 released: new Date("2017-05-13").toISOString(),
 overview: "The Doctor, Bill, and Nardole are trapped on a space station where oxygen is a commodity and the automated spacesuits are killing the crew. In a world where capitalism has run rampant, they must fight for every breath.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E06_oxygen.jpg?v=fda2e1c2",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E06_oxygen.mp4?v=93212d31",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E06_oxygen.srt?v=2201c86a"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E06_oxygen.jpg?v=77380a15",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E06_oxygen.mkv?v=d58136d2"
 },
 {
 title: "Extremis",
@@ -2210,9 +2205,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 6 },
 released: new Date("2017-05-20").toISOString(),
 overview: "The Vatican calls on the Doctor to investigate the Veritas, a forbidden text that causes its readers to take their own lives. His investigation reveals a shocking truth about his own reality and the nature of the threat hidden in the vault.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E07_extremis.jpg?v=0d6c6748",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E07_extremis.mp4?v=5b3ac283",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E07_extremis.srt?v=d5978c8c"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E07_extremis.jpg?v=e1c5fbb1",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E07_extremis.mkv?v=12d398a0"
 },
 {
 title: "The Pyramid at the End of the World",
@@ -2222,9 +2216,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 7 },
 released: new Date("2017-05-27").toISOString(),
 overview: "A 5,000-year-old pyramid mysteriously appears overnight, and its alien occupants, the Monks, offer to save humanity from an impending catastrophe. The Doctor must discover their true motives before humanity willingly consents to its own enslavement.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E08_the_pyramid_at_the_end_of_the_world.jpg?v=73c92e3c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E08_the_pyramid_at_the_end_of_the_world.mp4?v=73cc14cf",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E08_the_pyramid_at_the_end_of_the_world.srt?v=10f5d5d6"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E08_the_pyramid_at_the_end_of_the_world.jpg?v=321b116a",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E08_the_pyramid_at_the_end_of_the_world.mkv?v=69e9e8d2"
 },
 {
 title: "The Lie of the Land",
@@ -2234,9 +2227,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 8 },
 released: new Date("2017-06-03").toISOString(),
 overview: "With the Monks in control of Earth and the Doctor seemingly on their side, Bill and Nardole must mount a resistance. As humanity lives under a veil of fake history, they must find a way to break the Monks' psychic hold and free the planet.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E09_the_lie_of_the_land.jpg?v=46538837",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E09_the_lie_of_the_land.mp4?v=59b7a3d7",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E09_the_lie_of_the_land.srt?v=4f0ec962"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E09_the_lie_of_the_land.jpg?v=d1107488",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E09_the_lie_of_the_land.mkv?v=b8dcc6f2"
 },
 {
 title: "Empress of Mars",
@@ -2246,9 +2238,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 9 },
 released: new Date("2017-06-10").toISOString(),
 overview: "The Doctor, Bill, and Nardole travel to Mars and discover a group of Victorian soldiers have befriended an Ice Warrior. Their fragile peace is shattered when the soldiers awaken the Ice Warrior Empress, leading to a clash of empires.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E10_empress_of_mars.jpg?v=d9800787",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E10_empress_of_mars.mp4?v=8fe3f0f1",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E10_empress_of_mars.srt?v=f297489e"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E10_empress_of_mars.jpg?v=5183c169",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E10_empress_of_mars.mkv?v=1a84fdc3"
 },
 {
 title: "The Eaters of Light",
@@ -2258,9 +2249,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 10 },
 released: new Date("2017-06-17").toISOString(),
 overview: "The Doctor and his friends travel to ancient Scotland to solve the mystery of the missing Ninth Legion. They find the soldiers were sacrificed to stop a dimension-hopping monster, and now must convince two warring tribes to unite against the creature.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E11_the_eaters_of_light.jpg?v=758b83d6",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E11_the_eaters_of_light.mp4?v=79d89175",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E11_the_eaters_of_light.srt?v=b66f6f15"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E11_the_eaters_of_light.jpg?v=b295c50f",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E11_the_eaters_of_light.mkv?v=62edec8a"
 },
 {
 title: "World Enough and Time",
@@ -2270,9 +2260,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 11 },
 released: new Date("2017-06-24").toISOString(),
 overview: "The Doctor puts Missy's redemption to the test by sending her on a rescue mission. The team arrives on a massive colony ship reversing away from a black hole, where they encounter the original Mondasian Cybermen and an old, familiar enemy.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E12_world_enough_and_time.jpg?v=6b7b1500",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E12_world_enough_and_time.mp4?v=5d7a40ad",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E12_world_enough_and_time.srt?v=9bade6bd"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E12_world_enough_and_time.jpg?v=39ee0619",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E12_world_enough_and_time.mkv?v=d52a6757"
 },
 {
 title: "The Doctor Falls",
@@ -2282,9 +2271,8 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 10, episode: 12 },
 released: new Date("2017-07-01").toISOString(),
 overview: "Facing an army of Cybermen, two versions of the Master, and his own impending regeneration, the Doctor makes a final, desperate stand. He must protect the last of a human colony as the Cybermen close in.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E13_the_doctor_falls.jpg?v=7d5a958c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E13_the_doctor_falls.mp4?v=cfb2fb34",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E13_the_doctor_falls.srt?v=216bc3db"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E13_the_doctor_falls.jpg?v=7601a766",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E13_the_doctor_falls.mkv?v=f9c1b123"
 },
 {
 title: "The Best of Days (Minisode)",
@@ -2305,9 +2293,9 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 154 },
 released: new Date("2017-12-25").toISOString(),
 overview: "At the South Pole, two Doctors refuse to regenerate: the Twelfth and the First. They are brought together by a mysterious glass entity and a World War I captain, forcing them to confront their pasts and accept their futures in one final adventure.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E15_twice_upon_a_time_special.jpg?v=1a69419c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E15_twice_upon_a_time_special.mp4?v=c19dacb4",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E15_twice_upon_a_time_special.srt?v=260b4405"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E15_twice_upon_a_time_special.jpg?v=921ab782",
+audio: "DTS",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_10/S10_E15_twice_upon_a_time_special.mkv?v=62918758"
 },
 {
 title: "The Woman Who Fell to Earth",
