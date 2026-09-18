@@ -832,9 +832,8 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 9 },
 released: new Date("2008-12-25").toISOString(),
 overview: "Arriving in Victorian London on Christmas Eve, the Doctor is shocked to meet another man who claims to be 'the Doctor'. Together, they must investigate a series of mysterious deaths and stop a Cyberman plot to raise a new army.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E16_the_next_doctor_special.jpg?v=899adb7d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E16_the_next_doctor_special.mp4?v=26dae517",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E16_the_next_doctor_special.srt?v=4f54fbaf"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E16_the_next_doctor_special.jpg?v=06e8c61d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E16_the_next_doctor_special.mkv?v=666082a7"
 },
 {
 title: "Planet of the Dead (Special)",
@@ -844,9 +843,8 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 13 },
 released: new Date("2009-04-11").toISOString(),
 overview: "When a London double-decker bus is transported to a desert planet, the Doctor and a mysterious cat burglar, Lady Christina de Souza, must lead the surviving passengers to safety. They discover the planet is being consumed by a swarm of metallic aliens.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E17_planet_of_the_dead_special.jpg?v=fe7dd75c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E17_planet_of_the_dead_special.mp4?v=fe75b5da",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E17_planet_of_the_dead_special.srt?v=2b05e4d6"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E17_planet_of_the_dead_special.jpg?v=598f6d73",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E17_planet_of_the_dead_special.mkv?v=554ffac7"
 },
 {
 title: "Tonight's the Night (Minisode)",
@@ -866,9 +864,8 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 14 },
 released: new Date("2009-11-15").toISOString(),
 overview: "On Mars, the Doctor encounters the first human colony, whose members are being infected by a sentient water virus. He faces a terrible dilemma: obey the laws of time and let the crew die, or break the rules and change a fixed point in history.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E19_the_waters_of_mars_special.jpg?v=22444a19",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E19_the_waters_of_mars_special.mp4?v=2f4d8e5f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E19_the_waters_of_mars_special.srt?v=4bef87c8"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E19_the_waters_of_mars_special.jpg?v=9035638d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E19_the_waters_of_mars_special.mkv?v=e427ad97"
 },
 {
 title: "Dreamland (Animated Series)",
@@ -900,9 +897,8 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 16 },
 released: new Date("2009-12-25").toISOString(),
 overview: "As a prophecy foretells his death, the Doctor learns that his old nemesis, the Master, has been resurrected. With the help of Donna's grandfather, Wilf, he must confront his returning foe and the even greater threat of the Time Lords themselves.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E22_the_end_of_time_part_one_special.jpg?v=e232c27a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E22_the_end_of_time_part_one_special.mp4?v=af1eb684",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E22_the_end_of_time_part_one_special.srt?v=be4a26c6"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E22_the_end_of_time_part_one_special.jpg?v=52ed6a32",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E22_the_end_of_time_part_one_special.mkv?v=57f2cf6f"
 },
 {
 title: "The End of Time: Part Two (Special)",
@@ -912,9 +908,8 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 17 },
 released: new Date("2010-01-01").toISOString(),
 overview: "With the Master's plan revealed and the Time Lords returning from the Time War, the Doctor faces his final battle. To save his friends and the universe, he must make the ultimate sacrifice, leading to a spectacular and emotional regeneration.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E23_the_end_of_time_part_two_special.jpg?v=5f1d2ffa",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E23_the_end_of_time_part_two_special.mp4?v=6e5e59dd",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E23_the_end_of_time_part_two_special.srt?v=6344ca55"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E23_the_end_of_time_part_two_special.jpg?v=d94edf94",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E23_the_end_of_time_part_two_special.mkv?v=0cb55241"
 },
 {
 title: "The Raggedy Doctor by Amelia Pond (Minisode)",
