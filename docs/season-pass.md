@@ -167,6 +167,24 @@ them (see the 7-Zip entry for why).
 ### yt-dlp, for the BBC's own YouTube channel
 
 - Installed as a module, not an exe: **`python -m yt_dlp`**. `yt-dlp` on PATH does not exist.
+- **A JavaScript runtime is required, and without it yt-dlp silently offers you less.**
+  YouTube guards its stream URLs with an obfuscated JS challenge. With no runtime, `-F`
+  still *lists* every format but the m3u8 ones cannot be fetched: the download fails with
+  "Requested format is not available", and a `-f` fallback chain quietly lands on a lower
+  rendition instead. Deno was installed on 18 September 2026 (`winget install
+  DenoLand.Deno`); it lands in
+  `~/AppData/Local/Microsoft/WinGet/Packages/DenoLand.Deno_*/deno.exe` and yt-dlp only
+  finds it when that directory is on `PATH` - `--js-runtimes deno:<path>` did **not**
+  work. Put it on `PATH` for the shell before any pull:
+  ```
+  export PATH="$(dirname "$(find ~/AppData/Local/Microsoft/WinGet/Packages -iname deno.exe | head -1)"):$PATH"
+  ```
+- **The m3u8 bitrate figures are estimates and they are always too high.** Format 270 was
+  advertised at 4716k for Friend from the Future and delivered 3.69 Mbps, the same as
+  DASH format 137. Format 616 "Premium" was advertised at 3411k for Destination: Skaro
+  and delivered 1.38 Mbps against the 1.22 already held. Do not choose a format on the
+  listed number; pull it and probe it, and remember VP9 and AV1 have to be re-encoded
+  afterwards, which gives most of a small gain back.
 - Only the official channel counts (`@DoctorWho`). Fan re-uploads and AI upscales are out,
   which is why the 13 Tardisodes stay unavailable and Bad Music's Agnor copy was refused.
 - The channel renames things. Destination: Skaro is **"The Fourteenth Doctor is Here! |

@@ -2704,8 +2704,9 @@ type: "Special",
 imdb: { id: "tt31433814", season: 0, episode: 1 },
 released: new Date("2023-11-25").toISOString(),
 overview: "The newly regenerated Fourteenth Doctor is reunited with Donna Noble, just as a spaceship crashes in London. They must protect a cute and cuddly alien, the Meep, from deadly soldiers, and prevent Donna's memories from destroying her mind.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.jpg?v=87e782d9",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.mkv?v=9e2d94c3"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.jpg?v=b2b9ce04",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.mp4?v=bc8cd223"
 },
 {
 title: "Wild Blue Yonder (Special)",
@@ -2715,8 +2716,9 @@ type: "Special",
 imdb: { id: "tt31433814", season: 0, episode: 2 },
 released: new Date("2023-12-02").toISOString(),
 overview: "The TARDIS takes the Doctor and Donna to a desolate spaceship at the edge of the universe. There, they are hunted by two mysterious beings that can duplicate their forms and memories, forcing them into a terrifying psychological battle.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.jpg?v=a8d44a72",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.mkv?v=6f911dfd"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.jpg?v=787c40ab",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.mp4?v=316227f8"
 },
 {
 title: "The Giggle (Special)",
@@ -2726,8 +2728,9 @@ type: "Special",
 imdb: { id: "tt31433814", season: 0, episode: 3 },
 released: new Date("2023-12-09").toISOString(),
 overview: "The Doctor discovers the giggle of a mysterious puppet is driving humanity insane. His investigation leads to the return of the cosmic Toymaker, forcing the Doctor into a fight he can't win.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.jpg?v=82f6f069",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.mkv?v=2d94a0b8"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.jpg?v=1477b0b3",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.mp4?v=e53c2f65"
 },
 {
 title: "The Church on Ruby Road (Special)",
