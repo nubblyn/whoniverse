@@ -48,7 +48,7 @@ passes were running; read those two before starting a season.**
 - `category`: `Main Show`, `Special`, `Minisode`, `Prequel`, `Animated Series`, `Animated Restoration`, `Movie`. Becomes the title tag in the addon: `Born Again (Minisode)`.
 - `status`: `ok` or `missing`. `missing` means no legitimate source exists anywhere (wiped film, never released). Not "not downloaded yet".
 - `note`: text **only on `missing` rows**. The builder refuses otherwise.
-- `best`: **the best release the BBC put out**, as **source + resolution + audio**: `2160p UHD Blu-ray x265 HDR DTS-HD MA 5.1`, `1080p Blu-ray x264`, `576i DVD`, `1080p YouTube, official channel`. Highest resolution available for the episode, and the official release beats a rip of it. Frame rate does not enter into it (Part I). Size is a practical limit, not a principle: prefer a good encode of the best master over a 40 GB lossless remux of it, and say so in `source` rather than pretending the remux does not exist. Merged from the old `ceiling` and `found` columns on 15 September 2026.
+- `best`: **the best release the BBC put out**, as **source + resolution + audio**: `2160p UHD Blu-ray x265 HDR DTS-HD MA 5.1`, `1080p Blu-ray x264`, `576i DVD`, `1080p YouTube, official channel`. Highest resolution wins; newer official release beats older; official beats a rip. A good encode of the best master is fine, a 40 GB lossless remux of it is not worth the space. Merged from the old `ceiling` and `found` columns on 15 September 2026.
 - `checked`: the date the indexers were last asked. Blank means never.
 - `have`: what is **in the bucket**, as probed: `1872x1080 23.976fps AAC`. Blank means nothing in the bucket. Never a local file.
 - `source`: **where that file came from**, as `<who> | <what>`: `Panda | 1080p BluRay x265 HEVC 10bit AAC 5.1`, `get_iplayer | b007zv0y original, hlsxsd1, 960x540 50fps`, `NTb | 576i BluRay Remux DTS-HD MA 2.0 H264`, `YouTube | official @DoctorWho channel`. The release group or service, then what the file actually is. Where the copy is older than the record, say so plainly rather than guessing: `held before Sep 2026, provenance unrecorded`. Blank only where `have` is blank. It is shown on `/ledger-v2` when an episode is opened, never in the list.
@@ -273,8 +273,7 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
   prefix this bucket does not have; nothing in `lib/` reads it. The per-episode image is the
   `.jpg` still beside the video, and that is the only one. See Part I.
 - **Probe one file of a candidate pack before pulling the rest.** No listing states a frame
-  rate, a bit depth or an audio layout, and those identify which master a pack came off.
-  The frame rate identifies the release; it does not disqualify one (Part I).
+  rate, bit depth or audio layout, and those tell you which master the pack came off.
 
 ### rclone 1.75.1, the bucket
 
@@ -491,12 +490,12 @@ inside it exactly as the encoder built them.
 
 | | Rule | Why |
 | --- | --- | --- |
-| frame rate | **whatever the best release runs at** | not a selection criterion. The BBC chose the cadence of what it released; we take its best release and record the rate in `have`. Where a 25fps official release exists and a 23.976 rip also does - New Who 1-4, where the 2023 box set is the fix - the box set wins for being the better official release, not for its cadence |
+| frame rate | whatever the best release runs at | record it in `have`. It helps tell two releases apart; it never rules one out |
 | resolution | what `best` says; 1920x960 is a full 1080-class frame for Series 11-13 and Land and Sea (2.00:1), not a shortfall | |
 | container | **as it came** | the original wins; see above |
 | video | **as it came** | |
 | audio | **as it came**; the entry carries `audio: "E-AC-3"` / `"AC-3"` / `"DTS"` when it is not AAC or MP3 | browsers play those silent with no error, so the flag tells the client |
-| HDR | **as it came**, like everything else | the original wins. An HDR file looks washed out on an SDR display; that is the cost of shipping originals, not a reason to re-encode one. Tone-mapping is not automatic - see Part I |
+| HDR | **as it came** | washed out on an SDR display, and accepted. Not tone-mapped unless asked |
 | size | whatever the release is | |
 | name | from `file-names.tsv`, exactly | the still and subtitle match the video by stem |
 | beside it | `<stem>.jpg` 1280x720; `<stem>.srt` **only when the file carries no subtitles of its own in a language we serve**, bitmap tracks counting as its own, and an existing sidecar is deleted when a replacement brings its own | a sidecar beside a file that already has subtitles is a second, foreign version of them |
@@ -514,9 +513,7 @@ bucket and confirm it starts without downloading the whole file first.
    A good check afterwards is the running time against whatever the row held before.
 2. **The container cannot carry what is in it.** Nothing else fits here today, and if it
    comes up, ask before converting.
-3. **HDR tone-mapped down to SDR, and only when asked for that file by name.** The
-   recipe is in Part B and it works, but it is not a rule and nothing triggers it
-   on its own. See Part I.
+3. **HDR tone-mapped to SDR, only when asked for that file by name.** Recipe in Part B.
 
 **Do not transcode audio to please a web browser.** The desktop, TV and mobile clients
 decode DTS, AC-3, E-AC-3 and TrueHD perfectly well; only the browser player cannot, and
@@ -729,9 +726,8 @@ python scripts/search/pq.py "doctor who born again" --raw            # per row n
 Rank seeders-first inside the size cap. For **seasons 1-4 and the 2009 specials the
 whole question is which release is the 2023 box set**: pull one file from the leading
 candidate (add the magnet to qBittorrent, select a single episode), `ffprobe` it, and only
-then decide about the pack. The box set is the better official release and the one to
-have; 25fps is how you recognise it in a probe, not the reason to want it. No listing
-says which a pack came from.
+then decide about the pack. No listing says which a pack came from; 25fps is how you
+recognise it.
 
 Write the winner into `best`, today into `checked`, for every row searched, beat or not.
 
@@ -1110,45 +1106,20 @@ decide iPlayer is blocked without attempting a download, and check
 printing a tab name with an emoji in it. `pq.py` throws the same error on a broken pipe
 under `head`, which is not a failure of the search.
 
-**HDR ships untouched, and the original always wins.** Settled 18 September 2026, on
-Twice Upon a Time. Part D used to say HDR sources were tone-mapped and never just
-scaled. That line was not the user's; it was written into the plan on 15 and 16
-September as an inference, in the same commit that established *Ship the encoder's
-file*, and it contradicted the rule it was an exception to. The user's rule is
-**original files whenever possible, and the highest resolution available for an
-episode**. So a 2160p HDR release is uploaded as it came, with `audio:` set for its
-track, and its `have` says HDR.
+**Take the best release the BBC put out.** Highest resolution wins, newer official
+release beats older, official beats a rip, and it ships as it came - HDR, cadence,
+audio and all. The BBC chose those; they are not ours to trade against resolution.
+Set `audio:` when the track is not AAC or MP3, and let `have` say what the file is.
 
-The cost is real and was stated before the choice: an HDR file looks washed out on an
-SDR display, on a television as much as in a browser. That is accepted. The tone-map
-chain in Part B stays because it works and because a specific file may still want it,
-but nothing invokes it on its own and no pass should propose it as routine.
+Twice Upon a Time is the example: the only 4K is 23.976 HDR off the UHD Blu-ray, so
+that is the file, `audio: "DTS"`, untouched.
 
-Do not cite seasons 14 to 16 as precedent for tone-mapping. They serve 1080p iPlayer
-files; their fourteen 2160p HDR mkvs sit untouched in `~/Downloads` (Part J), and the
-one tone-mapped build, The Story & the Engine, was never uploaded. The precedent was
-claimed during the season 10 pass and does not exist.
-
-**The target is the best release the BBC put out. Frame rate is not a criterion.**
-Stated by the user on 18 September 2026, and it is the rule; what stood in Part D before
-was mine.
-
-Get the highest quality the BBC actually released for an episode - highest resolution
-first, the official release over a rip of it - and take it as it comes. The BBC decided
-what cadence to release at. That decision is not ours to second-guess, to weigh against
-resolution, or to raise as an objection when a release is otherwise the best there is.
-Record the rate in `have` and move on.
-
-Twice Upon a Time is the worked example. Every 2160p release of it comes off one UHD
-Blu-ray, that disc is film cadence, and the file runs 62.5 minutes against a 59.9-minute
-broadcast - the 25fps master slowed by 4.3%. No 25fps 4K exists. It was raised as a
-resolution-against-speed trade and it should not have been: the 4K is what the BBC put
-out, so the 4K is the file. It ships 2160p HDR 23.976 DTS-HD MA with `audio: "DTS"`,
-untouched. **Do not retime it, do not re-encode it, do not flag it in a later audit.**
-
-Where cadence still earns a mention: it identifies which master a pack came from, which
-is how New Who 1-4 tell the 2023 box set from an older rip. The box set is wanted because
-it is the better official release. 25fps is the fingerprint, not the reason.
+Part D used to say 25fps or nothing, and that HDR was always tone-mapped. Both were
+mine, written 15-16 September, the second in the very commit titled *Ship the encoder's
+file*. An HDR file does look washed out on an SDR display; that was said before the
+choice and accepted. The tone-map chain in Part B still works if a specific file ever
+wants it, but nothing calls it on its own. Seasons 14-16 are not precedent for it -
+they serve 1080p iPlayer files and their 2160p HDR mkvs sit untouched in `~/Downloads`.
 
 ---
 
