@@ -12702,9 +12702,9 @@ const episodes = [
   type: "Animated Series",
   released: "2020-01-16T00:00:00.000Z",
   overview: "An animated short in which the Doctor finds a creature loose aboard the TARDIS, filmed so the viewer can look in any direction. Wherever the audience turns, something is moving at the edge of the room.",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_the_runaway_animated_series.jpg?v=80d4c6ff",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_the_runaway_animated_series.mp4?v=50d7a4e2",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_the_runaway_animated_series.srt?v=b77c1661",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_the_runaway_animated_series.jpg?v=cedf6138",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_the_runaway_animated_series.mp4?v=3f5f8e76",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E04_the_runaway_animated_series.srt?v=ac808a0e",
 },
 {
   title: "Nikola Tesla's Night of Terror",
