@@ -1166,11 +1166,16 @@ decide iPlayer is blocked without attempting a download, and check
 printing a tab name with an emoji in it. `pq.py` throws the same error on a broken pipe
 under `head`, which is not a failure of the search.
 
-**Stills from 2160p sources need the letterbox cropping off.** The 2160p WEB files are
-2.00:1 pictures inside a 16:9 frame - active area rows 120 to 2039 of 2160, pure black
-either side. A centre crop keeps the bars, so the still gets a dark band top and bottom.
-`build-stills.js` now measures the rows itself and crops to the picture; nothing extra to
-run. Native 1920x960 files were never affected.
+**Letterboxed sources need the bars cropped off before the still is cut.** Much of the
+2018-onward run is a 2.00:1 picture inside a 16:9 frame, black either side: 2160p WEB
+files have the picture on rows 120 to 2039 of 2160, and 1080p ones on rows 60 to 1019 of
+1080. A centre crop keeps the bars and the still gets a dark band top and bottom.
+`build-stills.js` measures the rows itself and crops to the picture; nothing extra to run.
+Files that are natively 1920x960 were never affected, because they are already cropped.
+
+**It is not only the 2160p files.** That assumption was made on 18 September and missed
+Destination: Skaro, which is 1920x1080 with the same letterbox. Judge by the frame, not
+the resolution.
 
 Two things to know if it ever misbehaves. **ffmpeg's `cropdetect` is no use here** - it
 reported full frame at every timestamp on every one of these files, which is what sent
@@ -1188,7 +1193,15 @@ a=np.frombuffer(sys.stdin.buffer.read(),dtype=np.uint8).reshape(720,1280).mean(a
 print('top',int((a>16).argmax()),'bottom',int((a[::-1]>16).argmax()))"
 ```
 
-Zero and zero is clean; 40 and 40 is the letterbox.
+Zero and zero is clean; 40 and 40 is the letterbox. Do not require the two numbers to
+match: a bar plus a dark scene reads asymmetric, which is how the same sweep first missed
+Destination: Skaro at 40 and 53. And a wildly lopsided pair - Night Terrors at 142 and
+468, The Eaters of Light at 164 and 379 - is a dark shot, not a letterbox; those sources
+measure full frame. Check the source before rebuilding anything.
+
+A sweep of all 1067 stills on 18 September found seventeen genuinely letterboxed: the
+season 15 and 16 rows, since replaced from Disney+, Destination: Skaro, and two Classic
+Who stills (The Ordeal, Battlefield part 4) which that series' pass owns.
 
 **Take the best release the BBC put out.** Highest resolution wins, newer official
 release beats older, official beats a rip, and it ships as it came - HDR, cadence,
