@@ -1166,6 +1166,30 @@ decide iPlayer is blocked without attempting a download, and check
 printing a tab name with an emoji in it. `pq.py` throws the same error on a broken pipe
 under `head`, which is not a failure of the search.
 
+**Stills from 2160p sources need the letterbox cropping off.** The 2160p WEB files are
+2.00:1 pictures inside a 16:9 frame - active area rows 120 to 2039 of 2160, pure black
+either side. A centre crop keeps the bars, so the still gets a dark band top and bottom.
+`build-stills.js` now measures the rows itself and crops to the picture; nothing extra to
+run. Native 1920x960 files were never affected.
+
+Two things to know if it ever misbehaves. **ffmpeg's `cropdetect` is no use here** - it
+reported full frame at every timestamp on every one of these files, which is what sent
+the first diagnosis the wrong way. And the probe must keep the source height
+(`scale=64:ih`): scaling it down turns a 120-row bar on a 2160-row frame into two rows,
+which reads as noise and gets thrown away. That bug produced identical stills and was
+only caught by re-measuring the output.
+
+To check a still, count its dark rows rather than looking at it:
+
+```
+ffmpeg -v error -i <still>.jpg -vf format=gray -f rawvideo - | python -c "
+import sys,numpy as np
+a=np.frombuffer(sys.stdin.buffer.read(),dtype=np.uint8).reshape(720,1280).mean(axis=1)
+print('top',int((a>16).argmax()),'bottom',int((a[::-1]>16).argmax()))"
+```
+
+Zero and zero is clean; 40 and 40 is the letterbox.
+
 **Take the best release the BBC put out.** Highest resolution wins, newer official
 release beats older, official beats a rip, and it ships as it came - HDR, cadence,
 audio and all. The BBC chose those; they are not ours to trade against resolution.
