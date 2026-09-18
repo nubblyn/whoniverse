@@ -13208,8 +13208,8 @@ const episodes = [
   released: "2024-06-22T00:00:00.000Z",
   overview: "With Sutekh triumphant and a dust of death sweeping across creation, the Doctor has lost. His only hope lies with Ruby Sunday, an ordinary woman who may hold the key to defeating an ancient and all-powerful enemy.",
   audio: "E-AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.jpg?v=70da8eee",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.mp4?v=f3e99873",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.jpg?v=f1773a9b",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.mp4?v=3b82301c",
 },
 {
   title: "Bad Music (Minisode)",
