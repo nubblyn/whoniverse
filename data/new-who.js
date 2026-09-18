@@ -2585,9 +2585,9 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 13, episode: 1 },
 released: new Date("2021-10-31").toISOString(),
 overview: "On Halloween, the Doctor and Yaz are pursued by a mysterious new enemy, Karvanista. They cross paths with a man named Dan Lewis and discover an ancient evil known as the Flux is breaking free, threatening to unravel the entire universe.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E01_the_halloween_apocalypse.jpg?v=eef3a1b4",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E01_the_halloween_apocalypse.mp4?v=e4eb4625",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E01_the_halloween_apocalypse.srt?v=87c9d57b"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E01_the_halloween_apocalypse.jpg?v=ebaed4ad",
+audio: "DTS",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E01_the_halloween_apocalypse.mkv?v=e46ef9bc"
 },
 {
 title: "War of the Sontarans",
@@ -2597,9 +2597,9 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 13, episode: 2 },
 released: new Date("2021-11-07").toISOString(),
 overview: "The Flux deposits the Doctor in the Crimean War, where she finds the British army fighting an army of Sontarans. Meanwhile, Yaz and Dan are thrown into a mysterious temple, where they must survive against deadly temporal forces.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E02_war_of_the_sontarans.jpg?v=348b995b",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E02_war_of_the_sontarans.mp4?v=50166e6c",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E02_war_of_the_sontarans.srt?v=4a267f8a"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E02_war_of_the_sontarans.jpg?v=747640d2",
+audio: "DTS",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E02_war_of_the_sontarans.mkv?v=bdd52315"
 },
 {
 title: "Once, Upon Time",
@@ -2609,9 +2609,9 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 13, episode: 3 },
 released: new Date("2021-11-14").toISOString(),
 overview: "Caught in a time storm, the Doctor, Yaz, Dan, and a new ally named Vinder are scattered across their own pasts. They must navigate fragmented memories to survive and uncover clues about the Flux and the Doctor's hidden history.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E03_once_upon_time.jpg?v=54db0283",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E03_once_upon_time.mp4?v=da8f3fbf",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E03_once_upon_time.srt?v=7528a562"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E03_once_upon_time.jpg?v=12b0c74f",
+audio: "DTS",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E03_once_upon_time.mkv?v=7abaf777"
 },
 {
 title: "Village of the Angels",
@@ -2621,9 +2621,9 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 13, episode: 4 },
 released: new Date("2021-11-21").toISOString(),
 overview: "The TARDIS lands in 1967 in a village haunted by Weeping Angels. The Doctor, Yaz, and Dan must help a psychic researcher save a missing girl and uncover the Angels' sinister plan, which has a shocking connection to the Doctor herself.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E04_village_of_the_angels.jpg?v=42c7b544",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E04_village_of_the_angels.mp4?v=eb11ea9c",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E04_village_of_the_angels.srt?v=ea08ab26"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E04_village_of_the_angels.jpg?v=c6e5a403",
+audio: "DTS",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E04_village_of_the_angels.mkv?v=e26c4977"
 },
 {
 title: "Survivors of the Flux",
@@ -2633,9 +2633,9 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 13, episode: 5 },
 released: new Date("2021-11-28").toISOString(),
 overview: "As the Flux consumes the universe, the Doctor confronts her forgotten past with the secret organisation known as the Division. Meanwhile, Yaz, Dan, and their allies must survive against the Sontarans, Cybermen, and Daleks.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E05_survivors_of_the_flux.jpg?v=22bbffe0",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E05_survivors_of_the_flux.mp4?v=9f09999a",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E05_survivors_of_the_flux.srt?v=d9cc6186"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E05_survivors_of_the_flux.jpg?v=e387746e",
+audio: "DTS",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E05_survivors_of_the_flux.mkv?v=bc96262d"
 },
 {
 title: "The Vanquishers",
@@ -2645,9 +2645,9 @@ type: "Main Show",
 imdb: { id: "tt0436992", season: 13, episode: 6 },
 released: new Date("2021-12-05").toISOString(),
 overview: "In the final chapter of the Flux, the Doctor must outsmart her enemies and find a way to reverse the destruction of the universe. With the help of her friends and a few surprises, she confronts the Sontarans, the Ravagers, and her own past.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E06_the_vanquishers.jpg?v=f94105d4",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E06_the_vanquishers.mp4?v=4ca41abe",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E06_the_vanquishers.srt?v=42b590ef"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E06_the_vanquishers.jpg?v=d00a97e9",
+audio: "DTS",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E06_the_vanquishers.mkv?v=575763cf"
 },
 {
 title: "Eve of the Daleks (Special)",
@@ -2657,9 +2657,9 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 158 },
 released: new Date("2022-01-01").toISOString(),
 overview: "On New Year's Eve, the Doctor, Yaz, and Dan are trapped in a time loop with two strangers in a storage facility. They are being hunted by an executioner Dalek, and must use the loop to find a way to survive and break the cycle.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E07_eve_of_the_daleks_special.jpg?v=b97e4905",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E07_eve_of_the_daleks_special.mp4?v=2fbc802b",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E07_eve_of_the_daleks_special.srt?v=dde91c2d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E07_eve_of_the_daleks_special.jpg?v=38761812",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E07_eve_of_the_daleks_special.mkv?v=9c218b9c"
 },
 {
 title: "Legend of the Sea Devils (Special)",
@@ -2678,14 +2678,12 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E08_
 title: "The Power of the Doctor (Special)",
 season: 13,
 episode: 9,
-audio: "AC-3",
 type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 161 },
 released: new Date("2022-10-23").toISOString(),
 overview: "In her final battle, the Thirteenth Doctor confronts her deadliest enemies: the Daleks, the Cybermen, and the Master. With the help of old friends, she must fight for her very existence and face a forced regeneration that will change everything.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.jpg?v=72d81b35",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.mp4?v=c89f705f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.srt?v=fa8a4964"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.jpg?v=85a524b7",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.mkv?v=868195ed"
 },
 {
 title: "Destination: Skaro (Minisode)",
