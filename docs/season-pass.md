@@ -655,6 +655,48 @@ files all read 23.976 has one problem, not thirteen; say it once.
 
 Changes: ledger `have`.
 
+### 2b. The one check that is not per-season  (audit)
+
+A row can claim a file that does not exist, and nothing in a single season's pass will
+show it unless that season happens to be the one being worked. Run this across every
+series, not just the one in hand:
+
+```
+# rows whose `have` names a file, where no video is in the bucket or no streamUrl serves it
+python - <<'EOF'
+import io,re,glob,os
+rows=[l.rstrip(chr(10)).split(chr(9)) for l in io.open('ledger/out/file-names.tsv',encoding='utf8') if l.strip()]
+h=rows[0]; led=[dict(zip(h,r)) for r in rows[1:]]
+bucket={}
+for p in io.open('ledger/out/bucket-index.txt',encoding='utf8'):
+    p=p.strip()
+    if p: bucket.setdefault(p.rsplit('.',1)[0].split('/')[-1],set()).add(p.rsplit('.',1)[-1])
+streams=set()
+for f in glob.glob('data/*.js'):
+    if os.path.basename(f)=='complete-chronology.js': continue
+    for u in re.findall(r'streamUrl:\s*"([^"]+)"',io.open(f,encoding='utf8').read()):
+        streams.add(re.sub(r'\?.*','',u).split('/')[-1].rsplit('.',1)[0])
+for d in led:
+    if not (d.get('have') or '').strip(): continue
+    st=d['file_name']
+    if not [e for e in bucket.get(st,()) if e in ('mp4','mkv','m4v')] or st not in streams:
+        print('%-16s s%-3s %-42s have=%s'%(d['series'],d['season'],d['title'][:42],d['have']))
+EOF
+```
+
+**Do not test `status` for this.** `status` is `ok` when a legitimate source exists
+anywhere in the world, not when the file is held, so 23 rows read `ok` with a blank
+`have` and are perfectly correct. The fault is `have` naming something with nothing
+behind it. That mistake was made on 18 September and reported as 25 broken rows; the
+real number was 3.
+
+Run of 18 September 2026: Resurrection of the Daleks (3) and (4) in Classic Who season
+21, both claiming `704x528 25fps MP3`, and The Story & the Engine in New Who 16,
+claiming `1080p 25fps E-AC-3` while holding only its `.jpg` and `.srt` - the regression's
+signature, with a rebuilt file waiting in `~/Downloads/content`.
+
+Changes: none; it produces a list for the season that owns each row.
+
 ### 3. Sidecars  (audit)
 
 `bucket-index.txt` shows `.jpg` and `.srt` per stem. A missing one is a job, and so is
@@ -1125,15 +1167,19 @@ they serve 1080p iPlayer files and their 2160p HDR mkvs sit untouched in `~/Down
 
 ## J. Loose ends from before this plan, not to be picked up out of turn
 
-- **Built, verified, not uploaded**, in `~/Downloads/content/new_who/`: *Daleks!*
-  (S12_E14, five parts concatenated, 3.05 GB 1080p60 H.264, 573 cues), *The Runaway*
-  (S12_E04), *'Twas the Night* (S11_E11), and *The Story & the Engine* (S16_E05, 3.19 GB
-  1080p25 H.264 bt709 tone-mapped, E-AC-3 5.1 like its siblings, English .srt extracted,
-  chapter track stripped). Belong to the S11, S12 and S16 passes.
-- **Fourteen 2160p mkvs in `~/Downloads`** (S14: Wild Blue Yonder, The Giggle; S15: Space
-  Babies, Devil's Chord, Boom, 73 Yards, Legend of Ruby Sunday, Joy to the World; S16: Lux,
-  The Well, Story and the Engine, Interstellar Song Contest, Wish World, Reality War),
-  extracted, HDR, untouched. Their seasons hold 1080p iPlayer files that are live and fine.
+- **Built, verified, not uploaded**, in `~/Downloads/content/new_who/`: only *The Story &
+  the Engine* is left (S16_E05, 3.34 GB 1080p25 H.264 bt709 tone-mapped, E-AC-3 5.1,
+  English .srt extracted, chapter track stripped); it belongs to the S16 pass. The other
+  three were settled on 18 September: *'Twas the Night* re-pulled and uploaded, *Daleks!*
+  rebuilt at 2160p60 and uploaded, *The Runaway* dropped as a VR piece with no honest flat
+  presentation. Each had sat here as a row the catalogue called `ok` with no file behind
+  it, which is the fault worth looking for: **`status` ok and no `streamUrl` is invisible
+  until that season's step 1.**
+- ~~**Fourteen 2160p mkvs in `~/Downloads`**~~ **Gone.** Checked 18 September 2026: nothing
+  over 500 MB remains in `~/Downloads`, `whoniverse-torrents`, `review` or `content`. The
+  season 14 pass re-downloaded its three from the indexers instead, where well-seeded 2160p
+  releases exist for all of them. Seasons 15 and 16 will need the same, so do not plan
+  around this stash.
 - **Eight magnets** for the remaining 2160p episodes in the scratchpad's `missing8.txt`; regenerate with `python scripts/search/missing8.py`
   (Church on Ruby Road has no candidate under 12 GB).
 - **`have` for seasons 14-16** now matches the bucket (uploaded 15 Sep); Bad Music
