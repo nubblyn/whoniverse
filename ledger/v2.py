@@ -32,9 +32,11 @@ generated dashboard palette would make it look like every other dashboard.
 """
 
 import csv
+import glob
 import io
 import json
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -45,6 +47,29 @@ import build  # noqa: E402  (path is set immediately above)
 ROOT = os.path.join(HERE, '..')
 OUT = os.path.join(HERE, 'out')
 CDN = os.environ.get('WHONIVERSE_CDN', 'https://cdn.nubblyn.com/file/whoniverse')
+
+
+def still_hashes():
+    """stem -> "?v=xxxxxxxx", from the data files stamp-media.js maintains.
+
+    The board asked Cloudflare for the bare .jpg, so Cloudflare kept serving what
+    it had cached under that name: on 19 September that was the letterboxed still,
+    hours after the corrected one was in the bucket. The addon carried the hash in
+    its entries and was never affected.
+    """
+    out = {}
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
+    for p in glob.glob(os.path.join(root, '*.js')):
+        try:
+            src = io.open(p, encoding='utf8').read()
+        except Exception:
+            continue
+        for m in re.finditer('/([^/"?]+)\\.jpg(\\?v=[0-9a-f]+)', src):
+            out[m.group(1)] = m.group(2)
+    return out
+
+
+STILL_V = still_hashes()
 
 SERIES_ORDER = [
     ('classic-who', 'Classic Who', 'classic_who', '1963-1989'),
@@ -622,7 +647,7 @@ function drawDetail(){
     '<p class="where">' + (r[SEASON] === '-' ? 'Unplaced' : 'Season ' + r[SEASON] +
       ', episode ' + r[EP]) + (r[RELEASED] ? ' · first shown ' + esc(r[RELEASED]) : '') + '</p>' +
     ((r[ASSETS] & 2) ? '<img class="shot" alt="" loading="lazy" width="400" height="225" src="' +
-        CDN + '/' + base + '.jpg">' : '') +
+        CDN + '/' + base + '.jpg' + (D.sv[base.split('/').pop()] || '') + '">' : '') +
     (r[DESC] ? '<p class="prose">' + esc(r[DESC]) + '</p>' : '') +
     (r[NOTE] ? '<p class="note">' + esc(r[NOTE]) + '</p>' : '') +
     (r[STATE] === 'gone' ? '<p class="note">No copy of this episode survives.</p>' : '') +
@@ -841,7 +866,7 @@ def render():
         'rows': [r + [src, folder] for _, src, folder, r in every],
     })
 
-    payload = {'cdn': CDN, 'cats': CATS, 'series': views,
+    payload = {'cdn': CDN, 'cats': CATS, 'series': views, 'sv': STILL_V,
                'names': {k: name for k, name, _, _ in SERIES_ORDER}}
     total = sum(len(v) for v in by_series.values())
 

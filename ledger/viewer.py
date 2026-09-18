@@ -9,9 +9,11 @@ spreadsheet clone: the stills carry the colour, the category rides a hairline
 rather than a filled cell, and each episode is one composed row.
 """
 
+import glob
 import html
 import io
 import os
+import re
 import sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -51,6 +53,29 @@ def in_bucket(path):
     return (path in idx) if idx else None   # None = we cannot tell
 
 
+def still_hashes():
+    """stem -> "?v=xxxxxxxx" for every still, read from the stamped data files.
+
+    Cloudflare caches per full URL. A page that asks for the bare .jpg gets
+    whatever was cached under that name, which on 19 September was still the
+    letterboxed image hours after the corrected one was in the bucket. The addon
+    was unaffected because its entries carry the hash; only these pages did not.
+    """
+    out = {}
+    root = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'data')
+    for p in glob.glob(os.path.join(root, '*.js')):
+        try:
+            src = io.open(p, encoding='utf8').read()
+        except Exception:
+            continue
+        for m in re.finditer(r'/([^/"?]+)\.jpg(\?v=[0-9a-f]+)', src):
+            out[m.group(1)] = m.group(2)
+    return out
+
+
+STILL_V = still_hashes()
+
+
 def still(folder, season, file_name):
     """URL of the episode still in the bucket. Nothing is copied or resized:
     duplicating the image here would mean two things to keep in step."""
@@ -59,7 +84,7 @@ def still(folder, season, file_name):
     path = '%s/season_%s/%s.jpg' % (folder, season, file_name)
     if in_bucket(path) is False:
         return ''
-    return '%s/%s' % (CDN, path)
+    return '%s/%s%s' % (CDN, path, STILL_V.get(file_name, ''))
 
 
 def art(folder, kind):
