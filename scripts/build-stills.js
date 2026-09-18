@@ -80,6 +80,40 @@ if (urlList) {
 // iw*sar corrects anamorphic SD, where a 720x576 frame is really 16:9.
 const FILTER = `scale=iw*sar:ih,scale=${W}:${H}:force_original_aspect_ratio=increase,crop=${W}:${H},setsar=1`;
 
+// Letterboxed sources: the 2160p WEB files are 2.00:1 pictures inside a 16:9
+// frame, so a centre crop keeps the black bars and the still ends up with a
+// band top and bottom. ffmpeg's own cropdetect reported these as full-frame,
+// so the borders are measured here instead: one greyscale column average per
+// row, then the first and last row above black. Season 13's Power of the
+// Doctor and season 14's three specials all came out with 40 dark rows of 720
+// before this existed.
+function activeCrop(file, at) {
+  let raw;
+  try {
+    raw = execFileSync(ffmpeg, ['-v', 'error', '-ss', at.toFixed(2), '-i', file,
+      '-frames:v', '1', '-vf', 'format=gray,scale=64:ih', '-f', 'rawvideo', '-'],
+      { maxBuffer: 16 * 1024 * 1024 });
+  } catch { return null; }
+  if (!raw || raw.length < 64) return null;
+  // scale=64:ih keeps every source row: scaling the height down instead turns a
+  // 120-row bar on a 2160-row frame into two rows, which reads as noise.
+  const rows = raw.length / 64;
+  if (!Number.isInteger(rows)) return null;
+  const mean = [];
+  for (let y = 0; y < rows; y += 1) {
+    let t = 0;
+    for (let x = 0; x < 64; x += 1) t += raw[y * 64 + x];
+    mean.push(t / 64);
+  }
+  let top = 0; while (top < rows && mean[top] <= 16) top += 1;
+  let bot = rows - 1; while (bot > top && mean[bot] <= 16) bot -= 1;
+  const height = bot - top + 1;
+  // No bars, or a result that would throw away half the picture: leave it alone.
+  if (top === 0 && bot === rows - 1) return null;
+  if (top < rows * 0.01 || height < rows * 0.5) return null;
+  return { top: Math.round(top / rows * 1e6) / 1e6, height: Math.round(height / rows * 1e6) / 1e6 };
+}
+
 function duration(file) {
   const out = execFileSync(ffprobe, ['-v', 'error', '-show_entries', 'format=duration',
     '-of', 'default=nw=1:nk=1', file], { encoding: 'utf8' });
@@ -108,8 +142,10 @@ async function main() {
       const at = total * point;
       let buf;
       try {
+        const box = activeCrop(video, at);
+        const pre = box ? `crop=iw:ih*${box.height}:0:ih*${box.top},` : '';
         buf = execFileSync(ffmpeg, ['-v', 'error', '-ss', at.toFixed(2), '-i', video,
-          '-frames:v', '1', '-vf', `thumbnail=90,${FILTER}`, '-f', 'image2pipe',
+          '-frames:v', '1', '-vf', `thumbnail=90,${pre}${FILTER}`, '-f', 'image2pipe',
           '-vcodec', 'mjpeg', '-q:v', '2', '-'],
           { maxBuffer: 64 * 1024 * 1024 });
       } catch { continue; }

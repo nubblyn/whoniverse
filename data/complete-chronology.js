@@ -13047,7 +13047,7 @@ const episodes = [
   type: "Special",
   released: "2022-10-23T00:00:00.000Z",
   overview: "In her final battle, the Thirteenth Doctor confronts her deadliest enemies: the Daleks, the Cybermen, and the Master. With the help of old friends, she must fight for her very existence and face a forced regeneration that will change everything.",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.jpg?v=85a524b7",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.jpg?v=56d0a1cd",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E09_the_power_of_the_doctor_special.mkv?v=868195ed",
 },
 {
@@ -13081,7 +13081,7 @@ const episodes = [
   released: "2023-11-25T00:00:00.000Z",
   overview: "The newly regenerated Fourteenth Doctor is reunited with Donna Noble, just as a spaceship crashes in London. They must protect a cute and cuddly alien, the Meep, from deadly soldiers, and prevent Donna's memories from destroying her mind.",
   audio: "E-AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.jpg?v=b2b9ce04",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.jpg?v=71d8c284",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E02_the_star_beast_special.mp4?v=bc8cd223",
 },
 {
@@ -13092,7 +13092,7 @@ const episodes = [
   released: "2023-12-02T00:00:00.000Z",
   overview: "The TARDIS takes the Doctor and Donna to a desolate spaceship at the edge of the universe. There, they are hunted by two mysterious beings that can duplicate their forms and memories, forcing them into a terrifying psychological battle.",
   audio: "E-AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.jpg?v=787c40ab",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.jpg?v=d1e94cc4",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E03_wild_blue_yonder_special.mp4?v=316227f8",
 },
 {
@@ -13103,7 +13103,7 @@ const episodes = [
   released: "2023-12-09T00:00:00.000Z",
   overview: "The Doctor discovers the giggle of a mysterious puppet is driving humanity insane. His investigation leads to the return of the cosmic Toymaker, forcing the Doctor into a fight he can't win.",
   audio: "E-AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.jpg?v=1477b0b3",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.jpg?v=0e63037b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_the_giggle_special.mp4?v=e53c2f65",
 },
 {
