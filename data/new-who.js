@@ -2692,7 +2692,7 @@ episode: 1,
 type: "Minisode",
 released: new Date("2023-11-17").toISOString(),
 overview: "Before the Daleks had a name, their creator Davros presents his new 'Mark III Travel Machine' to a nervous colleague. But a chance encounter with the TARDIS gives Davros the perfect, chilling name for his monstrous creations.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E01_destination_skaro_minisode.jpg?v=ef5942b4",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E01_destination_skaro_minisode.jpg?v=c24e413c",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E01_destination_skaro_minisode.mp4?v=3a1c1714",
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E01_destination_skaro_minisode.srt?v=21fafb21"
 },
@@ -2736,118 +2736,109 @@ streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_14/S14_E04_th
 title: "The Church on Ruby Road (Special)",
 season: 15,
 episode: 1,
-audio: "E-AC-3",
 type: "Special",
 imdb: { id: "tt31433814", season: 0, episode: 4 },
 released: new Date("2023-12-25").toISOString(),
 overview: "On Christmas Eve, a foundling named Ruby Sunday meets the newly bi-generated Fifteenth Doctor. Together, they must stop a band of time-travelling goblins from eating babies and uncover the secrets of Ruby's mysterious birth.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E01_the_church_on_ruby_road_special.jpg?v=396edba5",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E01_the_church_on_ruby_road_special.mp4?v=b594ecf6",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E01_the_church_on_ruby_road_special.srt?v=88d992ea"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E01_the_church_on_ruby_road_special.jpg?v=91afb3c6",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E01_the_church_on_ruby_road_special.mp4?v=db00a78d"
 },
 {
 title: "Space Babies",
 season: 15,
 episode: 2,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 1, episode: 1 },
 released: new Date("2024-05-11").toISOString(),
 overview: "The Doctor takes Ruby to a futuristic baby farm run by talking infants. Their adventure takes a dark turn when they discover a terrifying Bogeyman lurking in the lower decks, forcing them to protect the station's young inhabitants.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E02_space_babies.jpg?v=58e68182",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E02_space_babies.mp4?v=44829267",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E02_space_babies.srt?v=1a0c584e"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E02_space_babies.jpg?v=0ba64284",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E02_space_babies.mp4?v=c9fdb13a"
 },
 {
 title: "The Devil's Chord",
 season: 15,
 episode: 3,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 1, episode: 2 },
 released: new Date("2024-05-11").toISOString(),
 overview: "A trip to see The Beatles in the 1960s reveals a world where music has been erased from existence. The Doctor and Ruby must confront Maestro, a powerful being who feeds on sound, in a battle for the future of humanity's creativity.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E03_the_devils_chord.jpg?v=892c33c5",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E03_the_devils_chord.mp4?v=9f28f64a",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E03_the_devils_chord.srt?v=e6e0c4fb"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E03_the_devils_chord.jpg?v=0e065bc7",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E03_the_devils_chord.mp4?v=53f29b97"
 },
 {
 title: "Boom",
 season: 15,
 episode: 4,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 1, episode: 3 },
 released: new Date("2024-05-18").toISOString(),
 overview: "On the war-torn planet of Kastarion 3, the Doctor steps on a landmine and cannot move without detonating it. He must save himself, Ruby, and the entire planet while contending with a faith-driven army and the AI of a soulless arms manufacturer.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E04_boom.jpg?v=cb7bcf5f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E04_boom.mp4?v=62561c91",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E04_boom.srt?v=2c6289f5"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E04_boom.jpg?v=3d95d5d0",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E04_boom.mp4?v=b9de4fc1"
 },
 {
 title: "73 Yards",
 season: 15,
 episode: 5,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 1, episode: 4 },
 released: new Date("2024-05-25").toISOString(),
 overview: "After the Doctor mysteriously vanishes on the Welsh coast, Ruby is stalked by a strange woman who is always 73 yards away. She must navigate a life of isolation and fear to understand the woman's purpose and solve a decades-long mystery.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E05_73_yards.jpg?v=55cb6e4d",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E05_73_yards.mp4?v=68bcbbe2",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E05_73_yards.srt?v=1f8bc3df"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E05_73_yards.jpg?v=e4ba547a",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E05_73_yards.mp4?v=057a9b29"
 },
 {
 title: "Dot and Bubble",
 season: 15,
 episode: 6,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 1, episode: 5 },
 released: new Date("2024-06-01").toISOString(),
 overview: "The Doctor and Ruby arrive in the idyllic world of Finetime, where citizens live in social media-like bubbles. They must convince a young woman named Lindy to see the terrifying truth about the giant slugs devouring her friends before it's too late.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E06_dot_and_bubble.jpg?v=51cefe59",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E06_dot_and_bubble.mp4?v=20dc0fb7",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E06_dot_and_bubble.srt?v=ecd40225"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E06_dot_and_bubble.jpg?v=c8b049ff",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E06_dot_and_bubble.mp4?v=dd615201"
 },
 {
 title: "Rogue",
 season: 15,
 episode: 7,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 1, episode: 6 },
 released: new Date("2024-06-08").toISOString(),
 overview: "The Doctor and Ruby land at a Regency-era ball, where they meet a mysterious bounty hunter named Rogue. Together, they must unmask shape-shifting aliens who are murdering the guests, leading to a fateful and romantic encounter for the Doctor.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E07_rogue.jpg?v=a26fc147",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E07_rogue.mp4?v=40e0960f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E07_rogue.srt?v=b42decd4"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E07_rogue.jpg?v=b657c47b",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E07_rogue.mp4?v=e5b134fa"
 },
 {
 title: "The Legend of Ruby Sunday",
 season: 15,
 episode: 8,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 1, episode: 7 },
 released: new Date("2024-06-15").toISOString(),
 overview: "The Doctor and UNIT use a time window to investigate Ruby's past, hoping to find her birth mother. Their search wakes Sutekh, the god of death, who has been hiding in plain sight since their travels began.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E08_the_legend_of_ruby_sunday.jpg?v=541cf0b8",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E08_the_legend_of_ruby_sunday.mp4?v=af61557f",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E08_the_legend_of_ruby_sunday.srt?v=fd895518"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E08_the_legend_of_ruby_sunday.jpg?v=b9bbf51a",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E08_the_legend_of_ruby_sunday.mp4?v=89541399"
 },
 {
 title: "Empire of Death",
 season: 15,
 episode: 9,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 1, episode: 8 },
 released: new Date("2024-06-22").toISOString(),
 overview: "With Sutekh triumphant and a dust of death sweeping across creation, the Doctor has lost. His only hope lies with Ruby Sunday, an ordinary woman who may hold the key to defeating an ancient and all-powerful enemy.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.jpg?v=5a95b98a",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.mp4?v=f14b5b9e",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.srt?v=d408a173"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.jpg?v=70da8eee",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E09_empire_of_death.mp4?v=f3e99873"
 },
 {
 title: "Bad Music (Minisode)",
@@ -2864,116 +2855,109 @@ subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_
 title: "Joy to the World (Special)",
 season: 15,
 episode: 11,
-audio: "E-AC-3",
 type: "Special",
 imdb: { id: "tt31433814", season: 0, episode: 5 },
 released: new Date("2024-12-25").toISOString(),
 overview: "On Christmas Day, a young girl named Joy discovers a secret doorway to a magical Time Hotel. Her adventure with the Doctor reveals danger, dinosaurs, and a deadly plan unfolding across the Earth, all set against a festive backdrop.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E11_joy_to_the_world_special.jpg?v=55571e13",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E11_joy_to_the_world_special.mp4?v=2895f65e",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E11_joy_to_the_world_special.srt?v=818192c5"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E11_joy_to_the_world_special.jpg?v=c87c5522",
+audio: "E-AC-3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E11_joy_to_the_world_special.mp4?v=5b004eb1"
 },
 {
 title: "The Robot Revolution",
 season: 16,
 episode: 1,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 2, episode: 1 },
 released: new Date("2025-04-12").toISOString(),
 overview: "The Doctor embarks on an intergalactic quest to rescue his new friend, nurse Belinda Chandra, after she is kidnapped by robots from outer space. His journey to bring her back home to Earth will test his resolve against a new mechanical threat.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E01_the_robot_revolution.jpg?v=5b8fb154",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E01_the_robot_revolution.mp4?v=fbc062d5",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E01_the_robot_revolution.srt?v=c09bda15"
+audio: "E-AC-3",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E01_the_robot_revolution.jpg?v=da1ccee5",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E01_the_robot_revolution.mp4?v=d316ccf0"
 },
 {
 title: "Lux",
 season: 16,
 episode: 2,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 2, episode: 2 },
 released: new Date("2025-04-19").toISOString(),
 overview: "The search for Belinda leads the Doctor to an abandoned cinema on a forgotten world. What begins as a simple investigation uncovers a terrifying secret lurking in the darkness, turning the quest for home into a fight for survival.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E02_lux.jpg?v=00398a34",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E02_lux.mp4?v=0d25d5a8",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E02_lux.srt?v=9ba88c96"
+audio: "E-AC-3",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E02_lux.jpg?v=10bc1a04",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E02_lux.mp4?v=4791e80c"
 },
 {
 title: "The Well",
 season: 16,
 episode: 3,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 2, episode: 3 },
 released: new Date("2025-04-26").toISOString(),
 overview: "On a brutal, far-future planet, the Doctor and Belinda discover a devastated mining colony with only one survivor. To uncover the truth behind the disaster, they must confront an absolute terror that lurks deep within the planet's wells.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E03_the_well.jpg?v=14cc0b6f",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E03_the_well.mp4?v=c5e9d45c",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E03_the_well.srt?v=0aa9fe9c"
+audio: "E-AC-3",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E03_the_well.jpg?v=0ca28bb0",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E03_the_well.mp4?v=52caf8fd"
 },
 {
 title: "Lucky Day",
 season: 16,
 episode: 4,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 2, episode: 4 },
 released: new Date("2025-05-03").toISOString(),
 overview: "Back on Earth, Ruby Sunday faces life without the Doctor. When a dangerous new threat called the Shreek emerges, she must team up with UNIT to save her new boyfriend, Conrad, from a terrifying fate.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E04_lucky_day.jpg?v=9ee09ce8",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E04_lucky_day.mp4?v=409da8d3",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E04_lucky_day.srt?v=95bb109c"
+audio: "E-AC-3",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E04_lucky_day.jpg?v=8156a1b7",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E04_lucky_day.mp4?v=cd21693e"
 },
 {
 title: "The Story & the Engine",
 season: 16,
 episode: 5,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 2, episode: 5 },
 released: new Date("2025-05-10").toISOString(),
 overview: "In Lagos, the Doctor confronts a mysterious figure called the Barber and a vengeful Spider weaving a web of powerful stories. He soon discovers that in this place, narratives hold real, tangible power, and he must unravel the tale to survive.",
-
+audio: "E-AC-3",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E05_the_story__the_engine.jpg?v=0d787112",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E05_the_story__the_engine.mp4?v=7b04a4f1"
 },
 {
 title: "The Interstellar Song Contest",
 season: 16,
 episode: 6,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 2, episode: 6 },
 released: new Date("2025-05-17").toISOString(),
 overview: "The Doctor's mission to get Belinda home brings them to a galactic song competition aboard a massive space station. What starts as a lighthearted musical journey quickly turns into a desperate fight for survival against a hidden threat.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E06_the_interstellar_song_contest.jpg?v=e67f79f7",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E06_the_interstellar_song_contest.mp4?v=f9e0bfe5",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E06_the_interstellar_song_contest.srt?v=9adb9f0d"
+audio: "E-AC-3",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E06_the_interstellar_song_contest.jpg?v=f3c880df",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E06_the_interstellar_song_contest.mp4?v=23ae4533"
 },
 {
 title: "Wish World",
 season: 16,
 episode: 7,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 2, episode: 7 },
 released: new Date("2025-05-24").toISOString(),
 overview: "The Doctor and Belinda finally arrive home to find a very different world, where old enemies have united and traps are sprung. As midnight approaches, the Doctor must see through the illusion of this 'Wish World' before reality is rewritten forever.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E07_wish_world.jpg?v=0dfa4565",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E07_wish_world.mp4?v=49deb27e",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E07_wish_world.srt?v=2ce85b48"
+audio: "E-AC-3",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E07_wish_world.jpg?v=14b454bc",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E07_wish_world.mp4?v=32545488"
 },
 {
 title: "The Reality War",
 season: 16,
 episode: 8,
-audio: "E-AC-3",
 type: "Main Show",
 imdb: { id: "tt31433814", season: 2, episode: 8 },
 released: new Date("2025-05-31").toISOString(),
 overview: "As battle rages across the skies, the Unholy Trinity moves against the universe. The Doctor, Belinda and Ruby set out to save one child, with reality itself resting on it.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E08_the_reality_war.jpg?v=7f7c269c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E08_the_reality_war.mp4?v=76fcb30e",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E08_the_reality_war.srt?v=b0b722c1"
+audio: "E-AC-3",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E08_the_reality_war.jpg?v=918f68b3",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_16/S16_E08_the_reality_war.mp4?v=406594f4"
 }
 ];
 
