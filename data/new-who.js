@@ -1762,7 +1762,7 @@ episode: 31,
 type: "Minisode",
 imdb: { id: "tt0436992", season: 0, episode: 93 },
 released: new Date("2013-11-21").toISOString(),
-overview: "Seen through the eyes of a Gallifreyan soldier on his first day on the front lines of the Time War, this brief but intense prequel shows the fall of the city of Arcadia and the sheer destructive power of the Dalek invasion.",
+overview: "A Gallifreyan soldier has a headcam fitted on his first day at the front line of the Time War, while a veteran assures him that Arcadia's sky trenches make the city the safest place on the planet. The Daleks are already on their way.",
 thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E31_the_last_day_minisode.jpg?v=aaba2982",
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E31_the_last_day_minisode.mkv?v=27f48729"
 },
@@ -2574,9 +2574,8 @@ type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 157 },
 released: new Date("2021-01-01").toISOString(),
 overview: "With the Doctor imprisoned, her friends on Earth must team up with Captain Jack Harkness to fight a new breed of Daleks created by a corrupt businessman. They must find a way to stop the Dalek takeover before they exterminate all of humanity.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E14_revolution_of_the_daleks_special.jpg?v=2a316dc0",
-audio: "DTS",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E14_revolution_of_the_daleks_special.mkv?v=21b0583e"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E14_revolution_of_the_daleks_special.jpg?v=f6a252a5",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_12/S12_E14_revolution_of_the_daleks_special.mkv?v=e955e1d3"
 },
 {
 title: "The Halloween Apocalypse",
@@ -2666,7 +2665,6 @@ streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E07_ev
 title: "Legend of the Sea Devils (Special)",
 season: 13,
 episode: 8,
-audio: "E-AC-3",
 type: "Special",
 imdb: { id: "tt0436992", season: 0, episode: 159 },
 released: new Date("2022-04-17").toISOString(),

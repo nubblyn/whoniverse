@@ -4478,70 +4478,70 @@
   "codecs": null
  },
  "new_who/season_9/S09_E16_the_husbands_of_river_song_special": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E13_face_the_raven": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E15_hell_bent": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E17_the_return_of_doctor_mysterio_special": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E12_sleep_no_more": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E14_heaven_sent": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E10_the_zygon_inversion": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E09_the_zygon_invasion": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E08_the_woman_who_lived": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E07_the_girl_who_died": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
@@ -4553,42 +4553,42 @@
   "codecs": []
  },
  "new_who/season_9/S09_E06_before_the_flood": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 2,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E05_under_the_lake": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 2,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E03_the_magicians_apprentice": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E04_the_witchs_familiar": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E01_prologue_prequel": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "new_who/season_9/S09_E02_the_doctors_meditation_prequel": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
@@ -5222,9 +5222,11 @@
   ]
  },
  "new_who/season_4/S04_E22_the_end_of_time_part_one_special": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_5/S05_E03_meanwhile_in_the_tardis_1_minisode": {
   "sidecar": false,
@@ -5234,9 +5236,11 @@
   ]
  },
  "new_who/season_4/S04_E23_the_end_of_time_part_two_special": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_4/S04_E18_tonights_the_night_minisode": {
   "sidecar": true,
@@ -5261,9 +5265,11 @@
   "codecs": []
  },
  "new_who/season_4/S04_E16_the_next_doctor_special": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_5/S05_E02_the_eleventh_hour": {
   "sidecar": false,
@@ -5273,14 +5279,18 @@
   ]
  },
  "new_who/season_4/S04_E19_the_waters_of_mars_special": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_4/S04_E17_planet_of_the_dead_special": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_4/S04_E09_silence_in_the_library": {
   "sidecar": false,
@@ -5605,88 +5615,122 @@
  },
  "new_who/season_16/S16_E06_the_interstellar_song_contest": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_16/S16_E04_lucky_day": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_16/S16_E03_the_well": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_16/S16_E08_the_reality_war": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_16/S16_E07_wish_world": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_16/S16_E02_lux": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_15/S15_E10_bad_music_minisode": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "subrip"
+  ]
  },
  "new_who/season_15/S15_E11_joy_to_the_world_special": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_16/S16_E01_the_robot_revolution": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_15/S15_E07_rogue": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_15/S15_E05_73_yards": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_15/S15_E08_the_legend_of_ruby_sunday": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_15/S15_E09_empire_of_death": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_15/S15_E06_dot_and_bubble": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_15/S15_E03_the_devils_chord": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_15/S15_E04_boom": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_15/S15_E02_space_babies": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_14/S14_E01_destination_skaro_minisode": {
   "sidecar": true,
@@ -5694,14 +5738,18 @@
   "codecs": []
  },
  "new_who/season_13/S13_E09_the_power_of_the_doctor_special": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "subrip"
+  ]
  },
  "new_who/season_14/S14_E04_the_giggle_special": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_13/S13_E08_legend_of_the_sea_devils_special": {
   "sidecar": true,
@@ -5710,43 +5758,59 @@
  },
  "new_who/season_14/S14_E03_wild_blue_yonder_special": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_13/S13_E03_once_upon_time": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_15/S15_E01_the_church_on_ruby_road_special": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_13/S13_E07_eve_of_the_daleks_special": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "subrip"
+  ]
  },
  "new_who/season_14/S14_E02_the_star_beast_special": {
   "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
  },
  "new_who/season_13/S13_E05_survivors_of_the_flux": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_13/S13_E06_the_vanquishers": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_13/S13_E04_village_of_the_angels": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_12/S12_E12_shadow_of_a_doubt_minisode": {
   "sidecar": true,
@@ -5754,14 +5818,18 @@
   "codecs": []
  },
  "new_who/season_13/S13_E02_war_of_the_sontarans": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_13/S13_E01_the_halloween_apocalypse": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_12/S12_E10_ascension_of_the_cybermen": {
   "sidecar": true,
@@ -5799,19 +5867,25 @@
   "codecs": []
  },
  "new_who/season_12/S12_E03_orphan_55": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_12/S12_E01_spyfall_part_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_11/S11_E10_the_battle_of_ranskoor_av_kolos": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_12/S12_E07_praxeus": {
   "sidecar": true,
@@ -5819,9 +5893,11 @@
   "codecs": []
  },
  "new_who/season_11/S11_E12_resolution_special": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_12/S12_E06_fugitive_of_the_judoon": {
   "sidecar": true,
@@ -5829,69 +5905,95 @@
   "codecs": []
  },
  "new_who/season_11/S11_E09_it_takes_you_away": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_11/S11_E06_demons_of_the_punjab": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_11/S11_E04_arachnids_in_the_uk": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_12/S12_E02_spyfall_part_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_11/S11_E03_rosa": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_11/S11_E05_the_tsuranga_conundrum": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_11/S11_E08_the_witchfinders": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_11/S11_E07_kerblam": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_11/S11_E01_the_woman_who_fell_to_earth": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_11/S11_E02_the_ghost_monument": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E12_world_enough_and_time": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E15_twice_upon_a_time_special": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E10_empress_of_mars": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E14_the_best_of_days_minisode": {
   "sidecar": true,
@@ -5899,49 +6001,67 @@
   "codecs": []
  },
  "new_who/season_10/S10_E11_the_eaters_of_light": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E13_the_doctor_falls": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E06_oxygen": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E07_extremis": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E09_the_lie_of_the_land": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E08_the_pyramid_at_the_end_of_the_world": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E05_knock_knock": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E04_thin_ice": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E03_smile": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_10/S10_E01_friend_from_the_future_prequel": {
   "sidecar": true,
@@ -5954,9 +6074,11 @@
   "codecs": []
  },
  "new_who/season_10/S10_E02_the_pilot": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "new_who/season_1/S01_E14_the_parting_of_the_ways": {
   "sidecar": false,
@@ -6055,6 +6177,89 @@
   ]
  },
  "new_who/season_1/S01_E02_the_end_of_the_world": {
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
+ },
+ "new_who/season_16/S16_E05_the_story__the_engine": {
+  "sidecar": true,
+  "embedded": 1,
+  "codecs": [
+   "mov_text"
+  ]
+ },
+ "new_who/season_12/S12_E14_revolution_of_the_daleks_special": {
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "subrip"
+  ]
+ },
+ "new_who/season_12/S12_E12_the_shadow_in_the_mirror_minisode": {
+  "sidecar": true,
+  "embedded": 0,
+  "codecs": []
+ },
+ "new_who/season_12/S12_E11_shadow_of_a_doubt_minisode": {
+  "sidecar": true,
+  "embedded": 0,
+  "codecs": []
+ },
+ "new_who/season_12/S12_E13_daleks_animated_series": {
+  "sidecar": true,
+  "embedded": 0,
+  "codecs": []
+ },
+ "new_who/season_12/S12_E10_the_timeless_children": {
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
+ },
+ "new_who/season_12/S12_E09_ascension_of_the_cybermen": {
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
+ },
+ "new_who/season_12/S12_E08_the_haunting_of_villa_diodati": {
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
+ },
+ "new_who/season_12/S12_E06_praxeus": {
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
+ },
+ "new_who/season_12/S12_E07_can_you_hear_me": {
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
+ },
+ "new_who/season_12/S12_E04_nikola_teslas_night_of_terror": {
+  "sidecar": false,
+  "embedded": 1,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
+ },
+ "new_who/season_11/S11_E11_twas_the_night_before_christmas_minisode": {
+  "sidecar": true,
+  "embedded": 0,
+  "codecs": []
+ },
+ "new_who/season_12/S12_E05_fugitive_of_the_judoon": {
   "sidecar": false,
   "embedded": 1,
   "codecs": [

@@ -648,6 +648,14 @@ file stem from `ledger/out/file-names.tsv`.
 
 ### 2. Probe what the bucket holds  (audit)
 
+**`probe-media.js` reads MP4 structure only.** It looks for a `moov` box and reports
+"no moov box" for every MKV, which on 19 September was 212 of New Who's 255 served
+files. It verifies the MP4s and nothing else. To verify what a season actually holds,
+`ffprobe` each stream URL against the B2 origin (`f003.backblazeb2.com`, since Cloudflare
+refuses tools) and compare codec, resolution, frame rate, audio and subtitle tracks
+against `have` and the entry's `audio` flag. A range probe costs a few seconds a file.
+
+
 ```
 node scripts/probe-media.js      # resolution, codec, audio, duration per file
 node scripts/probe-origin.js     # frame rate, timing, muxer tag
