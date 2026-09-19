@@ -373,7 +373,7 @@ img.fade.ok{opacity:1}
    The header stays on screen down to 900px, which is the point below which
    seven columns stop being legible at all and the row becomes a stacked card
    instead. */
-.pane{--cols:46px minmax(230px,1.3fr) minmax(200px,1.6fr) 124px 168px 86px}
+.pane{--cols:46px minmax(230px,1.3fr) minmax(200px,1.6fr) 124px 168px 168px 86px}
 /* Three things stay on screen while the list scrolls, stacked in this order:
    the season strip, then these column titles, then the heading of whichever
    season you are inside. Each one is offset by the height of the ones above
@@ -416,6 +416,9 @@ img.fade.ok{opacity:1}
   font-variant-numeric:tabular-nums;overflow:hidden}
 .cell.c-have{letter-spacing:.01em}
 .cell.c-found{font-weight:500;color:var(--mute)}
+/* What the episode exists as, which is not always what an indexer can reach.
+   Informational only: it never feeds the row state or the worklist. */
+.cell.c-reported{font-weight:500;color:rgba(255,255,255,.34)}
 .cell .when{display:block;font-size:11.5px;font-weight:500;color:var(--mute);opacity:.8}
 .t{font-size:14.5px;font-weight:700;margin:0;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .t a:hover{color:var(--go)}
@@ -534,7 +537,7 @@ img.fade.ok{opacity:1}
    facts instead of three there is nothing left that can be spared without
    losing something the row exists to say. */
 @media (max-width:1180px){
-  .pane{--cols:40px minmax(190px,1.25fr) minmax(165px,1.4fr) 108px 146px 76px}
+  .pane{--cols:40px minmax(190px,1.25fr) minmax(165px,1.4fr) 108px 146px 146px 76px}
 }
 /* Below 900 seven columns are slivers, so the row becomes a card: everything
    still shown, nothing truncated, each quality fact carrying its own label
@@ -555,6 +558,7 @@ img.fade.ok{opacity:1}
   .meta{white-space:normal;overflow:visible;flex-wrap:wrap}
   .ep .cell{overflow:visible;display:block}
   .ep .cell.c-have::before{content:'held: ';color:var(--mute);font-weight:500}
+  .ep .cell.c-reported:empty{display:none}
   .ep .cell.c-found::before{content:'best found: ';color:var(--mute);font-weight:500}
   .ep .cell .when{display:inline;margin-left:6px}
 }
@@ -983,6 +987,7 @@ def render():
         chunks.append(
             '<div class="ephead"><span>#</span><span>Episode</span>'
             '<span>Description</span><span>Held</span><span>Best found</span>'
+            '<span>Best reported</span>'
             '<span>Files</span></div>')
 
         group = None
@@ -1059,9 +1064,11 @@ def render():
                  '<div class="cell c-have"><span class="vh">Held: </span>'
                  '<span class="held %s">%s</span></div>'
                  '<div class="cell c-found%s"><span class="vh">Best found: </span>%s</div>'
+                 '<div class="cell c-reported"><span class="vh">Best reported: </span>%s</div>'
                  '</div>'
                  % (status, esc(got) or 'nothing held',
-                    ' hunt' if worth else '', best_txt))
+                    ' hunt' if worth else '', best_txt,
+                    esc(r.get('best_reported') or '') or '&mdash;'))
 
             bpath = ('%s/season_%s/%s' % (folder, r['season'], fn)) if fn and folder else ''
             flags = ' '.join(filter(None, [

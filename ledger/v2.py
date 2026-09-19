@@ -191,6 +191,7 @@ def build_rows():
             (1 if video else 0) | (2 if still else 0) | (4 if subs else 0),
             r.get('note') or '',
             r.get('source') or '',
+            r.get('best_reported') or '',
         ])
     return by_series
 
@@ -474,7 +475,13 @@ function esc(s){ return String(s == null ? '' : s).replace(/[&<>"]/g, function(c
 /* A row is an array; these name its slots so the rest reads as English. */
 var SEASON=0, EP=1, TITLE=2, CAT=3, STATE=4, BEST=5, CHECKED=6,
     HAVE=7, RELEASED=8, DESC=9, FILE=10, EXT=11, ASSETS=12, NOTE=13, SOURCE=14,
-    SRC=14, SRCFOLDER=15;
+    REPORTED=15,
+    /* Only the chronology view carries these two, appended past the row's own
+       fields. They read 14 and 15 while SOURCE sat at 14, so every row in that
+       view looked up D.names[''] for its kicker and built its still URL from
+       the series key ("classic-who") rather than the bucket folder
+       ("classic_who"). */
+    SRC=16, SRCFOLDER=17;
 
 /* The name as the catalogue shows it. A season list mixes the run with the
    specials, minisodes and prequels filed between its episodes, and by title
@@ -597,11 +604,17 @@ function label(s){
 function drawList(){
   var v = visible();
   var slice = v.slice(0, state.shown);
+  /* The chronology mixes every series, so a row is only identified by its
+     series as well as its number: two series both have a 1:1. The matrix and
+     the detail lookup have always prefixed it; this did not, so every click in
+     the chronology's list set an id nothing could match and the pane stayed
+     shut. Tiles were unaffected, which is why it looked like the list alone. */
+  var all = series().byseries;
   rows.innerHTML = slice.map(function(r){
     var a = r[ASSETS];
     var f = [[1,'V'],[2,'S'],[4,'T']].map(function(p){
       return '<i class="' + ((a & p[0]) ? '' : 'no') + '">' + p[1] + '</i>'; }).join('');
-    var id = r[SEASON] + ':' + r[EP];
+    var id = (all ? r[SRC] + '/' : '') + r[SEASON] + ':' + r[EP];
     return '<button type="button" class="row" data-id="' + id + '" aria-pressed="' +
       (state.sel === id) + '">' +
       '<span class="n">' + (r[SEASON] === '-' ? '—' : r[SEASON] + '.' + r[EP]) + '</span>' +
@@ -658,6 +671,7 @@ function drawDetail(){
       rung('Best found', r[BEST] || 'nothing recorded',
            r[CHECKED] ? 'checked ' + r[CHECKED] : 'the indexers have never been asked',
            false) +
+      (r[REPORTED] ? rung('Best reported', r[REPORTED], 'what the release exists as, not what we can get', false) : '') +
     '</dl>' +
     '<div class="grid2"><dt>Files</dt><dd>' +
       [[1,'video'],[2,'still'],[4,'subtitles']].map(function(p){
