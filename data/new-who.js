@@ -2848,8 +2848,8 @@ episode: 10,
 type: "Minisode",
 released: new Date("2024-12-25").toISOString(),
 overview: "The Vlinx introduces the Fifteenth Doctor to the Royal Albert Hall, and Maestro arrives to seize the orchestra and feed on the dissonance it can produce. The God of Music means to play the worst song ever written, and every human listening is the meal.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.jpg?v=8ad75ee1",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.mkv?v=7b87e9fb"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.jpg?v=dbf2f0cb",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.mkv?v=c4b0f62e"
 },
 {
 title: "Joy to the World (Special)",
