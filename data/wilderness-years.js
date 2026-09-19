@@ -15,6 +15,7 @@ const episodes = [
   season: 1,
   episode: 1,
   type: "Special",
+  released: "1993-11-26T12:00:00.000Z",
   overview: "Several Doctors and their companions are pulled out of their own times and dropped into Albert Square, where the Rani has set a trap. The residents carry on as the travellers flicker between years around them.",
 },
 {
@@ -22,6 +23,7 @@ const episodes = [
   season: 1,
   episode: 2,
   type: "Special",
+  released: "1993-11-27T12:00:00.000Z",
   overview: "Several Doctors and their companions are pulled out of their own times and dropped into Albert Square, where the Rani has set a trap. The residents carry on as the travellers flicker between years around them.",
 },
 {
@@ -42,6 +44,7 @@ const episodes = [
   season: 1,
   episode: 4,
   type: "Special",
+  released: "1999-03-12T12:00:00.000Z",
   overview: "The Master lures the Doctor to Tersurus for a final reckoning, having spent centuries arranging the sewers beneath it. Both keep going back to bribe the same architect, and the Doctor is expected at his own wedding.",
 },
 {
@@ -49,6 +52,7 @@ const episodes = [
   season: 1,
   episode: 5,
   type: "Special",
+  released: "1999-03-12T12:00:00.000Z",
   overview: "The Master lures the Doctor to Tersurus for a final reckoning, having spent centuries arranging the sewers beneath it. Both keep going back to bribe the same architect, and the Doctor is expected at his own wedding.",
 },
 {
@@ -56,6 +60,7 @@ const episodes = [
   season: 1,
   episode: 6,
   type: "Special",
+  released: "1999-03-12T12:00:00.000Z",
   overview: "The Master lures the Doctor to Tersurus for a final reckoning, having spent centuries arranging the sewers beneath it. Both keep going back to bribe the same architect, and the Doctor is expected at his own wedding.",
 },
 {
@@ -63,6 +68,7 @@ const episodes = [
   season: 1,
   episode: 7,
   type: "Special",
+  released: "1999-03-12T12:00:00.000Z",
   overview: "The Master lures the Doctor to Tersurus for a final reckoning, having spent centuries arranging the sewers beneath it. Both keep going back to bribe the same architect, and the Doctor is expected at his own wedding.",
 },
 {
@@ -70,6 +76,7 @@ const episodes = [
   season: 1,
   episode: 8,
   type: "Animated Series",
+  released: "2001-07-13T12:00:00.000Z",
   overview: "The Doctor and Ace are drawn into a war in which Time Lords act openly as gods and one of them has taken a side. The rules the Doctor has lived by are being broken by his own people, and somebody is counting the cost.",
 },
 {
@@ -77,6 +84,7 @@ const episodes = [
   season: 1,
   episode: 9,
   type: "Animated Series",
+  released: "2002-08-02T12:00:00.000Z",
   overview: "A team investigating a derelict station finds the Cybermen midway through an experiment, converting rather than killing. The Sixth Doctor and Evelyn arrive in the middle of it, with the conversions already under way.",
 },
 {
@@ -84,6 +92,7 @@ const episodes = [
   season: 1,
   episode: 10,
   type: "Animated Series",
+  released: "2003-11-13T12:00:00.000Z",
   overview: "Called to the Lancashire town of Lannet, the Doctor finds the people cowed into silence and something burrowing beneath the streets. The Shalka rule by sound, and this Doctor travels with a Master of his own.",
 }
 ];
