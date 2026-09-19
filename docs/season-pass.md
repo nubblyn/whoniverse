@@ -782,7 +782,18 @@ python scripts/search/pq.py "doctor who 2005 S01" --min 1
 python scripts/search/pq.py "doctor who 2005 S01 1080p"
 python scripts/search/pq.py "doctor who 2005 S01 bluray"
 python scripts/search/pq.py "doctor who born again" --raw            # per row not covered by a pack
+python scripts/search/pq.py "doctor who born again 2160p"            # always, see below
 ```
+
+**Always ask for 2160p by name, per row.** The resolution is part of the query, not a
+filter on the answer. Prowlarr hands the query string to each indexer and their own
+matching decides what comes back, so a title-only search can return a full result set
+with no 4K in it while the 4K release is sitting there. Revolution of the Daleks was
+recorded as "1080p Blu-ray" on 18 September for exactly this reason: the title-only
+query returns 122 results on every run and the GLHF HLG 2160p WEB H265 is in none of
+them, yet `"... 2160p"` finds it at 17 seeders. Grep the output for `2160|UHD|HDR`
+rather than reading down the list; it is sorted by seeders, not by resolution.
+
 Rank seeders-first inside the size cap. For **seasons 1-4 and the 2009 specials the
 whole question is which release is the 2023 box set**: pull one file from the leading
 candidate (add the magnet to qBittorrent, select a single episode), `ffprobe` it, and only
