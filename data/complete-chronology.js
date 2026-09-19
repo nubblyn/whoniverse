@@ -9813,8 +9813,7 @@ const episodes = [
   overview: "The Doctor and Martha embark on an animated adventure across the galaxy to find the location of the legendary lost starship, the Infinite. They must outwit the evil Baltazar, who seeks the ship's power to grant his heart's desire: control of the universe.",
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.jpg?v=7bb07c45",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.mkv?v=14358d74",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.srt?v=ca6a2629",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_3/S03_E07_the_infinite_quest_animated_series.mkv?v=dd0b248b",
 },
 {
   title: "The Lazarus Experiment",

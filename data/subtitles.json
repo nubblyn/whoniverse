@@ -4911,7 +4911,7 @@
   ]
  },
  "new_who/season_6/S06_E27_the_doctor_the_widow_and_the_wardrobe_prequel": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "hdmv_pgs_subtitle"
@@ -5438,10 +5438,11 @@
   ]
  },
  "new_who/season_3/S03_E07_the_infinite_quest_animated_series": {
-  "sidecar": true,
-  "embedded": 1,
+  "sidecar": false,
+  "embedded": 2,
   "codecs": [
-   "dvd_subtitle"
+   "dvd_subtitle",
+   "subrip"
   ]
  },
  "new_who/season_3/S03_E10_human_nature": {
@@ -5614,42 +5615,42 @@
   ]
  },
  "new_who/season_16/S16_E06_the_interstellar_song_contest": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_16/S16_E04_lucky_day": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_16/S16_E03_the_well": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_16/S16_E08_the_reality_war": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_16/S16_E07_wish_world": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_16/S16_E02_lux": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
@@ -5663,70 +5664,70 @@
   ]
  },
  "new_who/season_15/S15_E11_joy_to_the_world_special": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_16/S16_E01_the_robot_revolution": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_15/S15_E07_rogue": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_15/S15_E05_73_yards": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_15/S15_E08_the_legend_of_ruby_sunday": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_15/S15_E09_empire_of_death": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_15/S15_E06_dot_and_bubble": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_15/S15_E03_the_devils_chord": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_15/S15_E04_boom": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
   ]
  },
  "new_who/season_15/S15_E02_space_babies": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
@@ -5745,7 +5746,7 @@
   ]
  },
  "new_who/season_14/S14_E04_the_giggle_special": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
@@ -5757,7 +5758,7 @@
   "codecs": []
  },
  "new_who/season_14/S14_E03_wild_blue_yonder_special": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
@@ -5771,7 +5772,7 @@
   ]
  },
  "new_who/season_15/S15_E01_the_church_on_ruby_road_special": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
@@ -5785,7 +5786,7 @@
   ]
  },
  "new_who/season_14/S14_E02_the_star_beast_special": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
@@ -6184,7 +6185,7 @@
   ]
  },
  "new_who/season_16/S16_E05_the_story__the_engine": {
-  "sidecar": true,
+  "sidecar": false,
   "embedded": 1,
   "codecs": [
    "mov_text"
