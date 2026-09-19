@@ -10553,6 +10553,7 @@ const episodes = [
   type: "Minisode",
   released: "2009-05-23T00:00:00.000Z",
   overview: "Captain Jack Harkness lets himself into the TARDIS and finds a blue-headed stranger who claims to be the Doctor, freshly regenerated. One detail is wrong, because the man is armed and the Doctor never is.",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_tonights_the_night_minisode.jpg?v=32ec4e97",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_tonights_the_night_minisode.mp4?v=64cd99d2",
   subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E18_tonights_the_night_minisode.srt?v=84d96b95",
 },
