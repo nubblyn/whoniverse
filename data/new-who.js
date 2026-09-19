@@ -2847,10 +2847,9 @@ season: 15,
 episode: 10,
 type: "Minisode",
 released: new Date("2024-12-25").toISOString(),
-overview: "In this festive short, the Doctor tries to teach Ruby Sunday's band how to play a Christmas carol on a futuristic instrument. Their attempts result in chaotic, 'bad' music, providing a lighthearted moment before their next big adventure.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.jpg?v=75d5f84c",
-streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.mp4?v=cf3deb29",
-subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.srt?v=a9e2a426"
+overview: "The Vlinx introduces the Fifteenth Doctor to the Royal Albert Hall, and Maestro arrives to seize the orchestra and feed on the dissonance it can produce. The God of Music means to play the worst song ever written, and every human listening is the meal.",
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.jpg?v=8ad75ee1",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.mkv?v=7b87e9fb"
 },
 {
 title: "Joy to the World (Special)",
