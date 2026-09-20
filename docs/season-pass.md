@@ -344,8 +344,12 @@ render, not an upscale. Nothing needs Swivel or a GUI:
   there.
 - **12 fps stays 12 fps**; NVENC HEVC 10-bit at qp 18 measured 53 dB luma PSNR
   and 0.9967 SSIM against the PNGs and runs eight times faster than x265.
-  `pipeline.py` renders, encodes, muxes and joins per episode; frames are deleted
-  as each part encodes, so the peak is one part's PNGs, not 35 GB.
+  `pipeline.py` renders, encodes, muxes and joins per episode. The exporter
+  holds every captured frame in memory until it finishes - 33 MB each at 4K,
+  so a 3,000-frame part is 100 GB and dies - hence `CHUNK=200`: 200 frames per
+  call with `--skipframes`, which re-ticks the earlier frames without capturing
+  (cheap) and renumbers into the part. Chunked output measured frame-exact
+  against a whole-part render. 38 parts, 103,133 frames, took four hours.
 
 ### 7-Zip and the TorBox unzip watcher
 
