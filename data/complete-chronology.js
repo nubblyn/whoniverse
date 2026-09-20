@@ -13315,9 +13315,9 @@ const episodes = [
   type: "Special",
   released: "2022-04-17T00:00:00.000Z",
   overview: "In 19th-century China, the Doctor, Yaz, and Dan team up with a legendary pirate queen to fight the fearsome Sea Devils. They must uncover the secrets of a lost treasure and stop the reptilian aliens from flooding the planet.",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E08_legend_of_the_sea_devils_special.jpg?v=cb1e1618",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E08_legend_of_the_sea_devils_special.mp4?v=a5a9d895",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E08_legend_of_the_sea_devils_special.srt?v=f517dfe6",
+  audio: "E-AC-3",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E08_legend_of_the_sea_devils_special.jpg?v=a9b9a35b",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_13/S13_E08_legend_of_the_sea_devils_special.mkv?v=dad5cb92",
 },
 {
   title: "The Storyteller (Minisode)",
