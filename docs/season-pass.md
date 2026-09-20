@@ -317,6 +317,36 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
 - Cloudflare caches nothing over 512 MB, so episodes stream from B2 every view and file
   size is a bandwidth cost as well as a storage one.
 
+### Flash webcasts: rendering the BBC's own SWFs
+
+Scream of the Shalka and the 2003 Shada were Flash, and their SWFs survive
+(archive.org `the-return-to-shada`, 38 files; Shalka's are on the Desktop). The
+art is pure vector, so it renders at any size and a 2160p render is a real
+render, not an upscale. Nothing needs Swivel or a GUI:
+
+- **Ruffle's headless exporter** is in the Ruffle source tree but not in its
+  release zips: `cargo install --git https://github.com/ruffle-rs/ruffle exporter
+  --root <dir> --locked` (needs the Rust toolchain and VS Build Tools, both
+  present; ~15 min). Renders `-f all --width 3840 --height 2160` to numbered PNGs
+  at about 8 fps for this art.
+- **The origin script.** 16 of the 38 Shada parts carry a 2003 hotlink check
+  that loads `key.txt` from the server and otherwise parks on an error frame,
+  which is why a naive render freezes. Ruffle will not load the local key file
+  the developers used, so `scripts/media/swf/prepare.py` strips the DoAction
+  tags instead and cuts those parts at frame 40, where the script's own dev
+  branch jumps to. Verified against the archive's Swivel render: its EP1 audio
+  starts at 11.083 s and so does ours.
+- **The sound** is a streamed MP3 inside the SWF, one block per frame
+  (22050 Hz, 1836 samples a frame at 12 fps). `prepare.py` lifts it out whole;
+  decoded, it matches blocks × 1836 samples to within codec priming. It is
+  re-attached at the frame its first block sits on. The exporter has no audio,
+  and the stream tags are stripped from the render copies since they do nothing
+  there.
+- **12 fps stays 12 fps**; NVENC HEVC 10-bit at qp 18 measured 53 dB luma PSNR
+  and 0.9967 SSIM against the PNGs and runs eight times faster than x265.
+  `pipeline.py` renders, encodes, muxes and joins per episode; frames are deleted
+  as each part encodes, so the peak is one part's PNGs, not 35 GB.
+
 ### 7-Zip and the TorBox unzip watcher
 
 - `C:/Program Files/7-Zip/7z.exe`. TorBox delivers each torrent as one zip with the mkv,
