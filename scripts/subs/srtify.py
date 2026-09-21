@@ -25,7 +25,11 @@ import clean
 
 SP = os.path.dirname(os.path.abspath(__file__))
 SUBS = os.path.join(SP, 'subs')
-CONTENT = os.path.join(os.path.expanduser('~'), 'Downloads', 'content', 'new_who')
+# Which series' staging tree to write beside. New Who by default because
+# that is what this was written for; SUBS_CONTENT points it elsewhere,
+# e.g. SUBS_CONTENT=~/Downloads/content/classic_who for a Classic season.
+CONTENT = os.path.expanduser(os.environ.get(
+    'SUBS_CONTENT', os.path.join('~', 'Downloads', 'content', 'new_who')))
 
 MAX_LINE = 42
 MIN_CUE = 16          # below this, hold a sentence back and join the next
@@ -144,11 +148,19 @@ def build(path):
 
 
 def target_for(name):
-    for d in os.listdir(CONTENT):
-        p = os.path.join(CONTENT, d, name + '.srt')
-        if os.path.isdir(os.path.join(CONTENT, d)) and \
-           os.path.exists(os.path.join(CONTENT, d, name + '.mp4')):
-            return p
+    """Where the .srt goes: beside the video it was transcribed from.
+
+    Matches any container, not only .mp4. A Classic season ships .mkv off the
+    disc, and looking for .mp4 alone reported "no video to sit beside" for a
+    file that was sitting right there.
+    """
+    for d in sorted(os.listdir(CONTENT)):
+        sub = os.path.join(CONTENT, d)
+        if not os.path.isdir(sub):
+            continue
+        for ext in (".mp4", ".mkv", ".m4v"):
+            if os.path.exists(os.path.join(sub, name + ext)):
+                return os.path.join(sub, name + ".srt")
     return None
 
 

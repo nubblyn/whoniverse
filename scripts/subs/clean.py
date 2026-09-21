@@ -30,6 +30,14 @@ NOUNS = {
     'rory': 'Rory', 'missy': 'Missy', 'versailles': 'Versailles',
 }
 REPEAT_MAX = 0.8
+# ...and only when it butts up against the line it echoes. Whisper emits the
+# artefact immediately, as the audio tails away; a genuine second utterance has
+# other sound between it and the first. Measured across every transcript here,
+# the real echoes all sit at a gap of 0.08 to 0.22 s, while the three genuine
+# repeats sit at 0.58, 1.56 and 2.40 s. Without this, The Storyteller lost the
+# second of its two Exterminates, which a separate model confirms is really
+# there, and dropping a real line is the one thing this must never do.
+REPEAT_GAP = 0.5
 
 # Corrections that need a listener, not a rule. Whisper runs two sentences
 # together where the delivery pauses but the grammar does not, and no heuristic
@@ -88,7 +96,9 @@ def clean(data, log=None, stem=None):
         dur = seg['end'] - seg['start']
         prev = kept[-1]['text'].strip().lower() if kept else ''
         bare = t.lower().strip('.,!?… ')
-        if kept and bare and bare in prev and dur <= REPEAT_MAX:
+        gap = seg['start'] - kept[-1]['end'] if kept else 99.0
+        if (kept and bare and bare in prev and dur <= REPEAT_MAX
+                and gap <= REPEAT_GAP):
             if log is not None:
                 log.append(('drop', i, '%.2fs  %s' % (dur, t[:52])))
             continue

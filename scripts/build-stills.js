@@ -108,10 +108,44 @@ function activeCrop(file, at) {
   let top = 0; while (top < rows && mean[top] <= 16) top += 1;
   let bot = rows - 1; while (bot > top && mean[bot] <= 16) bot -= 1;
   const height = bot - top + 1;
-  // No bars, or a result that would throw away half the picture: leave it alone.
-  if (top === 0 && bot === rows - 1) return null;
-  if (top < rows * 0.01 || height < rows * 0.5) return null;
-  return { top: Math.round(top / rows * 1e6) / 1e6, height: Math.round(height / rows * 1e6) / 1e6 };
+  const vertical = (top === 0 && bot === rows - 1) || top < rows * 0.01
+    || height < rows * 0.5
+    ? null
+    : { top: top / rows, height: height / rows };
+  const horizontal = activeColumns(file, at);
+  if (!vertical && !horizontal) return null;
+  const box = {};
+  if (vertical) { box.top = round6(vertical.top); box.height = round6(vertical.height); }
+  if (horizontal) { box.left = round6(horizontal.left); box.width = round6(horizontal.width); }
+  return box;
+}
+
+function round6(v) { return Math.round(v * 1e6) / 1e6; }
+
+// The mirror of activeCrop's row pass, for the pillarbox a 4:3 picture leaves
+// inside a 16:9 frame.
+function activeColumns(file, at) {
+  let raw;
+  try {
+    raw = execFileSync(ffmpeg, ['-v', 'error', '-ss', at.toFixed(2), '-i', file,
+      '-frames:v', '1', '-vf', 'format=gray,scale=iw:64', '-f', 'rawvideo', '-'],
+      { maxBuffer: 16 * 1024 * 1024 });
+  } catch { return null; }
+  if (!raw || raw.length < 64) return null;
+  const cols = raw.length / 64;
+  if (!Number.isInteger(cols)) return null;
+  const mean = [];
+  for (let x = 0; x < cols; x += 1) {
+    let t = 0;
+    for (let y = 0; y < 64; y += 1) t += raw[y * cols + x];
+    mean.push(t / 64);
+  }
+  let left = 0; while (left < cols && mean[left] <= 16) left += 1;
+  let right = cols - 1; while (right > left && mean[right] <= 16) right -= 1;
+  const width = right - left + 1;
+  if (left === 0 && right === cols - 1) return null;
+  if (left < cols * 0.01 || width < cols * 0.5) return null;
+  return { left: left / cols, width: width / cols };
 }
 
 function duration(file) {
@@ -143,7 +177,11 @@ async function main() {
       let buf;
       try {
         const box = activeCrop(video, at);
-        const pre = box ? `crop=iw:ih*${box.height}:0:ih*${box.top},` : '';
+        const w = box && box.width !== undefined ? `iw*${box.width}` : 'iw';
+        const x = box && box.left !== undefined ? `iw*${box.left}` : '0';
+        const hh = box && box.height !== undefined ? `ih*${box.height}` : 'ih';
+        const y = box && box.top !== undefined ? `ih*${box.top}` : '0';
+        const pre = box ? `crop=${w}:${hh}:${x}:${y},` : '';
         buf = execFileSync(ffmpeg, ['-v', 'error', '-ss', at.toFixed(2), '-i', video,
           '-frames:v', '1', '-vf', `thumbnail=90,${pre}${FILTER}`, '-f', 'image2pipe',
           '-vcodec', 'mjpeg', '-q:v', '2', '-'],

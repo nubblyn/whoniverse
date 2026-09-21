@@ -464,6 +464,75 @@ The originals sit in the session scratchpad
 | **Disney+ / iPlayer 2160p** | the 2023+ HDR masters | rips via Prowlarr only | shipped as they come, HDR and all (Part I); no UHD disc exists **for the 2023+ era** - Twice Upon a Time does have a 2017 UHD Blu-ray |
 | **The BBC webcast pages** | nothing: the players are RealPlayer and the media host is gone | | |
 
+### Classic Who disc sources, with the identifiers
+
+Written down 21 September 2026 after seasons 1 and 2, because these took real
+searching to find and a search does not survive a compaction. **Ask Prowlarr for
+the range's own name, `doctor who the collection season N`.** Asking for
+`doctor who 1963 S02 bluray` or `... 1080p` returns nothing usable, which is why
+four earlier sweeps concluded no disc rip existed.
+
+**Season 1 and the six other seasons with no Blu-ray** (1, 3, 4, 5, 6, 11, 16)
+top out at the retail PAL Region 2 DVD. Season 1's whole set is on archive.org as
+`doctor-who-season-1-dvd`: ten ISOs, 72 GB, **MD5s in the item metadata** (fetch
+`https://archive.org/metadata/<id>` and check them, all ten verified). Serial 4
+is a fanmade Marco Polo reconstruction on two discs, of which **disc 2** is the
+one to take: seven parts at 3.0 to 3.5 Mbps against disc 1's six at 2.5 to 2.9.
+HTTP download beats any torrent here because there are no seeders to lose, and
+parallel streams matter: one connection ran at 2.8 MB/s and ten together at 33.
+
+**Doctor Who: The Collection Blu-ray box sets are on the indexers**, thirteen of
+the nineteen released. Season 2's is **per-episode MKV remuxes arranged by disc**,
+so no MakeMKV is needed and the extras can be left unselected - 39 episodes came
+to 67.66 GB of the torrent's 113.11 GB. Contents are 1080p25 HEVC, VidFIRE
+restored, with four to six DTS 2.0 tracks (episode plus commentaries) and two or
+three English PGS tracks inside, 4.6 to 13.8 Mbps.
+
+| Season | Infohash | Size |
+| --- | --- | --- |
+| 2 | `03548869db49cde941f90b5440b88a9b3d6f3e40` | 113.11 GB |
+| 7 | `a8721158354e0445098514b147395ad7e74623b7` | 105.15 GB |
+| 8 | `5251b1055ed2029e4a84388207bcdf6b64012fb1` | 167.28 GB |
+| 9 | `437a933c29de731ea3489fb2357801d73106cff1` | 112.60 GB |
+| 10 | `2a3cdbe372a8ad370910200dbd275f494a9e5cd6` | 165.73 GB |
+| 12 | `8e747b4b0db7a03f11ceee41f190ffae0d9c33f6` | 151.50 GB |
+| 15 | `f51f35713d4d4ca33621ed0f1567bd45c0ea3b48` | 111.58 GB |
+| 17 | `053af5ad59c8a646aaddbcd3f9de8b5070a0a818` | 149.15 GB |
+| 19 | `6c8e0251a3f7987573740c6bc682c36c072df185` | 228.62 GB |
+| 20 | `78c092bae15367859d0749656f6e48a7e7b30519` | 209.41 GB |
+| 22 | `803d6da0c38acdb31a9a7c35b981b008793a500d` | 158.01 GB |
+| 24 | `4111fa5808928ee54f8393b9eefb6a1235336d54` | 155.89 GB |
+| 25 | `0c7fc8ebdb2ff2fcfdb4c1197d7c8a44b4a951ac` | 162.70 GB |
+
+**Seeders are the constraint, not availability**: 7 on season 2 and 1 on every
+other set. The six released sets not listed here (13, 14, 18, 21, 23, 26) were
+not found under this query and want looking for again.
+
+**Take the Original cut, not the CGI one.** Some episodes ship both. The CGI
+sequences are carried over from the 2003 DVDs, so they are standard-definition
+compositing inside a 1080p film scan, and the disc files them under Special
+Features rather than presenting them as the episode. Settled with the user on
+21 September 2026. Note that the *reason* is the picture and the BBC's own
+presentation: the "recuts" line in Part D is about our own and fan recuts, not
+about an official alternative, and citing it here was wrong.
+
+**Drive qBittorrent through its Web API to select files.** It is enabled on
+**port 8099** with `WebUI\LocalHostAuth=false`, so no password from localhost.
+Add paused, start it to fetch metadata (a stopped torrent never gets any), read
+`/api/v2/torrents/files`, then set priorities. **`filePrio` wants its ids
+pipe-separated**; commas answer `File IDs must be integers` with a 200.
+
+**The eleven Blu-ray Collection minisodes are all announcement trailers.** None
+exists as a standalone upload. The playlist is `PLKEzuOOEQvYM1dh7zwBejxw12TXWSpcSQ`
+on the official channel, and each item is the minisode followed by a promo for
+the box set, complete with talking-head interviews. So each one is Part D
+exception 1 and needs a confirmed cut. The Storyteller (2x40) is `_UaZTZ6qBQo`,
+6:31 long, cut at **190.88 s**, one frame before the voiceover says "Doctor Who";
+TARDIS Fandom calls it a 3-minute webcast, which is the drama, while other
+guides quote 7 minutes, which is the whole upload. None of them carries a real
+caption track, only YouTube's automatic ones, so each needs Whisper.
+
+
 What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doctor-Who-AI-Remastered`, `doctor-who_202207`), the oldtvshow size-target re-encodes as a ceiling (they are what the bucket held before).
 
 ### Reference lists, for the row list and the metadata
