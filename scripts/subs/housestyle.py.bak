@@ -123,25 +123,9 @@ def speakers(lines):
     return out
 
 
-def is_sound_line(line):
-    """True for a line the BBC has written as a sound effect.
-
-    Their convention is capitals for sound and music and sentence case for
-    speech, even shouted speech, so a line whose every letter is upper case is
-    an effect: THEME MUSIC PLAYING, CONSOLE WHIRRING, VWORP! VWORP!. Checked
-    against the eight Classic season 3 iPlayer tracks, where all 204 such lines
-    were effects and not one was dialogue.
-    """
-    letters = [c for c in line if c.isalpha()]
-    return bool(letters) and all(c.isupper() for c in letters)
-
-
 def strip_sdh(text):
     text = SDH_BRACKET.sub(' ', text)
     text = SPEAKER_LABEL.sub('', text)
-    # Per line, so a cue carrying an effect above real dialogue keeps the
-    # dialogue rather than being dropped whole.
-    text = '\n'.join(l for l in text.split('\n') if not is_sound_line(l))
     return re.sub(r'\s+', ' ', text).strip()
 
 
@@ -262,11 +246,8 @@ def main():
 
     parts = ['%d\n%s --> %s\n%s' % (i, tc(s), tc(e), '\n'.join(b))
              for i, (s, e, b) in enumerate(out, 1)]
-    # No byte-order mark. It was written here and does not belong: the source
-    # tracks carry none, and a leading U+FEFF sits in front of the first cue
-    # number, where a strict SRT parser reads it as part of that number.
     io.open(sys.argv[2], 'w', encoding='utf8', newline='\n').write(
-        '\n\n'.join(parts) + '\n')
+        '﻿' + '\n\n'.join(parts) + '\n')
     print('  %d cues in, %d after merging simultaneous, %d out'
           % (raw_count, len(cues), len(out)))
     print('  %d cues given speaker dashes, %d had SDH removed' % (stats['dashed'], stats['sdh']))

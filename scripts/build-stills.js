@@ -154,6 +154,20 @@ function duration(file) {
   return parseFloat(out.trim()) || 0;
 }
 
+// A DVD-sourced file is usually interlaced, and a single frame pulled from one
+// is two field times combed together: every vertical edge grows a comb. The
+// Lost in Time rips of Day of Armageddon and its neighbours are field_order=tt
+// and their first stills were unusable for exactly this. Deinterlace before
+// sampling when the stream says it is interlaced.
+function interlaced(file) {
+  try {
+    const out = execFileSync(ffprobe, ['-v', 'error', '-select_streams', 'v:0',
+      '-show_entries', 'stream=field_order', '-of', 'default=nw=1:nk=1', file],
+      { encoding: 'utf8' }).trim();
+    return out === 'tt' || out === 'bb' || out === 'tb' || out === 'bt';
+  } catch { return false; }
+}
+
 async function score(buf) {
   const { channels, isOpaque } = await sharp(buf).stats();
   const mean = channels.reduce((a, c) => a + c.mean, 0) / channels.length;
@@ -171,6 +185,7 @@ async function main() {
     if (fs.existsSync(out) && !force) { kept += 1; continue; }
     const total = duration(video);
     if (!total) { failed += 1; console.log(`  no duration   ${path.basename(video)}`); continue; }
+    const deint = interlaced(video) ? 'yadif=0:-1:0,' : '';
     let best = null, bestScore = -Infinity, bestAt = 0;
     for (const point of SAMPLE_POINTS) {
       const at = total * point;
@@ -183,7 +198,7 @@ async function main() {
         const y = box && box.top !== undefined ? `ih*${box.top}` : '0';
         const pre = box ? `crop=${w}:${hh}:${x}:${y},` : '';
         buf = execFileSync(ffmpeg, ['-v', 'error', '-ss', at.toFixed(2), '-i', video,
-          '-frames:v', '1', '-vf', `thumbnail=90,${pre}${FILTER}`, '-f', 'image2pipe',
+          '-frames:v', '1', '-vf', `${deint}thumbnail=90,${pre}${FILTER}`, '-f', 'image2pipe',
           '-vcodec', 'mjpeg', '-q:v', '2', '-'],
           { maxBuffer: 64 * 1024 * 1024 });
       } catch { continue; }
