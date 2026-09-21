@@ -505,8 +505,49 @@ three English PGS tracks inside, 4.6 to 13.8 Mbps.
 | 25 | `0c7fc8ebdb2ff2fcfdb4c1197d7c8a44b4a951ac` | 162.70 GB |
 
 **Seeders are the constraint, not availability**: 7 on season 2 and 1 on every
-other set. The six released sets not listed here (13, 14, 18, 21, 23, 26) were
-not found under this query and want looking for again.
+other set as first listed, though re-querying on 21 September gave 2 to 8 and
+eight of the twelve started moving straight away. The six released sets not
+listed here (13, 14, 18, 21, 23, 26) were not found under this query and want
+looking for again.
+
+**Never trust the episode numbers in the filenames.** Season 7's Spearhead from
+Space is numbered one out: the file called `S7E01` is part 4, and `S7E02` to
+`S7E04` are parts 1 to 3. Four episodes would have shipped in the wrong order,
+the Third Doctor's debut landing where the finale belongs, and nothing in the
+file would have said so - every MKV's container title is just
+`Doctor Who - S7 Jon Pertwee - Disc 1 - Spearhead from Space`. Two checks
+caught it and both are cheap, so run both on every season:
+
+- **Correlate each file against the copy already in the bucket**, the same
+  loudness-envelope test the DVD rips use. A right answer sits at 0.7 to 0.99;
+  the rotated ones sat at 0.09 to 0.14 and each held episode matched the file
+  numbered one higher.
+- **Check the durations against a published runtime list.** Wikipedia's
+  per-episode times for Spearhead - 23:38, 24:21, 24:16, 24:47 - pair with the
+  file durations 1422.0, 1464.0, 1458.6, 1480.0 in exactly that rotated order.
+
+Two things that did *not* work and are not worth retrying: a reprise-chain test
+(correlating each episode's tail against the next one's head) reads as noise on
+Spearhead because it was shot on film and carries no audio reprise, and iPlayer
+has no copy of Spearhead at all - the PIDs exist under the brand but return no
+versions and no qualities - so it cannot be used as a neutral referee here.
+
+**Season 22 is already at 1080p** on 13 of its 15 rows and its other two are A
+Fix with Sontarans, which has no release, and The Eternal Mystery, which is a
+YouTube minisode. It was taken anyway, on the user's call that one uploader's
+encode across every season beats a patchwork of provenance.
+
+**Selecting the episodes out of a set**: `scripts/media/dvd/collsel.py <season>`
+prints the choice, `--apply` sets the file priorities and starts the download.
+Season 2 came to 67.66 GB of 113.11, season 7 to 51.77 of 105.15, season 9 to
+51.80 of 112.61. Two traps it exists to avoid, both found on season 7: the sets
+**mix season-code styles inside one torrent** (discs 1 and 2 use `S7E01`, discs
+4 and 5 use `S07E12`), which silently lost eleven episodes and still looked like
+a clean run; and **Inferno part 5 ships as an extended cut 0.01 GB larger than
+the broadcast one**, so a largest-wins tie-break picked the wrong cut. Most
+episodes also appear as a DVD Version, an Omnibus and sometimes a Bonus-disc
+copy; the script takes the plain-named file from the story's own disc and
+reports how many alternatives it passed over.
 
 **Take the Original cut, not the CGI one.** Some episodes ship both. The CGI
 sequences are carried over from the 2003 DVDs, so they are standard-definition
