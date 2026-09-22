@@ -599,6 +599,40 @@ brackets, and says what it passed over. The same set labels the CGI *Revenge of 
 Cybermen* part 4 `S12E30`, inventing a twenty-first episode for a twenty-row season; a
 code with no row behind it is now dropped and reported.
 
+**The title is now what places a file, not its code.** Season 17 broke the code three
+ways at once. The ledger opens the season with the minisode *Risen*, so every file sits
+one row below its code. *Destiny of the Daleks* part 4's Original is labelled `S17E03`,
+part 3's code, with `S17E04` given only to the CGI version. And *Nightmare of Eden* part 3
+has no part number in its name at all. `collsel.py` matches each filename's story and part
+against the ledger rows, works out from those matches how far the set's codes sit from the
+rows, and places only the leftovers by code plus that shift, reporting each one. Audio
+confirmed all 26 at 0.989 or better. Season 19 added a fourth trap: a whole-story
+*Castrovalva* joined into one file and labelled `S19e01`, which the title check turned away.
+"Updated Special Effects" is now named as an alternative in its own right, folder and tag;
+before, *Castrovalva* was only chosen right because its broadcast cut sat in an `Original`
+folder.
+
+**Sets from TorBox arrive as one zip of the whole torrent**: 149 GB for season 17,
+229 GB for 19. Choose and extract from the zip itself, never unpack it whole:
+
+```
+python scripts/media/dvd/collsel.py 19 --zip "C:\Users\hello\Downloads\<set>.zip"          # dry run
+python scripts/media/dvd/collsel.py 19 --zip "C:\Users\hello\Downloads\<set>.zip" --apply  # writes chosen_s19.tsv and extract_s19.txt
+"/c/Program Files/7-Zip/7z.exe" x "$(cygpath -w <zip>)" -o"$(cygpath -w ~/Downloads/content/classic_who/probe)" \
+  "@$(cygpath -w scripts/media/dvd/extract_s19.txt)" -scsUTF-8 -y     # checksums every file; wants "Everything is Ok"
+```
+
+`collstage.py` then works unchanged, because the zip's paths are the torrent's. Delete the
+zip as soon as `collstage.py --verify` passes: TorBox still holds the set, and two whole
+zips plus their episodes will not fit the disk. The old unzip watcher must not run on these,
+because it extracts every file of an archive.
+
+A torrent removed from qBittorrent without its data leaves partial files at the very paths
+the zip extracts to, and an `os.walk` over the probe folder then finds 122 files where 26
+were chosen. The extracted files overwrite any partial with the same name, so nothing
+chosen is harmed, but clear the rest before staging: `scripts/media/dvd/keepchosen.py <season>`
+removes every file under the season's probe folder that is not on its `extract_sN.txt`.
+
 **Staging and proving a season**: `scripts/media/dvd/collstage.py <season>`
 hard-links the chosen files to their ledger stems, `--verify` correlates each
 against the copy already in the bucket. Two things season 8 taught it:
@@ -611,7 +645,10 @@ against the copy already in the bucket. Two things season 8 taught it:
 - **A large offset means a different cut, so check the runtime.** That held copy
   ran 25:05 against Wikipedia's 23:51, with material inserted partway through as
   well as at the front, so the bucket had been serving a non-broadcast cut. The
-  script now prints both durations whenever the lag exceeds two seconds.
+  script now prints both durations whenever the lag exceeds two seconds. It has fired
+  twice more since: season 19's *Black Orchid* part 1 matched at 0.751 only at a 63 s
+  offset, and the held copy ran 27:33, the extended cut Wikipedia gives as 27:32, against
+  a broadcast 24:56. Of the six seasons checked this way (8, 9, 10, 12, 17, 19), two had a non-broadcast cut sitting in the bucket.
 
 Its envelope cache must not live in the folder being uploaded. It did, and 52
 `.npy` files landed in the bucket as `classic_who/season_9/.env/`.
@@ -661,6 +698,12 @@ second before the voiceover starts, so no pair of frames shows it.
 
 Resolution varies: the season 8 trailer is 1080p, the season 9 one offers no
 better than 720p, so that row's ceiling is 720p and the ledger says so.
+
+**Do not take a cut point from Whisper's word times.** On *Davros Rises!* (season 17,
+`Fwv3-PGCw8o`) it put the voiceover's "Doctor" at 87.90 s; the loudness, read one frame at
+a time, is a fading music bed until a clear burst at 88.46 s, half a second later and after
+the picture has already cut to the title card at 88.08 s. Use Whisper to find the words,
+then the per-frame envelope and the frames either side to find the boundary.
 
 
 What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doctor-Who-AI-Remastered`, `doctor-who_202207`), the oldtvshow size-target re-encodes as a ceiling (they are what the bucket held before).

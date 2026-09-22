@@ -26,10 +26,12 @@ It prints the chosen files and, with --apply, tells qBittorrent to download
 only those: everything else goes to priority 0. `filePrio` wants its ids
 pipe-separated; commas answer "File IDs must be integers" with a 200.
 """
+import collections
 import io
 import json
 import os
 import re
+import subprocess
 import sys
 import urllib.parse
 import urllib.request
@@ -50,10 +52,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 # than the broadcast cut, which is the opposite of the season 7 trap and would
 # have gone the other way just as easily. Both lists now name what they mean.
 ALT_DIR = re.compile(
-    r'(?:^|/)(?:dvd versions?|bonus|omnibus|extended|[\w ]*restoration)(?:/|$)', re.I)
+    r'(?:^|/)(?:dvd versions?|bonus|omnibus|extended|[\w ]*restoration|updated special effects)(?:/|$)', re.I)
 ALT_TAG = re.compile(
     r'\((?:dvd version|special edition|extended|cgi|reconstruction'
-    r'|[\w ]*restoration|hd early edit)\)', re.I)
+    r'|[\w ]*restoration|hd early edit|(?:with )?updated special effects)\)', re.I)
 # A story that ships its broadcast cut in an Originals folder puts the
 # alternatives beside it, so when one exists for an episode it settles the
 # choice outright rather than leaving it to size.
@@ -104,16 +106,54 @@ def choose(files, season, led=None):
     # Evil part 5 alone. Both halves are optional-zero, and the episode number
     # is anchored so S08E10 does not read as episode 1.
     code = re.compile(r'S0?%dE(\d{1,2})(?!\d)' % season, re.I)
-    by_ep = {}
+    notes = []
+
+    # **The title in the filename decides the row, not the code.** Season 17
+    # broke the code three separate ways at once: the ledger opens with the
+    # minisode Risen, because Davros rising belongs before Destiny of the
+    # Daleks, so every file sits one row below its code; Destiny part 4's
+    # Original is labelled S17E03, the same code as part 3, so a code-keyed
+    # read loses it and leaves part 4 with only the CGI version; and Nightmare
+    # of Eden part 3 carries no part number at all. Matching each filename's
+    # story and part against the row's title fixes the first two outright.
+    index = {}
+    if led is not None:
+        for ep, row in led.items():
+            index.setdefault(norm(row[0]), ep)
+
+    found = []
     for f in files:
         if not f['name'].lower().endswith(('.mkv', '.mp4', '.m4v')):
             continue
         m = code.search(f['name'])
         if not m:
             continue
-        ep = int(m.group(1))
-        by_ep.setdefault(ep, []).append(f)
-    chosen, notes = {}, []
+        found.append({'f': f, 'code': int(m.group(1)),
+                      'ep': index.get(file_title(f['name'], season))})
+
+    # What is left - a filename with no part number, or a season with no ledger
+    # to match against - falls back on the code, shifted by however far the
+    # titles say this set sits from the row numbering.
+    offsets = [x['ep'] - x['code'] for x in found if x['ep'] is not None]
+    shift = collections.Counter(offsets).most_common(1)[0][0] if offsets else 0
+    if shift:
+        notes.append('file codes run %+d from the ledger rows; the titles say so and '
+                     'the fallback follows them' % shift)
+    odd = sorted({o for o in offsets} - {shift})
+    if odd:
+        notes.append('these files sit at a different offset from the rest: %s'
+                     % ', '.join('%+d' % o for o in odd))
+    for x in found:
+        if x['ep'] is None:
+            x['ep'] = x['code'] + shift
+            notes.append('ep%d: title unreadable, placed by code%s: %s'
+                         % (x['ep'], ' %+d' % shift if shift else '',
+                            x['f']['name'].rsplit('/', 1)[-1]))
+
+    by_ep = {}
+    for x in found:
+        by_ep.setdefault(x['ep'], []).append(x['f'])
+    chosen = {}
     for ep, cands in sorted(by_ep.items()):
         # A code with no row behind it is a numbering slip, not an episode.
         # Season 12 labels the CGI Revenge of the Cybermen part 4 `S12E30`,
@@ -149,16 +189,49 @@ def choose(files, season, led=None):
     return chosen, notes, by_ep
 
 
+SEVENZIP = r'C:\Program Files\7-Zip\7z.exe'
+
+
+def zip_files(path):
+    """The same {name, size, index} list qBittorrent gives, read from a zip.
+
+    TorBox hands a finished set over as one zip of the whole torrent, 149 GB for
+    season 17, so the choice is made from the archive's own listing and only
+    the chosen files are ever extracted. Names keep 7-Zip's separators so they
+    can be handed straight back to it as an extraction list; `name` has them
+    turned forward, which is what choose() and the chosen_sN.tsv expect.
+    """
+    out = subprocess.run([SEVENZIP, 'l', '-slt', '-ba', path],
+                         capture_output=True, text=True, encoding='utf8', errors='replace').stdout
+    files, cur = [], {}
+    for line in out.splitlines() + ['']:
+        if not line.strip():
+            if cur.get('Path') and cur.get('Folder') != '+':
+                files.append({'name': cur['Path'].replace('\\', '/'), 'raw': cur['Path'],
+                              'size': int(cur.get('Size') or 0), 'index': len(files)})
+            cur = {}
+        elif ' = ' in line:
+            k, v = line.split(' = ', 1)
+            cur[k] = v
+    return files
+
+
 def main():
     season = int(sys.argv[1])
     apply_it = '--apply' in sys.argv
+    zpath = sys.argv[sys.argv.index('--zip') + 1] if '--zip' in sys.argv else None
     led = rows(season)
-    torrents = api('torrents/info?category=collprobe')
-    t = [x for x in torrents if x['name'].split()[-1] == str(season)]
-    if not t:
-        raise SystemExit('no queued torrent for season %d' % season)
-    h = t[0]['hash']
-    files = api('torrents/files?hash=%s' % h)
+    if zpath:
+        files = zip_files(zpath)
+        if not files:
+            raise SystemExit('7-Zip listed nothing in %s' % zpath)
+    else:
+        torrents = api('torrents/info?category=collprobe')
+        t = [x for x in torrents if x['name'].split()[-1] == str(season)]
+        if not t:
+            raise SystemExit('no queued torrent for season %d' % season)
+        h = t[0]['hash']
+        files = api('torrents/files?hash=%s' % h)
     chosen, notes, by_ep = choose(files, season, led)
     print('season %d: %d files in the set, %d carry an episode code, %d episodes chosen'
           % (season, len(files), sum(len(v) for v in by_ep.values()), len(chosen)))
@@ -180,7 +253,20 @@ def main():
     for n in notes:
         print('  note: %s' % n)
     if not apply_it:
-        print('\n(dry run; pass --apply to set file priorities)')
+        print('\n(dry run; pass --apply to %s)'
+              % ('write the choice and the extraction list' if zpath else 'set file priorities'))
+        return
+    if zpath:
+        # The choice, and a 7-Zip list file naming exactly those entries, so
+        # `7z x <zip> @extract_sN.txt` pulls 58 GB out of 149 and nothing else.
+        io.open(os.path.join(HERE, 'chosen_s%d.tsv' % season), 'w', encoding='utf8').write(
+            '\n'.join('%d\t%s\t%s' % (ep, led.get(ep, ('?',))[0], chosen[ep]['name'])
+                      for ep in sorted(chosen)))
+        lst = os.path.join(HERE, 'extract_s%d.txt' % season)
+        io.open(lst, 'w', encoding='utf8').write(
+            '\n'.join(chosen[ep]['raw'] for ep in sorted(chosen)) + '\n')
+        print('\nwrote chosen_s%d.tsv and %s: %d files'
+              % (season, os.path.basename(lst), len(chosen)))
         return
     keep = {c['index'] for c in chosen.values()}
     drop = [str(f['index']) for f in files if f['index'] not in keep]
