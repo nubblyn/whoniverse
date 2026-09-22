@@ -301,6 +301,13 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
   hashes: `rclone lsjson --hash b2:whoniverse/new_who/season_1/`.
 - Upload a season: `rclone copy ~/Downloads/content/new_who b2:whoniverse/new_who/ --include "season_1/**" --transfers 4`.
   Same name overwrites; that is deliberate, the hash in the URL is what changes.
+- **Use `--filter`, never `--include` with `--exclude`.** The order they are parsed in is
+  indeterminate and the include won: `--include "season_9/**" --exclude "*_full.mp4"`
+  uploaded the uncut trailer source anyway. rclone warns about this in its own output.
+- **An overwrite only replaces the same name.** Season 9's *The Mutants* were `.mp4` in
+  the bucket and `.mkv` on the disc, so six old objects survived the upload as duplicates
+  of episodes that now had two files. Compare the extensions in `bucket-index.txt` against
+  what is being staged, and delete the leftovers after the deploy.
 - Then always `bash scripts/bucket-index.sh` (needs Git Bash, not WSL; `node scripts/run.js`
   exists for the scripts that must find the Windows rclone).
 - **The W: mount does not see what another process wrote.** It is `rclone mount b2:whoniverse W:`
@@ -437,7 +444,7 @@ render, not an upscale. Nothing needs Swivel or a GUI:
 | `ledger/v2.py` | the board at `/ledger-v2`. States: `absent` (job), `upgrade` (job, `have` below `best`), `ok`, `recon`, `gone`. Reads `bucket-index.txt` for what is held; `have` does not decide presence |
 | `ledger/viewer.py` | the table at `/ledger` |
 | `scripts/ledger/have_new_who.py` | probes local files and writes `have` matched on the ledger's own file name. Repurpose it to probe the bucket, or run `probe-media.js` and transcribe. Probe every audio stream, not `a:0`; `<height>p` only when width is standard 16:9, else `WxH` |
-| `scripts/ledger/ready.py` | the four silent failures on a folder before upload: `hvc1`, faststart, Dolby without flag, .srt that is not text |
+| `scripts/ledger/ready.py` | the four silent failures on a folder before upload: `hvc1`, faststart, Dolby without flag, .srt that is not text. `.mp4` and `.mkv`; `READY_CONTENT` points it at another tree |
 | `scripts/media/retag.py` | rewrites `hev1` → `hvc1` and adds faststart on MP4s without re-encoding |
 | `scripts/ledger/apply_found.py`, `scripts/ledger/fill_urls.py` | patterns for editing the TSV and `data/new-who.js` safely: exact title keys, report unmatched keys, dry run by default, `--write` to commit. `fill_urls.py` gates on the bucket so no URL points at a file that does not exist |
 
@@ -549,6 +556,39 @@ episodes also appear as a DVD Version, an Omnibus and sometimes a Bonus-disc
 copy; the script takes the plain-named file from the story's own disc and
 reports how many alternatives it passed over.
 
+**The sets also name alternatives by folder, not only by tag.** Season 8 puts
+them in `Extended`, `DVD Restoration` and `2011 DVD Restoration` directories,
+and the broadcast cut in `Originals`. None of those were in the rules, so all
+thirteen of its choices fell through to the size tie-break. They happened to
+land right, including an Extended *Claws of Axos* 0.84 GB **smaller** than the
+broadcast cut, which is the season 7 trap inverted and would have gone wrong
+just as easily. Both lists now name them, and an `Originals` folder settles the
+choice outright. Verified by importing `choose()` and comparing against the
+files already downloaded rather than by eye.
+
+**Staging and proving a season**: `scripts/media/dvd/collstage.py <season>`
+hard-links the chosen files to their ledger stems, `--verify` correlates each
+against the copy already in the bucket. Two things season 8 taught it:
+
+- **A right answer can sit outside a narrow lag window.** *The Claws of Axos*
+  part 1 scored 0.213 at ±45 s and matched nothing else either, which is exactly
+  what a mis-mapping looks like and was not one: the true offset was 47.45 s and
+  the real score 0.935. A failure is now retried at ±150 s before it is called a
+  mismatch.
+- **A large offset means a different cut, so check the runtime.** That held copy
+  ran 25:05 against Wikipedia's 23:51, with material inserted partway through as
+  well as at the front, so the bucket had been serving a non-broadcast cut. The
+  script now prints both durations whenever the lag exceeds two seconds.
+
+Its envelope cache must not live in the folder being uploaded. It did, and 52
+`.npy` files landed in the bucket as `classic_who/season_9/.env/`.
+
+**Count audio tracks with mkvmerge, not ffprobe.** ffprobe lists a DTS-HD Master
+Audio track and its DTS core as two streams, so *Terror of the Autons* part 1
+reads as six audio tracks and is three, one of them 5.1 rather than 2.0. The
+season 7 rows saying "6 DTS 2.0 tracks" were written this way and are wrong on
+both counts; seasons 8 and 9 describe the lossless tracks and their layouts.
+
 **Take the Original cut, not the CGI one.** Some episodes ship both. The CGI
 sequences are carried over from the 2003 DVDs, so they are standard-definition
 compositing inside a 1080p film scan, and the disc files them under Special
@@ -572,6 +612,22 @@ exception 1 and needs a confirmed cut. The Storyteller (2x40) is `_UaZTZ6qBQo`,
 TARDIS Fandom calls it a 3-minute webcast, which is the drama, while other
 guides quote 7 minutes, which is the whole upload. None of them carries a real
 caption track, only YouTube's automatic ones, so each needs Whisper.
+
+**The user gives the cut point. Never choose one.** Cutting the Autons minisode
+without asking was wrong and was called out. The job is to find the candidate
+boundaries, hand over the link and the timecodes with the frames either side,
+and wait. Cut on an exact frame count, and note that the boundary is often
+audio, not picture: on Defenders of Earth the logo card is already on screen a
+second before the voiceover starts, so no pair of frames shows it.
+
+| Minisode | Video | Upload | Cut | Frames |
+| --- | --- | --- | --- | --- |
+| The Storyteller (2x40) | `_UaZTZ6qBQo` | 6:31 | 190.88 s | before the voiceover says "Doctor Who" |
+| Return of the Autons (8x26) | `w2NID_9KcWw` | 4:02 | **76.48 s** | 1912, last frame before the box-set packaging |
+| Defenders of Earth (9x27) | `A1rHwBiVyJQ` | 7:48 | **182.32 s** | 4558, last frame before "Doctor Who: The Collection" |
+
+Resolution varies: the season 8 trailer is 1080p, the season 9 one offers no
+better than 720p, so that row's ceiling is 720p and the ledger says so.
 
 
 What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doctor-Who-AI-Remastered`, `doctor-who_202207`), the oldtvshow size-target re-encodes as a ceiling (they are what the bucket held before).
@@ -1003,9 +1059,19 @@ Changes: ledger `best`, `checked`.
 11. Local sources and staged copies deleted once the bucket holds them; torrents removed,
     unless a neighbouring season needs a file from the same pack.
 
-`scripts/remux.js` and `python scripts/ledger/ready.py` belong to the MP4 era and are not
-part of this step: `ready.py` checks `hvc1` tagging and faststart, which are MP4
-properties, and a shipped MKV has neither. `npm run thumbs` is not part of it either,
+`scripts/remux.js` belongs to the MP4 era and is not part of this step. `ready.py` was
+excluded for the same reason, on the grounds that `hvc1` tagging and faststart are MP4
+properties a shipped MKV has neither of. That is true of those two checks and not of its
+other two: the audio codec, which decides whether the data row needs an explicit `audio`
+flag, and whether each `.srt` is really text. It only ever scanned `.mp4`, so a Classic
+folder passed every check without a single file being looked at. It now takes `.mkv` too,
+counts faststart as n/a for them, and reads another tree through `READY_CONTENT`:
+
+```
+READY_CONTENT=~/Downloads/content/classic_who python scripts/ledger/ready.py
+```
+
+`npm run thumbs` is not part of it either,
 because it runs `scripts/build-thumbs.js`, which Part I records as dead.
 
 ### 8. Publish  (act)

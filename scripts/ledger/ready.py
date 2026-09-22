@@ -21,7 +21,11 @@ import re
 import subprocess
 import collections
 
-ROOT = os.path.join(os.path.expanduser('~'), 'Downloads', 'content', 'new_who')
+# New Who by default, because that is the tree this was written for. READY_CONTENT
+# points it at another one, e.g. READY_CONTENT=~/Downloads/content/classic_who for
+# a Classic season. Same override srtify.py takes as SUBS_CONTENT.
+ROOT = os.path.expanduser(os.environ.get(
+    'READY_CONTENT', os.path.join('~', 'Downloads', 'content', 'new_who')))
 
 
 def head_boxes(path, n=2 << 20):
@@ -50,7 +54,10 @@ def main():
         if not os.path.isdir(p):
             continue
         for f in sorted(os.listdir(p)):
-            if f.lower().endswith('.mp4'):
+            # MKV as well as MP4. The Classic Blu-ray seasons are all Matroska,
+            # and scanning only .mp4 meant a Classic folder passed every check
+            # without a single file having been looked at.
+            if f.lower().endswith(('.mp4', '.m4v', '.mkv')):
                 rows.append(os.path.join(p, f))
     print('%d videos in %s\n' % (len(rows), ROOT))
 
@@ -82,12 +89,17 @@ def main():
             bad_tag.append((p, vtag))
         if acodec in ('eac3', 'ac3', 'truehd', 'dts'):
             dolby.append((p, acodec))
-        boxes = head_boxes(p)
-        fs = 'moov' in boxes and (('mdat' not in boxes) or
-                                  boxes.index('moov') < boxes.index('mdat'))
-        faststart['yes' if fs else 'no'] += 1
-        if not fs:
-            bad_fs.append(p)
+        # moov/mdat are MP4 boxes; Matroska has no such thing and nothing to
+        # order wrongly, so it is counted apart rather than failed.
+        if p.lower().endswith('.mkv'):
+            faststart['n/a (mkv)'] += 1
+        else:
+            boxes = head_boxes(p)
+            fs = 'moov' in boxes and (('mdat' not in boxes) or
+                                      boxes.index('moov') < boxes.index('mdat'))
+            faststart['yes' if fs else 'no'] += 1
+            if not fs:
+                bad_fs.append(p)
 
     print('video codec / tag:')
     for k, n in tags.most_common():

@@ -42,8 +42,22 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 # (Extended) earns its place here: Inferno part 5 ships as both an extended cut
 # and the broadcast one, and the extended file is 0.01 GB the larger, so a
 # largest-wins tie-break picked the wrong cut until this listed it.
-ALT_DIR = re.compile(r'(?:^|/)(?:dvd versions?|bonus|omnibus)(?:/|$)', re.I)
-ALT_TAG = re.compile(r'\((?:dvd version|special edition|extended|cgi|reconstruction)\)', re.I)
+#
+# Season 8 named its alternatives by folder rather than by tag - Extended, DVD
+# Restoration, 2011 DVD Restoration - and none of those were listed here, so
+# all thirteen of its choices came down to the size tie-break. They happened to
+# land right, including an Extended Claws of Axos that is 0.84 GB *smaller*
+# than the broadcast cut, which is the opposite of the season 7 trap and would
+# have gone the other way just as easily. Both lists now name what they mean.
+ALT_DIR = re.compile(
+    r'(?:^|/)(?:dvd versions?|bonus|omnibus|extended|[\w ]*restoration)(?:/|$)', re.I)
+ALT_TAG = re.compile(
+    r'\((?:dvd version|special edition|extended|cgi|reconstruction'
+    r'|[\w ]*restoration|hd early edit)\)', re.I)
+# A story that ships its broadcast cut in an Originals folder puts the
+# alternatives beside it, so when one exists for an episode it settles the
+# choice outright rather than leaving it to size.
+ORIGINALS = re.compile(r'(?:^|/)originals?(?:/|$)', re.I)
 
 
 def api(path, data=None):
@@ -68,10 +82,13 @@ def rows(season):
 
 
 def choose(files, season):
-    # The sets are inconsistent about the season code and mix styles inside one
-    # torrent: season 7 uses S7E on discs 1 and 2 and S07E on discs 4 and 5, so
-    # eleven episodes went missing until the leading zero was made optional.
-    code = re.compile(r'S0?%dE(\d\d)' % season, re.I)
+    # The sets are inconsistent about both halves of the code and mix styles
+    # inside one torrent. Season 7 uses S7E on discs 1 and 2 and S07E on discs
+    # 4 and 5, which lost eleven episodes; season 8 numbers one single episode
+    # S08E9 where its neighbours are S08E05 and S08E10, which lost The Mind of
+    # Evil part 5 alone. Both halves are optional-zero, and the episode number
+    # is anchored so S08E10 does not read as episode 1.
+    code = re.compile(r'S0?%dE(\d{1,2})(?!\d)' % season, re.I)
     by_ep = {}
     for f in files:
         if not f['name'].lower().endswith(('.mkv', '.mp4', '.m4v')):
@@ -85,7 +102,8 @@ def choose(files, season):
     for ep, cands in sorted(by_ep.items()):
         plain = [c for c in cands
                  if not ALT_DIR.search(c['name']) and not ALT_TAG.search(c['name'])]
-        pool = plain or cands
+        originals = [c for c in plain if ORIGINALS.search(c['name'])]
+        pool = originals or plain or cands
         if not plain:
             notes.append('ep%d had only alternative versions' % ep)
         chosen[ep] = max(pool, key=lambda c: c['size'])
@@ -139,4 +157,7 @@ def main():
                   for ep in sorted(chosen)))
 
 
-main()
+# Guarded so choose() can be imported and checked on its own, which is how the
+# hardened rules were confirmed to pick the same files already downloaded.
+if __name__ == '__main__':
+    main()

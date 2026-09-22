@@ -735,7 +735,18 @@ function verdict(r){
 
 function draw(){ drawAbout(); drawFocus(); drawFilters(); drawMatrix(); drawList(); drawDetail(); }
 
-function select(id){ state.sel = id; drawMatrix(); drawList(); drawDetail(); sync(); }
+/* focusCell matters more than it looks. drawMatrix replaces the whole grid,
+   so the cell that was clicked or arrowed onto is destroyed mid-redraw and
+   focus falls back to the body. That left the keyboard with no cell to start
+   from, so clicking an episode and then pressing an arrow did nothing at all.
+   Callers acting inside the grid pass true; the list and the close button do
+   not, since focus belongs where the user is. */
+function select(id, focusCell){
+  state.sel = id; drawMatrix(); drawList(); drawDetail(); sync();
+  if (!focusCell || !id) return;
+  var el = matrix.querySelector('.cell[data-id="' + id + '"]');
+  if (el) el.focus({ preventScroll: true });
+}
 
 /* State lives in the URL, so a view can be sent to somebody. */
 function sync(){
@@ -766,7 +777,7 @@ filters.addEventListener('click', function(e){
   state.want = b.dataset.w; state.shown = 120; draw(); sync();
 });
 matrix.addEventListener('click', function(e){
-  var b = e.target.closest('.cell'); if (b) select(b.dataset.id);
+  var b = e.target.closest('.cell'); if (b) select(b.dataset.id, true);
 });
 rows.addEventListener('click', function(e){
   var b = e.target.closest('.row'); if (b) select(b.dataset.id);
@@ -805,18 +816,40 @@ matrix.addEventListener('keydown', function(e){
   var i = cells.indexOf(document.activeElement);
   if (i === -1) return;
   e.preventDefault();
-  var move = function(el){ cells.forEach(function(c){ c.tabIndex = -1; }); el.tabIndex = 0; el.focus(); };
+  /* Selecting as it moves is the point: the record below follows the arrow
+     keys, so the whole grid can be read without touching the mouse. select
+     redraws and hands the tabindex to the new cell, so nothing here has to
+     manage it. */
+  var move = function(el){ select(el.dataset.id, true); };
   var step = (e.key === 'ArrowRight') ? 1 : (e.key === 'ArrowLeft') ? -1 : 0;
-  if (!step){
-    var here = document.activeElement.getBoundingClientRect();
-    var want = e.key === 'ArrowDown' ? 1 : -1;
-    for (var j = i + want; j >= 0 && j < cells.length; j += want){
-      var r = cells[j].getBoundingClientRect();
-      if (Math.abs(r.left - here.left) < 9 && r.top !== here.top){ move(cells[j]); return; }
-    }
-    return;
-  }
-  var n = cells[i + step]; if (n) move(n);
+  if (step){ var n = cells[i + step]; if (n) move(n); return; }
+  /* Up and down move one season, not one pixel-aligned column. Asking for a
+     cell at the same left offset in the next row finds nothing whenever that
+     season is shorter, and the focus then simply stayed put, which made the
+     whole grid unreadable by keyboard from season 7 down. Group the cells into
+     rows by their top, then take the nearest cell in the adjacent row, which
+     lands on the last episode when that season is shorter and keeps the column
+     when it is not. */
+  var rows = [], tops = [];
+  cells.forEach(function(c){
+    var t = Math.round(c.getBoundingClientRect().top);
+    var k = tops.indexOf(t);
+    if (k === -1){ tops.push(t); rows.push([c]); } else { rows[k].push(c); }
+  });
+  var order = tops.map(function(t, k){ return [t, k]; })
+                  .sort(function(a, b){ return a[0] - b[0]; })
+                  .map(function(p){ return rows[p[1]]; });
+  var here = document.activeElement.getBoundingClientRect();
+  var row = -1;
+  order.forEach(function(r, k){ if (r.indexOf(document.activeElement) !== -1) row = k; });
+  var want = row + (e.key === 'ArrowDown' ? 1 : -1);
+  if (row === -1 || want < 0 || want >= order.length) return;
+  var best = null, gap = Infinity;
+  order[want].forEach(function(c){
+    var d = Math.abs(c.getBoundingClientRect().left - here.left);
+    if (d < gap){ gap = d; best = c; }
+  });
+  if (best) move(best);
 });
 
 fromHash();
