@@ -71,7 +71,7 @@ for (const row of allWho) {
   if (!src) { out.push(e); continue; }
   // Only what the source actually has. An item with no file yet contributes a
   // title and nothing else, and the client greys it out the same as elsewhere.
-  for (const k of ['released', 'overview', 'quality', 'audio', 'thumbnail',
+  for (const k of ['released', 'overview', 'audio', 'thumbnail',
     'streamUrl', 'subtitleUrl', 'filename']) {
     if (src[k] !== undefined) e[k] = src[k];
   }
@@ -93,7 +93,7 @@ if (!WRITE) {
 }
 
 const KEYS = ['title', 'season', 'episode', 'type', 'released', 'overview',
-  'quality', 'audio', 'thumbnail', 'streamUrl', 'subtitleUrl', 'filename'];
+  'audio', 'thumbnail', 'streamUrl', 'subtitleUrl', 'filename'];
 const header = `// The Complete Chronology — generated, do not edit.
 //
 // Every item in the Whoniverse in one running order, taken from

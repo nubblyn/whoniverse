@@ -47,8 +47,6 @@ them (see the 7-Zip entry for why).
 - Service on `http://127.0.0.1:9696`, 22 public indexers, FlareSolverr on 8191.
   `pq.py` reads the API key from Prowlarr's own `C:/ProgramData/Prowlarr/config.xml`;
   never copy it anywhere else.
-- Jackett is **not** to be used: two of its five indexers silently returned nothing for a
-  week. It is due to be uninstalled.
 - The client is `scripts/search/pq.py`. Forty lines: `GET /api/v1/search?query=…&type=search&limit=200`
   with header `X-Api-Key`. Prints seeders, GB, indexer, age, title verbatim.
   ```

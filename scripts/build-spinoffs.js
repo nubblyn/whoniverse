@@ -68,37 +68,17 @@ function tsv(file) {
 }
 
 /**
- * Read the ledger's `have` column, which is free text describing the master.
- *   "1080p 25fps AAC"                    -> { quality: '1080p', audio: 'AAC' }
- *   "720x576 25fps AAC"                  -> { quality: '576p',  audio: 'AAC' }
- *   "2160p 23.976fps TrueHD/DTS/AC-3"    -> { quality: '2160p', audio: 'TrueHD' }
+ * The default audio track, from the ledger's `have` column, which is free text
+ * describing the master: "2160p 23.976fps TrueHD/DTS/AC-3" gives TrueHD.
  *
  * Where several audio codecs are listed the first is the default track, which
  * is the one a client will actually play and the one web-readiness turns on.
+ * The resolution tier this used to read as well went on 23 September 2026:
+ * nothing showed it once streams became "Play Episode", and `have` says it.
  */
 function fromHave(have) {
-  const out = {};
-  const res = /(\d{3,4})p|(\d{3,4})x(\d{3,4})/.exec(have || '');
-  if (res) {
-    const height = res[1] ? +res[1] : +res[3];
-    const width = res[2] ? +res[2] : null;
-    // Tiers a client badges, chosen on height, with width as the tie-break for
-    // a letterboxed master that is wider than it is tall for its class.
-    // Below 570 the ladder used to fall through to a literal height, which no
-    // series exercised until Classic Who arrived at 704x528, 688x512, 720x564
-    // and so on. Those are cropped PAL masters, not a tier of their own, and a
-    // "528p" badge tells a viewer nothing. Anything from 500 up is PAL and
-    // badges 576p; below that is NTSC or a telesnap reconstruction at 480.
-    out.quality = height >= 2000 || (width && width >= 3800) ? '2160p'
-      : height >= 1400 ? '1440p'
-        : height >= 1000 || (width && width >= 1900) ? '1080p'
-          : height >= 700 ? '720p'
-            : height >= 500 ? '576p'
-              : height >= 440 ? '480p' : `${height}p`;
-  }
   const aud = /(TrueHD|E-AC-3|AC-3|AAC|MP3|Opus|FLAC|DTS-HD(?:\s*MA)?|DTS)/i.exec(have || '');
-  if (aud) out.audio = aud[1];
-  return out;
+  return aud ? { audio: aud[1] } : {};
 }
 
 // Midday UTC: the ledger records a date, not a time, and midday is the one
@@ -202,7 +182,7 @@ const episodes = [
 `;
 
   const KEYS = ['title', 'season', 'episode', 'type', 'released', 'overview',
-    'quality', 'audio', 'thumbnail', 'streamUrl', 'subtitleUrl', 'filename'];
+    'audio', 'thumbnail', 'streamUrl', 'subtitleUrl', 'filename'];
   const body = episodes.map((e) => {
     const lines = KEYS
       .filter((k) => e[k] !== undefined)
@@ -218,7 +198,6 @@ const episodes = [
   console.log(`  ${before.length} entries -> ${episodes.length}`);
   console.log(`  with a stream : ${episodes.filter((e) => e.streamUrl).length}`);
   console.log(`  with a still  : ${episodes.filter((e) => e.thumbnail).length}`);
-  console.log(`  quality       : ${[...new Set(episodes.map((e) => e.quality))].join(', ')}`);
   console.log(`  audio         : ${[...new Set(episodes.map((e) => e.audio))].join(', ')}`);
   const changedTitles = episodes.filter((e) => {
     const b = before.find((x) => x.season === e.season && x.episode === e.episode);
