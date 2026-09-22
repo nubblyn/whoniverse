@@ -6,6 +6,20 @@ This document says what the parts are and how they connect. How a season is work
 through is in [season-pass.md](season-pass.md); what is outstanding is in
 [open-tasks.md](open-tasks.md).
 
+## The documents
+
+| File | For | Changes when |
+| --- | --- | --- |
+| `README.md` | the public face on GitHub: what the addon is, how to install it, what plays | a series' availability changes; its wording is reused for the manifest and the listing |
+| `docs/architecture.md` | this file: the parts, the repo, the ledger, the addon entry, what builds what, every script and tool | a part, route, script, column or naming rule changes |
+| `docs/season-pass.md` | the procedure for one season: the toolbox and its traps, where sources are, the rules a season must meet, the eight steps, the closing checklist, and rules settled along the way | a pass teaches something that the next one needs |
+| `docs/open-tasks.md` | what is outstanding: work in flight, questions waiting on an answer, seasons not started, checks owed | a task starts or finishes; a finished line is deleted, not ticked |
+
+Each fact has one home. How something is built goes here, how a season is worked goes
+in the season pass, and anything still to do goes in open tasks, so none of them keeps
+a copy of another. Claude's own notes between sessions live outside the repo, in its
+memory folder on this machine, and point back to these files rather than repeating them.
+
 ## The parts
 
 | Part | What it is | Where it lives | How it changes |
