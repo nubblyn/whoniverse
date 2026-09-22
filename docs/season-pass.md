@@ -113,6 +113,20 @@ on a video, never both `title` and `description` on a stream. Video ids are ours
 (`whoniverse_new_who:1:14`) and watch history keys on them, so renumbering an episode
 resets its history; flag a renumber, never do it in passing.
 
+**Order is the numbering, the date is the date.** Since 22 September 2026 the addon lists
+a season in (season, episode) order and nothing else; it used to sort by `released` and
+fall back to the number. Sorting by date put the two Lockdown shorts set in season 3,
+released in 2020, at the end of the season, and put any row with a wrong date in the wrong
+place without anyone noticing. So a row's place comes from the ledger's row order and its
+`released` is the true first release, however many years after its neighbours that is.
+Never adjust a date to make the order come out right.
+
+**The stream says `Play Episode`** (`Play Film` for the 1996 film), named `Whoniverse`,
+with no quality in the text: quality is on the row, and the stream picker is not where
+people compare it. The `bingeGroup` is `whoniverse|<series key>` and also carries no
+quality, because Stremio's autoplay only moves to the next episode when the groups match,
+and a 1080p episode followed by a 2160p one stopped autoplay dead.
+
 ---
 
 ## B. The toolbox
@@ -210,12 +224,37 @@ them (see the 7-Zip entry for why).
 
 ### faster-whisper, for anything with no subtitle track
 
-- `faster-whisper 1.2.1`, `ctranslate2 4.8.2`, and `ctranslate2.get_cuda_device_count()`
-  now returns 1. The driver used this week (`scripts/subs/wall.py`) still says
-  `device='cpu', compute_type='int8'` because the CUDA runtime was missing when it was
-  written; try `device='cuda', compute_type='float16'` first and fall back if the first
-  encode throws. The failure appears on the first encode, not when the model loads, so
-  probe with a second of silence before committing to a file.
+- `faster-whisper 1.2.1`, `ctranslate2 4.8.2`, on the RTX 3070 in `float16`. The GPU
+  needs the CUDA 12 libraries, which come from PyPI:
+  `pip install nvidia-cublas-cu12 nvidia-cudnn-cu12`. On Windows their `bin` folders are
+  not on the DLL path, so the script adds them with `os.add_dll_directory` before
+  importing `faster_whisper` (see the top of `scripts/subs/whisper_batch.py`). Without
+  them the model loads and the **first encode** throws, so probe with a second of silence
+  before committing to a file. The GPU does a 25-minute episode in about three minutes; the
+  CPU at `int8` runs at roughly real time.
+- **`scripts/subs/whisper_batch.py targets.tsv`** transcribes whole episodes from the
+  bucket: one line per video (series, season, stem, bucket path, title), audio pulled from
+  `f003.backblazeb2.com` into a 16 kHz WAV a few files ahead of the GPU, output to
+  `scripts/subs/subs/<stem>.whisper.json`, existing transcripts skipped so a run can be
+  restarted. The vocabulary prompt is built from the era's companions and the story title.
+  VAD stays on for whole episodes, with the threshold at 0.35 rather than 0.5 (see
+  Hello Boys! below), because long music beds without it fill with invented lines.
+- **`scripts/subs/build_subs.py targets.tsv OUTDIR`** then decides each file's track and
+  writes `OUTDIR/<stem>.srt` plus `decisions.tsv` (`--report` decides without writing).
+  For Classic it first tries the human-made set on archive.org,
+  `doctor-who-1963_20251231`: 614 `.srt` named `DoctorWho<SS><EE><Title>.srt` in the
+  ledger's own numbering. A human track beats Whisper only if it is this episode timed to
+  this cut, so it is tested against what Whisper heard: the cues are shifted from −30 s to
+  +30 s, and at each offset the words of about 80 cues are compared with the words spoken
+  in each cue's window. It is accepted, shifted by the best offset, when the mean overlap
+  reaches 0.50 and beats every offset two seconds or more away by 0.20; then it goes
+  through `housestyle.py`. Otherwise the Whisper track is built with `srtify.build()`.
+  The first test compared cue starts with word starts and could not judge: Classic
+  dialogue is dense enough that an unrelated offset scored 87%. A real match looks like
+  The Roof of the World, 0.85 at +0.7 s against a runner-up near 0.3.
+- This route is only for files that carry **no** subtitle track. A PGS track on a
+  Collection disc is the original and is kept; it is never OCRed and never shadowed by a
+  sidecar (Part I).
 - Settings that worked: model `large-v3`, `language='en'`, `beam_size=5`,
   `vad_filter=True`, `word_timestamps=True`, and an **`initial_prompt` naming the show's
   vocabulary** (TARDIS, Gallifrey, Zygon, Sontaran, Cyberman, Dalek, the Doctor's
@@ -737,7 +776,9 @@ What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doct
   (Space, Time).
 - Minisodes are numbered into the series by story placement; a Lockdown short after The
   Girl in the Fireplace is 2x05 and the season's later episodes shift. That is settled;
-  do not renumber without flagging (video ids).
+  do not renumber without flagging (video ids). The date stays the real one: Shadow of a
+  Doubt and The Shadow in the Mirror are 3x12 and 3x13, before Blink, released
+  24 April 2020 (see *Order is the numbering* in Part A).
 - Wiped episodes stay as rows, `status: missing`, with a `note`; animated restorations
   take the episode's place as `Animated Restoration`.
 - **A `missing` row with no file gets the shared missing-episode card** as its
