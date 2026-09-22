@@ -52,25 +52,13 @@ landing page. Everything the addon hands to a client comes from that
 bucket: posters, backgrounds, logos, stills and subtitles. Nothing is fetched
 from a third party at request time.
 
-```
-api/index.js       Vercel entry point: landing page, subtitle relay, addon router
-server.js          the same, as a local server on port 7000
-lib/series.js      the registry: one entry per series, in catalogue order
-lib/catalog.js     episodes in broadcast order, catalog and meta objects
-lib/streams.js     the one stream per episode
-lib/subtitles.js   subtitles relayed with the CORS header Stremio Web needs
-lib/landing.js     the landing page, built to the Figma design
-lib/addon.js       manifest and handlers
-data/<series>.js   the episodes, one file per series
-public/art/        website images (WebP, built from art-src/)
-art-src/           image sources: Figma exports and originals
-scripts/           publishing tools, run on your machine, not on the host
-```
+The catalogue itself is the ledger in `ledger/`, one TSV per series, shown at
+https://whoniverse.nubblyn.com/ledger. Video ids are the addon's own
+(`whoniverse_new_who:1:1`), so other addons do not answer for its episodes and
+watch history stays with this catalogue.
 
-Video ids are the addon's own (`whoniverse_new_who:1:1`), so other addons do
-not answer for its episodes and watch history stays with this catalogue.
-Episodes with Dolby E-AC-3 audio (S14 to S16) are marked not web-ready, since
-browsers cannot decode that track.
+[docs/architecture.md](docs/architecture.md) describes every part, the
+repository layout, what builds what and each script.
 
 ## Running it locally
 
@@ -81,26 +69,6 @@ npm start
 
 Then open http://127.0.0.1:7000/ for the landing page and
 http://127.0.0.1:7000/manifest.json for the addon.
-
-## Scripts
-
-Publishing is done from here, not on the host. Shell scripts run through
-`scripts/run.js`, which launches Git Bash on Windows.
-
-| Command | What it does |
-| --- | --- |
-| `npm run art` | build the website WebP set and the bucket JPEG/PNG set from `art-src/` |
-| `npm run art:upload` | copy the bucket set to `art/` in the bucket |
-| `npm run relink` | point episode URLs at a new media base |
-| `npm run check-links` | confirm every stream, subtitle and still URL answers |
-| `npm run mirror` | copy a season from archive.org into the bucket (how New Who got there) |
-| `npm run setup-b2` | configure the rclone remote for the bucket |
-| `npm run doctor` | check the local tooling |
-| `node scripts/fetch-metadata.js <series>` | catalogue a series from Cinemeta; refuses to touch curated data |
-| `node scripts/subs/*.js` | subtitle pipeline: audit, strip hearing-impaired cues, polish, lint |
-
-Adding a series means one entry in `lib/series.js` and one file in `data/`.
-Making it playable means adding a `streamUrl` to its episodes.
 
 ## Feedback
 

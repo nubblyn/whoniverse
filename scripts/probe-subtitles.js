@@ -14,8 +14,8 @@
 // ffprobe reads a container's stream list over a range request, so a 1.5GB
 // episode costs a second or two and a few hundred KB. Nothing is downloaded.
 //
-// Note the host: Cloudflare refuses Vercel's functions, and this uses B2's own
-// origin for the same reason probe-media.js does.
+// Note the host: Cloudflare refuses tools and Vercel alike, so this reads B2's own
+// origin.
 
 const fs = require('node:fs');
 const path = require('node:path');

@@ -24,22 +24,19 @@ import urllib.parse
 import urllib.request
 
 HOST = os.environ.get('PROWLARR_HOST', 'http://127.0.0.1:9696')
-KEYFILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), '.pk')
 
 
 def key():
-    """The API key, from the environment, a .pk file beside this script, or
-    Prowlarr's own config. The .pk file is gitignored; the config path is where
-    the service keeps the key anyway, so a fresh checkout needs nothing copied."""
+    """The API key, from the environment or from Prowlarr's own config, where
+    the service keeps it anyway. Nothing is copied out of it, so there is no
+    second place the key can leak from."""
     k = os.environ.get('PROWLARR_KEY')
     if k:
         return k.strip()
-    if os.path.exists(KEYFILE):
-        return io.open(KEYFILE, encoding='utf8').read().strip()
     cfg = r'C:/ProgramData/Prowlarr/config.xml'
     m = re.search(r'<ApiKey>([^<]+)</ApiKey>', io.open(cfg, encoding='utf8').read())
     if not m:
-        raise SystemExit('no Prowlarr key: set PROWLARR_KEY or create %s' % KEYFILE)
+        raise SystemExit('no Prowlarr key: set PROWLARR_KEY, or check %s' % cfg)
     return m.group(1).strip()
 
 

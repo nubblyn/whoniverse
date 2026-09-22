@@ -27,8 +27,9 @@ Last reviewed 23 September 2026.
 - **Cyber-Controller holds Administrator in Discord.** It needs six permissions. Only a
   person can change a bot's top role.
 - **Log the second GitHub account out of `gh`** on this machine, to be run by the user.
-- **`.agents/` and `skills-lock.json`** sit untracked in the repo. Commit or ignore?
-- **The Google Sheet** may still show old data until the workbook is imported again.
+- **Delete or archive the Google Sheet.** It was dropped on 23 September; `/ledger` is
+  the only ledger now, and nothing builds the sheet any more.
+- **Uninstall Jackett.** The plan has said never to use it since September.
 - **The Tardisodes request in #requests** has had no reply since 8 September.
 
 ## Collection seasons not started
@@ -59,5 +60,4 @@ No video was touched. Check these again at each season's step 4:
 ## Smaller items
 
 - Six Collection minisodes have no description yet. Each gets one in its season's pass.
-- `scripts/quality-report.js` still reads the removed `ceiling` column.
 - Stop the local preview server when the session ends.

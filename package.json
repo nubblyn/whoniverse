@@ -1,24 +1,16 @@
 {
   "name": "whoniverse-addon",
-  "version": "2.1.1",
+  "version": "2.2.0",
   "description": "Doctor Who in original UK broadcast order, as an addon for Stremio and Nuvio.",
   "main": "api/index.js",
   "scripts": {
     "start": "node server.js",
-    "mirror": "node scripts/run.js mirror-archive",
-    "relink": "node scripts/relink.js",
-    "map": "node scripts/map-imdb.js --write",
-    "sources": "node scripts/pick-sources.js",
-    "gaps": "node scripts/gaps.js",
-    "setup-b2": "node scripts/run.js setup-b2",
-    "check-links": "node scripts/check-links.js",
-    "doctor": "node scripts/run.js doctor",
-    "dev": "node server.js",
     "build": "node scripts/stamp.js",
+    "check-links": "node scripts/check-links.js",
+    "stamp:media": "node scripts/stamp-media.js",
+    "map": "node scripts/map-imdb.js --write",
     "art": "node scripts/build-art.js",
-    "art:upload": "node scripts/run.js upload-art",
-    "thumbs": "node scripts/build-thumbs.js",
-    "stamp:media": "node scripts/stamp-media.js"
+    "art:upload": "node scripts/run.js upload-art"
   },
   "dependencies": {
     "stremio-addon-sdk": "^1.6.10"

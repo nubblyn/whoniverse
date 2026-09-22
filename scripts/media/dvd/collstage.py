@@ -178,4 +178,5 @@ def main():
     print('\n%d mismatched' % len(bad))
 
 
-main()
+if __name__ == '__main__':
+    main()

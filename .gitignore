@@ -1,31 +1,18 @@
 node_modules/
-.env
-.env.local
-logs/
-torrents/
-.vercel
+__pycache__/
 *.log
 
-# scratch outputs of scripts/; the real data lives inline in data/*.js
-data/imdb-map.json
-data/sources.json
-logs/
-
-.vercel
+# local credentials and the Vercel link; never committed
 .env*
-.env.local
-.vercel
-data/updated.json
-art-cdn/
+.vercel/
 
-# local preview config for the editor, not part of the addon
+# the editor's preview config
 .claude/
 
-# generated from ledger/*.tsv by ledger/build.py
+# generated: ledger/build.py, scripts/build-art.js, scripts/stamp.js
 ledger/out/
+art-cdn/
+data/updated.json
 
-# Prowlarr API key, read by scripts/search/pq.py; never committed
-scripts/search/.pk
-
-# Python bytecode
-__pycache__/
+# scratch output of scripts/map-imdb.js without --write
+data/imdb-map.json

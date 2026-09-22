@@ -1,18 +1,15 @@
-# The publishing pipeline runs on your machine, not on the addon host.
+# A CLI deploy uploads the working directory, not the commit, so everything
+# that is not read at request time stays behind. The publishing tools run on
+# this machine; stamp.js is the one script the Vercel build runs.
 scripts/*
-logs/
-
-# Never upload credentials or local state.
-.env
-.git/
-node_modules/
-server.js
-art-src/
 !scripts/stamp.js
-art-cdn/
-# Working material, not part of the addon. The ledger is the reference file for
-# the whole project and the docs are notes; neither is read at request time, and
-# a CLI deploy uploads the working directory rather than the commit.
 ledger/
 docs/
-logs/
+art-src/
+art-cdn/
+server.js
+
+# Never upload credentials or local state.
+.env*
+.git/
+node_modules/

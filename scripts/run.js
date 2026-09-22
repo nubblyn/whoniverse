@@ -5,8 +5,8 @@
 // under a Linux $HOME. Every script here drives the Windows rclone and its
 // Windows config, so they need Git Bash specifically.
 //
-//   node scripts/run.js setup-b2
-//   node scripts/run.js mirror-archive 01 04
+//   node scripts/run.js upload-art
+//   node scripts/run.js bucket-index
 
 const { spawnSync } = require('node:child_process');
 const { existsSync } = require('node:fs');
