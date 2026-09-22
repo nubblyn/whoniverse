@@ -826,10 +826,61 @@ opening the video at two cues rather than trusting a tool.
   > London.
 - Plain words. No em dashes, no "delve", "leverage", "robust", no "not X, but Y".
 
-### Public prose (manifest, README, Discord, listing)
+### Public prose (manifest, README, listing)
 
 The README is canonical; reuse its phrasings. No em dashes, no AI-isms, no hard-wrapped
 lines in web forms (the listing renders every newline as a break).
+
+### Discord: the bot speaks as the Cyber-Controller
+
+Everything the bot posts is in the Cyber-Controller's voice: announcements, the pinned
+posts, the daily news. Settled with the user on 22 September 2026. It is the one place
+the plain register above does not apply, though its rules still hold underneath: no em
+dashes, no hype.
+
+**Shape.** A bold all-caps headline that states the event as an operation, then a body in
+normal case made of short, flat statements:
+
+```
+**UPGRADE COMPLETE. CLASSIC WHO AND THE WILDERNESS YEARS HAVE BEEN CONVERTED.**
+
+• Classic Who: 705 of 716 episodes converted. 1963 to 1989, in UK broadcast order.
+...
+Seasons 15 and 17 are next. You will be upgraded.
+```
+
+Words that fit: converted, upgraded, processed, logged, stored, units, protocol. Stock
+lines, one or two a post at most: "Resistance is useless." "You will be upgraded."
+"Emotion was not a factor. Only efficiency." "Duplication is inefficient."
+"Imperfection will not be tolerated." "That is an order."
+
+**What the voice must not touch:**
+
+- **Facts.** Every figure exactly as the live data gives it, checked before posting. The
+  voice decorates a number and never rounds or inflates it.
+- **The word "deleted" next to a series.** A reader takes it to mean the series is gone.
+  Say rebuilt or replaced.
+- **Functional text.** The manifest URL, the install steps, the #issues copy-and-fill
+  template and the meaning of the BBC notice stay literal, because people copy and rely
+  on them.
+- **Other people's words.** A news headline is left exactly as the site wrote it; the
+  voice goes in a line beside it, never into it.
+- **History.** Restyling a dated announcement changes its voice, not its figures, so it
+  still says what was true the day it went up. The pinned posts in #welcome, #install and
+  #requests are the current state instead, and are corrected whenever they drift.
+
+**Where each kind of post goes:**
+
+| Channel | What | Written by |
+| --- | --- | --- |
+| #announcements `1546484723285495828` | a series or a pass lands | hand, via the Discord MCP |
+| #welcome, #install, #issues, #requests | pinned standing posts | hand; edit in place, never repost |
+| #whats-new-in-who `1546485047119323186` | Doctor Who news, daily at 10:00 | `lib/news.js` on the Vercel cron |
+
+The news voice lives in `lib/news.js`: an `INTRO` list of Cyber-Controller lines, one
+chosen per article by hashing its link, so an article always gets the same line and a
+rerun cannot reword it. It is posted as Discord subtext (`-# `) above the untouched
+headline. Add lines to that list to widen the repertoire.
 
 ---
 
@@ -1118,9 +1169,12 @@ rclone rc vfs/refresh recursive=true --url 127.0.0.1:5572   # W: still lists del
 git add ledger data public docs && git commit -m "New Who season 1: <what changed>"
 ```
 Then the hand-written surfaces if a series' availability changed: manifest description
-and version in `lib/addon.js`, the README table, the stremio-addons.net listing, a post
-in Discord `#whats-new-in-who` (`1546485047119323186`) via the Discord MCP. Wording from
-the README.
+and version in `lib/addon.js`, the README table, the stremio-addons.net listing, and a
+post in Discord #announcements (`1546484723285495828`) via the Discord MCP. The first
+three take their wording from the README; the Discord post is in the Cyber-Controller's
+voice (Part D, "Discord"), and the pinned #welcome and #requests posts are corrected in
+place if the counts they state have moved. #whats-new-in-who is the news feed, not the
+place for this.
 
 ---
 
