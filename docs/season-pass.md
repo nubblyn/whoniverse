@@ -304,6 +304,19 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
 - **Use `--filter`, never `--include` with `--exclude`.** The order they are parsed in is
   indeterminate and the include won: `--include "season_9/**" --exclude "*_full.mp4"`
   uploaded the uncut trailer source anyway. rclone warns about this in its own output.
+  **This bites hardest on delete**, where the cost is not a stray file but a lost one:
+  `rclone delete --include "*.srt" --exclude "*minisode*"` took the minisode's subtitle
+  with the twenty-five superseded ones, an hour after the upload half of this rule was
+  written down. Ordered filters do what they say, and `--dry-run` first:
+
+  ```
+  rclone delete b2:whoniverse/classic_who/season_9/ \
+    --filter "- *minisode*" --filter "+ *.srt" --filter "- *" --dry-run
+  ```
+
+  Recovery is `rclone lsf --b2-versions` to find the hidden version and `copyto` to pull
+  it back; the bucket keeps one for a day. Restoring the identical bytes leaves the `?v=`
+  hash valid, so nothing downstream needs rebuilding.
 - **An overwrite only replaces the same name.** Season 9's *The Mutants* were `.mp4` in
   the bucket and `.mkv` on the disc, so six old objects survived the upload as duplicates
   of episodes that now had two files. Compare the extensions in `bucket-index.txt` against
