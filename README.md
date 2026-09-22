@@ -16,22 +16,30 @@ they play anywhere the addon does.
 
 ## What is in it
 
-**New Who** is complete: 239 episodes across 16 seasons, from *Rose* in 2005
-to the present day. Every special, minisode and prequel sits inside its season
-at the point it aired, so the story runs straight through. Each episode has a
-still, an air date, a hand-written summary and English subtitles.
+Every series plays: 1,098 of the 1,124 episodes in the catalogue.
 
-The rest of the Whoniverse is catalogued and waiting for files:
-
-| Series | Episodes | Status |
+| Series | Episodes | Playing |
 | --- | --- | --- |
-| Classic Who (1963 to 1989) | 796 | catalogued |
-| Doctor Who: The Movie (1996) | 1 | catalogued |
-| New Who (2005 to present) | 239 | **available** |
-| Torchwood (2006 to 2011) | 53 | catalogued |
-| The Sarah Jane Adventures (2007 to 2011) | 64 | catalogued |
-| Class (2016) | 8 | catalogued |
-| The War Between the Land and the Sea (2025) | 5 | catalogued |
+| Classic Who (1963 to 1989) | 716 | 705 |
+| Wilderness Years (1993 to 2003), with the 1996 film | 28 | 28 |
+| New Who (2005 to present) | 270 | 255 |
+| Torchwood (2006 to 2011) | 42 | 42 |
+| The Sarah Jane Adventures (2007 to 2011) | 55 | 55 |
+| Class (2016) | 8 | 8 |
+| The War Between the Land and the Sea (2025) | 5 | 5 |
+
+The **Complete Chronology** runs all of it as one list, 1963 to now, from the
+same files.
+
+Every special, minisode and prequel sits inside its season where its story
+belongs, so the story runs straight through. One released years later still
+sits beside the episode it goes with, and shows its real release date. Each
+episode has a still and a hand-written summary, and nearly all have English
+subtitles, the disc's own wherever the disc has them.
+
+The 26 that do not play yet are the thirteen Series 2 Tardisodes, two other New
+Who minisodes, eight Classic minisodes, *K9 and Company*, and parts 3 and 4 of
+*Resurrection of the Daleks*.
 
 The addon lists only what plays. The website shows everything, with the
 completion figure for each.

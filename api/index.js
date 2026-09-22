@@ -42,19 +42,24 @@ module.exports = async (req, res) => {
     return;
   }
 
-  // The ledger. A static page built by ledger/viewer.py and committed to
+  // The ledger. A static page built by ledger/board.py and committed to
   // public/ — the build runs node, so nothing regenerates it at deploy time.
   // Served from here rather than left to /ledger.html so the link is clean,
   // and so a missing file says so instead of falling through to the addon
   // router's JSON 404.
-  // Two of them now: /ledger is the printed table from viewer.py, /ledger-v2
-  // the board from v2.py. Separate scripts and separate addresses, so neither
-  // can break the other.
+  // There used to be two: a printed table from viewer.py here and the board at
+  // /ledger-v2. The board replaced the table on 22 September 2026, so the old
+  // board address sends people here rather than to a 404; the #fragment a
+  // shared view carries survives the redirect.
+  if (path === '/ledger-v2' || path === '/ledger-v2.html') {
+    res.statusCode = 301;
+    res.setHeader('Location', '/ledger');
+    res.end();
+    return;
+  }
   const LEDGERS = {
-    '/ledger': ['ledger.html', 'python ledger/viewer.py'],
-    '/ledger.html': ['ledger.html', 'python ledger/viewer.py'],
-    '/ledger-v2': ['ledger-v2.html', 'python ledger/v2.py'],
-    '/ledger-v2.html': ['ledger-v2.html', 'python ledger/v2.py'],
+    '/ledger': ['ledger.html', 'python ledger/board.py'],
+    '/ledger.html': ['ledger.html', 'python ledger/board.py'],
   };
   if (LEDGERS[path]) {
     const [name, how] = LEDGERS[path];

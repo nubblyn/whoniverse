@@ -210,6 +210,7 @@ const episodes = [
   season: 1,
   episode: 16,
   type: "Animated Series",
+  released: new Date("2003-05-02").toISOString(),
   overview: "The Eighth Doctor is called back to Cambridge to finish something the Fourth never did, and finds Romana remembers a professor and a book that he does not. Skagra wants the same book, and the prison planet whose location only it holds.",
   quality: "2160p",
   audio: "AAC",

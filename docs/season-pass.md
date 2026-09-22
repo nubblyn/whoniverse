@@ -51,7 +51,7 @@ passes were running; read those two before starting a season.**
 - `best`: **the best release the BBC put out**, as **source + resolution + audio**: `2160p UHD Blu-ray x265 HDR DTS-HD MA 5.1`, `1080p Blu-ray x264`, `576i DVD`, `1080p YouTube, official channel`. Highest resolution wins; newer official release beats older; official beats a rip. A good encode of the best master is fine, a 40 GB lossless remux of it is not worth the space. Merged from the old `ceiling` and `found` columns on 15 September 2026.
 - `checked`: the date the indexers were last asked. Blank means never.
 - `have`: what is **in the bucket**, as probed: `1872x1080 23.976fps AAC`. Blank means nothing in the bucket. Never a local file.
-- `source`: **where that file came from**, as `<who> | <what>`: `Panda | 1080p BluRay x265 HEVC 10bit AAC 5.1`, `get_iplayer | b007zv0y original, hlsxsd1, 960x540 50fps`, `NTb | 576i BluRay Remux DTS-HD MA 2.0 H264`, `YouTube | official @DoctorWho channel`. The release group or service, then what the file actually is. Where the copy is older than the record, say so plainly rather than guessing: `held before Sep 2026, provenance unrecorded`. Blank only where `have` is blank. It is shown on `/ledger-v2` when an episode is opened, never in the list.
+- `source`: **where that file came from**, as `<who> | <what>`: `Panda | 1080p BluRay x265 HEVC 10bit AAC 5.1`, `get_iplayer | b007zv0y original, hlsxsd1, 960x540 50fps`, `NTb | 576i BluRay Remux DTS-HD MA 2.0 H264`, `YouTube | official @DoctorWho channel`. The release group or service, then what the file actually is. Where the copy is older than the record, say so plainly rather than guessing: `held before Sep 2026, provenance unrecorded`. Blank only where `have` is blank. It is shown on `/ledger` when an episode is opened, never in the list.
 - `released`: air date, `YYYY-MM-DD`.
 - `description`: the two-sentence summary (rules in Part D). The addon's `overview` for New Who and Classic is still hand-held in `data/*.js`; the spin-offs take theirs from here.
 
@@ -63,8 +63,7 @@ ledger/series/*.tsv ──► ledger/build.py ──► ledger/out/file-names.ts
                                         ──► data/registry.json          (series/season/episode index)
 
 ledger/out/file-names.tsv + ledger/out/bucket-index.txt + data/subtitles.json
-                    ──► ledger/v2.py     ──► public/ledger-v2.html   (the board)
-                    ──► ledger/viewer.py ──► public/ledger.html      (the table)
+                    ──► ledger/board.py  ──► public/ledger.html      (the ledger, at /ledger)
 
 ledger/series/0[5-8]-*.tsv + bucket ──► scripts/build-spinoffs.js --write ──► data/torchwood.js etc.
 ledger/all-who.tsv + data/*.js      ──► scripts/build-chronology.js --write ──► data/complete-chronology.js
@@ -74,11 +73,11 @@ bucket ──► scripts/bucket-index.sh ──► ledger/out/bucket-index.txt  
 
 bucket SHA1s ──► scripts/stamp-media.js --write ──► the ?v=xxxxxxxx on every URL in data/*.js
 
-data/*.js + lib/*.js ──► npx vercel deploy --prod ──► the addon, the website, /ledger, /ledger-v2
+data/*.js + lib/*.js ──► npx vercel deploy --prod ──► the addon, the website, /ledger
 ```
 
 Order of operations after any bucket change, or nothing downstream sees it:
-`bucket-index.sh` → `stamp-media.js --write` → `check-links.js` → `build.py` → `v2.py` → `viewer.py` → `vercel deploy --prod` → `rclone rc vfs/refresh` (the W: mount, see Part B).
+`bucket-index.sh` → `stamp-media.js --write` → `check-links.js` → `build.py` → `board.py` → `vercel deploy --prod` → `rclone rc vfs/refresh` (the W: mount, see Part B).
 
 ### The file naming scheme
 
@@ -464,8 +463,7 @@ render, not an upscale. Nothing needs Swivel or a GUI:
 | Script | Does |
 | --- | --- |
 | `ledger/build.py` | TSVs → `file-names.tsv`, xlsx, `registry.json`. Validates: `note` only on missing rows, categories known, `_height()` is the one resolution parser (`1080p`, `1080i`, `1920x960` → 1080, `SD` → 576) |
-| `ledger/v2.py` | the board at `/ledger-v2`. States: `absent` (job), `upgrade` (job, `have` below `best`), `ok`, `recon`, `gone`. Reads `bucket-index.txt` for what is held; `have` does not decide presence |
-| `ledger/viewer.py` | the table at `/ledger` |
+| `ledger/board.py` | the ledger at `/ledger` (`/ledger-v2` redirects there). States: `absent` (job), `upgrade` (job, `have` below `best`), `ok`, `recon`, `gone`. Reads `bucket-index.txt` for what is held; `have` does not decide presence |
 | `scripts/ledger/have_new_who.py` | probes local files and writes `have` matched on the ledger's own file name. Repurpose it to probe the bucket, or run `probe-media.js` and transcribe. Probe every audio stream, not `a:0`; `<height>p` only when width is standard 16:9, else `WxH` |
 | `scripts/ledger/ready.py` | the four silent failures on a folder before upload: `hvc1`, faststart, Dolby without flag, .srt that is not text. `.mp4` and `.mkv`; `READY_CONTENT` points it at another tree |
 | `scripts/media/retag.py` | rewrites `hev1` → `hvc1` and adds faststart on MP4s without re-encoding |
@@ -1204,10 +1202,10 @@ because it runs `scripts/build-thumbs.js`, which Part I records as dead.
 ### 8. Publish  (act)
 
 ```
-python ledger/build.py && python ledger/v2.py && python ledger/viewer.py
+python ledger/build.py && python ledger/board.py
 node scripts/build-chronology.js --write        # if any data file changed
 npx vercel deploy --prod                        # Vercel is NOT connected to GitHub
-curl -s https://whoniverse.nubblyn.com/ledger-v2 | grep -c "Best found"   # live?
+curl -s https://whoniverse.nubblyn.com/ledger | grep -c "Best found"   # live?
 rclone rc vfs/refresh recursive=true --url 127.0.0.1:5572   # W: still lists deleted files otherwise
 git add ledger data public docs && git commit -m "New Who season 1: <what changed>"
 ```
@@ -1346,7 +1344,7 @@ on seasons 1 and 2 and had to be redone.
 | 8 | **Bucket holds only what is served** | no backup copies; superseded names deleted after the deploy, nothing else left behind |
 | 9 | **Ledger updated** | `have` probed from the real file, **`source` naming the release it came from**, `best` and `checked` from today's search, columns rectangular |
 | 10 | **Addon updated** | `data/*.js` URLs, episode numbers renumbered if a row moved, `audio` flag iff Dolby |
-| 11 | **Regenerated and checked** | `bucket-index.sh` → `stamp-media --write` → `check-links` → `build.py` → `v2.py` → `viewer.py` → `build-chronology` |
+| 11 | **Regenerated and checked** | `bucket-index.sh` → `stamp-media --write` → `check-links` → `build.py` → `board.py` → `build-chronology` |
 | 12 | **Deployed** | `npx vercel deploy --prod`, then the live hash compared against the local one |
 | 13 | **Cleaned up** | superseded bucket names deleted, local sources and uploaded copies deleted, torrents removed |
 | 14 | **Committed** | one commit naming the season |
@@ -1363,9 +1361,9 @@ check at six seconds and passed it on the retry, with no second deploy in betwee
 instead of asking once:
 
 ```
-LOCAL=$(sha1sum public/ledger-v2.html | cut -c1-12)
+LOCAL=$(sha1sum public/ledger.html | cut -c1-12)
 for i in 1 2 3 4 5; do
-  LIVE=$(curl -s https://whoniverse.nubblyn.com/ledger-v2.html | sha1sum | cut -c1-12)
+  LIVE=$(curl -s https://whoniverse.nubblyn.com/ledger.html | sha1sum | cut -c1-12)
   [ "$LOCAL" = "$LIVE" ] && break
   sleep 20
 done

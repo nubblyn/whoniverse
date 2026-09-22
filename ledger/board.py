@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""The ledger, rebuilt. Writes public/ledger-v2.html.
+"""The ledger. Writes public/ledger.html, served at /ledger.
 
-    python ledger/v2.py
+    python ledger/board.py
 
-Independent of viewer.py: same facts, different instrument. That one is a long
-printed table you scroll; this one is a board you read at a glance and then
-interrogate.
+This was ledger/v2.py, built beside an older page from ledger/viewer.py: a long
+printed table you scrolled, where this is a board you read at a glance and then
+interrogate. Same facts, two instruments, and the board did everything the
+table did, so on 22 September 2026 the user made it the only ledger and the
+table was deleted. /ledger-v2 now redirects here, so old links still land.
 
 Three decisions shape it.
 
@@ -198,7 +200,7 @@ def build_rows():
 
 CSS = """
 /* ===========================================================================
-   Ledger V2 — a board, not a printout.
+   The ledger: a board, not a printout.
 
    Swiss discipline, at dashboard density: one strict grid, hairlines instead
    of boxes, tabular numerals everywhere a number is compared, and no rounded
@@ -919,7 +921,7 @@ def render():
 
     page = (
         '<!doctype html>\n<html lang="en-GB">\n<head>\n<meta charset="utf-8">\n'
-        '<title>Whoniverse Ledger V2</title>\n'
+        '<title>Whoniverse Ledger</title>\n'
         '<meta name="viewport" content="width=device-width,initial-scale=1">\n'
         '<meta name="color-scheme" content="dark">\n'
         '<meta name="theme-color" content="#080B18">\n'
@@ -927,7 +929,7 @@ def render():
         '<style>%s</style>\n</head>\n<body>\n'
         '<a class="skip" href="#work">Skip to the episodes</a>\n'
         '<header class="top">'
-        '<h1 class="wordmark">Whoniverse <b>Ledger</b> V2</h1>'
+        '<h1 class="wordmark">Whoniverse <b>Ledger</b></h1>'
         '<span class="tally" id="tally"></span>'
         '<form role="search" onsubmit="return false">'
         '<label class="vh" for="q">Search episodes</label>'
@@ -955,8 +957,8 @@ def render():
     ) % (CSS, json.dumps(payload, separators=(',', ':'), ensure_ascii=False), JS)
 
     os.makedirs(OUT, exist_ok=True)
-    for path in (os.path.join(OUT, 'ledger-v2.html'),
-                 os.path.join(ROOT, 'public', 'ledger-v2.html')):
+    for path in (os.path.join(OUT, 'ledger.html'),
+                 os.path.join(ROOT, 'public', 'ledger.html')):
         io.open(path, 'w', encoding='utf8', newline='\n').write(page)
         print('  wrote %s (%.0f KB)' % (os.path.relpath(path, ROOT),
                                         os.path.getsize(path) / 1024))

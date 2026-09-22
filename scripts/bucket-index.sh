@@ -4,7 +4,7 @@
 #   bash scripts/bucket-index.sh
 #
 # Writes two things from one listing:
-#   ledger/out/bucket-index.txt   for ledger/viewer.py at build time
+#   ledger/out/bucket-index.txt   for ledger/board.py at build time
 #   b2:whoniverse/bucket-index.json  for the site and the ledger at run time
 #
 # The second is the point. Backblaze will not list a bucket without an

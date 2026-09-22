@@ -42,15 +42,17 @@ http.createServer(async (req, res) => {
     }
   }
 
-  // The ledgers, matching api/index.js so the links work locally too. Two of
-  // them: the printed table and the board, built by different scripts and
-  // living at their own addresses so either can be worked on without
-  // disturbing the other.
+  // The ledger, matching api/index.js so the links work locally too: the board
+  // from ledger/board.py at /ledger, and the old /ledger-v2 address redirected
+  // to it now that the board is the only ledger.
+  if (path === '/ledger-v2' || path === '/ledger-v2.html') {
+    res.writeHead(301, { Location: '/ledger' });
+    res.end();
+    return;
+  }
   const LEDGERS = {
-    '/ledger': ['ledger.html', 'python ledger/viewer.py'],
-    '/ledger.html': ['ledger.html', 'python ledger/viewer.py'],
-    '/ledger-v2': ['ledger-v2.html', 'python ledger/v2.py'],
-    '/ledger-v2.html': ['ledger-v2.html', 'python ledger/v2.py'],
+    '/ledger': ['ledger.html', 'python ledger/board.py'],
+    '/ledger.html': ['ledger.html', 'python ledger/board.py'],
   };
   if (LEDGERS[path]) {
     const [name, how] = LEDGERS[path];
