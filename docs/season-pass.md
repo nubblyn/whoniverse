@@ -29,6 +29,9 @@ Part G is what changes when a season is replaced rather than added. **Part H is 
 checklist every finished season reports against, and Part I the rules settled while the
 passes were running; read those two before starting a season.**
 
+What is outstanding right now, across seasons, is in [open-tasks.md](open-tasks.md).
+Add a line there when something is left open and delete it when it is done.
+
 ---
 
 ## A. The moving parts, and what updates what
