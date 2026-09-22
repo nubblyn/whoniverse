@@ -59,6 +59,21 @@ ALT_TAG = re.compile(
 # choice outright rather than leaving it to size.
 ORIGINALS = re.compile(r'(?:^|/)originals?(?:/|$)', re.I)
 
+# Everything in brackets except a bare part number is a variant tag, not part of
+# the story's name: (Original), (CGI), (2011 DVD Restoration), (HD Early Edit).
+VARIANT = re.compile(r'\((?!\d+\))[^)]*\)')
+
+
+def norm(s):
+    return re.sub(r'[^a-z0-9]', '', s.lower())
+
+
+def file_title(path, season):
+    """The story and part a filename claims to be, normalised for comparison."""
+    stem = path.rsplit('/', 1)[-1].rsplit('.', 1)[0]
+    stem = re.sub(r'^\s*S0?%dE\d{1,2}\s*[-–—]?\s*' % season, '', stem, flags=re.I)
+    return norm(VARIANT.sub('', stem))
+
 
 def api(path, data=None):
     u = '%s/%s' % (QB, path)
@@ -81,7 +96,7 @@ def rows(season):
     return out
 
 
-def choose(files, season):
+def choose(files, season, led=None):
     # The sets are inconsistent about both halves of the code and mix styles
     # inside one torrent. Season 7 uses S7E on discs 1 and 2 and S07E on discs
     # 4 and 5, which lost eleven episodes; season 8 numbers one single episode
@@ -100,12 +115,36 @@ def choose(files, season):
         by_ep.setdefault(ep, []).append(f)
     chosen, notes = {}, []
     for ep, cands in sorted(by_ep.items()):
+        # A code with no row behind it is a numbering slip, not an episode.
+        # Season 12 labels the CGI Revenge of the Cybermen part 4 `S12E30`,
+        # which invented a twenty-first episode for a twenty-row season.
+        if led is not None and ep not in led:
+            notes.append('ep%d has no ledger row, dropped: %s'
+                         % (ep, cands[0]['name'].rsplit('/', 1)[-1]))
+            continue
         plain = [c for c in cands
                  if not ALT_DIR.search(c['name']) and not ALT_TAG.search(c['name'])]
-        originals = [c for c in plain if ORIGINALS.search(c['name'])]
-        pool = originals or plain or cands
+        # **The filename has to name the story the row names.** Season 12 has a
+        # 3.58 GB `S12E11 - The Sontaran Experiment (3)` on the Sontaran disc.
+        # That story is two parts long, so there is no part 3; the file is the
+        # two-parter joined. It carries the same code as Genesis of the Daleks
+        # part 1, which is what episode 11 actually is, and being the larger it
+        # won the size tie-break. Comparing the title against the row stops a
+        # file being shipped as an episode of a different story.
+        want = norm(led[ep][0]) if led is not None and ep in led else None
+        titled = [c for c in plain if want and file_title(c['name'], season) == want]
+        if want and plain and not titled:
+            notes.append('ep%d: no filename matches the row title %r, fell back on size'
+                         % (ep, led[ep][0]))
+        base = titled or plain
+        originals = [c for c in base if ORIGINALS.search(c['name'])]
+        pool = originals or base or cands
         if not plain:
             notes.append('ep%d had only alternative versions' % ep)
+        dropped = [c for c in plain if c not in base]
+        for c in dropped:
+            notes.append('ep%d: passed over %s, which is not %r'
+                         % (ep, c['name'].rsplit('/', 1)[-1], led[ep][0]))
         chosen[ep] = max(pool, key=lambda c: c['size'])
     return chosen, notes, by_ep
 
@@ -120,7 +159,7 @@ def main():
         raise SystemExit('no queued torrent for season %d' % season)
     h = t[0]['hash']
     files = api('torrents/files?hash=%s' % h)
-    chosen, notes, by_ep = choose(files, season)
+    chosen, notes, by_ep = choose(files, season, led)
     print('season %d: %d files in the set, %d carry an episode code, %d episodes chosen'
           % (season, len(files), sum(len(v) for v in by_ep.values()), len(chosen)))
     print('ledger has %d rows for this season' % len(led))

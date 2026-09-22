@@ -221,6 +221,16 @@ them (see the 7-Zip entry for why).
   `vad_filter=True`, `word_timestamps=True`, and an **`initial_prompt` naming the show's
   vocabulary** (TARDIS, Gallifrey, Zygon, Sontaran, Cyberman, Dalek, the Doctor's
   companions of the season). Without it proper nouns come out phonetic.
+- **Two faults on the same file, both worth checking for every time.** Hello Boys! ran
+  61 s and `vad_filter=True` dropped everything after 28 s, including the line the
+  minisode is named for, because the second half is quiet dialogue under wind and music.
+  `vad_filter=False` found it. Then large-v3 **invented** a closing line over the music
+  at the very end, and the word it invented was one the `initial_prompt` had handed it.
+  So: on a short file prefer `vad_filter=False`, and treat any cue in the last few
+  seconds as suspect. The test is to re-transcribe that window alone, once with the
+  prompt and once without; a real line survives both, a hallucination disappears when
+  the surrounding file does. Checking the loudness envelope helps too, since speech has
+  syllabic structure and music does not.
 - Output is one JSON of segments with per-word times. Then:
   1. `scripts/subs/clean.py`: drops the echoed segment Whisper emits when audio tails into music
      (text contained in the previous segment AND under 0.8 s), restores sentence case on
@@ -578,6 +588,16 @@ broadcast cut, which is the season 7 trap inverted and would have gone wrong
 just as easily. Both lists now name them, and an `Originals` folder settles the
 choice outright. Verified by importing `choose()` and comparing against the
 files already downloaded rather than by eye.
+
+**The filename has to name the story the row names.** Season 12's Sontaran disc carries a
+3.58 GB `S12E11 - The Sontaran Experiment (3)`. That story is two parts long, so there is
+no part 3: the file is the two-parter joined. It shares its code with *Genesis of the
+Daleks* part 1, which is what episode 11 actually is, and being the larger it won the size
+tie-break, so episode 11 would have shipped as a different story altogether. `collsel.py`
+now compares the title in the filename against the ledger row's, ignoring variant tags in
+brackets, and says what it passed over. The same set labels the CGI *Revenge of the
+Cybermen* part 4 `S12E30`, inventing a twenty-first episode for a twenty-row season; a
+code with no row behind it is now dropped and reported.
 
 **Staging and proving a season**: `scripts/media/dvd/collstage.py <season>`
 hard-links the chosen files to their ledger stems, `--verify` correlates each
@@ -1235,9 +1255,28 @@ on seasons 1 and 2 and had to be redone.
 | 14 | **Committed** | one commit naming the season |
 
 Lines 12 and 13 are the two that get stranded. A deploy that did not take is invisible
-until the live hash is compared with the local one, and it has silently not taken once
-already; **check it, do not assume it.** Superseded bucket names are only safe to delete
-*after* the deploy, never before.
+until the live hash is compared with the local one; **check it, do not assume it.**
+Superseded bucket names are only safe to delete *after* the deploy, never before.
+
+**Give the alias time before believing the check.** The domain keeps serving the previous
+deployment for something between six and thirty seconds after the CLI says `ready`, so a
+single comparison run straight after the deploy reports a failure that is not one. That is
+almost certainly what the season 7 "silent failure" was: seasons 10 and 12 failed the same
+check at six seconds and passed it on the retry, with no second deploy in between. Poll
+instead of asking once:
+
+```
+LOCAL=$(sha1sum public/ledger-v2.html | cut -c1-12)
+for i in 1 2 3 4 5; do
+  LIVE=$(curl -s https://whoniverse.nubblyn.com/ledger-v2.html | sha1sum | cut -c1-12)
+  [ "$LOCAL" = "$LIVE" ] && break
+  sleep 20
+done
+```
+
+Do not compare against the `whoniverse-xxxxx.vercel.app` deployment URL instead. Behind
+Deployment Protection it answers with a challenge page, which hashes differently from the
+file every time and looks exactly like a failed deploy.
 
 ---
 
