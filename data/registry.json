@@ -19,7 +19,7 @@
     "Adventure",
     "Drama"
    ],
-   "description": "An exiled Time Lord called the Doctor travels time and space in the TARDIS, a ship disguised as a police box, with the companions he gathers along the way. Seven Doctors across 26 seasons of multi-part serials, from An Unearthly Child in 1963 to Survival in 1989."
+   "description": "An exiled Time Lord called the Doctor travels time and space in the TARDIS, a ship disguised as a police box, with the companions he gathers along the way. The original series, told in multi-part serials, where the Doctor first meets the Daleks, the Cybermen and the Master."
   },
   {
    "key": "wilderness-years",
@@ -33,7 +33,7 @@
     "Sci-Fi",
     "Adventure"
    ],
-   "description": "The years between the end of the original run in 1989 and the revival in 2005, when Doctor Who was off the air. The Doctor lived on in a 1996 television film, charity specials and animated stories made for the BBC website."
+   "description": "The years when Doctor Who was off the air, between the end of the original series and its revival. The Doctor lived on in a television film, charity specials and animated stories made for the BBC website."
   },
   {
    "key": "new-who",
@@ -48,7 +48,7 @@
     "Adventure",
     "Drama"
    ],
-   "description": "The Doctor returns as the last of the Time Lords, still travelling time and space in the TARDIS with companions from Earth after a war that ended his people. Seven Doctors, the Ninth to the Fifteenth, across sixteen seasons from Rose in 2005 to the present day."
+   "description": "The Doctor returns as the last of the Time Lords, still travelling time and space in the TARDIS with companions from Earth after a war that ended his people. The revived series brings back the Daleks, the Cybermen and the Master, and a new face each time the Doctor regenerates."
   },
   {
    "key": "torchwood",
@@ -63,7 +63,7 @@
     "Drama",
     "Thriller"
    ],
-   "description": "Captain Jack Harkness leads a secret Cardiff institute that catches whatever falls through the Rift, in the darker spin-off made for adults. Four series, from the standalone cases of the early years to the worldwide crises of Children of Earth and Miracle Day."
+   "description": "Captain Jack Harkness leads a secret Cardiff institute that catches whatever falls through the Rift, in the darker spin-off made for adults. Its cases run from single alien visitors to crises that threaten the whole world."
   },
   {
    "key": "sarah-jane",
@@ -78,7 +78,7 @@
     "Adventure",
     "Family"
    ],
-   "description": "Sarah Jane Smith, the Doctor's longest-serving companion, investigates alien activity from her attic on Bannerman Road with her son Luke and his friends. Five series of family adventures that run in step with the Tenth and Eleventh Doctors' eras."
+   "description": "Sarah Jane Smith, the Doctor's longest-serving companion, investigates alien activity from her attic on Bannerman Road with her son Luke and his friends. Family adventures that run alongside the Doctor's own, and now and then he calls in."
   },
   {
    "key": "class",
@@ -93,7 +93,7 @@
     "Drama",
     "Horror"
    ],
-   "description": "Coal Hill Academy sixth-formers guard a tear in space and time left behind by the Doctor's many visits, with an alien prince and his exiled guardian hiding among the students. A single eight-episode series from 2016."
+   "description": "Coal Hill Academy sixth-formers guard a tear in space and time left behind by the Doctor's many visits, with an alien prince and his exiled guardian hiding among the students. A spin-off for young adults, where the monsters come in through the school gates."
   },
   {
    "key": "land-and-sea",
@@ -108,7 +108,7 @@
     "Drama",
     "Thriller"
    ],
-   "description": "An ancient species rises from the ocean floor to claim the planet, and UNIT stands between humanity and the deep. A five-part story from December 2025, the newest branch of the Whoniverse."
+   "description": "An ancient species rises from the ocean floor to claim the planet, and UNIT stands between humanity and the deep. A spin-off told from the side of the people left to defend the Earth."
   },
   {
    "key": "complete-chronology",
@@ -123,7 +123,7 @@
     "Adventure",
     "Drama"
    ],
-   "description": "Every Doctor Who story in one running order, from An Unearthly Child in 1963 to the newest arrival, with the spin-offs alongside the show they grew out of. One list instead of seven."
+   "description": "Every Doctor Who story in one running order, from the first episode to the newest, with the spin-offs alongside the show they grew out of."
   }
  ]
 }
