@@ -8,8 +8,6 @@ Last reviewed 23 September 2026.
 
 ## In flight
 
-- **Season 20 from the Collection** is downloading from TorBox to `~/Downloads`. It brings
-  its own PGS, so its three generated sidecars go before regenerating.
 
 ## Waiting on the user
 
@@ -25,6 +23,11 @@ Last reviewed 23 September 2026.
   at 370.84 s; after the promo a coda, where Tegan throws the Mara off, runs 664.80 s to
   745.28 s, then credits to 775.24 s. Story only, story plus coda, and credits or not?
   Sources for all three trailers are in `~/Downloads/content/classic_who/_work/`.
+- **The *Eternal Mystery* cut** (season 22 trailer `dspgDvP7pA8`, H.264). The story ends
+  at 149.56 s, frame 3738, on Peri smiling; the TARDIS then flies into the vortex before
+  the voiceover at 151 s. After the promo a coda, Peri and Rex at the memorial and the
+  TARDIS leaving, runs from about 325.5 s to 401 s, then credits to 412.8 s. Story only,
+  or plus coda, and credits or not?
 - **Classic Who IMDb ids.** Regenerating on 23 September dropped the ones the audit typed
   in; they do nothing, since the addon answers only its own ids. Leave out, or carry?
 - **The stremio-addons.net listing.** The text was given on 22 September; paste it by
@@ -35,7 +38,7 @@ Last reviewed 23 September 2026.
 
 ## Collection seasons not started
 
-- **Season 22** is on the TorBox hash list, not downloaded yet.
+- **Season 22** is downloading from TorBox.
 - **No set found for 13, 14, 18, 21, 23 or 26.** Not searched since the first sweep.
   Season 21 matters most: *Resurrection of the Daleks* parts 3 and 4 are not in the
   bucket, so only the first half plays.
@@ -46,7 +49,7 @@ Last reviewed 23 September 2026.
 The 22 September audit changed data in Classic seasons that have not had their pass.
 No video was touched. Check these again at each season's step 4:
 
-- Air dates were written into seasons 4, 5, 6, 11, 13, 14, 16, 18, 20 to 23 and 26, from
+- Air dates were written into seasons 4, 5, 6, 11, 13, 14, 16, 18, 21 to 23 and 26, from
   Wikipedia's episode tables.
 - Sidecar subtitles were removed in seasons 4, 5, 6, 22 and 23, because the files
   carry their own track.

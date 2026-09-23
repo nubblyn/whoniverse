@@ -4619,9 +4619,11 @@
   "codecs": []
  },
  "classic_who/season_20/S20_E23_the_five_doctors_special": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_21/S21_E01_warriors_of_the_deep_1": {
   "sidecar": true,
@@ -4634,9 +4636,11 @@
   "codecs": []
  },
  "classic_who/season_20/S20_E20_enlightenment_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_21/S21_E05_the_awakening_1": {
   "sidecar": true,
@@ -4644,29 +4648,39 @@
   "codecs": []
  },
  "classic_who/season_20/S20_E19_enlightenment_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E17_enlightenment_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E15_terminus_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E14_terminus_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E22_the_kings_demons_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_21/S21_E06_the_awakening_2": {
   "sidecar": true,
@@ -4674,79 +4688,109 @@
   "codecs": []
  },
  "classic_who/season_20/S20_E18_enlightenment_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E16_terminus_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E13_terminus_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E11_mawdryn_undead_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E12_mawdryn_undead_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E10_mawdryn_undead_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E04_arc_of_infinity_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E09_mawdryn_undead_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E21_the_kings_demons_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E02_arc_of_infinity_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E08_snakedance_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E01_arc_of_infinity_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E03_arc_of_infinity_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E05_snakedance_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_20/S20_E06_snakedance_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_2/S02_E40_the_storyteller_minisode": {
   "sidecar": true,
@@ -4782,9 +4826,11 @@
   ]
  },
  "classic_who/season_20/S20_E07_snakedance_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_2/S02_E33_journey_into_terror": {
   "sidecar": false,

@@ -461,6 +461,15 @@ brackets, and says what it passed over. The same set labels the CGI *Revenge of 
 Cybermen* part 4 `S12E30`, inventing a twenty-first episode for a twenty-row season; a
 code with no row behind it is now dropped and reported.
 
+**A special coded `S00Exx` is not picked.** Season 20's set files *The Five Doctors* as
+`S00E02`, so `collsel.py` lists it under "ledger rows with no file in the set" beside the
+trailer minisode it rightly cannot find. That line is read every time and anything in it
+that the set does carry is added to `chosen_sN.tsv` and `extract_sN.txt` by hand. The
+set carries three versions, the TX Version, the Special Edition and a 40th Anniversary
+Edition; the TX Version is the broadcast, 90:25 against Wikipedia's 90:23. The bucket had
+been serving the 100-minute Special Edition. List a set's alternatives before deleting
+its zip, so the ledger's `source` can name them.
+
 **Name every alternative the sets use.** Season 25 tags its recuts `(Special Edition
 Version)` as well as `(Special Edition)`. The longer name was not in the rules, so *The
 Greatest Show in the Galaxy*'s 3.22 GB recut outsized the broadcast cut and was chosen;
