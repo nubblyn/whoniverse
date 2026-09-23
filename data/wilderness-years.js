@@ -20,6 +20,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E01_dimensions_in_time_1_special.jpg?v=f8ab2ed5",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E01_dimensions_in_time_1_special.mp4?v=467ca492",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E01_dimensions_in_time_1_special.srt?v=6e1f9c5b",
   filename: "S01_E01_dimensions_in_time_1_special.mp4",
 },
 {
@@ -32,6 +33,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E02_dimensions_in_time_2_special.jpg?v=d45765c8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E02_dimensions_in_time_2_special.mp4?v=12b5e321",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E02_dimensions_in_time_2_special.srt?v=6794b926",
   filename: "S01_E02_dimensions_in_time_2_special.mp4",
 },
 {
@@ -56,6 +58,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E04_doctor_who_and_the_curse_of_fatal_death_special.jpg?v=8c09be6a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E04_doctor_who_and_the_curse_of_fatal_death_special.mp4?v=32d3e438",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E04_doctor_who_and_the_curse_of_fatal_death_special.srt?v=797ab832",
   filename: "S01_E04_doctor_who_and_the_curse_of_fatal_death_special.mp4",
 },
 {
@@ -68,6 +71,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E05_death_comes_to_time_1_animated_series.jpg?v=a6695166",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E05_death_comes_to_time_1_animated_series.mp4?v=1ff2f3d7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E05_death_comes_to_time_1_animated_series.srt?v=833838ac",
   filename: "S01_E05_death_comes_to_time_1_animated_series.mp4",
 },
 {
@@ -80,6 +84,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E06_death_comes_to_time_2_animated_series.jpg?v=4e6ac25e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E06_death_comes_to_time_2_animated_series.mp4?v=90d33801",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E06_death_comes_to_time_2_animated_series.srt?v=8b19a2c7",
   filename: "S01_E06_death_comes_to_time_2_animated_series.mp4",
 },
 {
@@ -92,6 +97,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E07_death_comes_to_time_3_animated_series.jpg?v=44bdec3c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E07_death_comes_to_time_3_animated_series.mp4?v=7b703a74",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E07_death_comes_to_time_3_animated_series.srt?v=e5057edc",
   filename: "S01_E07_death_comes_to_time_3_animated_series.mp4",
 },
 {
@@ -104,6 +110,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E08_death_comes_to_time_4_animated_series.jpg?v=857047ac",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E08_death_comes_to_time_4_animated_series.mp4?v=1a5e3c5a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E08_death_comes_to_time_4_animated_series.srt?v=b1942b40",
   filename: "S01_E08_death_comes_to_time_4_animated_series.mp4",
 },
 {
@@ -116,6 +123,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E09_death_comes_to_time_5_animated_series.jpg?v=b78affad",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E09_death_comes_to_time_5_animated_series.mp4?v=02efa69f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E09_death_comes_to_time_5_animated_series.srt?v=fba905a4",
   filename: "S01_E09_death_comes_to_time_5_animated_series.mp4",
 },
 {
@@ -128,6 +136,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E10_real_time_1_animated_series.jpg?v=9bcd7521",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E10_real_time_1_animated_series.mp4?v=27d83c09",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E10_real_time_1_animated_series.srt?v=4b1998f9",
   filename: "S01_E10_real_time_1_animated_series.mp4",
 },
 {
@@ -140,6 +149,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E11_real_time_2_animated_series.jpg?v=935ec8e0",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E11_real_time_2_animated_series.mp4?v=2a43bbe7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E11_real_time_2_animated_series.srt?v=0a4357a3",
   filename: "S01_E11_real_time_2_animated_series.mp4",
 },
 {
@@ -152,6 +162,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E12_real_time_3_animated_series.jpg?v=06972ab7",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E12_real_time_3_animated_series.mp4?v=f35e4d7c",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E12_real_time_3_animated_series.srt?v=2924f3ad",
   filename: "S01_E12_real_time_3_animated_series.mp4",
 },
 {
@@ -164,6 +175,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E13_real_time_4_animated_series.jpg?v=c719f76a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E13_real_time_4_animated_series.mp4?v=6c08fe90",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E13_real_time_4_animated_series.srt?v=18dba315",
   filename: "S01_E13_real_time_4_animated_series.mp4",
 },
 {
@@ -176,6 +188,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E14_real_time_5_animated_series.jpg?v=b55a4879",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E14_real_time_5_animated_series.mp4?v=f6bdca59",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E14_real_time_5_animated_series.srt?v=0cc31f4e",
   filename: "S01_E14_real_time_5_animated_series.mp4",
 },
 {
@@ -188,6 +201,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E15_real_time_6_animated_series.jpg?v=d40df4d5",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E15_real_time_6_animated_series.mp4?v=a118a275",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E15_real_time_6_animated_series.srt?v=acca12be",
   filename: "S01_E15_real_time_6_animated_series.mp4",
 },
 {
@@ -200,6 +214,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E16_shada_prelude_animated_series.jpg?v=a2cc5082",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E16_shada_prelude_animated_series.mp4?v=c07c0fa9",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E16_shada_prelude_animated_series.srt?v=5a6c10de",
   filename: "S01_E16_shada_prelude_animated_series.mp4",
 },
 {
@@ -212,6 +227,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E17_shada_1_animated_series.jpg?v=50337223",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E17_shada_1_animated_series.mp4?v=bc35d8c1",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E17_shada_1_animated_series.srt?v=0800fb02",
   filename: "S01_E17_shada_1_animated_series.mp4",
 },
 {
@@ -224,6 +240,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E18_shada_2_animated_series.jpg?v=143beb49",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E18_shada_2_animated_series.mp4?v=599a7a3f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E18_shada_2_animated_series.srt?v=1876af2c",
   filename: "S01_E18_shada_2_animated_series.mp4",
 },
 {
@@ -236,6 +253,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E19_shada_3_animated_series.jpg?v=28018435",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E19_shada_3_animated_series.mp4?v=49c08b20",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E19_shada_3_animated_series.srt?v=13841586",
   filename: "S01_E19_shada_3_animated_series.mp4",
 },
 {
@@ -248,6 +266,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E20_shada_4_animated_series.jpg?v=c253f093",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E20_shada_4_animated_series.mp4?v=71d10fa8",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E20_shada_4_animated_series.srt?v=ba607ad7",
   filename: "S01_E20_shada_4_animated_series.mp4",
 },
 {
@@ -260,6 +279,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E21_shada_5_animated_series.jpg?v=45ec6394",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E21_shada_5_animated_series.mp4?v=3df4f744",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E21_shada_5_animated_series.srt?v=7c9255eb",
   filename: "S01_E21_shada_5_animated_series.mp4",
 },
 {
@@ -272,6 +292,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E22_shada_6_animated_series.jpg?v=4e2c6317",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E22_shada_6_animated_series.mp4?v=86c2eb80",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E22_shada_6_animated_series.srt?v=84af19dd",
   filename: "S01_E22_shada_6_animated_series.mp4",
 },
 {

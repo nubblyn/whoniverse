@@ -25,8 +25,18 @@ unrelated offset at 87%.
 A supplied track then goes through housestyle.py, which changes presentation
 only, never the words. A Whisper track goes through srtify.build(), which is
 clean.py's repairs plus the house rules.
+
+Two things the first run shipped and this now removes. The archive files are
+bilingual: the whole English track, then the whole track again in Thai with
+its numbering restarted at 1. The word test passed on the English half and
+the Thai rode along, so every cue with a letter outside the Latin alphabet is
+dropped before anything else. And Whisper sometimes emits one line two or
+three times stacked on itself, each copy starting before the last has ended;
+a cue that repeats the one before it and overlaps it is dropped. A line
+spoken again after a gap is dialogue and stays.
 """
 import io
+import unicodedata
 import os
 import re
 import subprocess
@@ -75,6 +85,46 @@ def tokens(s):
 
 
 TIMING = re.compile(r'(\d+:\d+:\d+[,.]\d+)\s*-->\s*(\d+:\d+:\d+[,.]\d+)')
+
+
+def blocks(srt_text):
+    """(timing line, text lines) per cue, skipping anything with no timing."""
+    for block in re.split(r'\n\s*\n', srt_text.strip()):
+        lines = block.split('\n')
+        at = next((i for i, l in enumerate(lines) if TIMING.search(l)), None)
+        if at is not None:
+            yield lines[at], [l for l in lines[at + 1:] if l.strip()]
+
+
+def write_srt(cues):
+    return ''.join('%d\n%s\n%s\n\n' % (i, t, '\n'.join(x)) for i, (t, x) in enumerate(cues, 1))
+
+
+def english_only(srt_text):
+    """The cues whose letters are all Latin; empty cues go too."""
+    kept = []
+    for timing, text in blocks(srt_text):
+        letters = [ch for ch in ''.join(text) if ch.isalpha()]
+        if letters and all('LATIN' in unicodedata.name(ch, '') for ch in letters):
+            kept.append((timing, text))
+    return write_srt(kept)
+
+
+def unstack(srt_text):
+    """Drop empty cues, and a cue that repeats the previous one while it is
+    still on screen."""
+    kept, prev = [], None
+    for timing, text in blocks(srt_text):
+        words = ' '.join(l.strip() for l in text)
+        if not words:
+            continue
+        m = TIMING.search(timing)
+        start, end = secs(m.group(1)), secs(m.group(2))
+        if prev and words.lower() == prev[1].lower() and start < prev[0]:
+            continue
+        prev = (end, words)
+        kept.append((timing, text))
+    return write_srt(kept)
 
 
 def cues_of(srt_text):
@@ -155,7 +205,7 @@ def main():
             cands = [n for n in names if n.startswith(code)]
             if cands:
                 raw = urllib.request.urlopen(ARCHIVE + urllib.request.quote(cands[0]), timeout=120).read()
-                srt = raw.decode('utf-8-sig', 'replace').replace('\r\n', '\n').replace('\r', '\n')
+                srt = english_only(raw.decode('utf-8-sig', 'replace').replace('\r\n', '\n').replace('\r', '\n'))
                 share, off, rival = fit(cues_of(srt), spoken)
                 if share >= MIN_SHARE and share - rival >= 0.20:
                     choice = 'archive'
@@ -180,6 +230,10 @@ def main():
                 os.remove(tmp)
             else:
                 io.open(out, 'w', encoding='utf8', newline='\n').write(text)
+            # Last, over either kind: housestyle can leave a cue with no words
+            # where the source had only a sound effect, and Whisper stacks.
+            final = unstack(io.open(out, encoding='utf8').read())
+            io.open(out, 'w', encoding='utf8', newline='\n').write(final)
         log.append((stem, choice, why, path))
         print('  %-50s %-8s %s' % (stem[:50], choice, why[:90]), flush=True)
     io.open(os.path.join(outdir, 'decisions.tsv'), 'w', encoding='utf8', newline='\n').write(

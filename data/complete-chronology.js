@@ -177,6 +177,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E14_the_roof_of_the_world.jpg?v=e5985795",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E14_the_roof_of_the_world.mkv?v=de16ac42",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E14_the_roof_of_the_world.srt?v=ac3af996",
   filename: "S01_E14_the_roof_of_the_world.mkv",
 },
 {
@@ -189,6 +190,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E15_the_singing_sands.jpg?v=e16388df",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E15_the_singing_sands.mkv?v=b0d6d964",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E15_the_singing_sands.srt?v=2fa61179",
   filename: "S01_E15_the_singing_sands.mkv",
 },
 {
@@ -201,6 +203,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E16_five_hundred_eyes.jpg?v=eb6fa487",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E16_five_hundred_eyes.mkv?v=9617b664",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E16_five_hundred_eyes.srt?v=9023aec9",
   filename: "S01_E16_five_hundred_eyes.mkv",
 },
 {
@@ -213,6 +216,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E17_the_wall_of_lies.jpg?v=7e7e8b95",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E17_the_wall_of_lies.mkv?v=2c65b59e",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E17_the_wall_of_lies.srt?v=5ff76fde",
   filename: "S01_E17_the_wall_of_lies.mkv",
 },
 {
@@ -225,6 +229,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E18_rider_from_shangtu.jpg?v=d0048b9c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E18_rider_from_shangtu.mkv?v=c30f3402",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E18_rider_from_shangtu.srt?v=5103e9eb",
   filename: "S01_E18_rider_from_shangtu.mkv",
 },
 {
@@ -237,6 +242,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E19_mighty_kublai_khan.jpg?v=7f53dcee",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E19_mighty_kublai_khan.mkv?v=91c7fcae",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E19_mighty_kublai_khan.srt?v=b034973b",
   filename: "S01_E19_mighty_kublai_khan.mkv",
 },
 {
@@ -249,6 +255,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E20_assassin_at_peking.jpg?v=f776ed38",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E20_assassin_at_peking.mkv?v=f16a55c9",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_1/S01_E20_assassin_at_peking.srt?v=f68df286",
   filename: "S01_E20_assassin_at_peking.mkv",
 },
 {
@@ -1044,6 +1051,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E05_mission_to_the_unknown.jpg?v=f81b0dd6",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E05_mission_to_the_unknown.mp4?v=82281906",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E05_mission_to_the_unknown.srt?v=da4b7950",
   filename: "S03_E05_mission_to_the_unknown.mp4",
 },
 {
@@ -1056,6 +1064,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E06_temple_of_secrets.jpg?v=d354aa0d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E06_temple_of_secrets.mp4?v=ef3f5e98",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E06_temple_of_secrets.srt?v=04cad968",
   filename: "S03_E06_temple_of_secrets.mp4",
 },
 {
@@ -1068,6 +1077,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E07_small_prophet_quick_return.jpg?v=073d79a4",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E07_small_prophet_quick_return.mp4?v=b19d336a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E07_small_prophet_quick_return.srt?v=26f1c01f",
   filename: "S03_E07_small_prophet_quick_return.mp4",
 },
 {
@@ -1080,6 +1090,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E08_death_of_a_spy.jpg?v=4ce3b1cc",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E08_death_of_a_spy.mp4?v=b45e1040",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E08_death_of_a_spy.srt?v=8ed72d13",
   filename: "S03_E08_death_of_a_spy.mp4",
 },
 {
@@ -1092,6 +1103,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E09_horse_of_destruction.jpg?v=026d4343",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E09_horse_of_destruction.mp4?v=c2e1a3c8",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E09_horse_of_destruction.srt?v=5ab8a05a",
   filename: "S03_E09_horse_of_destruction.mp4",
 },
 {
@@ -1142,6 +1154,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E13_the_traitors.jpg?v=c03b0b07",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E13_the_traitors.mp4?v=b113deef",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E13_the_traitors.srt?v=4af9a68e",
   filename: "S03_E13_the_traitors.mp4",
 },
 {
@@ -1166,6 +1179,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E15_coronas_of_the_sun.jpg?v=3d6397aa",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E15_coronas_of_the_sun.mp4?v=9070bd0a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E15_coronas_of_the_sun.srt?v=6bd27316",
   filename: "S03_E15_coronas_of_the_sun.mp4",
 },
 {
@@ -1178,6 +1192,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E16_the_feast_of_steven.jpg?v=77363383",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E16_the_feast_of_steven.mp4?v=8a3e0583",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E16_the_feast_of_steven.srt?v=4ca06d73",
   filename: "S03_E16_the_feast_of_steven.mp4",
 },
 {
@@ -1190,6 +1205,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E17_volcano.jpg?v=655d6989",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E17_volcano.mp4?v=28ad2866",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E17_volcano.srt?v=98e067bb",
   filename: "S03_E17_volcano.mp4",
 },
 {
@@ -1202,6 +1218,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E18_golden_death.jpg?v=cd47150b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E18_golden_death.mp4?v=56d7863e",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E18_golden_death.srt?v=bfd9a0ec",
   filename: "S03_E18_golden_death.mp4",
 },
 {
@@ -1226,6 +1243,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E20_the_abandoned_planet.jpg?v=407e8f0a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E20_the_abandoned_planet.mp4?v=0b18b165",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E20_the_abandoned_planet.srt?v=7300235c",
   filename: "S03_E20_the_abandoned_planet.mp4",
 },
 {
@@ -1238,6 +1256,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E21_destruction_of_time.jpg?v=9be0eb90",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E21_destruction_of_time.mp4?v=b57ea97a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E21_destruction_of_time.srt?v=2447d6e3",
   filename: "S03_E21_destruction_of_time.mp4",
 },
 {
@@ -1250,6 +1269,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E22_war_of_god.jpg?v=09dcfc07",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E22_war_of_god.mp4?v=94cadae2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E22_war_of_god.srt?v=3e1948f2",
   filename: "S03_E22_war_of_god.mp4",
 },
 {
@@ -1262,6 +1282,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E23_the_sea_beggar.jpg?v=ddc3ac0c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E23_the_sea_beggar.mp4?v=facec701",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E23_the_sea_beggar.srt?v=2be0895c",
   filename: "S03_E23_the_sea_beggar.mp4",
 },
 {
@@ -1274,6 +1295,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E24_priest_of_death.jpg?v=131d64b2",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E24_priest_of_death.mp4?v=35c145a2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E24_priest_of_death.srt?v=07e31203",
   filename: "S03_E24_priest_of_death.mp4",
 },
 {
@@ -1286,6 +1308,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E25_bell_of_doom.jpg?v=8fefd5ab",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E25_bell_of_doom.mp4?v=4b3f0c7d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E25_bell_of_doom.srt?v=8d99bc20",
   filename: "S03_E25_bell_of_doom.mp4",
 },
 {
@@ -1414,6 +1437,7 @@ const episodes = [
   audio: "MP3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E35_dont_shoot_the_pianist.jpg?v=41c6878d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E35_dont_shoot_the_pianist.mkv?v=f2f75853",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E35_dont_shoot_the_pianist.srt?v=8cfb6515",
   filename: "S03_E35_dont_shoot_the_pianist.mkv",
 },
 {
@@ -1439,6 +1463,7 @@ const episodes = [
   audio: "MP3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E37_the_ok_corral.jpg?v=50389fee",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E37_the_ok_corral.mkv?v=26e66dc7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E37_the_ok_corral.srt?v=45bdf8f4",
   filename: "S03_E37_the_ok_corral.mkv",
 },
 {
@@ -1551,6 +1576,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E01_the_smugglers_1.jpg?v=5e60fd71",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E01_the_smugglers_1.mp4?v=fb9fe454",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E01_the_smugglers_1.srt?v=48d5597d",
   filename: "S04_E01_the_smugglers_1.mp4",
 },
 {
@@ -1563,6 +1589,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E02_the_smugglers_2.jpg?v=668ea192",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E02_the_smugglers_2.mp4?v=0e81dd88",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E02_the_smugglers_2.srt?v=0aca8d77",
   filename: "S04_E02_the_smugglers_2.mp4",
 },
 {
@@ -1575,6 +1602,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E03_the_smugglers_3.jpg?v=462f0f63",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E03_the_smugglers_3.mp4?v=0d08a0f9",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E03_the_smugglers_3.srt?v=5d772b4d",
   filename: "S04_E03_the_smugglers_3.mp4",
 },
 {
@@ -1587,6 +1615,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E04_the_smugglers_4.jpg?v=3c138e71",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E04_the_smugglers_4.mp4?v=e3678721",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E04_the_smugglers_4.srt?v=619885cf",
   filename: "S04_E04_the_smugglers_4.mp4",
 },
 {
@@ -1729,6 +1758,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E15_the_highlanders_1.jpg?v=2df0be5b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E15_the_highlanders_1.mp4?v=8aec0165",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E15_the_highlanders_1.srt?v=93243563",
   filename: "S04_E15_the_highlanders_1.mp4",
 },
 {
@@ -1741,6 +1771,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E16_the_highlanders_2.jpg?v=7635b373",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E16_the_highlanders_2.mp4?v=91d1e68d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E16_the_highlanders_2.srt?v=06b4d86f",
   filename: "S04_E16_the_highlanders_2.mp4",
 },
 {
@@ -1753,6 +1784,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E17_the_highlanders_3.jpg?v=7205d3e5",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E17_the_highlanders_3.mp4?v=aaf91e0f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E17_the_highlanders_3.srt?v=25e192ed",
   filename: "S04_E17_the_highlanders_3.mp4",
 },
 {
@@ -1765,6 +1797,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E18_the_highlanders_4.jpg?v=fa1a5fcb",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E18_the_highlanders_4.mp4?v=3f82d561",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E18_the_highlanders_4.srt?v=e8c77606",
   filename: "S04_E18_the_highlanders_4.mp4",
 },
 {
@@ -2527,6 +2560,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E35_the_wheel_in_space_1.jpg?v=9fb8683b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E35_the_wheel_in_space_1.mkv?v=04b3b1be",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E35_the_wheel_in_space_1.srt?v=7fec080e",
   filename: "S05_E35_the_wheel_in_space_1.mkv",
 },
 {
@@ -2539,6 +2573,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E36_the_wheel_in_space_2.jpg?v=ebabf1ca",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E36_the_wheel_in_space_2.mkv?v=da466b38",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E36_the_wheel_in_space_2.srt?v=8639c1e5",
   filename: "S05_E36_the_wheel_in_space_2.mkv",
 },
 {
@@ -2564,6 +2599,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E38_the_wheel_in_space_4.jpg?v=2bedb258",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E38_the_wheel_in_space_4.mkv?v=f6a193c1",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E38_the_wheel_in_space_4.srt?v=8d50e9d1",
   filename: "S05_E38_the_wheel_in_space_4.mkv",
 },
 {
@@ -2576,6 +2612,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E39_the_wheel_in_space_5.jpg?v=ccfbcf7f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E39_the_wheel_in_space_5.mkv?v=786ea2e9",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E39_the_wheel_in_space_5.srt?v=b9f7eaa2",
   filename: "S05_E39_the_wheel_in_space_5.mkv",
 },
 {
@@ -2965,6 +3002,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E29_the_space_pirates_1.jpg?v=bdbb8d75",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E29_the_space_pirates_1.mp4?v=63adf5d8",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E29_the_space_pirates_1.srt?v=72133756",
   filename: "S06_E29_the_space_pirates_1.mp4",
 },
 {
@@ -2989,6 +3027,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E31_the_space_pirates_3.jpg?v=87e46f17",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E31_the_space_pirates_3.mp4?v=c58ea4b4",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E31_the_space_pirates_3.srt?v=d74123e5",
   filename: "S06_E31_the_space_pirates_3.mp4",
 },
 {
@@ -3001,6 +3040,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E32_the_space_pirates_4.jpg?v=94ad5d7a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E32_the_space_pirates_4.mp4?v=23454e38",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E32_the_space_pirates_4.srt?v=f5755f55",
   filename: "S06_E32_the_space_pirates_4.mp4",
 },
 {
@@ -3013,6 +3053,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E33_the_space_pirates_5.jpg?v=9ca9ec0d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E33_the_space_pirates_5.mp4?v=0e70c181",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E33_the_space_pirates_5.srt?v=4a8b4b72",
   filename: "S06_E33_the_space_pirates_5.mp4",
 },
 {
@@ -3025,6 +3066,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E34_the_space_pirates_6.jpg?v=f8c1f5c0",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E34_the_space_pirates_6.mp4?v=4d0d03ae",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E34_the_space_pirates_6.srt?v=8d359783",
   filename: "S06_E34_the_space_pirates_6.mp4",
 },
 {
@@ -4969,6 +5011,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E01_terror_of_the_zygons_1.jpg?v=e9ed8ac8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E01_terror_of_the_zygons_1.m4v?v=a613bbe4",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E01_terror_of_the_zygons_1.srt?v=c9a76b33",
   filename: "S13_E01_terror_of_the_zygons_1.m4v",
 },
 {
@@ -4981,6 +5024,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E02_terror_of_the_zygons_2.jpg?v=3573eb8a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E02_terror_of_the_zygons_2.m4v?v=df22d154",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E02_terror_of_the_zygons_2.srt?v=eec07196",
   filename: "S13_E02_terror_of_the_zygons_2.m4v",
 },
 {
@@ -4993,6 +5037,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E03_terror_of_the_zygons_3.jpg?v=26023686",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E03_terror_of_the_zygons_3.m4v?v=13b595be",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E03_terror_of_the_zygons_3.srt?v=d1268d0e",
   filename: "S13_E03_terror_of_the_zygons_3.m4v",
 },
 {
@@ -5005,6 +5050,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E04_terror_of_the_zygons_4.jpg?v=cc56abd7",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E04_terror_of_the_zygons_4.m4v?v=de8327dd",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E04_terror_of_the_zygons_4.srt?v=71113a8a",
   filename: "S13_E04_terror_of_the_zygons_4.m4v",
 },
 {
@@ -5225,6 +5271,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E21_the_seeds_of_doom_1.jpg?v=9be7eccc",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E21_the_seeds_of_doom_1.m4v?v=fa820c5e",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E21_the_seeds_of_doom_1.srt?v=4d6e209c",
   filename: "S13_E21_the_seeds_of_doom_1.m4v",
 },
 {
@@ -5237,6 +5284,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E22_the_seeds_of_doom_2.jpg?v=4a6ec54f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E22_the_seeds_of_doom_2.m4v?v=cb72f3ff",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E22_the_seeds_of_doom_2.srt?v=19b21358",
   filename: "S13_E22_the_seeds_of_doom_2.m4v",
 },
 {
@@ -5249,6 +5297,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E23_the_seeds_of_doom_3.jpg?v=fdd6054d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E23_the_seeds_of_doom_3.m4v?v=2e9fda38",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E23_the_seeds_of_doom_3.srt?v=cd9a6607",
   filename: "S13_E23_the_seeds_of_doom_3.m4v",
 },
 {
@@ -5261,6 +5310,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E24_the_seeds_of_doom_4.jpg?v=8bb8ee95",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E24_the_seeds_of_doom_4.m4v?v=60ab09e4",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E24_the_seeds_of_doom_4.srt?v=c0876e62",
   filename: "S13_E24_the_seeds_of_doom_4.m4v",
 },
 {
@@ -5273,6 +5323,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E25_the_seeds_of_doom_5.jpg?v=b947f359",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E25_the_seeds_of_doom_5.m4v?v=b69b75e5",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E25_the_seeds_of_doom_5.srt?v=5590f99d",
   filename: "S13_E25_the_seeds_of_doom_5.m4v",
 },
 {
@@ -5285,6 +5336,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E26_the_seeds_of_doom_6.jpg?v=7282c7bd",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E26_the_seeds_of_doom_6.m4v?v=889d3300",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_13/S13_E26_the_seeds_of_doom_6.srt?v=69e70d09",
   filename: "S13_E26_the_seeds_of_doom_6.m4v",
 },
 {
@@ -7567,6 +7619,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_20/S20_E21_the_kings_demons_1.jpg?v=465b1b19",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_20/S20_E21_the_kings_demons_1.m4v?v=03e054de",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_20/S20_E21_the_kings_demons_1.srt?v=20f0bf55",
   filename: "S20_E21_the_kings_demons_1.m4v",
 },
 {
@@ -7579,6 +7632,7 @@ const episodes = [
   audio: "AC-3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_20/S20_E22_the_kings_demons_2.jpg?v=b318c7d2",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_20/S20_E22_the_kings_demons_2.m4v?v=8175b1d6",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_20/S20_E22_the_kings_demons_2.srt?v=6c8989c0",
   filename: "S20_E22_the_kings_demons_2.m4v",
 },
 {
@@ -7591,6 +7645,7 @@ const episodes = [
   audio: "MP3",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_20/S20_E23_the_five_doctors_special.jpg?v=04b28a1b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_20/S20_E23_the_five_doctors_special.mkv?v=1fb08c28",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_20/S20_E23_the_five_doctors_special.srt?v=abf073b3",
   filename: "S20_E23_the_five_doctors_special.mkv",
 },
 {
@@ -8260,9 +8315,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-09-07T12:00:00.000Z",
   overview: "A crash landing costs the Doctor another regeneration and leaves the Rani in charge of a planet of geniuses. She is building something out of their minds and needs one more to finish it.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E01_time_and_the_rani_1.jpg?v=94de733a",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E01_time_and_the_rani_1.mkv?v=cd2e283b",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E01_time_and_the_rani_1.jpg?v=e1ce8d48",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E01_time_and_the_rani_1.mkv?v=d69b0ad5",
   filename: "S24_E01_time_and_the_rani_1.mkv",
 },
 {
@@ -8272,9 +8327,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-09-14T12:00:00.000Z",
   overview: "A crash landing costs the Doctor another regeneration and leaves the Rani in charge of a planet of geniuses. She is building something out of their minds and needs one more to finish it.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E02_time_and_the_rani_2.jpg?v=479999ed",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E02_time_and_the_rani_2.mkv?v=7434fca2",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E02_time_and_the_rani_2.jpg?v=752b4ac9",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E02_time_and_the_rani_2.mkv?v=c806d43d",
   filename: "S24_E02_time_and_the_rani_2.mkv",
 },
 {
@@ -8284,9 +8339,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-09-21T12:00:00.000Z",
   overview: "A crash landing costs the Doctor another regeneration and leaves the Rani in charge of a planet of geniuses. She is building something out of their minds and needs one more to finish it.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E03_time_and_the_rani_3.jpg?v=a353da49",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E03_time_and_the_rani_3.mkv?v=a03414ba",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E03_time_and_the_rani_3.jpg?v=72390f16",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E03_time_and_the_rani_3.mkv?v=4e41492a",
   filename: "S24_E03_time_and_the_rani_3.mkv",
 },
 {
@@ -8296,9 +8351,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-09-28T12:00:00.000Z",
   overview: "A crash landing costs the Doctor another regeneration and leaves the Rani in charge of a planet of geniuses. She is building something out of their minds and needs one more to finish it.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E04_time_and_the_rani_4.jpg?v=2cfe8fdb",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E04_time_and_the_rani_4.mkv?v=c394bf32",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E04_time_and_the_rani_4.jpg?v=07a3e52c",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E04_time_and_the_rani_4.mkv?v=47b4d031",
   filename: "S24_E04_time_and_the_rani_4.mkv",
 },
 {
@@ -8308,9 +8363,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-10-05T12:00:00.000Z",
   overview: "A prizewinning tower block has gangs in the corridors, cannibals in the flats and cleaning robots that do more than clean. Everyone is waiting for the architect, and the pool on the roof is the only clean thing left.",
-  audio: "AAC",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E05_paradise_towers_1.jpg?v=e1a4f32f",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E05_paradise_towers_1.mkv?v=3cfe3181",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E05_paradise_towers_1.jpg?v=ae97eada",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E05_paradise_towers_1.mkv?v=6b95943a",
   filename: "S24_E05_paradise_towers_1.mkv",
 },
 {
@@ -8320,9 +8375,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-10-12T12:00:00.000Z",
   overview: "A prizewinning tower block has gangs in the corridors, cannibals in the flats and cleaning robots that do more than clean. Everyone is waiting for the architect, and the pool on the roof is the only clean thing left.",
-  audio: "AAC",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E06_paradise_towers_2.jpg?v=7b551764",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E06_paradise_towers_2.mkv?v=b6ae7e0d",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E06_paradise_towers_2.jpg?v=3527f42e",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E06_paradise_towers_2.mkv?v=34d48260",
   filename: "S24_E06_paradise_towers_2.mkv",
 },
 {
@@ -8332,9 +8387,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-10-19T12:00:00.000Z",
   overview: "A prizewinning tower block has gangs in the corridors, cannibals in the flats and cleaning robots that do more than clean. Everyone is waiting for the architect, and the pool on the roof is the only clean thing left.",
-  audio: "AAC",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E07_paradise_towers_3.jpg?v=cc3a6473",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E07_paradise_towers_3.mkv?v=75d5d358",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E07_paradise_towers_3.jpg?v=f15f2dc3",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E07_paradise_towers_3.mkv?v=7361169f",
   filename: "S24_E07_paradise_towers_3.mkv",
 },
 {
@@ -8344,9 +8399,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-10-26T12:00:00.000Z",
   overview: "A prizewinning tower block has gangs in the corridors, cannibals in the flats and cleaning robots that do more than clean. Everyone is waiting for the architect, and the pool on the roof is the only clean thing left.",
-  audio: "AAC",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E08_paradise_towers_4.jpg?v=48411114",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E08_paradise_towers_4.mkv?v=e6f2c5a4",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E08_paradise_towers_4.jpg?v=57f5cf12",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E08_paradise_towers_4.mkv?v=2dff11a5",
   filename: "S24_E08_paradise_towers_4.mkv",
 },
 {
@@ -8356,9 +8411,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-11-02T12:00:00.000Z",
   overview: "A Welsh holiday camp in 1959 takes in a party of alien tourists and a queen carrying the last of her people. The Bannermen are hunting her and have no interest in who else is there.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E09_delta_and_the_bannermen_1.jpg?v=aebe5158",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E09_delta_and_the_bannermen_1.mkv?v=28930266",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E09_delta_and_the_bannermen_1.jpg?v=0e36b6af",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E09_delta_and_the_bannermen_1.mkv?v=ecbc5412",
   filename: "S24_E09_delta_and_the_bannermen_1.mkv",
 },
 {
@@ -8368,9 +8423,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-11-09T12:00:00.000Z",
   overview: "A Welsh holiday camp in 1959 takes in a party of alien tourists and a queen carrying the last of her people. The Bannermen are hunting her and have no interest in who else is there.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E10_delta_and_the_bannermen_2.jpg?v=6de14f48",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E10_delta_and_the_bannermen_2.mkv?v=d58defbd",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E10_delta_and_the_bannermen_2.jpg?v=2a0afaf3",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E10_delta_and_the_bannermen_2.mkv?v=32bc6302",
   filename: "S24_E10_delta_and_the_bannermen_2.mkv",
 },
 {
@@ -8380,9 +8435,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-11-16T12:00:00.000Z",
   overview: "A Welsh holiday camp in 1959 takes in a party of alien tourists and a queen carrying the last of her people. The Bannermen are hunting her and have no interest in who else is there.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E11_delta_and_the_bannermen_3.jpg?v=98ed2ec3",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E11_delta_and_the_bannermen_3.mkv?v=58c73b96",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E11_delta_and_the_bannermen_3.jpg?v=3474d73f",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E11_delta_and_the_bannermen_3.mkv?v=f917c86d",
   filename: "S24_E11_delta_and_the_bannermen_3.mkv",
 },
 {
@@ -8392,9 +8447,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-11-23T12:00:00.000Z",
   overview: "An ice world's trading colony is run by a former Dalek associate, and a mercenary is looking for treasure in the tunnels. What guards it has been kept there a very long time.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E12_dragonfire_1.jpg?v=fb208d01",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E12_dragonfire_1.mkv?v=080385b0",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E12_dragonfire_1.jpg?v=c6265ffa",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E12_dragonfire_1.mkv?v=f665f17a",
   filename: "S24_E12_dragonfire_1.mkv",
 },
 {
@@ -8404,9 +8459,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-11-30T12:00:00.000Z",
   overview: "An ice world's trading colony is run by a former Dalek associate, and a mercenary is looking for treasure in the tunnels. What guards it has been kept there a very long time.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E13_dragonfire_2.jpg?v=c79b2207",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E13_dragonfire_2.mkv?v=0679818f",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E13_dragonfire_2.jpg?v=b8a332c6",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E13_dragonfire_2.mkv?v=93abb985",
   filename: "S24_E13_dragonfire_2.mkv",
 },
 {
@@ -8416,9 +8471,9 @@ const episodes = [
   type: "Main Show",
   released: "1987-12-07T12:00:00.000Z",
   overview: "An ice world's trading colony is run by a former Dalek associate, and a mercenary is looking for treasure in the tunnels. What guards it has been kept there a very long time.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E14_dragonfire_3.jpg?v=61682d3d",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E14_dragonfire_3.mkv?v=e17a923e",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E14_dragonfire_3.jpg?v=57d287c3",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_24/S24_E14_dragonfire_3.mkv?v=63b22c33",
   filename: "S24_E14_dragonfire_3.mkv",
 },
 {
@@ -8428,11 +8483,10 @@ const episodes = [
   type: "Main Show",
   released: "1988-10-05T12:00:00.000Z",
   overview: "In 1963 two Dalek factions fight over a device the Doctor left in a London junkyard years before. The schoolgirl, the undertaker and the army unit are all closer to it than they realise.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E01_remembrance_of_the_daleks_1.jpg?v=7ce8f103",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E01_remembrance_of_the_daleks_1.m4v?v=51ee6594",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E01_remembrance_of_the_daleks_1.srt?v=8c8e118b",
-  filename: "S25_E01_remembrance_of_the_daleks_1.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E01_remembrance_of_the_daleks_1.jpg?v=d75b311a",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E01_remembrance_of_the_daleks_1.mkv?v=4c7fa4ae",
+  filename: "S25_E01_remembrance_of_the_daleks_1.mkv",
 },
 {
   title: "Remembrance of the Daleks (2)",
@@ -8441,11 +8495,10 @@ const episodes = [
   type: "Main Show",
   released: "1988-10-12T12:00:00.000Z",
   overview: "In 1963 two Dalek factions fight over a device the Doctor left in a London junkyard years before. The schoolgirl, the undertaker and the army unit are all closer to it than they realise.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E02_remembrance_of_the_daleks_2.jpg?v=5363606d",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E02_remembrance_of_the_daleks_2.m4v?v=eaf0718a",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E02_remembrance_of_the_daleks_2.srt?v=83cd0b44",
-  filename: "S25_E02_remembrance_of_the_daleks_2.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E02_remembrance_of_the_daleks_2.jpg?v=808a9b40",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E02_remembrance_of_the_daleks_2.mkv?v=b2361ad5",
+  filename: "S25_E02_remembrance_of_the_daleks_2.mkv",
 },
 {
   title: "Remembrance of the Daleks (3)",
@@ -8454,11 +8507,10 @@ const episodes = [
   type: "Main Show",
   released: "1988-10-19T12:00:00.000Z",
   overview: "In 1963 two Dalek factions fight over a device the Doctor left in a London junkyard years before. The schoolgirl, the undertaker and the army unit are all closer to it than they realise.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E03_remembrance_of_the_daleks_3.jpg?v=8f4caeec",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E03_remembrance_of_the_daleks_3.m4v?v=cf460893",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E03_remembrance_of_the_daleks_3.srt?v=b662ab72",
-  filename: "S25_E03_remembrance_of_the_daleks_3.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E03_remembrance_of_the_daleks_3.jpg?v=91ce2320",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E03_remembrance_of_the_daleks_3.mkv?v=39949fa7",
+  filename: "S25_E03_remembrance_of_the_daleks_3.mkv",
 },
 {
   title: "Remembrance of the Daleks (4)",
@@ -8467,11 +8519,10 @@ const episodes = [
   type: "Main Show",
   released: "1988-10-26T12:00:00.000Z",
   overview: "In 1963 two Dalek factions fight over a device the Doctor left in a London junkyard years before. The schoolgirl, the undertaker and the army unit are all closer to it than they realise.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E04_remembrance_of_the_daleks_4.jpg?v=306f7080",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E04_remembrance_of_the_daleks_4.m4v?v=b8f28d5d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E04_remembrance_of_the_daleks_4.srt?v=f6370c70",
-  filename: "S25_E04_remembrance_of_the_daleks_4.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E04_remembrance_of_the_daleks_4.jpg?v=b7a7abfd",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E04_remembrance_of_the_daleks_4.mkv?v=abbb340d",
+  filename: "S25_E04_remembrance_of_the_daleks_4.mkv",
 },
 {
   title: "The Happiness Patrol (1)",
@@ -8480,11 +8531,10 @@ const episodes = [
   type: "Main Show",
   released: "1988-11-02T12:00:00.000Z",
   overview: "A colony on Terra Alpha has made sadness a crime, and the patrols take anybody caught being miserable away for processing. The Doctor arrives intending to bring the whole administration down before morning.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E05_the_happiness_patrol_1.jpg?v=29877ba4",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E05_the_happiness_patrol_1.m4v?v=2c23cee9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E05_the_happiness_patrol_1.srt?v=cb52edee",
-  filename: "S25_E05_the_happiness_patrol_1.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E05_the_happiness_patrol_1.jpg?v=d0686521",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E05_the_happiness_patrol_1.mkv?v=70dbb7d2",
+  filename: "S25_E05_the_happiness_patrol_1.mkv",
 },
 {
   title: "The Happiness Patrol (2)",
@@ -8493,11 +8543,10 @@ const episodes = [
   type: "Main Show",
   released: "1988-11-09T12:00:00.000Z",
   overview: "A colony on Terra Alpha has made sadness a crime, and the patrols take anybody caught being miserable away for processing. The Doctor arrives intending to bring the whole administration down before morning.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E06_the_happiness_patrol_2.jpg?v=a3527bc8",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E06_the_happiness_patrol_2.m4v?v=6c87c3f3",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E06_the_happiness_patrol_2.srt?v=f29ff234",
-  filename: "S25_E06_the_happiness_patrol_2.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E06_the_happiness_patrol_2.jpg?v=daecbd7f",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E06_the_happiness_patrol_2.mkv?v=db33e295",
+  filename: "S25_E06_the_happiness_patrol_2.mkv",
 },
 {
   title: "The Happiness Patrol (3)",
@@ -8506,11 +8555,10 @@ const episodes = [
   type: "Main Show",
   released: "1988-11-16T12:00:00.000Z",
   overview: "A colony on Terra Alpha has made sadness a crime, and the patrols take anybody caught being miserable away for processing. The Doctor arrives intending to bring the whole administration down before morning.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E07_the_happiness_patrol_3.jpg?v=22b60234",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E07_the_happiness_patrol_3.m4v?v=536f3aaf",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E07_the_happiness_patrol_3.srt?v=9c39e50e",
-  filename: "S25_E07_the_happiness_patrol_3.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E07_the_happiness_patrol_3.jpg?v=69ecf125",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E07_the_happiness_patrol_3.mkv?v=d69cf212",
+  filename: "S25_E07_the_happiness_patrol_3.mkv",
 },
 {
   title: "Silver Nemesis (1)",
@@ -8519,9 +8567,9 @@ const episodes = [
   type: "Main Show",
   released: "1988-11-23T12:00:00.000Z",
   overview: "A comet carrying a statue of living metal returns to Earth every twenty-five years and is due again. Cybermen, a Nazi and a seventeenth-century sorceress all want it, and the Doctor launched it himself.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E08_silver_nemesis_1.jpg?v=1fb7a5e6",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E08_silver_nemesis_1.mkv?v=49431d61",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E08_silver_nemesis_1.jpg?v=e3568154",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E08_silver_nemesis_1.mkv?v=71a1b9bc",
   filename: "S25_E08_silver_nemesis_1.mkv",
 },
 {
@@ -8531,9 +8579,9 @@ const episodes = [
   type: "Main Show",
   released: "1988-11-30T12:00:00.000Z",
   overview: "A comet carrying a statue of living metal returns to Earth every twenty-five years and is due again. Cybermen, a Nazi and a seventeenth-century sorceress all want it, and the Doctor launched it himself.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E09_silver_nemesis_2.jpg?v=e59cb0cc",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E09_silver_nemesis_2.mkv?v=a869f2a9",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E09_silver_nemesis_2.jpg?v=f64c2449",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E09_silver_nemesis_2.mkv?v=57f7872e",
   filename: "S25_E09_silver_nemesis_2.mkv",
 },
 {
@@ -8543,9 +8591,9 @@ const episodes = [
   type: "Main Show",
   released: "1988-12-07T12:00:00.000Z",
   overview: "A comet carrying a statue of living metal returns to Earth every twenty-five years and is due again. Cybermen, a Nazi and a seventeenth-century sorceress all want it, and the Doctor launched it himself.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E10_silver_nemesis_3.jpg?v=bff83370",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E10_silver_nemesis_3.mkv?v=0ff75fb8",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E10_silver_nemesis_3.jpg?v=7ecf5c37",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E10_silver_nemesis_3.mkv?v=b151ffe3",
   filename: "S25_E10_silver_nemesis_3.mkv",
 },
 {
@@ -8555,11 +8603,10 @@ const episodes = [
   type: "Main Show",
   released: "1988-12-14T12:00:00.000Z",
   overview: "A circus on a desert world advertises for acts and the audience is three people who never leave. Whatever is under the ring has been fed for a long time and is not easily satisfied.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E11_the_greatest_show_in_the_galaxy_1.jpg?v=1dd251e5",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E11_the_greatest_show_in_the_galaxy_1.m4v?v=830b9446",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E11_the_greatest_show_in_the_galaxy_1.srt?v=c29a77cb",
-  filename: "S25_E11_the_greatest_show_in_the_galaxy_1.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E11_the_greatest_show_in_the_galaxy_1.jpg?v=8ee966c3",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E11_the_greatest_show_in_the_galaxy_1.mkv?v=ebc0d4f4",
+  filename: "S25_E11_the_greatest_show_in_the_galaxy_1.mkv",
 },
 {
   title: "The Greatest Show in the Galaxy (2)",
@@ -8568,11 +8615,10 @@ const episodes = [
   type: "Main Show",
   released: "1988-12-21T12:00:00.000Z",
   overview: "A circus on a desert world advertises for acts and the audience is three people who never leave. Whatever is under the ring has been fed for a long time and is not easily satisfied.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E12_the_greatest_show_in_the_galaxy_2.jpg?v=96ce588d",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E12_the_greatest_show_in_the_galaxy_2.m4v?v=2016ffb5",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E12_the_greatest_show_in_the_galaxy_2.srt?v=d55bf1c3",
-  filename: "S25_E12_the_greatest_show_in_the_galaxy_2.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E12_the_greatest_show_in_the_galaxy_2.jpg?v=1a482106",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E12_the_greatest_show_in_the_galaxy_2.mkv?v=07f0fa19",
+  filename: "S25_E12_the_greatest_show_in_the_galaxy_2.mkv",
 },
 {
   title: "The Greatest Show in the Galaxy (3)",
@@ -8581,11 +8627,10 @@ const episodes = [
   type: "Main Show",
   released: "1988-12-28T12:00:00.000Z",
   overview: "A circus on a desert world advertises for acts and the audience is three people who never leave. Whatever is under the ring has been fed for a long time and is not easily satisfied.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E13_the_greatest_show_in_the_galaxy_3.jpg?v=f003150f",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E13_the_greatest_show_in_the_galaxy_3.m4v?v=0e3fd888",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E13_the_greatest_show_in_the_galaxy_3.srt?v=61ca6468",
-  filename: "S25_E13_the_greatest_show_in_the_galaxy_3.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E13_the_greatest_show_in_the_galaxy_3.jpg?v=87f2166b",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E13_the_greatest_show_in_the_galaxy_3.mkv?v=9f6e122f",
+  filename: "S25_E13_the_greatest_show_in_the_galaxy_3.mkv",
 },
 {
   title: "The Greatest Show in the Galaxy (4)",
@@ -8594,11 +8639,10 @@ const episodes = [
   type: "Main Show",
   released: "1989-01-04T12:00:00.000Z",
   overview: "A circus on a desert world advertises for acts and the audience is three people who never leave. Whatever is under the ring has been fed for a long time and is not easily satisfied.",
-  audio: "AC-3",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E14_the_greatest_show_in_the_galaxy_4.jpg?v=bbe1d6d7",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E14_the_greatest_show_in_the_galaxy_4.m4v?v=96988d5d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E14_the_greatest_show_in_the_galaxy_4.srt?v=baf15e41",
-  filename: "S25_E14_the_greatest_show_in_the_galaxy_4.m4v",
+  audio: "DTS",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E14_the_greatest_show_in_the_galaxy_4.jpg?v=743177ef",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_25/S25_E14_the_greatest_show_in_the_galaxy_4.mkv?v=3ff9ae71",
+  filename: "S25_E14_the_greatest_show_in_the_galaxy_4.mkv",
 },
 {
   title: "Battlefield (1)",
@@ -8792,6 +8836,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E01_dimensions_in_time_1_special.jpg?v=f8ab2ed5",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E01_dimensions_in_time_1_special.mp4?v=467ca492",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E01_dimensions_in_time_1_special.srt?v=6e1f9c5b",
   filename: "S01_E01_dimensions_in_time_1_special.mp4",
 },
 {
@@ -8804,6 +8849,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E02_dimensions_in_time_2_special.jpg?v=d45765c8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E02_dimensions_in_time_2_special.mp4?v=12b5e321",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E02_dimensions_in_time_2_special.srt?v=6794b926",
   filename: "S01_E02_dimensions_in_time_2_special.mp4",
 },
 {
@@ -8828,6 +8874,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E04_doctor_who_and_the_curse_of_fatal_death_special.jpg?v=8c09be6a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E04_doctor_who_and_the_curse_of_fatal_death_special.mp4?v=32d3e438",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E04_doctor_who_and_the_curse_of_fatal_death_special.srt?v=797ab832",
   filename: "S01_E04_doctor_who_and_the_curse_of_fatal_death_special.mp4",
 },
 {
@@ -8840,6 +8887,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E05_death_comes_to_time_1_animated_series.jpg?v=a6695166",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E05_death_comes_to_time_1_animated_series.mp4?v=1ff2f3d7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E05_death_comes_to_time_1_animated_series.srt?v=833838ac",
   filename: "S01_E05_death_comes_to_time_1_animated_series.mp4",
 },
 {
@@ -8852,6 +8900,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E06_death_comes_to_time_2_animated_series.jpg?v=4e6ac25e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E06_death_comes_to_time_2_animated_series.mp4?v=90d33801",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E06_death_comes_to_time_2_animated_series.srt?v=8b19a2c7",
   filename: "S01_E06_death_comes_to_time_2_animated_series.mp4",
 },
 {
@@ -8864,6 +8913,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E07_death_comes_to_time_3_animated_series.jpg?v=44bdec3c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E07_death_comes_to_time_3_animated_series.mp4?v=7b703a74",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E07_death_comes_to_time_3_animated_series.srt?v=e5057edc",
   filename: "S01_E07_death_comes_to_time_3_animated_series.mp4",
 },
 {
@@ -8876,6 +8926,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E08_death_comes_to_time_4_animated_series.jpg?v=857047ac",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E08_death_comes_to_time_4_animated_series.mp4?v=1a5e3c5a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E08_death_comes_to_time_4_animated_series.srt?v=b1942b40",
   filename: "S01_E08_death_comes_to_time_4_animated_series.mp4",
 },
 {
@@ -8888,6 +8939,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E09_death_comes_to_time_5_animated_series.jpg?v=b78affad",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E09_death_comes_to_time_5_animated_series.mp4?v=02efa69f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E09_death_comes_to_time_5_animated_series.srt?v=fba905a4",
   filename: "S01_E09_death_comes_to_time_5_animated_series.mp4",
 },
 {
@@ -8900,6 +8952,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E10_real_time_1_animated_series.jpg?v=9bcd7521",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E10_real_time_1_animated_series.mp4?v=27d83c09",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E10_real_time_1_animated_series.srt?v=4b1998f9",
   filename: "S01_E10_real_time_1_animated_series.mp4",
 },
 {
@@ -8912,6 +8965,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E11_real_time_2_animated_series.jpg?v=935ec8e0",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E11_real_time_2_animated_series.mp4?v=2a43bbe7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E11_real_time_2_animated_series.srt?v=0a4357a3",
   filename: "S01_E11_real_time_2_animated_series.mp4",
 },
 {
@@ -8924,6 +8978,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E12_real_time_3_animated_series.jpg?v=06972ab7",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E12_real_time_3_animated_series.mp4?v=f35e4d7c",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E12_real_time_3_animated_series.srt?v=2924f3ad",
   filename: "S01_E12_real_time_3_animated_series.mp4",
 },
 {
@@ -8936,6 +8991,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E13_real_time_4_animated_series.jpg?v=c719f76a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E13_real_time_4_animated_series.mp4?v=6c08fe90",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E13_real_time_4_animated_series.srt?v=18dba315",
   filename: "S01_E13_real_time_4_animated_series.mp4",
 },
 {
@@ -8948,6 +9004,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E14_real_time_5_animated_series.jpg?v=b55a4879",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E14_real_time_5_animated_series.mp4?v=f6bdca59",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E14_real_time_5_animated_series.srt?v=0cc31f4e",
   filename: "S01_E14_real_time_5_animated_series.mp4",
 },
 {
@@ -8960,6 +9017,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E15_real_time_6_animated_series.jpg?v=d40df4d5",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E15_real_time_6_animated_series.mp4?v=a118a275",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E15_real_time_6_animated_series.srt?v=acca12be",
   filename: "S01_E15_real_time_6_animated_series.mp4",
 },
 {
@@ -8972,6 +9030,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E16_shada_prelude_animated_series.jpg?v=a2cc5082",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E16_shada_prelude_animated_series.mp4?v=c07c0fa9",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E16_shada_prelude_animated_series.srt?v=5a6c10de",
   filename: "S01_E16_shada_prelude_animated_series.mp4",
 },
 {
@@ -8984,6 +9043,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E17_shada_1_animated_series.jpg?v=50337223",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E17_shada_1_animated_series.mp4?v=bc35d8c1",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E17_shada_1_animated_series.srt?v=0800fb02",
   filename: "S01_E17_shada_1_animated_series.mp4",
 },
 {
@@ -8996,6 +9056,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E18_shada_2_animated_series.jpg?v=143beb49",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E18_shada_2_animated_series.mp4?v=599a7a3f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E18_shada_2_animated_series.srt?v=1876af2c",
   filename: "S01_E18_shada_2_animated_series.mp4",
 },
 {
@@ -9008,6 +9069,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E19_shada_3_animated_series.jpg?v=28018435",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E19_shada_3_animated_series.mp4?v=49c08b20",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E19_shada_3_animated_series.srt?v=13841586",
   filename: "S01_E19_shada_3_animated_series.mp4",
 },
 {
@@ -9020,6 +9082,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E20_shada_4_animated_series.jpg?v=c253f093",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E20_shada_4_animated_series.mp4?v=71d10fa8",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E20_shada_4_animated_series.srt?v=ba607ad7",
   filename: "S01_E20_shada_4_animated_series.mp4",
 },
 {
@@ -9032,6 +9095,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E21_shada_5_animated_series.jpg?v=45ec6394",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E21_shada_5_animated_series.mp4?v=3df4f744",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E21_shada_5_animated_series.srt?v=7c9255eb",
   filename: "S01_E21_shada_5_animated_series.mp4",
 },
 {
@@ -9044,6 +9108,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E22_shada_6_animated_series.jpg?v=4e2c6317",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E22_shada_6_animated_series.mp4?v=86c2eb80",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/wilderness_years/season_1/S01_E22_shada_6_animated_series.srt?v=84af19dd",
   filename: "S01_E22_shada_6_animated_series.mp4",
 },
 {
