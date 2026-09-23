@@ -5646,19 +5646,25 @@
   "codecs": []
  },
  "classic_who/season_15/S15_E26_the_invasion_of_time_6": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E25_the_invasion_of_time_5": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E22_the_invasion_of_time_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_16/S16_E03_the_ribos_operation_3": {
   "sidecar": true,
@@ -5666,9 +5672,11 @@
   "codecs": []
  },
  "classic_who/season_15/S15_E23_the_invasion_of_time_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_16/S16_E04_the_ribos_operation_4": {
   "sidecar": true,
@@ -5681,59 +5689,81 @@
   "codecs": []
  },
  "classic_who/season_15/S15_E24_the_invasion_of_time_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E21_the_invasion_of_time_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E18_underworld_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E20_underworld_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E15_the_sun_makers_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E16_the_sun_makers_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E19_underworld_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E14_the_sun_makers_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E10_image_of_the_fendahl_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E17_underworld_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E12_image_of_the_fendahl_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_16/S16_E02_the_ribos_operation_2": {
   "sidecar": true,
@@ -5741,39 +5771,53 @@
   "codecs": []
  },
  "classic_who/season_15/S15_E09_image_of_the_fendahl_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E11_image_of_the_fendahl_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E13_the_sun_makers_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E05_the_invisible_enemy_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E04_horror_of_fang_rock_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E01_horror_of_fang_rock_1": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E03_horror_of_fang_rock_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_14/S14_E25_the_talons_of_wengchiang_5": {
   "sidecar": true,
@@ -5781,9 +5825,11 @@
   "codecs": []
  },
  "classic_who/season_15/S15_E07_the_invisible_enemy_3": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_14/S14_E23_the_talons_of_wengchiang_3": {
   "sidecar": true,
@@ -5791,14 +5837,18 @@
   "codecs": []
  },
  "classic_who/season_15/S15_E08_the_invisible_enemy_4": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_15/S15_E02_horror_of_fang_rock_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_14/S14_E26_the_talons_of_wengchiang_6": {
   "sidecar": true,
@@ -5811,9 +5861,11 @@
   "codecs": []
  },
  "classic_who/season_15/S15_E06_the_invisible_enemy_2": {
-  "sidecar": true,
-  "embedded": 0,
-  "codecs": []
+  "sidecar": false,
+  "embedded": 2,
+  "codecs": [
+   "hdmv_pgs_subtitle"
+  ]
  },
  "classic_who/season_14/S14_E21_the_talons_of_wengchiang_1": {
   "sidecar": true,

@@ -8,7 +8,8 @@ Last reviewed 23 September 2026.
 
 ## In flight
 
-- **Season 15 from the Collection** is still downloading on TorBox.
+- **Season 20 from the Collection** is downloading from TorBox to `~/Downloads`. It brings
+  its own PGS, so its three generated sidecars go before regenerating.
 
 ## Waiting on the user
 
@@ -17,6 +18,13 @@ Last reviewed 23 September 2026.
 - **The *24 Carat* cut.** The story ends at 217.92 s (frame 5447) of the season 24 trailer
   `cLb-rlZQA9k`; a coda follows the promo, from about 387.6 s to 422 s, then credits.
   Story only, or story plus coda? Source: `~/Downloads/content/classic_who/_work/24carat_full.mp4`.
+- **The *Final Battle* cut** (season 15 trailer `HIBfUAF9otg`, VP9). The story ends at
+  188.60 s, frame 4714, as Leela goes into the vortex; the promo follows, then its own
+  credits over the vortex from about 361.5 s to 403 s. No coda. Story only, or plus credits?
+- **The *Passenger* cut** (season 20 trailer `NMgKaTU9-bQ`, AV1). The story fades to black
+  at 370.84 s; after the promo a coda, where Tegan throws the Mara off, runs 664.80 s to
+  745.28 s, then credits to 775.24 s. Story only, story plus coda, and credits or not?
+  Sources for all three trailers are in `~/Downloads/content/classic_who/_work/`.
 - **Classic Who IMDb ids.** Regenerating on 23 September dropped the ones the audit typed
   in; they do nothing, since the addon answers only its own ids. Leave out, or carry?
 - **The stremio-addons.net listing.** The text was given on 22 September; paste it by
@@ -27,9 +35,7 @@ Last reviewed 23 September 2026.
 
 ## Collection seasons not started
 
-- **Seasons 20 and 22** are on the TorBox hash list, not downloaded yet. When season 20
-  lands, its files bring their own PGS, so delete the three sidecars made on 23 September
-  for *The King's Demons* 1 and 2 and *The Five Doctors*, before regenerating.
+- **Season 22** is on the TorBox hash list, not downloaded yet.
 - **No set found for 13, 14, 18, 21, 23 or 26.** Not searched since the first sweep.
   Season 21 matters most: *Resurrection of the Daleks* parts 3 and 4 are not in the
   bucket, so only the first half plays.
@@ -40,7 +46,7 @@ Last reviewed 23 September 2026.
 The 22 September audit changed data in Classic seasons that have not had their pass.
 No video was touched. Check these again at each season's step 4:
 
-- Air dates were written into seasons 4, 5, 6, 11, 13 to 16, 18, 20 to 23 and 26, from
+- Air dates were written into seasons 4, 5, 6, 11, 13, 14, 16, 18, 20 to 23 and 26, from
   Wikipedia's episode tables.
 - Sidecar subtitles were removed in seasons 4, 5, 6, 22 and 23, because the files
   carry their own track.
