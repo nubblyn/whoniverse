@@ -3,7 +3,7 @@
   "id": "community.whoniverse.addon",
   "name": "Whoniverse",
   "logo": "addon-logo.png",
-  "description": "Doctor Who in original UK broadcast order, with every special, minisode and prequel inside its season. {status}"
+  "description": "Doctor Who and everything around it, in one place: the original run, the years off the air, the revived series, and the spin-offs Torchwood, The Sarah Jane Adventures, Class and The War Between the Land and the Sea. Every special, minisode, prequel and animated serial that carries the story sits inside its season at the point it belongs, so it all runs straight through. {status}"
  },
  "series": [
   {
@@ -19,7 +19,7 @@
     "Adventure",
     "Drama"
    ],
-   "description": "The original run of Doctor Who, from An Unearthly Child in 1963 to Survival in 1989. Seven Doctors across 26 seasons, told as multi-part serials and presented here in UK broadcast order with the specials in their place."
+   "description": "An exiled Time Lord called the Doctor travels time and space in the TARDIS, a ship disguised as a police box, with the companions he gathers along the way. Seven Doctors across 26 seasons of multi-part serials, from An Unearthly Child in 1963 to Survival in 1989."
   },
   {
    "key": "wilderness-years",
@@ -33,7 +33,7 @@
     "Sci-Fi",
     "Adventure"
    ],
-   "description": "The sixteen years off the air, between Survival in 1989 and Rose in 2005. The 1996 television film, two charity specials and three webcasts: everything the programme managed while it was cancelled."
+   "description": "The sixteen years Doctor Who spent off the air, between Survival in 1989 and Rose in 2005. The 1996 television film, two charity specials and four webcasts: everything the programme managed while it was cancelled."
   },
   {
    "key": "new-who",
@@ -48,7 +48,7 @@
     "Adventure",
     "Drama"
    ],
-   "description": "The revived series, from Rose in 2005 to the present day, in original UK broadcast order. Specials, minisodes and prequels sit inside their seasons, so the story runs straight through from the Ninth Doctor onward."
+   "description": "The Doctor returns as the last of the Time Lords, still travelling time and space in the TARDIS with companions from Earth after a war that ended his people. Seven Doctors, the Ninth to the Fifteenth, across sixteen seasons from Rose in 2005 to the present day."
   },
   {
    "key": "torchwood",
@@ -123,7 +123,7 @@
     "Adventure",
     "Drama"
    ],
-   "description": "Every Doctor Who story in one running order, from An Unearthly Child in 1963 to the newest arrival, with the spin-offs, specials, minisodes and animated serials each in the place a viewer would watch it. One list instead of eight."
+   "description": "Every Doctor Who story in one running order, from An Unearthly Child in 1963 to the newest arrival, with the spin-offs, specials, minisodes and animated serials each in the place a viewer would watch it. One list instead of seven."
   }
  ]
 }

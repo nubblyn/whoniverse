@@ -665,7 +665,6 @@ function drawDetail(){
         CDN + '/' + base + '.jpg' + (D.sv[base.split('/').pop()] || '') + '">' : '') +
     (r[DESC] ? '<p class="prose">' + esc(r[DESC]) + '</p>' : '') +
     (r[NOTE] ? '<p class="note">' + esc(r[NOTE]) + '</p>' : '') +
-    (r[STATE] === 'gone' ? '<p class="note">No copy of this episode survives.</p>' : '') +
     (r[STATE] === 'recon' ? '<p class="note">The film was wiped. What is held is a '
       + 'reconstruction: telesnaps cut to the surviving soundtrack.</p>' : '') +
     '<dl class="ladder">' +

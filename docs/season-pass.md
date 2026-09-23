@@ -38,7 +38,7 @@ Add a line there when something is left open and delete it when it is done.
 
 ## B. The toolbox
 
-Everything below is installed and was used in the week to 15 September 2026. Paths are
+Everything below is installed on this machine. Paths are
 Git Bash (`/c/Users/hello/...`); Windows programs need `cygpath -w` on any path you pass
 them (see the 7-Zip entry for why).
 
@@ -204,8 +204,8 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
   walk; Season 12 of the Classic packs said 25 in the header and ran 29.97).
 - **moov position**: `scripts/ledger/ready.py` reads the top-level box order; `moov`
   before `mdat` is faststart. Or `ffprobe -v trace … 2>&1 | grep -m2 "type:'m"`.
-- **Dolby audio**: either keep it and set `audio: "E-AC-3"` in the entry (what seasons
-  13 to 16 do), or `-c:a aac -ac 6 -b:a 384k`. Be consistent within a season.
+- **Dolby and DTS audio**: keep it and set `audio: "E-AC-3"`, `"AC-3"` or `"DTS"` on the
+  entry, as New Who seasons 13 to 16 do. Never transcode audio for the browser (Part D).
 - **Encode** (YouTube VP9/AV1, or anything that must change resolution):
   ```
   -vf scale=-2:1080 -c:v h264_nvenc -preset p5 -rc vbr -cq 24 -b:v 0 -maxrate 8M -bufsize 16M \
@@ -238,7 +238,7 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
   `b2:whoniverse-media/` and the like fail with "you must use bucket(s)".
 - List: `rclone lsf b2:whoniverse/new_who/season_1/`; sizes: `rclone size …`; with
   hashes: `rclone lsjson --hash b2:whoniverse/new_who/season_1/`.
-- Upload a season: `rclone copy ~/Downloads/content/new_who b2:whoniverse/new_who/ --include "season_1/**" --transfers 4`.
+- Upload a season: `rclone copy ~/Downloads/content/classic_who b2:whoniverse/classic_who/ --filter "+ season_24/**" --filter "- *" --transfers 4`.
   Same name overwrites; that is deliberate, the hash in the URL is what changes.
 - **Use `--filter`, never `--include` with `--exclude`.** The order they are parsed in is
   indeterminate and the include won: `--include "season_9/**" --exclude "*_full.mp4"`
@@ -315,9 +315,10 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
   there, anything wiped from the indexers, and every future gap should try it first.
 - Useful for planning: brand PIDs `p0ggwr8l` (Classic, 658 episodes) and `b006q2x0`
   (2005-2022). `--pid=<brand> --pid-recursive-list` lists everything with its own PID.
-- The 22 season 14-16 files in the bucket came from iPlayer at 1080p25 H.264 E-AC-3.
-  Access never went away, so a season **can** be planned around it: it is often the only
-  clean 25 or 50fps source, where the torrent packs are conversions.
+- Access never went away, so a season **can** be planned around it: it is often the
+  only clean 25 or 50fps source, where the torrent packs are conversions. It stops at
+  1080p, so it never yields the 2160p masters; New Who seasons 14 to 16 now serve the
+  Disney+ 2160p files instead.
 
 ### MKVToolNix
 
@@ -509,8 +510,9 @@ Its envelope cache must not live in the folder being uploaded. It did, and 52
 **Count audio tracks with mkvmerge, not ffprobe.** ffprobe lists a DTS-HD Master
 Audio track and its DTS core as two streams, so *Terror of the Autons* part 1
 reads as six audio tracks and is three, one of them 5.1 rather than 2.0. The
-season 7 rows saying "6 DTS 2.0 tracks" were written this way and are wrong on
-both counts; seasons 8 and 9 describe the lossless tracks and their layouts.
+season 7 rows once said "6 DTS 2.0 tracks" this way, wrong on both counts, and were
+corrected on 22 September; every Collection season now describes the lossless tracks
+and their layouts.
 
 **Take the Original cut, not the CGI one.** Some episodes ship both. The CGI
 sequences are carried over from the 2003 DVDs, so they are standard-definition
@@ -602,12 +604,13 @@ What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doct
   match every other still. One file at the bucket root, used by every such row, stamped
   like any other URL. It applies only where `status` is `missing` **and** there is no
   video: a row that is `ok` but simply not fetched yet is pending work, not a missing
-  episode, and must not carry the card. Fourteen rows use it today, the 13 Tardisodes and
-  A Ghost Story for Christmas; 35 others have no video and correctly do not.
+  episode, and must not carry the card. Fifteen rows use it, all in New Who: the 13
+  Tardisodes, A Ghost Story for Christmas and The Naked Truth. The 11 Classic rows with no
+  video are `ok` and correctly do not.
 - **`missing` is for anything in scope that cannot be had, not only wiped film.** New Who
-  carried no `missing` rows at all while Classic carried 42, so fourteen items that exist
-  and have no legitimate source were simply absent rather than recorded: the 13 Tardisodes
-  and Attack of the Graske, both in scope by the 9 September decision. A row with
+  once carried no `missing` rows at all while Classic carried 42, so items that exist and
+  have no legitimate source were simply absent rather than recorded; the 13 Tardisodes
+  were the first found. A row with
   `status: missing`, a `note` and no file says "this exists and we cannot get it", which
   is different from saying nothing.
 - **When a row is added or removed, renumber the whole season and push it through to the
@@ -717,7 +720,7 @@ opening the video at two cues rather than trusting a tool.
 - Exactly **two sentences**, 170 to 280 characters (mean 235). Present tense, third person.
 - First sentence sets the situation and names who or what is involved; second states the
   stakes. No resolution, no reviewer's voice, no exclamation marks, no "in this episode".
-- Match the register of the existing 239, e.g.
+- Match the register of the existing summaries, e.g.
   > Ordinary shop assistant Rose Tyler's life is turned upside down when a mysterious
   > stranger called the Doctor saves her from an attack by living mannequins. Drawn into
   > his dangerous world, she must help him stop an alien consciousness from taking over
@@ -744,7 +747,7 @@ normal case made of short, flat statements:
 
 • Classic Who: 705 of 716 episodes converted. 1963 to 1989, in UK broadcast order.
 ...
-Seasons 15 and 17 are next. You will be upgraded.
+The next seasons are in processing. You will be upgraded.
 ```
 
 Words that fit: converted, upgraded, processed, logged, stored, units, protocol. Stock
@@ -798,7 +801,7 @@ Ledger rows for the season ↔ addon entries ↔ bucket files. Three lists, one 
 file stem from `ledger/out/file-names.tsv`.
 
 - Every ledger row has one addon entry, `title` carrying the tag, in the ledger's order
-  and numbering. Every entry with a `streamUrl` has that `.mp4` in `bucket-index.txt`;
+  and numbering. Every entry with a `streamUrl` has that file in `bucket-index.txt`;
   every bucket file in the season's folder belongs to a row. Name orphans both ways.
 - **Check the season against the world**, not only against itself. Build the season's
   full list of story content from the references in Part C, then diff it against the
@@ -884,10 +887,8 @@ anywhere in the world, not when the file is held, so 23 rows read `ok` with a bl
 behind it. That mistake was made on 18 September and reported as 25 broken rows; the
 real number was 3.
 
-Run of 18 September 2026: Resurrection of the Daleks (3) and (4) in Classic Who season
-21, both claiming `704x528 25fps MP3`, and The Story & the Engine in New Who 16,
-claiming `1080p 25fps E-AC-3` while holding only its `.jpg` and `.srt` - the regression's
-signature, with a rebuilt file waiting in `~/Downloads/content`.
+The 18 September run found three such rows: Resurrection of the Daleks (3) and (4) and
+The Story & the Engine. All three were settled by 22 September.
 
 Changes: none; it produces a list for the season that owns each row.
 
@@ -924,7 +925,7 @@ two-sentence rule (count sentences and characters, do not eyeball); `released` m
 Wikipedia; `imdb` present where IMDb has the episode; `audio` present iff step 2 found Dolby; `node scripts/stamp-media.js` reports
 nothing out of step for the season.
 
-Changes: `data/new-who.js` for text fixes (these are safe to do now; they touch no file).
+Changes: the season's `data/*.js` for text fixes (these are safe to do now; they touch no file).
 
 ### 5. Ledger columns  (audit)
 
@@ -1013,7 +1014,7 @@ Changes: ledger `best`, `checked`.
 5. Still: `node scripts/build-stills.js <folder> --force`, for every video added **or
    replaced**, from the file that will be served. Run it on a folder holding only those
    files, or each episode is done twice.
-6. Upload: `rclone copy <folder> b2:whoniverse/new_who/ --include "season_1/**"`, then
+6. Upload: `rclone copy <folder> b2:whoniverse/<folder>/ --filter "+ season_N/**" --filter "- *"`, then
    `rclone check <folder> <dest> --size-only` and read the matching count.
 7. `bash scripts/bucket-index.sh`.
 8. Entry: URLs in, only for files `bucket-index.txt` shows, `audio` flag iff the
@@ -1047,8 +1048,8 @@ curl -s https://whoniverse.nubblyn.com/ledger | grep -c "Best found"   # live?
 rclone rc vfs/refresh recursive=true --url 127.0.0.1:5572   # W: still lists deleted files otherwise
 git add ledger data public docs && git commit -m "New Who season 1: <what changed>"
 ```
-Then the hand-written surfaces if a series' availability changed: manifest description
-and version in `lib/addon.js`, the README table, the stremio-addons.net listing, and a
+Then the hand-written surfaces if a series' availability changed: the version in
+`lib/addon.js` and the description in `ledger/addon.tsv`, the README table, the stremio-addons.net listing, and a
 post in Discord #announcements (`1546484723285495828`) via the Discord MCP. The first
 three take their wording from the README; the Discord post is in the Cyber-Controller's
 voice (Part D, "Discord"), and the pinned #welcome and #requests posts are corrected in
@@ -1273,8 +1274,9 @@ right answer, not a failure.
 **A ripper's credit inside a subtitle is not a subtitle.** Six season 9 files carry
 `Ripped By mstoll / Happy New Year 2016` as real cues, on screen like dialogue at 2:31
 and again near the end. Delete those cues outright. That is not editing someone's
-subtitling work; it is removing an advert inserted into it. Not yet fixed across that
-season: it belongs to the season 9 pass.
+subtitling work; it is removing an advert inserted into it. Those season 9 files were
+replaced by the Collection Blu-rays, so none is served now; the rule stands for any
+release that turns up with one.
 
 **Retiming a subtitle onto a different cut is measured, never guessed.** Correlate the
 loudness envelope of the new file's audio against the old one over a 40 s window, search
@@ -1374,7 +1376,8 @@ measure full frame. Check the source before rebuilding anything.
 
 A sweep of all 1067 stills on 18 September found seventeen genuinely letterboxed: the
 season 15 and 16 rows, since replaced from Disney+, Destination: Skaro, and two Classic
-Who stills (The Ordeal, Battlefield part 4) which that series' pass owns.
+Who stills: The Ordeal, since rebuilt in the season 1 pass, and Battlefield part 4, which
+waits for season 26's.
 
 **Take the best release the BBC put out.** Highest resolution wins, newer official
 release beats older, official beats a rip, and it ships as it came - HDR, cadence,
@@ -1388,5 +1391,5 @@ Part D used to say 25fps or nothing, and that HDR was always tone-mapped. Both w
 mine, written 15-16 September, the second in the very commit titled *Ship the encoder's
 file*. An HDR file does look washed out on an SDR display; that was said before the
 choice and accepted. The tone-map chain in Part B still works if a specific file ever
-wants it, but nothing calls it on its own. Seasons 14-16 are not precedent for it -
-they serve 1080p iPlayer files and their 2160p HDR mkvs sit untouched in `~/Downloads`.
+wants it, but nothing calls it on its own. New Who seasons 14 to 16 serve their 2160p
+HDR files as they came.

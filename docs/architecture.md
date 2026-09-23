@@ -165,7 +165,7 @@ episode: 14,
 type: "Minisode",                                     // the ledger category
 audio: "E-AC-3",                                      // only when not AAC or MP3: browsers play Dolby and DTS silent
 imdb: { id: "tt0436992", season: 0, episode: 9 },     // where IMDb has it; scripts/map-imdb.js
-released: new Date("2005-11-18").toISOString(),
+released: "2005-11-18T12:00:00.000Z",                 // midday UTC, so the date reads the same everywhere
 overview: "…two sentences…",
 thumbnail:   "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E14_born_again_minisode.jpg?v=xxxxxxxx",
 streamUrl:   "…/S01_E14_born_again_minisode.mkv?v=xxxxxxxx",

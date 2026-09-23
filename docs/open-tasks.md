@@ -27,7 +27,6 @@ Last reviewed 23 September 2026.
 - **Cyber-Controller holds Administrator in Discord.** It needs six permissions. Only a
   person can change a bot's top role.
 - **Log the second GitHub account out of `gh`** on this machine, to be run by the user.
-- **The Tardisodes request in #requests** has had no reply since 8 September.
 
 ## Collection seasons not started
 
@@ -52,6 +51,8 @@ No video was touched. Check these again at each season's step 4:
   *Silver Nemesis* parts 1 to 3. Nobody has checked that Stremio shows a DVD bitmap
   track. If it does not, restore the old sidecars from B2's file versions. The season 25
   pass replaces the Silver Nemesis files anyway.
+- The *Battlefield* part 4 still is letterboxed (101 and 114 dark rows, measured
+  23 September). Rebuild it in the season 26 pass.
 
 ## Smaller items
 
