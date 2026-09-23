@@ -53,8 +53,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 # have gone the other way just as easily. Both lists now name what they mean.
 ALT_DIR = re.compile(
     r'(?:^|/)(?:dvd versions?|bonus|omnibus|extended|[\w ]*restoration|updated special effects)(?:/|$)', re.I)
+# Season 25 tags its recuts "(Special Edition Version)" as well as "(Special
+# Edition)", and the longer name slipped past, so The Greatest Show in the
+# Galaxy's 3.22 GB recut outsized the broadcast cut and won.
 ALT_TAG = re.compile(
-    r'\((?:dvd version|special edition|extended|cgi|reconstruction'
+    r'\((?:dvd version|special edition(?: version)?|extended|cgi|reconstruction'
     r'|[\w ]*restoration|hd early edit|(?:with )?updated special effects)\)', re.I)
 # A story that ships its broadcast cut in an Originals folder puts the
 # alternatives beside it, so when one exists for an episode it settles the

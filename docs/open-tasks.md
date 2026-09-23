@@ -43,8 +43,8 @@ Last reviewed 23 September 2026.
 The 22 September audit changed data in Classic seasons that have not had their pass.
 No video was touched. Check these again at each season's step 4:
 
-- Air dates and IMDb numbers were written into seasons 4, 5, 6, 11, 13 to 16, 18 and
-  20 to 26, from Wikipedia's episode tables.
+- Air dates were written into seasons 4, 5, 6, 11, 13 to 16, 18 and 20 to 26, from
+  Wikipedia's episode tables.
 - Sidecar subtitles were removed in seasons 4, 5, 6 and 22 to 25, because the files
   carry their own track.
 - Four of those files carry a DVD bitmap track, not PGS: *The Space Pirates* part 2 and

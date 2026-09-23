@@ -16,3 +16,6 @@ data/updated.json
 
 # scratch output of scripts/map-imdb.js without --write
 data/imdb-map.json
+
+# 7-Zip lists collsel.py --apply writes for each Collection set; regenerated every time
+scripts/media/dvd/extract_s*.txt

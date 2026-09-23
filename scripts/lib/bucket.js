@@ -1,7 +1,7 @@
 // Ask the bucket what it holds, and what each file's bytes hash to.
 //
 // The node side of scripts/lib/find-rclone.sh. Two callers so far:
-// build-spinoffs.js, which needs the listing to find each episode's files, and
+// build-series.js, which needs the listing to find each episode's files, and
 // stamp-media.js, which needs only the hashes.
 //
 // B2 stores a SHA1 with every object and rclone hands it over in the same call
