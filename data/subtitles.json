@@ -4471,7 +4471,7 @@
  },
  "classic_who/season_22/S22_E07_the_two_doctors_1": {
   "sidecar": false,
-  "embedded": 1,
+  "embedded": 2,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
@@ -4492,14 +4492,14 @@
  },
  "classic_who/season_22/S22_E04_vengeance_on_varos_2": {
   "sidecar": false,
-  "embedded": 1,
+  "embedded": 2,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]
  },
  "classic_who/season_22/S22_E03_vengeance_on_varos_1": {
   "sidecar": false,
-  "embedded": 1,
+  "embedded": 2,
   "codecs": [
    "hdmv_pgs_subtitle"
   ]

@@ -38,7 +38,6 @@ Last reviewed 23 September 2026.
 
 ## Collection seasons not started
 
-- **Season 22** is downloading from TorBox.
 - **No set found for 13, 14, 18, 21, 23 or 26.** Not searched since the first sweep.
   Season 21 matters most: *Resurrection of the Daleks* parts 3 and 4 are not in the
   bucket, so only the first half plays.
@@ -49,9 +48,9 @@ Last reviewed 23 September 2026.
 The 22 September audit changed data in Classic seasons that have not had their pass.
 No video was touched. Check these again at each season's step 4:
 
-- Air dates were written into seasons 4, 5, 6, 11, 13, 14, 16, 18, 21 to 23 and 26, from
+- Air dates were written into seasons 4, 5, 6, 11, 13, 14, 16, 18, 21, 23 and 26, from
   Wikipedia's episode tables.
-- Sidecar subtitles were removed in seasons 4, 5, 6, 22 and 23, because the files
+- Sidecar subtitles were removed in seasons 4, 5, 6 and 23, because the files
   carry their own track.
 - *The Space Pirates* part 2 carries a DVD bitmap track, not PGS. Nobody has checked
   that Stremio shows one. If it does not, restore the old sidecar from B2's file versions.
