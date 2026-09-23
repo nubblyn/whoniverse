@@ -19,7 +19,7 @@
     "Adventure",
     "Drama"
    ],
-   "description": "An exiled Time Lord called the Doctor travels time and space in the TARDIS, a ship disguised as a police box, with the companions he gathers along the way. The original series, told in multi-part serials, where the Doctor first meets the Daleks, the Cybermen and the Master."
+   "description": "The Doctor, a Time Lord who cheats death by regenerating into a new face, travels time and space in the TARDIS, a ship disguised as a police box. With companions from Earth and beyond, the Doctor takes on alien invaders and would-be tyrants across history and other worlds."
   },
   {
    "key": "wilderness-years",
@@ -48,7 +48,7 @@
     "Adventure",
     "Drama"
    ],
-   "description": "The Doctor returns as the last of the Time Lords, still travelling time and space in the TARDIS with companions from Earth after a war that ended his people. The revived series brings back the Daleks, the Cybermen and the Master, and a new face each time the Doctor regenerates."
+   "description": "The Doctor returns, still travelling time and space in the TARDIS with companions whose lives are changed by the journey. The revived series follows the Time Lord across history, the far future and other worlds, saving civilisations and facing enemies old and new, one regeneration after another."
   },
   {
    "key": "torchwood",
@@ -63,7 +63,7 @@
     "Drama",
     "Thriller"
    ],
-   "description": "Captain Jack Harkness leads a secret Cardiff institute that catches whatever falls through the Rift, in the darker spin-off made for adults. Its cases run from single alien visitors to crises that threaten the whole world."
+   "description": "Captain Jack Harkness leads Torchwood, a secret institute founded by the Crown, from a hidden base in Cardiff where alien and supernatural trouble falls through the Rift. The darker spin-off made for adults, where saving the world comes at a personal cost."
   },
   {
    "key": "sarah-jane",
@@ -78,7 +78,7 @@
     "Adventure",
     "Family"
    ],
-   "description": "Sarah Jane Smith, the Doctor's longest-serving companion, investigates alien activity from her attic on Bannerman Road with her son Luke and his friends. Family adventures that run alongside the Doctor's own, and now and then he calls in."
+   "description": "Journalist Sarah Jane Smith, the Doctor's longest-serving companion, investigates alien threats on Earth from her attic on Bannerman Road. Her adopted son Luke, his friends and a supercomputer in the wall help her keep the street, and the planet, safe."
   },
   {
    "key": "class",
@@ -93,7 +93,7 @@
     "Drama",
     "Horror"
    ],
-   "description": "Coal Hill Academy sixth-formers guard a tear in space and time left behind by the Doctor's many visits, with an alien prince and his exiled guardian hiding among the students. A spin-off for young adults, where the monsters come in through the school gates."
+   "description": "The sixth-formers of Coal Hill Academy juggle friends, parents and exams while guarding a tear in space and time left by the Doctor's many visits. An alien prince and his exiled guardian hide among them, and whatever comes through the tear comes for the school."
   },
   {
    "key": "land-and-sea",
@@ -108,7 +108,7 @@
     "Drama",
     "Thriller"
    ],
-   "description": "An ancient species rises from the ocean floor to claim the planet, and UNIT stands between humanity and the deep. A spin-off told from the side of the people left to defend the Earth."
+   "description": "An ancient species rises from the ocean to reclaim the planet, and the world is plunged into crisis. UNIT stands between humanity and the deep, in a war fought where the land meets the sea."
   },
   {
    "key": "complete-chronology",
