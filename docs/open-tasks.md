@@ -36,12 +36,38 @@ Last reviewed 23 September 2026.
   person can change a bot's top role.
 - **Log the second GitHub account out of `gh`** on this machine, to be run by the user.
 
+## DVD for every season without a Blu-ray
+
+Decided 23 September 2026: every Classic season with no Collection set to be had is
+brought to at least the retail DVD. The bucket's copies of seasons 4, 5, 6, 11, 13, 14,
+16, 18, 21, 23 and 26 are 1.7 to 3 Mbps re-encodes (DivX for season 21); the discs are
+MPEG-2 with their own subtitles.
+
+**Nothing better can be downloaded today.** Searched 23 to 24 September across Prowlarr's
+22 indexers and archive.org:
+- The well-seeded "Classic Season N Complete" packs are the files the bucket already
+  holds, matching to two decimals of a gigabyte.
+- One DVD image per story exists (the TRBLE PAL series and "Original DVD9 Rip"s, listed
+  with hashes in `scripts/media/dvd/dvd_sources.tsv`), but TorBox has none cached and
+  none has a peer.
+- The VRiSFAGS `iNTERNAL DVDrip x264 AC3` re-encodes and the few disc images the indexers
+  still list as seeded (Resurrection of the Daleks at 36, The Awakening, Frontios) load no
+  metadata in qBittorrent: the counts are stale. The five were left queued there.
+
+Routes left, the user's call: buy the DVDs and a USB DVD drive (this PC has no optical
+drive; the rip route is ready), or Usenet or a private tracker, both needing accounts.
+Season 3 already had its pass from DVD images.
+
 ## Collection seasons not started
 
-- **No set found for 13, 14, 18, 21, 23 or 26.** Not searched since the first sweep.
-  Season 21 matters most: *Resurrection of the Daleks* parts 3 and 4 are not in the
-  bucket, so only the first half plays.
-- **Seasons 4, 5, 6, 11 and 16 have no Collection set at all.**
+- **Released but not on the public indexers: 13, 14, 18, 21, 23, 26.** All six are out on
+  Blu-ray (UK: 13 on 20 October 2025, 14 on 4 May 2020, 18 on 18 March 2019, 21 on
+  16 March 2026, 23 on 7 October 2019, 26 on 27 January 2020, per Wikipedia's home video
+  list). Searched on 23 September 2026 by set name and by story title: nothing in
+  Prowlarr's 22 indexers but SD rips. Try TorBox's own search, or buy the discs. Season 21
+  matters most: *Resurrection of the Daleks* parts 3 and 4 are not in the bucket, so only
+  the first half plays, and 13 and 21 are recent enough that a rip may still appear.
+- **Seasons 1, 3, 4, 5, 6, 11 and 16 have no Collection set at all.**
 
 ## Checks owed on seasons not yet passed
 

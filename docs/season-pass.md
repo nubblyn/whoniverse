@@ -470,6 +470,12 @@ Edition; the TX Version is the broadcast, 90:25 against Wikipedia's 90:23. The b
 been serving the 100-minute Special Edition. List a set's alternatives before deleting
 its zip, so the ledger's `source` can name them.
 
+**An indexer's seeder count is not evidence.** For old Classic torrents, Prowlarr's public
+indexers (Torrent Downloads above all) report seeders for torrents that are dead: on
+24 September, five listed at 10 to 36 seeders loaded no metadata at all in qBittorrent.
+TorBox's cache check and qBittorrent's metadata fetch are the only tests; run one on a
+single hash before handing the user a list.
+
 **Name every alternative the sets use.** Season 25 tags its recuts `(Special Edition
 Version)` as well as `(Special Edition)`. The longer name was not in the rules, so *The
 Greatest Show in the Galaxy*'s 3.22 GB recut outsized the broadcast cut and was chosen;
