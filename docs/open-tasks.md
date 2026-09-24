@@ -8,9 +8,16 @@ Last reviewed 23 September 2026.
 
 ## In flight
 
-- **Season 4 pass: decisions put to the user on 24 September**, not yet answered. Five surviving
-  episodes are held as the colour animation (Underwater Menace 2 and 3, Faceless Ones 1 and 3,
-  Evil of the Daleks 2); the rest are upgrade offers. Nothing in the bucket has changed.
+- **Season 4, still open after the 24 September pass.**
+  - Evil of the Daleks 1 and 3 to 7 and Macra Terror 1 to 4: iPlayer fhd was approved on a
+    comparison that turned out to be misaligned. Aligned by audio, iPlayer and the held
+    Blu-ray re-encodes look the same; put back to the user before replacing anything.
+  - Tenth Planet DVD remux (`730f0336d2`, qBittorrent) stalled at 99.5% of episode 1. Take
+    it only if it completes; it needs a generated subtitle.
+  - Faceless Ones Blu-ray (`7cd853ab8b`) stalled at 0.9%. If it moves, its originals of
+    episodes 1 and 3 beat the iPlayer SD now served.
+  - The pack's own sidecars on Tenth Planet 1 to 4 and Moonbase 1 to 4 are still in the old
+    style; restyling a supplied track is the user's call.
 - **Season 3: a 31 GB Galaxy 4 Blu-ray image** (hash `7af0f40a71`) is waiting for
   metadata. If it wakes, it may beat the three animated Galaxy 4 episodes held from iPlayer.
 

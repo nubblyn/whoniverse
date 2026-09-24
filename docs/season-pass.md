@@ -310,9 +310,16 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
   **Never conclude iPlayer is blocked from an `--info` run.** Attempt the download.
 
   ```
-  get_iplayer --pid=<pid> --versions=original --output=<dir> --file-prefix=<stem>
-  get_iplayer --pid=<pid> --versions=original --subsonly --output=<dir> --file-prefix=<stem>
+  get_iplayer --pid=<pid> --versions=original --tv-quality=fhd,hd,sd --force --output=<dir> --file-prefix=<stem>
+  get_iplayer --pid=<pid> --versions=original --subsonly --force --output=<dir> --file-prefix=<stem>
   ```
+
+  **`--tv-quality=fhd,hd,sd` is not optional.** get_iplayer's own default is
+  `hd,sd,web,mobile`, so without it a programme that has 1080p comes down at 720p with
+  nothing in the output to say so; three Macra Terror episodes did on 24 September 2026.
+  Read the stream name in the `Downloaded:` line (`hlsxfhd1`, not `hlshd1`) and probe the
+  width. `--force` is needed for anything pulled before, because the download history
+  skips it silently. `--versions` is `original` or `editorial`, never `combined` (Part I).
 
   Subtitles come down as `.srt` carrying the BBC's `<font color=...>` speaker colouring;
   that is the original and it ships as it is. The programme PID is on the
@@ -1062,10 +1069,12 @@ Changes: ledger `best`, `checked`.
 10. **Superseded bucket names are deleted in step 8, after the deploy, never here.**
     That covers the old video under a different extension and any sidecar that no longer
     belongs. Until the deploy lands, the live addon still points at them.
-    **One exception: an old `.mkv` replaced by an `.mp4` under the same stem.**
-    `build-series.js` takes the `.mkv` whenever a stem has both, so that one is deleted
-    before regenerating, like an old sidecar; season 3's twelve DivX files regenerated as
-    `.mkv` until they were gone (24 September 2026).
+    **One exception: an old video under a different extension from its replacement.**
+    `build-series.js` keys videos by season and episode, keeps the first one the bucket
+    lists, and lets a `.mkv` override it, so an old `.mkv` always wins and an old `.m4v`
+    beats a new `.mp4`. The old file is deleted before regenerating, like an old sidecar;
+    season 3's twelve DivX files regenerated as `.mkv` until they were gone (24 September
+    2026).
 11. Local sources and staged copies deleted once the bucket holds them; torrents removed,
     unless a neighbouring season needs a file from the same pack.
 
