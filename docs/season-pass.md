@@ -1062,6 +1062,10 @@ Changes: ledger `best`, `checked`.
 10. **Superseded bucket names are deleted in step 8, after the deploy, never here.**
     That covers the old video under a different extension and any sidecar that no longer
     belongs. Until the deploy lands, the live addon still points at them.
+    **One exception: an old `.mkv` replaced by an `.mp4` under the same stem.**
+    `build-series.js` takes the `.mkv` whenever a stem has both, so that one is deleted
+    before regenerating, like an old sidecar; season 3's twelve DivX files regenerated as
+    `.mkv` until they were gone (24 September 2026).
 11. Local sources and staged copies deleted once the bucket holds them; torrents removed,
     unless a neighbouring season needs a file from the same pack.
 
@@ -1224,6 +1228,23 @@ file every time and looks exactly like a failed deploy.
 
 Each of these came out of a real mistake or a decision made mid-pass, and each is a
 standing rule now.
+
+**Source order for Classic Who: the Collection Blu-ray, then the retail DVD, then iPlayer.**
+Settled by the user on 24 September 2026. A season takes the Collection set where one
+can be had; where none can, the retail DVD; where neither can be downloaded, iPlayer's
+own broadcast version.
+
+**On iPlayer, never the signed version and never the audio-described one.** The signed
+version has a sign-language interpreter in frame, and for most live-action Classic
+episodes it is the only one iPlayer offers in HD; the user does not want it, so those
+episodes are taken at the best the plain version offers, which is SD (about 1.8 Mbps).
+The plain version is `original` or `editorial`, whichever the episode has. **`combined`
+is not plain**: on The Ark it resolves to a `piff_abr_full_sd_ad` stream and the frame
+has the interpreter in it (checked 24 September 2026). Where the plain version itself
+offers `fhd` (the animations, and some restored episodes such as *The Nightmare Begins*),
+that is what is taken. Check `qualitysizes` per episode with `get_iplayer --info`, pass
+`--versions=original,editorial`, and pull one frame from the stream before the whole
+episode, so a fallback never lands on a signed file.
 
 **Subtitles that came with the file are never edited.** Only generated ones are. A rip's
 `.srt` and an official upload's own track are both finished work: the speaker labels,

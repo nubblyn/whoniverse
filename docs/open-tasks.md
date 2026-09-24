@@ -8,6 +8,15 @@ Last reviewed 23 September 2026.
 
 ## In flight
 
+- **Season 3: The Final Test (surviving) from the AnimeChap Celestial Toymaker Blu-ray.**
+  Agreed on 24 September. qBittorrent is fetching only that file (category
+  `whoniverse-s3-test`, hash `31529533bf`). When it lands: probe, rename to
+  `S03_E33_the_final_test.mkv`, still, upload, ledger, publish. It replaces the NTSC Lost
+  in Time copy; the held file carries VobSub and so has no sidecar, and the Blu-ray's own
+  track decides whether it needs one. Probe one of the Blu-ray's three Toymaker
+  animations at the same time and put it to the user against the iPlayer copies held.
+- **Season 3: a 31 GB Galaxy 4 Blu-ray image** (hash `7af0f40a71`) is waiting for
+  metadata. If it wakes, it may beat the three animated Galaxy 4 episodes held from iPlayer.
 
 ## Waiting on the user
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Rip a Classic season's retail DVDs and say which title is which episode.
 
-    python scripts/media/dvd/dvdrip.py rip <season> <folder of ISOs>
+    python scripts/media/dvd/dvdrip.py rip <season> <folder of ISOs or VIDEO_TS folders>
     python scripts/media/dvd/dvdrip.py match <season>
     python scripts/media/dvd/collstage.py <season> --verify
 
@@ -9,7 +9,9 @@ For seasons with no Collection Blu-ray. MakeMKV copies the MPEG-2 video, every
 AC-3 track and the disc's own VobSub into an MKV, with nothing re-encoded and
 nothing OCR'd: Part D exception 2, container only.
 
-`rip` takes every title between MINLEN and MAXLEN from every ISO. It is
+`rip` takes every title between MINLEN and MAXLEN from every disc under the
+folder, an `.iso` file or a `VIDEO_TS` directory, which is how most disc
+torrents ship (the TRBLE PAL series among them). It is
 over-inclusive on purpose. Neither disc order nor duration can be trusted to
 say which title is which episode: on season 1, The Daleks offered eight
 candidates for seven episodes, An Unearthly Child's disc carries both unaired
@@ -42,9 +44,28 @@ MKV = r'C:\Program Files (x86)\MakeMKV\makemkvcon64.exe'
 MINLEN, MAXLEN = 15 * 60, 60 * 60
 
 
-def titles(iso):
+def discs(root):
+    """(name, MakeMKV source) for every disc under root: each .iso, and each folder
+    holding VIDEO_TS.IFO, whether or not that folder is itself called VIDEO_TS
+    (the TRBLE torrents put the disc files straight in the story's folder).
+    Named after the path below root."""
+    out = []
+    for dirpath, dirnames, filenames in os.walk(root):
+        lower = {f.lower() for f in filenames}
+        for f in filenames:
+            if f.lower().endswith('.iso'):
+                out.append((os.path.splitext(os.path.relpath(os.path.join(dirpath, f), root))[0],
+                            'iso:' + os.path.join(dirpath, f)))
+        if 'video_ts.ifo' in lower:
+            here = dirpath if os.path.basename(dirpath).upper() != 'VIDEO_TS' else os.path.dirname(dirpath)
+            out.append((os.path.relpath(here, root), 'file:' + dirpath))
+            dirnames[:] = []
+    return sorted((re.sub(r'[^A-Za-z0-9]+', '_', n).strip('_'), src) for n, src in out)
+
+
+def titles(source):
     """(title index, seconds) for every title MakeMKV sees over MINLEN."""
-    p = subprocess.run([MKV, '-r', '--minlength=%d' % MINLEN, 'info', 'iso:' + iso],
+    p = subprocess.run([MKV, '-r', '--minlength=%d' % MINLEN, 'info', source],
                        capture_output=True, text=True, errors='replace')
     out = {}
     for line in p.stdout.splitlines():
@@ -56,18 +77,17 @@ def titles(iso):
 
 def rip(season, isodir):
     raw = os.path.join(collstage.PROBE, 'dvd_s%d' % season)
-    for f in sorted(x for x in os.listdir(isodir) if x.lower().endswith('.iso')):
-        disc = os.path.splitext(f)[0]
+    for disc, source in discs(isodir):
         dest_dir = os.path.join(raw, disc)
         os.makedirs(dest_dir, exist_ok=True)
-        for idx, secs in titles(os.path.join(isodir, f)):
+        for idx, secs in titles(source):
             dest = os.path.join(dest_dir, 't%02d.mkv' % idx)
             if os.path.exists(dest):
                 continue
             before = set(os.listdir(dest_dir))
             print('%s title %d (%ds) ...' % (disc, idx, secs), flush=True)
             p = subprocess.run([MKV, '-r', '--minlength=%d' % MINLEN, 'mkv',
-                                'iso:' + os.path.join(isodir, f), str(idx), dest_dir],
+                                source, str(idx), dest_dir],
                                capture_output=True, text=True, errors='replace')
             new = [x for x in os.listdir(dest_dir) if x not in before and x.endswith('.mkv')]
             if len(new) != 1:
