@@ -8,13 +8,9 @@ Last reviewed 23 September 2026.
 
 ## In flight
 
-- **Season 3: The Final Test (surviving) from the AnimeChap Celestial Toymaker Blu-ray.**
-  Agreed on 24 September. qBittorrent is fetching only that file (category
-  `whoniverse-s3-test`, hash `31529533bf`). When it lands: probe, rename to
-  `S03_E33_the_final_test.mkv`, still, upload, ledger, publish. It replaces the NTSC Lost
-  in Time copy; the held file carries VobSub and so has no sidecar, and the Blu-ray's own
-  track decides whether it needs one. Probe one of the Blu-ray's three Toymaker
-  animations at the same time and put it to the user against the iPlayer copies held.
+- **Season 4 pass: decisions put to the user on 24 September**, not yet answered. Five surviving
+  episodes are held as the colour animation (Underwater Menace 2 and 3, Faceless Ones 1 and 3,
+  Evil of the Daleks 2); the rest are upgrade offers. Nothing in the bucket has changed.
 - **Season 3: a 31 GB Galaxy 4 Blu-ray image** (hash `7af0f40a71`) is waiting for
   metadata. If it wakes, it may beat the three animated Galaxy 4 episodes held from iPlayer.
 
@@ -83,9 +79,9 @@ Season 3 already had its pass from DVD images.
 The 22 September audit changed data in Classic seasons that have not had their pass.
 No video was touched. Check these again at each season's step 4:
 
-- Air dates were written into seasons 4, 5, 6, 11, 13, 14, 16, 18, 21, 23 and 26, from
+- Air dates were written into seasons 5, 6, 11, 13, 14, 16, 18, 21, 23 and 26, from
   Wikipedia's episode tables.
-- Sidecar subtitles were removed in seasons 4, 5, 6 and 23, because the files
+- Sidecar subtitles were removed in seasons 5, 6 and 23, because the files
   carry their own track.
 - *The Space Pirates* part 2 carries a DVD bitmap track, not PGS. Nobody has checked
   that Stremio shows one. If it does not, restore the old sidecar from B2's file versions.
