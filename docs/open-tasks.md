@@ -17,6 +17,8 @@ Last reviewed 23 September 2026.
 - **Season 5 pass: decisions put to the user on 25 September.** Abominable Snowmen 2 is held
   as the animation and Wheel in Space 3 inside a reconstruction border; iPlayer has Web of
   Fear 1, 2, 4 to 6, Ice Warriors 1 and all of Fury from the Deep in 1080p.
+- **Season 6 pass: decisions put to the user on 25 September.** Everything on iPlayer is SD;
+  the 29 DivX episodes would gain 50fps and BBC subtitles, not detail. No DVD torrent is alive.
 - **Season 3: a 31 GB Galaxy 4 Blu-ray image** (hash `7af0f40a71`) is waiting for
   metadata. If it wakes, it may beat the three animated Galaxy 4 episodes held from iPlayer.
 
