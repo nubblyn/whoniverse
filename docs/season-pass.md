@@ -102,7 +102,11 @@ them (see the 7-Zip entry for why).
   listed number; pull it and probe it, and remember VP9 and AV1 have to be re-encoded
   afterwards, which gives most of a small gain back.
 - Only the official channel counts (`@DoctorWho`). Fan re-uploads and AI upscales are out,
-  which is why the 13 Tardisodes stay unavailable and Bad Music's Agnor copy was refused.
+  which is why Bad Music's Agnor copy was refused. **One exception, the user's call on
+  25 September 2026:** the 13 Tardisodes, which survive nowhere official, play from
+  NovicScene's "2026 Remaster" AI upscales (720p H.264, no re-encode), and each is titled
+  "Tardisode N (Upscaled)" so the tag says what it is. The same channel's 2022 "4K" set
+  smears faces and was not used.
 - The channel renames things. Destination: Skaro is **"The Fourteenth Doctor is Here! |
   BBC Children in Need 2023"** (`RfLtAdSgWPQ`). Search the channel by the event, not
   the episode title, when a title search finds nothing.
@@ -645,8 +649,8 @@ What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doct
   match every other still. One file at the bucket root, used by every such row, stamped
   like any other URL. It applies only where `status` is `missing` **and** there is no
   video: a row that is `ok` but simply not fetched yet is pending work, not a missing
-  episode, and must not carry the card. Fifteen rows use it, all in New Who: the 13
-  Tardisodes, A Ghost Story for Christmas and The Naked Truth. The 11 Classic rows with no
+  episode, and must not carry the card. Two rows use it, both in New Who: A Ghost Story
+  for Christmas and The Naked Truth (the 13 Tardisodes used it until 25 September 2026). The 11 Classic rows with no
   video are `ok` and correctly do not.
 - **`missing` is for anything in scope that cannot be had, not only wiped film.** New Who
   once carried no `missing` rows at all while Classic carried 42, so items that exist and

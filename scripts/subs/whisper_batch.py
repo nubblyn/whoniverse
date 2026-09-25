@@ -62,6 +62,9 @@ STORY = {
     'Death Comes to Time': 'the Minister of Chance, Antimony, Casmus, the Canisian, Time Lords',
     'Real Time': 'Evelyn Smythe, the Cybermen, Chronos, Goddard',
     'Shada': 'Romana, K-9, Professor Chronotis, Skagra, Chris Parsons, Clare Keightley, Gallifrey',
+    # New Who series 2; ERA is keyed by Classic season and would give it Ian and Barbara.
+    'Tardisode': 'Rose, Mickey, Torchwood, Novice Hame, the Sisters of Plenitude, Cybus Industries, '
+                 'John Lumic, the Cybermen, the Preachers, Madame de Pompadour, the Ood, Sanctuary Base, LINDA, Magpie',
 }
 
 

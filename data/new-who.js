@@ -177,13 +177,15 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_1/S01_E16_the_christmas_invasion_special.mkv?v=c5108b0f"
 },
 {
-title: "Tardisode 1 (Prequel)",
+title: "Tardisode 1 (Upscaled)",
 season: 2,
 episode: 1,
 type: "Prequel",
 released: "2006-04-01T12:00:00.000Z",
 overview: "Novice Hame films a commercial for the New New York Hospital, promising viewers that the Sisters of Plenitude never lose a patient. A scream from somewhere behind her cuts the recording short.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E01_tardisode_1_prequel.jpg?v=692e4ec4",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E01_tardisode_1_prequel.mp4?v=87956a77",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E01_tardisode_1_prequel.srt?v=1de79cb1"
 },
 {
 title: "New Earth",
@@ -197,13 +199,14 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_new
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E02_new_earth.mkv?v=9e580ec6"
 },
 {
-title: "Tardisode 2 (Prequel)",
+title: "Tardisode 2 (Upscaled)",
 season: 2,
 episode: 3,
 type: "Prequel",
 released: "2006-04-15T12:00:00.000Z",
 overview: "Three hundred years after a meteor falls on a Scottish moor, a crofter walking home hears something growling in the grass behind him. He turns to face whatever came down with it.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E03_tardisode_2_prequel.jpg?v=4cff44da",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E03_tardisode_2_prequel.mp4?v=80acbf69"
 },
 {
 title: "Tooth and Claw",
@@ -217,13 +220,15 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_too
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E04_tooth_and_claw.mkv?v=fc7e4193"
 },
 {
-title: "Tardisode 3 (Prequel)",
+title: "Tardisode 3 (Upscaled)",
 season: 2,
 episode: 5,
 type: "Prequel",
 released: "2006-04-22T12:00:00.000Z",
 overview: "Mickey trawls a UFO sightings site from an internet cafe and finds his search blocked by a notice naming Torchwood. He calls Rose for help, having traced strange lights to a London school.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E05_tardisode_3_prequel.jpg?v=348c9026",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E05_tardisode_3_prequel.mp4?v=d0566e94",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E05_tardisode_3_prequel.srt?v=4fc74e48"
 },
 {
 title: "School Reunion",
@@ -237,13 +242,15 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_sch
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E06_school_reunion.mkv?v=9c163d8c"
 },
 {
-title: "Tardisode 4 (Prequel)",
+title: "Tardisode 4 (Upscaled)",
 season: 2,
 episode: 7,
 type: "Prequel",
 released: "2006-04-29T12:00:00.000Z",
 overview: "An ion storm tears through the SS Madame de Pompadour, leaving one pilot dead and the other alone in a cockpit lit red. Something ticks in the dark beyond her, and a clock face cracks.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E07_tardisode_4_prequel.jpg?v=fcfa181d",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E07_tardisode_4_prequel.mp4?v=9ad78bf7",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E07_tardisode_4_prequel.srt?v=22ff475a"
 },
 {
 title: "The Girl in the Fireplace",
@@ -268,13 +275,15 @@ streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_pom
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E09_pompadour_minisode.srt?v=01b6218e"
 },
 {
-title: "Tardisode 5 (Prequel)",
+title: "Tardisode 5 (Upscaled)",
 season: 2,
 episode: 10,
 type: "Prequel",
 released: "2006-05-06T12:00:00.000Z",
 overview: "A Preacher briefing calls every agent into action against Cybus Industries and the thousands of people missing from its records. Ricky Smith drives away as the radio promises \"the ultimate upgrade\" to anyone listening.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E10_tardisode_5_prequel.jpg?v=b93b63ec",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E10_tardisode_5_prequel.mp4?v=63f0b591",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E10_tardisode_5_prequel.srt?v=e1cf4ff4"
 },
 {
 title: "Rise of the Cybermen",
@@ -288,13 +297,15 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_ris
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E11_rise_of_the_cybermen.mkv?v=c487be49"
 },
 {
-title: "Tardisode 6 (Prequel)",
+title: "Tardisode 6 (Upscaled)",
 season: 2,
 episode: 12,
 type: "Prequel",
 released: "2006-05-13T12:00:00.000Z",
 overview: "John Lumic orders the upgrade of humanity to begin across the world, illustrated by a diagram of skin becoming metal. His Cybermen are told to delete anyone the process cannot convert.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E12_tardisode_6_prequel.jpg?v=76e69544",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E12_tardisode_6_prequel.mp4?v=16a87fa5",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E12_tardisode_6_prequel.srt?v=60a116c8"
 },
 {
 title: "The Age of Steel",
@@ -308,13 +319,15 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_the
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E13_the_age_of_steel.mkv?v=32869789"
 },
 {
-title: "Tardisode 7 (Prequel)",
+title: "Tardisode 7 (Upscaled)",
 season: 2,
 episode: 14,
 type: "Prequel",
 released: "2006-05-20T12:00:00.000Z",
 overview: "Grandma Connolly settles down in front of her newly installed television as red lightning reaches out of the screen towards her. When she strikes the set, the light goes for her face.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E14_tardisode_7_prequel.jpg?v=65103c10",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E14_tardisode_7_prequel.mp4?v=132a5ecc",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E14_tardisode_7_prequel.srt?v=a2518933"
 },
 {
 title: "The Idiot's Lantern",
@@ -328,13 +341,15 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_the
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E15_the_idiots_lantern.mkv?v=9b675e83"
 },
 {
-title: "Tardisode 8 (Prequel)",
+title: "Tardisode 8 (Upscaled)",
 season: 2,
 episode: 16,
 type: "Prequel",
 released: "2006-05-27T12:00:00.000Z",
 overview: "A woman in a suit sends Captain Walker to a planet impossibly orbiting a black hole, offering him a top-class ship and the chance to save the Empire. As he leaves, an Ood tells him the Beast will rise from the pit.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E16_tardisode_8_prequel.jpg?v=711825a7",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E16_tardisode_8_prequel.mp4?v=d907c1e5",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E16_tardisode_8_prequel.srt?v=2e29e57b"
 },
 {
 title: "The Impossible Planet",
@@ -348,13 +363,15 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E17_the
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E17_the_impossible_planet.mkv?v=e0e06616"
 },
 {
-title: "Tardisode 9 (Prequel)",
+title: "Tardisode 9 (Upscaled)",
 season: 2,
 episode: 18,
 type: "Prequel",
 released: "2006-06-03T12:00:00.000Z",
 overview: "An Ood delivers Captain Walker's belongings to Curt, and the lights fail as the case is opened. The notebook inside burns in his hands while the monitors repeat that the Beast is awake.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E18_tardisode_9_prequel.jpg?v=8a4594d2",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E18_tardisode_9_prequel.mp4?v=5242296c",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E18_tardisode_9_prequel.srt?v=be1df902"
 },
 {
 title: "The Satan Pit",
@@ -368,13 +385,14 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E19_the
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E19_the_satan_pit.mkv?v=71e5b002"
 },
 {
-title: "Tardisode 10 (Prequel)",
+title: "Tardisode 10 (Upscaled)",
 season: 2,
 episode: 20,
 type: "Prequel",
 released: "2006-06-10T12:00:00.000Z",
 overview: "A figure in an office forces his way into the LINDA website, hunting the group who have been asking who the Doctor is. He traces them to a street, then turns on the woman bringing his tea.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E20_tardisode_10_prequel.jpg?v=5d01d5d8",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E20_tardisode_10_prequel.mp4?v=b038a06a"
 },
 {
 title: "Love & Monsters",
@@ -399,13 +417,15 @@ streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E22_the
 subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E22_the_genuine_article_minisode.srt?v=77383384"
 },
 {
-title: "Tardisode 11 (Prequel)",
+title: "Tardisode 11 (Upscaled)",
 season: 2,
 episode: 23,
 type: "Prequel",
 released: "2006-06-17T12:00:00.000Z",
 overview: "A Crimewatch-style programme appeals for news of two children who have vanished from Dame Kelly Holmes Close. In a dark room nearby a cupboard bangs open on red eyes and a voice saying it is coming.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E23_tardisode_11_prequel.jpg?v=386acd9a",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E23_tardisode_11_prequel.mp4?v=65222baa",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E23_tardisode_11_prequel.srt?v=e2a22f7d"
 },
 {
 title: "Fear Her",
@@ -419,13 +439,15 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E24_fea
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E24_fear_her.mkv?v=52dd4f3a"
 },
 {
-title: "Tardisode 12 (Prequel)",
+title: "Tardisode 12 (Upscaled)",
 season: 2,
 episode: 25,
 type: "Prequel",
 released: "2006-06-24T12:00:00.000Z",
 overview: "A reporter convinces his editor that Torchwood is the story of the century and gathers photographs of the Doctor going back to Queen Victoria. When he brings her the truth, other men are waiting.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E25_tardisode_12_prequel.jpg?v=80fd52d8",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E25_tardisode_12_prequel.mp4?v=3dbb98f9",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E25_tardisode_12_prequel.srt?v=9844e883"
 },
 {
 title: "Army of Ghosts",
@@ -439,13 +461,15 @@ thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E26_arm
 streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E26_army_of_ghosts.mkv?v=e9d567e6"
 },
 {
-title: "Tardisode 13 (Prequel)",
+title: "Tardisode 13 (Upscaled)",
 season: 2,
 episode: 27,
 type: "Prequel",
 released: "2006-07-01T12:00:00.000Z",
 overview: "A newsreader announces a state of emergency as the Cyberman invasion tears London apart and contact with the government is lost. She is still on air, telling her parents to run, when a Dalek enters the studio.",
-thumbnail: "https://cdn.nubblyn.com/file/whoniverse/episode_missing.jpg?v=11b5d79d"
+thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E27_tardisode_13_prequel.jpg?v=62eb0023",
+streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E27_tardisode_13_prequel.mp4?v=54a6becd",
+subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_2/S02_E27_tardisode_13_prequel.srt?v=8af3c8f9"
 },
 {
 title: "Doomsday",

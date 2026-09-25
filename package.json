@@ -1,6 +1,6 @@
 {
   "name": "whoniverse-addon",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Doctor Who in original UK broadcast order, as an addon for Stremio and Nuvio.",
   "main": "api/index.js",
   "scripts": {
