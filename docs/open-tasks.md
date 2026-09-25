@@ -9,9 +9,6 @@ Last reviewed 23 September 2026.
 ## In flight
 
 - **Season 4, still open after the 24 September pass.**
-  - Evil of the Daleks 1 and 3 to 7 and Macra Terror 1 to 4: iPlayer fhd was approved on a
-    comparison that turned out to be misaligned. Aligned by audio, iPlayer and the held
-    Blu-ray re-encodes look the same; put back to the user before replacing anything.
   - Tenth Planet DVD remux (`730f0336d2`) and Faceless Ones Blu-ray (`7cd853ab8b`) had
     stalled; every torrent in qBittorrent was removed with its files at 12:11 on 25 September,
     not by any script here. Re-add them only if the user wants them tried again.
