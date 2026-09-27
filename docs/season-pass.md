@@ -313,6 +313,12 @@ On PATH via WinGet (Gyan build), with `h264_nvenc` and `hevc_nvenc`, `zscale`, `
 
   **Never conclude iPlayer is blocked from an `--info` run.** Attempt the download.
 
+  **But a download that fails everywhere is the geo gate.** On 27 September 2026 every
+  host answered 403 and the media selector returned `"result":"geolocation"`: the
+  connection was no longer UK-located. Check with
+  `curl -s https://open.live.bbc.co.uk/mediaselector/6/select/version/2.0/mediaset/pc/vpid/<vpid>/format/json`,
+  then stop and tell the user. Nothing here routes around it.
+
   ```
   get_iplayer --pid=<pid> --versions=original --tv-quality=fhd,hd,sd --force --output=<dir> --file-prefix=<stem>
   get_iplayer --pid=<pid> --versions=original --subsonly --force --output=<dir> --file-prefix=<stem>
