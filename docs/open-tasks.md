@@ -14,8 +14,6 @@ Last reviewed 23 September 2026.
     not by any script here. Re-add them only if the user wants them tried again.
   - The pack's own sidecars on Tenth Planet 1 to 4 and Moonbase 1 to 4 are still in the old
     style; restyling a supplied track is the user's call.
-- **Season 6: approved 27 September, downloading.** All 34 from iPlayer; the downloader stops
-  itself on a geo block.
 - **Season 3: a 31 GB Galaxy 4 Blu-ray image** (hash `7af0f40a71`) is waiting for
   metadata. If it wakes, it may beat the three animated Galaxy 4 episodes held from iPlayer.
 
