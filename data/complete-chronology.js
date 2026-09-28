@@ -7793,7 +7793,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E15_planet_of_fire_1.jpg?v=d7ac4c74",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E15_planet_of_fire_1.mp4?v=c7053b8e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E15_planet_of_fire_1.srt?v=7e3a0e5c",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E15_planet_of_fire_1.srt?v=6adeaa2d",
   filename: "S21_E15_planet_of_fire_1.mp4",
 },
 {
@@ -7806,7 +7806,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E16_planet_of_fire_2.jpg?v=93a09f72",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E16_planet_of_fire_2.mp4?v=493e5e70",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E16_planet_of_fire_2.srt?v=c0b42514",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E16_planet_of_fire_2.srt?v=28ef6e2b",
   filename: "S21_E16_planet_of_fire_2.mp4",
 },
 {
@@ -7819,7 +7819,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E17_planet_of_fire_3.jpg?v=105023a0",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E17_planet_of_fire_3.mp4?v=1b95f5f9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E17_planet_of_fire_3.srt?v=532352b2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E17_planet_of_fire_3.srt?v=b2f92d21",
   filename: "S21_E17_planet_of_fire_3.mp4",
 },
 {
@@ -7832,7 +7832,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E18_planet_of_fire_4.jpg?v=1ae34fa8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E18_planet_of_fire_4.mp4?v=0350ed35",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E18_planet_of_fire_4.srt?v=c7463ffd",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E18_planet_of_fire_4.srt?v=e54bc3d6",
   filename: "S21_E18_planet_of_fire_4.mp4",
 },
 {
@@ -8630,7 +8630,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E01_battlefield_1.jpg?v=6800518f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E01_battlefield_1.mp4?v=2159e6bc",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E01_battlefield_1.srt?v=7612a3b9",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E01_battlefield_1.srt?v=8273b77a",
   filename: "S26_E01_battlefield_1.mp4",
 },
 {
@@ -8643,7 +8643,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E02_battlefield_2.jpg?v=6f7e2869",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E02_battlefield_2.mp4?v=247019f7",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E02_battlefield_2.srt?v=741e6ccf",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E02_battlefield_2.srt?v=5fe03b1d",
   filename: "S26_E02_battlefield_2.mp4",
 },
 {
@@ -8656,7 +8656,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E03_battlefield_3.jpg?v=a791e5ce",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E03_battlefield_3.mp4?v=d2cf17cf",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E03_battlefield_3.srt?v=2870688a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E03_battlefield_3.srt?v=ea84d842",
   filename: "S26_E03_battlefield_3.mp4",
 },
 {
@@ -8669,7 +8669,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E04_battlefield_4.jpg?v=07cb55a2",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E04_battlefield_4.mp4?v=1b13a079",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E04_battlefield_4.srt?v=baf389a5",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E04_battlefield_4.srt?v=3e5822bc",
   filename: "S26_E04_battlefield_4.mp4",
 },
 {
@@ -8721,7 +8721,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E08_the_curse_of_fenric_1.jpg?v=f567e345",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E08_the_curse_of_fenric_1.mp4?v=671e1b1e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E08_the_curse_of_fenric_1.srt?v=c78f06b0",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E08_the_curse_of_fenric_1.srt?v=3e6c20f6",
   filename: "S26_E08_the_curse_of_fenric_1.mp4",
 },
 {
@@ -8734,7 +8734,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E09_the_curse_of_fenric_2.jpg?v=7f751d15",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E09_the_curse_of_fenric_2.mp4?v=c8713ea0",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E09_the_curse_of_fenric_2.srt?v=2d17e122",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E09_the_curse_of_fenric_2.srt?v=cd2348a2",
   filename: "S26_E09_the_curse_of_fenric_2.mp4",
 },
 {
@@ -8747,7 +8747,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E10_the_curse_of_fenric_3.jpg?v=e592755e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E10_the_curse_of_fenric_3.mp4?v=d862066d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E10_the_curse_of_fenric_3.srt?v=51c9a8ba",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E10_the_curse_of_fenric_3.srt?v=86062534",
   filename: "S26_E10_the_curse_of_fenric_3.mp4",
 },
 {
@@ -8760,7 +8760,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E11_the_curse_of_fenric_4.jpg?v=fc520744",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E11_the_curse_of_fenric_4.mp4?v=f85cac14",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E11_the_curse_of_fenric_4.srt?v=b78b1dd2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E11_the_curse_of_fenric_4.srt?v=32745ff2",
   filename: "S26_E11_the_curse_of_fenric_4.mp4",
 },
 {
