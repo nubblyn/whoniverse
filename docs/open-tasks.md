@@ -14,13 +14,15 @@ Last reviewed 23 September 2026.
     not by any script here. Re-add them only if the user wants them tried again.
   - The pack's own sidecars on Tenth Planet 1 to 4 and Moonbase 1 to 4 are still in the old
     style; restyling a supplied track is the user's call.
-- **Seasons 11 to 26, running unattended since 27 September.** Downloading from iPlayer: 11 (22
-  DivX episodes), 16 (The Pirate Planet), 18 (all 28), 21 (Warriors of the Deep, Frontios, Caves of
-  Androzani), 23 (Trial parts 1 to 5 and 7 to 14: the held files are the Blu-ray's extended edits,
-  up to 275 s longer than broadcast), 26 (Ghost Light, Survival). Kept as held: 13 and the other
-  16 stories (50fps DVD copies), 14 (Blu-ray-sourced, sharper than iPlayer's SD), Death to the
-  Daleks, The Awakening, The Twin Dilemma, Trial part 6. BBC tracks re-pulled and restyled for
-  Planet of Fire, Battlefield and The Curse of Fenric.
+- **Every Classic season has had its pass (finished 28 September 2026).** Left for the user:
+  - Restyling the old-style sidecars that came with the packs on files that were kept: Tenth Planet
+    and Moonbase (4), Enemy of the World, Ice Warriors 2 to 6 and Web of Fear 3 (5), The Krotons (6),
+    Death to the Daleks (11), season 13, season 14, the rest of season 16, The Awakening and The
+    Twin Dilemma (21). They carry sound-effect captions and three-line cues; restyling a supplied
+    track is the user's call.
+  - Wheel in Space 1, 2, 4 and 5: iPlayer has the BBC's own reconstructions; ours are a fan pack's.
+  - Seasons 13, 14, 18, 21, 23 and 26 would improve further only from their Collection Blu-rays,
+    none of which is on the public indexers.
 - **Resurrection of the Daleks: two parts or four?** iPlayer carries the broadcast version as two
   45-minute episodes (PIDs `p00v8yw4`, `p00v8yxr`); the ledger has four parts, of which 1 and 2 play
   from DivX and 3 and 4 have no file. Renumbering season 21 is the user's call.
