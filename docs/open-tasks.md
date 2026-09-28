@@ -26,8 +26,6 @@ Last reviewed 23 September 2026.
 - **Resurrection of the Daleks: two parts or four?** iPlayer carries the broadcast version as two
   45-minute episodes (PIDs `p00v8yw4`, `p00v8yxr`); the ledger has four parts, of which 1 and 2 play
   from DivX and 3 and 4 have no file. Renumbering season 21 is the user's call.
-- **Season 3: a 31 GB Galaxy 4 Blu-ray image** (hash `7af0f40a71`) is waiting for
-  metadata. If it wakes, it may beat the three animated Galaxy 4 episodes held from iPlayer.
 
 ## Waiting on the user
 
