@@ -622,6 +622,11 @@ The four New Who minisodes cut from the Proms got the same treatment the same da
 (19 frames) on *Music of the Spheres*, the user's choice for that one. A fade on a file with
 no source left to cut from is a re-encode of the held file, in its own codec at CRF 16, with
 the subtitle tracks copied.
+ffmpeg's `fade` reaches zero one frame after the last one it covers, so a fade of n frames
+must start at frame count minus n minus 1 (`s=` in frames) for the final frame to be black.
+Started at count minus n, the last frame keeps 1/n of its picture: invisible over 2 s, but
+over 19 frames the stage lights still showed, and Music of the Spheres was redone from the
+bucket's previous version on 29 September 2026.
 
 Resolution varies: the season 8 trailer is 1080p, the season 9 one offers no
 better than 720p, so that row's ceiling is 720p and the ledger says so.
