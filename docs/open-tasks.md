@@ -12,20 +12,10 @@ Last reviewed 23 September 2026.
   - Tenth Planet DVD remux (`730f0336d2`) and Faceless Ones Blu-ray (`7cd853ab8b`) had
     stalled; every torrent in qBittorrent was removed with its files at 12:11 on 25 September,
     not by any script here. Re-add them only if the user wants them tried again.
-  - The pack's own sidecars on Tenth Planet 1 to 4 and Moonbase 1 to 4 are still in the old
-    style; restyling a supplied track is the user's call.
-- **Every Classic season has had its pass (finished 28 September 2026).** Left for the user:
-  - Restyling the old-style sidecars that came with the packs on files that were kept: Tenth Planet
-    and Moonbase (4), Enemy of the World, Ice Warriors 2 to 6 and Web of Fear 3 (5), The Krotons (6),
-    Death to the Daleks (11), season 13, season 14, the rest of season 16, The Awakening and The
-    Twin Dilemma (21). They carry sound-effect captions and three-line cues; restyling a supplied
-    track is the user's call.
-  - Wheel in Space 1, 2, 4 and 5: iPlayer has the BBC's own reconstructions; ours are a fan pack's.
-  - Seasons 13, 14, 18, 21, 23 and 26 would improve further only from their Collection Blu-rays,
-    none of which is on the public indexers.
-- **Resurrection of the Daleks: two parts or four?** iPlayer carries the broadcast version as two
-  45-minute episodes (PIDs `p00v8yw4`, `p00v8yxr`); the ledger has four parts, of which 1 and 2 play
-  from DivX and 3 and 4 have no file. Renumbering season 21 is the user's call.
+- **Every Classic season has had its pass (finished 29 September 2026).** Seasons 13, 14, 18, 21,
+  23 and 26 would improve further only from their Collection Blu-rays, none of which is on the
+  public indexers; the user's call on 29 September is to keep them as they are until one appears.
+  The pack sidecars on kept files stay as they came, also the user's call.
 
 ## Waiting on the user
 

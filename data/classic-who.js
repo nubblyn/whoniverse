@@ -7087,6 +7087,11 @@ const episodes = [
   type: "Special",
   released: "1981-12-28T12:00:00.000Z",
   overview: "Sarah Jane Smith arrives in a Gloucestershire village for Christmas to find her aunt missing and the locals unwilling to discuss it. The robot dog the Doctor left behind for her turns out to be the only help she has.",
+  audio: "AAC",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E29_k9__company_a_girls_best_friend_special.jpg?v=091bae13",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E29_k9__company_a_girls_best_friend_special.mp4?v=b8bef48b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E29_k9__company_a_girls_best_friend_special.srt?v=1e6e7986",
+  filename: "S18_E29_k9__company_a_girls_best_friend_special.mp4",
 },
 {
   title: "Castrovalva (1)",
