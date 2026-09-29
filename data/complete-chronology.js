@@ -10335,7 +10335,7 @@ const episodes = [
   released: "2008-07-27T12:00:00.000Z",
   overview: "The Doctor attempts to compose his 'Ode to the Universe' inside the TARDIS, only to be interrupted by a mischievous Graske. Their antics are broadcast live to the audience at the Doctor Who Proms, bridging the gap between fiction and reality.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_music_of_the_spheres_minisode.jpg?v=8e8d5239",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_music_of_the_spheres_minisode.mp4?v=69cb7b02",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_music_of_the_spheres_minisode.mp4?v=f4109cb1",
   subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_4/S04_E15_music_of_the_spheres_minisode.srt?v=cc2ed257",
 },
 {
@@ -10947,7 +10947,7 @@ const episodes = [
   released: "2010-09-06T12:00:00.000Z",
   overview: "The Eleventh Doctor arrives in the Royal Albert Hall carrying an engine that will detonate at the slightest vibration, and tells the audience not to worry while the beeping continues. When it stops, he picks a boy called Ellis out of the seats to help.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E18_the_boy_who_saved_the_proms_minisode.jpg?v=ee43423f",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E18_the_boy_who_saved_the_proms_minisode.mkv?v=09699f54",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_5/S05_E18_the_boy_who_saved_the_proms_minisode.mkv?v=4ae5f726",
 },
 {
   title: "Death Is the Only Answer (Minisode)",
@@ -11876,7 +11876,7 @@ const episodes = [
   released: "2013-08-26T12:00:00.000Z",
   overview: "The Eleventh Doctor talks Clara into using a Hyperscape Body Swap Ticket so the two of them can get into the Royal Albert Hall for the Proms. Clara has questions about whose bodies the ticket actually involves, and the concert is starting.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E29_a_hyperscape_body_swap_ticket_minisode.jpg?v=c3274abc",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E29_a_hyperscape_body_swap_ticket_minisode.mkv?v=84441061",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_7/S07_E29_a_hyperscape_body_swap_ticket_minisode.mkv?v=163088ad",
 },
 {
   title: "The Night of the Doctor (Minisode)",
@@ -13201,7 +13201,7 @@ const episodes = [
   released: "2024-12-25T12:00:00.000Z",
   overview: "The Vlinx introduces the Fifteenth Doctor to the Royal Albert Hall, and Maestro arrives to seize the orchestra and feed on the dissonance it can produce. The God of Music means to play the worst song ever written, and every human listening is the meal.",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.jpg?v=dbf2f0cb",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.mkv?v=c4b0f62e",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/new_who/season_15/S15_E10_bad_music_minisode.mkv?v=412fafb6",
 },
 {
   title: "Joy to the World (Special)",

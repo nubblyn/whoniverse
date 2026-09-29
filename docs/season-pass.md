@@ -617,6 +617,11 @@ Every one of these ends on a fade to black over its last 2 s, picture and sound 
 (`fade=t=out:st=END-2:d=2` and `afade` the same, in the Part B encode), so no minisode
 stops dead on the frame where the promo begins. Asked for by the user on 29 September 2026
 and applied to all eleven. The codas some trailers carry after the promo stay out.
+The four New Who minisodes cut from the Proms got the same treatment the same day: 2 s on
+*The Boy Who Saved the Proms*, *A Hyperscape Body Swap Ticket* and *Bad Music*, and 0.75 s
+(19 frames) on *Music of the Spheres*, the user's choice for that one. A fade on a file with
+no source left to cut from is a re-encode of the held file, in its own codec at CRF 16, with
+the subtitle tracks copied.
 
 Resolution varies: the season 8 trailer is 1080p, the season 9 one offers no
 better than 720p, so that row's ceiling is 720p and the ledger says so.
