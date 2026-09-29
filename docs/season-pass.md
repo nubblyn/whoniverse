@@ -604,6 +604,19 @@ second before the voiceover starts, so no pair of frames shows it.
 | The Storyteller (2x40) | `_UaZTZ6qBQo` | 6:31 | 190.88 s | before the voiceover says "Doctor Who" |
 | Return of the Autons (8x26) | `w2NID_9KcWw` | 4:02 | **76.48 s** | 1912, last frame before the box-set packaging |
 | Defenders of Earth (9x27) | `A1rHwBiVyJQ` | 7:48 | **182.32 s** | 4558, last frame before "Doctor Who: The Collection" |
+| Hello Boys! (10x27) | `8WBpPWy7jB8` | 2:20 | **61.84 s** | 1546, last frame before the Third Doctor artwork |
+| The Final Battle (15x27) | `HIBfUAF9otg` | 7:04 | **188.60 s** | 4715, last frame before the box set appears in the time tunnel |
+| Risen (17x1) | `Fwv3-PGCw8o` | 4:18 | **88.08 s** | 2202, last frame of Davros before the promo image |
+| The Passenger (20x24) | `NMgKaTU9-bQ` | 13:21 | **372.36 s** | 9309, last frame before the box set |
+| Destination: Daleks (21x25) | `9WABczTXLGg` | 10:01 | **280.00 s** | 7000, last frame before the box set |
+| The Eternal Mystery (22x15) | `dspgDvP7pA8` | 7:12 | **151.04 s** | 3776, last frame before the Doctor Who logo |
+| 24 Carat (24x15) | `cLb-rlZQA9k` | 8:01 | **217.92 s** | 5448, the transition frame from Mel to the promo |
+| The Promise (26x15) | `sgHRLi02JAc` | 3:33 | **132.72 s** | 3318, last frame before the box set |
+
+Every one of these ends on a fade to black over its last 2 s, picture and sound together
+(`fade=t=out:st=END-2:d=2` and `afade` the same, in the Part B encode), so no minisode
+stops dead on the frame where the promo begins. Asked for by the user on 29 September 2026
+and applied to all eleven. The codas some trailers carry after the promo stay out.
 
 Resolution varies: the season 8 trailer is 1080p, the season 9 one offers no
 better than 720p, so that row's ceiling is 720p and the ledger says so.
