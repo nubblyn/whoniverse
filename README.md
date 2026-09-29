@@ -16,11 +16,11 @@ they play anywhere the addon does.
 
 ## What is in it
 
-Every series plays: 1,111 of the 1,122 episodes in the catalogue.
+Every series plays: 1,112 of the 1,122 episodes in the catalogue.
 
 | Series | Episodes | Playing |
 | --- | --- | --- |
-| Classic Who (1963 to 1989) | 714 | 705 |
+| Classic Who (1963 to 1989) | 714 | 706 |
 | Wilderness Years (1993 to 2003), with the 1996 film | 28 | 28 |
 | New Who (2005 to present) | 270 | 268 |
 | Torchwood (2006 to 2011) | 42 | 42 |
@@ -37,8 +37,7 @@ sits beside the episode it goes with, and shows its real release date. Each
 episode has a still and a hand-written summary, and nearly all have English
 subtitles, the disc's own wherever the disc has them.
 
-The 11 that do not play yet are two New Who minisodes, eight Classic minisodes and
-*K9 and Company*.
+The 10 that do not play yet are two New Who minisodes and eight Classic minisodes.
 
 The thirteen Series 2 Tardisodes survive only as fan copies. They play from an AI
 upscale of those, and each is titled with "(Upscaled)" to say so.

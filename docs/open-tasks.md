@@ -36,6 +36,12 @@ Last reviewed 23 September 2026.
   the voiceover at 151 s. After the promo a coda, Peri and Rex at the memorial and the
   TARDIS leaving, runs from about 325.5 s to 401 s, then credits to 412.8 s. Story only,
   or plus coda, and credits or not?
+- **The *Destination: Daleks* cut** (season 21 trailer, `destinationdaleks_full.mp4`). The story
+  runs 0 to 278.80 s, where the Collection promo's starfield begins. After the promo a coda,
+  modern Davison and Tegan facing the Daleks, runs 496.16 s to 544.12 s, then credits to about
+  575 s. Story only, story plus coda, and credits or not?
+- **The *Promise* cut** (season 26 trailer, `thepromise_full.mp4`). The story runs 0 to 130.92 s,
+  ending on Ace's "Wicked." and the roundel; the promo follows. No coda. Story only?
 - **Classic Who IMDb ids.** Regenerating on 23 September dropped the ones the audit typed
   in; they do nothing, since the addon answers only its own ids. Leave out, or carry?
 - **The stremio-addons.net listing.** The text was given on 22 September; paste it by
