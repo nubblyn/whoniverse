@@ -444,9 +444,8 @@ Spearhead because it was shot on film and carries no audio reprise, and iPlayer
 has no copy of Spearhead at all - the PIDs exist under the brand but return no
 versions and no qualities - so it cannot be used as a neutral referee here.
 
-**Season 22 is already at 1080p** on 13 of its 15 rows and its other two are A
-Fix with Sontarans, which has no release, and The Eternal Mystery, which is a
-YouTube minisode. It was taken anyway, on the user's call that one uploader's
+**Season 22 is already at 1080p** on 13 of its 14 rows and the other is The Eternal
+Mystery, which is a YouTube minisode. It was taken anyway, on the user's call that one uploader's
 encode across every season beats a patchwork of provenance.
 
 **Selecting the episodes out of a set**: `scripts/media/dvd/collsel.py <season>`
@@ -666,6 +665,9 @@ What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doct
   Documentaries, idents, trailers, PSAs, prose, poems, impressions: out.
 - A source is legitimate when it is the BBC's own, the official YouTube channel included.
   An AI-upscaled fan upload is not, whatever its resolution.
+- *A Fix with Sontarans* (the 1985 *Jim'll Fix It* segment) is not in the catalogue. The
+  BBC has never repeated or released it and its only copies are home recordings; the
+  user removed the row on 29 September 2026 rather than take one. Do not add it back.
 - Animated and webcast serials are **one row, one file** (The Infinite Quest, Dreamland,
   Pond Life, Daleks!). Two-part sketches that were separate broadcasts stay two rows
   (Space, Time).
@@ -682,8 +684,7 @@ What is **not** a source: fan re-uploads, AI upscales, colourisations (`70s-Doct
   like any other URL. It applies only where `status` is `missing` **and** there is no
   video: a row that is `ok` but simply not fetched yet is pending work, not a missing
   episode, and must not carry the card. Two rows use it, both in New Who: A Ghost Story
-  for Christmas and The Naked Truth (the 13 Tardisodes used it until 25 September 2026). The 11 Classic rows with no
-  video are `ok` and correctly do not.
+  for Christmas and The Naked Truth (the 13 Tardisodes used it until 25 September 2026). Every Classic row has a video.
 - **`missing` is for anything in scope that cannot be had, not only wiped film.** New Who
   once carried no `missing` rows at all while Classic carried 42, so items that exist and
   have no legitimate source were simply absent rather than recorded; the 13 Tardisodes
