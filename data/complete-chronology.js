@@ -1000,7 +1000,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E01_four_hundred_dawns_animated_restoration.jpg?v=da94ca14",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E01_four_hundred_dawns_animated_restoration.mp4?v=fb473546",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E01_four_hundred_dawns_animated_restoration.srt?v=4820c8b9",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E01_four_hundred_dawns_animated_restoration.srt?v=797c3fd9",
   filename: "S03_E01_four_hundred_dawns_animated_restoration.mp4",
 },
 {
@@ -1013,7 +1013,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E02_trap_of_steel_animated_restoration.jpg?v=2838ae3e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E02_trap_of_steel_animated_restoration.mp4?v=80dfc6d0",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E02_trap_of_steel_animated_restoration.srt?v=80d01b90",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E02_trap_of_steel_animated_restoration.srt?v=ff4676a1",
   filename: "S03_E02_trap_of_steel_animated_restoration.mp4",
 },
 {
@@ -1038,7 +1038,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E04_the_exploding_planet_animated_restoration.jpg?v=a34be71a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E04_the_exploding_planet_animated_restoration.mp4?v=59610e2d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E04_the_exploding_planet_animated_restoration.srt?v=e46649fd",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E04_the_exploding_planet_animated_restoration.srt?v=5cedd4d0",
   filename: "S03_E04_the_exploding_planet_animated_restoration.mp4",
 },
 {
@@ -1116,7 +1116,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E10_the_nightmare_begins.jpg?v=8d7fb20f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E10_the_nightmare_begins.mp4?v=b4ccee47",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E10_the_nightmare_begins.srt?v=044022ee",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E10_the_nightmare_begins.srt?v=7559fde6",
   filename: "S03_E10_the_nightmare_begins.mp4",
 },
 {
@@ -1141,7 +1141,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E12_devils_planet.jpg?v=4538c3b8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E12_devils_planet.mp4?v=ea850994",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E12_devils_planet.srt?v=ebf51cca",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E12_devils_planet.srt?v=f584a074",
   filename: "S03_E12_devils_planet.mp4",
 },
 {
@@ -1321,7 +1321,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E26_the_steel_sky.jpg?v=502b28d0",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E26_the_steel_sky.mp4?v=a7cc3cb8",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E26_the_steel_sky.srt?v=94d9e532",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E26_the_steel_sky.srt?v=181f5648",
   filename: "S03_E26_the_steel_sky.mp4",
 },
 {
@@ -1334,7 +1334,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E27_the_plague.jpg?v=b7d13434",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E27_the_plague.mp4?v=c4790a04",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E27_the_plague.srt?v=9606ec20",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E27_the_plague.srt?v=946c6864",
   filename: "S03_E27_the_plague.mp4",
 },
 {
@@ -1347,7 +1347,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E28_the_return.jpg?v=32c290de",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E28_the_return.mp4?v=5b2e057a",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E28_the_return.srt?v=80bb04f1",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E28_the_return.srt?v=f07d244e",
   filename: "S03_E28_the_return.mp4",
 },
 {
@@ -1360,7 +1360,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E29_the_bomb.jpg?v=67d00890",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E29_the_bomb.mp4?v=11e008b8",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E29_the_bomb.srt?v=20d3357c",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E29_the_bomb.srt?v=43a73aa9",
   filename: "S03_E29_the_bomb.mp4",
 },
 {
@@ -1373,7 +1373,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E30_the_celestial_toyroom_animated_restoration.jpg?v=db562430",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E30_the_celestial_toyroom_animated_restoration.mp4?v=c6b21e0b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E30_the_celestial_toyroom_animated_restoration.srt?v=4a172bb0",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E30_the_celestial_toyroom_animated_restoration.srt?v=aee4ec7d",
   filename: "S03_E30_the_celestial_toyroom_animated_restoration.mp4",
 },
 {
@@ -1386,7 +1386,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E31_the_hall_of_dolls_animated_restoration.jpg?v=519f32ae",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E31_the_hall_of_dolls_animated_restoration.mp4?v=4f5807a2",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E31_the_hall_of_dolls_animated_restoration.srt?v=3ed856f3",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E31_the_hall_of_dolls_animated_restoration.srt?v=27a5fc34",
   filename: "S03_E31_the_hall_of_dolls_animated_restoration.mp4",
 },
 {
@@ -1399,7 +1399,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E32_the_dancing_floor_animated_restoration.jpg?v=df92f702",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E32_the_dancing_floor_animated_restoration.mp4?v=ce6538ac",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E32_the_dancing_floor_animated_restoration.srt?v=91855023",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E32_the_dancing_floor_animated_restoration.srt?v=c4d11d69",
   filename: "S03_E32_the_dancing_floor_animated_restoration.mp4",
 },
 {
@@ -1424,7 +1424,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E34_a_holiday_for_the_doctor.jpg?v=ed5f75fc",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E34_a_holiday_for_the_doctor.mp4?v=31d2e840",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E34_a_holiday_for_the_doctor.srt?v=40aef699",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E34_a_holiday_for_the_doctor.srt?v=bbd15e1c",
   filename: "S03_E34_a_holiday_for_the_doctor.mp4",
 },
 {
@@ -1437,7 +1437,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E35_dont_shoot_the_pianist.jpg?v=5547c0b1",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E35_dont_shoot_the_pianist.mp4?v=dad25933",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E35_dont_shoot_the_pianist.srt?v=2572c707",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E35_dont_shoot_the_pianist.srt?v=15013933",
   filename: "S03_E35_dont_shoot_the_pianist.mp4",
 },
 {
@@ -1450,7 +1450,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E36_johnny_ringo.jpg?v=6b56983b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E36_johnny_ringo.mp4?v=6f6425c4",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E36_johnny_ringo.srt?v=3149ef2b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E36_johnny_ringo.srt?v=9481b1c6",
   filename: "S03_E36_johnny_ringo.mp4",
 },
 {
@@ -1463,7 +1463,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E37_the_ok_corral.jpg?v=8826a362",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E37_the_ok_corral.mp4?v=bda7b0a6",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E37_the_ok_corral.srt?v=b036be53",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E37_the_ok_corral.srt?v=040380c9",
   filename: "S03_E37_the_ok_corral.mp4",
 },
 {
@@ -1524,7 +1524,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E42_the_war_machines_1.jpg?v=a648ee4b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E42_the_war_machines_1.mp4?v=99aa74a7",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E42_the_war_machines_1.srt?v=fcfc6567",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E42_the_war_machines_1.srt?v=7064769c",
   filename: "S03_E42_the_war_machines_1.mp4",
 },
 {
@@ -1537,7 +1537,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E43_the_war_machines_2.jpg?v=ffdaed86",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E43_the_war_machines_2.mp4?v=8c0a4f93",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E43_the_war_machines_2.srt?v=6fdf9ddf",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E43_the_war_machines_2.srt?v=a62ba477",
   filename: "S03_E43_the_war_machines_2.mp4",
 },
 {
@@ -1550,7 +1550,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E44_the_war_machines_3.jpg?v=ccaca5b6",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E44_the_war_machines_3.mp4?v=d0f003b9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E44_the_war_machines_3.srt?v=a1ab6ed7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E44_the_war_machines_3.srt?v=ddc4881d",
   filename: "S03_E44_the_war_machines_3.mp4",
 },
 {
@@ -1563,7 +1563,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E45_the_war_machines_4.jpg?v=07d2ac26",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E45_the_war_machines_4.mp4?v=7991602a",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E45_the_war_machines_4.srt?v=d655c5de",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_3/S03_E45_the_war_machines_4.srt?v=dabee142",
   filename: "S03_E45_the_war_machines_4.mp4",
 },
 {
@@ -1680,7 +1680,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E09_the_power_of_the_daleks_1_animated_restoration.jpg?v=182da62a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E09_the_power_of_the_daleks_1_animated_restoration.mp4?v=58dd354a",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E09_the_power_of_the_daleks_1_animated_restoration.srt?v=e728b7c0",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E09_the_power_of_the_daleks_1_animated_restoration.srt?v=3e682731",
   filename: "S04_E09_the_power_of_the_daleks_1_animated_restoration.mp4",
 },
 {
@@ -1693,7 +1693,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E10_the_power_of_the_daleks_2_animated_restoration.jpg?v=b1301abd",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E10_the_power_of_the_daleks_2_animated_restoration.mp4?v=8bc8b9f7",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E10_the_power_of_the_daleks_2_animated_restoration.srt?v=8f0290bf",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E10_the_power_of_the_daleks_2_animated_restoration.srt?v=478e8288",
   filename: "S04_E10_the_power_of_the_daleks_2_animated_restoration.mp4",
 },
 {
@@ -1706,7 +1706,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E11_the_power_of_the_daleks_3_animated_restoration.jpg?v=7d23df8a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E11_the_power_of_the_daleks_3_animated_restoration.mp4?v=7d8ab30b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E11_the_power_of_the_daleks_3_animated_restoration.srt?v=e4200002",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E11_the_power_of_the_daleks_3_animated_restoration.srt?v=46dce327",
   filename: "S04_E11_the_power_of_the_daleks_3_animated_restoration.mp4",
 },
 {
@@ -1719,7 +1719,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E12_the_power_of_the_daleks_4_animated_restoration.jpg?v=e02a2919",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E12_the_power_of_the_daleks_4_animated_restoration.mp4?v=80f4cc0e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E12_the_power_of_the_daleks_4_animated_restoration.srt?v=7067c337",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E12_the_power_of_the_daleks_4_animated_restoration.srt?v=e78d1f96",
   filename: "S04_E12_the_power_of_the_daleks_4_animated_restoration.mp4",
 },
 {
@@ -1732,7 +1732,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E13_the_power_of_the_daleks_5_animated_restoration.jpg?v=c690c4a3",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E13_the_power_of_the_daleks_5_animated_restoration.mp4?v=2ae8a10c",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E13_the_power_of_the_daleks_5_animated_restoration.srt?v=e206e582",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E13_the_power_of_the_daleks_5_animated_restoration.srt?v=1f18e777",
   filename: "S04_E13_the_power_of_the_daleks_5_animated_restoration.mp4",
 },
 {
@@ -1745,7 +1745,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E14_the_power_of_the_daleks_6_animated_restoration.jpg?v=b9c89fc6",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E14_the_power_of_the_daleks_6_animated_restoration.mp4?v=1fdcb98e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E14_the_power_of_the_daleks_6_animated_restoration.srt?v=64c5499a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E14_the_power_of_the_daleks_6_animated_restoration.srt?v=cd1df0ef",
   filename: "S04_E14_the_power_of_the_daleks_6_animated_restoration.mp4",
 },
 {
@@ -1810,7 +1810,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E19_the_underwater_menace_1_animated_restoration.jpg?v=869753b9",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E19_the_underwater_menace_1_animated_restoration.mp4?v=32be946c",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E19_the_underwater_menace_1_animated_restoration.srt?v=c7e449a0",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E19_the_underwater_menace_1_animated_restoration.srt?v=635032b0",
   filename: "S04_E19_the_underwater_menace_1_animated_restoration.mp4",
 },
 {
@@ -1823,7 +1823,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E20_the_underwater_menace_2.jpg?v=adeb2903",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E20_the_underwater_menace_2.mp4?v=1dc07807",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E20_the_underwater_menace_2.srt?v=af997a49",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E20_the_underwater_menace_2.srt?v=ee80c6de",
   filename: "S04_E20_the_underwater_menace_2.mp4",
 },
 {
@@ -1836,7 +1836,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E21_the_underwater_menace_3.jpg?v=e3ee45f9",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E21_the_underwater_menace_3.mp4?v=7996091e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E21_the_underwater_menace_3.srt?v=3425bf06",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E21_the_underwater_menace_3.srt?v=456fedfc",
   filename: "S04_E21_the_underwater_menace_3.mp4",
 },
 {
@@ -1849,7 +1849,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E22_the_underwater_menace_4_animated_restoration.jpg?v=2824c397",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E22_the_underwater_menace_4_animated_restoration.mp4?v=e85cf91b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E22_the_underwater_menace_4_animated_restoration.srt?v=50c8cc7b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E22_the_underwater_menace_4_animated_restoration.srt?v=a548cf80",
   filename: "S04_E22_the_underwater_menace_4_animated_restoration.mp4",
 },
 {
@@ -1914,7 +1914,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E27_the_macra_terror_1_animated_restoration.jpg?v=3c302f6b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E27_the_macra_terror_1_animated_restoration.mp4?v=d4606e00",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E27_the_macra_terror_1_animated_restoration.srt?v=28fab41f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E27_the_macra_terror_1_animated_restoration.srt?v=5f746a90",
   filename: "S04_E27_the_macra_terror_1_animated_restoration.mp4",
 },
 {
@@ -1927,7 +1927,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E28_the_macra_terror_2_animated_restoration.jpg?v=723f6d4c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E28_the_macra_terror_2_animated_restoration.mp4?v=86e9bcf7",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E28_the_macra_terror_2_animated_restoration.srt?v=8a3ada4e",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E28_the_macra_terror_2_animated_restoration.srt?v=2eae6eff",
   filename: "S04_E28_the_macra_terror_2_animated_restoration.mp4",
 },
 {
@@ -1940,7 +1940,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E29_the_macra_terror_3_animated_restoration.jpg?v=41e22e1d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E29_the_macra_terror_3_animated_restoration.mp4?v=67a4b505",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E29_the_macra_terror_3_animated_restoration.srt?v=0ae0cf02",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E29_the_macra_terror_3_animated_restoration.srt?v=5c23ab0a",
   filename: "S04_E29_the_macra_terror_3_animated_restoration.mp4",
 },
 {
@@ -1953,7 +1953,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E30_the_macra_terror_4_animated_restoration.jpg?v=0fdc4d91",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E30_the_macra_terror_4_animated_restoration.mp4?v=f23538af",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E30_the_macra_terror_4_animated_restoration.srt?v=55b09e59",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E30_the_macra_terror_4_animated_restoration.srt?v=a475a575",
   filename: "S04_E30_the_macra_terror_4_animated_restoration.mp4",
 },
 {
@@ -1966,7 +1966,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E31_the_faceless_ones_1.jpg?v=fc175704",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E31_the_faceless_ones_1.mp4?v=315c35f8",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E31_the_faceless_ones_1.srt?v=494fd1d1",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E31_the_faceless_ones_1.srt?v=0aabe3aa",
   filename: "S04_E31_the_faceless_ones_1.mp4",
 },
 {
@@ -1979,7 +1979,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E32_the_faceless_ones_2_animated_restoration.jpg?v=0aed3a82",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E32_the_faceless_ones_2_animated_restoration.mp4?v=c44aef6e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E32_the_faceless_ones_2_animated_restoration.srt?v=c2ba60d3",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E32_the_faceless_ones_2_animated_restoration.srt?v=3d6eb634",
   filename: "S04_E32_the_faceless_ones_2_animated_restoration.mp4",
 },
 {
@@ -1992,7 +1992,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E33_the_faceless_ones_3.jpg?v=cd8ca363",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E33_the_faceless_ones_3.mp4?v=55bbd7c5",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E33_the_faceless_ones_3.srt?v=e0d79e29",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E33_the_faceless_ones_3.srt?v=a77a1524",
   filename: "S04_E33_the_faceless_ones_3.mp4",
 },
 {
@@ -2005,7 +2005,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E34_the_faceless_ones_4_animated_restoration.jpg?v=32862a1e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E34_the_faceless_ones_4_animated_restoration.mp4?v=47648374",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E34_the_faceless_ones_4_animated_restoration.srt?v=6abd6544",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E34_the_faceless_ones_4_animated_restoration.srt?v=ab4b084f",
   filename: "S04_E34_the_faceless_ones_4_animated_restoration.mp4",
 },
 {
@@ -2018,7 +2018,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E35_the_faceless_ones_5_animated_restoration.jpg?v=99180b29",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E35_the_faceless_ones_5_animated_restoration.mp4?v=243615d0",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E35_the_faceless_ones_5_animated_restoration.srt?v=e7efa8fd",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E35_the_faceless_ones_5_animated_restoration.srt?v=5dd9519b",
   filename: "S04_E35_the_faceless_ones_5_animated_restoration.mp4",
 },
 {
@@ -2031,7 +2031,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E36_the_faceless_ones_6_animated_restoration.jpg?v=5d4aa36b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E36_the_faceless_ones_6_animated_restoration.mp4?v=6650a7d1",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E36_the_faceless_ones_6_animated_restoration.srt?v=4cfe76f0",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E36_the_faceless_ones_6_animated_restoration.srt?v=9019c57b",
   filename: "S04_E36_the_faceless_ones_6_animated_restoration.mp4",
 },
 {
@@ -2044,7 +2044,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E37_the_evil_of_the_daleks_1_animated_restoration.jpg?v=49b5a98b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E37_the_evil_of_the_daleks_1_animated_restoration.mp4?v=20f7b928",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E37_the_evil_of_the_daleks_1_animated_restoration.srt?v=328fc790",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E37_the_evil_of_the_daleks_1_animated_restoration.srt?v=10ef79ae",
   filename: "S04_E37_the_evil_of_the_daleks_1_animated_restoration.mp4",
 },
 {
@@ -2057,7 +2057,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E38_the_evil_of_the_daleks_2.jpg?v=f50ad9c1",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E38_the_evil_of_the_daleks_2.mp4?v=417e0b08",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E38_the_evil_of_the_daleks_2.srt?v=b1a9e42d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E38_the_evil_of_the_daleks_2.srt?v=33617200",
   filename: "S04_E38_the_evil_of_the_daleks_2.mp4",
 },
 {
@@ -2070,7 +2070,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E39_the_evil_of_the_daleks_3_animated_restoration.jpg?v=bc6ea55b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E39_the_evil_of_the_daleks_3_animated_restoration.mp4?v=c181e821",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E39_the_evil_of_the_daleks_3_animated_restoration.srt?v=89dffa73",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E39_the_evil_of_the_daleks_3_animated_restoration.srt?v=e30d66dd",
   filename: "S04_E39_the_evil_of_the_daleks_3_animated_restoration.mp4",
 },
 {
@@ -2083,7 +2083,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E40_the_evil_of_the_daleks_4_animated_restoration.jpg?v=c168d6a9",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E40_the_evil_of_the_daleks_4_animated_restoration.mp4?v=fc93c255",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E40_the_evil_of_the_daleks_4_animated_restoration.srt?v=5a8249f2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E40_the_evil_of_the_daleks_4_animated_restoration.srt?v=a62312ca",
   filename: "S04_E40_the_evil_of_the_daleks_4_animated_restoration.mp4",
 },
 {
@@ -2096,7 +2096,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E41_the_evil_of_the_daleks_5_animated_restoration.jpg?v=63f62d42",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E41_the_evil_of_the_daleks_5_animated_restoration.mp4?v=91ba96c5",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E41_the_evil_of_the_daleks_5_animated_restoration.srt?v=7d633cd5",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E41_the_evil_of_the_daleks_5_animated_restoration.srt?v=bbb5278f",
   filename: "S04_E41_the_evil_of_the_daleks_5_animated_restoration.mp4",
 },
 {
@@ -2109,7 +2109,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E42_the_evil_of_the_daleks_6_animated_restoration.jpg?v=5d8b5a19",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E42_the_evil_of_the_daleks_6_animated_restoration.mp4?v=bf1f7b38",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E42_the_evil_of_the_daleks_6_animated_restoration.srt?v=b67ee37c",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E42_the_evil_of_the_daleks_6_animated_restoration.srt?v=e5ab0a93",
   filename: "S04_E42_the_evil_of_the_daleks_6_animated_restoration.mp4",
 },
 {
@@ -2122,7 +2122,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E43_the_evil_of_the_daleks_7_animated_restoration.jpg?v=55912e16",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E43_the_evil_of_the_daleks_7_animated_restoration.mp4?v=50e31494",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E43_the_evil_of_the_daleks_7_animated_restoration.srt?v=3999277e",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_4/S04_E43_the_evil_of_the_daleks_7_animated_restoration.srt?v=a4e556ee",
   filename: "S04_E43_the_evil_of_the_daleks_7_animated_restoration.mp4",
 },
 {
@@ -2135,7 +2135,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E01_the_tomb_of_the_cybermen_1.jpg?v=ac54cb76",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E01_the_tomb_of_the_cybermen_1.mp4?v=db20d011",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E01_the_tomb_of_the_cybermen_1.srt?v=ed1fdc18",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E01_the_tomb_of_the_cybermen_1.srt?v=32f0c5c1",
   filename: "S05_E01_the_tomb_of_the_cybermen_1.mp4",
 },
 {
@@ -2148,7 +2148,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E02_the_tomb_of_the_cybermen_2.jpg?v=b5c59049",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E02_the_tomb_of_the_cybermen_2.mp4?v=f0019fa3",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E02_the_tomb_of_the_cybermen_2.srt?v=90cf4a3a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E02_the_tomb_of_the_cybermen_2.srt?v=dde80541",
   filename: "S05_E02_the_tomb_of_the_cybermen_2.mp4",
 },
 {
@@ -2161,7 +2161,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E03_the_tomb_of_the_cybermen_3.jpg?v=f8b1c786",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E03_the_tomb_of_the_cybermen_3.mp4?v=e5230afd",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E03_the_tomb_of_the_cybermen_3.srt?v=08c8b010",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E03_the_tomb_of_the_cybermen_3.srt?v=d3763eb5",
   filename: "S05_E03_the_tomb_of_the_cybermen_3.mp4",
 },
 {
@@ -2174,7 +2174,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E04_the_tomb_of_the_cybermen_4.jpg?v=65ee4539",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E04_the_tomb_of_the_cybermen_4.mp4?v=9b23576b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E04_the_tomb_of_the_cybermen_4.srt?v=4f7213d3",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E04_the_tomb_of_the_cybermen_4.srt?v=c1f04171",
   filename: "S05_E04_the_tomb_of_the_cybermen_4.mp4",
 },
 {
@@ -2199,7 +2199,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E06_the_abominable_snowmen_2.jpg?v=f1a6e661",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E06_the_abominable_snowmen_2.mp4?v=2f8fee5b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E06_the_abominable_snowmen_2.srt?v=f23bfdc8",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E06_the_abominable_snowmen_2.srt?v=a0c010d5",
   filename: "S05_E06_the_abominable_snowmen_2.mp4",
 },
 {
@@ -2260,7 +2260,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E11_the_ice_warriors_1.jpg?v=130a1d7e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E11_the_ice_warriors_1.mp4?v=61a6aa9b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E11_the_ice_warriors_1.srt?v=f9d07ef2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E11_the_ice_warriors_1.srt?v=d2e8bec2",
   filename: "S05_E11_the_ice_warriors_1.mp4",
 },
 {
@@ -2416,7 +2416,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E23_the_web_of_fear_1.jpg?v=17bc7b9f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E23_the_web_of_fear_1.mp4?v=4782b79d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E23_the_web_of_fear_1.srt?v=506508af",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E23_the_web_of_fear_1.srt?v=edb5de1b",
   filename: "S05_E23_the_web_of_fear_1.mp4",
 },
 {
@@ -2429,7 +2429,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E24_the_web_of_fear_2.jpg?v=226019d1",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E24_the_web_of_fear_2.mp4?v=3195002f",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E24_the_web_of_fear_2.srt?v=39b9a44f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E24_the_web_of_fear_2.srt?v=34ed212a",
   filename: "S05_E24_the_web_of_fear_2.mp4",
 },
 {
@@ -2455,7 +2455,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E26_the_web_of_fear_4.jpg?v=f5ef6d86",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E26_the_web_of_fear_4.mp4?v=d449003f",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E26_the_web_of_fear_4.srt?v=460a087d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E26_the_web_of_fear_4.srt?v=30729b04",
   filename: "S05_E26_the_web_of_fear_4.mp4",
 },
 {
@@ -2468,7 +2468,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E27_the_web_of_fear_5.jpg?v=3208498a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E27_the_web_of_fear_5.mp4?v=ba12d3b9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E27_the_web_of_fear_5.srt?v=69a12f73",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E27_the_web_of_fear_5.srt?v=32952698",
   filename: "S05_E27_the_web_of_fear_5.mp4",
 },
 {
@@ -2481,7 +2481,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E28_the_web_of_fear_6.jpg?v=327c5fec",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E28_the_web_of_fear_6.mp4?v=d494947c",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E28_the_web_of_fear_6.srt?v=4d3a65b4",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E28_the_web_of_fear_6.srt?v=c3fa7e06",
   filename: "S05_E28_the_web_of_fear_6.mp4",
 },
 {
@@ -2494,7 +2494,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E29_fury_from_the_deep_1_animated_restoration.jpg?v=9cff5eed",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E29_fury_from_the_deep_1_animated_restoration.mp4?v=67ef3edc",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E29_fury_from_the_deep_1_animated_restoration.srt?v=b7a601e4",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E29_fury_from_the_deep_1_animated_restoration.srt?v=00f848f2",
   filename: "S05_E29_fury_from_the_deep_1_animated_restoration.mp4",
 },
 {
@@ -2507,7 +2507,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E30_fury_from_the_deep_2_animated_restoration.jpg?v=f431bc67",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E30_fury_from_the_deep_2_animated_restoration.mp4?v=c5f62f57",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E30_fury_from_the_deep_2_animated_restoration.srt?v=6efa2645",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E30_fury_from_the_deep_2_animated_restoration.srt?v=d15b010f",
   filename: "S05_E30_fury_from_the_deep_2_animated_restoration.mp4",
 },
 {
@@ -2520,7 +2520,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E31_fury_from_the_deep_3_animated_restoration.jpg?v=1c1b44ea",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E31_fury_from_the_deep_3_animated_restoration.mp4?v=d3c17fda",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E31_fury_from_the_deep_3_animated_restoration.srt?v=0e5e327c",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E31_fury_from_the_deep_3_animated_restoration.srt?v=691a298b",
   filename: "S05_E31_fury_from_the_deep_3_animated_restoration.mp4",
 },
 {
@@ -2533,7 +2533,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E32_fury_from_the_deep_4_animated_restoration.jpg?v=ab291e39",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E32_fury_from_the_deep_4_animated_restoration.mp4?v=b82f1b74",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E32_fury_from_the_deep_4_animated_restoration.srt?v=a94efc4b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E32_fury_from_the_deep_4_animated_restoration.srt?v=498637c6",
   filename: "S05_E32_fury_from_the_deep_4_animated_restoration.mp4",
 },
 {
@@ -2546,7 +2546,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E33_fury_from_the_deep_5_animated_restoration.jpg?v=4f0b8c18",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E33_fury_from_the_deep_5_animated_restoration.mp4?v=d6424bf5",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E33_fury_from_the_deep_5_animated_restoration.srt?v=73a00099",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E33_fury_from_the_deep_5_animated_restoration.srt?v=b13ba48c",
   filename: "S05_E33_fury_from_the_deep_5_animated_restoration.mp4",
 },
 {
@@ -2559,7 +2559,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E34_fury_from_the_deep_6_animated_restoration.jpg?v=75715334",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E34_fury_from_the_deep_6_animated_restoration.mp4?v=8e2e6044",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E34_fury_from_the_deep_6_animated_restoration.srt?v=70e72a97",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E34_fury_from_the_deep_6_animated_restoration.srt?v=f2b9af3e",
   filename: "S05_E34_fury_from_the_deep_6_animated_restoration.mp4",
 },
 {
@@ -2598,7 +2598,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E37_the_wheel_in_space_3.jpg?v=2af4e291",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E37_the_wheel_in_space_3.mp4?v=757ddf0f",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E37_the_wheel_in_space_3.srt?v=566749ae",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_5/S05_E37_the_wheel_in_space_3.srt?v=cc552903",
   filename: "S05_E37_the_wheel_in_space_3.mp4",
 },
 {
@@ -2650,7 +2650,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E01_the_dominators_1.jpg?v=4cd753da",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E01_the_dominators_1.mp4?v=23e37c31",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E01_the_dominators_1.srt?v=4ab873ea",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E01_the_dominators_1.srt?v=789106c1",
   filename: "S06_E01_the_dominators_1.mp4",
 },
 {
@@ -2663,7 +2663,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E02_the_dominators_2.jpg?v=91e927c4",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E02_the_dominators_2.mp4?v=7e50caf3",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E02_the_dominators_2.srt?v=709c0a05",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E02_the_dominators_2.srt?v=41e3016f",
   filename: "S06_E02_the_dominators_2.mp4",
 },
 {
@@ -2676,7 +2676,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E03_the_dominators_3.jpg?v=5ecd0d7a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E03_the_dominators_3.mp4?v=902a4629",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E03_the_dominators_3.srt?v=fe3ae372",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E03_the_dominators_3.srt?v=db74ea1b",
   filename: "S06_E03_the_dominators_3.mp4",
 },
 {
@@ -2689,7 +2689,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E04_the_dominators_4.jpg?v=899ee6d8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E04_the_dominators_4.mp4?v=802ce59d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E04_the_dominators_4.srt?v=b96ee492",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E04_the_dominators_4.srt?v=ebbdb78c",
   filename: "S06_E04_the_dominators_4.mp4",
 },
 {
@@ -2702,7 +2702,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E05_the_dominators_5.jpg?v=fbc55586",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E05_the_dominators_5.mp4?v=3d603a23",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E05_the_dominators_5.srt?v=aa556181",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E05_the_dominators_5.srt?v=529e1b82",
   filename: "S06_E05_the_dominators_5.mp4",
 },
 {
@@ -2715,7 +2715,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E06_the_mind_robber_1.jpg?v=8f3a93f3",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E06_the_mind_robber_1.mp4?v=5a627e3e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E06_the_mind_robber_1.srt?v=4a754388",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E06_the_mind_robber_1.srt?v=c2a8d3d7",
   filename: "S06_E06_the_mind_robber_1.mp4",
 },
 {
@@ -2728,7 +2728,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E07_the_mind_robber_2.jpg?v=b5025f21",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E07_the_mind_robber_2.mp4?v=2dd80b6c",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E07_the_mind_robber_2.srt?v=3cb4e685",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E07_the_mind_robber_2.srt?v=7705229a",
   filename: "S06_E07_the_mind_robber_2.mp4",
 },
 {
@@ -2741,7 +2741,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E08_the_mind_robber_3.jpg?v=abd574ab",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E08_the_mind_robber_3.mp4?v=6aeb8b19",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E08_the_mind_robber_3.srt?v=b9b42ac8",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E08_the_mind_robber_3.srt?v=66f03ade",
   filename: "S06_E08_the_mind_robber_3.mp4",
 },
 {
@@ -2754,7 +2754,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E09_the_mind_robber_4.jpg?v=382c77cc",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E09_the_mind_robber_4.mp4?v=66792fe3",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E09_the_mind_robber_4.srt?v=b674b1bb",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E09_the_mind_robber_4.srt?v=67b348bd",
   filename: "S06_E09_the_mind_robber_4.mp4",
 },
 {
@@ -2767,7 +2767,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E10_the_mind_robber_5.jpg?v=046a8d3c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E10_the_mind_robber_5.mp4?v=a0006336",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E10_the_mind_robber_5.srt?v=05dc83d1",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E10_the_mind_robber_5.srt?v=06f17891",
   filename: "S06_E10_the_mind_robber_5.mp4",
 },
 {
@@ -2780,7 +2780,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E11_the_invasion_1_animated_restoration.jpg?v=2d92460b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E11_the_invasion_1_animated_restoration.mp4?v=995f5ea4",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E11_the_invasion_1_animated_restoration.srt?v=92c9c547",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E11_the_invasion_1_animated_restoration.srt?v=2a581c40",
   filename: "S06_E11_the_invasion_1_animated_restoration.mp4",
 },
 {
@@ -2793,7 +2793,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E12_the_invasion_2.jpg?v=aefe7429",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E12_the_invasion_2.mp4?v=602cc694",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E12_the_invasion_2.srt?v=16fb4667",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E12_the_invasion_2.srt?v=73eb4e37",
   filename: "S06_E12_the_invasion_2.mp4",
 },
 {
@@ -2806,7 +2806,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E13_the_invasion_3.jpg?v=031a63cc",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E13_the_invasion_3.mp4?v=79bfcf1e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E13_the_invasion_3.srt?v=7b5b1ac2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E13_the_invasion_3.srt?v=c4b006d7",
   filename: "S06_E13_the_invasion_3.mp4",
 },
 {
@@ -2819,7 +2819,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E14_the_invasion_4_animated_restoration.jpg?v=5605185f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E14_the_invasion_4_animated_restoration.mp4?v=cec92f99",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E14_the_invasion_4_animated_restoration.srt?v=4d3d1c69",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E14_the_invasion_4_animated_restoration.srt?v=74321bab",
   filename: "S06_E14_the_invasion_4_animated_restoration.mp4",
 },
 {
@@ -2832,7 +2832,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E15_the_invasion_5.jpg?v=76d4b675",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E15_the_invasion_5.mp4?v=f5bd4b7a",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E15_the_invasion_5.srt?v=a6cf447a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E15_the_invasion_5.srt?v=363a49a7",
   filename: "S06_E15_the_invasion_5.mp4",
 },
 {
@@ -2845,7 +2845,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E16_the_invasion_6.jpg?v=94bf7f46",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E16_the_invasion_6.mp4?v=69f70aa6",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E16_the_invasion_6.srt?v=539e519b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E16_the_invasion_6.srt?v=ed973c55",
   filename: "S06_E16_the_invasion_6.mp4",
 },
 {
@@ -2858,7 +2858,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E17_the_invasion_7.jpg?v=07fbbb35",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E17_the_invasion_7.mp4?v=199fea00",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E17_the_invasion_7.srt?v=8db6e576",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E17_the_invasion_7.srt?v=88fcf9d4",
   filename: "S06_E17_the_invasion_7.mp4",
 },
 {
@@ -2871,7 +2871,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E18_the_invasion_8.jpg?v=acb6523f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E18_the_invasion_8.mp4?v=8c0e81d8",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E18_the_invasion_8.srt?v=4bacbfdb",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E18_the_invasion_8.srt?v=02525adb",
   filename: "S06_E18_the_invasion_8.mp4",
 },
 {
@@ -2936,7 +2936,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E23_the_seeds_of_death_1.jpg?v=f02e73d4",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E23_the_seeds_of_death_1.mp4?v=ff3bc3e7",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E23_the_seeds_of_death_1.srt?v=203ada9b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E23_the_seeds_of_death_1.srt?v=918db04d",
   filename: "S06_E23_the_seeds_of_death_1.mp4",
 },
 {
@@ -2949,7 +2949,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E24_the_seeds_of_death_2.jpg?v=1d740c1c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E24_the_seeds_of_death_2.mp4?v=ca78cecb",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E24_the_seeds_of_death_2.srt?v=e67c8346",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E24_the_seeds_of_death_2.srt?v=b5fcb29b",
   filename: "S06_E24_the_seeds_of_death_2.mp4",
 },
 {
@@ -2962,7 +2962,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E25_the_seeds_of_death_3.jpg?v=4248b3c6",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E25_the_seeds_of_death_3.mp4?v=02240b53",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E25_the_seeds_of_death_3.srt?v=73e0d61a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E25_the_seeds_of_death_3.srt?v=1c733367",
   filename: "S06_E25_the_seeds_of_death_3.mp4",
 },
 {
@@ -2975,7 +2975,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E26_the_seeds_of_death_4.jpg?v=a61affb3",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E26_the_seeds_of_death_4.mp4?v=4ddcfc31",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E26_the_seeds_of_death_4.srt?v=b78d8197",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E26_the_seeds_of_death_4.srt?v=09bf8df9",
   filename: "S06_E26_the_seeds_of_death_4.mp4",
 },
 {
@@ -2988,7 +2988,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E27_the_seeds_of_death_5.jpg?v=7ce22e0a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E27_the_seeds_of_death_5.mp4?v=a9f6c56e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E27_the_seeds_of_death_5.srt?v=ebd758a4",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E27_the_seeds_of_death_5.srt?v=7bbcccf6",
   filename: "S06_E27_the_seeds_of_death_5.mp4",
 },
 {
@@ -3001,7 +3001,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E28_the_seeds_of_death_6.jpg?v=6ffa6a6d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E28_the_seeds_of_death_6.mp4?v=d945b648",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E28_the_seeds_of_death_6.srt?v=1356d866",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E28_the_seeds_of_death_6.srt?v=b1d60e7b",
   filename: "S06_E28_the_seeds_of_death_6.mp4",
 },
 {
@@ -3091,7 +3091,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E35_the_war_games_1.jpg?v=8903aa53",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E35_the_war_games_1.mp4?v=6272b222",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E35_the_war_games_1.srt?v=4827a0a8",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E35_the_war_games_1.srt?v=96a49513",
   filename: "S06_E35_the_war_games_1.mp4",
 },
 {
@@ -3104,7 +3104,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E36_the_war_games_2.jpg?v=2d18a80f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E36_the_war_games_2.mp4?v=5ecb040d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E36_the_war_games_2.srt?v=2edfbeae",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E36_the_war_games_2.srt?v=50f73b7f",
   filename: "S06_E36_the_war_games_2.mp4",
 },
 {
@@ -3117,7 +3117,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E37_the_war_games_3.jpg?v=90856495",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E37_the_war_games_3.mp4?v=2ab5021d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E37_the_war_games_3.srt?v=15f7aec7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E37_the_war_games_3.srt?v=160c50f5",
   filename: "S06_E37_the_war_games_3.mp4",
 },
 {
@@ -3130,7 +3130,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E38_the_war_games_4.jpg?v=c48b3562",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E38_the_war_games_4.mp4?v=82a48cc5",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E38_the_war_games_4.srt?v=96a3cc02",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E38_the_war_games_4.srt?v=93c1fa25",
   filename: "S06_E38_the_war_games_4.mp4",
 },
 {
@@ -3143,7 +3143,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E39_the_war_games_5.jpg?v=626bc737",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E39_the_war_games_5.mp4?v=c65ef0d5",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E39_the_war_games_5.srt?v=9cc8d9b0",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E39_the_war_games_5.srt?v=4be25348",
   filename: "S06_E39_the_war_games_5.mp4",
 },
 {
@@ -3156,7 +3156,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E40_the_war_games_6.jpg?v=ded1368c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E40_the_war_games_6.mp4?v=77b2a8f9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E40_the_war_games_6.srt?v=f717b3c6",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E40_the_war_games_6.srt?v=f3cc6e4d",
   filename: "S06_E40_the_war_games_6.mp4",
 },
 {
@@ -3169,7 +3169,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E41_the_war_games_7.jpg?v=0db5c575",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E41_the_war_games_7.mp4?v=48138d81",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E41_the_war_games_7.srt?v=58d28f50",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E41_the_war_games_7.srt?v=dd62a662",
   filename: "S06_E41_the_war_games_7.mp4",
 },
 {
@@ -3182,7 +3182,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E42_the_war_games_8.jpg?v=c463d5ed",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E42_the_war_games_8.mp4?v=224293ff",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E42_the_war_games_8.srt?v=843831a9",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E42_the_war_games_8.srt?v=de2005f7",
   filename: "S06_E42_the_war_games_8.mp4",
 },
 {
@@ -3195,7 +3195,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E43_the_war_games_9.jpg?v=31d8e1ff",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E43_the_war_games_9.mp4?v=9947224d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E43_the_war_games_9.srt?v=50ee58df",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E43_the_war_games_9.srt?v=46d5c6ce",
   filename: "S06_E43_the_war_games_9.mp4",
 },
 {
@@ -3208,7 +3208,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E44_the_war_games_10.jpg?v=a4ea96f2",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E44_the_war_games_10.mp4?v=1ab77b07",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E44_the_war_games_10.srt?v=cbe60354",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_6/S06_E44_the_war_games_10.srt?v=2d6106c0",
   filename: "S06_E44_the_war_games_10.mp4",
 },
 {
@@ -4445,7 +4445,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E01_the_time_warrior_1.jpg?v=5104fdd3",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E01_the_time_warrior_1.mp4?v=35e19015",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E01_the_time_warrior_1.srt?v=18514fac",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E01_the_time_warrior_1.srt?v=12b879fa",
   filename: "S11_E01_the_time_warrior_1.mp4",
 },
 {
@@ -4458,7 +4458,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E02_the_time_warrior_2.jpg?v=dbb5268a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E02_the_time_warrior_2.mp4?v=8f6ace5f",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E02_the_time_warrior_2.srt?v=e111ab62",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E02_the_time_warrior_2.srt?v=8ee87f91",
   filename: "S11_E02_the_time_warrior_2.mp4",
 },
 {
@@ -4471,7 +4471,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E03_the_time_warrior_3.jpg?v=29b53e1a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E03_the_time_warrior_3.mp4?v=08c4966f",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E03_the_time_warrior_3.srt?v=8244f187",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E03_the_time_warrior_3.srt?v=3a5f963d",
   filename: "S11_E03_the_time_warrior_3.mp4",
 },
 {
@@ -4484,7 +4484,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E04_the_time_warrior_4.jpg?v=624467da",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E04_the_time_warrior_4.mp4?v=e18fd871",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E04_the_time_warrior_4.srt?v=2b02524d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E04_the_time_warrior_4.srt?v=6e6d6eb1",
   filename: "S11_E04_the_time_warrior_4.mp4",
 },
 {
@@ -4497,7 +4497,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E05_invasion_of_the_dinosaurs_1.jpg?v=a435b45b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E05_invasion_of_the_dinosaurs_1.mp4?v=4b419bb7",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E05_invasion_of_the_dinosaurs_1.srt?v=00cb6f0d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E05_invasion_of_the_dinosaurs_1.srt?v=2207b807",
   filename: "S11_E05_invasion_of_the_dinosaurs_1.mp4",
 },
 {
@@ -4510,7 +4510,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E06_invasion_of_the_dinosaurs_2.jpg?v=d8576445",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E06_invasion_of_the_dinosaurs_2.mp4?v=617180e5",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E06_invasion_of_the_dinosaurs_2.srt?v=bd01b0c4",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E06_invasion_of_the_dinosaurs_2.srt?v=06ffd1ae",
   filename: "S11_E06_invasion_of_the_dinosaurs_2.mp4",
 },
 {
@@ -4523,7 +4523,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E07_invasion_of_the_dinosaurs_3.jpg?v=ea940a81",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E07_invasion_of_the_dinosaurs_3.mp4?v=845fc4a0",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E07_invasion_of_the_dinosaurs_3.srt?v=67d047d5",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E07_invasion_of_the_dinosaurs_3.srt?v=4a88a151",
   filename: "S11_E07_invasion_of_the_dinosaurs_3.mp4",
 },
 {
@@ -4536,7 +4536,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E08_invasion_of_the_dinosaurs_4.jpg?v=67b9bc01",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E08_invasion_of_the_dinosaurs_4.mp4?v=b349a26e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E08_invasion_of_the_dinosaurs_4.srt?v=fa302b1b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E08_invasion_of_the_dinosaurs_4.srt?v=76a80a92",
   filename: "S11_E08_invasion_of_the_dinosaurs_4.mp4",
 },
 {
@@ -4549,7 +4549,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E09_invasion_of_the_dinosaurs_5.jpg?v=11441c0d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E09_invasion_of_the_dinosaurs_5.mp4?v=5ed86c94",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E09_invasion_of_the_dinosaurs_5.srt?v=24c52f09",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E09_invasion_of_the_dinosaurs_5.srt?v=c5d378d4",
   filename: "S11_E09_invasion_of_the_dinosaurs_5.mp4",
 },
 {
@@ -4562,7 +4562,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E10_invasion_of_the_dinosaurs_6.jpg?v=4c48376c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E10_invasion_of_the_dinosaurs_6.mp4?v=48e77d16",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E10_invasion_of_the_dinosaurs_6.srt?v=fa4529d5",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E10_invasion_of_the_dinosaurs_6.srt?v=47a45278",
   filename: "S11_E10_invasion_of_the_dinosaurs_6.mp4",
 },
 {
@@ -4627,7 +4627,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E15_the_monster_of_peladon_1.jpg?v=c97ad134",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E15_the_monster_of_peladon_1.mp4?v=901525c2",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E15_the_monster_of_peladon_1.srt?v=c0db4797",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E15_the_monster_of_peladon_1.srt?v=b9bac18d",
   filename: "S11_E15_the_monster_of_peladon_1.mp4",
 },
 {
@@ -4640,7 +4640,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E16_the_monster_of_peladon_2.jpg?v=21149b42",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E16_the_monster_of_peladon_2.mp4?v=3fb0ac2c",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E16_the_monster_of_peladon_2.srt?v=f697c2c5",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E16_the_monster_of_peladon_2.srt?v=30feaec0",
   filename: "S11_E16_the_monster_of_peladon_2.mp4",
 },
 {
@@ -4653,7 +4653,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E17_the_monster_of_peladon_3.jpg?v=806b5efb",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E17_the_monster_of_peladon_3.mp4?v=a348a995",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E17_the_monster_of_peladon_3.srt?v=63ecc3a7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E17_the_monster_of_peladon_3.srt?v=0a4ad951",
   filename: "S11_E17_the_monster_of_peladon_3.mp4",
 },
 {
@@ -4666,7 +4666,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E18_the_monster_of_peladon_4.jpg?v=17ed1cb2",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E18_the_monster_of_peladon_4.mp4?v=05381407",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E18_the_monster_of_peladon_4.srt?v=11f4980a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E18_the_monster_of_peladon_4.srt?v=1a2a83f8",
   filename: "S11_E18_the_monster_of_peladon_4.mp4",
 },
 {
@@ -4679,7 +4679,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E19_the_monster_of_peladon_5.jpg?v=b8f4e9eb",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E19_the_monster_of_peladon_5.mp4?v=b7284260",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E19_the_monster_of_peladon_5.srt?v=1a19076b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E19_the_monster_of_peladon_5.srt?v=6717c5bc",
   filename: "S11_E19_the_monster_of_peladon_5.mp4",
 },
 {
@@ -4692,7 +4692,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E20_the_monster_of_peladon_6.jpg?v=a5639761",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E20_the_monster_of_peladon_6.mp4?v=65dc51eb",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E20_the_monster_of_peladon_6.srt?v=01e61d69",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E20_the_monster_of_peladon_6.srt?v=7d2cffdf",
   filename: "S11_E20_the_monster_of_peladon_6.mp4",
 },
 {
@@ -4705,7 +4705,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E21_planet_of_the_spiders_1.jpg?v=bc689198",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E21_planet_of_the_spiders_1.mp4?v=16f2b695",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E21_planet_of_the_spiders_1.srt?v=13a88f76",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E21_planet_of_the_spiders_1.srt?v=cb6d7f30",
   filename: "S11_E21_planet_of_the_spiders_1.mp4",
 },
 {
@@ -4718,7 +4718,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E22_planet_of_the_spiders_2.jpg?v=a1cf174d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E22_planet_of_the_spiders_2.mp4?v=f7970c43",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E22_planet_of_the_spiders_2.srt?v=1013929f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E22_planet_of_the_spiders_2.srt?v=3ad9fc82",
   filename: "S11_E22_planet_of_the_spiders_2.mp4",
 },
 {
@@ -4731,7 +4731,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E23_planet_of_the_spiders_3.jpg?v=426cbcc4",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E23_planet_of_the_spiders_3.mp4?v=aeb50862",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E23_planet_of_the_spiders_3.srt?v=a64b60dd",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E23_planet_of_the_spiders_3.srt?v=349a5302",
   filename: "S11_E23_planet_of_the_spiders_3.mp4",
 },
 {
@@ -4744,7 +4744,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E24_planet_of_the_spiders_4.jpg?v=7e97ee21",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E24_planet_of_the_spiders_4.mp4?v=297dd0d9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E24_planet_of_the_spiders_4.srt?v=ff09f241",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E24_planet_of_the_spiders_4.srt?v=1c043f74",
   filename: "S11_E24_planet_of_the_spiders_4.mp4",
 },
 {
@@ -4757,7 +4757,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E25_planet_of_the_spiders_5.jpg?v=af02df59",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E25_planet_of_the_spiders_5.mp4?v=c0d9fedf",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E25_planet_of_the_spiders_5.srt?v=c3766f32",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E25_planet_of_the_spiders_5.srt?v=3c469bc4",
   filename: "S11_E25_planet_of_the_spiders_5.mp4",
 },
 {
@@ -4770,7 +4770,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E26_planet_of_the_spiders_6.jpg?v=7f67c51d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E26_planet_of_the_spiders_6.mp4?v=2c85d620",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E26_planet_of_the_spiders_6.srt?v=408fc835",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_11/S11_E26_planet_of_the_spiders_6.srt?v=2536b8cc",
   filename: "S11_E26_planet_of_the_spiders_6.mp4",
 },
 {
@@ -6063,7 +6063,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E05_the_pirate_planet_1.jpg?v=f7cc2e5e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E05_the_pirate_planet_1.mp4?v=9e79f362",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E05_the_pirate_planet_1.srt?v=3f6edf3d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E05_the_pirate_planet_1.srt?v=e6387831",
   filename: "S16_E05_the_pirate_planet_1.mp4",
 },
 {
@@ -6076,7 +6076,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E06_the_pirate_planet_2.jpg?v=34e0e4ff",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E06_the_pirate_planet_2.mp4?v=dde1d4cc",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E06_the_pirate_planet_2.srt?v=dae11033",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E06_the_pirate_planet_2.srt?v=799c881c",
   filename: "S16_E06_the_pirate_planet_2.mp4",
 },
 {
@@ -6089,7 +6089,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E07_the_pirate_planet_3.jpg?v=f7f624e2",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E07_the_pirate_planet_3.mp4?v=cce0a225",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E07_the_pirate_planet_3.srt?v=5a7ac0dd",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E07_the_pirate_planet_3.srt?v=2cf54c5d",
   filename: "S16_E07_the_pirate_planet_3.mp4",
 },
 {
@@ -6102,7 +6102,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E08_the_pirate_planet_4.jpg?v=769c19dd",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E08_the_pirate_planet_4.mp4?v=76decede",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E08_the_pirate_planet_4.srt?v=52178a45",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_16/S16_E08_the_pirate_planet_4.srt?v=9efdeac3",
   filename: "S16_E08_the_pirate_planet_4.mp4",
 },
 {
@@ -6661,7 +6661,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E01_the_leisure_hive_1.jpg?v=ba68508b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E01_the_leisure_hive_1.mp4?v=f9e6a53b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E01_the_leisure_hive_1.srt?v=0ff109bb",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E01_the_leisure_hive_1.srt?v=221b4465",
   filename: "S18_E01_the_leisure_hive_1.mp4",
 },
 {
@@ -6674,7 +6674,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E02_the_leisure_hive_2.jpg?v=095ca71f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E02_the_leisure_hive_2.mp4?v=3c724d1d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E02_the_leisure_hive_2.srt?v=ee965cf6",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E02_the_leisure_hive_2.srt?v=f05e5e5a",
   filename: "S18_E02_the_leisure_hive_2.mp4",
 },
 {
@@ -6687,7 +6687,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E03_the_leisure_hive_3.jpg?v=3a3ebf96",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E03_the_leisure_hive_3.mp4?v=d832720a",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E03_the_leisure_hive_3.srt?v=d55ae6f6",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E03_the_leisure_hive_3.srt?v=b4793725",
   filename: "S18_E03_the_leisure_hive_3.mp4",
 },
 {
@@ -6700,7 +6700,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E04_the_leisure_hive_4.jpg?v=356f91ce",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E04_the_leisure_hive_4.mp4?v=e2682df4",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E04_the_leisure_hive_4.srt?v=7f353449",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E04_the_leisure_hive_4.srt?v=3ac82e5d",
   filename: "S18_E04_the_leisure_hive_4.mp4",
 },
 {
@@ -6713,7 +6713,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E05_meglos_1.jpg?v=6ad0d988",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E05_meglos_1.mp4?v=0abdeb54",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E05_meglos_1.srt?v=a02d1e9d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E05_meglos_1.srt?v=66276f3d",
   filename: "S18_E05_meglos_1.mp4",
 },
 {
@@ -6726,7 +6726,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E06_meglos_2.jpg?v=aebce39e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E06_meglos_2.mp4?v=4da2ab2b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E06_meglos_2.srt?v=fe59ce7c",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E06_meglos_2.srt?v=660e7a6c",
   filename: "S18_E06_meglos_2.mp4",
 },
 {
@@ -6739,7 +6739,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E07_meglos_3.jpg?v=26cc97a5",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E07_meglos_3.mp4?v=6cd599f5",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E07_meglos_3.srt?v=920af86f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E07_meglos_3.srt?v=61e200d2",
   filename: "S18_E07_meglos_3.mp4",
 },
 {
@@ -6752,7 +6752,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E08_meglos_4.jpg?v=78ab076e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E08_meglos_4.mp4?v=397a793d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E08_meglos_4.srt?v=2999fbba",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E08_meglos_4.srt?v=a98aec46",
   filename: "S18_E08_meglos_4.mp4",
 },
 {
@@ -6765,7 +6765,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E09_full_circle_1.jpg?v=39c168ab",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E09_full_circle_1.mp4?v=78ffc80e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E09_full_circle_1.srt?v=7d0e8ae2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E09_full_circle_1.srt?v=6bc10107",
   filename: "S18_E09_full_circle_1.mp4",
 },
 {
@@ -6778,7 +6778,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E10_full_circle_2.jpg?v=57e0ef93",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E10_full_circle_2.mp4?v=f3206f75",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E10_full_circle_2.srt?v=b6b40430",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E10_full_circle_2.srt?v=c695d07c",
   filename: "S18_E10_full_circle_2.mp4",
 },
 {
@@ -6791,7 +6791,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E11_full_circle_3.jpg?v=ac8389d9",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E11_full_circle_3.mp4?v=86630e5d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E11_full_circle_3.srt?v=18f2729d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E11_full_circle_3.srt?v=76d4c67f",
   filename: "S18_E11_full_circle_3.mp4",
 },
 {
@@ -6804,7 +6804,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E12_full_circle_4.jpg?v=19023793",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E12_full_circle_4.mp4?v=6a5714af",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E12_full_circle_4.srt?v=00280a00",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E12_full_circle_4.srt?v=9e208555",
   filename: "S18_E12_full_circle_4.mp4",
 },
 {
@@ -6817,7 +6817,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E13_state_of_decay_1.jpg?v=776be095",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E13_state_of_decay_1.mp4?v=5e1c3ee4",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E13_state_of_decay_1.srt?v=d4da6c62",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E13_state_of_decay_1.srt?v=a705e0b7",
   filename: "S18_E13_state_of_decay_1.mp4",
 },
 {
@@ -6830,7 +6830,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E14_state_of_decay_2.jpg?v=8842c11d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E14_state_of_decay_2.mp4?v=88cef235",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E14_state_of_decay_2.srt?v=846c55b2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E14_state_of_decay_2.srt?v=47893c83",
   filename: "S18_E14_state_of_decay_2.mp4",
 },
 {
@@ -6843,7 +6843,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E15_state_of_decay_3.jpg?v=24d58aeb",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E15_state_of_decay_3.mp4?v=5c0da504",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E15_state_of_decay_3.srt?v=c92d0b06",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E15_state_of_decay_3.srt?v=1fa1dae6",
   filename: "S18_E15_state_of_decay_3.mp4",
 },
 {
@@ -6856,7 +6856,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E16_state_of_decay_4.jpg?v=9aae9a33",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E16_state_of_decay_4.mp4?v=5debb9d9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E16_state_of_decay_4.srt?v=1d6f1c9d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E16_state_of_decay_4.srt?v=45dffb6a",
   filename: "S18_E16_state_of_decay_4.mp4",
 },
 {
@@ -6869,7 +6869,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E17_warriors_gate_1.jpg?v=0ae09a7e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E17_warriors_gate_1.mp4?v=67098bf4",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E17_warriors_gate_1.srt?v=0cdd5acd",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E17_warriors_gate_1.srt?v=b0948ce4",
   filename: "S18_E17_warriors_gate_1.mp4",
 },
 {
@@ -6882,7 +6882,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E18_warriors_gate_2.jpg?v=88178b1a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E18_warriors_gate_2.mp4?v=3aaca9fe",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E18_warriors_gate_2.srt?v=66dd8730",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E18_warriors_gate_2.srt?v=4e63b7f3",
   filename: "S18_E18_warriors_gate_2.mp4",
 },
 {
@@ -6895,7 +6895,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E19_warriors_gate_3.jpg?v=7a1db75d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E19_warriors_gate_3.mp4?v=583f40af",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E19_warriors_gate_3.srt?v=ecec14f7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E19_warriors_gate_3.srt?v=d10a300e",
   filename: "S18_E19_warriors_gate_3.mp4",
 },
 {
@@ -6908,7 +6908,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E20_warriors_gate_4.jpg?v=962c7b12",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E20_warriors_gate_4.mp4?v=b3c86855",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E20_warriors_gate_4.srt?v=f962d867",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E20_warriors_gate_4.srt?v=9a928798",
   filename: "S18_E20_warriors_gate_4.mp4",
 },
 {
@@ -6921,7 +6921,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E21_the_keeper_of_traken_1.jpg?v=fab1444d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E21_the_keeper_of_traken_1.mp4?v=d15aa2cf",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E21_the_keeper_of_traken_1.srt?v=7995b90d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E21_the_keeper_of_traken_1.srt?v=d5fb725d",
   filename: "S18_E21_the_keeper_of_traken_1.mp4",
 },
 {
@@ -6934,7 +6934,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E22_the_keeper_of_traken_2.jpg?v=e0970473",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E22_the_keeper_of_traken_2.mp4?v=98c700c8",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E22_the_keeper_of_traken_2.srt?v=095a65f1",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E22_the_keeper_of_traken_2.srt?v=9f7eefb8",
   filename: "S18_E22_the_keeper_of_traken_2.mp4",
 },
 {
@@ -6947,7 +6947,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E23_the_keeper_of_traken_3.jpg?v=fcc96690",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E23_the_keeper_of_traken_3.mp4?v=c74dd97d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E23_the_keeper_of_traken_3.srt?v=96d5d05d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E23_the_keeper_of_traken_3.srt?v=b86970b7",
   filename: "S18_E23_the_keeper_of_traken_3.mp4",
 },
 {
@@ -6960,7 +6960,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E24_the_keeper_of_traken_4.jpg?v=356ad477",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E24_the_keeper_of_traken_4.mp4?v=16447aa9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E24_the_keeper_of_traken_4.srt?v=720090a4",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E24_the_keeper_of_traken_4.srt?v=1b9c6bb5",
   filename: "S18_E24_the_keeper_of_traken_4.mp4",
 },
 {
@@ -6973,7 +6973,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E25_logopolis_1.jpg?v=2e68e84a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E25_logopolis_1.mp4?v=71a64249",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E25_logopolis_1.srt?v=78f833f5",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E25_logopolis_1.srt?v=9d144f75",
   filename: "S18_E25_logopolis_1.mp4",
 },
 {
@@ -6986,7 +6986,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E26_logopolis_2.jpg?v=294f12de",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E26_logopolis_2.mp4?v=f114affb",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E26_logopolis_2.srt?v=41368ee0",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E26_logopolis_2.srt?v=d4613896",
   filename: "S18_E26_logopolis_2.mp4",
 },
 {
@@ -6999,7 +6999,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E27_logopolis_3.jpg?v=bc2db360",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E27_logopolis_3.mp4?v=e8fd7281",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E27_logopolis_3.srt?v=630f5d6b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E27_logopolis_3.srt?v=71e21674",
   filename: "S18_E27_logopolis_3.mp4",
 },
 {
@@ -7012,7 +7012,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E28_logopolis_4.jpg?v=bf6820dc",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E28_logopolis_4.mp4?v=ee588516",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E28_logopolis_4.srt?v=03841683",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E28_logopolis_4.srt?v=4fe12260",
   filename: "S18_E28_logopolis_4.mp4",
 },
 {
@@ -7621,7 +7621,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E01_warriors_of_the_deep_1.jpg?v=beb02832",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E01_warriors_of_the_deep_1.mp4?v=1a4353de",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E01_warriors_of_the_deep_1.srt?v=503408cf",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E01_warriors_of_the_deep_1.srt?v=bee09270",
   filename: "S21_E01_warriors_of_the_deep_1.mp4",
 },
 {
@@ -7634,7 +7634,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E02_warriors_of_the_deep_2.jpg?v=4fd5d86e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E02_warriors_of_the_deep_2.mp4?v=49c11778",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E02_warriors_of_the_deep_2.srt?v=7525cf91",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E02_warriors_of_the_deep_2.srt?v=2a97a58a",
   filename: "S21_E02_warriors_of_the_deep_2.mp4",
 },
 {
@@ -7647,7 +7647,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E03_warriors_of_the_deep_3.jpg?v=0db742bc",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E03_warriors_of_the_deep_3.mp4?v=6bb9637d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E03_warriors_of_the_deep_3.srt?v=dee7e48a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E03_warriors_of_the_deep_3.srt?v=82a3429b",
   filename: "S21_E03_warriors_of_the_deep_3.mp4",
 },
 {
@@ -7660,7 +7660,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E04_warriors_of_the_deep_4.jpg?v=f5f7fa5f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E04_warriors_of_the_deep_4.mp4?v=8748d5a2",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E04_warriors_of_the_deep_4.srt?v=8bcb78b3",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E04_warriors_of_the_deep_4.srt?v=77069c48",
   filename: "S21_E04_warriors_of_the_deep_4.mp4",
 },
 {
@@ -7699,7 +7699,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E07_frontios_1.jpg?v=cae08746",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E07_frontios_1.mp4?v=b6b38702",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E07_frontios_1.srt?v=7a3ee096",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E07_frontios_1.srt?v=a8071b4a",
   filename: "S21_E07_frontios_1.mp4",
 },
 {
@@ -7712,7 +7712,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E08_frontios_2.jpg?v=119fe63c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E08_frontios_2.mp4?v=35a1199b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E08_frontios_2.srt?v=98957bcb",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E08_frontios_2.srt?v=c2da7173",
   filename: "S21_E08_frontios_2.mp4",
 },
 {
@@ -7725,7 +7725,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E09_frontios_3.jpg?v=a036efc7",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E09_frontios_3.mp4?v=046ae4a9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E09_frontios_3.srt?v=148ee09f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E09_frontios_3.srt?v=396e5786",
   filename: "S21_E09_frontios_3.mp4",
 },
 {
@@ -7738,7 +7738,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E10_frontios_4.jpg?v=f39f9697",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E10_frontios_4.mp4?v=4d3537e6",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E10_frontios_4.srt?v=9e18b566",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E10_frontios_4.srt?v=d55220d5",
   filename: "S21_E10_frontios_4.mp4",
 },
 {
@@ -7793,7 +7793,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E15_planet_of_fire_1.jpg?v=d7ac4c74",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E15_planet_of_fire_1.mp4?v=c7053b8e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E15_planet_of_fire_1.srt?v=6adeaa2d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E15_planet_of_fire_1.srt?v=76681b40",
   filename: "S21_E15_planet_of_fire_1.mp4",
 },
 {
@@ -7806,7 +7806,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E16_planet_of_fire_2.jpg?v=93a09f72",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E16_planet_of_fire_2.mp4?v=493e5e70",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E16_planet_of_fire_2.srt?v=28ef6e2b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E16_planet_of_fire_2.srt?v=8606c1ed",
   filename: "S21_E16_planet_of_fire_2.mp4",
 },
 {
@@ -7819,7 +7819,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E17_planet_of_fire_3.jpg?v=105023a0",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E17_planet_of_fire_3.mp4?v=1b95f5f9",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E17_planet_of_fire_3.srt?v=b2f92d21",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E17_planet_of_fire_3.srt?v=be939119",
   filename: "S21_E17_planet_of_fire_3.mp4",
 },
 {
@@ -7832,7 +7832,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E18_planet_of_fire_4.jpg?v=1ae34fa8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E18_planet_of_fire_4.mp4?v=0350ed35",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E18_planet_of_fire_4.srt?v=e54bc3d6",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E18_planet_of_fire_4.srt?v=abc0d6a3",
   filename: "S21_E18_planet_of_fire_4.mp4",
 },
 {
@@ -7845,7 +7845,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E19_the_caves_of_androzani_1.jpg?v=c698b363",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E19_the_caves_of_androzani_1.mp4?v=4fd660d6",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E19_the_caves_of_androzani_1.srt?v=f7a44d92",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E19_the_caves_of_androzani_1.srt?v=ba4f2d5f",
   filename: "S21_E19_the_caves_of_androzani_1.mp4",
 },
 {
@@ -7858,7 +7858,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E20_the_caves_of_androzani_2.jpg?v=8ed7aae8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E20_the_caves_of_androzani_2.mp4?v=2348da05",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E20_the_caves_of_androzani_2.srt?v=fae53e66",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E20_the_caves_of_androzani_2.srt?v=481e72d2",
   filename: "S21_E20_the_caves_of_androzani_2.mp4",
 },
 {
@@ -7871,7 +7871,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E21_the_caves_of_androzani_3.jpg?v=a5b10a16",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E21_the_caves_of_androzani_3.mp4?v=fe4f6030",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E21_the_caves_of_androzani_3.srt?v=0f1c2e15",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E21_the_caves_of_androzani_3.srt?v=c47ac1fb",
   filename: "S21_E21_the_caves_of_androzani_3.mp4",
 },
 {
@@ -7884,7 +7884,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E22_the_caves_of_androzani_4.jpg?v=de599cbc",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E22_the_caves_of_androzani_4.mp4?v=fdaa183f",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E22_the_caves_of_androzani_4.srt?v=0c08dfd7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_21/S21_E22_the_caves_of_androzani_4.srt?v=b933e9ec",
   filename: "S21_E22_the_caves_of_androzani_4.mp4",
 },
 {
@@ -8113,7 +8113,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E01_the_mysterious_planet_1.jpg?v=b598167b",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E01_the_mysterious_planet_1.mp4?v=d6b22e63",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E01_the_mysterious_planet_1.srt?v=f2b70416",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E01_the_mysterious_planet_1.srt?v=4cafb0b6",
   filename: "S23_E01_the_mysterious_planet_1.mp4",
 },
 {
@@ -8126,7 +8126,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E02_the_mysterious_planet_2.jpg?v=68e90c88",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E02_the_mysterious_planet_2.mp4?v=f5cc665b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E02_the_mysterious_planet_2.srt?v=1e499efa",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E02_the_mysterious_planet_2.srt?v=c703aabf",
   filename: "S23_E02_the_mysterious_planet_2.mp4",
 },
 {
@@ -8139,7 +8139,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E03_the_mysterious_planet_3.jpg?v=6017b927",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E03_the_mysterious_planet_3.mp4?v=031a08e1",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E03_the_mysterious_planet_3.srt?v=1aac0811",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E03_the_mysterious_planet_3.srt?v=2dd0a891",
   filename: "S23_E03_the_mysterious_planet_3.mp4",
 },
 {
@@ -8152,7 +8152,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E04_the_mysterious_planet_4.jpg?v=a08ba292",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E04_the_mysterious_planet_4.mp4?v=63e46618",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E04_the_mysterious_planet_4.srt?v=45f3995f",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E04_the_mysterious_planet_4.srt?v=ca1f75fd",
   filename: "S23_E04_the_mysterious_planet_4.mp4",
 },
 {
@@ -8165,7 +8165,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E05_mindwarp_1.jpg?v=b6200d44",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E05_mindwarp_1.mp4?v=1b47bf71",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E05_mindwarp_1.srt?v=b4e044fc",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E05_mindwarp_1.srt?v=2d27c0e6",
   filename: "S23_E05_mindwarp_1.mp4",
 },
 {
@@ -8190,7 +8190,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E07_mindwarp_3.jpg?v=a3ec0a86",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E07_mindwarp_3.mp4?v=9b2fe0cf",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E07_mindwarp_3.srt?v=e1d5c7af",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E07_mindwarp_3.srt?v=6dc3f4ba",
   filename: "S23_E07_mindwarp_3.mp4",
 },
 {
@@ -8203,7 +8203,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E08_mindwarp_4.jpg?v=c478f6a6",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E08_mindwarp_4.mp4?v=fe033477",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E08_mindwarp_4.srt?v=4c02f57e",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E08_mindwarp_4.srt?v=99659eeb",
   filename: "S23_E08_mindwarp_4.mp4",
 },
 {
@@ -8216,7 +8216,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E09_terror_of_the_vervoids_1.jpg?v=ac114259",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E09_terror_of_the_vervoids_1.mp4?v=9012bbba",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E09_terror_of_the_vervoids_1.srt?v=1701deac",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E09_terror_of_the_vervoids_1.srt?v=b8775337",
   filename: "S23_E09_terror_of_the_vervoids_1.mp4",
 },
 {
@@ -8229,7 +8229,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E10_terror_of_the_vervoids_2.jpg?v=644597f6",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E10_terror_of_the_vervoids_2.mp4?v=f0aeed62",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E10_terror_of_the_vervoids_2.srt?v=ee0a1ac5",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E10_terror_of_the_vervoids_2.srt?v=6df60cc7",
   filename: "S23_E10_terror_of_the_vervoids_2.mp4",
 },
 {
@@ -8242,7 +8242,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E11_terror_of_the_vervoids_3.jpg?v=dbdc6755",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E11_terror_of_the_vervoids_3.mp4?v=bcb31d16",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E11_terror_of_the_vervoids_3.srt?v=93e47874",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E11_terror_of_the_vervoids_3.srt?v=a838b9d7",
   filename: "S23_E11_terror_of_the_vervoids_3.mp4",
 },
 {
@@ -8255,7 +8255,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E12_terror_of_the_vervoids_4.jpg?v=b5b1f24c",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E12_terror_of_the_vervoids_4.mp4?v=a9d6c0c0",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E12_terror_of_the_vervoids_4.srt?v=caecedd7",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E12_terror_of_the_vervoids_4.srt?v=a80a5ea2",
   filename: "S23_E12_terror_of_the_vervoids_4.mp4",
 },
 {
@@ -8268,7 +8268,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E13_the_ultimate_foe_1.jpg?v=0fa389d8",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E13_the_ultimate_foe_1.mp4?v=e1eb88ce",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E13_the_ultimate_foe_1.srt?v=49f29e1b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E13_the_ultimate_foe_1.srt?v=4a5d9e58",
   filename: "S23_E13_the_ultimate_foe_1.mp4",
 },
 {
@@ -8281,7 +8281,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E14_the_ultimate_foe_2.jpg?v=6904e187",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E14_the_ultimate_foe_2.mp4?v=e9ba719e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E14_the_ultimate_foe_2.srt?v=e6175425",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_23/S23_E14_the_ultimate_foe_2.srt?v=7e588314",
   filename: "S23_E14_the_ultimate_foe_2.mp4",
 },
 {
@@ -8630,7 +8630,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E01_battlefield_1.jpg?v=6800518f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E01_battlefield_1.mp4?v=2159e6bc",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E01_battlefield_1.srt?v=8273b77a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E01_battlefield_1.srt?v=7b74ffb1",
   filename: "S26_E01_battlefield_1.mp4",
 },
 {
@@ -8643,7 +8643,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E02_battlefield_2.jpg?v=6f7e2869",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E02_battlefield_2.mp4?v=247019f7",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E02_battlefield_2.srt?v=5fe03b1d",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E02_battlefield_2.srt?v=e825d498",
   filename: "S26_E02_battlefield_2.mp4",
 },
 {
@@ -8656,7 +8656,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E03_battlefield_3.jpg?v=a791e5ce",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E03_battlefield_3.mp4?v=d2cf17cf",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E03_battlefield_3.srt?v=ea84d842",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E03_battlefield_3.srt?v=4028e426",
   filename: "S26_E03_battlefield_3.mp4",
 },
 {
@@ -8669,7 +8669,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E04_battlefield_4.jpg?v=07cb55a2",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E04_battlefield_4.mp4?v=1b13a079",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E04_battlefield_4.srt?v=3e5822bc",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E04_battlefield_4.srt?v=20603f42",
   filename: "S26_E04_battlefield_4.mp4",
 },
 {
@@ -8682,7 +8682,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E05_ghost_light_1.jpg?v=a6e6783d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E05_ghost_light_1.mp4?v=c500c5f7",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E05_ghost_light_1.srt?v=d95df7ed",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E05_ghost_light_1.srt?v=13cfa1ae",
   filename: "S26_E05_ghost_light_1.mp4",
 },
 {
@@ -8695,7 +8695,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E06_ghost_light_2.jpg?v=d2d9fa3d",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E06_ghost_light_2.mp4?v=2550c3dc",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E06_ghost_light_2.srt?v=138b3089",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E06_ghost_light_2.srt?v=8eb88da8",
   filename: "S26_E06_ghost_light_2.mp4",
 },
 {
@@ -8708,7 +8708,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E07_ghost_light_3.jpg?v=79294b0e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E07_ghost_light_3.mp4?v=76e3cc4a",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E07_ghost_light_3.srt?v=a241415a",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E07_ghost_light_3.srt?v=1ab9501b",
   filename: "S26_E07_ghost_light_3.mp4",
 },
 {
@@ -8721,7 +8721,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E08_the_curse_of_fenric_1.jpg?v=f567e345",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E08_the_curse_of_fenric_1.mp4?v=671e1b1e",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E08_the_curse_of_fenric_1.srt?v=3e6c20f6",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E08_the_curse_of_fenric_1.srt?v=febdb0f9",
   filename: "S26_E08_the_curse_of_fenric_1.mp4",
 },
 {
@@ -8734,7 +8734,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E09_the_curse_of_fenric_2.jpg?v=7f751d15",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E09_the_curse_of_fenric_2.mp4?v=c8713ea0",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E09_the_curse_of_fenric_2.srt?v=cd2348a2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E09_the_curse_of_fenric_2.srt?v=119c73bf",
   filename: "S26_E09_the_curse_of_fenric_2.mp4",
 },
 {
@@ -8747,7 +8747,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E10_the_curse_of_fenric_3.jpg?v=e592755e",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E10_the_curse_of_fenric_3.mp4?v=d862066d",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E10_the_curse_of_fenric_3.srt?v=86062534",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E10_the_curse_of_fenric_3.srt?v=9c226b0f",
   filename: "S26_E10_the_curse_of_fenric_3.mp4",
 },
 {
@@ -8760,7 +8760,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E11_the_curse_of_fenric_4.jpg?v=fc520744",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E11_the_curse_of_fenric_4.mp4?v=f85cac14",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E11_the_curse_of_fenric_4.srt?v=32745ff2",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E11_the_curse_of_fenric_4.srt?v=9270f1f9",
   filename: "S26_E11_the_curse_of_fenric_4.mp4",
 },
 {
@@ -8773,7 +8773,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E12_survival_1.jpg?v=985eb3e6",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E12_survival_1.mp4?v=a950fa08",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E12_survival_1.srt?v=5d0d3a34",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E12_survival_1.srt?v=7ea339b5",
   filename: "S26_E12_survival_1.mp4",
 },
 {
@@ -8786,7 +8786,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E13_survival_2.jpg?v=dd32b34a",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E13_survival_2.mp4?v=7350dca5",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E13_survival_2.srt?v=7af90f56",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E13_survival_2.srt?v=b986dadf",
   filename: "S26_E13_survival_2.mp4",
 },
 {
@@ -8799,7 +8799,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E14_survival_3.jpg?v=a489f78f",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E14_survival_3.mp4?v=3e6769cb",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E14_survival_3.srt?v=140ce5ce",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_26/S26_E14_survival_3.srt?v=44e83780",
   filename: "S26_E14_survival_3.mp4",
 },
 {

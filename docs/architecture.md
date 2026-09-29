@@ -239,7 +239,8 @@ and a post in #announcements.
 | `scripts/media/ytpull.py`, `ytbuild.py` | pulls and builds rows from the BBC's own YouTube channel |
 | `scripts/subs/whisper_batch.py` | transcribes files with no subtitles, on the GPU |
 | `scripts/subs/build_subs.py` | makes each such file's subtitle: an archive.org human track that fits, else Whisper |
-| `scripts/subs/clean.py`, `srtify.py`, `housestyle.py` | Whisper cleanup, cue cutting, and house style for a supplied track |
+| `scripts/subs/clean.py`, `srtify.py`, `housestyle.py` | Whisper cleanup, cue cutting and house style (Whisper output only) |
+| `scripts/subs/bbc_colour.py` | a BBC iPlayer track: colour tags to speaker dashes, nothing else |
 
 ## On this machine
 

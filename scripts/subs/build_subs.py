@@ -22,9 +22,9 @@ away. Timing alone was tried first and cannot judge: Classic dialogue is dense
 enough that nearly any shift puts a cue start near some word, and it scored an
 unrelated offset at 87%.
 
-A supplied track then goes through housestyle.py, which changes presentation
-only, never the words. A Whisper track goes through srtify.build(), which is
-clean.py's repairs plus the house rules.
+A supplied track then ships as it came, shifted and cut to English: house style
+is for Whisper output only (settled 28 September 2026). A Whisper track goes
+through srtify.build(), which is clean.py's repairs plus the house rules.
 
 Two things the first run shipped and this now removes. The archive files are
 bilingual: the whole English track, then the whole track again in Thai with
@@ -222,18 +222,11 @@ def main():
             why = (why + '; ' if why else '') + 'Whisper large-v3, %d cues' % built.count(' --> ')
         out = os.path.join(outdir, stem + '.srt')
         if not report:
-            if choice == 'archive':
-                tmp = out + '.in'
-                io.open(tmp, 'w', encoding='utf8', newline='\n').write(text)
-                subprocess.run([sys.executable, os.path.join(HERE, 'housestyle.py'), tmp, out],
-                               check=True, capture_output=True)
-                os.remove(tmp)
-            else:
-                io.open(out, 'w', encoding='utf8', newline='\n').write(text)
-            # Last, over either kind: housestyle can leave a cue with no words
-            # where the source had only a sound effect, and Whisper stacks.
-            final = unstack(io.open(out, encoding='utf8').read())
-            io.open(out, 'w', encoding='utf8', newline='\n').write(final)
+            # A human track ships as it came, shifted and cut to its English half:
+            # house style is for Whisper output only (season-pass.md Part I).
+            # Whisper sometimes stacks one line on itself, so its output is unstacked.
+            io.open(out, 'w', encoding='utf8', newline='\n').write(
+                text if choice == 'archive' else unstack(text))
         log.append((stem, choice, why, path))
         print('  %-50s %-8s %s' % (stem[:50], choice, why[:90]), flush=True)
     io.open(os.path.join(outdir, 'decisions.tsv'), 'w', encoding='utf8', newline='\n').write(
