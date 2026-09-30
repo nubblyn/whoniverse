@@ -38,10 +38,8 @@ the user's call or waiting on a source that does not exist on the public interne
 
 ## Waiting on the user
 
-- **Classic Who IMDb ids.** Regenerating on 23 September dropped the ones the audit typed
-  in; they do nothing, since the addon answers only its own ids. Leave out, or carry?
-- **The stremio-addons.net listing.** The text was given on 22 September; paste it by
-  hand, since the browser pane cannot reach the site.
+- **The stremio-addons.net listing.** The text was given again on 30 September with the
+  current counts; paste it by hand, since the browser pane cannot reach the site.
 - **Cyber-Controller holds Administrator in Discord.** It needs six permissions. Only a
   person can change a bot's top role.
 - **The second GitHub account is still signed in to `gh`**, inactive, with nubblyn the
