@@ -135,7 +135,12 @@ categories, a note only on `missing` rows, no repeated titles in a season, and
 
 The Complete Chronology is marked `derived` in `series.tsv`. It has no series file: it is
 `all-who.tsv`, and each of its episodes reuses the stream and still its own series
-already serves, so there is one copy of everything.
+already serves, so there is one copy of everything. The order of `all-who.tsv` is the
+user's reference sheet (its Classic Who and NewWho tabs, set 30 September 2026): the
+spin-offs and extras sit where their stories fall, for instance Torchwood 2x1 to 2x5
+before *Partners in Crime*. Items the sheet does not list keep the place beside the
+episode they follow, and the Lockdown shorts follow the same episode they follow in New
+Who. Moving a row there changes only the chronology, never a series' own numbering.
 
 ## Files and names
 
