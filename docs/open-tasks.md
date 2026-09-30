@@ -50,4 +50,6 @@ the user's call or waiting on a source that does not exist on the public interne
   the user's call.
 - ***The Space Pirates* part 2 carries a DVD bitmap track (VobSub), not PGS.** Nobody has
   checked that the Stremio apps show one; that needs a player, not a probe. If they do not,
-  restore the old sidecar from B2's file versions.
+  pull the BBC's own track for the episode from iPlayer and run it through `bbc_colour.py`:
+  B2 holds no old sidecar to restore (checked 30 September), and old versions are no longer
+  kept once the bucket's lifecycle rule is set to keep only the last version.
