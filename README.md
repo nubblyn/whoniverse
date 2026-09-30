@@ -29,7 +29,7 @@ Every series plays: 1,119 of the 1,122 episodes in the catalogue.
 | The War Between the Land and the Sea (2025) | 5 | 5 |
 
 The **Complete Chronology** runs all of it as one list, 1963 to now, from the
-same files.
+same files, with the spin-offs and extras placed where their stories fall.
 
 Every special, minisode and prequel sits inside its season where its story
 belongs, so the story runs straight through. One released years later still
@@ -37,13 +37,15 @@ sits beside the episode it goes with, and shows its real release date. Each
 episode has a still and a hand-written summary, and nearly all have English
 subtitles, the disc's own wherever the disc has them.
 
-The 3 that do not play are missing for good: two New Who minisodes, and the Classic Who sketch *A Fix with Sontarans*, which the BBC has never repeated or released.
+The 3 that do not play are missing for good: two New Who minisodes, and the
+Classic Who sketch *A Fix with Sontarans*, which the BBC has never repeated or
+released.
 
 The thirteen Series 2 Tardisodes survive only as fan copies. They play from an AI
 upscale of those, and each is titled with "(Upscaled)" to say so.
 
-The addon lists only what plays. The website shows everything, with the
-completion figure for each.
+The addon lists every episode, the three missing ones included, with nothing
+to play for those. The website shows the completion figure for each series.
 
 ## How it is built
 
