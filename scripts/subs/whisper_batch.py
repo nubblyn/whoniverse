@@ -65,6 +65,11 @@ STORY = {
     # New Who series 2; ERA is keyed by Classic season and would give it Ian and Barbara.
     'Tardisode': 'Rose, Mickey, Torchwood, Novice Hame, the Sisters of Plenitude, Cybus Industries, '
                  'John Lumic, the Cybermen, the Preachers, Madame de Pompadour, the Ood, Sanctuary Base, LINDA, Magpie',
+    # The Sarah Jane Adventures; the names the 10 September 2026 transcript had to be corrected to.
+    'Farewell, Sarah Jane': 'Sarah Jane Smith, Luke, Clyde, Rani, Sky, Maria, K-9, Mr Smith, Bannerman Road, UNIT, '
+                            'the Brigadier, Jo Jones, Liz Shaw, Dorothy McShane, Tegan, Nyssa, Polly, Dodo, Ian, Barbara, '
+                            'Captain Jack, Martha, Mickey, the Bane, the Bandril, the Trickster, the Septic Dimension, '
+                            'Project Refreeze, Gita, Haresh, Sanjay',
 }
 
 
