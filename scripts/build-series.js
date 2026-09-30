@@ -153,7 +153,11 @@ for (const s of SERIES) {
       // Stamped, like the artwork. A replaced still keeps its name, because
       // the name is what matches it to its video, so the hash is the only
       // thing that can tell a client the picture has changed.
-      thumbnail: still.has(key) ? stamped(s.bucket, still.get(key)) : undefined,
+      // A row that is missing and has nothing in the bucket gets the shared
+      // missing-episode card, as New Who's do (season-pass.md, Part D).
+      // stamp-media.js adds its hash afterwards.
+      thumbnail: still.has(key) ? stamped(s.bucket, still.get(key))
+        : (r.status === 'missing' && !have ? `${CDN}/episode_missing.jpg` : undefined),
       streamUrl: have ? stamped(s.bucket, video.get(key)) : undefined,
       // Almost every episode came off a disc and carries the broadcaster's own
       // subtitles inside the file, so there is nothing to serve alongside it.

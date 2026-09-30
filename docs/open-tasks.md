@@ -7,7 +7,7 @@ done; nothing here is kept as a record once it is. The how of each job is in
 Last reviewed 30 September 2026.
 
 Every season of every series has had its pass: Classic Who finished on 29 September 2026,
-the four spin-offs on 30 September. 1,119 of the 1,121 episodes play. What is left is either
+the four spin-offs on 30 September. 1,119 of the 1,122 episodes play. What is left is either
 the user's call or waiting on a source that does not exist on the public internet yet.
 
 ## Waiting on a source
@@ -34,7 +34,9 @@ the user's call or waiting on a source that does not exist on the public interne
   4.5% slow (AnimeChap) or have the subtitles burned in (DoctorWhom); both torrents were
   removed on 30 September, and the files sit in `~/Downloads/content/classic_who/sweep_dl/`
   until deleted.
-- **New Who's *A Ghost Story for Christmas* and *The Naked Truth*** have no linear source.
+- **New Who's *A Ghost Story for Christmas* and *The Naked Truth*, and Classic Who's *A Fix
+  with Sontarans*** are missing rows: no official copy survives, only fan uploads or home
+  recordings.
 
 ## Waiting on the user
 
