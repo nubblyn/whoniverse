@@ -754,6 +754,7 @@ new-who	2	Prequel	Tardisode 3
 new-who	2	Main Show	School Reunion
 new-who	2	Prequel	Tardisode 4
 new-who	2	Main Show	The Girl in the Fireplace
+new-who	2	Minisode	Pompadour
 new-who	2	Prequel	Tardisode 5
 new-who	2	Main Show	Rise of the Cybermen
 new-who	2	Prequel	Tardisode 6
@@ -766,6 +767,7 @@ new-who	2	Prequel	Tardisode 9
 new-who	2	Main Show	The Satan Pit
 new-who	2	Prequel	Tardisode 10
 new-who	2	Main Show	Love & Monsters
+new-who	2	Minisode	The Genuine Article
 new-who	2	Prequel	Tardisode 11
 new-who	2	Main Show	Fear Her
 new-who	2	Prequel	Tardisode 12
@@ -786,6 +788,7 @@ torchwood	1	Main Show	Out of Time
 new-who	3	Main Show	Smith and Jones
 new-who	3	Main Show	The Shakespeare Code
 new-who	3	Main Show	Gridlock
+new-who	3	Minisode	The Secret of Novice Hame
 torchwood	1	Main Show	Combat
 new-who	3	Main Show	Daleks in Manhattan
 new-who	3	Main Show	Evolution of the Daleks
@@ -795,6 +798,8 @@ new-who	3	Main Show	42
 torchwood	1	Main Show	Captain Jack Harkness
 new-who	3	Main Show	Human Nature
 new-who	3	Main Show	The Family of Blood
+new-who	3	Minisode	Shadow of a Doubt
+new-who	3	Minisode	The Shadow in the Mirror
 new-who	3	Main Show	Blink
 torchwood	1	Main Show	End of Days
 new-who	3	Main Show	Utopia
@@ -820,6 +825,7 @@ torchwood	2	Main Show	Meat
 torchwood	2	Main Show	Adam
 new-who	4	Main Show	Partners in Crime
 new-who	4	Main Show	The Fires of Pompeii
+new-who	4	Minisode	The Descendants of Pompeii
 new-who	4	Main Show	Planet of the Ood
 torchwood	2	Main Show	Reset
 torchwood	2	Main Show	Dead Man Walking
@@ -878,6 +884,7 @@ new-who	4	Animated Series	Dreamland
 new-who	4	Minisode	A Ghost Story for Christmas
 new-who	4	Special	The End of Time: Part One
 new-who	4	Special	The End of Time: Part Two
+new-who	5	Minisode	The Raggedy Doctor by Amelia Pond
 new-who	5	Main Show	The Eleventh Hour
 new-who	5	Minisode	Meanwhile in the TARDIS 1
 new-who	5	Main Show	The Beast Below
@@ -964,6 +971,7 @@ new-who	7	Main Show	A Town Called Mercy
 new-who	7	Main Show	The Power of Three
 new-who	7	Main Show	The Angels Take Manhattan
 new-who	7	Minisode	P.S.
+new-who	7	Minisode	Rory's Story
 new-who	7	Prequel	The Battle of Demon's Run: Two Days Later
 new-who	7	Prequel	The Great Detective
 new-who	7	Prequel	Vastra Investigates
@@ -998,6 +1006,7 @@ new-who	8	Main Show	Flatline
 new-who	8	Main Show	In the Forest of the Night
 new-who	8	Main Show	Dark Water
 new-who	8	Main Show	Death in Heaven
+new-who	8	Minisode	Fear Is a Superpower
 new-who	8	Special	Last Christmas
 new-who	9	Prequel	Prologue
 new-who	9	Prequel	The Doctor's Meditation
@@ -1009,6 +1018,7 @@ new-who	9	Main Show	The Girl Who Died
 new-who	9	Main Show	The Woman Who Lived
 new-who	9	Main Show	The Zygon Invasion
 new-who	9	Main Show	The Zygon Inversion
+new-who	9	Minisode	The Zygon Isolation
 new-who	9	Main Show	Sleep No More
 new-who	9	Main Show	Face the Raven
 new-who	9	Main Show	Heaven Sent
@@ -1036,6 +1046,7 @@ new-who	10	Main Show	Empress of Mars
 new-who	10	Main Show	The Eaters of Light
 new-who	10	Main Show	World Enough and Time
 new-who	10	Main Show	The Doctor Falls
+new-who	10	Minisode	The Best of Days
 new-who	10	Special	Twice Upon a Time
 new-who	11	Main Show	The Woman Who Fell to Earth
 new-who	11	Main Show	The Ghost Monument
@@ -1061,22 +1072,11 @@ new-who	12	Main Show	Can You Hear Me?
 new-who	12	Main Show	The Haunting of Villa Diodati
 new-who	12	Main Show	Ascension of the Cybermen
 new-who	12	Main Show	The Timeless Children
-new-who	5	Minisode	The Raggedy Doctor by Amelia Pond
-new-who	7	Minisode	Rory's Story
 sarah-jane	5	Special	Farewell, Sarah Jane
-new-who	3	Minisode	Shadow of a Doubt
-new-who	3	Minisode	The Shadow in the Mirror
-new-who	2	Minisode	Pompadour
-new-who	9	Minisode	The Zygon Isolation
-new-who	4	Minisode	The Descendants of Pompeii
-new-who	8	Minisode	Fear Is a Superpower
-new-who	3	Minisode	The Secret of Novice Hame
-new-who	10	Minisode	The Best of Days
 new-who	12	Animated Series	Daleks!
 classic-who	8	Minisode	Return of the Autons
 new-who	12	Special	Revolution of the Daleks
 classic-who	24	Minisode	24 Carat
-new-who	2	Minisode	The Genuine Article
 classic-who	17	Minisode	Risen
 new-who	13	Main Show	The Halloween Apocalypse
 new-who	13	Main Show	War of the Sontarans
