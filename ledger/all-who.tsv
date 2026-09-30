@@ -781,26 +781,26 @@ torchwood	1	Main Show	Countrycide
 torchwood	1	Main Show	Greeks Bearing Gifts
 torchwood	1	Main Show	They Keep Killing Suzie
 torchwood	1	Main Show	Random Shoes
-torchwood	1	Main Show	Out of Time
-torchwood	1	Main Show	Combat
 new-who	2	Special	The Runaway Bride
-torchwood	1	Main Show	Captain Jack Harkness
-torchwood	1	Main Show	End of Days
-sarah-jane	1	Special	Invasion of the Bane
+torchwood	1	Main Show	Out of Time
 new-who	3	Main Show	Smith and Jones
 new-who	3	Main Show	The Shakespeare Code
 new-who	3	Main Show	Gridlock
+torchwood	1	Main Show	Combat
 new-who	3	Main Show	Daleks in Manhattan
 new-who	3	Main Show	Evolution of the Daleks
 new-who	3	Animated Series	The Infinite Quest
 new-who	3	Main Show	The Lazarus Experiment
 new-who	3	Main Show	42
+torchwood	1	Main Show	Captain Jack Harkness
 new-who	3	Main Show	Human Nature
 new-who	3	Main Show	The Family of Blood
 new-who	3	Main Show	Blink
+torchwood	1	Main Show	End of Days
 new-who	3	Main Show	Utopia
 new-who	3	Main Show	The Sound of Drums
 new-who	3	Main Show	Last of the Time Lords
+sarah-jane	1	Special	Invasion of the Bane
 sarah-jane	1	Main Show	Revenge of the Slitheen (1)
 sarah-jane	1	Main Show	Revenge of the Slitheen (2)
 sarah-jane	1	Main Show	Eye of the Gorgon (1)
@@ -810,29 +810,29 @@ sarah-jane	1	Main Show	Warriors of Kudlak (2)
 sarah-jane	1	Main Show	Whatever Happened to Sarah Jane? (1)
 sarah-jane	1	Main Show	Whatever Happened to Sarah Jane? (2)
 sarah-jane	1	Main Show	The Lost Boy (1)
-new-who	3	Minisode	Time Crash
 sarah-jane	1	Main Show	The Lost Boy (2)
+new-who	3	Minisode	Time Crash
 new-who	3	Special	Voyage of the Damned
 torchwood	2	Main Show	Kiss Kiss, Bang Bang
 torchwood	2	Main Show	Sleeper
 torchwood	2	Main Show	To the Last Man
 torchwood	2	Main Show	Meat
 torchwood	2	Main Show	Adam
+new-who	4	Main Show	Partners in Crime
+new-who	4	Main Show	The Fires of Pompeii
+new-who	4	Main Show	Planet of the Ood
 torchwood	2	Main Show	Reset
 torchwood	2	Main Show	Dead Man Walking
 torchwood	2	Main Show	A Day in the Death
+new-who	4	Main Show	The Sontaran Stratagem
+new-who	4	Main Show	The Poison Sky
+new-who	4	Main Show	The Doctor's Daughter
+new-who	4	Main Show	The Unicorn and the Wasp
 torchwood	2	Main Show	Something Borrowed
 torchwood	2	Main Show	From Out of the Rain
 torchwood	2	Main Show	Adrift
 torchwood	2	Main Show	Fragments
 torchwood	2	Main Show	Exit Wounds
-new-who	4	Main Show	Partners in Crime
-new-who	4	Main Show	The Fires of Pompeii
-new-who	4	Main Show	Planet of the Ood
-new-who	4	Main Show	The Sontaran Stratagem
-new-who	4	Main Show	The Poison Sky
-new-who	4	Main Show	The Doctor's Daughter
-new-who	4	Main Show	The Unicorn and the Wasp
 new-who	4	Main Show	Silence in the Library
 new-who	4	Main Show	Forest of the Dead
 new-who	4	Main Show	Midnight
@@ -871,9 +871,9 @@ sarah-jane	3	Main Show	The Eternity Trap (1)
 sarah-jane	3	Main Show	The Eternity Trap (2)
 sarah-jane	3	Main Show	Mona Lisa's Revenge (1)
 sarah-jane	3	Main Show	Mona Lisa's Revenge (2)
-new-who	4	Special	The Waters of Mars
 sarah-jane	3	Main Show	The Gift (1)
 sarah-jane	3	Main Show	The Gift (2)
+new-who	4	Special	The Waters of Mars
 new-who	4	Animated Series	Dreamland
 new-who	4	Minisode	A Ghost Story for Christmas
 new-who	4	Special	The End of Time: Part One
@@ -894,8 +894,6 @@ new-who	5	Main Show	Vincent and the Doctor
 new-who	5	Main Show	The Lodger
 new-who	5	Main Show	The Pandorica Opens
 new-who	5	Main Show	The Big Bang
-new-who	5	Minisode	The Boy Who Saved the Proms
-new-who	5	Minisode	Death Is the Only Answer
 sarah-jane	4	Main Show	The Nightmare Man (1)
 sarah-jane	4	Main Show	The Nightmare Man (2)
 sarah-jane	4	Main Show	The Vault of Secrets (1)
@@ -908,7 +906,9 @@ sarah-jane	4	Main Show	Lost in Time (1)
 sarah-jane	4	Main Show	Lost in Time (2)
 sarah-jane	4	Main Show	Goodbye, Sarah Jane Smith (1)
 sarah-jane	4	Main Show	Goodbye, Sarah Jane Smith (2)
+new-who	5	Minisode	Death Is the Only Answer
 new-who	5	Special	A Christmas Carol
+new-who	5	Minisode	The Boy Who Saved the Proms
 new-who	6	Minisode	Space
 new-who	6	Minisode	Time
 new-who	6	Prequel	The Impossible Astronaut
@@ -928,18 +928,19 @@ torchwood	4	Main Show	Rendition
 torchwood	4	Main Show	Dead of Night
 torchwood	4	Main Show	Escape to L.A.
 torchwood	4	Main Show	The Categories of Life
-new-who	6	Prequel	Let's Kill Hitler
 torchwood	4	Main Show	The Middle Men
 torchwood	4	Main Show	Immortal Sins
-new-who	6	Main Show	Let's Kill Hitler
 torchwood	4	Main Show	End of the Road
+torchwood	4	Main Show	The Gathering
+torchwood	4	Main Show	The Blood Line
+torchwood	4	Animated Series	Web of Lies
+new-who	6	Minisode	The Naked Truth
+new-who	6	Prequel	Let's Kill Hitler
+new-who	6	Main Show	Let's Kill Hitler
 new-who	6	Main Show	Night Terrors
 new-who	6	Minisode	First Night
 new-who	6	Minisode	Last Night
-torchwood	4	Main Show	The Gathering
 new-who	6	Main Show	The Girl Who Waited
-torchwood	4	Main Show	The Blood Line
-torchwood	4	Animated Series	Web of Lies
 new-who	6	Main Show	The God Complex
 new-who	6	Minisode	Up All Night
 new-who	6	Main Show	Closing Time
@@ -951,7 +952,6 @@ sarah-jane	5	Main Show	The Curse of Clyde Langer (1)
 sarah-jane	5	Main Show	The Curse of Clyde Langer (2)
 sarah-jane	5	Main Show	The Man Who Never Was (1)
 sarah-jane	5	Main Show	The Man Who Never Was (2)
-new-who	6	Minisode	The Naked Truth
 new-who	6	Prequel	The Doctor, the Widow and the Wardrobe
 new-who	6	Special	The Doctor, the Widow and the Wardrobe
 new-who	7	Prequel	Pond Life
@@ -1023,8 +1023,8 @@ class	1	Main Show	Detained
 class	1	Main Show	The Metaphysical Engine, or What Quill Did
 class	1	Main Show	The Lost
 new-who	9	Special	The Return of Doctor Mysterio
-new-who	10	Prequel	Friend from the Future
 new-who	10	Main Show	The Pilot
+new-who	10	Prequel	Friend from the Future
 new-who	10	Main Show	Smile
 new-who	10	Main Show	Thin Ice
 new-who	10	Main Show	Knock Knock

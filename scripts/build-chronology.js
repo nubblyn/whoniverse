@@ -4,7 +4,9 @@
 //   node scripts/build-chronology.js --write    write data/complete-chronology.js
 //
 // The chronology owns nothing. Its running order is ledger/all-who.tsv, which
-// is every other series interleaved by UK air date, and each of its episodes
+// interleaves every other series in the order of the user's reference sheet
+// (its Classic Who and NewWho tabs, set 30 September 2026), and by UK air date
+// for anything the sheet does not list. Each of its episodes
 // reuses the stream, still and prose already published for that item under its
 // own series. Nothing is duplicated in the bucket and nothing is written twice
 // by hand: change an episode anywhere and the chronology follows.
