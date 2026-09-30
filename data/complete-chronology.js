@@ -6652,9 +6652,22 @@ const episodes = [
   filename: "S17_E27_shada_6.mkv",
 },
 {
-  title: "The Leisure Hive (1)",
+  title: "K9 & Company: A Girl's Best Friend (Special)",
   season: 1,
   episode: 532,
+  type: "Special",
+  released: "1981-12-28T12:00:00.000Z",
+  overview: "Sarah Jane Smith arrives in a Gloucestershire village for Christmas to find her aunt missing and the locals unwilling to discuss it. The robot dog the Doctor left behind for her turns out to be the only help she has.",
+  audio: "AAC",
+  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E29_k9__company_a_girls_best_friend_special.jpg?v=091bae13",
+  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E29_k9__company_a_girls_best_friend_special.mp4?v=b8bef48b",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E29_k9__company_a_girls_best_friend_special.srt?v=1e6e7986",
+  filename: "S18_E29_k9__company_a_girls_best_friend_special.mp4",
+},
+{
+  title: "The Leisure Hive (1)",
+  season: 1,
+  episode: 533,
   type: "Main Show",
   released: "1980-08-30T12:00:00.000Z",
   overview: "Argolis was ruined in a twenty-minute war and survives on a resort promising rejuvenation. A death in the machinery brings in investors and creditors, and the Foamasi are circling.",
@@ -6667,7 +6680,7 @@ const episodes = [
 {
   title: "The Leisure Hive (2)",
   season: 1,
-  episode: 533,
+  episode: 534,
   type: "Main Show",
   released: "1980-09-06T12:00:00.000Z",
   overview: "Argolis was ruined in a twenty-minute war and survives on a resort promising rejuvenation. A death in the machinery brings in investors and creditors, and the Foamasi are circling.",
@@ -6680,7 +6693,7 @@ const episodes = [
 {
   title: "The Leisure Hive (3)",
   season: 1,
-  episode: 534,
+  episode: 535,
   type: "Main Show",
   released: "1980-09-13T12:00:00.000Z",
   overview: "Argolis was ruined in a twenty-minute war and survives on a resort promising rejuvenation. A death in the machinery brings in investors and creditors, and the Foamasi are circling.",
@@ -6693,7 +6706,7 @@ const episodes = [
 {
   title: "The Leisure Hive (4)",
   season: 1,
-  episode: 535,
+  episode: 536,
   type: "Main Show",
   released: "1980-09-20T12:00:00.000Z",
   overview: "Argolis was ruined in a twenty-minute war and survives on a resort promising rejuvenation. A death in the machinery brings in investors and creditors, and the Foamasi are circling.",
@@ -6706,7 +6719,7 @@ const episodes = [
 {
   title: "Meglos (1)",
   season: 1,
-  episode: 536,
+  episode: 537,
   type: "Main Show",
   released: "1980-09-27T12:00:00.000Z",
   overview: "A cactus with a grudge takes the Doctor's form to steal a stone the people of Tigella depend on for power. The planet is split between those who worship it and those who want it studied.",
@@ -6719,7 +6732,7 @@ const episodes = [
 {
   title: "Meglos (2)",
   season: 1,
-  episode: 537,
+  episode: 538,
   type: "Main Show",
   released: "1980-10-04T12:00:00.000Z",
   overview: "A cactus with a grudge takes the Doctor's form to steal a stone the people of Tigella depend on for power. The planet is split between those who worship it and those who want it studied.",
@@ -6732,7 +6745,7 @@ const episodes = [
 {
   title: "Meglos (3)",
   season: 1,
-  episode: 538,
+  episode: 539,
   type: "Main Show",
   released: "1980-10-11T12:00:00.000Z",
   overview: "A cactus with a grudge takes the Doctor's form to steal a stone the people of Tigella depend on for power. The planet is split between those who worship it and those who want it studied.",
@@ -6745,7 +6758,7 @@ const episodes = [
 {
   title: "Meglos (4)",
   season: 1,
-  episode: 539,
+  episode: 540,
   type: "Main Show",
   released: "1980-10-18T12:00:00.000Z",
   overview: "A cactus with a grudge takes the Doctor's form to steal a stone the people of Tigella depend on for power. The planet is split between those who worship it and those who want it studied.",
@@ -6758,7 +6771,7 @@ const episodes = [
 {
   title: "Full Circle (1)",
   season: 1,
-  episode: 540,
+  episode: 541,
   type: "Main Show",
   released: "1980-10-25T12:00:00.000Z",
   overview: "The TARDIS falls through a gap into another universe and lands on Alzarius as the mistfall comes. The colonists have been waiting generations to repair their ship, and something in the marsh is waking.",
@@ -6771,7 +6784,7 @@ const episodes = [
 {
   title: "Full Circle (2)",
   season: 1,
-  episode: 541,
+  episode: 542,
   type: "Main Show",
   released: "1980-11-01T12:00:00.000Z",
   overview: "The TARDIS falls through a gap into another universe and lands on Alzarius as the mistfall comes. The colonists have been waiting generations to repair their ship, and something in the marsh is waking.",
@@ -6784,7 +6797,7 @@ const episodes = [
 {
   title: "Full Circle (3)",
   season: 1,
-  episode: 542,
+  episode: 543,
   type: "Main Show",
   released: "1980-11-08T12:00:00.000Z",
   overview: "The TARDIS falls through a gap into another universe and lands on Alzarius as the mistfall comes. The colonists have been waiting generations to repair their ship, and something in the marsh is waking.",
@@ -6797,7 +6810,7 @@ const episodes = [
 {
   title: "Full Circle (4)",
   season: 1,
-  episode: 543,
+  episode: 544,
   type: "Main Show",
   released: "1980-11-15T12:00:00.000Z",
   overview: "The TARDIS falls through a gap into another universe and lands on Alzarius as the mistfall comes. The colonists have been waiting generations to repair their ship, and something in the marsh is waking.",
@@ -6810,7 +6823,7 @@ const episodes = [
 {
   title: "State of Decay (1)",
   season: 1,
-  episode: 544,
+  episode: 545,
   type: "Main Show",
   released: "1980-11-22T12:00:00.000Z",
   overview: "A village lives in fear on a world where reading is punished and three rulers in a tower demand a tribute of blood. Beneath the tower something far older than the rulers is beginning to stir.",
@@ -6823,7 +6836,7 @@ const episodes = [
 {
   title: "State of Decay (2)",
   season: 1,
-  episode: 545,
+  episode: 546,
   type: "Main Show",
   released: "1980-11-29T12:00:00.000Z",
   overview: "A village lives in fear on a world where reading is punished and three rulers in a tower demand a tribute of blood. Beneath the tower something far older than the rulers is beginning to stir.",
@@ -6836,7 +6849,7 @@ const episodes = [
 {
   title: "State of Decay (3)",
   season: 1,
-  episode: 546,
+  episode: 547,
   type: "Main Show",
   released: "1980-12-06T12:00:00.000Z",
   overview: "A village lives in fear on a world where reading is punished and three rulers in a tower demand a tribute of blood. Beneath the tower something far older than the rulers is beginning to stir.",
@@ -6849,7 +6862,7 @@ const episodes = [
 {
   title: "State of Decay (4)",
   season: 1,
-  episode: 547,
+  episode: 548,
   type: "Main Show",
   released: "1980-12-13T12:00:00.000Z",
   overview: "A village lives in fear on a world where reading is punished and three rulers in a tower demand a tribute of blood. Beneath the tower something far older than the rulers is beginning to stir.",
@@ -6862,7 +6875,7 @@ const episodes = [
 {
   title: "Warriors' Gate (1)",
   season: 1,
-  episode: 548,
+  episode: 549,
   type: "Main Show",
   released: "1981-01-03T12:00:00.000Z",
   overview: "A ship carrying enslaved time-sensitive Tharils is stranded in a white void with a gateway at its centre. The void is shrinking, and the way out depends on the creatures the crew have in chains.",
@@ -6875,7 +6888,7 @@ const episodes = [
 {
   title: "Warriors' Gate (2)",
   season: 1,
-  episode: 549,
+  episode: 550,
   type: "Main Show",
   released: "1981-01-10T12:00:00.000Z",
   overview: "A ship carrying enslaved time-sensitive Tharils is stranded in a white void with a gateway at its centre. The void is shrinking, and the way out depends on the creatures the crew have in chains.",
@@ -6888,7 +6901,7 @@ const episodes = [
 {
   title: "Warriors' Gate (3)",
   season: 1,
-  episode: 550,
+  episode: 551,
   type: "Main Show",
   released: "1981-01-17T12:00:00.000Z",
   overview: "A ship carrying enslaved time-sensitive Tharils is stranded in a white void with a gateway at its centre. The void is shrinking, and the way out depends on the creatures the crew have in chains.",
@@ -6901,7 +6914,7 @@ const episodes = [
 {
   title: "Warriors' Gate (4)",
   season: 1,
-  episode: 551,
+  episode: 552,
   type: "Main Show",
   released: "1981-01-24T12:00:00.000Z",
   overview: "A ship carrying enslaved time-sensitive Tharils is stranded in a white void with a gateway at its centre. The void is shrinking, and the way out depends on the creatures the crew have in chains.",
@@ -6914,7 +6927,7 @@ const episodes = [
 {
   title: "The Keeper of Traken (1)",
   season: 1,
-  episode: 552,
+  episode: 553,
   type: "Main Show",
   released: "1981-01-31T12:00:00.000Z",
   overview: "The Keeper of a peaceful union is dying and asks the Doctor for help before the succession. A statue in the grove has been sitting there for centuries, and it is not a statue.",
@@ -6927,7 +6940,7 @@ const episodes = [
 {
   title: "The Keeper of Traken (2)",
   season: 1,
-  episode: 553,
+  episode: 554,
   type: "Main Show",
   released: "1981-02-07T12:00:00.000Z",
   overview: "The Keeper of a peaceful union is dying and asks the Doctor for help before the succession. A statue in the grove has been sitting there for centuries, and it is not a statue.",
@@ -6940,7 +6953,7 @@ const episodes = [
 {
   title: "The Keeper of Traken (3)",
   season: 1,
-  episode: 554,
+  episode: 555,
   type: "Main Show",
   released: "1981-02-14T12:00:00.000Z",
   overview: "The Keeper of a peaceful union is dying and asks the Doctor for help before the succession. A statue in the grove has been sitting there for centuries, and it is not a statue.",
@@ -6953,7 +6966,7 @@ const episodes = [
 {
   title: "The Keeper of Traken (4)",
   season: 1,
-  episode: 555,
+  episode: 556,
   type: "Main Show",
   released: "1981-02-21T12:00:00.000Z",
   overview: "The Keeper of a peaceful union is dying and asks the Doctor for help before the succession. A statue in the grove has been sitting there for centuries, and it is not a statue.",
@@ -6966,7 +6979,7 @@ const episodes = [
 {
   title: "Logopolis (1)",
   season: 1,
-  episode: 556,
+  episode: 557,
   type: "Main Show",
   released: "1981-02-28T12:00:00.000Z",
   overview: "A city of mathematicians holds the universe together by reciting numbers, and the Doctor has come for a repair. The Master interrupts the calculation, and entropy starts taking the cosmos apart.",
@@ -6979,7 +6992,7 @@ const episodes = [
 {
   title: "Logopolis (2)",
   season: 1,
-  episode: 557,
+  episode: 558,
   type: "Main Show",
   released: "1981-03-07T12:00:00.000Z",
   overview: "A city of mathematicians holds the universe together by reciting numbers, and the Doctor has come for a repair. The Master interrupts the calculation, and entropy starts taking the cosmos apart.",
@@ -6992,7 +7005,7 @@ const episodes = [
 {
   title: "Logopolis (3)",
   season: 1,
-  episode: 558,
+  episode: 559,
   type: "Main Show",
   released: "1981-03-14T12:00:00.000Z",
   overview: "A city of mathematicians holds the universe together by reciting numbers, and the Doctor has come for a repair. The Master interrupts the calculation, and entropy starts taking the cosmos apart.",
@@ -7005,7 +7018,7 @@ const episodes = [
 {
   title: "Logopolis (4)",
   season: 1,
-  episode: 559,
+  episode: 560,
   type: "Main Show",
   released: "1981-03-21T12:00:00.000Z",
   overview: "A city of mathematicians holds the universe together by reciting numbers, and the Doctor has come for a repair. The Master interrupts the calculation, and entropy starts taking the cosmos apart.",
@@ -7014,19 +7027,6 @@ const episodes = [
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E28_logopolis_4.mp4?v=ee588516",
   subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E28_logopolis_4.srt?v=4fe12260",
   filename: "S18_E28_logopolis_4.mp4",
-},
-{
-  title: "K9 & Company: A Girl's Best Friend (Special)",
-  season: 1,
-  episode: 560,
-  type: "Special",
-  released: "1981-12-28T12:00:00.000Z",
-  overview: "Sarah Jane Smith arrives in a Gloucestershire village for Christmas to find her aunt missing and the locals unwilling to discuss it. The robot dog the Doctor left behind for her turns out to be the only help she has.",
-  audio: "AAC",
-  thumbnail: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E29_k9__company_a_girls_best_friend_special.jpg?v=091bae13",
-  streamUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E29_k9__company_a_girls_best_friend_special.mp4?v=b8bef48b",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/classic_who/season_18/S18_E29_k9__company_a_girls_best_friend_special.srt?v=1e6e7986",
-  filename: "S18_E29_k9__company_a_girls_best_friend_special.mp4",
 },
 {
   title: "Castrovalva (1)",
