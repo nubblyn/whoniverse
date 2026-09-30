@@ -27,12 +27,13 @@ the user's call or waiting on a source that does not exist on the public interne
   drive; the rip route is ready), a private tracker or Usenet (accounts), TorBox's own
   search, or a viewer who owns the sets. Asked for in Discord on 30 September 2026.
 - ***The Underwater Menace* (2) and (3)**: the 2016 DVD ISO (`ead0da53`) is alive with one
-  intermittent seeder; paused in qBittorrent at about 10%. Worth finishing only if the DVD
-  proves better than the iPlayer SD held, which is not certain.
+  intermittent seeder. Its torrent was removed on 30 September at the user's call, about 10%
+  in. Worth pulling again only if the DVD proves better than the iPlayer SD held.
 - **Three *Daleks' Master Plan* episodes and *The Final Test*** are held from the NTSC
   *Lost in Time* disc at 29.97fps. The only Blu-ray copies of *The Final Test* found run
-  4.5% slow (AnimeChap) or have the subtitles burned in (DoctorWhom); both are kept in
-  `~/Downloads/content/classic_who/sweep_dl/` and paused in qBittorrent.
+  4.5% slow (AnimeChap) or have the subtitles burned in (DoctorWhom); both torrents were
+  removed on 30 September, and the files sit in `~/Downloads/content/classic_who/sweep_dl/`
+  until deleted.
 - **New Who's *A Ghost Story for Christmas* and *The Naked Truth*** have no linear source.
 
 ## Waiting on the user
@@ -43,7 +44,10 @@ the user's call or waiting on a source that does not exist on the public interne
   hand, since the browser pane cannot reach the site.
 - **Cyber-Controller holds Administrator in Discord.** It needs six permissions. Only a
   person can change a bot's top role.
-- **Log the second GitHub account out of `gh`** on this machine, to be run by the user.
+- **The second GitHub account is still signed in to `gh`**, inactive, with nubblyn the
+  active account (checked 30 September). Logging it out removes the risk of a stray
+  `gh auth switch`, but also signs it out for the user's other projects here, so it is
+  the user's call.
 - ***The Space Pirates* part 2 carries a DVD bitmap track (VobSub), not PGS.** Nobody has
   checked that the Stremio apps show one; that needs a player, not a probe. If they do not,
   restore the old sidecar from B2's file versions.
