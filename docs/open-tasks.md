@@ -51,7 +51,3 @@ the user's call or waiting on a source that does not exist on the public interne
 - ***The Space Pirates* part 2 carries a DVD bitmap track (VobSub), not PGS.** Nobody has
   checked that the Stremio apps show one; that needs a player, not a probe. If they do not,
   restore the old sidecar from B2's file versions.
-
-## Smaller items
-
-- Stop the local preview server when the session ends.
