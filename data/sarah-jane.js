@@ -668,7 +668,7 @@ const episodes = [
   audio: "AAC",
   thumbnail: "https://cdn.nubblyn.com/file/whoniverse/the_sarah_jane_adventures/season_5/S05_E07_farewell_sarah_jane_special.jpg?v=b6e0cd14",
   streamUrl: "https://cdn.nubblyn.com/file/whoniverse/the_sarah_jane_adventures/season_5/S05_E07_farewell_sarah_jane_special.mp4?v=864e2697",
-  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/the_sarah_jane_adventures/season_5/S05_E07_farewell_sarah_jane_special.srt?v=c2068ece",
+  subtitleUrl: "https://cdn.nubblyn.com/file/whoniverse/the_sarah_jane_adventures/season_5/S05_E07_farewell_sarah_jane_special.srt?v=c33bd536",
   filename: "S05_E07_farewell_sarah_jane_special.mp4",
 }
 ];

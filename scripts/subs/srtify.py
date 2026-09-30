@@ -130,6 +130,10 @@ def build(path):
     for i, g in enumerate(groups):
         text = ' '.join(x['w'].strip() for x in g).strip()
         text = re.sub(r'\s+', ' ', text)
+        # Whisper hands back the second half of a hyphenated word as its own
+        # token, "-lived" after "well", so joining tokens with spaces left
+        # "well -lived" and "K -9" in Farewell, Sarah Jane (30 September 2026).
+        text = re.sub(r'(\w) -(?=\w)', r'\1-', text)
         lines = wrap(text)
         if len(lines) > 2 or any(len(l) > MAX_LINE for l in lines):
             problems.append(text)
