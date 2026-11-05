@@ -8,6 +8,7 @@
     "build": "node scripts/stamp.js",
     "check-links": "node scripts/check-links.js",
     "stamp:media": "node scripts/stamp-media.js",
+    "hash:videos": "node scripts/hash-videos.js",
     "map": "node scripts/map-imdb.js --write",
     "art": "node scripts/build-art.js",
     "art:upload": "node scripts/run.js upload-art"

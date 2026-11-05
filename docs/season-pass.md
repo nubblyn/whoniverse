@@ -1105,7 +1105,7 @@ Changes: ledger `best`, `checked`.
 7. `bash scripts/bucket-index.sh`.
 8. Entry: URLs in, only for files `bucket-index.txt` shows, `audio` flag iff the
    audio is not AAC or MP3, `subtitleUrl` only where a sidecar legitimately exists,
-   `node scripts/stamp-media.js --write`, `node scripts/check-links.js` → `failed 0`.
+   `node scripts/stamp-media.js --write`, `node scripts/hash-videos.js --write`, `node scripts/check-links.js` → `failed 0`.
 9. Ledger: `have` from the probe of the uploaded file, `source` naming the release it
    came from, `best` and `checked` from this season's search.
 10. **Superseded bucket names are deleted in step 8, after the deploy, never here.**
@@ -1244,7 +1244,7 @@ on seasons 1 and 2 and had to be redone.
 | 8 | **Bucket holds only what is served** | no backup copies; superseded names deleted after the deploy, nothing else left behind |
 | 9 | **Ledger updated** | `have` probed from the real file, **`source` naming the release it came from**, `best` and `checked` from today's search, columns rectangular |
 | 10 | **Addon updated** | `data/*.js` URLs, episode numbers renumbered if a row moved, `audio` flag iff Dolby |
-| 11 | **Regenerated and checked** | `bucket-index.sh` → `stamp-media --write` → `check-links` → `build.py` → `board.py` → `build-chronology` |
+| 11 | **Regenerated and checked** | `bucket-index.sh` → `stamp-media --write` → `hash-videos --write` → `check-links` → `build.py` → `board.py` → `build-chronology` |
 | 12 | **Deployed** | `npx vercel deploy --prod`, then the live hash compared against the local one |
 | 13 | **Cleaned up** | superseded bucket names deleted, local sources and uploaded copies deleted, torrents removed |
 | 14 | **Committed** | one commit naming the season |
